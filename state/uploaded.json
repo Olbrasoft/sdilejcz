@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T19:58:34Z",
+  "last_updated": "2026-07-10T19:59:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -4398,19 +4398,23 @@
         "cdn_resolve_sec": 2.8,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9640,
       "cr_slug": "to-ty-nosis-smulu-lasko",
       "title": "To ty nosíš smůlu, lásko",
       "year": 2023,
       "sktorrent_id": 33066,
-      "worker_id": "worker-2-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T19:53:48Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T19:59:19Z",
+      "timing": {
+        "cdn_resolve_sec": 12.8,
+        "download_sec": 286.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9698,
       "cr_slug": "timber-lovec-pokladu",
