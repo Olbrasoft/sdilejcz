@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T20:21:22Z",
+  "last_updated": "2026-07-10T20:22:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -4744,19 +4744,23 @@
         "cdn_resolve_sec": 4.5,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17661,
       "cr_slug": "mr-malcolm-s-list-2019",
       "title": "Mr. Malcolm's List",
       "year": 2019,
       "sktorrent_id": 26452,
-      "worker_id": "worker-2-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T20:16:51Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T20:22:44Z",
+      "timing": {
+        "cdn_resolve_sec": 10.0,
+        "download_sec": 310.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10063,
       "cr_slug": "narusitel-2019",
