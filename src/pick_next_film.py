@@ -27,7 +27,8 @@ def load_state(path: Path = STATE) -> dict:
 def excluded_ids(state: dict, extra: set[int] | None = None) -> set[int]:
     done = {u["cr_film_id"] for u in state.get("uploads", [])}
     failed = {f["cr_film_id"] for f in state.get("failed_attempts", [])}
-    return done | failed | (extra or set())
+    reserved = {r["cr_film_id"] for r in state.get("in_progress", [])}
+    return done | failed | reserved | (extra or set())
 
 
 def _require_cs_audio() -> bool:
@@ -91,4 +92,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

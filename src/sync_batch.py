@@ -21,6 +21,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 LOG_PATH = REPO_ROOT / "state" / "sync.log"
 TMP_DIR = Path("/tmp")
 MIN_FILE_SIZE = 10_000_000
+RESERVATION_TTL_MINUTES = 480
 
 
 def now_iso() -> str:
@@ -41,10 +42,67 @@ def save_state(state: dict) -> None:
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n")
 
 
-def commit_progress(state: dict, reason: str) -> None:
+def parse_iso(value: str | None) -> dt.datetime | None:
+    if not value:
+        return None
+    try:
+        return dt.datetime.strptime(value, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc)
+    except ValueError:
+        return None
+
+
+def git_sync_latest() -> None:
+    if os.environ.get("GITHUB_ACTIONS"):
+        subprocess.run(["git", "fetch", "origin", "main"], cwd=REPO_ROOT, check=True)
+        subprocess.run(["git", "reset", "--hard", "origin/main"], cwd=REPO_ROOT, check=True)
+    else:
+        subprocess.run(["git", "pull", "--ff-only", "origin", "main"], cwd=REPO_ROOT, check=True)
+
+
+def clean_expired_reservations(state: dict) -> None:
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(minutes=RESERVATION_TTL_MINUTES)
+    kept = []
+    for item in state.get("in_progress", []):
+        reserved_at = parse_iso(item.get("reserved_at"))
+        if reserved_at and reserved_at >= cutoff:
+            kept.append(item)
+    state["in_progress"] = kept
+
+
+def state_transaction(reason: str, mutate, attempts: int = 8):
+    last_error: Exception | None = None
+    for attempt in range(1, attempts + 1):
+        try:
+            if os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() in ("1", "true", "yes", "on"):
+                git_sync_latest()
+            state = load_state()
+            clean_expired_reservations(state)
+            changed, result = mutate(state)
+            if not changed:
+                return state, result
+            save_state(state)
+            if os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() in ("1", "true", "yes", "on"):
+                commit_progress(reason)
+            return state, result
+        except Exception as exc:
+            last_error = exc
+            log(f"step=state-transaction-retry attempt={attempt}/{attempts} reason={reason!r} err={exc}")
+            time.sleep(min(attempt, 10))
+    raise RuntimeError(f"state transaction failed after {attempts} attempts: {last_error}")
+
+
+def set_account(state: dict):
+    if state.get("account") == "sdilej.cz":
+        return False, None
+    state["account"] = "sdilej.cz"
+    return True, None
+
+
+def commit_progress(reason: str) -> None:
     if os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() not in ("1", "true", "yes", "on"):
         return
 
+    state = load_state()
     total_uploads = len(state.get("uploads", []))
     commands = [
         ["git", "add", "state/uploaded.json", "state/sync.log"],
@@ -56,7 +114,6 @@ def commit_progress(state: dict, reason: str) -> None:
         return
     message = f"chore(sync): {reason} - total uploads now {total_uploads}"
     subprocess.run(["git", "commit", "-m", message], cwd=REPO_ROOT, check=True)
-    subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=REPO_ROOT, check=False)
     subprocess.run(["git", "push"], cwd=REPO_ROOT, check=True)
     log(f"step=git-pushed reason={reason!r} total_uploads={total_uploads}")
 
@@ -94,24 +151,59 @@ def download(url: str, dest: Path, timeout_sec: int = 540) -> int:
     return size
 
 
-def record_failure(state: dict, film: dict, reason: str, timing: dict | None = None) -> None:
-    entry = {
-        "cr_film_id": film["cr_film_id"],
-        "cr_slug": film.get("cr_slug"),
-        "title": film["title"],
-        "year": film["year"],
-        "sktorrent_id": film.get("id"),
-        "reason": reason,
-        "failed_at": now_iso(),
-    }
-    if timing:
-        entry["timing"] = timing
-    state.setdefault("failed_attempts", []).append(entry)
-    save_state(state)
-    commit_progress(state, "record failure")
+def remove_reservation(state: dict, cr_film_id: int, worker_id: str) -> None:
+    state["in_progress"] = [
+        item for item in state.get("in_progress", [])
+        if not (item.get("cr_film_id") == cr_film_id and item.get("worker_id") == worker_id)
+    ]
 
 
-def process_one(film: dict, session, state: dict) -> bool:
+def reserve_next_film(backlog: list[dict], worker_id: str, run_id: str, extra_exclude: set[int]) -> tuple[dict, dict | None]:
+    picked: dict | None = None
+
+    def mutate(state: dict):
+        nonlocal picked
+        picked = pick_next(state, backlog, extra_exclude)
+        if picked is None:
+            return False, None
+        state.setdefault("in_progress", []).append({
+            "cr_film_id": picked["cr_film_id"],
+            "cr_slug": picked.get("cr_slug"),
+            "title": picked["title"],
+            "year": picked["year"],
+            "sktorrent_id": picked.get("id"),
+            "worker_id": worker_id,
+            "run_id": run_id,
+            "reserved_at": now_iso(),
+        })
+        return True, picked
+
+    return state_transaction(f"reserve worker={worker_id}", mutate)
+
+
+def record_failure(film: dict, reason: str, worker_id: str, timing: dict | None = None) -> None:
+    def mutate(state: dict):
+        remove_reservation(state, film["cr_film_id"], worker_id)
+        if any(f.get("cr_film_id") == film["cr_film_id"] for f in state.get("failed_attempts", [])):
+            return True, None
+        entry = {
+            "cr_film_id": film["cr_film_id"],
+            "cr_slug": film.get("cr_slug"),
+            "title": film["title"],
+            "year": film["year"],
+            "sktorrent_id": film.get("id"),
+            "reason": reason,
+            "failed_at": now_iso(),
+        }
+        if timing:
+            entry["timing"] = timing
+        state.setdefault("failed_attempts", []).append(entry)
+        return True, None
+
+    state_transaction(f"failure cr_film_id={film['cr_film_id']}", mutate)
+
+
+def process_one(film: dict, session, worker_id: str) -> bool:
     name = display_name(film)
     cr_film_id = film["cr_film_id"]
     start_total = time.monotonic()
@@ -122,7 +214,7 @@ def process_one(film: dict, session, state: dict) -> bool:
     cdn_sec = round(time.monotonic() - t, 1)
     if not resolved:
         log(f"step=cdn-resolve failed cr_film_id={cr_film_id}")
-        record_failure(state, film, "cdn_resolve_failed", {"cdn_resolve_sec": cdn_sec})
+        record_failure(film, "cdn_resolve_failed", worker_id, {"cdn_resolve_sec": cdn_sec})
         return False
     log(f"step=cdn-resolve done cr_film_id={cr_film_id} dur={cdn_sec}s url={resolved}")
 
@@ -138,9 +230,9 @@ def process_one(film: dict, session, state: dict) -> bool:
             tmp_path.unlink()
         log(f"step=download failed cr_film_id={cr_film_id} err={exc}")
         record_failure(
-            state,
             film,
             f"download_failed: {exc}",
+            worker_id,
             {"cdn_resolve_sec": cdn_sec, "download_sec": download_sec},
         )
         return False
@@ -154,9 +246,9 @@ def process_one(film: dict, session, state: dict) -> bool:
         upload_sec = round(time.monotonic() - t, 1)
         log(f"step=upload failed cr_film_id={cr_film_id} err={exc}")
         record_failure(
-            state,
             film,
             f"upload_failed: {exc}",
+            worker_id,
             {
                 "cdn_resolve_sec": cdn_sec,
                 "download_sec": download_sec,
@@ -169,29 +261,35 @@ def process_one(film: dict, session, state: dict) -> bool:
             tmp_path.unlink()
 
     total_sec = round(time.monotonic() - start_total, 1)
-    state.setdefault("uploads", []).append(
-        {
-            "cr_film_id": cr_film_id,
-            "cr_slug": film.get("cr_slug"),
-            "title": film["title"],
-            "year": film["year"],
-            "sktorrent_id": film.get("id"),
-            "sdilej_url": result["url"],
-            "sdilej_name": result.get("name"),
-            "uploaded_at": now_iso(),
-            "status": "uploaded",
-            "size_bytes": size,
-            "timing": {
-                "cdn_resolve_sec": cdn_sec,
-                "download_sec": download_sec,
-                "upload_sec": upload_sec,
-                "total_sec": total_sec,
-            },
-        }
-    )
-    save_state(state)
-    log(f"step=state-saved cr_film_id={cr_film_id} total_uploads={len(state['uploads'])}")
-    commit_progress(state, f"upload cr_film_id={cr_film_id}")
+    entry = {
+        "cr_film_id": cr_film_id,
+        "cr_slug": film.get("cr_slug"),
+        "title": film["title"],
+        "year": film["year"],
+        "sktorrent_id": film.get("id"),
+        "sdilej_url": result["url"],
+        "sdilej_name": result.get("name"),
+        "uploaded_at": now_iso(),
+        "status": "uploaded",
+        "size_bytes": size,
+        "worker_id": worker_id,
+        "timing": {
+            "cdn_resolve_sec": cdn_sec,
+            "download_sec": download_sec,
+            "upload_sec": upload_sec,
+            "total_sec": total_sec,
+        },
+    }
+
+    def mutate(state: dict):
+        remove_reservation(state, cr_film_id, worker_id)
+        if any(u.get("cr_film_id") == cr_film_id for u in state.get("uploads", [])):
+            return True, None
+        state.setdefault("uploads", []).append(entry)
+        return True, None
+
+    state, _ = state_transaction(f"upload cr_film_id={cr_film_id}", mutate)
+    log(f"step=state-saved cr_film_id={cr_film_id} total_uploads={len(state.get('uploads', []))}")
     return True
 
 
@@ -204,6 +302,7 @@ def main() -> int:
         default=None,
         help="Stop picking new films after this many minutes; current film is allowed to finish.",
     )
+    parser.add_argument("--worker-id", default=os.environ.get("WORKER_ID", "single"))
     args = parser.parse_args()
     batch_started = time.monotonic()
     max_runtime_sec = args.max_runtime_minutes * 60 if args.max_runtime_minutes else None
@@ -218,16 +317,17 @@ def main() -> int:
         log(f"ERROR: missing backlog file: {BACKLOG}")
         return 2
 
-    state = load_state()
     backlog = load_backlog()
+    run_id = os.environ.get("GITHUB_RUN_ID", "local")
+    worker_id = args.worker_id
+    state = load_state()
     log(
-        f"step=batch-start count={args.count} backlog={len(backlog)} "
+        f"step=batch-start worker={worker_id} run_id={run_id} count={args.count} backlog={len(backlog)} "
         f"uploads={len(state.get('uploads', []))} failed={len(state.get('failed_attempts', []))}"
     )
 
     session = login(email, password)
-    state["account"] = "sdilej.cz"
-    save_state(state)
+    state_transaction("set account", set_account)
 
     succeeded = 0
     failed = 0
@@ -241,12 +341,12 @@ def main() -> int:
             )
             break
         log(f"step=iteration {index + 1}/{args.count}")
-        film = pick_next(state, backlog, extra_exclude)
+        state, film = reserve_next_film(backlog, worker_id, run_id, extra_exclude)
         if film is None:
             log("step=batch-end no candidate")
             break
         extra_exclude.add(film["cr_film_id"])
-        if process_one(film, session, state):
+        if process_one(film, session, worker_id):
             succeeded += 1
         else:
             failed += 1

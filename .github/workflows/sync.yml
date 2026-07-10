@@ -20,9 +20,14 @@ concurrency:
 
 jobs:
   upload-batch:
-    name: Upload missing films to Sdilej.cz
+    name: Upload missing films to Sdilej.cz (${{ matrix.worker }})
     runs-on: ubuntu-latest
     timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        worker: [1, 2, 3, 4]
     permissions:
       contents: write
     steps:
@@ -46,6 +51,7 @@ jobs:
         env:
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '999' }}
           MAX_RUNTIME_MINUTES: ${{ github.event.inputs.max_runtime_minutes || '320' }}
+          WORKER_ID: worker-${{ matrix.worker }}-${{ github.run_id }}
         run: |
           mkdir -p state
           touch state/sync.log
@@ -53,7 +59,7 @@ jobs:
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           {
             echo ""
-            echo "===== run $RUN_TS batch_size=${BATCH_SIZE} max_runtime_minutes=${MAX_RUNTIME_MINUTES} ($RUN_URL) ====="
+            echo "===== run $RUN_TS worker=${WORKER_ID} batch_size=${BATCH_SIZE} max_runtime_minutes=${MAX_RUNTIME_MINUTES} ($RUN_URL) ====="
           } >> state/sync.log
 
       - name: Run sync batch
@@ -62,19 +68,6 @@ jobs:
           SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '999' }}
           MAX_RUNTIME_MINUTES: ${{ github.event.inputs.max_runtime_minutes || '320' }}
+          WORKER_ID: worker-${{ matrix.worker }}-${{ github.run_id }}
           COMMIT_AFTER_EACH_UPLOAD: "true"
-        run: python src/sync_batch.py --count "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}"
-
-      - name: Commit state + log
-        if: always()
-        run: |
-          set -e
-          git add state/uploaded.json state/sync.log
-          if git diff --cached --quiet; then
-            echo "no state changes to commit"
-          else
-            UP_COUNT=$(python -c "import json; print(len(json.load(open('state/uploaded.json')).get('uploads', [])))")
-            git commit -m "chore(sync): batch run - total uploads now ${UP_COUNT}"
-            git pull --rebase origin main || true
-            git push
-          fi
+        run: python src/sync_batch.py --count "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}" --worker-id "${WORKER_ID}"
