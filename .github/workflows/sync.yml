@@ -1,0 +1,64 @@
+name: sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Number of films to upload"
+        required: false
+        default: "1"
+  # schedule:
+  #   - cron: "0 */6 * * *"
+
+jobs:
+  upload-batch:
+    name: Upload missing films to Sdilej.cz
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Init log entry
+        run: |
+          mkdir -p state
+          touch state/sync.log
+          RUN_TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          {
+            echo ""
+            echo "===== run $RUN_TS batch_size=${{ inputs.batch_size }} ($RUN_URL) ====="
+          } >> state/sync.log
+
+      - name: Run sync batch
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+        run: python src/sync_batch.py --count "${{ inputs.batch_size }}"
+
+      - name: Commit state + log
+        if: always()
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/uploaded.json state/sync.log
+          if git diff --cached --quiet; then
+            echo "no state changes to commit"
+          else
+            UP_COUNT=$(python -c "import json; print(len(json.load(open('state/uploaded.json')).get('uploads', [])))")
+            git commit -m "chore(sync): batch run - total uploads now ${UP_COUNT}"
+            git pull --rebase origin main || true
+            git push
+          fi
+

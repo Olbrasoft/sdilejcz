@@ -1,0 +1,34 @@
+name: test-sktorrent-access
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    name: Probe SK Torrent CDN from GitHub runner
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: HEAD request sample URLs
+        run: |
+          set -u
+          urls=(
+            "https://online8.sktorrent.eu/media/videos//h264/56413_720p.mp4"
+            "https://online11.sktorrent.eu/media/videos//h264/19988_720p.mp4"
+            "https://online18.sktorrent.eu/media/videos//h264/24432_720p.mp4"
+          )
+          fail=0
+          for url in "${urls[@]}"; do
+            http=$(curl -sI -L "$url" \
+              -H "User-Agent: Mozilla/5.0" \
+              -H "Referer: https://sktorrent.eu/" \
+              -o /dev/null -w "%{http_code}")
+            if [ "$http" = "200" ]; then
+              printf "OK    %s\n" "$url"
+            else
+              printf "FAIL  %s  (%s)\n" "$url" "$http"
+              fail=1
+            fi
+          done
+          exit "$fail"
+
