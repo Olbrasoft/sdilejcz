@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T19:30:04Z",
+  "last_updated": "2026-07-10T19:31:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -3909,6 +3909,20 @@
         "cdn_resolve_sec": 3.4,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 16654,
+      "cr_slug": "sestka-tahne-svetem-2014",
+      "title": "Šestka táhne světem",
+      "year": 2014,
+      "sktorrent_id": 38776,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T19:31:25Z",
+      "timing": {
+        "cdn_resolve_sec": 12.2,
+        "download_sec": 117.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -3931,16 +3945,6 @@
       "worker_id": "worker-1-29111951444",
       "run_id": "29111951444",
       "reserved_at": "2026-07-10T19:26:37Z"
-    },
-    {
-      "cr_film_id": 16654,
-      "cr_slug": "sestka-tahne-svetem-2014",
-      "title": "Šestka táhne světem",
-      "year": 2014,
-      "sktorrent_id": 38776,
-      "worker_id": "worker-4-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T19:28:44Z"
     },
     {
       "cr_film_id": 16707,
