@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T19:11:59Z",
+  "last_updated": "2026-07-10T19:12:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -3679,19 +3679,23 @@
         "download_sec": 467.0,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14079,
       "cr_slug": "prvni-akcni-hrdina-2019",
       "title": "První akční hrdina",
       "year": 2019,
       "sktorrent_id": 24340,
-      "worker_id": "worker-4-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T19:05:52Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T19:12:30Z",
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 360.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9330,
       "cr_slug": "after-odlouceni",
