@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T16:12:14Z",
+  "last_updated": "2026-07-10T16:18:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -1631,6 +1631,20 @@
       "timing": {
         "cdn_resolve_sec": 2.6,
         "download_sec": 231.5,
+        "upload_sec": 30.0
+      }
+    },
+    {
+      "cr_film_id": 7522,
+      "cr_slug": "vikingove-ztracene-kralovstvi",
+      "title": "Aquaman a ztracené království",
+      "year": 2022,
+      "sktorrent_id": 34303,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T16:18:40Z",
+      "timing": {
+        "cdn_resolve_sec": 8.4,
+        "download_sec": 346.6,
         "upload_sec": 30.0
       }
     }
