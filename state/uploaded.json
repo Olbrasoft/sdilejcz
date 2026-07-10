@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T22:28:53Z",
+  "last_updated": "2026-07-10T22:30:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -7459,19 +7459,22 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17327,
       "cr_slug": "vrazdy-odvedle-osudovy-cin-2018",
       "title": "Vraždy odvedle: Osudový čin",
       "year": 2018,
       "sktorrent_id": 10316,
-      "worker_id": "worker-3-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T22:21:19Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 186655952 out of 466322783 bytes received",
+      "failed_at": "2026-07-10T22:30:23Z",
+      "timing": {
+        "cdn_resolve_sec": 1.9,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16949,
       "cr_slug": "autorka-smrti-2016",
