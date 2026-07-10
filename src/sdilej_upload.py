@@ -13,6 +13,7 @@ import mimetypes
 import os
 import re
 import sys
+import time
 from pathlib import Path
 from typing import BinaryIO
 
@@ -30,6 +31,7 @@ LOGIN_PAGE = f"{BASE_URL}/prihlasit"
 UPLOAD_PAGE = f"{BASE_URL}/upload"
 UPLOAD_URL = "https://uploadweb2.sdilej.cz/upload/index.php"
 DEFAULT_CHUNK_SIZE = 2 * 1024 * 1024
+DEFAULT_CHUNK_RETRIES = 5
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
@@ -100,21 +102,31 @@ def _post_chunk(
     start: int,
     end: int,
     total: int,
+    max_retries: int = DEFAULT_CHUNK_RETRIES,
 ) -> dict:
     headers = {
         "Referer": UPLOAD_PAGE,
         "Origin": BASE_URL,
         "Content-Range": f"bytes {start}-{end}/{total}",
     }
-    files = {"files[]": (display_name, chunk, mime_type)}
-    response = session.post(
-        UPLOAD_URL,
-        data={"user_id": user_id},
-        files=files,
-        headers=headers,
-        timeout=180,
-    )
-    return _parse_upload_response(response)
+    last_error: Exception | None = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            files = {"files[]": (display_name, chunk, mime_type)}
+            response = session.post(
+                UPLOAD_URL,
+                data={"user_id": user_id},
+                files=files,
+                headers=headers,
+                timeout=180,
+            )
+            return _parse_upload_response(response)
+        except (requests.RequestException, SdilejError) as exc:
+            last_error = exc
+            if attempt == max_retries:
+                break
+            time.sleep(attempt)
+    raise SdilejError(f"Chunk upload failed after {max_retries} attempts: {last_error}")
 
 
 def _read_chunk(handle: BinaryIO, size: int) -> bytes:
@@ -204,4 +216,3 @@ if __name__ == "__main__":
     except Exception as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         raise SystemExit(1)
-

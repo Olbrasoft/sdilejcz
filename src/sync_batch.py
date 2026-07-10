@@ -196,7 +196,7 @@ def main() -> int:
     )
 
     session = login(email, password)
-    state["account"] = email
+    state["account"] = "sdilej.cz"
     save_state(state)
 
     succeeded = 0
@@ -223,4 +223,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

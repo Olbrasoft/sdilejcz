@@ -6,9 +6,13 @@ on:
       batch_size:
         description: "Number of films to upload"
         required: false
-        default: "1"
-  # schedule:
-  #   - cron: "0 */6 * * *"
+        default: "5"
+  schedule:
+    - cron: "0 */6 * * *"
+
+concurrency:
+  group: sdilejcz-sync
+  cancel-in-progress: false
 
 jobs:
   upload-batch:
@@ -30,6 +34,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Init log entry
+        env:
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '5' }}
         run: |
           mkdir -p state
           touch state/sync.log
@@ -37,14 +43,15 @@ jobs:
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           {
             echo ""
-            echo "===== run $RUN_TS batch_size=${{ inputs.batch_size }} ($RUN_URL) ====="
+            echo "===== run $RUN_TS batch_size=${BATCH_SIZE} ($RUN_URL) ====="
           } >> state/sync.log
 
       - name: Run sync batch
         env:
           SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
           SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
-        run: python src/sync_batch.py --count "${{ inputs.batch_size }}"
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '5' }}
+        run: python src/sync_batch.py --count "${BATCH_SIZE}"
 
       - name: Commit state + log
         if: always()
@@ -61,4 +68,3 @@ jobs:
             git pull --rebase origin main || true
             git push
           fi
-
