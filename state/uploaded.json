@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T18:33:37Z",
+  "last_updated": "2026-07-10T18:35:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -2946,19 +2946,22 @@
         "download_sec": 286.1,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5946,
       "cr_slug": "dora-a-ztracene-mesto",
       "title": "Dora a ztracené město",
       "year": 2019,
       "sktorrent_id": 8549,
-      "worker_id": "worker-4-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T18:26:50Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 346335951 out of 1061427460 bytes received",
+      "failed_at": "2026-07-10T18:35:53Z",
+      "timing": {
+        "cdn_resolve_sec": 1.7,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8256,
       "cr_slug": "dablovi-bezci",
