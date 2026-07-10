@@ -609,3 +609,9 @@
 [15:57:20] step=download done cr_film_id=5923 size=595692893 dur=99.7s
 [15:58:36] step=upload done cr_film_id=5923 dur=76.1s url=https://sdilej.cz/34636687/modelar-2020-cz.mp4
 [15:58:37] step=state-saved cr_film_id=5923 total_uploads=80
+[15:58:38] step=git-pushed reason='upload cr_film_id=5923' total_uploads=80
+[15:58:38] step=iteration 87/999
+[15:58:38] step=film-start cr_film_id=5772 name='Čertí brko (2018) CZ.mp4'
+[15:58:41] step=cdn-resolve done cr_film_id=5772 dur=2.6s url=https://online4.sktorrent.eu/media/videos//h264/5697_720p.mp4
+[16:02:32] step=download done cr_film_id=5772 size=1129705625 dur=231.5s
+[16:03:02] step=upload failed cr_film_id=5772 err=HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)

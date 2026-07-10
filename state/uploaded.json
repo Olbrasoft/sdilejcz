@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T15:58:37Z",
+  "last_updated": "2026-07-10T16:03:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -1546,6 +1546,20 @@
       "failed_at": "2026-07-10T15:42:34Z",
       "timing": {
         "cdn_resolve_sec": 22.5
+      }
+    },
+    {
+      "cr_film_id": 5772,
+      "cr_slug": "certi-brko",
+      "title": "Čertí brko",
+      "year": 2018,
+      "sktorrent_id": 5697,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T16:03:02Z",
+      "timing": {
+        "cdn_resolve_sec": 2.6,
+        "download_sec": 231.5,
+        "upload_sec": 30.0
       }
     }
   ]
