@@ -18,7 +18,7 @@ GitHub hosted runners have enough disk for one 720p film at a time. If SK Torren
 blocks GitHub runner IP ranges, switch the workflow to a Czech or EU
 self-hosted runner.
 
-The production workflow is scheduled hourly with `concurrency` enabled. Since
-each run keeps uploading sequentially for up to 320 minutes, overlapping
+The production workflow is scheduled every 15 minutes with `concurrency`
+enabled. Since each run keeps uploading sequentially for up to 320 minutes, overlapping
 scheduled starts wait behind the active run and the sync continues almost
 continuously.

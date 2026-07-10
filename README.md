@@ -37,7 +37,7 @@ GitHub Actions expects these repository secrets:
 - `SDILEJ_EMAIL`
 - `SDILEJ_PASSWORD`
 
-The scheduled workflow runs every hour, but uses a concurrency lock and a
+The scheduled workflow runs every 15 minutes, but uses a concurrency lock and a
 320-minute runtime window. In practice that means one runner keeps uploading
 films sequentially for most of the 6-hour GitHub Actions limit, and the next
 scheduled run takes over when the current one finishes.
