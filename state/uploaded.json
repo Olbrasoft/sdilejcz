@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T12:07:37Z",
+  "last_updated": "2026-07-10T12:16:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -310,5 +310,19 @@
       }
     }
   ],
-  "failed_attempts": []
+  "failed_attempts": [
+    {
+      "cr_film_id": 3042,
+      "cr_slug": "ostrov",
+      "title": "Ostrov",
+      "year": 2005,
+      "sktorrent_id": 5680,
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 1471119951 out of 2019201752 bytes received",
+      "failed_at": "2026-07-10T12:16:39Z",
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 540.0
+      }
+    }
+  ]
 }
