@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T22:30:24Z",
+  "last_updated": "2026-07-10T22:31:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -7472,19 +7472,22 @@
         "cdn_resolve_sec": 1.9,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16949,
       "cr_slug": "autorka-smrti-2016",
       "title": "Autorka smrti",
       "year": 2016,
       "sktorrent_id": 6103,
-      "worker_id": "worker-1-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T22:22:47Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 190415952 out of 327101337 bytes received",
+      "failed_at": "2026-07-10T22:31:50Z",
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12684,
       "cr_slug": "zachranci-more-2000",
