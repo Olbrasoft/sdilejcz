@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T21:39:24Z",
+  "last_updated": "2026-07-10T21:39:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -6325,6 +6325,18 @@
         "cdn_resolve_sec": 16.4,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 16060,
+      "cr_slug": "film-2025",
+      "title": "Resurrection",
+      "year": 2025,
+      "sktorrent_id": 19012,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-07-10T21:39:40Z",
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
     }
   ],
   "in_progress": [
@@ -6357,16 +6369,6 @@
       "worker_id": "worker-1-29111951444",
       "run_id": "29111951444",
       "reserved_at": "2026-07-10T21:37:59Z"
-    },
-    {
-      "cr_film_id": 16060,
-      "cr_slug": "film-2025",
-      "title": "Resurrection",
-      "year": 2025,
-      "sktorrent_id": 19012,
-      "worker_id": "worker-4-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T21:39:24Z"
     }
   ]
 }
