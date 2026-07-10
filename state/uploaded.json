@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T20:14:30Z",
+  "last_updated": "2026-07-10T20:15:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -4622,6 +4622,20 @@
         "cdn_resolve_sec": 3.2,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 16330,
+      "cr_slug": "vypecene-zlociny-zakazane-ovoce-2024",
+      "title": "Vypečené zločiny: Zakázané ovoce",
+      "year": 2024,
+      "sktorrent_id": 55834,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T20:15:27Z",
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 88.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -4644,16 +4658,6 @@
       "worker_id": "worker-3-29111951444",
       "run_id": "29111951444",
       "reserved_at": "2026-07-10T20:13:14Z"
-    },
-    {
-      "cr_film_id": 16330,
-      "cr_slug": "vypecene-zlociny-zakazane-ovoce-2024",
-      "title": "Vypečené zločiny: Zakázané ovoce",
-      "year": 2024,
-      "sktorrent_id": 55834,
-      "worker_id": "worker-1-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T20:13:22Z"
     },
     {
       "cr_film_id": 15917,
