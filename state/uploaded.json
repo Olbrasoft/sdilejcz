@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T22:33:06Z",
+  "last_updated": "2026-07-10T22:34:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -7542,19 +7542,23 @@
         "cdn_resolve_sec": 2.0,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11589,
       "cr_slug": "real-genius-1985",
       "title": "Real Genius",
       "year": 1985,
       "sktorrent_id": 45169,
-      "worker_id": "worker-1-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T22:31:51Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T22:34:03Z",
+      "timing": {
+        "cdn_resolve_sec": 6.6,
+        "download_sec": 94.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16414,
       "cr_slug": "svedectvi-o-ann-lee-2025",
