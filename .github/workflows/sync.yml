@@ -37,6 +37,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Init log entry
         env:
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '999' }}
@@ -57,14 +62,13 @@ jobs:
           SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '999' }}
           MAX_RUNTIME_MINUTES: ${{ github.event.inputs.max_runtime_minutes || '320' }}
+          COMMIT_AFTER_EACH_UPLOAD: "true"
         run: python src/sync_batch.py --count "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}"
 
       - name: Commit state + log
         if: always()
         run: |
           set -e
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state/uploaded.json state/sync.log
           if git diff --cached --quiet; then
             echo "no state changes to commit"

@@ -41,6 +41,26 @@ def save_state(state: dict) -> None:
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n")
 
 
+def commit_progress(state: dict, reason: str) -> None:
+    if os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() not in ("1", "true", "yes", "on"):
+        return
+
+    total_uploads = len(state.get("uploads", []))
+    commands = [
+        ["git", "add", "state/uploaded.json", "state/sync.log"],
+        ["git", "diff", "--cached", "--quiet"],
+    ]
+    subprocess.run(commands[0], cwd=REPO_ROOT, check=True)
+    diff = subprocess.run(commands[1], cwd=REPO_ROOT)
+    if diff.returncode == 0:
+        return
+    message = f"chore(sync): {reason} - total uploads now {total_uploads}"
+    subprocess.run(["git", "commit", "-m", message], cwd=REPO_ROOT, check=True)
+    subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=REPO_ROOT, check=False)
+    subprocess.run(["git", "push"], cwd=REPO_ROOT, check=True)
+    log(f"step=git-pushed reason={reason!r} total_uploads={total_uploads}")
+
+
 def safe_filename(name: str) -> str:
     return name.replace("/", "_").replace("\\", "_")
 
@@ -88,6 +108,7 @@ def record_failure(state: dict, film: dict, reason: str, timing: dict | None = N
         entry["timing"] = timing
     state.setdefault("failed_attempts", []).append(entry)
     save_state(state)
+    commit_progress(state, "record failure")
 
 
 def process_one(film: dict, session, state: dict) -> bool:
@@ -170,6 +191,7 @@ def process_one(film: dict, session, state: dict) -> bool:
     )
     save_state(state)
     log(f"step=state-saved cr_film_id={cr_film_id} total_uploads={len(state['uploads'])}")
+    commit_progress(state, f"upload cr_film_id={cr_film_id}")
     return True
 
 
