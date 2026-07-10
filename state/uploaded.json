@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T18:09:37Z",
+  "last_updated": "2026-07-10T18:10:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -2462,19 +2462,23 @@
         "download_sec": 403.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 6557,
       "cr_slug": "come-un-gatto-in-tangenziale-ritorno-a-coccia-di-morto",
       "title": "Come un gatto in tangenziale - Ritorno a Coccia di Morto",
       "year": 2021,
       "sktorrent_id": 23977,
-      "worker_id": "worker-1-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T18:03:56Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T18:10:24Z",
+      "timing": {
+        "cdn_resolve_sec": 7.7,
+        "download_sec": 349.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9618,
       "cr_slug": "fakju-princezny",
