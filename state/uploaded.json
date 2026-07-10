@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T23:47:20Z",
+  "last_updated": "2026-07-10T23:48:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -9680,19 +9680,23 @@
       "timing": {
         "cdn_resolve_sec": 10.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17337,
       "cr_slug": "jedna-za-osmnact-druha-bez-dvou-za-dvacet-2018",
       "title": "Jedna za osmnáct, druhá bez dvou za dvacet",
       "year": 2018,
       "sktorrent_id": 2396,
-      "worker_id": "worker-1-29128757096",
-      "run_id": "29128757096",
-      "reserved_at": "2026-07-10T23:44:28Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T23:48:49Z",
+      "timing": {
+        "cdn_resolve_sec": 4.8,
+        "download_sec": 224.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16622,
       "cr_slug": "zip-zap-a-kapitanuv-ostrov-2016",
