@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T13:12:00Z",
+  "last_updated": "2026-07-10T13:13:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -583,6 +583,20 @@
       "timing": {
         "cdn_resolve_sec": 12.1,
         "download_sec": 105.6,
+        "upload_sec": 30.0
+      }
+    },
+    {
+      "cr_film_id": 1910,
+      "cr_slug": "pani-harrisova-jede-do-parize",
+      "title": "Paní Harrisová jede do Paříže",
+      "year": 2022,
+      "sktorrent_id": 27257,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T13:13:52Z",
+      "timing": {
+        "cdn_resolve_sec": 7.2,
+        "download_sec": 72.5,
         "upload_sec": 30.0
       }
     }
