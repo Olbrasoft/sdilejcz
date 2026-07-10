@@ -4,11 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       batch_size:
-        description: "Number of films to upload"
+        description: "Maximum number of films to upload"
         required: false
-        default: "5"
+        default: "999"
+      max_runtime_minutes:
+        description: "Stop picking new films after this many minutes"
+        required: false
+        default: "320"
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 * * * *"
 
 concurrency:
   group: sdilejcz-sync
@@ -35,7 +39,8 @@ jobs:
 
       - name: Init log entry
         env:
-          BATCH_SIZE: ${{ github.event.inputs.batch_size || '5' }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '999' }}
+          MAX_RUNTIME_MINUTES: ${{ github.event.inputs.max_runtime_minutes || '320' }}
         run: |
           mkdir -p state
           touch state/sync.log
@@ -43,15 +48,16 @@ jobs:
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           {
             echo ""
-            echo "===== run $RUN_TS batch_size=${BATCH_SIZE} ($RUN_URL) ====="
+            echo "===== run $RUN_TS batch_size=${BATCH_SIZE} max_runtime_minutes=${MAX_RUNTIME_MINUTES} ($RUN_URL) ====="
           } >> state/sync.log
 
       - name: Run sync batch
         env:
           SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
           SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
-          BATCH_SIZE: ${{ github.event.inputs.batch_size || '5' }}
-        run: python src/sync_batch.py --count "${BATCH_SIZE}"
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '999' }}
+          MAX_RUNTIME_MINUTES: ${{ github.event.inputs.max_runtime_minutes || '320' }}
+        run: python src/sync_batch.py --count "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}"
 
       - name: Commit state + log
         if: always()

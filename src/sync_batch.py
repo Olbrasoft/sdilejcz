@@ -176,7 +176,15 @@ def process_one(film: dict, session, state: dict) -> bool:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--count", type=int, default=1)
+    parser.add_argument(
+        "--max-runtime-minutes",
+        type=float,
+        default=None,
+        help="Stop picking new films after this many minutes; current film is allowed to finish.",
+    )
     args = parser.parse_args()
+    batch_started = time.monotonic()
+    max_runtime_sec = args.max_runtime_minutes * 60 if args.max_runtime_minutes else None
 
     email = os.environ.get("SDILEJ_EMAIL")
     password = os.environ.get("SDILEJ_PASSWORD")
@@ -203,6 +211,13 @@ def main() -> int:
     failed = 0
     extra_exclude: set[int] = set()
     for index in range(args.count):
+        elapsed_sec = time.monotonic() - batch_started
+        if max_runtime_sec is not None and elapsed_sec >= max_runtime_sec:
+            log(
+                f"step=batch-stop runtime-limit elapsed={round(elapsed_sec, 1)}s "
+                f"limit={round(max_runtime_sec, 1)}s"
+            )
+            break
         log(f"step=iteration {index + 1}/{args.count}")
         film = pick_next(state, backlog, extra_exclude)
         if film is None:
