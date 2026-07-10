@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T18:45:16Z",
+  "last_updated": "2026-07-10T18:45:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -3142,6 +3142,18 @@
         "cdn_resolve_sec": 5.9,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 9109,
+      "cr_slug": "bitva-roku-tym-snu",
+      "title": "Battle of the Year",
+      "year": 2013,
+      "sktorrent_id": 805,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-07-10T18:45:41Z",
+      "timing": {
+        "cdn_resolve_sec": 22.6
+      }
     }
   ],
   "in_progress": [
@@ -3174,16 +3186,6 @@
       "worker_id": "worker-4-29111951444",
       "run_id": "29111951444",
       "reserved_at": "2026-07-10T18:45:04Z"
-    },
-    {
-      "cr_film_id": 9109,
-      "cr_slug": "bitva-roku-tym-snu",
-      "title": "Battle of the Year",
-      "year": 2013,
-      "sktorrent_id": 805,
-      "worker_id": "worker-2-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T18:45:16Z"
     }
   ]
 }
