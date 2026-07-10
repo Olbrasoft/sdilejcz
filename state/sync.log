@@ -684,3 +684,12 @@
 [16:30:59] step=git-pushed reason='upload cr_film_id=7433' total_uploads=88
 [16:30:59] step=batch-stop runtime-limit elapsed=19406.3s limit=19200.0s
 [16:30:59] step=batch-end succeeded=86 failed=11 total_uploads=88
+
+===== run 2026-07-10T16:54:59Z batch_size=999 max_runtime_minutes=320 (https://github.com/Olbrasoft/sdilejcz/actions/runs/29109098660) =====
+[16:54:59] step=batch-start count=999 backlog=1629 uploads=88 failed=11
+[16:55:02] step=iteration 1/999
+[16:55:02] step=film-start cr_film_id=7006 name='Špunti na vodě (2017) CZ.mp4'
+[16:55:03] step=cdn-resolve done cr_film_id=7006 dur=1.1s url=https://online1.sktorrent.eu/media/videos//h264/6051_720p.mp4
+[16:57:43] step=download done cr_film_id=7006 size=1330446649 dur=160.3s
+[16:59:56] step=upload done cr_film_id=7006 dur=132.6s url=https://sdilej.cz/34636815/spunti-na-vode-2017-cz.mp4
+[16:59:56] step=state-saved cr_film_id=7006 total_uploads=89
