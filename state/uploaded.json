@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T19:26:37Z",
+  "last_updated": "2026-07-10T19:28:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -3877,19 +3877,22 @@
         "cdn_resolve_sec": 3.8,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10485,
       "cr_slug": "tanec-smrti-2017",
       "title": "Dance to Death",
       "year": 2017,
       "sktorrent_id": 14763,
-      "worker_id": "worker-4-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T19:19:37Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540001 milliseconds with 276463616 out of 537531046 bytes received",
+      "failed_at": "2026-07-10T19:28:42Z",
+      "timing": {
+        "cdn_resolve_sec": 3.4,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9644,
       "cr_slug": "na-lovu",
