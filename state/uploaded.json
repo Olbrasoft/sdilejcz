@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T20:02:59Z",
+  "last_updated": "2026-07-10T20:04:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -4450,19 +4450,22 @@
         "download_sec": 286.5,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9698,
       "cr_slug": "timber-lovec-pokladu",
       "title": "Timber - Lovec pokladů",
       "year": 2016,
       "sktorrent_id": 1856,
-      "worker_id": "worker-3-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T19:55:05Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540001 milliseconds with 209879040 out of 515743631 bytes received",
+      "failed_at": "2026-07-10T20:04:09Z",
+      "timing": {
+        "cdn_resolve_sec": 3.3,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10023,
       "cr_slug": "utes-smrti-vrazedne-vody",
