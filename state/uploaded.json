@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T19:53:48Z",
+  "last_updated": "2026-07-10T19:55:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -4347,19 +4347,22 @@
       "timing": {
         "cdn_resolve_sec": 25.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9376,
       "cr_slug": "prazske-orgie",
       "title": "Pražské orgie",
       "year": 2019,
       "sktorrent_id": 8779,
-      "worker_id": "worker-3-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T19:45:59Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 233422848 out of 1043479386 bytes received",
+      "failed_at": "2026-07-10T19:55:03Z",
+      "timing": {
+        "cdn_resolve_sec": 2.8,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16936,
       "cr_slug": "zin-naariya-2016",
