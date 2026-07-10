@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T19:11:47Z",
+  "last_updated": "2026-07-10T19:11:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -3665,19 +3665,23 @@
         "cdn_resolve_sec": 1.7,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9792,
       "cr_slug": "prilis-osobni-znamost",
       "title": "Příliš osobní známost",
       "year": 2020,
       "sktorrent_id": 10736,
-      "worker_id": "worker-1-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T19:03:37Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T19:11:58Z",
+      "timing": {
+        "cdn_resolve_sec": 3.7,
+        "download_sec": 467.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14079,
       "cr_slug": "prvni-akcni-hrdina-2019",
