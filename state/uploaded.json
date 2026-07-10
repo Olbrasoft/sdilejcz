@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T21:50:24Z",
+  "last_updated": "2026-07-10T21:50:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -6559,6 +6559,20 @@
         "cdn_resolve_sec": 2.0,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 11171,
+      "cr_slug": "terror-of-mechagodzilla-1975",
+      "title": "Terror of Mechagodzilla",
+      "year": 1975,
+      "sktorrent_id": 12728,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-10T21:50:41Z",
+      "timing": {
+        "cdn_resolve_sec": 12.7,
+        "download_sec": 70.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -6581,16 +6595,6 @@
       "worker_id": "worker-3-29111951444",
       "run_id": "29111951444",
       "reserved_at": "2026-07-10T21:48:12Z"
-    },
-    {
-      "cr_film_id": 11171,
-      "cr_slug": "terror-of-mechagodzilla-1975",
-      "title": "Terror of Mechagodzilla",
-      "year": 1975,
-      "sktorrent_id": 12728,
-      "worker_id": "worker-4-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T21:48:46Z"
     },
     {
       "cr_film_id": 10344,
