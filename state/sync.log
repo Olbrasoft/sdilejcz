@@ -134,3 +134,9 @@
 [12:07:38] step=film-start cr_film_id=3042 name='Ostrov (2005) CZ Dabing.mp4'
 [12:07:39] step=cdn-resolve done cr_film_id=3042 dur=0.9s url=https://online1.sktorrent.eu/media/videos//h264/5680_720p.mp4
 [12:16:39] step=download failed cr_film_id=3042 err=curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 1471119951 out of 2019201752 bytes received
+[12:16:41] step=git-pushed reason='record failure' total_uploads=17
+[12:16:41] step=iteration 17/999
+[12:16:41] step=film-start cr_film_id=2637 name='Spolu to dáme (2017) CZ Dabing.mp4'
+[12:16:48] step=cdn-resolve done cr_film_id=2637 dur=7.2s url=https://online10.sktorrent.eu/media/videos//h264/2323_720p.mp4
+[12:18:45] step=download done cr_film_id=2637 size=987267213 dur=116.8s
+[12:19:15] step=upload failed cr_film_id=2637 err=HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)
