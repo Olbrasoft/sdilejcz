@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-10T19:10:46Z",
+  "last_updated": "2026-07-10T19:11:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -3633,19 +3633,22 @@
       "timing": {
         "cdn_resolve_sec": 17.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7458,
       "cr_slug": "fantasticka-ctyrka-silver-surfer",
       "title": "Fantastická čtyřka a Silver Surfer",
       "year": 2007,
       "sktorrent_id": 6558,
-      "worker_id": "worker-2-29111951444",
-      "run_id": "29111951444",
-      "reserved_at": "2026-07-10T19:02:39Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 332583952 out of 995123351 bytes received",
+      "failed_at": "2026-07-10T19:11:43Z",
+      "timing": {
+        "cdn_resolve_sec": 1.7,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9792,
       "cr_slug": "prilis-osobni-znamost",
