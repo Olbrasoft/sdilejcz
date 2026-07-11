@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:51:49Z",
+  "last_updated": "2026-07-11T21:59:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26059,6 +26059,25 @@
         "upload_sec": 158.4,
         "total_sec": 526.5
       }
+    },
+    {
+      "cr_film_id": 17105,
+      "cr_slug": "the-great-war-2017",
+      "title": "The Great War",
+      "year": 2017,
+      "sktorrent_id": 7925,
+      "sdilej_url": "https://sdilej.cz/34643268/the-great-war-2017-cz-titulky.mp4",
+      "sdilej_name": "The Great War (2017) CZ titulky.mp4",
+      "uploaded_at": "2026-07-11T21:59:35Z",
+      "status": "uploaded",
+      "size_bytes": 3389676818,
+      "worker_id": "worker-1-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 475.2,
+        "upload_sec": 423.4,
+        "total_sec": 900.1
+      }
     }
   ],
   "failed_attempts": [
@@ -26747,19 +26766,6 @@
       }
     },
     {
-      "cr_film_id": 17105,
-      "cr_slug": "the-great-war-2017",
-      "title": "The Great War",
-      "year": 2017,
-      "sktorrent_id": 7925,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 2758951951 out of 3389676818 bytes received",
-      "failed_at": "2026-07-11T12:51:11Z",
-      "timing": {
-        "cdn_resolve_sec": 0.3,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 8583,
       "cr_slug": "padesatka",
       "title": "Padesátka",
@@ -26926,16 +26932,5 @@
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 17105,
-      "cr_slug": "the-great-war-2017",
-      "title": "The Great War",
-      "year": 2017,
-      "sktorrent_id": 7925,
-      "worker_id": "worker-1-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:44:34Z"
-    }
-  ]
+  "in_progress": []
 }
