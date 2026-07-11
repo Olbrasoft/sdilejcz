@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:10:04Z",
+  "last_updated": "2026-07-11T20:12:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26558,21 +26558,6 @@
       }
     },
     {
-      "cr_film_id": 5946,
-      "cr_slug": "dora-a-ztracene-mesto",
-      "title": "Dora a ztracené město",
-      "year": 2019,
-      "sktorrent_id": 8549,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 234727951 out of 1061427460 bytes received",
-      "failed_at": "2026-07-11T19:32:37Z",
-      "first_failed_at": "2026-07-10T18:35:53Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.2,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 8673,
       "cr_slug": "citlivy-clovek",
       "title": "Citlivý člověk",
@@ -26721,19 +26706,24 @@
         "cdn_resolve_sec": 13.4,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5946,
       "cr_slug": "dora-a-ztracene-mesto",
       "title": "Dora a ztracené město",
       "year": 2019,
       "sktorrent_id": 8549,
-      "worker_id": "worker-3-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:03:28Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540001 milliseconds with 257999951 out of 1061427460 bytes received",
+      "failed_at": "2026-07-11T20:12:31Z",
+      "first_failed_at": "2026-07-10T18:35:53Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10236,
       "cr_slug": "andilek-na-nervy",
