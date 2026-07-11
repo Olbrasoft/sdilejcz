@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:04:18Z",
+  "last_updated": "2026-07-11T20:09:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26571,21 +26571,6 @@
       }
     },
     {
-      "cr_film_id": 7290,
-      "cr_slug": "narodni-trida",
-      "title": "Národní třída",
-      "year": 2019,
-      "sktorrent_id": 6359,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 175279952 out of 785785001 bytes received",
-      "failed_at": "2026-07-11T19:29:00Z",
-      "first_failed_at": "2026-07-10T18:06:09Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.0,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 5946,
       "cr_slug": "dora-a-ztracene-mesto",
       "title": "Dora a ztracené město",
@@ -26719,19 +26704,24 @@
       "timing": {
         "cdn_resolve_sec": 30.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7290,
       "cr_slug": "narodni-trida",
       "title": "Národní třída",
       "year": 2019,
       "sktorrent_id": 6359,
-      "worker_id": "worker-2-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:00:10Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 459631952 out of 785785001 bytes received",
+      "failed_at": "2026-07-11T20:09:13Z",
+      "first_failed_at": "2026-07-10T18:06:09Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.7,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10023,
       "cr_slug": "utes-smrti-vrazedne-vody",
