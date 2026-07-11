@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:30:15Z",
+  "last_updated": "2026-07-11T21:31:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26561,19 +26561,6 @@
       }
     },
     {
-      "cr_film_id": 11959,
-      "cr_slug": "godzilla-vs-king-ghidorah",
-      "title": "Godzilla vs. King Ghidorah",
-      "year": 1991,
-      "sktorrent_id": 3332,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 2196663951 out of 3967410705 bytes received",
-      "failed_at": "2026-07-11T08:36:29Z",
-      "timing": {
-        "cdn_resolve_sec": 3.3,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu-1996",
       "title": "Vrána: Město andělů",
@@ -26885,19 +26872,24 @@
         "download_sec": 377.0,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11959,
       "cr_slug": "godzilla-vs-king-ghidorah",
       "title": "Godzilla vs. King Ghidorah",
       "year": 1991,
       "sktorrent_id": 3332,
-      "worker_id": "worker-2-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:22:38Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 3700271951 out of 3967410705 bytes received",
+      "failed_at": "2026-07-11T21:31:53Z",
+      "first_failed_at": "2026-07-11T08:36:29Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.2,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16736,
       "cr_slug": "danger-close-2017",
