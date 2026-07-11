@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:23:52Z",
+  "last_updated": "2026-07-11T19:26:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25185,6 +25185,25 @@
         "upload_sec": 69.4,
         "total_sec": 171.3
       }
+    },
+    {
+      "cr_film_id": 7601,
+      "cr_slug": "mein-schwiegervater-der-camper",
+      "title": "Můj budoucí tchán",
+      "year": 2019,
+      "sktorrent_id": 17248,
+      "sdilej_url": "https://sdilej.cz/34642597/muj-budouci-tchan-2019-cz-dabing.mp4",
+      "sdilej_name": "Můj budoucí tchán (2019) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T19:26:14Z",
+      "status": "uploaded",
+      "size_bytes": 785711425,
+      "worker_id": "worker-2-29164775799",
+      "timing": {
+        "cdn_resolve_sec": 5.5,
+        "download_sec": 330.5,
+        "upload_sec": 77.5,
+        "total_sec": 413.6
+      }
     }
   ],
   "failed_attempts": [
@@ -25246,19 +25265,6 @@
       "failed_at": "2026-07-10T16:18:56Z",
       "timing": {
         "cdn_resolve_sec": 14.6
-      }
-    },
-    {
-      "cr_film_id": 7601,
-      "cr_slug": "mein-schwiegervater-der-camper",
-      "title": "Můj budoucí tchán",
-      "year": 2019,
-      "sktorrent_id": 17248,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 700776448 out of 785711425 bytes received",
-      "failed_at": "2026-07-10T18:03:55Z",
-      "timing": {
-        "cdn_resolve_sec": 4.2,
-        "download_sec": 540.0
       }
     },
     {
@@ -26659,16 +26665,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 7601,
-      "cr_slug": "mein-schwiegervater-der-camper",
-      "title": "Můj budoucí tchán",
-      "year": 2019,
-      "sktorrent_id": 17248,
-      "worker_id": "worker-2-29164775799",
-      "run_id": "29164775799",
-      "reserved_at": "2026-07-11T19:19:19Z"
-    },
     {
       "cr_film_id": 7290,
       "cr_slug": "narodni-trida",
