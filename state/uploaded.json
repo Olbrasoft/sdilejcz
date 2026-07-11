@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:36:50Z",
+  "last_updated": "2026-07-11T20:38:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25451,6 +25451,25 @@
         "upload_sec": 44.1,
         "total_sec": 150.7
       }
+    },
+    {
+      "cr_film_id": 15194,
+      "cr_slug": "divka-z-privesu-2022",
+      "title": "Dívka z přívěsu",
+      "year": 2022,
+      "sktorrent_id": 51840,
+      "sdilej_url": "https://sdilej.cz/34643070/divka-z-privesu-2022-cz-dabing.mp4",
+      "sdilej_name": "Dívka z přívěsu (2022) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T20:38:45Z",
+      "status": "uploaded",
+      "size_bytes": 322490837,
+      "worker_id": "worker-4-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 2.6,
+        "download_sec": 69.4,
+        "upload_sec": 42.4,
+        "total_sec": 114.5
+      }
     }
   ],
   "failed_attempts": [
@@ -25731,19 +25750,6 @@
       "failed_at": "2026-07-10T21:39:40Z",
       "timing": {
         "cdn_resolve_sec": 14.6
-      }
-    },
-    {
-      "cr_film_id": 15194,
-      "cr_slug": "divka-z-privesu-2022",
-      "title": "Dívka z přívěsu",
-      "year": 2022,
-      "sktorrent_id": 51840,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 135911952 out of 322490837 bytes received",
-      "failed_at": "2026-07-10T21:48:45Z",
-      "timing": {
-        "cdn_resolve_sec": 2.0,
-        "download_sec": 540.0
       }
     },
     {
@@ -26785,16 +26791,6 @@
       "worker_id": "worker-3-29165261717",
       "run_id": "29165261717",
       "reserved_at": "2026-07-11T20:36:03Z"
-    },
-    {
-      "cr_film_id": 15194,
-      "cr_slug": "divka-z-privesu-2022",
-      "title": "Dívka z přívěsu",
-      "year": 2022,
-      "sktorrent_id": 51840,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:36:50Z"
     }
   ]
 }
