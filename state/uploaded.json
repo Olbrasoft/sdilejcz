@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:56:22Z",
+  "last_updated": "2026-07-11T19:58:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25261,6 +25261,25 @@
         "upload_sec": 68.2,
         "total_sec": 390.7
       }
+    },
+    {
+      "cr_film_id": 3042,
+      "cr_slug": "ostrov",
+      "title": "Ostrov",
+      "year": 2005,
+      "sktorrent_id": 5680,
+      "sdilej_url": "https://sdilej.cz/34642670/ostrov-2005-cz-dabing.mp4",
+      "sdilej_name": "Ostrov (2005) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T19:58:17Z",
+      "status": "uploaded",
+      "size_bytes": 2019201752,
+      "worker_id": "worker-3-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 312.7,
+        "upload_sec": 199.8,
+        "total_sec": 513.6
+      }
     }
   ],
   "failed_attempts": [
@@ -26515,21 +26534,6 @@
       }
     },
     {
-      "cr_film_id": 3042,
-      "cr_slug": "ostrov",
-      "title": "Ostrov",
-      "year": 2005,
-      "sktorrent_id": 5680,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 414231951 out of 2019201752 bytes received",
-      "failed_at": "2026-07-11T19:19:18Z",
-      "first_failed_at": "2026-07-10T12:16:39Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 0.8,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 7522,
       "cr_slug": "vikingove-ztracene-kralovstvi",
       "title": "Aquaman a ztracené království",
@@ -26697,16 +26701,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 3042,
-      "cr_slug": "ostrov",
-      "title": "Ostrov",
-      "year": 2005,
-      "sktorrent_id": 5680,
-      "worker_id": "worker-3-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T19:49:43Z"
-    },
     {
       "cr_film_id": 7522,
       "cr_slug": "vikingove-ztracene-kralovstvi",
