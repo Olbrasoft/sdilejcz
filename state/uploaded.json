@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T01:31:45Z",
+  "last_updated": "2026-07-11T01:32:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -13098,19 +13098,23 @@
       "timing": {
         "cdn_resolve_sec": 10.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10691,
       "cr_slug": "the-great-mr-nobody-1941",
       "title": "The Great Mr. Nobody",
       "year": 1941,
       "sktorrent_id": 12237,
-      "worker_id": "worker-3-29128757096",
-      "run_id": "29128757096",
-      "reserved_at": "2026-07-11T01:30:07Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T01:32:12Z",
+      "timing": {
+        "cdn_resolve_sec": 8.7,
+        "download_sec": 85.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10445,
       "cr_slug": "spindl-2",
