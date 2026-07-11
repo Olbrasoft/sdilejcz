@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:31:07Z",
+  "last_updated": "2026-07-11T20:31:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25616,19 +25616,6 @@
       }
     },
     {
-      "cr_film_id": 10128,
-      "cr_slug": "gun-shy-hrdina-nahodou",
-      "title": "Gun Shy - Hrdina náhodou",
-      "year": 2017,
-      "sktorrent_id": 1320,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 823967744 out of 1065055410 bytes received",
-      "failed_at": "2026-07-10T20:41:06Z",
-      "timing": {
-        "cdn_resolve_sec": 3.8,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 12051,
       "cr_slug": "twin-peaks-ohni-se-mnou-pojd-1992",
       "title": "Twin Peaks: Ohni se mnou pojď",
@@ -26746,19 +26733,24 @@
         "cdn_resolve_sec": 6.9,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10128,
       "cr_slug": "gun-shy-hrdina-nahodou",
       "title": "Gun Shy - Hrdina náhodou",
       "year": 2017,
       "sktorrent_id": 1320,
-      "worker_id": "worker-1-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:22:30Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 172883968 out of 1065055410 bytes received",
+      "failed_at": "2026-07-11T20:31:36Z",
+      "first_failed_at": "2026-07-10T20:41:06Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 4.0,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8739,
       "cr_slug": "valhalla-rise-bohu-cz",
