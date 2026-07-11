@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:49:22Z",
+  "last_updated": "2026-07-11T20:49:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26580,21 +26580,6 @@
       }
     },
     {
-      "cr_film_id": 7290,
-      "cr_slug": "narodni-trida",
-      "title": "Národní třída",
-      "year": 2019,
-      "sktorrent_id": 6359,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 459631952 out of 785785001 bytes received",
-      "failed_at": "2026-07-11T20:09:13Z",
-      "first_failed_at": "2026-07-10T18:06:09Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.7,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 5946,
       "cr_slug": "dora-a-ztracene-mesto",
       "title": "Dora a ztracené město",
@@ -26790,19 +26775,24 @@
         "cdn_resolve_sec": 2.3,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7290,
       "cr_slug": "narodni-trida",
       "title": "Národní třída",
       "year": 2019,
       "sktorrent_id": 6359,
-      "worker_id": "worker-3-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:40:21Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 230663952 out of 785785001 bytes received",
+      "failed_at": "2026-07-11T20:49:23Z",
+      "first_failed_at": "2026-07-10T18:06:09Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5946,
       "cr_slug": "dora-a-ztracene-mesto",
