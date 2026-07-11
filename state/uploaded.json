@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:18:30Z",
+  "last_updated": "2026-07-11T20:18:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26532,21 +26532,6 @@
       }
     },
     {
-      "cr_film_id": 8673,
-      "cr_slug": "citlivy-clovek",
-      "title": "Citlivý člověk",
-      "year": 2023,
-      "sktorrent_id": 34743,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 376012800 out of 802941762 bytes received",
-      "failed_at": "2026-07-11T19:35:29Z",
-      "first_failed_at": "2026-07-10T18:45:15Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.5,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 8182,
       "cr_slug": "hrisna-hudba",
       "title": "Hříšná hudba",
@@ -26726,19 +26711,24 @@
         "download_sec": 266.2,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8673,
       "cr_slug": "citlivy-clovek",
       "title": "Citlivý člověk",
       "year": 2023,
       "sktorrent_id": 34743,
-      "worker_id": "worker-2-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:09:15Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 138674176 out of 802941762 bytes received",
+      "failed_at": "2026-07-11T20:18:33Z",
+      "first_failed_at": "2026-07-10T18:45:15Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.8,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8182,
       "cr_slug": "hrisna-hudba",
