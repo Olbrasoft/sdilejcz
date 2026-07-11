@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T01:33:38Z",
+  "last_updated": "2026-07-11T01:33:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -13159,6 +13159,20 @@
         "download_sec": 74.5,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 14975,
+      "cr_slug": "temna-skladanka-2022",
+      "title": "Temná skládanka",
+      "year": 2022,
+      "sktorrent_id": 35961,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T01:33:40Z",
+      "timing": {
+        "cdn_resolve_sec": 5.9,
+        "download_sec": 35.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -13171,16 +13185,6 @@
       "worker_id": "worker-3-29128757096",
       "run_id": "29128757096",
       "reserved_at": "2026-07-11T01:32:13Z"
-    },
-    {
-      "cr_film_id": 14975,
-      "cr_slug": "temna-skladanka-2022",
-      "title": "Temná skládanka",
-      "year": 2022,
-      "sktorrent_id": 35961,
-      "worker_id": "worker-1-29128757096",
-      "run_id": "29128757096",
-      "reserved_at": "2026-07-11T01:32:25Z"
     },
     {
       "cr_film_id": 15122,
