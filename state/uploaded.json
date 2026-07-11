@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T08:27:24Z",
+  "last_updated": "2026-07-11T08:27:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -19700,19 +19700,21 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one-1990",
       "title": "Delta Force Commando II: Priority Red One",
       "year": 1990,
       "sktorrent_id": 3577,
-      "worker_id": "worker-2-29146023126",
-      "run_id": "29146023126",
-      "reserved_at": "2026-07-11T08:27:21Z"
-    },
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-07-11T08:27:26Z",
+      "timing": {
+        "cdn_resolve_sec": 3.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11959,
       "cr_slug": "godzilla-vs-king-ghidorah",
