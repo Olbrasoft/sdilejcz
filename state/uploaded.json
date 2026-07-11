@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:20:42Z",
+  "last_updated": "2026-07-11T19:23:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25147,6 +25147,25 @@
         "upload_sec": 98.2,
         "total_sec": 622.2
       }
+    },
+    {
+      "cr_film_id": 5772,
+      "cr_slug": "certi-brko",
+      "title": "Čertí brko",
+      "year": 2018,
+      "sktorrent_id": 5697,
+      "sdilej_url": "https://sdilej.cz/34642588/certi-brko-2018-cz.mp4",
+      "sdilej_name": "Čertí brko (2018) CZ.mp4",
+      "uploaded_at": "2026-07-11T19:23:19Z",
+      "status": "uploaded",
+      "size_bytes": 1129705625,
+      "worker_id": "worker-1-29164775799",
+      "timing": {
+        "cdn_resolve_sec": 2.3,
+        "download_sec": 421.6,
+        "upload_sec": 131.8,
+        "total_sec": 555.8
+      }
     }
   ],
   "failed_attempts": [
@@ -25196,20 +25215,6 @@
       "failed_at": "2026-07-10T15:42:34Z",
       "timing": {
         "cdn_resolve_sec": 22.5
-      }
-    },
-    {
-      "cr_film_id": 5772,
-      "cr_slug": "certi-brko",
-      "title": "Čertí brko",
-      "year": 2018,
-      "sktorrent_id": 5697,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-10T16:03:02Z",
-      "timing": {
-        "cdn_resolve_sec": 2.6,
-        "download_sec": 231.5,
-        "upload_sec": 30.0
       }
     },
     {
@@ -26649,16 +26654,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5772,
-      "cr_slug": "certi-brko",
-      "title": "Čertí brko",
-      "year": 2018,
-      "sktorrent_id": 5697,
-      "worker_id": "worker-1-29164775799",
-      "run_id": "29164775799",
-      "reserved_at": "2026-07-11T19:14:02Z"
-    },
     {
       "cr_film_id": 7601,
       "cr_slug": "mein-schwiegervater-der-camper",
