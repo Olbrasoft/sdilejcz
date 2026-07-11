@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:31:37Z",
+  "last_updated": "2026-07-11T20:33:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26539,21 +26539,6 @@
       }
     },
     {
-      "cr_film_id": 8739,
-      "cr_slug": "valhalla-rise-bohu-cz",
-      "title": "Valhalla: Říše bohů",
-      "year": 2019,
-      "sktorrent_id": 8920,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 767426560 out of 781341538 bytes received",
-      "failed_at": "2026-07-11T19:54:05Z",
-      "first_failed_at": "2026-07-10T19:23:40Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 4.7,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 9368,
       "cr_slug": "prizrak-v-dome",
       "title": "Přízrak v domě",
@@ -26748,19 +26733,24 @@
         "cdn_resolve_sec": 4.0,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8739,
       "cr_slug": "valhalla-rise-bohu-cz",
       "title": "Valhalla: Říše bohů",
       "year": 2019,
       "sktorrent_id": 8920,
-      "worker_id": "worker-3-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:24:26Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 189956096 out of 781341538 bytes received",
+      "failed_at": "2026-07-11T20:33:30Z",
+      "first_failed_at": "2026-07-10T19:23:40Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 2.2,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9368,
       "cr_slug": "prizrak-v-dome",
