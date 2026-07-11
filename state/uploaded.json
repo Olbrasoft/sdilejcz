@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:48:10Z",
+  "last_updated": "2026-07-11T21:51:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26760,19 +26760,6 @@
       }
     },
     {
-      "cr_film_id": 34755,
-      "cr_slug": "thanks-for-the-memories",
-      "title": "Thanks for the Memories",
-      "year": 2019,
-      "sktorrent_id": 59253,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 794836992 out of 1080699814 bytes received",
-      "failed_at": "2026-07-11T13:52:59Z",
-      "timing": {
-        "cdn_resolve_sec": 0.7,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 8583,
       "cr_slug": "padesatka",
       "title": "Padesátka",
@@ -26921,6 +26908,22 @@
         "download_sec": 349.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 34755,
+      "cr_slug": "thanks-for-the-memories",
+      "title": "Thanks for the Memories",
+      "year": 2019,
+      "sktorrent_id": 59253,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T21:51:49Z",
+      "first_failed_at": "2026-07-11T13:52:59Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 351.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -26933,16 +26936,6 @@
       "worker_id": "worker-1-29165261717",
       "run_id": "29165261717",
       "reserved_at": "2026-07-11T21:44:34Z"
-    },
-    {
-      "cr_film_id": 34755,
-      "cr_slug": "thanks-for-the-memories",
-      "title": "Thanks for the Memories",
-      "year": 2019,
-      "sktorrent_id": 59253,
-      "worker_id": "worker-3-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:45:25Z"
     }
   ]
 }
