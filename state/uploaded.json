@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:10:20Z",
+  "last_updated": "2026-07-11T19:14:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25090,6 +25090,25 @@
         "upload_sec": 185.5,
         "total_sec": 367.8
       }
+    },
+    {
+      "cr_film_id": 1910,
+      "cr_slug": "pani-harrisova-jede-do-parize",
+      "title": "Paní Harrisová jede do Paříže",
+      "year": 2022,
+      "sktorrent_id": 27257,
+      "sdilej_url": "https://sdilej.cz/34642570/pani-harrisova-jede-do-parize-2022-cz-dabing.mp4",
+      "sdilej_name": "Paní Harrisová jede do Paříže (2022) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T19:14:01Z",
+      "status": "uploaded",
+      "size_bytes": 549615573,
+      "worker_id": "worker-1-29164775799",
+      "timing": {
+        "cdn_resolve_sec": 13.7,
+        "download_sec": 140.7,
+        "upload_sec": 65.1,
+        "total_sec": 219.5
+      }
     }
   ],
   "failed_attempts": [
@@ -25131,20 +25150,6 @@
       "timing": {
         "cdn_resolve_sec": 12.1,
         "download_sec": 105.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 1910,
-      "cr_slug": "pani-harrisova-jede-do-parize",
-      "title": "Paní Harrisová jede do Paříže",
-      "year": 2022,
-      "sktorrent_id": 27257,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-10T13:13:52Z",
-      "timing": {
-        "cdn_resolve_sec": 7.2,
-        "download_sec": 72.5,
         "upload_sec": 30.0
       }
     },
@@ -26659,16 +26664,6 @@
       "worker_id": "worker-3-29164775799",
       "run_id": "29164775799",
       "reserved_at": "2026-07-11T19:10:19Z"
-    },
-    {
-      "cr_film_id": 1910,
-      "cr_slug": "pani-harrisova-jede-do-parize",
-      "title": "Paní Harrisová jede do Paříže",
-      "year": 2022,
-      "sktorrent_id": 27257,
-      "worker_id": "worker-1-29164775799",
-      "run_id": "29164775799",
-      "reserved_at": "2026-07-11T19:10:20Z"
     }
   ]
 }
