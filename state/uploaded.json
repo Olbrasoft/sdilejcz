@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:38:15Z",
+  "last_updated": "2026-07-11T19:41:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25371,19 +25371,6 @@
       }
     },
     {
-      "cr_film_id": 7458,
-      "cr_slug": "fantasticka-ctyrka-silver-surfer",
-      "title": "Fantastická čtyřka a Silver Surfer",
-      "year": 2007,
-      "sktorrent_id": 6558,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 332583952 out of 995123351 bytes received",
-      "failed_at": "2026-07-10T19:11:43Z",
-      "timing": {
-        "cdn_resolve_sec": 1.7,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 9792,
       "cr_slug": "prilis-osobni-znamost",
       "title": "Příliš osobní známost",
@@ -26675,19 +26662,24 @@
         "cdn_resolve_sec": 12.7,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7458,
       "cr_slug": "fantasticka-ctyrka-silver-surfer",
       "title": "Fantastická čtyřka a Silver Surfer",
       "year": 2007,
       "sktorrent_id": 6558,
-      "worker_id": "worker-4-29164775799",
-      "run_id": "29164775799",
-      "reserved_at": "2026-07-11T19:32:38Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 582719952 out of 995123351 bytes received",
+      "failed_at": "2026-07-11T19:41:41Z",
+      "first_failed_at": "2026-07-10T19:11:43Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9792,
       "cr_slug": "prilis-osobni-znamost",
