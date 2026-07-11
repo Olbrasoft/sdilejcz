@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:41:30Z",
+  "last_updated": "2026-07-11T20:44:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25508,6 +25508,25 @@
         "upload_sec": 69.3,
         "total_sec": 160.4
       }
+    },
+    {
+      "cr_film_id": 16949,
+      "cr_slug": "autorka-smrti-2016",
+      "title": "Autorka smrti",
+      "year": 2016,
+      "sktorrent_id": 6103,
+      "sdilej_url": "https://sdilej.cz/34643093/autorka-smrti-2016-cz-dabing.mp4",
+      "sdilej_name": "Autorka smrti (2016) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T20:44:37Z",
+      "status": "uploaded",
+      "size_bytes": 327101337,
+      "worker_id": "worker-4-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 139.7,
+        "upload_sec": 44.1,
+        "total_sec": 186.0
+      }
     }
   ],
   "failed_attempts": [
@@ -25773,19 +25792,6 @@
       "failed_at": "2026-07-10T22:30:23Z",
       "timing": {
         "cdn_resolve_sec": 1.9,
-        "download_sec": 540.0
-      }
-    },
-    {
-      "cr_film_id": 16949,
-      "cr_slug": "autorka-smrti-2016",
-      "title": "Autorka smrti",
-      "year": 2016,
-      "sktorrent_id": 6103,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 190415952 out of 327101337 bytes received",
-      "failed_at": "2026-07-10T22:31:50Z",
-      "timing": {
-        "cdn_resolve_sec": 2.0,
         "download_sec": 540.0
       }
     },
@@ -26806,16 +26812,6 @@
       "worker_id": "worker-1-29165261717",
       "run_id": "29165261717",
       "reserved_at": "2026-07-11T20:40:42Z"
-    },
-    {
-      "cr_film_id": 16949,
-      "cr_slug": "autorka-smrti-2016",
-      "title": "Autorka smrti",
-      "year": 2016,
-      "sktorrent_id": 6103,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:41:30Z"
     }
   ]
 }
