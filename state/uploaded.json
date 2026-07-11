@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:35:10Z",
+  "last_updated": "2026-07-11T21:39:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26671,19 +26671,6 @@
       }
     },
     {
-      "cr_film_id": 17000,
-      "cr_slug": "banker-2020",
-      "title": "Bankéř",
-      "year": 2020,
-      "sktorrent_id": 7787,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 298729472 out of 2003128107 bytes received",
-      "failed_at": "2026-07-11T12:42:07Z",
-      "timing": {
-        "cdn_resolve_sec": 1.0,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 17020,
       "cr_slug": "vrazedna-sezona-temna-zahada-2017",
       "title": "Vražedná sezóna: Temná záhada",
@@ -26899,19 +26886,24 @@
         "cdn_resolve_sec": 13.2,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17000,
       "cr_slug": "banker-2020",
       "title": "Bankéř",
       "year": 2020,
       "sktorrent_id": 7787,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:30:15Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 195411968 out of 2003128107 bytes received",
+      "failed_at": "2026-07-11T21:39:21Z",
+      "first_failed_at": "2026-07-11T12:42:07Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 3.8,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10236,
       "cr_slug": "andilek-na-nervy",
