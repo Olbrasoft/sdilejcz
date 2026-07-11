@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T23:19:44Z",
+  "last_updated": "2026-07-11T23:27:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26936,26 +26936,15 @@
       "year": 1991,
       "sktorrent_id": 3332,
       "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-11T22:27:36Z",
+      "failed_at": "2026-07-11T23:27:33Z",
       "first_failed_at": "2026-07-11T08:36:29Z",
-      "attempt_count": 3,
+      "attempt_count": 4,
       "timing": {
-        "cdn_resolve_sec": 11.0,
-        "download_sec": 494.9,
+        "cdn_resolve_sec": 10.7,
+        "download_sec": 427.9,
         "upload_sec": 30.0
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 11959,
-      "cr_slug": "godzilla-vs-king-ghidorah",
-      "title": "Godzilla vs. King Ghidorah",
-      "year": 1991,
-      "sktorrent_id": 3332,
-      "worker_id": "worker-1-29171942208",
-      "run_id": "29171942208",
-      "reserved_at": "2026-07-11T23:19:44Z"
-    }
-  ]
+  "in_progress": []
 }
