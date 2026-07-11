@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:47:29Z",
+  "last_updated": "2026-07-11T21:48:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26040,6 +26040,25 @@
         "upload_sec": 90.9,
         "total_sec": 196.8
       }
+    },
+    {
+      "cr_film_id": 17543,
+      "cr_slug": "vanoce-v-kralovskych-satech-2018",
+      "title": "Vánoce v královských šatech",
+      "year": 2018,
+      "sktorrent_id": 5089,
+      "sdilej_url": "https://sdilej.cz/34643258/vanoce-v-kralovskych-satech-2018-cz-dabing.mp4",
+      "sdilej_name": "Vánoce v královských šatech (2018) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T21:48:10Z",
+      "status": "uploaded",
+      "size_bytes": 1230195043,
+      "worker_id": "worker-4-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 366.4,
+        "upload_sec": 158.4,
+        "total_sec": 526.5
+      }
     }
   ],
   "failed_attempts": [
@@ -26812,21 +26831,6 @@
       }
     },
     {
-      "cr_film_id": 17543,
-      "cr_slug": "vanoce-v-kralovskych-satech-2018",
-      "title": "Vánoce v královských šatech",
-      "year": 2018,
-      "sktorrent_id": 5089,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 1186775951 out of 1230195043 bytes received",
-      "failed_at": "2026-07-11T21:07:44Z",
-      "first_failed_at": "2026-07-11T00:11:47Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.5,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 8739,
       "cr_slug": "valhalla-rise-bohu-cz",
       "title": "Valhalla: Říše bohů",
@@ -26920,16 +26924,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 17543,
-      "cr_slug": "vanoce-v-kralovskych-satech-2018",
-      "title": "Vánoce v královských šatech",
-      "year": 2018,
-      "sktorrent_id": 5089,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:39:22Z"
-    },
     {
       "cr_film_id": 17105,
       "cr_slug": "the-great-war-2017",
