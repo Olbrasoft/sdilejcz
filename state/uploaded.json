@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T12:43:00Z",
+  "last_updated": "2026-07-11T12:43:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -23801,19 +23801,22 @@
         "cdn_resolve_sec": 1.0,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17020,
       "cr_slug": "vrazedna-sezona-temna-zahada-2017",
       "title": "Vražedná sezóna: Temná záhada",
       "year": 2017,
       "sktorrent_id": 4988,
-      "worker_id": "worker-1-29146023126",
-      "run_id": "29146023126",
-      "reserved_at": "2026-07-11T12:34:39Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 278364160 out of 325008763 bytes received",
+      "failed_at": "2026-07-11T12:43:42Z",
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17093,
       "cr_slug": "stiny-smrti-tajemstvi-opatstvi-2017",
