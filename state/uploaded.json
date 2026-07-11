@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T22:27:39Z",
+  "last_updated": "2026-07-11T22:29:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26097,6 +26097,25 @@
         "upload_sec": 197.3,
         "total_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 15454,
+      "cr_slug": "nedotknutelni-2019",
+      "title": "Nedotknutelní",
+      "year": 2019,
+      "sktorrent_id": 3449,
+      "sdilej_url": "https://sdilej.cz/34643291/nedotknutelni-2019-cz-dabing.mp4",
+      "sdilej_name": "Nedotknutelní (2019) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T22:29:20Z",
+      "status": "uploaded",
+      "size_bytes": 2568765938,
+      "worker_id": "worker-1-29170280976",
+      "timing": {
+        "cdn_resolve_sec": 13.4,
+        "download_sec": 304.1,
+        "upload_sec": 320.7,
+        "total_sec": 638.5
+      }
     }
   ],
   "failed_attempts": [
@@ -26858,22 +26877,6 @@
       }
     },
     {
-      "cr_film_id": 15454,
-      "cr_slug": "nedotknutelni-2019",
-      "title": "Nedotknutelní",
-      "year": 2019,
-      "sktorrent_id": 3449,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-11T21:30:13Z",
-      "first_failed_at": "2026-07-11T11:11:12Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.2,
-        "download_sec": 377.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 17000,
       "cr_slug": "banker-2020",
       "title": "Bankéř",
@@ -26937,16 +26940,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 15454,
-      "cr_slug": "nedotknutelni-2019",
-      "title": "Nedotknutelní",
-      "year": 2019,
-      "sktorrent_id": 3449,
-      "worker_id": "worker-1-29170280976",
-      "run_id": "29170280976",
-      "reserved_at": "2026-07-11T22:18:40Z"
-    },
     {
       "cr_film_id": 17000,
       "cr_slug": "banker-2020",
