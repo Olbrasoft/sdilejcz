@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T22:29:20Z",
+  "last_updated": "2026-07-11T22:30:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26116,6 +26116,25 @@
         "upload_sec": 320.7,
         "total_sec": 638.5
       }
+    },
+    {
+      "cr_film_id": 17000,
+      "cr_slug": "banker-2020",
+      "title": "Bankéř",
+      "year": 2020,
+      "sktorrent_id": 7787,
+      "sdilej_url": "https://sdilej.cz/34643294/banker-2020-cz-titulky.mp4",
+      "sdilej_name": "Bankéř (2020) CZ titulky.mp4",
+      "uploaded_at": "2026-07-11T22:30:46Z",
+      "status": "uploaded",
+      "size_bytes": 2003128107,
+      "worker_id": "worker-2-29170280976",
+      "timing": {
+        "cdn_resolve_sec": 2.8,
+        "download_sec": 512.4,
+        "upload_sec": 208.4,
+        "total_sec": 723.9
+      }
     }
   ],
   "failed_attempts": [
@@ -26877,21 +26896,6 @@
       }
     },
     {
-      "cr_film_id": 17000,
-      "cr_slug": "banker-2020",
-      "title": "Bankéř",
-      "year": 2020,
-      "sktorrent_id": 7787,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 195411968 out of 2003128107 bytes received",
-      "failed_at": "2026-07-11T21:39:21Z",
-      "first_failed_at": "2026-07-11T12:42:07Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 3.8,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 10236,
       "cr_slug": "andilek-na-nervy",
       "title": "Andílek na nervy",
@@ -26940,16 +26944,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 17000,
-      "cr_slug": "banker-2020",
-      "title": "Bankéř",
-      "year": 2020,
-      "sktorrent_id": 7787,
-      "worker_id": "worker-2-29170280976",
-      "run_id": "29170280976",
-      "reserved_at": "2026-07-11T22:18:41Z"
-    },
     {
       "cr_film_id": 34755,
       "cr_slug": "thanks-for-the-memories",
