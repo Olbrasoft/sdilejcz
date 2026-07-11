@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T01:34:01Z",
+  "last_updated": "2026-07-11T01:34:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -13187,19 +13187,23 @@
         "download_sec": 66.7,
         "upload_sec": 30.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15122,
       "cr_slug": "hadkovi-2022",
       "title": "Hádkovi",
       "year": 2022,
       "sktorrent_id": 25888,
-      "worker_id": "worker-2-29128757096",
-      "run_id": "29128757096",
-      "reserved_at": "2026-07-11T01:33:18Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T01:34:38Z",
+      "timing": {
+        "cdn_resolve_sec": 9.0,
+        "download_sec": 40.0,
+        "upload_sec": 30.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15631,
       "cr_slug": "prima-di-andare-via-2022",
