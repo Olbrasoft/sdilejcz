@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:30:11Z",
+  "last_updated": "2026-07-11T19:32:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25287,19 +25287,6 @@
       }
     },
     {
-      "cr_film_id": 5946,
-      "cr_slug": "dora-a-ztracene-mesto",
-      "title": "Dora a ztracené město",
-      "year": 2019,
-      "sktorrent_id": 8549,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 346335951 out of 1061427460 bytes received",
-      "failed_at": "2026-07-10T18:35:53Z",
-      "timing": {
-        "cdn_resolve_sec": 1.7,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 8828,
       "cr_slug": "smrtonosna-past-opet-v-akci",
       "title": "Smrtonosná past: Opět v akci",
@@ -26669,19 +26656,24 @@
         "cdn_resolve_sec": 1.0,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5946,
       "cr_slug": "dora-a-ztracene-mesto",
       "title": "Dora a ztracené město",
       "year": 2019,
       "sktorrent_id": 8549,
-      "worker_id": "worker-4-29164775799",
-      "run_id": "29164775799",
-      "reserved_at": "2026-07-11T19:23:35Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 234727951 out of 1061427460 bytes received",
+      "failed_at": "2026-07-11T19:32:37Z",
+      "first_failed_at": "2026-07-10T18:35:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8673,
       "cr_slug": "citlivy-clovek",
