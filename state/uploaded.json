@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:24:26Z",
+  "last_updated": "2026-07-11T20:27:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26528,21 +26528,6 @@
       }
     },
     {
-      "cr_film_id": 9792,
-      "cr_slug": "prilis-osobni-znamost",
-      "title": "Příliš osobní známost",
-      "year": 2020,
-      "sktorrent_id": 10736,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 541245440 out of 697803672 bytes received",
-      "failed_at": "2026-07-11T19:44:44Z",
-      "first_failed_at": "2026-07-10T19:11:58Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.2,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 8739,
       "cr_slug": "valhalla-rise-bohu-cz",
       "title": "Valhalla: Říše bohů",
@@ -26738,19 +26723,24 @@
         "download_sec": 129.7,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9792,
       "cr_slug": "prilis-osobni-znamost",
       "title": "Příliš osobní známost",
       "year": 2020,
       "sktorrent_id": 10736,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:18:30Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 157319168 out of 697803672 bytes received",
+      "failed_at": "2026-07-11T20:27:38Z",
+      "first_failed_at": "2026-07-10T19:11:58Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15980,
       "cr_slug": "film-2024-3",
