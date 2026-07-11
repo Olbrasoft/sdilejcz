@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:09:15Z",
+  "last_updated": "2026-07-11T20:10:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25540,19 +25540,6 @@
       }
     },
     {
-      "cr_film_id": 10023,
-      "cr_slug": "utes-smrti-vrazedne-vody",
-      "title": "Útes smrti: Vražedné vody",
-      "year": 2022,
-      "sktorrent_id": 49802,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 660471808 out of 866739009 bytes received",
-      "failed_at": "2026-07-10T20:04:16Z",
-      "timing": {
-        "cdn_resolve_sec": 5.1,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 10236,
       "cr_slug": "andilek-na-nervy",
       "title": "Andílek na nervy",
@@ -26719,19 +26706,24 @@
         "cdn_resolve_sec": 1.7,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10023,
       "cr_slug": "utes-smrti-vrazedne-vody",
       "title": "Útes smrti: Vražedné vody",
       "year": 2022,
       "sktorrent_id": 49802,
-      "worker_id": "worker-1-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:00:48Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 131465216 out of 866739009 bytes received",
+      "failed_at": "2026-07-11T20:10:03Z",
+      "first_failed_at": "2026-07-10T20:04:16Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.4,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5946,
       "cr_slug": "dora-a-ztracene-mesto",
