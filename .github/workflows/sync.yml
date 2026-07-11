@@ -35,12 +35,10 @@ jobs:
         with:
           persist-credentials: true
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install -r requirements.txt
 
       - name: Configure git
         run: |
@@ -70,4 +68,4 @@ jobs:
           MAX_RUNTIME_MINUTES: ${{ github.event.inputs.max_runtime_minutes || '320' }}
           WORKER_ID: worker-${{ matrix.worker }}-${{ github.run_id }}
           COMMIT_AFTER_EACH_UPLOAD: "true"
-        run: python src/sync_batch.py --count "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}" --worker-id "${WORKER_ID}"
+        run: .venv/bin/python src/sync_batch.py --count "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}" --worker-id "${WORKER_ID}"
