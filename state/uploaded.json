@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T22:18:41Z",
+  "last_updated": "2026-07-11T22:27:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26855,21 +26855,6 @@
       }
     },
     {
-      "cr_film_id": 11959,
-      "cr_slug": "godzilla-vs-king-ghidorah",
-      "title": "Godzilla vs. King Ghidorah",
-      "year": 1991,
-      "sktorrent_id": 3332,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 3700271951 out of 3967410705 bytes received",
-      "failed_at": "2026-07-11T21:31:53Z",
-      "first_failed_at": "2026-07-11T08:36:29Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.2,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 17000,
       "cr_slug": "banker-2020",
       "title": "Bankéř",
@@ -26930,6 +26915,22 @@
         "download_sec": 351.5,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 11959,
+      "cr_slug": "godzilla-vs-king-ghidorah",
+      "title": "Godzilla vs. King Ghidorah",
+      "year": 1991,
+      "sktorrent_id": 3332,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T22:27:36Z",
+      "first_failed_at": "2026-07-11T08:36:29Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.0,
+        "download_sec": 494.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -26942,16 +26943,6 @@
       "worker_id": "worker-4-29170280976",
       "run_id": "29170280976",
       "reserved_at": "2026-07-11T22:18:38Z"
-    },
-    {
-      "cr_film_id": 11959,
-      "cr_slug": "godzilla-vs-king-ghidorah",
-      "title": "Godzilla vs. King Ghidorah",
-      "year": 1991,
-      "sktorrent_id": 3332,
-      "worker_id": "worker-3-29170280976",
-      "run_id": "29170280976",
-      "reserved_at": "2026-07-11T22:18:39Z"
     },
     {
       "cr_film_id": 15454,
