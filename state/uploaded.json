@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:00:10Z",
+  "last_updated": "2026-07-11T20:00:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25299,6 +25299,25 @@
         "upload_sec": 192.2,
         "total_sec": 513.3
       }
+    },
+    {
+      "cr_film_id": 9891,
+      "cr_slug": "zenska-na-vrcholu",
+      "title": "Ženská na vrcholu",
+      "year": 2019,
+      "sktorrent_id": 10264,
+      "sdilej_url": "https://sdilej.cz/34642678/zenska-na-vrcholu-2019-cz.mp4",
+      "sdilej_name": "Ženská na vrcholu (2019) CZ.mp4",
+      "uploaded_at": "2026-07-11T20:00:13Z",
+      "status": "uploaded",
+      "size_bytes": 573822447,
+      "worker_id": "worker-1-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 5.5,
+        "download_sec": 279.8,
+        "upload_sec": 76.1,
+        "total_sec": 361.4
+      }
     }
   ],
   "failed_attempts": [
@@ -25456,19 +25475,6 @@
       "failed_at": "2026-07-10T19:31:50Z",
       "timing": {
         "cdn_resolve_sec": 22.0
-      }
-    },
-    {
-      "cr_film_id": 9891,
-      "cr_slug": "zenska-na-vrcholu",
-      "title": "Ženská na vrcholu",
-      "year": 2019,
-      "sktorrent_id": 10264,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 200540160 out of 573822447 bytes received",
-      "failed_at": "2026-07-10T19:48:14Z",
-      "timing": {
-        "cdn_resolve_sec": 5.2,
-        "download_sec": 540.0
       }
     },
     {
@@ -26704,16 +26710,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 9891,
-      "cr_slug": "zenska-na-vrcholu",
-      "title": "Ženská na vrcholu",
-      "year": 2019,
-      "sktorrent_id": 10264,
-      "worker_id": "worker-1-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T19:54:10Z"
-    },
     {
       "cr_film_id": 9376,
       "cr_slug": "prazske-orgie",
