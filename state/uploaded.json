@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:22:30Z",
+  "last_updated": "2026-07-11T20:24:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25578,20 +25578,6 @@
       }
     },
     {
-      "cr_film_id": 10215,
-      "cr_slug": "sat-na-lasku",
-      "title": "S*át na lásku",
-      "year": 2022,
-      "sktorrent_id": 23320,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-10T20:26:58Z",
-      "timing": {
-        "cdn_resolve_sec": 7.1,
-        "download_sec": 451.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 15980,
       "cr_slug": "film-2024-3",
       "title": "Viva La Vida",
@@ -26736,6 +26722,22 @@
         "cdn_resolve_sec": 1.7,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 10215,
+      "cr_slug": "sat-na-lasku",
+      "title": "S*át na lásku",
+      "year": 2022,
+      "sktorrent_id": 23320,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T20:24:25Z",
+      "first_failed_at": "2026-07-10T20:26:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.3,
+        "download_sec": 129.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -26748,16 +26750,6 @@
       "worker_id": "worker-4-29165261717",
       "run_id": "29165261717",
       "reserved_at": "2026-07-11T20:18:30Z"
-    },
-    {
-      "cr_film_id": 10215,
-      "cr_slug": "sat-na-lasku",
-      "title": "S*át na lásku",
-      "year": 2022,
-      "sktorrent_id": 23320,
-      "worker_id": "worker-3-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:21:35Z"
     },
     {
       "cr_film_id": 15980,
