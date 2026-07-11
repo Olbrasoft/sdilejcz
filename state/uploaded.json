@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:00:15Z",
+  "last_updated": "2026-07-11T20:00:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25529,19 +25529,6 @@
       }
     },
     {
-      "cr_film_id": 9698,
-      "cr_slug": "timber-lovec-pokladu",
-      "title": "Timber - Lovec pokladů",
-      "year": 2016,
-      "sktorrent_id": 1856,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540001 milliseconds with 209879040 out of 515743631 bytes received",
-      "failed_at": "2026-07-10T20:04:09Z",
-      "timing": {
-        "cdn_resolve_sec": 3.3,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 10023,
       "cr_slug": "utes-smrti-vrazedne-vody",
       "title": "Útes smrti: Vražedné vody",
@@ -26707,6 +26694,20 @@
         "download_sec": 81.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 9698,
+      "cr_slug": "timber-lovec-pokladu",
+      "title": "Timber - Lovec pokladů",
+      "year": 2016,
+      "sktorrent_id": 1856,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-07-11T20:00:46Z",
+      "first_failed_at": "2026-07-10T20:04:09Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 30.2
+      }
     }
   ],
   "in_progress": [
@@ -26739,16 +26740,6 @@
       "worker_id": "worker-2-29165261717",
       "run_id": "29165261717",
       "reserved_at": "2026-07-11T20:00:10Z"
-    },
-    {
-      "cr_film_id": 9698,
-      "cr_slug": "timber-lovec-pokladu",
-      "title": "Timber - Lovec pokladů",
-      "year": 2016,
-      "sktorrent_id": 1856,
-      "worker_id": "worker-1-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:00:15Z"
     }
   ]
 }
