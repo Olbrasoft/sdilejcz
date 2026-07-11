@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+import datetime as dt
 from pathlib import Path
 
 
@@ -12,6 +13,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 BACKLOG = REPO_ROOT / "backlog" / "sktorrent-films.jsonl"
 STATE = REPO_ROOT / "state" / "uploaded.json"
 NATIVE_ORIGINS = {"cs", "sk"}
+RETRYABLE_FAILURE_PREFIXES = ("download_failed", "upload_failed")
+FAILED_RETRY_DELAY_MINUTES = 30
+FAILED_MAX_ATTEMPTS = 4
 
 
 def load_backlog(path: Path = BACKLOG) -> list[dict]:
@@ -24,9 +28,35 @@ def load_state(path: Path = STATE) -> dict:
     return json.loads(path.read_text())
 
 
+def parse_iso(value: str | None) -> dt.datetime | None:
+    if not value:
+        return None
+    try:
+        return dt.datetime.strptime(value, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc)
+    except ValueError:
+        return None
+
+
+def failure_retryable(failure: dict, now: dt.datetime | None = None) -> bool:
+    reason = failure.get("reason") or ""
+    if not reason.startswith(RETRYABLE_FAILURE_PREFIXES):
+        return False
+    if int(failure.get("attempt_count") or 1) >= FAILED_MAX_ATTEMPTS:
+        return False
+    failed_at = parse_iso(failure.get("failed_at"))
+    if not failed_at:
+        return True
+    now = now or dt.datetime.now(dt.timezone.utc)
+    return now - failed_at >= dt.timedelta(minutes=FAILED_RETRY_DELAY_MINUTES)
+
+
 def excluded_ids(state: dict, extra: set[int] | None = None) -> set[int]:
     done = {u["cr_film_id"] for u in state.get("uploads", [])}
-    failed = {f["cr_film_id"] for f in state.get("failed_attempts", [])}
+    failed = {
+        f["cr_film_id"]
+        for f in state.get("failed_attempts", [])
+        if not failure_retryable(f)
+    }
     reserved = {r["cr_film_id"] for r in state.get("in_progress", [])}
     return done | failed | reserved | (extra or set())
 

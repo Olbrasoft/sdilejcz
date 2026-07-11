@@ -158,6 +158,18 @@ def remove_reservation(state: dict, cr_film_id: int, worker_id: str) -> None:
     ]
 
 
+def remove_failed_attempt(state: dict, cr_film_id: int) -> dict | None:
+    previous: dict | None = None
+    kept = []
+    for item in state.get("failed_attempts", []):
+        if item.get("cr_film_id") == cr_film_id:
+            previous = item
+        else:
+            kept.append(item)
+    state["failed_attempts"] = kept
+    return previous
+
+
 def reserve_next_film(backlog: list[dict], worker_id: str, run_id: str, extra_exclude: set[int]) -> tuple[dict, dict | None]:
     picked: dict | None = None
 
@@ -184,8 +196,7 @@ def reserve_next_film(backlog: list[dict], worker_id: str, run_id: str, extra_ex
 def record_failure(film: dict, reason: str, worker_id: str, timing: dict | None = None) -> None:
     def mutate(state: dict):
         remove_reservation(state, film["cr_film_id"], worker_id)
-        if any(f.get("cr_film_id") == film["cr_film_id"] for f in state.get("failed_attempts", [])):
-            return True, None
+        previous = remove_failed_attempt(state, film["cr_film_id"])
         entry = {
             "cr_film_id": film["cr_film_id"],
             "cr_slug": film.get("cr_slug"),
@@ -194,6 +205,8 @@ def record_failure(film: dict, reason: str, worker_id: str, timing: dict | None 
             "sktorrent_id": film.get("id"),
             "reason": reason,
             "failed_at": now_iso(),
+            "first_failed_at": (previous or {}).get("first_failed_at") or (previous or {}).get("failed_at") or now_iso(),
+            "attempt_count": int((previous or {}).get("attempt_count") or 1) + 1 if previous else 1,
         }
         if timing:
             entry["timing"] = timing
@@ -283,6 +296,7 @@ def process_one(film: dict, session, worker_id: str) -> bool:
 
     def mutate(state: dict):
         remove_reservation(state, cr_film_id, worker_id)
+        remove_failed_attempt(state, cr_film_id)
         if any(u.get("cr_film_id") == cr_film_id for u in state.get("uploads", [])):
             return True, None
         state.setdefault("uploads", []).append(entry)
