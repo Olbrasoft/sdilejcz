@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:53:43Z",
+  "last_updated": "2026-07-11T20:53:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26580,21 +26580,6 @@
       }
     },
     {
-      "cr_film_id": 10236,
-      "cr_slug": "andilek-na-nervy",
-      "title": "Andílek na nervy",
-      "year": 2015,
-      "sktorrent_id": 5663,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 168165376 out of 1113166477 bytes received",
-      "failed_at": "2026-07-11T20:13:24Z",
-      "first_failed_at": "2026-07-10T20:13:21Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 5.3,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 16827,
       "cr_slug": "luisa-spagnoli-2016",
       "title": "Luisa Spagnoli",
@@ -26790,19 +26775,24 @@
         "cdn_resolve_sec": 1.6,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10236,
       "cr_slug": "andilek-na-nervy",
       "title": "Andílek na nervy",
       "year": 2015,
       "sktorrent_id": 5663,
-      "worker_id": "worker-1-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:44:43Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 172818432 out of 1113166477 bytes received",
+      "failed_at": "2026-07-11T20:53:48Z",
+      "first_failed_at": "2026-07-10T20:13:21Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 3.4,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8673,
       "cr_slug": "citlivy-clovek",
