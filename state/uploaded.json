@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:57:45Z",
+  "last_updated": "2026-07-11T20:58:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25622,6 +25622,25 @@
         "upload_sec": 65.6,
         "total_sec": 156.2
       }
+    },
+    {
+      "cr_film_id": 8182,
+      "cr_slug": "hrisna-hudba",
+      "title": "Hříšná hudba",
+      "year": 2019,
+      "sktorrent_id": 28092,
+      "sdilej_url": "https://sdilej.cz/34643142/hrisna-hudba-2019-cz-dabing.mp4",
+      "sdilej_name": "Hříšná hudba (2019) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T20:58:02Z",
+      "status": "uploaded",
+      "size_bytes": 595620693,
+      "worker_id": "worker-4-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 6.3,
+        "download_sec": 173.8,
+        "upload_sec": 77.3,
+        "total_sec": 257.5
+      }
     }
   ],
   "failed_attempts": [
@@ -26623,21 +26642,6 @@
       }
     },
     {
-      "cr_film_id": 8182,
-      "cr_slug": "hrisna-hudba",
-      "title": "Hříšná hudba",
-      "year": 2019,
-      "sktorrent_id": 28092,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 128368640 out of 595620693 bytes received",
-      "failed_at": "2026-07-11T20:19:26Z",
-      "first_failed_at": "2026-07-10T18:59:19Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 20.1,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 7458,
       "cr_slug": "fantasticka-ctyrka-silver-surfer",
       "title": "Fantastická čtyřka a Silver Surfer",
@@ -26805,16 +26809,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 8182,
-      "cr_slug": "hrisna-hudba",
-      "title": "Hříšná hudba",
-      "year": 2019,
-      "sktorrent_id": 28092,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:53:43Z"
-    },
     {
       "cr_film_id": 7458,
       "cr_slug": "fantasticka-ctyrka-silver-surfer",
