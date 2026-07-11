@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T00:11:38Z",
+  "last_updated": "2026-07-11T00:11:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -10371,19 +10371,23 @@
       "timing": {
         "cdn_resolve_sec": 10.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17543,
       "cr_slug": "vanoce-v-kralovskych-satech-2018",
       "title": "Vánoce v královských šatech",
       "year": 2018,
       "sktorrent_id": 5089,
-      "worker_id": "worker-1-29128757096",
-      "run_id": "29128757096",
-      "reserved_at": "2026-07-11T00:06:52Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T00:11:47Z",
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 262.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16593,
       "cr_slug": "nekonecne-leto-2015",
