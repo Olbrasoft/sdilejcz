@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:04:49Z",
+  "last_updated": "2026-07-11T21:07:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26026,20 +26026,6 @@
       }
     },
     {
-      "cr_film_id": 17337,
-      "cr_slug": "jedna-za-osmnact-druha-bez-dvou-za-dvacet-2018",
-      "title": "Jedna za osmnáct, druhá bez dvou za dvacet",
-      "year": 2018,
-      "sktorrent_id": 2396,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-10T23:48:49Z",
-      "timing": {
-        "cdn_resolve_sec": 4.8,
-        "download_sec": 224.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 10090,
       "cr_slug": "tym-jedna",
       "title": "Ghost Team One",
@@ -26817,19 +26803,24 @@
         "cdn_resolve_sec": 3.4,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17337,
       "cr_slug": "jedna-za-osmnact-druha-bez-dvou-za-dvacet-2018",
       "title": "Jedna za osmnáct, druhá bez dvou za dvacet",
       "year": 2018,
       "sktorrent_id": 2396,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:58:04Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 1938210816 out of 2034578040 bytes received",
+      "failed_at": "2026-07-11T21:07:13Z",
+      "first_failed_at": "2026-07-10T23:48:49Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17543,
       "cr_slug": "vanoce-v-kralovskych-satech-2018",
