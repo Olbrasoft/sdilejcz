@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:40:21Z",
+  "last_updated": "2026-07-11T20:40:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25673,19 +25673,6 @@
       }
     },
     {
-      "cr_film_id": 12051,
-      "cr_slug": "twin-peaks-ohni-se-mnou-pojd-1992",
-      "title": "Twin Peaks: Ohni se mnou pojď",
-      "year": 1992,
-      "sktorrent_id": 3406,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540001 milliseconds with 967943951 out of 1582238456 bytes received",
-      "failed_at": "2026-07-10T20:49:00Z",
-      "timing": {
-        "cdn_resolve_sec": 12.5,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 10292,
       "cr_slug": "hadi-plyn",
       "title": "Hadí plyn",
@@ -26765,19 +26752,24 @@
         "cdn_resolve_sec": 6.6,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12051,
       "cr_slug": "twin-peaks-ohni-se-mnou-pojd-1992",
       "title": "Twin Peaks: Ohni se mnou pojď",
       "year": 1992,
       "sktorrent_id": 3406,
-      "worker_id": "worker-2-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:31:07Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 1021263951 out of 1582238456 bytes received",
+      "failed_at": "2026-07-11T20:40:29Z",
+      "first_failed_at": "2026-07-10T20:49:00Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 19.9,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10292,
       "cr_slug": "hadi-plyn",
