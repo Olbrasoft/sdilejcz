@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T22:30:47Z",
+  "last_updated": "2026-07-11T22:34:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26135,6 +26135,25 @@
         "upload_sec": 208.4,
         "total_sec": 723.9
       }
+    },
+    {
+      "cr_film_id": 34755,
+      "cr_slug": "thanks-for-the-memories",
+      "title": "Thanks for the Memories",
+      "year": 2019,
+      "sktorrent_id": 59253,
+      "sdilej_url": "https://sdilej.cz/34643297/thanks-for-the-memories-2019-cz.mp4",
+      "sdilej_name": "Thanks for the Memories (2019) CZ.mp4",
+      "uploaded_at": "2026-07-11T22:34:11Z",
+      "status": "uploaded",
+      "size_bytes": 1080699814,
+      "worker_id": "worker-3-29170280976",
+      "timing": {
+        "cdn_resolve_sec": 2.2,
+        "download_sec": 279.1,
+        "upload_sec": 111.3,
+        "total_sec": 392.8
+      }
     }
   ],
   "failed_attempts": [
@@ -26911,22 +26930,6 @@
       }
     },
     {
-      "cr_film_id": 34755,
-      "cr_slug": "thanks-for-the-memories",
-      "title": "Thanks for the Memories",
-      "year": 2019,
-      "sktorrent_id": 59253,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-11T21:51:49Z",
-      "first_failed_at": "2026-07-11T13:52:59Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.6,
-        "download_sec": 351.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 11959,
       "cr_slug": "godzilla-vs-king-ghidorah",
       "title": "Godzilla vs. King Ghidorah",
@@ -26943,16 +26946,5 @@
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 34755,
-      "cr_slug": "thanks-for-the-memories",
-      "title": "Thanks for the Memories",
-      "year": 2019,
-      "sktorrent_id": 59253,
-      "worker_id": "worker-3-29170280976",
-      "run_id": "29170280976",
-      "reserved_at": "2026-07-11T22:27:38Z"
-    }
-  ]
+  "in_progress": []
 }
