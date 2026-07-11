@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:12:31Z",
+  "last_updated": "2026-07-11T21:13:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26695,21 +26695,6 @@
       }
     },
     {
-      "cr_film_id": 8739,
-      "cr_slug": "valhalla-rise-bohu-cz",
-      "title": "Valhalla: Říše bohů",
-      "year": 2019,
-      "sktorrent_id": 8920,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 189956096 out of 781341538 bytes received",
-      "failed_at": "2026-07-11T20:33:30Z",
-      "first_failed_at": "2026-07-10T19:23:40Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 2.2,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 12051,
       "cr_slug": "twin-peaks-ohni-se-mnou-pojd-1992",
       "title": "Twin Peaks: Ohni se mnou pojď",
@@ -26829,19 +26814,24 @@
         "download_sec": 156.4,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8739,
       "cr_slug": "valhalla-rise-bohu-cz",
       "title": "Valhalla: Říše bohů",
       "year": 2019,
       "sktorrent_id": 8920,
-      "worker_id": "worker-1-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:04:49Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 595443712 out of 781341538 bytes received",
+      "failed_at": "2026-07-11T21:13:55Z",
+      "first_failed_at": "2026-07-10T19:23:40Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 4.1,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12051,
       "cr_slug": "twin-peaks-ohni-se-mnou-pojd-1992",
