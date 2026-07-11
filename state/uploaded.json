@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T13:49:09Z",
+  "last_updated": "2026-07-11T13:52:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -24923,18 +24923,20 @@
         "cdn_resolve_sec": 0.3,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34755,
       "cr_slug": "thanks-for-the-memories",
       "title": "Thanks for the Memories",
       "year": 2019,
       "sktorrent_id": 59253,
-      "worker_id": "worker-1-29146023126",
-      "run_id": "29146023126",
-      "reserved_at": "2026-07-11T13:43:56Z"
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 794836992 out of 1080699814 bytes received",
+      "failed_at": "2026-07-11T13:52:59Z",
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 540.0
+      }
     }
-  ]
+  ],
+  "in_progress": []
 }
