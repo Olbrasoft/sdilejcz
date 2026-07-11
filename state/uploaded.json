@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:07:14Z",
+  "last_updated": "2026-07-11T21:07:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26038,20 +26038,6 @@
       }
     },
     {
-      "cr_film_id": 17543,
-      "cr_slug": "vanoce-v-kralovskych-satech-2018",
-      "title": "Vánoce v královských šatech",
-      "year": 2018,
-      "sktorrent_id": 5089,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-11T00:11:47Z",
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 262.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 16591,
       "cr_slug": "byla-si-uz-na-mesici-2015",
       "title": "Byla si už na měsíci?",
@@ -26818,19 +26804,24 @@
         "cdn_resolve_sec": 6.9,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17543,
       "cr_slug": "vanoce-v-kralovskych-satech-2018",
       "title": "Vánoce v královských šatech",
       "year": 2018,
       "sktorrent_id": 5089,
-      "worker_id": "worker-2-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:58:40Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 1186775951 out of 1230195043 bytes received",
+      "failed_at": "2026-07-11T21:07:44Z",
+      "first_failed_at": "2026-07-11T00:11:47Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10128,
       "cr_slug": "gun-shy-hrdina-nahodou",
