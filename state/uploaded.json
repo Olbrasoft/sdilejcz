@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T10:03:39Z",
+  "last_updated": "2026-07-11T10:03:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -21236,6 +21236,18 @@
       "timing": {
         "cdn_resolve_sec": 4.0
       }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play-2008",
+      "title": "Cold Play",
+      "year": 2008,
+      "sktorrent_id": 12217,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-07-11T10:03:49Z",
+      "timing": {
+        "cdn_resolve_sec": 7.5
+      }
     }
   ],
   "in_progress": [
@@ -21268,16 +21280,6 @@
       "worker_id": "worker-4-29146023126",
       "run_id": "29146023126",
       "reserved_at": "2026-07-11T10:01:33Z"
-    },
-    {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play-2008",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": 12217,
-      "worker_id": "worker-3-29146023126",
-      "run_id": "29146023126",
-      "reserved_at": "2026-07-11T10:03:39Z"
     }
   ]
 }
