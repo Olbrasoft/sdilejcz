@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:07:45Z",
+  "last_updated": "2026-07-11T21:10:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26110,20 +26110,6 @@
       }
     },
     {
-      "cr_film_id": 10691,
-      "cr_slug": "the-great-mr-nobody-1941",
-      "title": "The Great Mr. Nobody",
-      "year": 1941,
-      "sktorrent_id": 12237,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-11T01:32:12Z",
-      "timing": {
-        "cdn_resolve_sec": 8.7,
-        "download_sec": 85.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 15956,
       "cr_slug": "v-zajeti-dokonale-rodiny-2023",
       "title": "V zajetí dokonalé rodiny",
@@ -26819,6 +26805,22 @@
         "cdn_resolve_sec": 1.5,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 10691,
+      "cr_slug": "the-great-mr-nobody-1941",
+      "title": "The Great Mr. Nobody",
+      "year": 1941,
+      "sktorrent_id": 12237,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T21:10:34Z",
+      "first_failed_at": "2026-07-11T01:32:12Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.6,
+        "download_sec": 156.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -26841,16 +26843,6 @@
       "worker_id": "worker-1-29165261717",
       "run_id": "29165261717",
       "reserved_at": "2026-07-11T21:04:49Z"
-    },
-    {
-      "cr_film_id": 10691,
-      "cr_slug": "the-great-mr-nobody-1941",
-      "title": "The Great Mr. Nobody",
-      "year": 1941,
-      "sktorrent_id": 12237,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:07:14Z"
     },
     {
       "cr_film_id": 9368,
