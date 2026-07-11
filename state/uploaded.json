@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:41:41Z",
+  "last_updated": "2026-07-11T19:44:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25371,20 +25371,6 @@
       }
     },
     {
-      "cr_film_id": 9792,
-      "cr_slug": "prilis-osobni-znamost",
-      "title": "Příliš osobní známost",
-      "year": 2020,
-      "sktorrent_id": 10736,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-10T19:11:58Z",
-      "timing": {
-        "cdn_resolve_sec": 3.7,
-        "download_sec": 467.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14079,
       "cr_slug": "prvni-akcni-hrdina-2019",
       "title": "První akční hrdina",
@@ -26677,18 +26663,22 @@
         "cdn_resolve_sec": 1.2,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9792,
       "cr_slug": "prilis-osobni-znamost",
       "title": "Příliš osobní známost",
       "year": 2020,
       "sktorrent_id": 10736,
-      "worker_id": "worker-2-29164775799",
-      "run_id": "29164775799",
-      "reserved_at": "2026-07-11T19:35:30Z"
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 541245440 out of 697803672 bytes received",
+      "failed_at": "2026-07-11T19:44:44Z",
+      "first_failed_at": "2026-07-10T19:11:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.2,
+        "download_sec": 540.0
+      }
     }
-  ]
+  ],
+  "in_progress": []
 }
