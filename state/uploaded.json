@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:13:26Z",
+  "last_updated": "2026-07-11T20:18:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25554,19 +25554,6 @@
       }
     },
     {
-      "cr_film_id": 16827,
-      "cr_slug": "luisa-spagnoli-2016",
-      "title": "Luisa Spagnoli",
-      "year": 2016,
-      "sktorrent_id": 12882,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 444825600 out of 618568602 bytes received",
-      "failed_at": "2026-07-10T20:15:35Z",
-      "timing": {
-        "cdn_resolve_sec": 4.5,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 17661,
       "cr_slug": "mr-malcolm-s-list-2019",
       "title": "Mr. Malcolm's List",
@@ -26723,6 +26710,22 @@
         "cdn_resolve_sec": 5.3,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 16827,
+      "cr_slug": "luisa-spagnoli-2016",
+      "title": "Luisa Spagnoli",
+      "year": 2016,
+      "sktorrent_id": 12882,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T20:18:28Z",
+      "first_failed_at": "2026-07-10T20:15:35Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 5.2,
+        "download_sec": 266.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -26755,16 +26758,6 @@
       "worker_id": "worker-3-29165261717",
       "run_id": "29165261717",
       "reserved_at": "2026-07-11T20:12:31Z"
-    },
-    {
-      "cr_film_id": 16827,
-      "cr_slug": "luisa-spagnoli-2016",
-      "title": "Luisa Spagnoli",
-      "year": 2016,
-      "sktorrent_id": 12882,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:13:26Z"
     }
   ]
 }
