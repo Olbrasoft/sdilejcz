@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:19:19Z",
+  "last_updated": "2026-07-11T19:19:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25208,20 +25208,6 @@
       }
     },
     {
-      "cr_film_id": 7522,
-      "cr_slug": "vikingove-ztracene-kralovstvi",
-      "title": "Aquaman a ztracené království",
-      "year": 2022,
-      "sktorrent_id": 34303,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-10T16:18:40Z",
-      "timing": {
-        "cdn_resolve_sec": 8.4,
-        "download_sec": 346.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 7550,
       "cr_slug": "dum-hruzy",
       "title": "Dům na Haunted Hill",
@@ -26639,6 +26625,22 @@
         "cdn_resolve_sec": 0.8,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 7522,
+      "cr_slug": "vikingove-ztracene-kralovstvi",
+      "title": "Aquaman a ztracené království",
+      "year": 2022,
+      "sktorrent_id": 34303,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T19:19:57Z",
+      "first_failed_at": "2026-07-10T16:18:40Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.0,
+        "download_sec": 276.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -26661,16 +26663,6 @@
       "worker_id": "worker-1-29164775799",
       "run_id": "29164775799",
       "reserved_at": "2026-07-11T19:14:02Z"
-    },
-    {
-      "cr_film_id": 7522,
-      "cr_slug": "vikingove-ztracene-kralovstvi",
-      "title": "Aquaman a ztracené království",
-      "year": 2022,
-      "sktorrent_id": 34303,
-      "worker_id": "worker-3-29164775799",
-      "run_id": "29164775799",
-      "reserved_at": "2026-07-11T19:14:40Z"
     },
     {
       "cr_film_id": 7601,
