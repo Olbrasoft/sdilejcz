@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:10:36Z",
+  "last_updated": "2026-07-11T21:10:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25698,6 +25698,25 @@
         "upload_sec": 127.7,
         "total_sec": 657.1
       }
+    },
+    {
+      "cr_film_id": 10128,
+      "cr_slug": "gun-shy-hrdina-nahodou",
+      "title": "Gun Shy - Hrdina náhodou",
+      "year": 2017,
+      "sktorrent_id": 1320,
+      "sdilej_url": "https://sdilej.cz/34643175/gun-shy-hrdina-nahodou-2017-cz-dabing.mp4",
+      "sdilej_name": "Gun Shy - Hrdina náhodou (2017) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T21:10:52Z",
+      "status": "uploaded",
+      "size_bytes": 1065055410,
+      "worker_id": "worker-3-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 2.9,
+        "download_sec": 384.2,
+        "upload_sec": 106.8,
+        "total_sec": 494.0
+      }
     }
   ],
   "failed_attempts": [
@@ -26657,21 +26676,6 @@
       }
     },
     {
-      "cr_film_id": 10128,
-      "cr_slug": "gun-shy-hrdina-nahodou",
-      "title": "Gun Shy - Hrdina náhodou",
-      "year": 2017,
-      "sktorrent_id": 1320,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 172883968 out of 1065055410 bytes received",
-      "failed_at": "2026-07-11T20:31:36Z",
-      "first_failed_at": "2026-07-10T20:41:06Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 4.0,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 8739,
       "cr_slug": "valhalla-rise-bohu-cz",
       "title": "Valhalla: Říše bohů",
@@ -26824,16 +26828,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 10128,
-      "cr_slug": "gun-shy-hrdina-nahodou",
-      "title": "Gun Shy - Hrdina náhodou",
-      "year": 2017,
-      "sktorrent_id": 1320,
-      "worker_id": "worker-3-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:02:37Z"
-    },
     {
       "cr_film_id": 8739,
       "cr_slug": "valhalla-rise-bohu-cz",
