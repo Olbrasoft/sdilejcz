@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:27:40Z",
+  "last_updated": "2026-07-11T20:27:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25394,6 +25394,25 @@
         "upload_sec": 70.8,
         "total_sec": 179.6
       }
+    },
+    {
+      "cr_film_id": 15980,
+      "cr_slug": "film-2024-3",
+      "title": "Viva La Vida",
+      "year": 2024,
+      "sktorrent_id": 46811,
+      "sdilej_url": "https://sdilej.cz/34643046/viva-la-vida-2024-cz-dabing.mp4",
+      "sdilej_name": "Viva La Vida (2024) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T20:27:57Z",
+      "status": "uploaded",
+      "size_bytes": 632125669,
+      "worker_id": "worker-2-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 2.6,
+        "download_sec": 294.3,
+        "upload_sec": 81.4,
+        "total_sec": 378.4
+      }
     }
   ],
   "failed_attempts": [
@@ -25575,20 +25594,6 @@
       "failed_at": "2026-07-10T19:53:47Z",
       "timing": {
         "cdn_resolve_sec": 25.1
-      }
-    },
-    {
-      "cr_film_id": 15980,
-      "cr_slug": "film-2024-3",
-      "title": "Viva La Vida",
-      "year": 2024,
-      "sktorrent_id": 46811,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-10T20:31:59Z",
-      "timing": {
-        "cdn_resolve_sec": 2.6,
-        "download_sec": 452.2,
-        "upload_sec": 30.0
       }
     },
     {
@@ -26741,16 +26746,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 15980,
-      "cr_slug": "film-2024-3",
-      "title": "Viva La Vida",
-      "year": 2024,
-      "sktorrent_id": 46811,
-      "worker_id": "worker-2-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:21:37Z"
-    },
     {
       "cr_film_id": 10128,
       "cr_slug": "gun-shy-hrdina-nahodou",
