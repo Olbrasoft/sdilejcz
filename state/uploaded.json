@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:12:31Z",
+  "last_updated": "2026-07-11T20:13:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25540,19 +25540,6 @@
       }
     },
     {
-      "cr_film_id": 10236,
-      "cr_slug": "andilek-na-nervy",
-      "title": "Andílek na nervy",
-      "year": 2015,
-      "sktorrent_id": 5663,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 649707520 out of 1113166477 bytes received",
-      "failed_at": "2026-07-10T20:13:21Z",
-      "timing": {
-        "cdn_resolve_sec": 3.2,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 16330,
       "cr_slug": "vypecene-zlociny-zakazane-ovoce-2024",
       "title": "Vypečené zločiny: Zakázané ovoce",
@@ -26721,19 +26708,24 @@
         "cdn_resolve_sec": 1.3,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10236,
       "cr_slug": "andilek-na-nervy",
       "title": "Andílek na nervy",
       "year": 2015,
       "sktorrent_id": 5663,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:04:18Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 168165376 out of 1113166477 bytes received",
+      "failed_at": "2026-07-11T20:13:24Z",
+      "first_failed_at": "2026-07-10T20:13:21Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8673,
       "cr_slug": "citlivy-clovek",
