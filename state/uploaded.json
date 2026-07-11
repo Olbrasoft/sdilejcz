@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:31:55Z",
+  "last_updated": "2026-07-11T21:34:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25945,6 +25945,25 @@
         "upload_sec": 159.4,
         "total_sec": 321.5
       }
+    },
+    {
+      "cr_film_id": 16736,
+      "cr_slug": "danger-close-2017",
+      "title": "Danger Close",
+      "year": 2017,
+      "sktorrent_id": 4540,
+      "sdilej_url": "https://sdilej.cz/34643239/danger-close-2017-cz-titulky.mp4",
+      "sdilej_name": "Danger Close (2017) CZ titulky.mp4",
+      "uploaded_at": "2026-07-11T21:34:26Z",
+      "status": "uploaded",
+      "size_bytes": 2406448629,
+      "worker_id": "worker-3-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 431.7,
+        "upload_sec": 234.4,
+        "total_sec": 667.4
+      }
     }
   ],
   "failed_attempts": [
@@ -26633,19 +26652,6 @@
       }
     },
     {
-      "cr_film_id": 16736,
-      "cr_slug": "danger-close-2017",
-      "title": "Danger Close",
-      "year": 2017,
-      "sktorrent_id": 4540,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 2232039951 out of 2406448629 bytes received",
-      "failed_at": "2026-07-11T12:20:11Z",
-      "timing": {
-        "cdn_resolve_sec": 0.2,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 16989,
       "cr_slug": "the-cleaner-2015",
       "title": "The Cleaner",
@@ -26890,16 +26896,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 16736,
-      "cr_slug": "danger-close-2017",
-      "title": "Danger Close",
-      "year": 2017,
-      "sktorrent_id": 4540,
-      "worker_id": "worker-3-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:23:18Z"
-    },
     {
       "cr_film_id": 16989,
       "cr_slug": "the-cleaner-2015",
