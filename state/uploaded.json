@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:23:35Z",
+  "last_updated": "2026-07-11T19:23:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25276,20 +25276,6 @@
       }
     },
     {
-      "cr_film_id": 8583,
-      "cr_slug": "padesatka",
-      "title": "Padesátka",
-      "year": 2015,
-      "sktorrent_id": 5937,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-10T18:28:04Z",
-      "timing": {
-        "cdn_resolve_sec": 2.3,
-        "download_sec": 286.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5946,
       "cr_slug": "dora-a-ztracene-mesto",
       "title": "Dora a ztracené město",
@@ -26656,6 +26642,20 @@
         "download_sec": 276.7,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 8583,
+      "cr_slug": "padesatka",
+      "title": "Padesátka",
+      "year": 2015,
+      "sktorrent_id": 5937,
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-07-11T19:23:51Z",
+      "first_failed_at": "2026-07-10T18:28:04Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.2
+      }
     }
   ],
   "in_progress": [
@@ -26678,16 +26678,6 @@
       "worker_id": "worker-3-29164775799",
       "run_id": "29164775799",
       "reserved_at": "2026-07-11T19:19:58Z"
-    },
-    {
-      "cr_film_id": 8583,
-      "cr_slug": "padesatka",
-      "title": "Padesátka",
-      "year": 2015,
-      "sktorrent_id": 5937,
-      "worker_id": "worker-1-29164775799",
-      "run_id": "29164775799",
-      "reserved_at": "2026-07-11T19:23:20Z"
     },
     {
       "cr_film_id": 5946,
