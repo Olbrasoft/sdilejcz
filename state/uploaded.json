@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:45:01Z",
+  "last_updated": "2026-07-11T19:49:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25223,6 +25223,25 @@
         "upload_sec": 56.8,
         "total_sec": 377.7
       }
+    },
+    {
+      "cr_film_id": 14079,
+      "cr_slug": "prvni-akcni-hrdina-2019",
+      "title": "První akční hrdina",
+      "year": 2019,
+      "sktorrent_id": 24340,
+      "sdilej_url": "https://sdilej.cz/34642649/prvni-akcni-hrdina-2019-cz.mp4",
+      "sdilej_name": "První akční hrdina (2019) CZ.mp4",
+      "uploaded_at": "2026-07-11T19:49:42Z",
+      "status": "uploaded",
+      "size_bytes": 707475145,
+      "worker_id": "worker-3-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 4.8,
+        "download_sec": 209.4,
+        "upload_sec": 71.1,
+        "total_sec": 285.3
+      }
     }
   ],
   "failed_attempts": [
@@ -25368,20 +25387,6 @@
       "failed_at": "2026-07-10T19:00:37Z",
       "timing": {
         "cdn_resolve_sec": 17.0
-      }
-    },
-    {
-      "cr_film_id": 14079,
-      "cr_slug": "prvni-akcni-hrdina-2019",
-      "title": "První akční hrdina",
-      "year": 2019,
-      "sktorrent_id": 24340,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-10T19:12:30Z",
-      "timing": {
-        "cdn_resolve_sec": 5.3,
-        "download_sec": 360.7,
-        "upload_sec": 30.0
       }
     },
     {
@@ -26681,16 +26686,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 14079,
-      "cr_slug": "prvni-akcni-hrdina-2019",
-      "title": "První akční hrdina",
-      "year": 2019,
-      "sktorrent_id": 24340,
-      "worker_id": "worker-3-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T19:44:56Z"
-    },
     {
       "cr_film_id": 8739,
       "cr_slug": "valhalla-rise-bohu-cz",
