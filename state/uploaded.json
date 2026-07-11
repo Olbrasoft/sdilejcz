@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T21:27:54Z",
+  "last_updated": "2026-07-11T21:30:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -26646,19 +26646,6 @@
       }
     },
     {
-      "cr_film_id": 15454,
-      "cr_slug": "nedotknutelni-2019",
-      "title": "Nedotknutelní",
-      "year": 2019,
-      "sktorrent_id": 3449,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 966303951 out of 2568765938 bytes received",
-      "failed_at": "2026-07-11T11:11:12Z",
-      "timing": {
-        "cdn_resolve_sec": 4.2,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 16736,
       "cr_slug": "danger-close-2017",
       "title": "Danger Close",
@@ -26882,6 +26869,22 @@
         "cdn_resolve_sec": 4.1,
         "download_sec": 540.0
       }
+    },
+    {
+      "cr_film_id": 15454,
+      "cr_slug": "nedotknutelni-2019",
+      "title": "Nedotknutelní",
+      "year": 2019,
+      "sktorrent_id": 3449,
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T21:30:13Z",
+      "first_failed_at": "2026-07-11T11:11:12Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.2,
+        "download_sec": 377.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -26894,16 +26897,6 @@
       "worker_id": "worker-2-29165261717",
       "run_id": "29165261717",
       "reserved_at": "2026-07-11T21:22:38Z"
-    },
-    {
-      "cr_film_id": 15454,
-      "cr_slug": "nedotknutelni-2019",
-      "title": "Nedotknutelní",
-      "year": 2019,
-      "sktorrent_id": 3449,
-      "worker_id": "worker-4-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T21:23:11Z"
     },
     {
       "cr_film_id": 16736,
