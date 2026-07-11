@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T01:35:11Z",
+  "last_updated": "2026-07-11T01:35:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -13229,19 +13229,23 @@
         "download_sec": 54.4,
         "upload_sec": 30.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16930,
       "cr_slug": "nejdelsi-noc-zivota-2021",
       "title": "Nejdelší noc života",
       "year": 2021,
       "sktorrent_id": 59159,
-      "worker_id": "worker-3-29128757096",
-      "run_id": "29128757096",
-      "reserved_at": "2026-07-11T01:34:01Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T01:35:18Z",
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 42.7,
+        "upload_sec": 30.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14111,
       "cr_slug": "osudovy-klam-2019",
