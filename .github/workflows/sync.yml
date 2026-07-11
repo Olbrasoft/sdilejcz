@@ -21,7 +21,7 @@ concurrency:
 jobs:
   upload-batch:
     name: Upload missing films to Sdilej.cz (${{ matrix.worker }})
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, sdilejcz]
     timeout-minutes: 350
     strategy:
       fail-fast: false
