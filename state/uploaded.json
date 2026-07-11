@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T20:27:58Z",
+  "last_updated": "2026-07-11T20:31:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25413,6 +25413,25 @@
         "upload_sec": 81.4,
         "total_sec": 378.4
       }
+    },
+    {
+      "cr_film_id": 16654,
+      "cr_slug": "sestka-tahne-svetem-2014",
+      "title": "Šestka táhne světem",
+      "year": 2014,
+      "sktorrent_id": 38776,
+      "sdilej_url": "https://sdilej.cz/34643049/sestka-tahne-svetem-2014-cz-dabing.mp4",
+      "sdilej_name": "Šestka táhne světem (2014) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-11T20:31:05Z",
+      "status": "uploaded",
+      "size_bytes": 556891773,
+      "worker_id": "worker-2-29165261717",
+      "timing": {
+        "cdn_resolve_sec": 12.5,
+        "download_sec": 101.8,
+        "upload_sec": 71.4,
+        "total_sec": 185.9
+      }
     }
   ],
   "failed_attempts": [
@@ -26563,22 +26582,6 @@
       }
     },
     {
-      "cr_film_id": 16654,
-      "cr_slug": "sestka-tahne-svetem-2014",
-      "title": "Šestka táhne světem",
-      "year": 2014,
-      "sktorrent_id": 38776,
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-11T19:56:20Z",
-      "first_failed_at": "2026-07-10T19:31:25Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.0,
-        "download_sec": 81.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 9698,
       "cr_slug": "timber-lovec-pokladu",
       "title": "Timber - Lovec pokladů",
@@ -26775,16 +26778,6 @@
       "worker_id": "worker-4-29165261717",
       "run_id": "29165261717",
       "reserved_at": "2026-07-11T20:27:40Z"
-    },
-    {
-      "cr_film_id": 16654,
-      "cr_slug": "sestka-tahne-svetem-2014",
-      "title": "Šestka táhne světem",
-      "year": 2014,
-      "sktorrent_id": 38776,
-      "worker_id": "worker-2-29165261717",
-      "run_id": "29165261717",
-      "reserved_at": "2026-07-11T20:27:58Z"
     }
   ]
 }
