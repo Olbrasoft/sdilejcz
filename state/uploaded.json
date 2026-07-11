@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T12:50:10Z",
+  "last_updated": "2026-07-11T12:51:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -23884,19 +23884,22 @@
         "cdn_resolve_sec": 0.9,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17105,
       "cr_slug": "the-great-war-2017",
       "title": "The Great War",
       "year": 2017,
       "sktorrent_id": 7925,
-      "worker_id": "worker-2-29146023126",
-      "run_id": "29146023126",
-      "reserved_at": "2026-07-11T12:42:09Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 2758951951 out of 3389676818 bytes received",
+      "failed_at": "2026-07-11T12:51:11Z",
+      "timing": {
+        "cdn_resolve_sec": 0.3,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17175,
       "cr_slug": "nico-1988-2017",
