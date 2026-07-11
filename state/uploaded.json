@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T01:33:18Z",
+  "last_updated": "2026-07-11T01:33:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -13145,19 +13145,23 @@
         "download_sec": 47.4,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10561,
       "cr_slug": "ant-man-a-wasp-quantumania",
       "title": "Ant-Man a Wasp: Quantumania",
       "year": 2023,
       "sktorrent_id": 29403,
-      "worker_id": "worker-4-29128757096",
-      "run_id": "29128757096",
-      "reserved_at": "2026-07-11T01:31:42Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T01:33:36Z",
+      "timing": {
+        "cdn_resolve_sec": 8.5,
+        "download_sec": 74.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14091,
       "cr_slug": "sfarej-a-zemres-prokleti-dulni-chobotnice-2022",
