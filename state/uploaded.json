@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T01:35:03Z",
+  "last_updated": "2026-07-11T01:35:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -13215,19 +13215,23 @@
         "download_sec": 45.2,
         "upload_sec": 30.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15631,
       "cr_slug": "prima-di-andare-via-2022",
       "title": "Prima di andare via",
       "year": 2022,
       "sktorrent_id": 46923,
-      "worker_id": "worker-4-29128757096",
-      "run_id": "29128757096",
-      "reserved_at": "2026-07-11T01:33:38Z"
-    },
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-11T01:35:10Z",
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 54.4,
+        "upload_sec": 30.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16930,
       "cr_slug": "nejdelsi-noc-zivota-2021",
