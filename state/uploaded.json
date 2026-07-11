@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T19:35:30Z",
+  "last_updated": "2026-07-11T19:38:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -25359,19 +25359,6 @@
       }
     },
     {
-      "cr_film_id": 8182,
-      "cr_slug": "hrisna-hudba",
-      "title": "Hříšná hudba",
-      "year": 2019,
-      "sktorrent_id": 28092,
-      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 237256704 out of 595620693 bytes received",
-      "failed_at": "2026-07-10T18:59:19Z",
-      "timing": {
-        "cdn_resolve_sec": 6.0,
-        "download_sec": 540.0
-      }
-    },
-    {
       "cr_film_id": 8676,
       "cr_slug": "silena-hra",
       "title": "The Killing Game",
@@ -26673,19 +26660,24 @@
         "cdn_resolve_sec": 12.5,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8182,
       "cr_slug": "hrisna-hudba",
       "title": "Hříšná hudba",
       "year": 2019,
       "sktorrent_id": 28092,
-      "worker_id": "worker-3-29164775799",
-      "run_id": "29164775799",
-      "reserved_at": "2026-07-11T19:29:01Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 516964352 out of 595620693 bytes received",
+      "failed_at": "2026-07-11T19:38:15Z",
+      "first_failed_at": "2026-07-10T18:59:19Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.7,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7458,
       "cr_slug": "fantasticka-ctyrka-silver-surfer",
