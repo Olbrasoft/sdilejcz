@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-11T12:48:05Z",
+  "last_updated": "2026-07-11T12:49:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -23852,19 +23852,22 @@
         "cdn_resolve_sec": 1.0,
         "download_sec": 540.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17093,
       "cr_slug": "stiny-smrti-tajemstvi-opatstvi-2017",
       "title": "Stíny smrti: Tajemství opatství",
       "year": 2017,
       "sktorrent_id": 45547,
-      "worker_id": "worker-3-29146023126",
-      "run_id": "29146023126",
-      "reserved_at": "2026-07-11T12:40:33Z"
-    },
+      "reason": "download_failed: curl exit=28 stderr=curl: (28) Operation timed out after 540000 milliseconds with 320716800 out of 536980929 bytes received",
+      "failed_at": "2026-07-11T12:49:36Z",
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 540.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17105,
       "cr_slug": "the-great-war-2017",
