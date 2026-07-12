@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T18:38:35Z",
+  "last_updated": "2026-07-12T18:46:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -30594,19 +30594,29 @@
       "timing": {
         "resolve_sec": 2.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 243,
       "cr_slug": "most-pres-reku-kwai",
       "title": "Most přes řeku Kwai",
       "year": 1957,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T17:46:12Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3599390 milliseconds with 2688400969 out of 4509846344 bytes received",
+      "failed_at": "2026-07-12T18:46:18Z",
+      "first_failed_at": "2026-07-12T18:46:18Z",
+      "attempt_count": 1,
+      "upload_id": "6722985909c09",
+      "source_url": "https://prehraj.to/most-pres-reku-kwai-1957-dobrodruzny-valecny-czdab/6722985909c09",
+      "upload_title": "Most přes řeku Kwai (1957) dobrodružný válečný czdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 3602.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 249,
       "cr_slug": "sbal-prachy-a-vypadni",
