@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T22:52:59Z",
+  "last_updated": "2026-07-12T22:53:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -31314,6 +31314,30 @@
         "upload_sec": 101.8,
         "total_sec": 137.6
       }
+    },
+    {
+      "cr_film_id": 409,
+      "cr_slug": "kocici-odysea",
+      "title": "Kočičí odysea",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "68883d322f8a2",
+      "source_url": "https://prehraj.to/kocici-odysea-2024-cz-dabing-full-hd-1080p/68883d322f8a2",
+      "source_title": "Kočičí odysea 2024 CZ dabing Full HD 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34646836/kocici-odysea-2024-cz-dabing.mp4",
+      "sdilej_name": "Kočičí odysea (2024) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-12T22:53:29Z",
+      "status": "uploaded",
+      "size_bytes": 2754393484,
+      "worker_id": "worker-4-29205793883",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 146.8,
+        "upload_sec": 345.1,
+        "total_sec": 493.6
+      }
     }
   ],
   "failed_attempts": [
@@ -32560,40 +32584,9 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    },
-    {
-      "cr_film_id": 409,
-      "cr_slug": "kocici-odysea",
-      "title": "Kočičí odysea",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-12T22:42:13Z",
-      "first_failed_at": "2026-07-12T22:42:13Z",
-      "attempt_count": 1,
-      "upload_id": "68606de983318",
-      "source_url": "https://prehraj.to/kocici-odysea-flow-2024-1080p-cz-dab-animak/68606de983318",
-      "upload_title": "Kočičí odysea (Flow  2024) 1080p CZ dab -animák",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 47.6,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 409,
-      "cr_slug": "kocici-odysea",
-      "title": "Kočičí odysea",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T22:45:15Z"
-    },
     {
       "cr_film_id": 417,
       "cr_slug": "snezne-bratrstvo",
