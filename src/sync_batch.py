@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Upload N sktorrent films to Sdilej.cz."""
+"""Upload missing films to Sdilej.cz."""
 from __future__ import annotations
 
 import argparse
@@ -12,7 +12,9 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from pick_next_film import BACKLOG, STATE, display_name, load_backlog, load_state, pick_next
+from download_prehrajto import DownloadError as PrehrajtoDownloadError, download_to as download_prehrajto
+from pick_next_film import STATE, configured_backlogs, display_name, load_backlog, load_state, pick_candidate, pick_next
+from resolve_prehrajto_stream import ResolveError, pick_best, resolve as resolve_prehrajto
 from resolve_sktorrent_cdn import resolve as resolve_cdn
 from sdilej_upload import login, upload_file
 
@@ -158,11 +160,13 @@ def remove_reservation(state: dict, cr_film_id: int, worker_id: str) -> None:
     ]
 
 
-def remove_failed_attempt(state: dict, cr_film_id: int) -> dict | None:
+def remove_failed_attempt(state: dict, cr_film_id: int, upload_id: str | None = None) -> dict | None:
     previous: dict | None = None
     kept = []
     for item in state.get("failed_attempts", []):
-        if item.get("cr_film_id") == cr_film_id:
+        same_film = item.get("cr_film_id") == cr_film_id
+        same_candidate = upload_id is None or str(item.get("upload_id") or "") == str(upload_id)
+        if same_film and same_candidate:
             previous = item
         else:
             kept.append(item)
@@ -193,21 +197,41 @@ def reserve_next_film(backlog: list[dict], worker_id: str, run_id: str, extra_ex
     return state_transaction(f"reserve worker={worker_id}", mutate)
 
 
-def record_failure(film: dict, reason: str, worker_id: str, timing: dict | None = None) -> None:
+def record_failure(
+    film: dict,
+    reason: str,
+    worker_id: str,
+    timing: dict | None = None,
+    *,
+    candidate: dict | None = None,
+    permanent: bool | None = None,
+    keep_reservation: bool = False,
+) -> None:
     def mutate(state: dict):
-        remove_reservation(state, film["cr_film_id"], worker_id)
-        previous = remove_failed_attempt(state, film["cr_film_id"])
+        if not keep_reservation:
+            remove_reservation(state, film["cr_film_id"], worker_id)
+        upload_id = str(candidate.get("upload_id")) if candidate and candidate.get("upload_id") else None
+        previous = remove_failed_attempt(state, film["cr_film_id"], upload_id)
         entry = {
             "cr_film_id": film["cr_film_id"],
             "cr_slug": film.get("cr_slug"),
             "title": film["title"],
             "year": film["year"],
             "sktorrent_id": film.get("id"),
+            "source": "prehrajto" if candidate else "sktorrent",
             "reason": reason,
             "failed_at": now_iso(),
             "first_failed_at": (previous or {}).get("first_failed_at") or (previous or {}).get("failed_at") or now_iso(),
             "attempt_count": int((previous or {}).get("attempt_count") or 1) + 1 if previous else 1,
         }
+        if candidate:
+            entry.update({
+                "upload_id": candidate.get("upload_id"),
+                "source_url": candidate.get("url"),
+                "upload_title": candidate.get("upload_title"),
+            })
+        if permanent is not None:
+            entry["permanent"] = permanent
         if timing:
             entry["timing"] = timing
         state.setdefault("failed_attempts", []).append(entry)
@@ -216,7 +240,162 @@ def record_failure(film: dict, reason: str, worker_id: str, timing: dict | None 
     state_transaction(f"failure cr_film_id={film['cr_film_id']}", mutate)
 
 
+def candidates_left_after_failure(film: dict) -> bool:
+    state = load_state()
+    return pick_candidate(film, state) is not None
+
+
+def process_prehrajto(film: dict, session, worker_id: str) -> bool:
+    name = display_name(film)
+    cr_film_id = film["cr_film_id"]
+    start_total = time.monotonic()
+    log(f"step=film-start source=prehrajto cr_film_id={cr_film_id} name={name!r}")
+
+    while True:
+        state = load_state()
+        candidate = pick_candidate(film, state)
+        if candidate is None:
+            record_failure(film, "candidate_failed: no usable prehrajto candidate left", worker_id)
+            return False
+
+        upload_id = candidate.get("upload_id")
+        source_url = candidate["url"]
+        log(f"step=candidate-start cr_film_id={cr_film_id} upload_id={upload_id} url={source_url}")
+
+        t = time.monotonic()
+        try:
+            resolved = resolve_prehrajto(source_url)
+            stream = pick_best(resolved.videos)
+            resolve_sec = round(time.monotonic() - t, 1)
+            log(
+                f"step=stream-resolve done cr_film_id={cr_film_id} upload_id={upload_id} "
+                f"dur={resolve_sec}s res={stream.label}"
+            )
+        except ResolveError as exc:
+            resolve_sec = round(time.monotonic() - t, 1)
+            log(
+                f"step=stream-resolve failed cr_film_id={cr_film_id} upload_id={upload_id} "
+                f"permanent={exc.permanent} err={exc}"
+            )
+            record_failure(
+                film,
+                f"resolve_failed: {exc}",
+                worker_id,
+                {"resolve_sec": resolve_sec},
+                candidate=candidate,
+                permanent=exc.permanent,
+                keep_reservation=bool(exc.permanent),
+            )
+            if exc.permanent and candidates_left_after_failure(film):
+                continue
+            remove_reservation_transaction(film, worker_id)
+            return False
+
+        tmp_path = TMP_DIR / safe_filename(name)
+        t = time.monotonic()
+        try:
+            size = download_prehrajto(stream.url, tmp_path)
+            download_sec = round(time.monotonic() - t, 1)
+            log(f"step=download done cr_film_id={cr_film_id} upload_id={upload_id} size={size} dur={download_sec}s")
+        except PrehrajtoDownloadError as exc:
+            download_sec = round(time.monotonic() - t, 1)
+            if tmp_path.exists():
+                tmp_path.unlink()
+            permanent = "exceeds max" in str(exc).lower() or "too small" in str(exc).lower()
+            log(
+                f"step=download failed cr_film_id={cr_film_id} upload_id={upload_id} "
+                f"permanent={permanent} err={exc}"
+            )
+            record_failure(
+                film,
+                f"download_failed: {exc}",
+                worker_id,
+                {"resolve_sec": resolve_sec, "download_sec": download_sec},
+                candidate=candidate,
+                permanent=permanent,
+                keep_reservation=permanent,
+            )
+            if permanent and candidates_left_after_failure(film):
+                continue
+            remove_reservation_transaction(film, worker_id)
+            return False
+
+        t = time.monotonic()
+        try:
+            result = upload_file(session, tmp_path, display_name=name)
+            upload_sec = round(time.monotonic() - t, 1)
+            log(f"step=upload done cr_film_id={cr_film_id} upload_id={upload_id} dur={upload_sec}s url={result['url']}")
+        except Exception as exc:
+            upload_sec = round(time.monotonic() - t, 1)
+            log(f"step=upload failed cr_film_id={cr_film_id} upload_id={upload_id} err={exc}")
+            record_failure(
+                film,
+                f"upload_failed: {exc}",
+                worker_id,
+                {
+                    "resolve_sec": resolve_sec,
+                    "download_sec": download_sec,
+                    "upload_sec": upload_sec,
+                },
+                candidate=candidate,
+                permanent=False,
+            )
+            return False
+        finally:
+            if tmp_path.exists():
+                tmp_path.unlink()
+
+        total_sec = round(time.monotonic() - start_total, 1)
+        entry = {
+            "cr_film_id": cr_film_id,
+            "cr_slug": film.get("cr_slug"),
+            "title": film["title"],
+            "year": film["year"],
+            "source": "prehrajto",
+            "source_backlog": film.get("_source_backlog"),
+            "source_upload_id": upload_id,
+            "source_url": source_url,
+            "source_title": candidate.get("upload_title"),
+            "source_resolution": stream.label,
+            "sdilej_url": result["url"],
+            "sdilej_name": result.get("name"),
+            "uploaded_at": now_iso(),
+            "status": "uploaded",
+            "size_bytes": size,
+            "worker_id": worker_id,
+            "timing": {
+                "resolve_sec": resolve_sec,
+                "download_sec": download_sec,
+                "upload_sec": upload_sec,
+                "total_sec": total_sec,
+            },
+        }
+
+        def mutate(state: dict):
+            remove_reservation(state, cr_film_id, worker_id)
+            remove_failed_attempt(state, cr_film_id)
+            if any(u.get("cr_film_id") == cr_film_id for u in state.get("uploads", [])):
+                return True, None
+            state.setdefault("uploads", []).append(entry)
+            return True, None
+
+        saved_state, _ = state_transaction(f"upload cr_film_id={cr_film_id}", mutate)
+        log(f"step=state-saved cr_film_id={cr_film_id} total_uploads={len(saved_state.get('uploads', []))}")
+        return True
+
+
+def remove_reservation_transaction(film: dict, worker_id: str) -> None:
+    def mutate(state: dict):
+        remove_reservation(state, film["cr_film_id"], worker_id)
+        return True, None
+
+    state_transaction(f"release cr_film_id={film['cr_film_id']}", mutate)
+
+
 def process_one(film: dict, session, worker_id: str) -> bool:
+    if film.get("candidates"):
+        return process_prehrajto(film, session, worker_id)
+
     name = display_name(film)
     cr_film_id = film["cr_film_id"]
     start_total = time.monotonic()
@@ -327,8 +506,9 @@ def main() -> int:
         log("ERROR: SDILEJ_EMAIL and SDILEJ_PASSWORD must be set")
         return 2
 
-    if not BACKLOG.is_file():
-        log(f"ERROR: missing backlog file: {BACKLOG}")
+    backlog_paths = configured_backlogs()
+    if not backlog_paths:
+        log("ERROR: missing backlog files")
         return 2
 
     backlog = load_backlog()

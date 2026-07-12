@@ -66,6 +66,8 @@ jobs:
         env:
           SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
           SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+          CZ_PROXY_URL: ${{ secrets.CZ_PROXY_URL }}
+          CZ_PROXY_KEY: ${{ secrets.CZ_PROXY_KEY }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '999' }}
           MAX_RUNTIME_MINUTES: ${{ github.event.inputs.max_runtime_minutes || '320' }}
           WORKER_ID: worker-${{ matrix.worker }}-${{ github.run_id }}

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Pick the next film from the sktorrent backlog."""
+"""Pick the next film from the configured backlog."""
 from __future__ import annotations
 
+import gzip
 import json
 import os
 import sys
@@ -10,7 +11,11 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-BACKLOG = REPO_ROOT / "backlog" / "sktorrent-films.jsonl"
+DEFAULT_BACKLOGS = (
+    REPO_ROOT / "backlog" / "prehrajto-films.jsonl.gz",
+    REPO_ROOT / "backlog" / "phase2-candidate-films.jsonl.gz",
+    REPO_ROOT / "backlog" / "sktorrent-films.jsonl",
+)
 STATE = REPO_ROOT / "state" / "uploaded.json"
 NATIVE_ORIGINS = {"cs", "sk"}
 RETRYABLE_FAILURE_PREFIXES = ("download_failed", "upload_failed")
@@ -18,10 +23,39 @@ FAILED_RETRY_DELAY_MINUTES = 30
 FAILED_MAX_ATTEMPTS = 4
 
 
-def load_backlog(path: Path = BACKLOG) -> list[dict]:
-    if not path.is_file():
-        return []
-    return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+def configured_backlogs() -> list[Path]:
+    value = os.environ.get("SYNC_BACKLOGS") or os.environ.get("SYNC_BACKLOG") or ""
+    if value.strip():
+        return [
+            (REPO_ROOT / item.strip()).resolve() if not Path(item.strip()).is_absolute() else Path(item.strip())
+            for item in value.split(":")
+            if item.strip()
+        ]
+    return [path for path in DEFAULT_BACKLOGS if path.is_file()]
+
+
+def _read_jsonl(path: Path) -> list[dict]:
+    if path.suffix == ".gz":
+        with gzip.open(path, "rt", encoding="utf-8") as handle:
+            return [json.loads(line) for line in handle if line.strip()]
+    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+
+def load_backlog(paths: list[Path] | tuple[Path, ...] | Path | None = None) -> list[dict]:
+    selected = configured_backlogs() if paths is None else ([paths] if isinstance(paths, Path) else list(paths))
+    rows: list[dict] = []
+    seen: set[int] = set()
+    for path in selected:
+        if not path.is_file():
+            continue
+        for row in _read_jsonl(path):
+            cr_film_id = row.get("cr_film_id")
+            if cr_film_id in seen:
+                continue
+            seen.add(cr_film_id)
+            row.setdefault("_source_backlog", path.name)
+            rows.append(row)
+    return rows
 
 
 def load_state(path: Path = STATE) -> dict:
@@ -38,7 +72,11 @@ def parse_iso(value: str | None) -> dt.datetime | None:
 
 
 def failure_retryable(failure: dict, now: dt.datetime | None = None) -> bool:
+    if failure.get("permanent") is True:
+        return False
     reason = failure.get("reason") or ""
+    if reason.startswith(("resolve_failed", "candidate_failed")):
+        return failure.get("permanent") is False
     if not reason.startswith(RETRYABLE_FAILURE_PREFIXES):
         return False
     if int(failure.get("attempt_count") or 1) >= FAILED_MAX_ATTEMPTS:
@@ -55,7 +93,7 @@ def excluded_ids(state: dict, extra: set[int] | None = None) -> set[int]:
     failed = {
         f["cr_film_id"]
         for f in state.get("failed_attempts", [])
-        if not failure_retryable(f)
+        if not f.get("upload_id") and not failure_retryable(f)
     }
     reserved = {r["cr_film_id"] for r in state.get("in_progress", [])}
     return done | failed | reserved | (extra or set())
@@ -87,6 +125,10 @@ def pick_next(
     for row in backlog_rows:
         if row.get("cr_film_id") in excluded:
             continue
+        if row.get("candidates"):
+            if pick_candidate(row, state) is None:
+                continue
+            return row
         if require_cs:
             has_cs_audio = row.get("detected_language") in ("cs", "sk")
             has_subtitles = _has_cz_sk_subtitles(row) or _has_burned_in_subs(row)
@@ -96,7 +138,35 @@ def pick_next(
     return None
 
 
+def candidate_failure_map(state: dict, cr_film_id: int) -> dict[str, dict]:
+    failures: dict[str, dict] = {}
+    for item in state.get("failed_attempts", []):
+        if item.get("cr_film_id") != cr_film_id:
+            continue
+        upload_id = item.get("upload_id")
+        if upload_id:
+            failures[str(upload_id)] = item
+    return failures
+
+
+def pick_candidate(film: dict, state: dict) -> dict | None:
+    failures = candidate_failure_map(state, film["cr_film_id"])
+    for candidate in film.get("candidates") or []:
+        upload_id = str(candidate.get("upload_id") or "")
+        failure = failures.get(upload_id)
+        if failure and not failure_retryable(failure):
+            continue
+        return candidate
+    return None
+
+
 def display_name(film: dict) -> str:
+    if film.get("display_name"):
+        name = str(film["display_name"])
+        return name if name.lower().endswith(".mp4") else f"{name}.mp4"
+    if film.get("suggested_display_name"):
+        name = str(film["suggested_display_name"])
+        return name if name.lower().endswith(".mp4") else f"{name}.mp4"
     title = film["title"]
     year = film["year"]
     original_language = film.get("original_language")
