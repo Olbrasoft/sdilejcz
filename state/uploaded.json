@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T22:10:39Z",
+  "last_updated": "2026-07-12T22:10:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -30594,6 +30594,30 @@
         "upload_sec": 197.5,
         "total_sec": 267.2
       }
+    },
+    {
+      "cr_film_id": 296,
+      "cr_slug": "contratiempo",
+      "title": "Neviditelný host",
+      "year": 2016,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "68bee835699a8",
+      "source_url": "https://prehraj.to/neviditelny-host-contratiempo-cz-dabing-2016/68bee835699a8",
+      "source_title": "Neviditelný host Contratiempo CZ Dabing 2016",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34646767/neviditelny-host-2016-cz-dabing.mp4",
+      "sdilej_name": "Neviditelný host (2016) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-12T22:10:47Z",
+      "status": "uploaded",
+      "size_bytes": 1148411556,
+      "worker_id": "worker-2-29205793883",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 117.0,
+        "upload_sec": 130.3,
+        "total_sec": 248.9
+      }
     }
   ],
   "failed_attempts": [
@@ -31785,27 +31809,6 @@
       }
     },
     {
-      "cr_film_id": 296,
-      "cr_slug": "contratiempo",
-      "title": "Neviditelný host",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-12T21:36:36Z",
-      "first_failed_at": "2026-07-12T20:48:45Z",
-      "attempt_count": 2,
-      "upload_id": "68bee835699a8",
-      "source_url": "https://prehraj.to/neviditelny-host-contratiempo-cz-dabing-2016/68bee835699a8",
-      "upload_title": "Neviditelný host Contratiempo CZ Dabing 2016",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 681.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 334,
       "cr_slug": "zimni-prazdniny",
       "title": "Zimní prázdniny",
@@ -31946,16 +31949,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 296,
-      "cr_slug": "contratiempo",
-      "title": "Neviditelný host",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T22:06:37Z"
-    },
     {
       "cr_film_id": 370,
       "cr_slug": "skola-zaklad-zivota",
