@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T13:26:05Z",
+  "last_updated": "2026-07-12T13:29:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -27205,6 +27205,27 @@
         "download_sec": 103.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 24,
+      "cr_slug": "pocatek",
+      "title": "Počátek",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T13:29:33Z",
+      "first_failed_at": "2026-07-12T13:29:33Z",
+      "attempt_count": 1,
+      "upload_id": "67359ff6e90f6",
+      "source_url": "https://prehraj.to/pocatek-2010-cz-dab/67359ff6e90f6",
+      "upload_title": "Počátek 2010 CZ dab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 206.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -27227,16 +27248,6 @@
       "worker_id": "worker-2-29193873024",
       "run_id": "29193873024",
       "reserved_at": "2026-07-12T13:24:41Z"
-    },
-    {
-      "cr_film_id": 24,
-      "cr_slug": "pocatek",
-      "title": "Počátek",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29193873024",
-      "run_id": "29193873024",
-      "reserved_at": "2026-07-12T13:25:33Z"
     }
   ]
 }
