@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T15:12:03Z",
+  "last_updated": "2026-07-12T15:13:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -27666,6 +27666,30 @@
         "upload_sec": 84.2,
         "total_sec": 296.0
       }
+    },
+    {
+      "cr_film_id": 105,
+      "cr_slug": "joker",
+      "title": "Joker",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5ee11ef59b46a",
+      "source_url": "https://prehraj.to/joker-2019-cz-dabing-bdrip-x264-1080p-dd-5-1-novinka-cz-forced/5ee11ef59b46a",
+      "source_title": "Joker 2019 CZ Dabing BDRip.x264.1080p.DD-5.1 NOVINKA CZ FORCED",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34644769/joker-2019-cz-dabing.mp4",
+      "sdilej_name": "Joker (2019) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-12T15:13:18Z",
+      "status": "uploaded",
+      "size_bytes": 2651129606,
+      "worker_id": "worker-4-29194566054",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 91.2,
+        "upload_sec": 304.1,
+        "total_sec": 396.7
+      }
     }
   ],
   "failed_attempts": [
@@ -28610,46 +28634,6 @@
       }
     },
     {
-      "cr_film_id": 105,
-      "cr_slug": "joker",
-      "title": "Joker",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/joker-2019-cz-dab-1080p/36dc0b8ea3efe7a8",
-      "failed_at": "2026-07-12T15:03:58Z",
-      "first_failed_at": "2026-07-12T15:03:58Z",
-      "attempt_count": 1,
-      "upload_id": "36dc0b8ea3efe7a8",
-      "source_url": "https://prehraj.to/joker-2019-cz-dab-1080p/36dc0b8ea3efe7a8",
-      "upload_title": "Joker 2019 CZ dab 1080p",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.9
-      }
-    },
-    {
-      "cr_film_id": 105,
-      "cr_slug": "joker",
-      "title": "Joker",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-12T15:06:11Z",
-      "first_failed_at": "2026-07-12T15:06:11Z",
-      "attempt_count": 1,
-      "upload_id": "5ed139a07c665",
-      "source_url": "https://prehraj.to/joker-2019-cz-dabing-1080p-a/5ed139a07c665",
-      "upload_title": "Joker 2019 CZ Dabing 1080p.A",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 5.1,
-        "download_sec": 96.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 120,
       "cr_slug": "toy-story-pribeh-hracek",
       "title": "Toy Story: Příběh hraček",
@@ -28670,16 +28654,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 105,
-      "cr_slug": "joker",
-      "title": "Joker",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T15:06:41Z"
-    },
     {
       "cr_film_id": 117,
       "cr_slug": "hon",
