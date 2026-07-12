@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T20:54:19Z",
+  "last_updated": "2026-07-12T20:56:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -30990,19 +30990,30 @@
         "download_sec": 551.5,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 280,
       "cr_slug": "zivot-briana",
       "title": "Život Briana",
       "year": 1979,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T20:13:25Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T20:56:27Z",
+      "first_failed_at": "2026-07-12T20:56:27Z",
+      "attempt_count": 1,
+      "upload_id": "6815664b7ec76",
+      "source_url": "https://prehraj.to/zivot-briana-1979-cz-dab/6815664b7ec76",
+      "upload_title": "Život Briana 1979 CZ dab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 2548.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 236,
       "cr_slug": "harry-potter-a-relikvie-smrti-cast-2",
