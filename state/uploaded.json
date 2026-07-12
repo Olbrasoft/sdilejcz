@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T23:19:44Z",
+  "last_updated": "2026-07-12T23:20:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -33044,6 +33044,27 @@
       "timing": {
         "resolve_sec": 2.2
       }
+    },
+    {
+      "cr_film_id": 464,
+      "cr_slug": "dej-mi-sve-jmeno",
+      "title": "Dej mi své jméno",
+      "year": 2017,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T23:20:48Z",
+      "first_failed_at": "2026-07-12T23:20:48Z",
+      "attempt_count": 1,
+      "upload_id": "5c6e960ed256c",
+      "source_url": "https://prehraj.to/dej-mi-sve-jmeno-call-me-by-your-name-2017-cz-dabing/5c6e960ed256c",
+      "upload_title": "Dej Mi Své Jméno - Call Me By Your Name (2017) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 31.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -33076,16 +33097,6 @@
       "worker_id": "worker-3-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-12T23:19:40Z"
-    },
-    {
-      "cr_film_id": 464,
-      "cr_slug": "dej-mi-sve-jmeno",
-      "title": "Dej mi své jméno",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T23:19:44Z"
     }
   ]
 }
