@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T15:13:20Z",
+  "last_updated": "2026-07-12T15:13:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -28651,19 +28651,30 @@
       "timing": {
         "resolve_sec": 1.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 117,
       "cr_slug": "hon",
       "title": "Hon",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T15:08:30Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T15:13:59Z",
+      "first_failed_at": "2026-07-12T15:13:59Z",
+      "attempt_count": 1,
+      "upload_id": "6198d2de67d73",
+      "source_url": "https://prehraj.to/jagten-hon-2012-cz-dabing-720p-mio-palmo-https-ulozto-cz-partner-11657968/6198d2de67d73",
+      "upload_title": "Jagten Hon 2012 CZ dabing 720p (mio palmo).https __ulozto.cz_ partner=11657968",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.8,
+        "download_sec": 295.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 118,
       "cr_slug": "statecne-srdce",
