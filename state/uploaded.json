@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T16:59:40Z",
+  "last_updated": "2026-07-12T17:01:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -28674,6 +28674,30 @@
         "upload_sec": 294.7,
         "total_sec": 389.8
       }
+    },
+    {
+      "cr_film_id": 205,
+      "cr_slug": "divoke-historky",
+      "title": "Divoké historky",
+      "year": 2014,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "599ca76c9f71a",
+      "source_url": "https://prehraj.to/divoke-historky-2014-cz-dabing/599ca76c9f71a",
+      "source_title": "Divoké Historky (2014) CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34645701/divoke-historky-2014-cz-dabing.mp4",
+      "sdilej_name": "Divoké historky (2014) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-12T17:01:27Z",
+      "status": "uploaded",
+      "size_bytes": 626779590,
+      "worker_id": "worker-4-29194566054",
+      "timing": {
+        "resolve_sec": 5.1,
+        "download_sec": 30.6,
+        "upload_sec": 71.0,
+        "total_sec": 109.7
+      }
     }
   ],
   "failed_attempts": [
@@ -29787,25 +29811,6 @@
       "timing": {
         "resolve_sec": 4.3
       }
-    },
-    {
-      "cr_film_id": 205,
-      "cr_slug": "divoke-historky",
-      "title": "Divoké historky",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/divoke-historky-2014-cz-dab-1080p/5026d2b6537172b9",
-      "failed_at": "2026-07-12T16:59:40Z",
-      "first_failed_at": "2026-07-12T16:59:40Z",
-      "attempt_count": 1,
-      "upload_id": "5026d2b6537172b9",
-      "source_url": "https://prehraj.to/divoke-historky-2014-cz-dab-1080p/5026d2b6537172b9",
-      "upload_title": "Divoké historky 2014 CZ dab 1080p",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.8
-      }
     }
   ],
   "in_progress": [
@@ -29838,16 +29843,6 @@
       "worker_id": "worker-3-29194566054",
       "run_id": "29194566054",
       "reserved_at": "2026-07-12T16:57:17Z"
-    },
-    {
-      "cr_film_id": 205,
-      "cr_slug": "divoke-historky",
-      "title": "Divoké historky",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T16:59:37Z"
     }
   ]
 }
