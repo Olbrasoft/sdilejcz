@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T21:45:13Z",
+  "last_updated": "2026-07-12T21:47:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -31506,6 +31506,27 @@
       "timing": {
         "resolve_sec": 1.8
       }
+    },
+    {
+      "cr_film_id": 341,
+      "cr_slug": "strazci-galaxie-volume-3",
+      "title": "Strážci Galaxie: Volume 3",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T21:47:09Z",
+      "first_failed_at": "2026-07-12T21:47:09Z",
+      "attempt_count": 1,
+      "upload_id": "e3ca1567aed0623a",
+      "source_url": "https://prehraj.to/strazci-galaxie-3-2023-czdab-m-avi/e3ca1567aed0623a",
+      "upload_title": "Strážci.Galaxie.3,(2023),CZdab-M.avi",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 4.9,
+        "download_sec": 100.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -31528,16 +31549,6 @@
       "worker_id": "worker-1-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-12T21:41:51Z"
-    },
-    {
-      "cr_film_id": 341,
-      "cr_slug": "strazci-galaxie-volume-3",
-      "title": "Strážci Galaxie: Volume 3",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T21:44:49Z"
     },
     {
       "cr_film_id": 342,
