@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T21:40:05Z",
+  "last_updated": "2026-07-12T21:41:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -31396,6 +31396,27 @@
         "download_sec": 681.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 328,
+      "cr_slug": "ip-man",
+      "title": "Ip Man",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T21:41:49Z",
+      "first_failed_at": "2026-07-12T21:41:49Z",
+      "attempt_count": 1,
+      "upload_id": "68ea29623df33",
+      "source_url": "https://prehraj.to/ip-man-2008-cz-dabing-1080p/68ea29623df33",
+      "upload_title": "Ip Man 2008 CZ Dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 71.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -31428,16 +31449,6 @@
       "worker_id": "worker-4-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-12T21:36:38Z"
-    },
-    {
-      "cr_film_id": 328,
-      "cr_slug": "ip-man",
-      "title": "Ip Man",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T21:40:05Z"
     }
   ]
 }
