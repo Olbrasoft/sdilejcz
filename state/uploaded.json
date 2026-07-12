@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T15:27:55Z",
+  "last_updated": "2026-07-12T15:31:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -28933,6 +28933,27 @@
       "timing": {
         "resolve_sec": 4.7
       }
+    },
+    {
+      "cr_film_id": 131,
+      "cr_slug": "kill-bill",
+      "title": "Kill Bill",
+      "year": 2003,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T15:31:56Z",
+      "first_failed_at": "2026-07-12T15:31:56Z",
+      "attempt_count": 1,
+      "upload_id": "58210a96c7daa",
+      "source_url": "https://prehraj.to/kill-bill-1-cz-dabing-2003/58210a96c7daa",
+      "upload_title": "Kill Bill 1, CZ dabing (2003)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 4.3,
+        "download_sec": 419.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -28945,16 +28966,6 @@
       "worker_id": "worker-4-29194566054",
       "run_id": "29194566054",
       "reserved_at": "2026-07-12T15:20:05Z"
-    },
-    {
-      "cr_film_id": 131,
-      "cr_slug": "kill-bill",
-      "title": "Kill Bill",
-      "year": 2003,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T15:24:21Z"
     },
     {
       "cr_film_id": 135,
