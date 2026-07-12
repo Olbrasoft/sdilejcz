@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T22:19:42Z",
+  "last_updated": "2026-07-12T22:23:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -30786,6 +30786,30 @@
         "upload_sec": 278.6,
         "total_sec": 379.6
       }
+    },
+    {
+      "cr_film_id": 384,
+      "cr_slug": "zatah-2",
+      "title": "Zátah 2",
+      "year": 2014,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5a132c90a5077",
+      "source_url": "https://prehraj.to/zatah-2-the-raid-2-2014-cz-dabing/5a132c90a5077",
+      "source_title": "Zátah 2 - The Raid 2 (2014) CZ Dabing",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34646782/zatah-2-2014-cz-dabing.mp4",
+      "sdilej_name": "Zátah 2 (2014) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-12T22:23:08Z",
+      "status": "uploaded",
+      "size_bytes": 1324132254,
+      "worker_id": "worker-2-29205793883",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 52.3,
+        "upload_sec": 151.5,
+        "total_sec": 205.1
+      }
     }
   ],
   "failed_attempts": [
@@ -32173,27 +32197,6 @@
       "timing": {
         "resolve_sec": 3.4
       }
-    },
-    {
-      "cr_film_id": 384,
-      "cr_slug": "zatah-2",
-      "title": "Zátah 2",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-12T22:18:38Z",
-      "first_failed_at": "2026-07-12T22:18:38Z",
-      "attempt_count": 1,
-      "upload_id": "ffb902d9ee02b856",
-      "source_url": "https://prehraj.to/zatah-2-2014-cz-dab-1080p/ffb902d9ee02b856",
-      "upload_title": "Zátah 2 2014 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 226.9,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -32226,16 +32229,6 @@
       "worker_id": "worker-4-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-12T22:18:40Z"
-    },
-    {
-      "cr_film_id": 384,
-      "cr_slug": "zatah-2",
-      "title": "Zátah 2",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T22:19:42Z"
     }
   ]
 }
