@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T22:06:47Z",
+  "last_updated": "2026-07-12T22:08:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -31855,6 +31855,27 @@
         "download_sec": 94.6,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 363,
+      "cr_slug": "pi-a-jeho-zivot",
+      "title": "Pí a jeho život",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T22:08:42Z",
+      "first_failed_at": "2026-07-12T22:08:42Z",
+      "attempt_count": 1,
+      "upload_id": "60455e6c0f19d",
+      "source_url": "https://prehraj.to/pi-a-jeho-zivot-life-of-pi-2012-1080p-brrip-x264-gaz-yify-telefilm/60455e6c0f19d",
+      "upload_title": "Pí a jeho život - Life of Pi (2012) 1080p BRrip x264 GAZ YIFY, telefilm",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 82.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -31887,16 +31908,6 @@
       "worker_id": "worker-2-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-12T22:06:37Z"
-    },
-    {
-      "cr_film_id": 363,
-      "cr_slug": "pi-a-jeho-zivot",
-      "title": "Pí a jeho život",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T22:06:47Z"
     }
   ]
 }
