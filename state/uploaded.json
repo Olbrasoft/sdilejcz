@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T15:04:47Z",
+  "last_updated": "2026-07-12T15:06:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -28483,6 +28483,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 105,
+      "cr_slug": "joker",
+      "title": "Joker",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T15:06:11Z",
+      "first_failed_at": "2026-07-12T15:06:11Z",
+      "attempt_count": 1,
+      "upload_id": "5ed139a07c665",
+      "source_url": "https://prehraj.to/joker-2019-cz-dabing-1080p-a/5ed139a07c665",
+      "upload_title": "Joker 2019 CZ Dabing 1080p.A",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 5.1,
+        "download_sec": 96.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -28495,16 +28516,6 @@
       "worker_id": "worker-4-29194566054",
       "run_id": "29194566054",
       "reserved_at": "2026-07-12T15:01:58Z"
-    },
-    {
-      "cr_film_id": 105,
-      "cr_slug": "joker",
-      "title": "Joker",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T15:03:55Z"
     },
     {
       "cr_film_id": 106,
