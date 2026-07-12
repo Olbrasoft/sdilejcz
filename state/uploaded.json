@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T22:17:47Z",
+  "last_updated": "2026-07-12T22:18:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -32149,6 +32149,27 @@
       "timing": {
         "resolve_sec": 3.4
       }
+    },
+    {
+      "cr_film_id": 384,
+      "cr_slug": "zatah-2",
+      "title": "Zátah 2",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T22:18:38Z",
+      "first_failed_at": "2026-07-12T22:18:38Z",
+      "attempt_count": 1,
+      "upload_id": "ffb902d9ee02b856",
+      "source_url": "https://prehraj.to/zatah-2-2014-cz-dab-1080p/ffb902d9ee02b856",
+      "upload_title": "Zátah 2 2014 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 226.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -32171,16 +32192,6 @@
       "worker_id": "worker-2-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-12T22:13:20Z"
-    },
-    {
-      "cr_film_id": 384,
-      "cr_slug": "zatah-2",
-      "title": "Zátah 2",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T22:14:18Z"
     },
     {
       "cr_film_id": 341,
