@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T18:46:20Z",
+  "last_updated": "2026-07-12T19:12:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -30614,19 +30614,29 @@
         "resolve_sec": 1.6,
         "download_sec": 3602.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 249,
       "cr_slug": "sbal-prachy-a-vypadni",
       "title": "Sbal prachy a vypadni",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-2-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T18:12:50Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3599379 milliseconds with 2420866634 out of 2769625985 bytes received",
+      "failed_at": "2026-07-12T19:12:56Z",
+      "first_failed_at": "2026-07-12T19:12:56Z",
+      "attempt_count": 1,
+      "upload_id": "67071cca34e5b",
+      "source_url": "https://prehraj.to/sbal-prachy-a-vypadni-jason-flemyng-dexter-fletcher-nick-moran-jason-statham-1998-krimi-thriller-komedie-dvdrip-1080p-cz-dabing/67071cca34e5b",
+      "upload_title": "Sbal prachy a vypadni (Jason Flemyng,Dexter Fletcher,Nick Moran,Jason Statham-1998 Krimi-Thriller-Komedie-Dvdrip.-1080p.) Cz dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.1,
+        "download_sec": 3601.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 260,
       "cr_slug": "na-hromnice-o-den-vice",
