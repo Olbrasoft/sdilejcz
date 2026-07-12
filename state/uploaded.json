@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T22:41:52Z",
+  "last_updated": "2026-07-12T22:42:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -32392,6 +32392,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 409,
+      "cr_slug": "kocici-odysea",
+      "title": "Kočičí odysea",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T22:42:13Z",
+      "first_failed_at": "2026-07-12T22:42:13Z",
+      "attempt_count": 1,
+      "upload_id": "68606de983318",
+      "source_url": "https://prehraj.to/kocici-odysea-flow-2024-1080p-cz-dab-animak/68606de983318",
+      "upload_title": "Kočičí odysea (Flow  2024) 1080p CZ dab -animák",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 47.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -32414,16 +32435,6 @@
       "worker_id": "worker-3-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-12T22:38:36Z"
-    },
-    {
-      "cr_film_id": 409,
-      "cr_slug": "kocici-odysea",
-      "title": "Kočičí odysea",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T22:40:53Z"
     },
     {
       "cr_film_id": 410,
