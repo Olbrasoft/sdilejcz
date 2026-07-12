@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T16:30:06Z",
+  "last_updated": "2026-07-12T16:33:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -29461,19 +29461,30 @@
       "timing": {
         "resolve_sec": 4.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 176,
       "cr_slug": "vec",
       "title": "Věc",
       "year": 1982,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T16:05:53Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T16:33:34Z",
+      "first_failed_at": "2026-07-12T16:33:34Z",
+      "attempt_count": 1,
+      "upload_id": "635915d3bb622",
+      "source_url": "https://prehraj.to/vec-1982-sci-fi-horor-cz-dabing-1080p-abyssx/635915d3bb622",
+      "upload_title": "Věc-1982-Sci-fi horor CZ Dabing-1080p - abyssX",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 1627.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 178,
       "cr_slug": "indiana-jones-a-posledni-krizova-vyprava",
