@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T20:46:24Z",
+  "last_updated": "2026-07-12T20:48:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -30945,6 +30945,27 @@
         "resolve_sec": 1.2,
         "download_sec": 3601.7
       }
+    },
+    {
+      "cr_film_id": 296,
+      "cr_slug": "contratiempo",
+      "title": "Neviditelný host",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T20:48:45Z",
+      "first_failed_at": "2026-07-12T20:48:45Z",
+      "attempt_count": 1,
+      "upload_id": "68bee835699a8",
+      "source_url": "https://prehraj.to/neviditelny-host-contratiempo-cz-dabing-2016/68bee835699a8",
+      "upload_title": "Neviditelný host Contratiempo CZ Dabing 2016",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 551.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -30957,16 +30978,6 @@
       "worker_id": "worker-4-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-12T20:13:25Z"
-    },
-    {
-      "cr_film_id": 296,
-      "cr_slug": "contratiempo",
-      "title": "Neviditelný host",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T20:39:01Z"
     },
     {
       "cr_film_id": 236,
