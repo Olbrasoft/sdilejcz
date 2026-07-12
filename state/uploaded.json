@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T22:04:00Z",
+  "last_updated": "2026-07-12T22:06:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -31786,6 +31786,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 363,
+      "cr_slug": "pi-a-jeho-zivot",
+      "title": "Pí a jeho život",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T22:06:07Z",
+      "first_failed_at": "2026-07-12T22:06:07Z",
+      "attempt_count": 1,
+      "upload_id": "bfeb28f754512421",
+      "source_url": "https://prehraj.to/pi-a-jeho-zivot-2012-cz-dab-1080p-cz-dab-1080p/bfeb28f754512421",
+      "upload_title": "Pí a jeho život 2012 CZ dab 1080p CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 94.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -31818,16 +31839,6 @@
       "worker_id": "worker-2-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-12T22:01:15Z"
-    },
-    {
-      "cr_film_id": 363,
-      "cr_slug": "pi-a-jeho-zivot",
-      "title": "Pí a jeho život",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T22:04:00Z"
     }
   ]
 }
