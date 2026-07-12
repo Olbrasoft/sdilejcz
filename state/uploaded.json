@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T14:59:09Z",
+  "last_updated": "2026-07-12T14:59:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -28296,6 +28296,27 @@
       "timing": {
         "resolve_sec": 4.2
       }
+    },
+    {
+      "cr_film_id": 93,
+      "cr_slug": "vall-i",
+      "title": "VALL-I",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T14:59:12Z",
+      "first_failed_at": "2026-07-12T14:59:12Z",
+      "attempt_count": 1,
+      "upload_id": "6073ff9a12f49",
+      "source_url": "https://prehraj.to/vall-i-2008-cz-dabing/6073ff9a12f49",
+      "upload_title": "VALL-I (2008) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.3,
+        "download_sec": 77.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -28308,16 +28329,6 @@
       "worker_id": "worker-2-29194566054",
       "run_id": "29194566054",
       "reserved_at": "2026-07-12T14:53:00Z"
-    },
-    {
-      "cr_film_id": 93,
-      "cr_slug": "vall-i",
-      "title": "VALL-I",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T14:57:21Z"
     },
     {
       "cr_film_id": 94,
