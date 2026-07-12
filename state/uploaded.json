@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T18:19:18Z",
+  "last_updated": "2026-07-12T18:20:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -30483,19 +30483,29 @@
       "timing": {
         "resolve_sec": 4.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 236,
       "cr_slug": "harry-potter-a-relikvie-smrti-cast-2",
       "title": "Harry Potter a Relikvie smrti – část 2",
       "year": 2011,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T17:19:56Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3599531 milliseconds with 2173832784 out of 4417789703 bytes received",
+      "failed_at": "2026-07-12T18:20:01Z",
+      "first_failed_at": "2026-07-12T18:20:01Z",
+      "attempt_count": 1,
+      "upload_id": "634d979a2ad5d",
+      "source_url": "https://prehraj.to/harry-potter-7-a-relikvie-smrti-cast-2-2011-cz-dabing/634d979a2ad5d",
+      "upload_title": "Harry Potter 7 a Relikvie smrti - Část 2 (2011) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 3601.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 243,
       "cr_slug": "most-pres-reku-kwai",
