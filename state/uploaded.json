@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T14:00:49Z",
+  "last_updated": "2026-07-12T14:02:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -27400,6 +27400,27 @@
         "download_sec": 427.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 41,
+      "cr_slug": "sedm",
+      "title": "Sedm",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-12T14:02:40Z",
+      "first_failed_at": "2026-07-12T14:02:40Z",
+      "attempt_count": 1,
+      "upload_id": "5c5af867e6bda",
+      "source_url": "https://prehraj.to/sedm-1995-cz-dab/5c5af867e6bda",
+      "upload_title": "Sedm-1995-cz.dab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 182.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -27422,16 +27443,6 @@
       "worker_id": "worker-1-29194566054",
       "run_id": "29194566054",
       "reserved_at": "2026-07-12T13:58:18Z"
-    },
-    {
-      "cr_film_id": 41,
-      "cr_slug": "sedm",
-      "title": "Sedm",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29194566054",
-      "run_id": "29194566054",
-      "reserved_at": "2026-07-12T13:59:05Z"
     },
     {
       "cr_film_id": 42,
