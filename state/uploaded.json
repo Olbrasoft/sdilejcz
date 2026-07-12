@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-12T23:24:15Z",
+  "last_updated": "2026-07-12T23:24:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -31818,6 +31818,30 @@
         "upload_sec": 146.4,
         "total_sec": 204.0
       }
+    },
+    {
+      "cr_film_id": 464,
+      "cr_slug": "dej-mi-sve-jmeno",
+      "title": "Dej mi své jméno",
+      "year": 2017,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5b89196fd3695",
+      "source_url": "https://prehraj.to/dej-mi-sve-jmeno-2017-cz-dabing/5b89196fd3695",
+      "source_title": "Dej Mi Své Jméno (2017) CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34646869/dej-mi-sve-jmeno-2017-cz-dabing.mp4",
+      "sdilej_name": "Dej mi své jméno (2017) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-12T23:24:28Z",
+      "status": "uploaded",
+      "size_bytes": 996752116,
+      "worker_id": "worker-4-29205793883",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 44.7,
+        "upload_sec": 125.9,
+        "total_sec": 172.2
+      }
     }
   ],
   "failed_attempts": [
@@ -33140,40 +33164,9 @@
       "timing": {
         "resolve_sec": 2.2
       }
-    },
-    {
-      "cr_film_id": 464,
-      "cr_slug": "dej-mi-sve-jmeno",
-      "title": "Dej mi své jméno",
-      "year": 2017,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-12T23:20:48Z",
-      "first_failed_at": "2026-07-12T23:20:48Z",
-      "attempt_count": 1,
-      "upload_id": "5c6e960ed256c",
-      "source_url": "https://prehraj.to/dej-mi-sve-jmeno-call-me-by-your-name-2017-cz-dabing/5c6e960ed256c",
-      "upload_title": "Dej Mi Své Jméno - Call Me By Your Name (2017) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 31.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 464,
-      "cr_slug": "dej-mi-sve-jmeno",
-      "title": "Dej mi své jméno",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-12T23:21:35Z"
-    },
     {
       "cr_film_id": 472,
       "cr_slug": "skryta-cisla",
