@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T23:06:52Z",
+  "last_updated": "2026-07-13T23:07:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -58290,6 +58290,30 @@
         "upload_sec": 281.6,
         "total_sec": 362.3
       }
+    },
+    {
+      "cr_film_id": 2749,
+      "cr_slug": "rocky-iv",
+      "title": "Rocky IV",
+      "year": 1985,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5c0e7c54021e2",
+      "source_url": "https://prehraj.to/rocky-6-cz-dabing-1986/5c0e7c54021e2",
+      "source_title": "Rocky 6 [CZ dabing, 1986]",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34650779/rocky-iv-1985-cz-dabing.mp4",
+      "sdilej_name": "Rocky IV (1985) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T23:07:34Z",
+      "status": "uploaded",
+      "size_bytes": 651291043,
+      "worker_id": "worker-1-29290293089",
+      "timing": {
+        "resolve_sec": 4.7,
+        "download_sec": 40.6,
+        "upload_sec": 86.8,
+        "total_sec": 135.1
+      }
     }
   ],
   "failed_attempts": [
@@ -61723,46 +61747,6 @@
         "download_sec": 145.2,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 2749,
-      "cr_slug": "rocky-iv",
-      "title": "Rocky IV",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T23:04:31Z",
-      "first_failed_at": "2026-07-13T23:04:31Z",
-      "attempt_count": 1,
-      "upload_id": "55fadda91abac",
-      "source_url": "https://prehraj.to/rocky-iv-1985-cz-dabing-top-hit/55fadda91abac",
-      "upload_title": "Rocky IV., (1985) CZ DABING TOP HIT",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 37.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 2749,
-      "cr_slug": "rocky-iv",
-      "title": "Rocky IV",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/rocky-4-1985-cz-dabing-2160p-mp4/c79054ff5c3aa6e1",
-      "failed_at": "2026-07-13T23:05:20Z",
-      "first_failed_at": "2026-07-13T23:05:20Z",
-      "attempt_count": 1,
-      "upload_id": "c79054ff5c3aa6e1",
-      "source_url": "https://prehraj.to/rocky-4-1985-cz-dabing-2160p-mp4/c79054ff5c3aa6e1",
-      "upload_title": "Rocky 4 1985 CZ Dabing 2160p.mp4",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.1
-      }
     }
   ],
   "in_progress": [
@@ -61775,16 +61759,6 @@
       "worker_id": "worker-3-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-13T23:04:33Z"
-    },
-    {
-      "cr_film_id": 2749,
-      "cr_slug": "rocky-iv",
-      "title": "Rocky IV",
-      "year": 1985,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-13T23:05:17Z"
     },
     {
       "cr_film_id": 2751,
