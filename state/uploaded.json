@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T17:51:09Z",
+  "last_updated": "2026-07-13T17:52:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -57394,6 +57394,27 @@
       "timing": {
         "resolve_sec": 4.0
       }
+    },
+    {
+      "cr_film_id": 2411,
+      "cr_slug": "surfarka",
+      "title": "Surfařka",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T17:52:58Z",
+      "first_failed_at": "2026-07-13T17:52:58Z",
+      "attempt_count": 1,
+      "upload_id": "57de349015083",
+      "source_url": "https://prehraj.to/surfarka-2011-czdab/57de349015083",
+      "upload_title": "Surfařka (2011)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 179.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -57416,16 +57437,6 @@
       "worker_id": "worker-4-29269764551",
       "run_id": "29269764551",
       "reserved_at": "2026-07-13T17:47:55Z"
-    },
-    {
-      "cr_film_id": 2411,
-      "cr_slug": "surfarka",
-      "title": "Surfařka",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T17:49:26Z"
     },
     {
       "cr_film_id": 2414,
