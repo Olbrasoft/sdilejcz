@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T10:24:31Z",
+  "last_updated": "2026-07-13T10:26:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -47921,6 +47921,27 @@
       "timing": {
         "resolve_sec": 1.2
       }
+    },
+    {
+      "cr_film_id": 1642,
+      "cr_slug": "kouzelny-drak",
+      "title": "Kouzelný drak",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T10:26:13Z",
+      "first_failed_at": "2026-07-13T10:26:13Z",
+      "attempt_count": 1,
+      "upload_id": "60d267f41a945",
+      "source_url": "https://prehraj.to/kouzelny-drak-2021-cz-dabing-full-hd-brian/60d267f41a945",
+      "upload_title": "Kouzelný Drak 2021 CZ DABING FULL HD (BRIAN)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 70.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -47953,16 +47974,6 @@
       "worker_id": "worker-3-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T10:24:28Z"
-    },
-    {
-      "cr_film_id": 1642,
-      "cr_slug": "kouzelny-drak",
-      "title": "Kouzelný drak",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T10:24:31Z"
     }
   ]
 }
