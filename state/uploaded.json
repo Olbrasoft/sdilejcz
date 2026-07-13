@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T03:15:37Z",
+  "last_updated": "2026-07-13T03:16:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -36090,6 +36090,30 @@
         "upload_sec": 333.5,
         "total_sec": 460.6
       }
+    },
+    {
+      "cr_film_id": 828,
+      "cr_slug": "spojenec",
+      "title": "Spojenec",
+      "year": 2006,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5c4a9abb882c0",
+      "source_url": "https://prehraj.to/spojenec-2006-dvdrip-cz-dabing-m3/5c4a9abb882c0",
+      "source_title": "Spojenec(2006)DVDrip - CZ dabing...M3",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34647174/spojenec-2006-cz-dabing.mp4",
+      "sdilej_name": "Spojenec (2006) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T03:16:45Z",
+      "status": "uploaded",
+      "size_bytes": 476281416,
+      "worker_id": "worker-4-29215722564",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 19.1,
+        "upload_sec": 46.8,
+        "total_sec": 67.1
+      }
     }
   ],
   "failed_attempts": [
@@ -37661,27 +37685,6 @@
         "download_sec": 29.5,
         "upload_sec": 0.0
       }
-    },
-    {
-      "cr_film_id": 828,
-      "cr_slug": "spojenec",
-      "title": "Spojenec",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T03:15:22Z",
-      "first_failed_at": "2026-07-13T03:15:22Z",
-      "attempt_count": 1,
-      "upload_id": "5c049b41e4181",
-      "source_url": "https://prehraj.to/spojenec-2006-dvdrip-cz-dabing-m3/5c049b41e4181",
-      "upload_title": "Spojenec(2006)DVDrip - CZ dabing...M3",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 30.1,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -37714,16 +37717,6 @@
       "worker_id": "worker-1-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T03:15:23Z"
-    },
-    {
-      "cr_film_id": 828,
-      "cr_slug": "spojenec",
-      "title": "Spojenec",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T03:15:37Z"
     }
   ]
 }
