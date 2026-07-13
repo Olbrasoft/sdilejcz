@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T23:21:02Z",
+  "last_updated": "2026-07-13T23:21:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -62119,6 +62119,27 @@
       "timing": {
         "resolve_sec": 4.3
       }
+    },
+    {
+      "cr_film_id": 2770,
+      "cr_slug": "rana",
+      "title": "Rána",
+      "year": 2026,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T23:21:28Z",
+      "first_failed_at": "2026-07-13T23:21:28Z",
+      "attempt_count": 1,
+      "upload_id": "f205b9227afc9f7b",
+      "source_url": "https://prehraj.to/the-rip-2026-1080p-cz-dabing-mkv/f205b9227afc9f7b",
+      "upload_title": "The Rip 2026 1080p CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 92.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -62141,16 +62162,6 @@
       "worker_id": "worker-3-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-13T23:17:59Z"
-    },
-    {
-      "cr_film_id": 2770,
-      "cr_slug": "rana",
-      "title": "Rána",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-13T23:19:22Z"
     },
     {
       "cr_film_id": 2771,
