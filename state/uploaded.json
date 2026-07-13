@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T18:14:34Z",
+  "last_updated": "2026-07-13T18:16:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -54474,6 +54474,30 @@
         "upload_sec": 330.0,
         "total_sec": 506.9
       }
+    },
+    {
+      "cr_film_id": 2431,
+      "cr_slug": "bronson",
+      "title": "Bronson",
+      "year": 2008,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5668a84dd8e98",
+      "source_url": "https://prehraj.to/bronson-cz-dabing-2008/5668a84dd8e98",
+      "source_title": "Bronson CZ Dabing 2008",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34649755/bronson-2008-cz-dabing.mp4",
+      "sdilej_name": "Bronson (2008) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T18:16:57Z",
+      "status": "uploaded",
+      "size_bytes": 787759803,
+      "worker_id": "worker-4-29269764551",
+      "timing": {
+        "resolve_sec": 2.7,
+        "download_sec": 36.4,
+        "upload_sec": 102.1,
+        "total_sec": 146.2
+      }
     }
   ],
   "failed_attempts": [
@@ -57658,26 +57682,6 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    },
-    {
-      "cr_film_id": 2431,
-      "cr_slug": "bronson",
-      "title": "Bronson",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: file exceeds max size (10245607979 B > 6000000000 B)",
-      "failed_at": "2026-07-13T18:14:34Z",
-      "first_failed_at": "2026-07-13T18:14:34Z",
-      "attempt_count": 1,
-      "upload_id": "64fd9740ad006",
-      "source_url": "https://prehraj.to/bronson-2008-cz-dabing/64fd9740ad006",
-      "upload_title": "Bronson (2008) Cz dabing",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 2.2
-      }
     }
   ],
   "in_progress": [
@@ -57710,16 +57714,6 @@
       "worker_id": "worker-2-29269764551",
       "run_id": "29269764551",
       "reserved_at": "2026-07-13T18:10:19Z"
-    },
-    {
-      "cr_film_id": 2431,
-      "cr_slug": "bronson",
-      "title": "Bronson",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T18:14:29Z"
     }
   ]
 }
