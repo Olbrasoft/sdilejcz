@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T18:56:33Z",
+  "last_updated": "2026-07-13T18:58:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -54930,6 +54930,30 @@
         "upload_sec": 45.0,
         "total_sec": 64.4
       }
+    },
+    {
+      "cr_film_id": 2456,
+      "cr_slug": "prci-prci-prcicky",
+      "title": "Prci, prci, prcičky",
+      "year": 1999,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "569cbfa39eb42",
+      "source_url": "https://prehraj.to/prci-prci-prcicky-american-pie-cz-dabing-1999/569cbfa39eb42",
+      "source_title": "Prci Prci Prcicky, American Pie, Cz Dabing (1999)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34649979/prci-prci-prcicky-1999-cz-dabing.mp4",
+      "sdilej_name": "Prci, prci, prcičky (1999) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T18:58:42Z",
+      "status": "uploaded",
+      "size_bytes": 663649731,
+      "worker_id": "worker-3-29269764551",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 39.1,
+        "upload_sec": 87.9,
+        "total_sec": 128.3
+      }
     }
   ],
   "failed_attempts": [
@@ -58116,27 +58140,6 @@
       }
     },
     {
-      "cr_film_id": 2456,
-      "cr_slug": "prci-prci-prcicky",
-      "title": "Prci, prci, prcičky",
-      "year": 1999,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T18:49:44Z",
-      "first_failed_at": "2026-07-13T18:49:44Z",
-      "attempt_count": 1,
-      "upload_id": "6367dd96d90da",
-      "source_url": "https://prehraj.to/prci-prci-prcicky-1-1999-cz-dabing-1080p/6367dd96d90da",
-      "upload_title": "Prci, prci, prcičky 1 (1999) (CZ Dabing, 1080p)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 48.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 2455,
       "cr_slug": "nepremozitelny",
       "title": "Nepřemožitelný",
@@ -58188,16 +58191,6 @@
       "worker_id": "worker-2-29269764551",
       "run_id": "29269764551",
       "reserved_at": "2026-07-13T18:50:53Z"
-    },
-    {
-      "cr_film_id": 2456,
-      "cr_slug": "prci-prci-prcicky",
-      "title": "Prci, prci, prcičky",
-      "year": 1999,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T18:56:33Z"
     }
   ]
 }
