@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T05:50:58Z",
+  "last_updated": "2026-07-13T05:52:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -40811,6 +40811,27 @@
       "timing": {
         "resolve_sec": 1.9
       }
+    },
+    {
+      "cr_film_id": 1071,
+      "cr_slug": "superman",
+      "title": "Superman",
+      "year": 1978,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T05:52:00Z",
+      "first_failed_at": "2026-07-13T05:52:00Z",
+      "attempt_count": 1,
+      "upload_id": "5ffa73280084d",
+      "source_url": "https://prehraj.to/superman-1978-czdab/5ffa73280084d",
+      "upload_title": "Superman (1978) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 130.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -40823,16 +40844,6 @@
       "worker_id": "worker-3-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T05:47:59Z"
-    },
-    {
-      "cr_film_id": 1071,
-      "cr_slug": "superman",
-      "title": "Superman",
-      "year": 1978,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T05:49:16Z"
     },
     {
       "cr_film_id": 1072,
