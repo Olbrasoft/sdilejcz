@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T23:48:35Z",
+  "last_updated": "2026-07-13T23:50:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -62521,6 +62521,27 @@
         "download_sec": 247.3,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 2792,
+      "cr_slug": "babicky",
+      "title": "Babičky",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T23:50:31Z",
+      "first_failed_at": "2026-07-13T23:50:31Z",
+      "attempt_count": 1,
+      "upload_id": "68fddc2fa285c",
+      "source_url": "https://prehraj.to/babicky-2025-cz-dabing-1080p-full-hd/68fddc2fa285c",
+      "upload_title": "Babičky 2025 CZ Dabing 1080p Full HD",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 81.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -62553,16 +62574,6 @@
       "worker_id": "worker-2-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-13T23:47:51Z"
-    },
-    {
-      "cr_film_id": 2792,
-      "cr_slug": "babicky",
-      "title": "Babičky",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-13T23:48:35Z"
     }
   ]
 }
