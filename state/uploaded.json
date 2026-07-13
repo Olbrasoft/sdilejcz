@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T00:44:50Z",
+  "last_updated": "2026-07-13T00:45:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -34881,6 +34881,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 619,
+      "cr_slug": "x-men-prvni-trida",
+      "title": "X-Men: První třída",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T00:45:45Z",
+      "first_failed_at": "2026-07-13T00:45:45Z",
+      "attempt_count": 1,
+      "upload_id": "51c39feedce0bdea",
+      "source_url": "https://prehraj.to/x-men-prvni-trida-2011-cz-dab-1080p/51c39feedce0bdea",
+      "upload_title": "X-Men - První třída 2011 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 108.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -34893,16 +34914,6 @@
       "worker_id": "worker-3-29205793883",
       "run_id": "29205793883",
       "reserved_at": "2026-07-13T00:42:33Z"
-    },
-    {
-      "cr_film_id": 619,
-      "cr_slug": "x-men-prvni-trida",
-      "title": "X-Men: První třída",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29205793883",
-      "run_id": "29205793883",
-      "reserved_at": "2026-07-13T00:43:23Z"
     },
     {
       "cr_film_id": 620,
