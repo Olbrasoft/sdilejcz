@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T08:49:28Z",
+  "last_updated": "2026-07-13T08:51:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -45445,6 +45445,27 @@
       "timing": {
         "resolve_sec": 4.4
       }
+    },
+    {
+      "cr_film_id": 1437,
+      "cr_slug": "divka-v-modrem",
+      "title": "Dívka v modrém",
+      "year": 1939,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T08:51:49Z",
+      "first_failed_at": "2026-07-13T08:51:49Z",
+      "attempt_count": 1,
+      "upload_id": "62714ee012277",
+      "source_url": "https://prehraj.to/divka-v-modrem-1939-cesky-film-pro-pametniky-komedie/62714ee012277",
+      "upload_title": "Dívka v modrém 1939 český film pro pamětníky komedie",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 108.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -45477,16 +45498,6 @@
       "worker_id": "worker-1-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T08:48:48Z"
-    },
-    {
-      "cr_film_id": 1437,
-      "cr_slug": "divka-v-modrem",
-      "title": "Dívka v modrém",
-      "year": 1939,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T08:49:28Z"
     }
   ]
 }
