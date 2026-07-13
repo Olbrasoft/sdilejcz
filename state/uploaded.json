@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T18:48:24Z",
+  "last_updated": "2026-07-13T18:49:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -54882,6 +54882,30 @@
         "upload_sec": 326.4,
         "total_sec": 420.4
       }
+    },
+    {
+      "cr_film_id": 2442,
+      "cr_slug": "22-jump-street",
+      "title": "22 Jump Street",
+      "year": 2014,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "63bd38892cf43",
+      "source_url": "https://prehraj.to/22-jump-street-cz-dabing-2014-komedie/63bd38892cf43",
+      "source_title": "22 Jump Street [CZ dabing, 2014, komedie]",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34649934/22-jump-street-2014-cz-dabing.mp4",
+      "sdilej_name": "22 Jump Street (2014) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T18:49:12Z",
+      "status": "uploaded",
+      "size_bytes": 2137257696,
+      "worker_id": "worker-1-29269764551",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 240.1,
+        "upload_sec": 213.6,
+        "total_sec": 455.0
+      }
     }
   ],
   "failed_attempts": [
@@ -58066,40 +58090,9 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    },
-    {
-      "cr_film_id": 2442,
-      "cr_slug": "22-jump-street",
-      "title": "22 Jump Street",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T18:41:15Z",
-      "first_failed_at": "2026-07-13T18:41:15Z",
-      "attempt_count": 1,
-      "upload_id": "63bd3834d3dc4",
-      "source_url": "https://prehraj.to/22-jump-street-cz-dabing-2014-komedie/63bd3834d3dc4",
-      "upload_title": "22 Jump Street [CZ dabing, 2014, komedie]",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 806.7,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2442,
-      "cr_slug": "22-jump-street",
-      "title": "22 Jump Street",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T18:41:36Z"
-    },
     {
       "cr_film_id": 2453,
       "cr_slug": "marinak",
