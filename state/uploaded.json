@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T23:36:05Z",
+  "last_updated": "2026-07-13T23:38:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -58866,6 +58866,30 @@
         "upload_sec": 241.6,
         "total_sec": 312.6
       }
+    },
+    {
+      "cr_film_id": 2780,
+      "cr_slug": "rachot-v-bronxu",
+      "title": "Rachot v Bronxu",
+      "year": 1995,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "57bb3d00c9b14846",
+      "source_url": "https://prehraj.to/rachot-v-bronxu-1995-akcni-cz-dabing-spickova-kvalita-by-nexsus-mkv/57bb3d00c9b14846",
+      "source_title": "Rachot v bronxu (1995)(Akční) CZ DABING ŠPIČKOVA KVALITA by Nexsus (Hraje - Jackie Chan)",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34650858/rachot-v-bronxu-1995-cz-dabing.mp4",
+      "sdilej_name": "Rachot v Bronxu (1995) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T23:38:47Z",
+      "status": "uploaded",
+      "size_bytes": 1238019701,
+      "worker_id": "worker-2-29290293089",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 35.9,
+        "upload_sec": 123.7,
+        "total_sec": 160.9
+      }
     }
   ],
   "failed_attempts": [
@@ -62356,27 +62380,6 @@
         "download_sec": 111.1,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 2780,
-      "cr_slug": "rachot-v-bronxu",
-      "title": "Rachot v Bronxu",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T23:33:31Z",
-      "first_failed_at": "2026-07-13T23:33:31Z",
-      "attempt_count": 1,
-      "upload_id": "67775e4c38a3c",
-      "source_url": "https://prehraj.to/rachot-v-bronxu-1995-cz-dabing-1080p/67775e4c38a3c",
-      "upload_title": "Rachot v Bronxu 1995 CZ Dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.7,
-        "download_sec": 103.5,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -62409,16 +62412,6 @@
       "worker_id": "worker-3-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-13T23:33:32Z"
-    },
-    {
-      "cr_film_id": 2780,
-      "cr_slug": "rachot-v-bronxu",
-      "title": "Rachot v Bronxu",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-13T23:36:05Z"
     }
   ]
 }
