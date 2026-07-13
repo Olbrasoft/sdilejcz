@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T01:22:38Z",
+  "last_updated": "2026-07-13T01:23:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -34050,6 +34050,30 @@
         "upload_sec": 416.4,
         "total_sec": 556.6
       }
+    },
+    {
+      "cr_film_id": 642,
+      "cr_slug": "cerny-jestrab-sestrelen",
+      "title": "Černý jestřáb sestřelen",
+      "year": 2001,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "55cd8d499b7b9",
+      "source_url": "https://prehraj.to/erny-jestrab-sestrelen-2001-valecni-cz-dab-n-y/55cd8d499b7b9",
+      "source_title": "erný jestřáb sestřelen - 2001 váleční cz dab.n@y",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34647023/cerny-jestrab-sestrelen-2001-cz-dabing.mp4",
+      "sdilej_name": "Černý jestřáb sestřelen (2001) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T01:23:09Z",
+      "status": "uploaded",
+      "size_bytes": 881771386,
+      "worker_id": "worker-4-29215722564",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 26.3,
+        "upload_sec": 86.0,
+        "total_sec": 113.4
+      }
     }
   ],
   "failed_attempts": [
@@ -35505,105 +35529,6 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 642,
-      "cr_slug": "cerny-jestrab-sestrelen",
-      "title": "Černý jestřáb sestřelen",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T01:13:27Z",
-      "first_failed_at": "2026-07-13T01:13:27Z",
-      "attempt_count": 1,
-      "upload_id": "68e519885bd86",
-      "source_url": "https://prehraj.to/cerny-jestrab-sestrelen-2001-cz-dabing-1080p/68e519885bd86",
-      "upload_title": "Černý jestřáb sestřelen (2001) CZ Dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 176.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 642,
-      "cr_slug": "cerny-jestrab-sestrelen",
-      "title": "Černý jestřáb sestřelen",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/cerny-jestrab-sestrelen-2001-cz-dabing-1080p-mp4/03c6c283c8de39a2",
-      "failed_at": "2026-07-13T01:13:51Z",
-      "first_failed_at": "2026-07-13T01:13:51Z",
-      "attempt_count": 1,
-      "upload_id": "03c6c283c8de39a2",
-      "source_url": "https://prehraj.to/cerny-jestrab-sestrelen-2001-cz-dabing-1080p-mp4/03c6c283c8de39a2",
-      "upload_title": "Černý jestřáb sestřelen 2001 CZ Dabing 1080p.mp4",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 642,
-      "cr_slug": "cerny-jestrab-sestrelen",
-      "title": "Černý jestřáb sestřelen",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/cerny-jestrab-sestrelen-2001-cz-dabing-1080p-mp4/eeef77bc19358055",
-      "failed_at": "2026-07-13T01:13:59Z",
-      "first_failed_at": "2026-07-13T01:13:59Z",
-      "attempt_count": 1,
-      "upload_id": "eeef77bc19358055",
-      "source_url": "https://prehraj.to/cerny-jestrab-sestrelen-2001-cz-dabing-1080p-mp4/eeef77bc19358055",
-      "upload_title": "Černý jestřáb sestřelen 2001 CZ Dabing 1080p.mp4",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 6.9
-      }
-    },
-    {
-      "cr_film_id": 642,
-      "cr_slug": "cerny-jestrab-sestrelen",
-      "title": "Černý jestřáb sestřelen",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/cerny-jestrab-sestrelen-2001-cz-dabing-1080p-mp4/18104c9a883826e9",
-      "failed_at": "2026-07-13T01:14:06Z",
-      "first_failed_at": "2026-07-13T01:14:06Z",
-      "attempt_count": 1,
-      "upload_id": "18104c9a883826e9",
-      "source_url": "https://prehraj.to/cerny-jestrab-sestrelen-2001-cz-dabing-1080p-mp4/18104c9a883826e9",
-      "upload_title": "Černý jestřáb sestřelen (2001) CZ Dabing 1080p.mp4",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 5.2
-      }
-    },
-    {
-      "cr_film_id": 642,
-      "cr_slug": "cerny-jestrab-sestrelen",
-      "title": "Černý jestřáb sestřelen",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T01:18:09Z",
-      "first_failed_at": "2026-07-13T01:18:09Z",
-      "attempt_count": 1,
-      "upload_id": "67228759551a0",
-      "source_url": "https://prehraj.to/cerny-jestrab-sestrelen-2001-historicky-valecny-czdab/67228759551a0",
-      "upload_title": "Černý jestřáb sestřelen (2001) historický válečný czdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 4.9,
-        "download_sec": 206.3,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -35626,16 +35551,6 @@
       "worker_id": "worker-3-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T01:20:07Z"
-    },
-    {
-      "cr_film_id": 642,
-      "cr_slug": "cerny-jestrab-sestrelen",
-      "title": "Černý jestřáb sestřelen",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T01:21:15Z"
     },
     {
       "cr_film_id": 657,
