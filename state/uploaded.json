@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T09:20:37Z",
+  "last_updated": "2026-07-13T09:24:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -43890,6 +43890,30 @@
         "upload_sec": 60.8,
         "total_sec": 85.1
       }
+    },
+    {
+      "cr_film_id": 1513,
+      "cr_slug": "ja-padouch-2",
+      "title": "Já, padouch 2",
+      "year": 2013,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "6a78420f9333bb4b",
+      "source_url": "https://prehraj.to/ja-padouch-2-2013-cz-dabing-1080p-mkv/6a78420f9333bb4b",
+      "source_title": "Ja padouch 2 2013 CZ dabing 1080p.mkv",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34647832/ja-padouch-2-2013-cz-dabing.mp4",
+      "sdilej_name": "Já, padouch 2 (2013) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T09:24:05Z",
+      "status": "uploaded",
+      "size_bytes": 1488759640,
+      "worker_id": "worker-1-29229023319",
+      "timing": {
+        "resolve_sec": 5.0,
+        "download_sec": 44.0,
+        "upload_sec": 157.8,
+        "total_sec": 215.6
+      }
     }
   ],
   "failed_attempts": [
@@ -46352,44 +46376,6 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    },
-    {
-      "cr_film_id": 1513,
-      "cr_slug": "ja-padouch-2",
-      "title": "Já, padouch 2",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/ja-padouch-2-2013-cz-dabing-1080p-mkv/ec23d2feec168973",
-      "failed_at": "2026-07-13T09:20:31Z",
-      "first_failed_at": "2026-07-13T09:20:31Z",
-      "attempt_count": 1,
-      "upload_id": "ec23d2feec168973",
-      "source_url": "https://prehraj.to/ja-padouch-2-2013-cz-dabing-1080p-mkv/ec23d2feec168973",
-      "upload_title": "Ja padouch 2 2013 CZ dabing 1080p.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.6
-      }
-    },
-    {
-      "cr_film_id": 1513,
-      "cr_slug": "ja-padouch-2",
-      "title": "Já, padouch 2",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/ja-padouch-2-2013-cz-dabing-1080p-mkv/bedbb57cfeb69fbd",
-      "failed_at": "2026-07-13T09:20:37Z",
-      "first_failed_at": "2026-07-13T09:20:37Z",
-      "attempt_count": 1,
-      "upload_id": "bedbb57cfeb69fbd",
-      "source_url": "https://prehraj.to/ja-padouch-2-2013-cz-dabing-1080p-mkv/bedbb57cfeb69fbd",
-      "upload_title": "Ja padouch 2 2013 CZ dabing 1080p.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 4.7
-      }
     }
   ],
   "in_progress": [
@@ -46422,16 +46408,6 @@
       "worker_id": "worker-2-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T09:20:11Z"
-    },
-    {
-      "cr_film_id": 1513,
-      "cr_slug": "ja-padouch-2",
-      "title": "Já, padouch 2",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T09:20:28Z"
     }
   ]
 }
