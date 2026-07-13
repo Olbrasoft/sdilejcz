@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T12:25:17Z",
+  "last_updated": "2026-07-13T12:26:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -50807,6 +50807,27 @@
       "timing": {
         "resolve_sec": 4.4
       }
+    },
+    {
+      "cr_film_id": 1868,
+      "cr_slug": "joy",
+      "title": "Joy",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T12:26:20Z",
+      "first_failed_at": "2026-07-13T12:26:20Z",
+      "attempt_count": 1,
+      "upload_id": "6740a7b8d14e3",
+      "source_url": "https://prehraj.to/joy-2024-cz-dabing-1080p/6740a7b8d14e3",
+      "upload_title": "Joy (2024) CZ Dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 78.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -50819,16 +50840,6 @@
       "worker_id": "worker-3-29245110447",
       "run_id": "29245110447",
       "reserved_at": "2026-07-13T12:23:20Z"
-    },
-    {
-      "cr_film_id": 1868,
-      "cr_slug": "joy",
-      "title": "Joy",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29245110447",
-      "run_id": "29245110447",
-      "reserved_at": "2026-07-13T12:24:28Z"
     },
     {
       "cr_film_id": 1870,
