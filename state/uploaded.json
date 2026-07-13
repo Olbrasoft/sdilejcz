@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T06:26:20Z",
+  "last_updated": "2026-07-13T06:27:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -39690,6 +39690,30 @@
         "upload_sec": 158.1,
         "total_sec": 220.1
       }
+    },
+    {
+      "cr_film_id": 1116,
+      "cr_slug": "shrek-2",
+      "title": "Shrek 2",
+      "year": 2004,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "fb7f268b60273f54",
+      "source_url": "https://prehraj.to/shrek-2-2004-cz-dabing-mkv/fb7f268b60273f54",
+      "source_title": "Shrek 2 - (2004) CZ Dabing.mkv",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34647458/shrek-2-2004-cz-dabing.mp4",
+      "sdilej_name": "Shrek 2 (2004) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T06:27:01Z",
+      "status": "uploaded",
+      "size_bytes": 2703095483,
+      "worker_id": "worker-3-29215722564",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 116.6,
+        "upload_sec": 348.2,
+        "total_sec": 466.6
+      }
     }
   ],
   "failed_attempts": [
@@ -41411,27 +41435,6 @@
       "timing": {
         "resolve_sec": 1.9
       }
-    },
-    {
-      "cr_film_id": 1116,
-      "cr_slug": "shrek-2",
-      "title": "Shrek 2",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T06:19:02Z",
-      "first_failed_at": "2026-07-13T06:19:02Z",
-      "attempt_count": 1,
-      "upload_id": "68e7d21731028",
-      "source_url": "https://prehraj.to/shrek-2-2004-cz-dabing-1080p/68e7d21731028",
-      "upload_title": "Shrek 2 (2004) CZ Dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.8,
-        "download_sec": 137.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -41444,16 +41447,6 @@
       "worker_id": "worker-2-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T06:19:04Z"
-    },
-    {
-      "cr_film_id": 1116,
-      "cr_slug": "shrek-2",
-      "title": "Shrek 2",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T06:19:14Z"
     }
   ]
 }
