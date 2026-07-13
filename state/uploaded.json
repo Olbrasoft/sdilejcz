@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T23:55:07Z",
+  "last_updated": "2026-07-13T23:55:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -59130,6 +59130,30 @@
         "upload_sec": 187.1,
         "total_sec": 240.6
       }
+    },
+    {
+      "cr_film_id": 2792,
+      "cr_slug": "babicky",
+      "title": "Babičky",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "68443dc21e0c1",
+      "source_url": "https://prehraj.to/babicky-komedie-2025-fhd-mp4-cz-dabing-dd-5-1-hq-film-by-eduard-eddy/68443dc21e0c1",
+      "source_title": "Babičky-Komedie 2025 FHD MP4 CZ dabing-DD 5.1 HQ(Film by Eduard Eddy)",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34650894/babicky-2025-cz-dabing.mp4",
+      "sdilej_name": "Babičky (2025) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T23:55:31Z",
+      "status": "uploaded",
+      "size_bytes": 1404236742,
+      "worker_id": "worker-3-29290293089",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 92.2,
+        "upload_sec": 185.5,
+        "total_sec": 279.4
+      }
     }
   ],
   "failed_attempts": [
@@ -62599,40 +62623,9 @@
       "timing": {
         "resolve_sec": 4.3
       }
-    },
-    {
-      "cr_film_id": 2792,
-      "cr_slug": "babicky",
-      "title": "Babičky",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T23:50:31Z",
-      "first_failed_at": "2026-07-13T23:50:31Z",
-      "attempt_count": 1,
-      "upload_id": "68fddc2fa285c",
-      "source_url": "https://prehraj.to/babicky-2025-cz-dabing-1080p-full-hd/68fddc2fa285c",
-      "upload_title": "Babičky 2025 CZ Dabing 1080p Full HD",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.7,
-        "download_sec": 81.9,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2792,
-      "cr_slug": "babicky",
-      "title": "Babičky",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-13T23:50:51Z"
-    },
     {
       "cr_film_id": 2798,
       "cr_slug": "muj-kamarad-tucnak",
