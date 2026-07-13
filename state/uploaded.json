@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T23:40:03Z",
+  "last_updated": "2026-07-13T23:41:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -62431,6 +62431,27 @@
       "timing": {
         "resolve_sec": 4.3
       }
+    },
+    {
+      "cr_film_id": 2787,
+      "cr_slug": "trinactka",
+      "title": "Třináctka",
+      "year": 2003,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T23:41:06Z",
+      "first_failed_at": "2026-07-13T23:41:06Z",
+      "attempt_count": 1,
+      "upload_id": "55eef068ecf8a",
+      "source_url": "https://prehraj.to/trinactka-2003-czdab/55eef068ecf8a",
+      "upload_title": "Třináctka (2003)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 33.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -62453,16 +62474,6 @@
       "worker_id": "worker-1-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-13T23:39:20Z"
-    },
-    {
-      "cr_film_id": 2787,
-      "cr_slug": "trinactka",
-      "title": "Třináctka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-13T23:39:59Z"
     },
     {
       "cr_film_id": 2788,
