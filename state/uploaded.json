@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T22:04:35Z",
+  "last_updated": "2026-07-13T22:04:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -60363,19 +60363,30 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2622,
       "cr_slug": "aladin",
       "title": "Aladin",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T22:02:15Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T22:04:52Z",
+      "first_failed_at": "2026-07-13T22:04:52Z",
+      "attempt_count": 1,
+      "upload_id": "6808cc786f7de",
+      "source_url": "https://prehraj.to/aladin-2019-cz-dab-1080p/6808cc786f7de",
+      "upload_title": "Aladin 2019 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 123.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2624,
       "cr_slug": "vlci-volani",
