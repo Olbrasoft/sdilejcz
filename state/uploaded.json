@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T12:13:12Z",
+  "last_updated": "2026-07-13T12:14:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -47514,6 +47514,30 @@
         "upload_sec": 312.5,
         "total_sec": 419.2
       }
+    },
+    {
+      "cr_film_id": 1834,
+      "cr_slug": "univerzita-pro-priserky",
+      "title": "Univerzita pro příšerky",
+      "year": 2013,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "656fd7e083721",
+      "source_url": "https://prehraj.to/priserky-univerzita-2013-cz-dabing/656fd7e083721",
+      "source_title": "Príšerky Univerzita 2013 - CZ dabing",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34648160/univerzita-pro-priserky-2013-cz-dabing.mp4",
+      "sdilej_name": "Univerzita pro příšerky (2013) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T12:14:22Z",
+      "status": "uploaded",
+      "size_bytes": 3200794776,
+      "worker_id": "worker-3-29245110447",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 89.4,
+        "upload_sec": 316.6,
+        "total_sec": 407.5
+      }
     }
   ],
   "failed_attempts": [
@@ -50489,40 +50513,9 @@
       "timing": {
         "resolve_sec": 4.7
       }
-    },
-    {
-      "cr_film_id": 1834,
-      "cr_slug": "univerzita-pro-priserky",
-      "title": "Univerzita pro příšerky",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T12:06:08Z",
-      "first_failed_at": "2026-07-13T12:06:08Z",
-      "attempt_count": 1,
-      "upload_id": "607ea49759fde",
-      "source_url": "https://prehraj.to/univerzita-pro-priserky-2013-cz-dabing/607ea49759fde",
-      "upload_title": "Univerzita pro příšerky (2013) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 137.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 1834,
-      "cr_slug": "univerzita-pro-priserky",
-      "title": "Univerzita pro příšerky",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29245110447",
-      "run_id": "29245110447",
-      "reserved_at": "2026-07-13T12:07:34Z"
-    },
     {
       "cr_film_id": 1844,
       "cr_slug": "vetrelec-romulus",
