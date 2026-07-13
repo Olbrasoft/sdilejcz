@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T01:16:55Z",
+  "last_updated": "2026-07-13T01:18:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -35487,6 +35487,27 @@
       "timing": {
         "resolve_sec": 5.2
       }
+    },
+    {
+      "cr_film_id": 642,
+      "cr_slug": "cerny-jestrab-sestrelen",
+      "title": "Černý jestřáb sestřelen",
+      "year": 2001,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T01:18:09Z",
+      "first_failed_at": "2026-07-13T01:18:09Z",
+      "attempt_count": 1,
+      "upload_id": "67228759551a0",
+      "source_url": "https://prehraj.to/cerny-jestrab-sestrelen-2001-historicky-valecny-czdab/67228759551a0",
+      "upload_title": "Černý jestřáb sestřelen (2001) historický válečný czdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 4.9,
+        "download_sec": 206.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -35499,16 +35520,6 @@
       "worker_id": "worker-1-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T01:13:18Z"
-    },
-    {
-      "cr_film_id": 642,
-      "cr_slug": "cerny-jestrab-sestrelen",
-      "title": "Černý jestřáb sestřelen",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T01:13:49Z"
     },
     {
       "cr_film_id": 652,
