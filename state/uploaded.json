@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T09:36:08Z",
+  "last_updated": "2026-07-13T09:36:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -46573,6 +46573,27 @@
       "timing": {
         "resolve_sec": 4.4
       }
+    },
+    {
+      "cr_film_id": 1535,
+      "cr_slug": "smrtonosna-zbran-2",
+      "title": "Smrtonosná zbraň 2",
+      "year": 1989,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T09:36:27Z",
+      "first_failed_at": "2026-07-13T09:36:27Z",
+      "attempt_count": 1,
+      "upload_id": "65c2e221d6eb9",
+      "source_url": "https://prehraj.to/smrtonosna-zbran-2-1989-czdab/65c2e221d6eb9",
+      "upload_title": "Smrtonosná zbraň 2 1989 CZDAB",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.0,
+        "download_sec": 20.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -46595,16 +46616,6 @@
       "worker_id": "worker-1-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T09:34:38Z"
-    },
-    {
-      "cr_film_id": 1535,
-      "cr_slug": "smrtonosna-zbran-2",
-      "title": "Smrtonosná zbraň 2",
-      "year": 1989,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T09:35:33Z"
     },
     {
       "cr_film_id": 1536,
