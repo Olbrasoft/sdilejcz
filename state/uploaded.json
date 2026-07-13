@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T03:25:22Z",
+  "last_updated": "2026-07-13T03:25:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -37877,6 +37877,27 @@
         "download_sec": 29.5,
         "upload_sec": 0.0
       }
+    },
+    {
+      "cr_film_id": 837,
+      "cr_slug": "sny-o-vlacich",
+      "title": "Sny o vlacích",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T03:25:53Z",
+      "first_failed_at": "2026-07-13T03:25:53Z",
+      "attempt_count": 1,
+      "upload_id": "820e5b69199e5da5",
+      "source_url": "https://prehraj.to/sny-o-vlacich-2025-cz-dabing-1080p-mkv/820e5b69199e5da5",
+      "upload_title": "Sny o vlacích (2025) CZ Dabing 1080p.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 84.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -37889,16 +37910,6 @@
       "worker_id": "worker-1-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T03:17:13Z"
-    },
-    {
-      "cr_film_id": 837,
-      "cr_slug": "sny-o-vlacich",
-      "title": "Sny o vlacích",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T03:23:56Z"
     },
     {
       "cr_film_id": 841,
