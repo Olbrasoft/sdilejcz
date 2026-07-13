@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T05:56:31Z",
+  "last_updated": "2026-07-13T05:57:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -39138,6 +39138,30 @@
         "upload_sec": 245.5,
         "total_sec": 329.7
       }
+    },
+    {
+      "cr_film_id": 1071,
+      "cr_slug": "superman",
+      "title": "Superman",
+      "year": 1978,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "59c547e2d13b7",
+      "source_url": "https://prehraj.to/superman-1-1978-cz-dabing/59c547e2d13b7",
+      "source_title": "Superman 1 (1978) CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34647405/superman-1978-cz-dabing.mp4",
+      "sdilej_name": "Superman (1978) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T05:57:39Z",
+      "status": "uploaded",
+      "size_bytes": 733369711,
+      "worker_id": "worker-4-29215722564",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 22.7,
+        "upload_sec": 71.3,
+        "total_sec": 95.0
+      }
     }
   ],
   "failed_attempts": [
@@ -40859,27 +40883,6 @@
       "timing": {
         "resolve_sec": 1.9
       }
-    },
-    {
-      "cr_film_id": 1071,
-      "cr_slug": "superman",
-      "title": "Superman",
-      "year": 1978,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T05:52:00Z",
-      "first_failed_at": "2026-07-13T05:52:00Z",
-      "attempt_count": 1,
-      "upload_id": "5ffa73280084d",
-      "source_url": "https://prehraj.to/superman-1978-czdab/5ffa73280084d",
-      "upload_title": "Superman (1978) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 130.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -40902,16 +40905,6 @@
       "worker_id": "worker-1-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T05:52:01Z"
-    },
-    {
-      "cr_film_id": 1071,
-      "cr_slug": "superman",
-      "title": "Superman",
-      "year": 1978,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T05:56:03Z"
     },
     {
       "cr_film_id": 1077,
