@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T05:19:33Z",
+  "last_updated": "2026-07-13T05:20:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -38490,6 +38490,30 @@
         "upload_sec": 84.1,
         "total_sec": 141.4
       }
+    },
+    {
+      "cr_film_id": 916,
+      "cr_slug": "greta",
+      "title": "Greta",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "006458d054c00bf3",
+      "source_url": "https://prehraj.to/greta-2018-cz-dabing/006458d054c00bf3",
+      "source_title": "Greta (2018) CZ dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34647347/greta-2020-cz-dabing.mp4",
+      "sdilej_name": "Greta (2020) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T05:20:02Z",
+      "status": "uploaded",
+      "size_bytes": 696791582,
+      "worker_id": "worker-4-29215722564",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 21.9,
+        "upload_sec": 69.4,
+        "total_sec": 92.4
+      }
     }
   ],
   "failed_attempts": [
@@ -40135,27 +40159,6 @@
       "timing": {
         "resolve_sec": 1.0
       }
-    },
-    {
-      "cr_film_id": 916,
-      "cr_slug": "greta",
-      "title": "Greta",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T04:48:06Z",
-      "first_failed_at": "2026-07-13T04:16:36Z",
-      "attempt_count": 2,
-      "upload_id": "006458d054c00bf3",
-      "source_url": "https://prehraj.to/greta-2018-cz-dabing/006458d054c00bf3",
-      "upload_title": "Greta (2018) CZ dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 34.6,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -40168,16 +40171,6 @@
       "worker_id": "worker-3-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T05:16:27Z"
-    },
-    {
-      "cr_film_id": 916,
-      "cr_slug": "greta",
-      "title": "Greta",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T05:18:28Z"
     },
     {
       "cr_film_id": 1030,
