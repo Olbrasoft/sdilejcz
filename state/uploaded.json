@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T06:17:56Z",
+  "last_updated": "2026-07-13T06:19:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -41291,6 +41291,27 @@
       "timing": {
         "resolve_sec": 1.9
       }
+    },
+    {
+      "cr_film_id": 1116,
+      "cr_slug": "shrek-2",
+      "title": "Shrek 2",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T06:19:02Z",
+      "first_failed_at": "2026-07-13T06:19:02Z",
+      "attempt_count": 1,
+      "upload_id": "68e7d21731028",
+      "source_url": "https://prehraj.to/shrek-2-2004-cz-dabing-1080p/68e7d21731028",
+      "upload_title": "Shrek 2 (2004) CZ Dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.8,
+        "download_sec": 137.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -41303,16 +41324,6 @@
       "worker_id": "worker-3-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T06:12:42Z"
-    },
-    {
-      "cr_film_id": 1116,
-      "cr_slug": "shrek-2",
-      "title": "Shrek 2",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T06:16:11Z"
     },
     {
       "cr_film_id": 1117,
