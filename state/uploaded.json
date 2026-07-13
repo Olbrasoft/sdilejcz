@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T02:51:28Z",
+  "last_updated": "2026-07-13T02:51:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -35658,6 +35658,30 @@
         "upload_sec": 284.7,
         "total_sec": 366.9
       }
+    },
+    {
+      "cr_film_id": 803,
+      "cr_slug": "ja-padouch",
+      "title": "Já, padouch",
+      "year": 2010,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "a6a0cf83b4291223",
+      "source_url": "https://prehraj.to/ja-padouch-2010-cz-dabing-2160p/a6a0cf83b4291223",
+      "source_title": "Ja padouch 2010 cz dabing 2160p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34647137/ja-padouch-2010-cz-dabing.mp4",
+      "sdilej_name": "Já, padouch (2010) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T02:51:43Z",
+      "status": "uploaded",
+      "size_bytes": 1620671739,
+      "worker_id": "worker-1-29215722564",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 73.5,
+        "upload_sec": 207.7,
+        "total_sec": 282.6
+      }
     }
   ],
   "failed_attempts": [
@@ -37271,27 +37295,6 @@
       }
     },
     {
-      "cr_film_id": 803,
-      "cr_slug": "ja-padouch",
-      "title": "Já, padouch",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T02:45:33Z",
-      "first_failed_at": "2026-07-13T02:45:33Z",
-      "attempt_count": 1,
-      "upload_id": "5668b75c48a38",
-      "source_url": "https://prehraj.to/ja-padouch-cz-dabing-2010/5668b75c48a38",
-      "upload_title": "Já padouch CZ dabing 2010",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 3.7,
-        "download_sec": 40.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 806,
       "cr_slug": "300-bitva-u-thermopyl",
       "title": "300: Bitva u Thermopyl",
@@ -37352,16 +37355,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 803,
-      "cr_slug": "ja-padouch",
-      "title": "Já, padouch",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T02:47:00Z"
-    },
     {
       "cr_film_id": 809,
       "cr_slug": "opravdova-kuraz",
