@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T02:45:20Z",
+  "last_updated": "2026-07-13T02:45:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -37173,6 +37173,27 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 803,
+      "cr_slug": "ja-padouch",
+      "title": "Já, padouch",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T02:45:33Z",
+      "first_failed_at": "2026-07-13T02:45:33Z",
+      "attempt_count": 1,
+      "upload_id": "5668b75c48a38",
+      "source_url": "https://prehraj.to/ja-padouch-cz-dabing-2010/5668b75c48a38",
+      "upload_title": "Já padouch CZ dabing 2010",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 3.7,
+        "download_sec": 40.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -37195,16 +37216,6 @@
       "worker_id": "worker-4-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T02:43:46Z"
-    },
-    {
-      "cr_film_id": 803,
-      "cr_slug": "ja-padouch",
-      "title": "Já, padouch",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T02:44:18Z"
     },
     {
       "cr_film_id": 804,
