@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T23:23:54Z",
+  "last_updated": "2026-07-13T23:26:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -58722,6 +58722,30 @@
         "upload_sec": 258.6,
         "total_sec": 350.8
       }
+    },
+    {
+      "cr_film_id": 2770,
+      "cr_slug": "rana",
+      "title": "Rána",
+      "year": 2026,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "aa731d1720761f20",
+      "source_url": "https://prehraj.to/rana-2026-1080p-cz-dabing/aa731d1720761f20",
+      "source_title": "Rána 2026 1080p CZ Dabing",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34650831/rana-2026-cz-dabing.mp4",
+      "sdilej_name": "Rána (2026) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T23:26:21Z",
+      "status": "uploaded",
+      "size_bytes": 2100989109,
+      "worker_id": "worker-2-29290293089",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 58.5,
+        "upload_sec": 201.2,
+        "total_sec": 261.3
+      }
     }
   ],
   "failed_attempts": [
@@ -62191,27 +62215,6 @@
       "timing": {
         "resolve_sec": 4.3
       }
-    },
-    {
-      "cr_film_id": 2770,
-      "cr_slug": "rana",
-      "title": "Rána",
-      "year": 2026,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T23:21:28Z",
-      "first_failed_at": "2026-07-13T23:21:28Z",
-      "attempt_count": 1,
-      "upload_id": "f205b9227afc9f7b",
-      "source_url": "https://prehraj.to/the-rip-2026-1080p-cz-dabing-mkv/f205b9227afc9f7b",
-      "upload_title": "The Rip 2026 1080p CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 92.9,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -62224,16 +62227,6 @@
       "worker_id": "worker-1-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-13T23:21:02Z"
-    },
-    {
-      "cr_film_id": 2770,
-      "cr_slug": "rana",
-      "title": "Rána",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-13T23:21:58Z"
     },
     {
       "cr_film_id": 2773,
