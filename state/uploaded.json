@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T02:35:33Z",
+  "last_updated": "2026-07-13T02:36:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -36935,6 +36935,27 @@
         "download_sec": 43.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 781,
+      "cr_slug": "pokrevni-bratri",
+      "title": "Pokrevní bratři",
+      "year": 1999,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T02:36:33Z",
+      "first_failed_at": "2026-07-13T02:36:33Z",
+      "attempt_count": 1,
+      "upload_id": "55fec27b85c5c",
+      "source_url": "https://prehraj.to/the-boondock-saints-1-1999-cz-dabing-top-hit/55fec27b85c5c",
+      "upload_title": "The Boondock Saints 1 (1999) CZ DABING TOP HIT",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 27.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -36967,16 +36988,6 @@
       "worker_id": "worker-2-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T02:33:33Z"
-    },
-    {
-      "cr_film_id": 781,
-      "cr_slug": "pokrevni-bratri",
-      "title": "Pokrevní bratři",
-      "year": 1999,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T02:35:33Z"
     }
   ]
 }
