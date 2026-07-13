@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T19:57:52Z",
+  "last_updated": "2026-07-13T19:58:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -58546,6 +58546,27 @@
       "timing": {
         "resolve_sec": 4.0
       }
+    },
+    {
+      "cr_film_id": 2484,
+      "cr_slug": "strasidelne-vanoce",
+      "title": "Strašidelné Vánoce",
+      "year": 1988,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T19:58:28Z",
+      "first_failed_at": "2026-07-13T19:58:28Z",
+      "attempt_count": 1,
+      "upload_id": "5ab08e981d02b",
+      "source_url": "https://prehraj.to/strasidelne-vanoce-1988/5ab08e981d02b",
+      "upload_title": "Strašidelné Vánoce (1988)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 52.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -58568,16 +58589,6 @@
       "worker_id": "worker-1-29269764551",
       "run_id": "29269764551",
       "reserved_at": "2026-07-13T19:38:33Z"
-    },
-    {
-      "cr_film_id": 2484,
-      "cr_slug": "strasidelne-vanoce",
-      "title": "Strašidelné Vánoce",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T19:57:03Z"
     },
     {
       "cr_film_id": 2485,
