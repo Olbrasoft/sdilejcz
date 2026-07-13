@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T05:38:46Z",
+  "last_updated": "2026-07-13T05:39:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -40495,6 +40495,27 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 1055,
+      "cr_slug": "zlodejka-knih",
+      "title": "Zlodějka knih",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T05:39:32Z",
+      "first_failed_at": "2026-07-13T05:39:32Z",
+      "attempt_count": 1,
+      "upload_id": "605fba084f5ba",
+      "source_url": "https://prehraj.to/zlodejka-knih-2013-czdab/605fba084f5ba",
+      "upload_title": "Zlodějka knih (2013) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 100.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -40517,16 +40538,6 @@
       "worker_id": "worker-4-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T05:33:38Z"
-    },
-    {
-      "cr_film_id": 1055,
-      "cr_slug": "zlodejka-knih",
-      "title": "Zlodějka knih",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T05:37:19Z"
     },
     {
       "cr_film_id": 1056,
