@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T09:44:06Z",
+  "last_updated": "2026-07-13T09:44:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -46693,6 +46693,27 @@
       "timing": {
         "resolve_sec": 4.4
       }
+    },
+    {
+      "cr_film_id": 1540,
+      "cr_slug": "rocky-ii",
+      "title": "Rocky II",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T09:44:32Z",
+      "first_failed_at": "2026-07-13T09:44:32Z",
+      "attempt_count": 1,
+      "upload_id": "5a1881dd370b0",
+      "source_url": "https://prehraj.to/rocky-2-1979-hdrip-cz-dabing-m3/5a1881dd370b0",
+      "upload_title": "Rocky 2(1979)HDrip - CZ Dabing...M3",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 24.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -46715,16 +46736,6 @@
       "worker_id": "worker-2-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T09:43:19Z"
-    },
-    {
-      "cr_film_id": 1540,
-      "cr_slug": "rocky-ii",
-      "title": "Rocky II",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T09:43:36Z"
     },
     {
       "cr_film_id": 1542,
