@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T13:24:25Z",
+  "last_updated": "2026-07-13T13:24:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -52000,6 +52000,27 @@
       "timing": {
         "resolve_sec": 4.4
       }
+    },
+    {
+      "cr_film_id": 1983,
+      "cr_slug": "divocina",
+      "title": "Divočina",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T13:24:35Z",
+      "first_failed_at": "2026-07-13T13:24:35Z",
+      "attempt_count": 1,
+      "upload_id": "62ebc63fb8709",
+      "source_url": "https://prehraj.to/divocina-2014-cz-dabing-1080p/62ebc63fb8709",
+      "upload_title": "Divočina-2014-CZ dabing-(1080p)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 111.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -52012,16 +52033,6 @@
       "worker_id": "worker-3-29245110447",
       "run_id": "29245110447",
       "reserved_at": "2026-07-13T13:20:40Z"
-    },
-    {
-      "cr_film_id": 1983,
-      "cr_slug": "divocina",
-      "title": "Divočina",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29245110447",
-      "run_id": "29245110447",
-      "reserved_at": "2026-07-13T13:22:10Z"
     },
     {
       "cr_film_id": 1987,
