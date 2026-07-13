@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T21:08:58Z",
+  "last_updated": "2026-07-13T21:10:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -59293,6 +59293,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 2542,
+      "cr_slug": "the-childe",
+      "title": "The Childe",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T21:10:51Z",
+      "first_failed_at": "2026-07-13T21:10:51Z",
+      "attempt_count": 1,
+      "upload_id": "65df897eb3dac",
+      "source_url": "https://prehraj.to/the-childe-2023-cz-dab/65df897eb3dac",
+      "upload_title": "The Childe 2023  CZ dab°",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 607.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -59315,16 +59336,6 @@
       "worker_id": "worker-4-29269764551",
       "run_id": "29269764551",
       "reserved_at": "2026-07-13T20:58:32Z"
-    },
-    {
-      "cr_film_id": 2542,
-      "cr_slug": "the-childe",
-      "title": "The Childe",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T21:00:11Z"
     },
     {
       "cr_film_id": 2545,
