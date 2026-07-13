@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T07:33:18Z",
+  "last_updated": "2026-07-13T07:33:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -43684,6 +43684,27 @@
       "timing": {
         "resolve_sec": 4.3
       }
+    },
+    {
+      "cr_film_id": 1278,
+      "cr_slug": "blazniva-dovolena",
+      "title": "Bláznivá dovolená",
+      "year": 1983,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T07:33:21Z",
+      "first_failed_at": "2026-07-13T07:33:21Z",
+      "attempt_count": 1,
+      "upload_id": "5c3272431eb93",
+      "source_url": "https://prehraj.to/blazniva-dovolena-cz-dabing-1983-vanocni/5c3272431eb93",
+      "upload_title": "Bláznivá dovolená [CZ dabing, 1983] VÁNOČNÍ",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 26.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -43706,16 +43727,6 @@
       "worker_id": "worker-1-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T07:28:17Z"
-    },
-    {
-      "cr_film_id": 1278,
-      "cr_slug": "blazniva-dovolena",
-      "title": "Bláznivá dovolená",
-      "year": 1983,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T07:32:20Z"
     },
     {
       "cr_film_id": 1279,
