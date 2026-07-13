@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T07:59:54Z",
+  "last_updated": "2026-07-13T08:00:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -44188,6 +44188,27 @@
       "timing": {
         "resolve_sec": 4.3
       }
+    },
+    {
+      "cr_film_id": 1331,
+      "cr_slug": "posledni-souboj",
+      "title": "Poslední souboj",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T08:00:49Z",
+      "first_failed_at": "2026-07-13T08:00:49Z",
+      "attempt_count": 1,
+      "upload_id": "68f7b5563f191",
+      "source_url": "https://prehraj.to/posledni-souboj-2021-cz-dab-last-duel-dd/68f7b5563f191",
+      "upload_title": "Posledni Souboj (2021) CZ dab Last Duel (DD)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 87.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -44210,16 +44231,6 @@
       "worker_id": "worker-1-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T07:57:13Z"
-    },
-    {
-      "cr_film_id": 1331,
-      "cr_slug": "posledni-souboj",
-      "title": "Poslední souboj",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T07:58:49Z"
     },
     {
       "cr_film_id": 1332,
