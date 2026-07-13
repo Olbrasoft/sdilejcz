@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T14:20:05Z",
+  "last_updated": "2026-07-13T14:20:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -50130,6 +50130,30 @@
         "upload_sec": 69.3,
         "total_sec": 91.5
       }
+    },
+    {
+      "cr_film_id": 2006,
+      "cr_slug": "zenou-z-bozi-vule",
+      "title": "Ženou z boží vůle",
+      "year": 2017,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5c6ef8143b1f4",
+      "source_url": "https://prehraj.to/zenou-z-bozi-vule-the-divine-order-mp4/5c6ef8143b1f4",
+      "source_title": "Ženou z boží vůle - The Divine Order",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34648559/zenou-z-bozi-vule-2017-cz.mp4",
+      "sdilej_name": "Ženou z boží vůle (2017) CZ.mp4",
+      "uploaded_at": "2026-07-13T14:20:47Z",
+      "status": "uploaded",
+      "size_bytes": 2177267056,
+      "worker_id": "worker-2-29245110447",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 349.6,
+        "upload_sec": 287.3,
+        "total_sec": 638.4
+      }
     }
   ],
   "failed_attempts": [
@@ -53202,27 +53226,6 @@
       }
     },
     {
-      "cr_film_id": 2006,
-      "cr_slug": "zenou-z-bozi-vule",
-      "title": "Ženou z boží vůle",
-      "year": 2017,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T13:39:00Z",
-      "first_failed_at": "2026-07-13T13:39:00Z",
-      "attempt_count": 1,
-      "upload_id": "5c6ef8143b1f4",
-      "source_url": "https://prehraj.to/zenou-z-bozi-vule-the-divine-order-mp4/5c6ef8143b1f4",
-      "upload_title": "Ženou z boží vůle - The Divine Order",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 111.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 2090,
       "cr_slug": "rychle-a-zbesile-7",
       "title": "Rychle a zběsile 7",
@@ -53243,16 +53246,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2006,
-      "cr_slug": "zenou-z-bozi-vule",
-      "title": "Ženou z boží vůle",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29245110447",
-      "run_id": "29245110447",
-      "reserved_at": "2026-07-13T14:10:07Z"
-    },
     {
       "cr_film_id": 2085,
       "cr_slug": "mumie",
