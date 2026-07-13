@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T01:45:59Z",
+  "last_updated": "2026-07-13T01:47:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -34410,6 +34410,30 @@
         "upload_sec": 187.7,
         "total_sec": 242.9
       }
+    },
+    {
+      "cr_film_id": 691,
+      "cr_slug": "velryba",
+      "title": "Velryba",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "67ac917e437d3",
+      "source_url": "https://prehraj.to/velryba-2022-cz-dabing-hd-1080p/67ac917e437d3",
+      "source_title": "Velryba 2022 CZ dabing HD 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34647048/velryba-2022-cz-dabing.mp4",
+      "sdilej_name": "Velryba (2022) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T01:47:14Z",
+      "status": "uploaded",
+      "size_bytes": 694496446,
+      "worker_id": "worker-3-29215722564",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 34.3,
+        "upload_sec": 92.5,
+        "total_sec": 128.2
+      }
     }
   ],
   "failed_attempts": [
@@ -35886,27 +35910,6 @@
         "download_sec": 144.0,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 691,
-      "cr_slug": "velryba",
-      "title": "Velryba",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T01:44:21Z",
-      "first_failed_at": "2026-07-13T01:44:21Z",
-      "attempt_count": 1,
-      "upload_id": "68bddb6bd3808",
-      "source_url": "https://prehraj.to/velryba-2022-cz-dabing-1080p-full-hd/68bddb6bd3808",
-      "upload_title": "Velryba 2022 CZ Dabing 1080p Full HD",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.6,
-        "download_sec": 77.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -35929,16 +35932,6 @@
       "worker_id": "worker-2-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T01:44:22Z"
-    },
-    {
-      "cr_film_id": 691,
-      "cr_slug": "velryba",
-      "title": "Velryba",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T01:45:04Z"
     },
     {
       "cr_film_id": 694,
