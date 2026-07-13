@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T08:22:20Z",
+  "last_updated": "2026-07-13T08:24:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -44740,6 +44740,27 @@
       "timing": {
         "resolve_sec": 4.3
       }
+    },
+    {
+      "cr_film_id": 1378,
+      "cr_slug": "spider-man-daleko-od-domova",
+      "title": "Spider-Man: Daleko od domova",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T08:24:14Z",
+      "first_failed_at": "2026-07-13T08:24:14Z",
+      "attempt_count": 1,
+      "upload_id": "5da4b05e549fb",
+      "source_url": "https://prehraj.to/spiderman-daleko-od-domova-farfromhome-2019-cz-dabing-1080p/5da4b05e549fb",
+      "upload_title": "SpiderMan Daleko od domova.FarFromHome 2019 cz dabing.1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 80.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -44772,16 +44793,6 @@
       "worker_id": "worker-2-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T08:21:02Z"
-    },
-    {
-      "cr_film_id": 1378,
-      "cr_slug": "spider-man-daleko-od-domova",
-      "title": "Spider-Man: Daleko od domova",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T08:22:20Z"
     }
   ]
 }
