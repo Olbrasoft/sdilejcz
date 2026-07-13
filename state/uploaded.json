@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T03:41:51Z",
+  "last_updated": "2026-07-13T03:43:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -38216,19 +38216,30 @@
       "timing": {
         "resolve_sec": 4.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 855,
       "cr_slug": "the-covenant",
       "title": "Guy Ritchie: Pouto",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-1-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T03:40:05Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T03:43:15Z",
+      "first_failed_at": "2026-07-13T03:43:15Z",
+      "attempt_count": 1,
+      "upload_id": "b343ede2c3d78f42",
+      "source_url": "https://prehraj.to/the-covenant-2023-cz-dabing-1080p-mkv/b343ede2c3d78f42",
+      "upload_title": "The Covenant (2023) CZ Dabing 1080p.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 157.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 859,
       "cr_slug": "smrtihlav",
