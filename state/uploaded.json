@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T20:52:41Z",
+  "last_updated": "2026-07-13T20:56:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -59178,19 +59178,30 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2504,
       "cr_slug": "dve-hemisfery",
       "title": "Dvě hemisféry",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T20:17:00Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T20:56:14Z",
+      "first_failed_at": "2026-07-13T20:56:14Z",
+      "attempt_count": 1,
+      "upload_id": "6808345b7dced",
+      "source_url": "https://prehraj.to/dve-hemisfery-2025-cz-dabing-1080p/6808345b7dced",
+      "upload_title": "Dvě hemisféry (2025) CZ dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 2320.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2525,
       "cr_slug": "solo-star-wars-story",
