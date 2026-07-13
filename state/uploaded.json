@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T17:26:08Z",
+  "last_updated": "2026-07-13T17:29:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -53802,6 +53802,30 @@
         "upload_sec": 431.3,
         "total_sec": 693.5
       }
+    },
+    {
+      "cr_film_id": 2381,
+      "cr_slug": "santa-je-uchyl",
+      "title": "Santa je úchyl!",
+      "year": 2003,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5850c29e9a9b4",
+      "source_url": "https://prehraj.to/santa-je-uchyl-hd-cz-dabing-vianocne-2003/5850c29e9a9b4",
+      "source_title": "SANTA JE ÚCHYL HD [CZ dabing, vianočné, 2003]",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34649227/santa-je-uchyl-2003-cz-dabing.mp4",
+      "sdilej_name": "Santa je úchyl! (2003) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T17:29:22Z",
+      "status": "uploaded",
+      "size_bytes": 1448737537,
+      "worker_id": "worker-2-29269764551",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 64.7,
+        "upload_sec": 137.7,
+        "total_sec": 203.7
+      }
     }
   ],
   "failed_attempts": [
@@ -56986,40 +57010,9 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    },
-    {
-      "cr_film_id": 2381,
-      "cr_slug": "santa-je-uchyl",
-      "title": "Santa je úchyl!",
-      "year": 2003,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T17:14:23Z",
-      "first_failed_at": "2026-07-13T17:14:23Z",
-      "attempt_count": 1,
-      "upload_id": "7ec36a7fcf7988b5",
-      "source_url": "https://prehraj.to/santa-je-uchyl-2003-1080p-cz-dabing-mkv/7ec36a7fcf7988b5",
-      "upload_title": "Santa Je Úchyl! 2003 1080p CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.6,
-        "download_sec": 296.0,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2381,
-      "cr_slug": "santa-je-uchyl",
-      "title": "Santa je úchyl!",
-      "year": 2003,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T17:25:57Z"
-    },
     {
       "cr_film_id": 2388,
       "cr_slug": "demolice",
