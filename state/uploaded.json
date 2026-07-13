@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T14:33:55Z",
+  "last_updated": "2026-07-13T14:34:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -50466,6 +50466,30 @@
         "upload_sec": 98.5,
         "total_sec": 141.9
       }
+    },
+    {
+      "cr_film_id": 2108,
+      "cr_slug": "duch",
+      "title": "Duch",
+      "year": 1990,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "2887fd36a62d7cf0",
+      "source_url": "https://prehraj.to/ghost-1990-duch-czdab-m-mkv/2887fd36a62d7cf0",
+      "source_title": "Ghost,1990,Duch,CZdab-M.mkv",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34648604/duch-1990-cz-dabing.mp4",
+      "sdilej_name": "Duch (1990) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T14:34:00Z",
+      "status": "uploaded",
+      "size_bytes": 2628638746,
+      "worker_id": "worker-3-29245110447",
+      "timing": {
+        "resolve_sec": 4.8,
+        "download_sec": 73.9,
+        "upload_sec": 263.6,
+        "total_sec": 344.8
+      }
     }
   ],
   "failed_attempts": [
@@ -53536,38 +53560,9 @@
       "timing": {
         "resolve_sec": 4.4
       }
-    },
-    {
-      "cr_film_id": 2108,
-      "cr_slug": "duch",
-      "title": "Duch",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/the-ghost-1990-patrick-swayze-demi-moore-czdab/687afd17550e5",
-      "failed_at": "2026-07-13T14:28:17Z",
-      "first_failed_at": "2026-07-13T14:28:17Z",
-      "attempt_count": 1,
-      "upload_id": "687afd17550e5",
-      "source_url": "https://prehraj.to/the-ghost-1990-patrick-swayze-demi-moore-czdab/687afd17550e5",
-      "upload_title": "The Ghost,(1990 - Patrick Swayze, Demi Moore),CZdab",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2108,
-      "cr_slug": "duch",
-      "title": "Duch",
-      "year": 1990,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29245110447",
-      "run_id": "29245110447",
-      "reserved_at": "2026-07-13T14:28:14Z"
-    },
     {
       "cr_film_id": 2109,
       "cr_slug": "zvonilka-a-tvor-netvor",
