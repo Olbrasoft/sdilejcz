@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T03:12:53Z",
+  "last_updated": "2026-07-13T03:13:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -35994,6 +35994,30 @@
         "upload_sec": 90.3,
         "total_sec": 131.5
       }
+    },
+    {
+      "cr_film_id": 823,
+      "cr_slug": "smrtonosna-zbran",
+      "title": "Smrtonosná zbraň",
+      "year": 1987,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "581fb00acbd5c",
+      "source_url": "https://prehraj.to/drsny-a-drsnejsi-drama-krimi-usa-1986-cz/581fb00acbd5c",
+      "source_title": "DRSNÝ-A-DRSNĚJŠÍ---drama,krimi--USA--(1986)--cz",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34647165/smrtonosna-zbran-1987-cz-dabing.mp4",
+      "sdilej_name": "Smrtonosná zbraň (1987) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T03:13:50Z",
+      "status": "uploaded",
+      "size_bytes": 230357655,
+      "worker_id": "worker-3-29215722564",
+      "timing": {
+        "resolve_sec": 4.7,
+        "download_sec": 19.8,
+        "upload_sec": 31.3,
+        "total_sec": 58.7
+      }
     }
   ],
   "failed_attempts": [
@@ -37607,46 +37631,6 @@
         "download_sec": 29.5,
         "upload_sec": 0.0
       }
-    },
-    {
-      "cr_film_id": 823,
-      "cr_slug": "smrtonosna-zbran",
-      "title": "Smrtonosná zbraň",
-      "year": 1987,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T03:11:42Z",
-      "first_failed_at": "2026-07-13T03:11:42Z",
-      "attempt_count": 1,
-      "upload_id": "6718357fa541c",
-      "source_url": "https://prehraj.to/smrtonosna-zbran-1987-cz-dab/6718357fa541c",
-      "upload_title": "Smrtonosná zbraň 1987 CZ dab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.0,
-        "download_sec": 139.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 823,
-      "cr_slug": "smrtonosna-zbran",
-      "title": "Smrtonosná zbraň",
-      "year": 1987,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/smrtonosna-zbran-1-lethal-weapon-1987-en-cz-dabing-uhdr/68dc39ef59b51",
-      "failed_at": "2026-07-13T03:12:53Z",
-      "first_failed_at": "2026-07-13T03:12:53Z",
-      "attempt_count": 1,
-      "upload_id": "68dc39ef59b51",
-      "source_url": "https://prehraj.to/smrtonosna-zbran-1-lethal-weapon-1987-en-cz-dabing-uhdr/68dc39ef59b51",
-      "upload_title": "Smrtonosná zbraň 1 - Lethal weapon (1987) EN+CZ DABING UHDR",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.4
-      }
     }
   ],
   "in_progress": [
@@ -37679,16 +37663,6 @@
       "worker_id": "worker-2-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T03:11:43Z"
-    },
-    {
-      "cr_film_id": 823,
-      "cr_slug": "smrtonosna-zbran",
-      "title": "Smrtonosná zbraň",
-      "year": 1987,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T03:12:50Z"
     }
   ]
 }
