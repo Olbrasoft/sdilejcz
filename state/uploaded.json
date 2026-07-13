@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T11:36:43Z",
+  "last_updated": "2026-07-13T11:36:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -49961,6 +49961,27 @@
       "timing": {
         "resolve_sec": 4.7
       }
+    },
+    {
+      "cr_film_id": 1806,
+      "cr_slug": "mr-brooks",
+      "title": "Mr. Brooks",
+      "year": 2007,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T11:36:53Z",
+      "first_failed_at": "2026-07-13T11:36:53Z",
+      "attempt_count": 1,
+      "upload_id": "57d34860d95e0",
+      "source_url": "https://prehraj.to/mr-brooks-2007-czdab/57d34860d95e0",
+      "upload_title": "Mr. Brooks (2007)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 20.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -49983,16 +50004,6 @@
       "worker_id": "worker-4-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T11:34:39Z"
-    },
-    {
-      "cr_film_id": 1806,
-      "cr_slug": "mr-brooks",
-      "title": "Mr. Brooks",
-      "year": 2007,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T11:36:00Z"
     },
     {
       "cr_film_id": 1807,
