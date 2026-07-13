@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T19:38:33Z",
+  "last_updated": "2026-07-13T19:57:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -55314,6 +55314,30 @@
         "upload_sec": 201.5,
         "total_sec": 299.2
       }
+    },
+    {
+      "cr_film_id": 2455,
+      "cr_slug": "nepremozitelny",
+      "title": "Nepřemožitelný",
+      "year": 2006,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "6198f37c4b509",
+      "source_url": "https://prehraj.to/nepremozitelny-2006-1080p-cz-dab/6198f37c4b509",
+      "source_title": "Nepřemožitelný (2006) 1080p cz dab",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34650207/nepremozitelny-2006-cz-dabing.mp4",
+      "sdilej_name": "Nepřemožitelný (2006) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T19:57:01Z",
+      "status": "uploaded",
+      "size_bytes": 2761090886,
+      "worker_id": "worker-2-29269764551",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 3100.5,
+        "upload_sec": 271.1,
+        "total_sec": 3373.0
+      }
     }
   ],
   "failed_attempts": [
@@ -58498,40 +58522,9 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    },
-    {
-      "cr_film_id": 2455,
-      "cr_slug": "nepremozitelny",
-      "title": "Nepřemožitelný",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T18:56:31Z",
-      "first_failed_at": "2026-07-13T18:56:31Z",
-      "attempt_count": 1,
-      "upload_id": "61fa13eaa5f63",
-      "source_url": "https://prehraj.to/nepremozitelny-2006-1080p-cz-dab/61fa13eaa5f63",
-      "upload_title": "Nepřemožitelný (2006) 1080p cz dab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 459.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2455,
-      "cr_slug": "nepremozitelny",
-      "title": "Nepřemožitelný",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T19:00:47Z"
-    },
     {
       "cr_film_id": 2469,
       "cr_slug": "blaznive",
