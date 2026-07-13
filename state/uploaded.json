@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T14:49:36Z",
+  "last_updated": "2026-07-13T14:51:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -50778,6 +50778,30 @@
         "upload_sec": 401.8,
         "total_sec": 548.0
       }
+    },
+    {
+      "cr_film_id": 2126,
+      "cr_slug": "blade",
+      "title": "Blade",
+      "year": 1998,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5828bd6c47ebc",
+      "source_url": "https://prehraj.to/blade-1-cz-dabing-1998-by-kamer/5828bd6c47ebc",
+      "source_title": "Blade 1, CZ dabing (1998) by KAMer",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34648659/blade-1998-cz-dabing.mp4",
+      "sdilej_name": "Blade (1998) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T14:51:01Z",
+      "status": "uploaded",
+      "size_bytes": 551065334,
+      "worker_id": "worker-4-29245110447",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 25.3,
+        "upload_sec": 65.5,
+        "total_sec": 92.2
+      }
     }
   ],
   "failed_attempts": [
@@ -53848,27 +53872,6 @@
       "timing": {
         "resolve_sec": 4.4
       }
-    },
-    {
-      "cr_film_id": 2126,
-      "cr_slug": "blade",
-      "title": "Blade",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T14:47:33Z",
-      "first_failed_at": "2026-07-13T14:47:33Z",
-      "attempt_count": 1,
-      "upload_id": "6381c1853d002",
-      "source_url": "https://prehraj.to/blade-1998-akcni-cz-dab-dd5-1-1080p-hd/6381c1853d002",
-      "upload_title": "Blade (1998) Akčni Cz dab DD5.1 1080p HD",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 143.0,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -53891,16 +53894,6 @@
       "worker_id": "worker-1-29245110447",
       "run_id": "29245110447",
       "reserved_at": "2026-07-13T14:47:35Z"
-    },
-    {
-      "cr_film_id": 2126,
-      "cr_slug": "blade",
-      "title": "Blade",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29245110447",
-      "run_id": "29245110447",
-      "reserved_at": "2026-07-13T14:49:27Z"
     },
     {
       "cr_film_id": 2132,
