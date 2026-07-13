@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T02:58:11Z",
+  "last_updated": "2026-07-13T03:00:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -37496,19 +37496,30 @@
         "download_sec": 40.4,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 817,
       "cr_slug": "minority-report",
       "title": "Minority Report",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T02:57:13Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T03:00:30Z",
+      "first_failed_at": "2026-07-13T03:00:30Z",
+      "attempt_count": 1,
+      "upload_id": "60b8839abf99f",
+      "source_url": "https://prehraj.to/minority-report-1080p-x264-ac3-5-1-cz-dab-2002/60b8839abf99f",
+      "upload_title": "Minority Report 1080p  x264 AC3 5.1 Cz dab 2002",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 164.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 818,
       "cr_slug": "usvit-planety-opic",
