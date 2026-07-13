@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T03:07:54Z",
+  "last_updated": "2026-07-13T03:07:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -37417,27 +37417,6 @@
       }
     },
     {
-      "cr_film_id": 781,
-      "cr_slug": "pokrevni-bratri",
-      "title": "Pokrevní bratři",
-      "year": 1999,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T02:36:33Z",
-      "first_failed_at": "2026-07-13T02:36:33Z",
-      "attempt_count": 1,
-      "upload_id": "55fec27b85c5c",
-      "source_url": "https://prehraj.to/the-boondock-saints-1-1999-cz-dabing-top-hit/55fec27b85c5c",
-      "upload_title": "The Boondock Saints 1 (1999) CZ DABING TOP HIT",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 27.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 793,
       "cr_slug": "creed",
       "title": "Creed",
@@ -37535,6 +37514,27 @@
         "download_sec": 55.2,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 781,
+      "cr_slug": "pokrevni-bratri",
+      "title": "Pokrevní bratři",
+      "year": 1999,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "failed_at": "2026-07-13T03:07:56Z",
+      "first_failed_at": "2026-07-13T02:36:33Z",
+      "attempt_count": 2,
+      "upload_id": "55fec27b85c5c",
+      "source_url": "https://prehraj.to/the-boondock-saints-1-1999-cz-dabing-top-hit/55fec27b85c5c",
+      "upload_title": "The Boondock Saints 1 (1999) CZ DABING TOP HIT",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 29.5,
+        "upload_sec": 0.0
+      }
     }
   ],
   "in_progress": [
@@ -37547,16 +37547,6 @@
       "worker_id": "worker-2-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T02:57:27Z"
-    },
-    {
-      "cr_film_id": 781,
-      "cr_slug": "pokrevni-bratri",
-      "title": "Pokrevní bratři",
-      "year": 1999,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T03:07:23Z"
     },
     {
       "cr_film_id": 821,
