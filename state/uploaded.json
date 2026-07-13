@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T13:31:55Z",
+  "last_updated": "2026-07-13T13:32:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -49098,6 +49098,30 @@
         "upload_sec": 53.6,
         "total_sec": 76.3
       }
+    },
+    {
+      "cr_film_id": 1983,
+      "cr_slug": "divocina",
+      "title": "Divočina",
+      "year": 2014,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5e1f5c4ce8bb2",
+      "source_url": "https://prehraj.to/divocina-wild-1080p-x264-ac3-cz-dab-2014/5e1f5c4ce8bb2",
+      "source_title": "Divočina Wild 1080p x264 AC3 CZ dab 2014",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34648417/divocina-2014-cz-dabing.mp4",
+      "sdilej_name": "Divočina (2014) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T13:32:26Z",
+      "status": "uploaded",
+      "size_bytes": 1962446872,
+      "worker_id": "worker-2-29245110447",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 101.2,
+        "upload_sec": 257.8,
+        "total_sec": 360.7
+      }
     }
   ],
   "failed_attempts": [
@@ -52168,40 +52192,9 @@
       "timing": {
         "resolve_sec": 4.4
       }
-    },
-    {
-      "cr_film_id": 1983,
-      "cr_slug": "divocina",
-      "title": "Divočina",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T13:24:35Z",
-      "first_failed_at": "2026-07-13T13:24:35Z",
-      "attempt_count": 1,
-      "upload_id": "62ebc63fb8709",
-      "source_url": "https://prehraj.to/divocina-2014-cz-dabing-1080p/62ebc63fb8709",
-      "upload_title": "Divočina-2014-CZ dabing-(1080p)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 111.7,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 1983,
-      "cr_slug": "divocina",
-      "title": "Divočina",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29245110447",
-      "run_id": "29245110447",
-      "reserved_at": "2026-07-13T13:26:24Z"
-    },
     {
       "cr_film_id": 1992,
       "cr_slug": "o-zakletem-krali-a-odvaznem-martinovi",
