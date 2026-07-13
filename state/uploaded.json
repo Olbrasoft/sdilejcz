@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T02:19:10Z",
+  "last_updated": "2026-07-13T02:19:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -36614,6 +36614,27 @@
         "download_sec": 31.1,
         "upload_sec": 0.0
       }
+    },
+    {
+      "cr_film_id": 748,
+      "cr_slug": "deadpool-2",
+      "title": "Deadpool 2",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T02:19:44Z",
+      "first_failed_at": "2026-07-13T02:19:44Z",
+      "attempt_count": 1,
+      "upload_id": "61db30d980991",
+      "source_url": "https://prehraj.to/deadpool-2-2018-1080p-bdrip-dd5-1-cz-dab/61db30d980991",
+      "upload_title": "Deadpool 2 2018.1080p.BDRip.DD5.1.CZ.Dab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 143.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -36636,16 +36657,6 @@
       "worker_id": "worker-1-29215722564",
       "run_id": "29215722564",
       "reserved_at": "2026-07-13T02:16:44Z"
-    },
-    {
-      "cr_film_id": 748,
-      "cr_slug": "deadpool-2",
-      "title": "Deadpool 2",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T02:16:47Z"
     },
     {
       "cr_film_id": 751,
