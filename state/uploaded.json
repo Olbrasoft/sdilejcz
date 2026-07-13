@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T16:40:48Z",
+  "last_updated": "2026-07-13T16:42:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -56191,6 +56191,27 @@
       "timing": {
         "resolve_sec": 4.0
       }
+    },
+    {
+      "cr_film_id": 2305,
+      "cr_slug": "american-honey",
+      "title": "American Honey",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T16:42:16Z",
+      "first_failed_at": "2026-07-13T16:42:16Z",
+      "attempt_count": 1,
+      "upload_id": "0fc48acdcc322847",
+      "source_url": "https://prehraj.to/american-honey-2016-cz-dab-360p-mkv/0fc48acdcc322847",
+      "upload_title": "American Honey 2016 CZ dab 360p.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 93.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -56203,16 +56224,6 @@
       "worker_id": "worker-2-29245110447",
       "run_id": "29245110447",
       "reserved_at": "2026-07-13T16:36:44Z"
-    },
-    {
-      "cr_film_id": 2305,
-      "cr_slug": "american-honey",
-      "title": "American Honey",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29245110447",
-      "run_id": "29245110447",
-      "reserved_at": "2026-07-13T16:40:10Z"
     },
     {
       "cr_film_id": 2306,
