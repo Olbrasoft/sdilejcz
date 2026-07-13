@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T04:07:35Z",
+  "last_updated": "2026-07-13T04:07:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -37002,6 +37002,30 @@
         "upload_sec": 239.7,
         "total_sec": 323.3
       }
+    },
+    {
+      "cr_film_id": 888,
+      "cr_slug": "13-samuraju",
+      "title": "13 samurajů",
+      "year": 2010,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5a7bc79e062e0",
+      "source_url": "https://prehraj.to/13-samuraju-2010-cz-dabing/5a7bc79e062e0",
+      "source_title": "13 Samurajů (2010) CZ Dabing",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34647239/13-samuraju-2010-cz-dabing.mp4",
+      "sdilej_name": "13 samurajů (2010) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T04:07:45Z",
+      "status": "uploaded",
+      "size_bytes": 1032477979,
+      "worker_id": "worker-2-29215722564",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 58.1,
+        "upload_sec": 137.3,
+        "total_sec": 197.1
+      }
     }
   ],
   "failed_attempts": [
@@ -38651,27 +38675,6 @@
       }
     },
     {
-      "cr_film_id": 888,
-      "cr_slug": "13-samuraju",
-      "title": "13 samurajů",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-13T04:02:07Z",
-      "first_failed_at": "2026-07-13T04:02:07Z",
-      "attempt_count": 1,
-      "upload_id": "5a747d1019e34",
-      "source_url": "https://prehraj.to/13-samuraju-2010-cz-dabing/5a747d1019e34",
-      "upload_title": "13 Samurajů (2010) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 61.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 891,
       "cr_slug": "muz-jmenem-otto",
       "title": "Muž jménem Otto",
@@ -38750,16 +38753,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 888,
-      "cr_slug": "13-samuraju",
-      "title": "13 samurajů",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29215722564",
-      "run_id": "29215722564",
-      "reserved_at": "2026-07-13T04:04:27Z"
-    },
     {
       "cr_film_id": 894,
       "cr_slug": "avatar-the-way-of-water",
