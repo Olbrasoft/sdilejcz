@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T18:19:27Z",
+  "last_updated": "2026-07-13T18:20:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -57706,19 +57706,30 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2429,
       "cr_slug": "co-jsme-komu-udelali",
       "title": "Co jsme komu udělali?",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29269764551",
-      "run_id": "29269764551",
-      "reserved_at": "2026-07-13T18:08:52Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-13T18:20:02Z",
+      "first_failed_at": "2026-07-13T18:20:02Z",
+      "attempt_count": 1,
+      "upload_id": "673857aac13a7",
+      "source_url": "https://prehraj.to/co-jsme-komu-udelali-2014-cz-dab/673857aac13a7",
+      "upload_title": "Co jsme komu udělali 2014 CZ dab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 636.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2430,
       "cr_slug": "mala-smrt",
