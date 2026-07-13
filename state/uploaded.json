@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T11:25:40Z",
+  "last_updated": "2026-07-13T11:27:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -46746,6 +46746,30 @@
         "upload_sec": 107.9,
         "total_sec": 149.1
       }
+    },
+    {
+      "cr_film_id": 1790,
+      "cr_slug": "angel-heart",
+      "title": "Angel Heart",
+      "year": 1987,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "6098944a06843",
+      "source_url": "https://prehraj.to/angel-heart-thriller-1987-cz-dabing-mp4/6098944a06843",
+      "source_title": "Angel Heart-(thriller)-(1987)-cz-dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34648068/angel-heart-1987-cz-dabing.mp4",
+      "sdilej_name": "Angel Heart (1987) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T11:27:13Z",
+      "status": "uploaded",
+      "size_bytes": 618162448,
+      "worker_id": "worker-2-29229023319",
+      "timing": {
+        "resolve_sec": 5.0,
+        "download_sec": 24.5,
+        "upload_sec": 62.3,
+        "total_sec": 93.5
+      }
     }
   ],
   "failed_attempts": [
@@ -49742,25 +49766,6 @@
         "download_sec": 57.5,
         "upload_sec": 0.0
       }
-    },
-    {
-      "cr_film_id": 1790,
-      "cr_slug": "angel-heart",
-      "title": "Angel Heart",
-      "year": 1987,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/angel-heart-1987-1080p-cz-dab/eb350ae8f017f189",
-      "failed_at": "2026-07-13T11:25:40Z",
-      "first_failed_at": "2026-07-13T11:25:40Z",
-      "attempt_count": 1,
-      "upload_id": "eb350ae8f017f189",
-      "source_url": "https://prehraj.to/angel-heart-1987-1080p-cz-dab/eb350ae8f017f189",
-      "upload_title": "Angel Heart (1987) 1080p cz dab",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.5
-      }
     }
   ],
   "in_progress": [
@@ -49793,16 +49798,6 @@
       "worker_id": "worker-3-29229023319",
       "run_id": "29229023319",
       "reserved_at": "2026-07-13T11:25:36Z"
-    },
-    {
-      "cr_film_id": 1790,
-      "cr_slug": "angel-heart",
-      "title": "Angel Heart",
-      "year": 1987,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29229023319",
-      "run_id": "29229023319",
-      "reserved_at": "2026-07-13T11:25:38Z"
     }
   ]
 }
