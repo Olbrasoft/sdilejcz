@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-13T12:45:07Z",
+  "last_updated": "2026-07-13T12:45:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -48090,6 +48090,30 @@
         "upload_sec": 55.0,
         "total_sec": 74.3
       }
+    },
+    {
+      "cr_film_id": 1888,
+      "cr_slug": "batman-se-vraci",
+      "title": "Batman se vrací",
+      "year": 1992,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "d57407c277c1a543",
+      "source_url": "https://prehraj.to/batman-se-vraci-1992-cz-mp4/d57407c277c1a543",
+      "source_title": "Batman se vrací (1992)(CZ).mp4",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34648281/batman-se-vraci-1992-cz-dabing.mp4",
+      "sdilej_name": "Batman se vrací (1992) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-13T12:45:27Z",
+      "status": "uploaded",
+      "size_bytes": 3449060847,
+      "worker_id": "worker-1-29245110447",
+      "timing": {
+        "resolve_sec": 4.4,
+        "download_sec": 142.6,
+        "upload_sec": 437.3,
+        "total_sec": 586.8
+      }
     }
   ],
   "failed_attempts": [
@@ -51166,25 +51190,6 @@
       }
     },
     {
-      "cr_film_id": 1888,
-      "cr_slug": "batman-se-vraci",
-      "title": "Batman se vrací",
-      "year": 1992,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/batman-se-vraci-1992-en-cz-dabing-uhdr-mkv/7df2003662dda366",
-      "failed_at": "2026-07-13T12:35:41Z",
-      "first_failed_at": "2026-07-13T12:35:41Z",
-      "attempt_count": 1,
-      "upload_id": "7df2003662dda366",
-      "source_url": "https://prehraj.to/batman-se-vraci-1992-en-cz-dabing-uhdr-mkv/7df2003662dda366",
-      "upload_title": "Batman se vrací (1992) EN+CZ DABING UHDR.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.5
-      }
-    },
-    {
       "cr_film_id": 1891,
       "cr_slug": "gran-turismo",
       "title": "Gran Turismo",
@@ -51224,16 +51229,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 1888,
-      "cr_slug": "batman-se-vraci",
-      "title": "Batman se vrací",
-      "year": 1992,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29245110447",
-      "run_id": "29245110447",
-      "reserved_at": "2026-07-13T12:35:39Z"
-    },
     {
       "cr_film_id": 1896,
       "cr_slug": "muj-romanek-s-manzelstvim",
