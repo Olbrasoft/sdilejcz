@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T13:56:16Z",
+  "last_updated": "2026-07-14T13:57:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -80575,6 +80575,27 @@
         "download_sec": 72.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 4228,
+      "cr_slug": "ostrym-nozem",
+      "title": "Ostrým nožem",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T13:57:50Z",
+      "first_failed_at": "2026-07-14T13:57:50Z",
+      "attempt_count": 1,
+      "upload_id": "5d6c7a2d40c79",
+      "source_url": "https://prehraj.to/ostrym-nozom-2019-sk/5d6c7a2d40c79",
+      "upload_title": "Ostrým nožom 2019 sk",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.6,
+        "download_sec": 59.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -80607,16 +80628,6 @@
       "worker_id": "worker-2-29321610623",
       "run_id": "29321610623",
       "reserved_at": "2026-07-14T13:55:42Z"
-    },
-    {
-      "cr_film_id": 4228,
-      "cr_slug": "ostrym-nozem",
-      "title": "Ostrým nožem",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T13:56:16Z"
     }
   ]
 }
