@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T17:05:59Z",
+  "last_updated": "2026-07-14T17:06:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -84545,19 +84545,30 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4526,
       "cr_slug": "nahuel-a-kouzelna-kniha",
       "title": "Nahuel a kouzelná kniha",
       "year": 2020,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29343024460",
-      "run_id": "29343024460",
-      "reserved_at": "2026-07-14T17:02:47Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T17:06:58Z",
+      "first_failed_at": "2026-07-14T17:06:58Z",
+      "attempt_count": 1,
+      "upload_id": "62d6f08a7ba06",
+      "source_url": "https://prehraj.to/nahuel-a-kouzelna-kniha-2020-czdab/62d6f08a7ba06",
+      "upload_title": "Nahuel a kouzelná kniha (2020) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 217.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4527,
       "cr_slug": "luther-pad-z-nebes",
