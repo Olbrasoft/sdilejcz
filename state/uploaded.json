@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T07:16:18Z",
+  "last_updated": "2026-07-14T07:16:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -68466,6 +68466,30 @@
         "upload_sec": 315.4,
         "total_sec": 400.4
       }
+    },
+    {
+      "cr_film_id": 3599,
+      "cr_slug": "v-nespravnych-sluzbach",
+      "title": "V nesprávných službách",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "67909a01e5d0f",
+      "source_url": "https://prehraj.to/v-nespravnych-sluzbach-2023-cz-dabing-1080p-mp4/67909a01e5d0f",
+      "source_title": "V nesprávných službách 2023 CZ dabing 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34651698/v-nespravnych-sluzbach-2023-cz-dabing.mp4",
+      "sdilej_name": "V nesprávných službách (2023) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T07:16:24Z",
+      "status": "uploaded",
+      "size_bytes": 1644760936,
+      "worker_id": "worker-3-29304360063",
+      "timing": {
+        "resolve_sec": 3.2,
+        "download_sec": 104.6,
+        "upload_sec": 216.3,
+        "total_sec": 324.3
+      }
     }
   ],
   "failed_attempts": [
@@ -72258,40 +72282,9 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 3599,
-      "cr_slug": "v-nespravnych-sluzbach",
-      "title": "V nesprávných službách",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T07:10:07Z",
-      "first_failed_at": "2026-07-14T07:10:07Z",
-      "attempt_count": 1,
-      "upload_id": "678e8fad284f6",
-      "source_url": "https://prehraj.to/v-nespravnych-sluzbach-2023-cz-dabing-1080p/678e8fad284f6",
-      "upload_title": "V nesprávných službách 2023 CZ dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 60.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 3599,
-      "cr_slug": "v-nespravnych-sluzbach",
-      "title": "V nesprávných službách",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T07:10:59Z"
-    },
     {
       "cr_film_id": 3609,
       "cr_slug": "valka-a-povstani",
