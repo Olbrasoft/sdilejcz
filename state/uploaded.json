@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T01:35:26Z",
+  "last_updated": "2026-07-14T01:35:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -64475,19 +64475,30 @@
         "download_sec": 31.2,
         "upload_sec": 30.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2962,
       "cr_slug": "srazka-s-laskou",
       "title": "Srážka s láskou",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-2-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T01:34:07Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T01:35:39Z",
+      "first_failed_at": "2026-07-14T01:35:39Z",
+      "attempt_count": 1,
+      "upload_id": "5deda19e7a990",
+      "source_url": "https://prehraj.to/srazka-s-laskou-2019-cz-dabing/5deda19e7a990",
+      "upload_title": "Srazka s laskou 2019 cz dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 58.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2961,
       "cr_slug": "legenda-jmenem-t-34",
