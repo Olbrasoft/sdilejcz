@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T10:11:50Z",
+  "last_updated": "2026-07-14T10:12:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -76111,6 +76111,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 3941,
+      "cr_slug": "hrdost-a-slava",
+      "title": "Hrdost a sláva",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T10:12:03Z",
+      "first_failed_at": "2026-07-14T10:12:03Z",
+      "attempt_count": 1,
+      "upload_id": "61e028fb5c672c76",
+      "source_url": "https://prehraj.to/hrdost-a-slava-colin-farrell-edward-norton-jon-voight-2008-krimi-drama-thriller-hdrip-1080p-cz-dabing/61e028fb5c672c76",
+      "upload_title": "Hrdost a sláva (Colin Farrell, Edward Norton, Jon Voight-2008 Krimi-Drama-Thriller-Hdrip.-1080p.) Cz dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 65.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -76133,16 +76154,6 @@
       "worker_id": "worker-1-29321610623",
       "run_id": "29321610623",
       "reserved_at": "2026-07-14T10:10:19Z"
-    },
-    {
-      "cr_film_id": 3941,
-      "cr_slug": "hrdost-a-slava",
-      "title": "Hrdost a sláva",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T10:10:24Z"
     },
     {
       "cr_film_id": 3942,
