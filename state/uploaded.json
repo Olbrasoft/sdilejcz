@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T07:58:21Z",
+  "last_updated": "2026-07-14T07:59:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -73102,6 +73102,27 @@
       "timing": {
         "resolve_sec": 4.5
       }
+    },
+    {
+      "cr_film_id": 3678,
+      "cr_slug": "zeleny-rytir",
+      "title": "Zelený rytíř",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T07:59:50Z",
+      "first_failed_at": "2026-07-14T07:59:50Z",
+      "attempt_count": 1,
+      "upload_id": "68be02871815e",
+      "source_url": "https://prehraj.to/zeleny-rytir-2021-cz-dabing-1080p-full-hd/68be02871815e",
+      "upload_title": "Zelený rytíř 2021 CZ Dabing 1080p Full HD",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 56.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -73134,16 +73155,6 @@
       "worker_id": "worker-3-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T07:56:59Z"
-    },
-    {
-      "cr_film_id": 3678,
-      "cr_slug": "zeleny-rytir",
-      "title": "Zelený rytíř",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T07:58:21Z"
     }
   ]
 }
