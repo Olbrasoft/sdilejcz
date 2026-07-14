@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T15:15:14Z",
+  "last_updated": "2026-07-14T15:16:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -77490,6 +77490,30 @@
         "upload_sec": 33.5,
         "total_sec": 49.7
       }
+    },
+    {
+      "cr_film_id": 4357,
+      "cr_slug": "dovolena-za-trest",
+      "title": "Dovolená za trest",
+      "year": 2014,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "58d797da9ed60",
+      "source_url": "https://prehraj.to/dovolena-za-trest-2014-cz-dabing-blended-cz-dabing-2014/58d797da9ed60",
+      "source_title": "Dovolena za trest 2014 Cz dabing Blended CZ DABING 2014",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34658186/dovolena-za-trest-2014-cz-dabing.mp4",
+      "sdilej_name": "Dovolená za trest (2014) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T15:16:15Z",
+      "status": "uploaded",
+      "size_bytes": 866636319,
+      "worker_id": "worker-4-29343024460",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 26.9,
+        "upload_sec": 88.2,
+        "total_sec": 116.4
+      }
     }
   ],
   "failed_attempts": [
@@ -82176,40 +82200,9 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 4357,
-      "cr_slug": "dovolena-za-trest",
-      "title": "Dovolená za trest",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T15:03:39Z",
-      "first_failed_at": "2026-07-14T15:03:39Z",
-      "attempt_count": 1,
-      "upload_id": "58d797b8d1dbc",
-      "source_url": "https://prehraj.to/dovolena-za-trest-2014-cz-dabing-blended-cz-dabing-2014/58d797b8d1dbc",
-      "upload_title": "Dovolena za trest 2014 Cz dabing Blended CZ DABING 2014",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 27.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 4357,
-      "cr_slug": "dovolena-za-trest",
-      "title": "Dovolená za trest",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29343024460",
-      "run_id": "29343024460",
-      "reserved_at": "2026-07-14T15:14:17Z"
-    },
     {
       "cr_film_id": 4359,
       "cr_slug": "nesmrtelny-2015",
