@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T01:41:42Z",
+  "last_updated": "2026-07-14T01:42:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -61002,6 +61002,30 @@
         "upload_sec": 125.5,
         "total_sec": 171.9
       }
+    },
+    {
+      "cr_film_id": 2961,
+      "cr_slug": "legenda-jmenem-t-34",
+      "title": "Legenda jménem T-34",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "60150df000cf4",
+      "source_url": "https://prehraj.to/legenda-jmenem-t-34-2018-1080p-bluray-hd-x264-czdabing/60150df000cf4",
+      "source_title": "Legenda.jménem.T-34.2018.1080p.BluRay.HD.x264.CZDabing",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34651073/legenda-jmenem-t-34-2018-cz-dabing.mp4",
+      "sdilej_name": "Legenda jménem T-34 (2018) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T01:42:09Z",
+      "status": "uploaded",
+      "size_bytes": 2381518853,
+      "worker_id": "worker-3-29290293089",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 101.6,
+        "upload_sec": 304.3,
+        "total_sec": 407.5
+      }
     }
   ],
   "failed_attempts": [
@@ -64513,27 +64537,6 @@
       }
     },
     {
-      "cr_film_id": 2961,
-      "cr_slug": "legenda-jmenem-t-34",
-      "title": "Legenda jménem T-34",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T01:35:17Z",
-      "first_failed_at": "2026-07-14T01:35:17Z",
-      "attempt_count": 1,
-      "upload_id": "5fd5c281267aa",
-      "source_url": "https://prehraj.to/11-legenda-jmenem-t34-t34-2018-rus-valecny-cz-dab-1080p-bluray/5fd5c281267aa",
-      "upload_title": "11.Legenda jmenem T34 - T34 (2018) Rus Válečný Cz dab 1080p BluRay",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 102.6,
-        "upload_sec": 30.2
-      }
-    },
-    {
       "cr_film_id": 2960,
       "cr_slug": "nakaza",
       "title": "Nákaza",
@@ -64577,16 +64580,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2961,
-      "cr_slug": "legenda-jmenem-t-34",
-      "title": "Legenda jménem T-34",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T01:35:20Z"
-    },
     {
       "cr_film_id": 2968,
       "cr_slug": "stvura",
