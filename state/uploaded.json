@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T13:26:55Z",
+  "last_updated": "2026-07-14T13:27:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -75402,6 +75402,30 @@
         "upload_sec": 347.9,
         "total_sec": 448.6
       }
+    },
+    {
+      "cr_film_id": 4183,
+      "cr_slug": "posledni-dum-nalevo",
+      "title": "Poslední dům nalevo",
+      "year": 2009,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5b53e6ef7073a",
+      "source_url": "https://prehraj.to/posledni-dum-nalevo-2009-brrip-cz-dabing/5b53e6ef7073a",
+      "source_title": "Poslední Dům Nalevo (2009) BRRip. CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34657986/posledni-dum-nalevo-2009-cz-dabing.mp4",
+      "sdilej_name": "Poslední dům nalevo (2009) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T13:27:53Z",
+      "status": "uploaded",
+      "size_bytes": 378212083,
+      "worker_id": "worker-2-29321610623",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 16.7,
+        "upload_sec": 39.0,
+        "total_sec": 56.8
+      }
     }
   ],
   "failed_attempts": [
@@ -80050,27 +80074,6 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 4183,
-      "cr_slug": "posledni-dum-nalevo",
-      "title": "Poslední dům nalevo",
-      "year": 2009,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T13:25:05Z",
-      "first_failed_at": "2026-07-14T13:25:05Z",
-      "attempt_count": 1,
-      "upload_id": "559f40893637d",
-      "source_url": "https://prehraj.to/posledni-dum-nalevo-the-last-house-on-the-left-2009-dvdrip-czdabing/559f40893637d",
-      "upload_title": "Poslední-dům-nalevo---The-Last-House-on-the-Left---2009-DVDrip-CZdabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 26.5,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -80103,16 +80106,6 @@
       "worker_id": "worker-3-29321610623",
       "run_id": "29321610623",
       "reserved_at": "2026-07-14T13:25:06Z"
-    },
-    {
-      "cr_film_id": 4183,
-      "cr_slug": "posledni-dum-nalevo",
-      "title": "Poslední dům nalevo",
-      "year": 2009,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T13:26:55Z"
     }
   ]
 }
