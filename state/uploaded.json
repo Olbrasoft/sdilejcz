@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T16:16:17Z",
+  "last_updated": "2026-07-14T16:17:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -83644,6 +83644,27 @@
       "timing": {
         "resolve_sec": 4.2
       }
+    },
+    {
+      "cr_film_id": 4452,
+      "cr_slug": "rez-ball",
+      "title": "Rez Ball",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T16:17:19Z",
+      "first_failed_at": "2026-07-14T16:17:19Z",
+      "attempt_count": 1,
+      "upload_id": "66f69a526ed0c",
+      "source_url": "https://prehraj.to/rez-ball-2024-cz-dabing-1080p/66f69a526ed0c",
+      "upload_title": "Rez Ball (2024) CZ Dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 121.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -83666,16 +83687,6 @@
       "worker_id": "worker-2-29343024460",
       "run_id": "29343024460",
       "reserved_at": "2026-07-14T16:13:14Z"
-    },
-    {
-      "cr_film_id": 4452,
-      "cr_slug": "rez-ball",
-      "title": "Rez Ball",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29343024460",
-      "run_id": "29343024460",
-      "reserved_at": "2026-07-14T16:14:45Z"
     },
     {
       "cr_film_id": 4453,
