@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T06:59:01Z",
+  "last_updated": "2026-07-14T06:59:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -71927,6 +71927,27 @@
       "timing": {
         "resolve_sec": 4.2
       }
+    },
+    {
+      "cr_film_id": 3586,
+      "cr_slug": "wasabi",
+      "title": "Wasabi",
+      "year": 2001,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T06:59:29Z",
+      "first_failed_at": "2026-07-14T06:59:29Z",
+      "attempt_count": 1,
+      "upload_id": "4b5d86a132f8556d",
+      "source_url": "https://prehraj.to/wasabi-2001-fr-cz-dabing-fhd-mkv/4b5d86a132f8556d",
+      "upload_title": "Wasabi (2001) FR+CZ DABING FHD .mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.3,
+        "download_sec": 80.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -71939,16 +71960,6 @@
       "worker_id": "worker-1-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T06:53:42Z"
-    },
-    {
-      "cr_film_id": 3586,
-      "cr_slug": "wasabi",
-      "title": "Wasabi",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T06:57:35Z"
     },
     {
       "cr_film_id": 3590,
