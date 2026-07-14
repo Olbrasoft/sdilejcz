@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T02:59:13Z",
+  "last_updated": "2026-07-14T03:00:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -66690,6 +66690,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 3157,
+      "cr_slug": "neobycejny-odd-thomas-cz",
+      "title": "Neobyčejný Odd Thomas",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T03:00:15Z",
+      "first_failed_at": "2026-07-14T03:00:15Z",
+      "attempt_count": 1,
+      "upload_id": "564cc56561578",
+      "source_url": "https://prehraj.to/neobycejny-odd-thomas-2013-thrill-cz-dab/564cc56561578",
+      "upload_title": "Neobyčejný Odd Thomas - 2013 thrill.cz dab.",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.0,
+        "download_sec": 28.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -66722,16 +66743,6 @@
       "worker_id": "worker-1-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-14T02:58:14Z"
-    },
-    {
-      "cr_film_id": 3157,
-      "cr_slug": "neobycejny-odd-thomas-cz",
-      "title": "Neobyčejný Odd Thomas",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T02:59:13Z"
     }
   ]
 }
