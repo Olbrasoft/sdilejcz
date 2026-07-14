@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T03:33:57Z",
+  "last_updated": "2026-07-14T03:34:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -63762,6 +63762,30 @@
         "upload_sec": 119.2,
         "total_sec": 168.5
       }
+    },
+    {
+      "cr_film_id": 3209,
+      "cr_slug": "stoker",
+      "title": "Stokerovi",
+      "year": 2013,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "59d2e6dc42e03",
+      "source_url": "https://prehraj.to/stoker-2013-brrip-cz-dabing/59d2e6dc42e03",
+      "source_title": "Stoker (2013) BRRip. CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34651284/stokerovi-2013-cz-dabing.mp4",
+      "sdilej_name": "Stokerovi (2013) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T03:34:16Z",
+      "status": "uploaded",
+      "size_bytes": 507536325,
+      "worker_id": "worker-2-29290293089",
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 16.7,
+        "upload_sec": 50.3,
+        "total_sec": 67.9
+      }
     }
   ],
   "failed_attempts": [
@@ -67526,27 +67550,6 @@
         "download_sec": 98.8,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 3209,
-      "cr_slug": "stoker",
-      "title": "Stokerovi",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T03:31:13Z",
-      "first_failed_at": "2026-07-14T03:31:13Z",
-      "attempt_count": 1,
-      "upload_id": "5a81a7d99976d",
-      "source_url": "https://prehraj.to/stoker-2013-brrip-cz-dabing/5a81a7d99976d",
-      "upload_title": "Stoker (2013) BRRip. CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 25.8,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -67559,16 +67562,6 @@
       "worker_id": "worker-1-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-14T03:31:15Z"
-    },
-    {
-      "cr_film_id": 3209,
-      "cr_slug": "stoker",
-      "title": "Stokerovi",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T03:33:07Z"
     },
     {
       "cr_film_id": 3217,
