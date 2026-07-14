@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T13:14:10Z",
+  "last_updated": "2026-07-14T13:14:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -79906,6 +79906,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 4172,
+      "cr_slug": "vybuch",
+      "title": "Výbuch",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T13:14:42Z",
+      "first_failed_at": "2026-07-14T13:14:42Z",
+      "attempt_count": 1,
+      "upload_id": "6122275add207",
+      "source_url": "https://prehraj.to/vybuch-2020-cz-dabing/6122275add207",
+      "upload_title": "Výbuch 2020 CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 54.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -79918,16 +79939,6 @@
       "worker_id": "worker-4-29321610623",
       "run_id": "29321610623",
       "reserved_at": "2026-07-14T13:12:06Z"
-    },
-    {
-      "cr_film_id": 4172,
-      "cr_slug": "vybuch",
-      "title": "Výbuch",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T13:13:15Z"
     },
     {
       "cr_film_id": 4175,
