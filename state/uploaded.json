@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T05:48:06Z",
+  "last_updated": "2026-07-14T05:48:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -70363,6 +70363,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 3474,
+      "cr_slug": "smrt-ji-slusi",
+      "title": "Smrt jí sluší",
+      "year": 1992,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T05:48:34Z",
+      "first_failed_at": "2026-07-14T05:48:34Z",
+      "attempt_count": 1,
+      "upload_id": "5c081bd40fd7d",
+      "source_url": "https://prehraj.to/smrt-ji-slusi-1992-cz-dabing/5c081bd40fd7d",
+      "upload_title": "Smrt Jí Sluší (1992) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 68.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -70375,16 +70396,6 @@
       "worker_id": "worker-3-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T05:45:59Z"
-    },
-    {
-      "cr_film_id": 3474,
-      "cr_slug": "smrt-ji-slusi",
-      "title": "Smrt jí sluší",
-      "year": 1992,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T05:46:54Z"
     },
     {
       "cr_film_id": 3475,
