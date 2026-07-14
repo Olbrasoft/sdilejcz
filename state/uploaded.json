@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T02:58:17Z",
+  "last_updated": "2026-07-14T02:59:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -63018,6 +63018,30 @@
         "upload_sec": 95.2,
         "total_sec": 132.3
       }
+    },
+    {
+      "cr_film_id": 3152,
+      "cr_slug": "disturbia",
+      "title": "Disturbia",
+      "year": 2007,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "40193fa52f35692e",
+      "source_url": "https://prehraj.to/disturbia-2007-cz-dab-1080p/40193fa52f35692e",
+      "source_title": "Disturbia 2007 CZ dab 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34651215/disturbia-2007-cz-dabing.mp4",
+      "sdilej_name": "Disturbia (2007) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T02:59:10Z",
+      "status": "uploaded",
+      "size_bytes": 2963119367,
+      "worker_id": "worker-3-29290293089",
+      "timing": {
+        "resolve_sec": 4.8,
+        "download_sec": 125.8,
+        "upload_sec": 388.4,
+        "total_sec": 522.1
+      }
     }
   ],
   "failed_attempts": [
@@ -66628,25 +66652,6 @@
       }
     },
     {
-      "cr_film_id": 3152,
-      "cr_slug": "disturbia",
-      "title": "Disturbia",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/disturbia-2007-cz-dab-1080p-mkv/63a9c2b3f0516a76",
-      "failed_at": "2026-07-14T02:50:30Z",
-      "first_failed_at": "2026-07-14T02:50:30Z",
-      "attempt_count": 1,
-      "upload_id": "63a9c2b3f0516a76",
-      "source_url": "https://prehraj.to/disturbia-2007-cz-dab-1080p-mkv/63a9c2b3f0516a76",
-      "upload_title": "Disturbia 2007 CZ dab 1080p.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.0
-      }
-    },
-    {
       "cr_film_id": 3157,
       "cr_slug": "neobycejny-odd-thomas-cz",
       "title": "Neobyčejný Odd Thomas",
@@ -66688,16 +66693,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 3152,
-      "cr_slug": "disturbia",
-      "title": "Disturbia",
-      "year": 2007,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T02:50:27Z"
-    },
     {
       "cr_film_id": 3154,
       "cr_slug": "yes-man",
