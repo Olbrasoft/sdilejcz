@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T14:02:42Z",
+  "last_updated": "2026-07-14T14:03:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -80692,6 +80692,27 @@
         "download_sec": 59.6,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 4235,
+      "cr_slug": "mlady-gangster",
+      "title": "Mladý gangster",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T14:03:22Z",
+      "first_failed_at": "2026-07-14T14:03:22Z",
+      "attempt_count": 1,
+      "upload_id": "5e1d8e5007a56",
+      "source_url": "https://prehraj.to/mlady-gangster-cz-dabing-2018/5e1d8e5007a56",
+      "upload_title": "Mladý gangster [CZ dabing, 2018]",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 38.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -80714,16 +80735,6 @@
       "worker_id": "worker-4-29321610623",
       "run_id": "29321610623",
       "reserved_at": "2026-07-14T13:59:12Z"
-    },
-    {
-      "cr_film_id": 4235,
-      "cr_slug": "mlady-gangster",
-      "title": "Mladý gangster",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T14:02:12Z"
     },
     {
       "cr_film_id": 4237,
