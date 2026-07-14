@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T08:04:25Z",
+  "last_updated": "2026-07-14T08:05:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -73198,6 +73198,27 @@
       "timing": {
         "resolve_sec": 4.5
       }
+    },
+    {
+      "cr_film_id": 3684,
+      "cr_slug": "bruno-reidal-zapisky-vraha",
+      "title": "Bruno Reidal: Zápisky vraha",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T08:05:01Z",
+      "first_failed_at": "2026-07-14T08:05:01Z",
+      "attempt_count": 1,
+      "upload_id": "63e7f41aae9c2",
+      "source_url": "https://prehraj.to/bruno-reidal-zapisky-vraha-bruno-reidal-2021-hd-5-1-cz-dabing-1080p/63e7f41aae9c2",
+      "upload_title": "Bruno Reidal Zapisky vraha Bruno Reidal 2021 HD 5.1 CZ Dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 105.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -73210,16 +73231,6 @@
       "worker_id": "worker-1-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T07:59:52Z"
-    },
-    {
-      "cr_film_id": 3684,
-      "cr_slug": "bruno-reidal-zapisky-vraha",
-      "title": "Bruno Reidal: Zápisky vraha",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T08:02:42Z"
     },
     {
       "cr_film_id": 3685,
