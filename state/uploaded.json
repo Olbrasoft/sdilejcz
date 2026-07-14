@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T10:54:55Z",
+  "last_updated": "2026-07-14T10:55:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -77176,19 +77176,30 @@
       "timing": {
         "resolve_sec": 4.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 3994,
       "cr_slug": "mizerove-ii",
       "title": "Mizerové II",
       "year": 2003,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T10:48:14Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T10:55:39Z",
+      "first_failed_at": "2026-07-14T10:55:39Z",
+      "attempt_count": 1,
+      "upload_id": "fbcdaa1a7118cda6",
+      "source_url": "https://prehraj.to/mizerove-ii-2003-cz-dab-1080p-remastrovane/fbcdaa1a7118cda6",
+      "upload_title": "Mizerové II 2003 CZ dab 1080p Remastrované",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 411.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4005,
       "cr_slug": "30-dni-dlouha-noc",
