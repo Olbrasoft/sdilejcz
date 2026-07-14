@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T06:03:40Z",
+  "last_updated": "2026-07-14T06:03:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -70648,6 +70648,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 3497,
+      "cr_slug": "novy-svet",
+      "title": "Nový svět",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T06:03:47Z",
+      "first_failed_at": "2026-07-14T06:03:47Z",
+      "attempt_count": 1,
+      "upload_id": "5fbe6e69af3e1",
+      "source_url": "https://prehraj.to/novy-svet-2005-hd-cz/5fbe6e69af3e1",
+      "upload_title": "Nový svět ~ (2005) HD cz",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 66.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -70670,16 +70691,6 @@
       "worker_id": "worker-2-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T06:01:37Z"
-    },
-    {
-      "cr_film_id": 3497,
-      "cr_slug": "novy-svet",
-      "title": "Nový svět",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T06:02:08Z"
     },
     {
       "cr_film_id": 3498,
