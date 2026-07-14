@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T03:08:10Z",
+  "last_updated": "2026-07-14T03:08:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -66886,19 +66886,30 @@
         "resolve_sec": 1.4,
         "download_sec": 2.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 3169,
       "cr_slug": "spiknuti",
       "title": "Spiknutí",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T03:06:58Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T03:08:49Z",
+      "first_failed_at": "2026-07-14T03:08:49Z",
+      "attempt_count": 1,
+      "upload_id": "63cf47c072c4f",
+      "source_url": "https://prehraj.to/spiknuti-1997-akcni-mysteriozni-romanticky-thriller-1080p-avc-en-cz-dabing/63cf47c072c4f",
+      "upload_title": "Spiknutí (1997 Akční-Mysteriózní-Romantický-Thriller-1080p.-AVC) en+Cz dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 77.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3171,
       "cr_slug": "rozsudek-smrti",
