@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T12:28:55Z",
+  "last_updated": "2026-07-14T12:30:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -79123,6 +79123,27 @@
       "timing": {
         "resolve_sec": 2.2
       }
+    },
+    {
+      "cr_film_id": 4114,
+      "cr_slug": "mayday",
+      "title": "Mayday",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T12:30:17Z",
+      "first_failed_at": "2026-07-14T12:30:17Z",
+      "attempt_count": 1,
+      "upload_id": "6424d7a691f99",
+      "source_url": "https://prehraj.to/plane-2023-cz-dabing-1080p/6424d7a691f99",
+      "upload_title": "Plane 2023 CZ dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 96.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -79135,16 +79156,6 @@
       "worker_id": "worker-4-29321610623",
       "run_id": "29321610623",
       "reserved_at": "2026-07-14T12:26:05Z"
-    },
-    {
-      "cr_film_id": 4114,
-      "cr_slug": "mayday",
-      "title": "Mayday",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T12:28:06Z"
     },
     {
       "cr_film_id": 4115,
