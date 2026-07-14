@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T16:53:38Z",
+  "last_updated": "2026-07-14T16:55:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -84196,19 +84196,30 @@
       "timing": {
         "resolve_sec": 4.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4495,
       "cr_slug": "strachy-v-nas",
       "title": "Strachy v nás",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29343024460",
-      "run_id": "29343024460",
-      "reserved_at": "2026-07-14T16:48:58Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T16:55:57Z",
+      "first_failed_at": "2026-07-14T16:55:57Z",
+      "attempt_count": 1,
+      "upload_id": "66b3832b68ef5",
+      "source_url": "https://prehraj.to/strachy-v-nas-2021-cz-dabing-1080p/66b3832b68ef5",
+      "upload_title": "Strachy v nás (2021) CZ Dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 385.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4497,
       "cr_slug": "odstrelovac-bily-havran",
