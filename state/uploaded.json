@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T23:01:16Z",
+  "last_updated": "2026-07-14T23:02:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -87425,6 +87425,27 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 4788,
+      "cr_slug": "zprava-o-europe",
+      "title": "Zpráva o Europě",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T23:02:20Z",
+      "first_failed_at": "2026-07-14T23:02:20Z",
+      "attempt_count": 1,
+      "upload_id": "617e6857455c1",
+      "source_url": "https://prehraj.to/zprava-o-europe-czdabing-2013-sci-fi-480p/617e6857455c1",
+      "upload_title": "Zpráva o Europě Czdabing 2013 Sci-fi 480p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 31.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -87487,16 +87508,6 @@
       "worker_id": "worker-4-29367318232",
       "run_id": "29367318232",
       "reserved_at": "2026-07-14T22:59:19Z"
-    },
-    {
-      "cr_film_id": 4788,
-      "cr_slug": "zprava-o-europe",
-      "title": "Zpráva o Europě",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29367318232",
-      "run_id": "29367318232",
-      "reserved_at": "2026-07-14T23:01:16Z"
     }
   ]
 }
