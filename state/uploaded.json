@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T07:50:52Z",
+  "last_updated": "2026-07-14T07:52:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -72958,6 +72958,27 @@
       "timing": {
         "resolve_sec": 4.5
       }
+    },
+    {
+      "cr_film_id": 3660,
+      "cr_slug": "metronom",
+      "title": "Metronom",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T07:52:05Z",
+      "first_failed_at": "2026-07-14T07:52:05Z",
+      "attempt_count": 1,
+      "upload_id": "6519da4166e6f",
+      "source_url": "https://prehraj.to/metronom-2022-czdab/6519da4166e6f",
+      "upload_title": "Metronom (2022) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 41.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -72990,16 +73011,6 @@
       "worker_id": "worker-1-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T07:50:17Z"
-    },
-    {
-      "cr_film_id": 3660,
-      "cr_slug": "metronom",
-      "title": "Metronom",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T07:50:52Z"
     }
   ]
 }
