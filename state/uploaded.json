@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T07:01:59Z",
+  "last_updated": "2026-07-14T07:03:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -68202,6 +68202,30 @@
         "upload_sec": 359.6,
         "total_sec": 491.1
       }
+    },
+    {
+      "cr_film_id": 3586,
+      "cr_slug": "wasabi",
+      "title": "Wasabi",
+      "year": 2001,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5c24f936133c8",
+      "source_url": "https://prehraj.to/wasabi-2001-cz-dabing/5c24f936133c8",
+      "source_title": "Wasabi (2001) CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34651659/wasabi-2001-cz-dabing.mp4",
+      "sdilej_name": "Wasabi (2001) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T07:03:05Z",
+      "status": "uploaded",
+      "size_bytes": 465799874,
+      "worker_id": "worker-4-29304360063",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 21.3,
+        "upload_sec": 47.6,
+        "total_sec": 70.1
+      }
     }
   ],
   "failed_attempts": [
@@ -71975,27 +71999,6 @@
       "timing": {
         "resolve_sec": 4.2
       }
-    },
-    {
-      "cr_film_id": 3586,
-      "cr_slug": "wasabi",
-      "title": "Wasabi",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T06:59:29Z",
-      "first_failed_at": "2026-07-14T06:59:29Z",
-      "attempt_count": 1,
-      "upload_id": "4b5d86a132f8556d",
-      "source_url": "https://prehraj.to/wasabi-2001-fr-cz-dabing-fhd-mkv/4b5d86a132f8556d",
-      "upload_title": "Wasabi (2001) FR+CZ DABING FHD .mkv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.3,
-        "download_sec": 80.5,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -72018,16 +72021,6 @@
       "worker_id": "worker-2-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T06:59:31Z"
-    },
-    {
-      "cr_film_id": 3586,
-      "cr_slug": "wasabi",
-      "title": "Wasabi",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T07:01:54Z"
     },
     {
       "cr_film_id": 3593,
