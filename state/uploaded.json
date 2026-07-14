@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T00:52:34Z",
+  "last_updated": "2026-07-14T00:52:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -63716,6 +63716,27 @@
         "download_sec": 80.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 2891,
+      "cr_slug": "safety",
+      "title": "Obránce",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T00:52:58Z",
+      "first_failed_at": "2026-07-14T00:52:58Z",
+      "attempt_count": 1,
+      "upload_id": "625dcbb8bdb29",
+      "source_url": "https://prehraj.to/safety-2020-czdab/625dcbb8bdb29",
+      "upload_title": "Safety (2020) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 209.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -63728,16 +63749,6 @@
       "worker_id": "worker-4-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-14T00:48:29Z"
-    },
-    {
-      "cr_film_id": 2891,
-      "cr_slug": "safety",
-      "title": "Obránce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T00:48:56Z"
     },
     {
       "cr_film_id": 2898,
