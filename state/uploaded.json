@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T12:40:44Z",
+  "last_updated": "2026-07-14T12:42:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -79405,6 +79405,27 @@
       "timing": {
         "resolve_sec": 4.1
       }
+    },
+    {
+      "cr_film_id": 4134,
+      "cr_slug": "scooby-doo-a-duch-labuznik",
+      "title": "Scooby-Doo a duch Labužník",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T12:42:15Z",
+      "first_failed_at": "2026-07-14T12:42:15Z",
+      "attempt_count": 1,
+      "upload_id": "6066ef281277b",
+      "source_url": "https://prehraj.to/scooby-doo-a-batman-proti-superzlocincom-r-2018-1920x1080/6066ef281277b",
+      "upload_title": "Scooby-Doo a Batman proti superzločincom (r.2018 - 1920x1080)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 58.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -79437,16 +79458,6 @@
       "worker_id": "worker-4-29321610623",
       "run_id": "29321610623",
       "reserved_at": "2026-07-14T12:39:38Z"
-    },
-    {
-      "cr_film_id": 4134,
-      "cr_slug": "scooby-doo-a-duch-labuznik",
-      "title": "Scooby-Doo a duch Labužník",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T12:40:44Z"
     }
   ]
 }
