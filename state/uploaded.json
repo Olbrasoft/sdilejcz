@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T16:52:58Z",
+  "last_updated": "2026-07-14T16:53:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -79410,6 +79410,30 @@
         "upload_sec": 59.8,
         "total_sec": 389.7
       }
+    },
+    {
+      "cr_film_id": 4452,
+      "cr_slug": "rez-ball",
+      "title": "Rez Ball",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "66f69a526ed0c",
+      "source_url": "https://prehraj.to/rez-ball-2024-cz-dabing-1080p/66f69a526ed0c",
+      "source_title": "Rez Ball (2024) CZ Dabing 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34658503/rez-ball-2024-cz-dabing.mp4",
+      "sdilej_name": "Rez Ball (2024) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T16:53:36Z",
+      "status": "uploaded",
+      "size_bytes": 2312571861,
+      "worker_id": "worker-2-29343024460",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 76.0,
+        "upload_sec": 232.2,
+        "total_sec": 309.7
+      }
     }
   ],
   "failed_attempts": [
@@ -84172,40 +84196,9 @@
       "timing": {
         "resolve_sec": 4.2
       }
-    },
-    {
-      "cr_film_id": 4452,
-      "cr_slug": "rez-ball",
-      "title": "Rez Ball",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T16:17:19Z",
-      "first_failed_at": "2026-07-14T16:17:19Z",
-      "attempt_count": 1,
-      "upload_id": "66f69a526ed0c",
-      "source_url": "https://prehraj.to/rez-ball-2024-cz-dabing-1080p/66f69a526ed0c",
-      "upload_title": "Rez Ball (2024) CZ Dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 121.1,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 4452,
-      "cr_slug": "rez-ball",
-      "title": "Rez Ball",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29343024460",
-      "run_id": "29343024460",
-      "reserved_at": "2026-07-14T16:48:25Z"
-    },
     {
       "cr_film_id": 4495,
       "cr_slug": "strachy-v-nas",
