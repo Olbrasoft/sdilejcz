@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T05:58:17Z",
+  "last_updated": "2026-07-14T05:59:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -70509,6 +70509,27 @@
         "download_sec": 59.6,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 3491,
+      "cr_slug": "goool",
+      "title": "Góóól!",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T05:59:10Z",
+      "first_failed_at": "2026-07-14T05:59:10Z",
+      "attempt_count": 1,
+      "upload_id": "65bd7cd888f8c",
+      "source_url": "https://prehraj.to/goool-1-goal-1-2005-cz-dab-dvdrip/65bd7cd888f8c",
+      "upload_title": "Goool 1 (Goal 1) 2005 (CZ DAB) DVDrip",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 23.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -70531,16 +70552,6 @@
       "worker_id": "worker-1-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T05:57:04Z"
-    },
-    {
-      "cr_film_id": 3491,
-      "cr_slug": "goool",
-      "title": "Góóól!",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T05:58:14Z"
     },
     {
       "cr_film_id": 3492,
