@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T02:12:19Z",
+  "last_updated": "2026-07-14T02:12:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -65387,27 +65387,6 @@
       "sktorrent_id": null,
       "source": "prehrajto",
       "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T01:34:05Z",
-      "first_failed_at": "2026-07-14T01:34:05Z",
-      "attempt_count": 1,
-      "upload_id": "614e46c071aeb",
-      "source_url": "https://prehraj.to/nakaza-contagion-2011-1080p-cz-dabing/614e46c071aeb",
-      "upload_title": "Nákaza -  Contagion (2011) 1080p CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 59.9,
-        "upload_sec": 30.1
-      }
-    },
-    {
-      "cr_film_id": 2960,
-      "cr_slug": "nakaza",
-      "title": "Nákaza",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
       "failed_at": "2026-07-14T01:35:19Z",
       "first_failed_at": "2026-07-14T01:35:19Z",
       "attempt_count": 1,
@@ -65502,19 +65481,30 @@
         "download_sec": 71.7,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2960,
       "cr_slug": "nakaza",
       "title": "Nákaza",
       "year": 2011,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T02:09:33Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T02:12:25Z",
+      "first_failed_at": "2026-07-14T01:34:05Z",
+      "attempt_count": 2,
+      "upload_id": "614e46c071aeb",
+      "source_url": "https://prehraj.to/nakaza-contagion-2011-1080p-cz-dabing/614e46c071aeb",
+      "upload_title": "Nákaza -  Contagion (2011) 1080p CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 139.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3071,
       "cr_slug": "krotitele-duchu",
