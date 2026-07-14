@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T06:46:07Z",
+  "last_updated": "2026-07-14T06:47:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -71668,6 +71668,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 3568,
+      "cr_slug": "alex-leto-a-ja",
+      "title": "Alex, léto a já",
+      "year": 2026,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T06:47:19Z",
+      "first_failed_at": "2026-07-14T06:47:19Z",
+      "attempt_count": 1,
+      "upload_id": "9754aebbfc5b21c2",
+      "source_url": "https://prehraj.to/people-we-meet-on-vacation-2026-cz-dabing-1080p-mkv/9754aebbfc5b21c2",
+      "upload_title": "People We Meet on Vacation (2026) CZ Dabing 1080p.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 105.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -71690,16 +71711,6 @@
       "worker_id": "worker-4-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T06:44:53Z"
-    },
-    {
-      "cr_film_id": 3568,
-      "cr_slug": "alex-leto-a-ja",
-      "title": "Alex, léto a já",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T06:45:01Z"
     },
     {
       "cr_film_id": 3569,
