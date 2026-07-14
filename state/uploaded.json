@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T00:45:44Z",
+  "last_updated": "2026-07-14T00:46:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -60042,6 +60042,30 @@
         "upload_sec": 195.2,
         "total_sec": 252.6
       }
+    },
+    {
+      "cr_film_id": 2819,
+      "cr_slug": "kaskader",
+      "title": "Kaskadér",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "68beeb5c7a304",
+      "source_url": "https://prehraj.to/fall-guy-2024-kaskader-cz-dab/68beeb5c7a304",
+      "source_title": "Fall Guy (2024) Kaskadér CZ dab",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34650986/kaskader-2024-cz-dabing.mp4",
+      "sdilej_name": "Kaskadér (2024) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T00:46:49Z",
+      "status": "uploaded",
+      "size_bytes": 2626663700,
+      "worker_id": "worker-4-29290293089",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 114.0,
+        "upload_sec": 340.0,
+        "total_sec": 455.7
+      }
     }
   ],
   "failed_attempts": [
@@ -63513,27 +63537,6 @@
       }
     },
     {
-      "cr_film_id": 2819,
-      "cr_slug": "kaskader",
-      "title": "Kaskadér",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T00:07:47Z",
-      "first_failed_at": "2026-07-14T00:07:47Z",
-      "attempt_count": 1,
-      "upload_id": "68beeb5c7a304",
-      "source_url": "https://prehraj.to/fall-guy-2024-kaskader-cz-dab/68beeb5c7a304",
-      "upload_title": "Fall Guy (2024) Kaskadér CZ dab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 123.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 2802,
       "cr_slug": "dokonaly-protejsek",
       "title": "Dokonalý protějšek",
@@ -63617,16 +63620,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2819,
-      "cr_slug": "kaskader",
-      "title": "Kaskadér",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T00:39:12Z"
-    },
     {
       "cr_film_id": 2876,
       "cr_slug": "enola-holmesova-2",
