@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T15:02:39Z",
+  "last_updated": "2026-07-14T15:03:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -82080,6 +82080,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 4357,
+      "cr_slug": "dovolena-za-trest",
+      "title": "Dovolená za trest",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T15:03:39Z",
+      "first_failed_at": "2026-07-14T15:03:39Z",
+      "attempt_count": 1,
+      "upload_id": "58d797b8d1dbc",
+      "source_url": "https://prehraj.to/dovolena-za-trest-2014-cz-dabing-blended-cz-dabing-2014/58d797b8d1dbc",
+      "upload_title": "Dovolena za trest 2014 Cz dabing Blended CZ DABING 2014",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 27.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -82112,16 +82133,6 @@
       "worker_id": "worker-3-29321610623",
       "run_id": "29321610623",
       "reserved_at": "2026-07-14T15:02:35Z"
-    },
-    {
-      "cr_film_id": 4357,
-      "cr_slug": "dovolena-za-trest",
-      "title": "Dovolená za trest",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T15:02:39Z"
     }
   ]
 }
