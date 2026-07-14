@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T00:50:24Z",
+  "last_updated": "2026-07-14T00:52:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -63671,6 +63671,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 2896,
+      "cr_slug": "mistrovska-uroven",
+      "title": "Mistrovská úroveň",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T00:52:17Z",
+      "first_failed_at": "2026-07-14T00:52:17Z",
+      "attempt_count": 1,
+      "upload_id": "65a696a197d89",
+      "source_url": "https://prehraj.to/mistrovska-uroven-2021-cz-dab-novinka-novinky-dj/65a696a197d89",
+      "upload_title": "Mistrovská ůroveň 2021 cz dab. novinka, novinky. Dj",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 80.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -63703,16 +63724,6 @@
       "worker_id": "worker-2-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-14T00:50:00Z"
-    },
-    {
-      "cr_film_id": 2896,
-      "cr_slug": "mistrovska-uroven",
-      "title": "Mistrovská úroveň",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T00:50:24Z"
     }
   ]
 }
