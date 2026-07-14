@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T11:54:39Z",
+  "last_updated": "2026-07-14T11:54:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -78391,19 +78391,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4062,
       "cr_slug": "vlci",
       "title": "Vlci",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T11:51:11Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T11:54:51Z",
+      "first_failed_at": "2026-07-14T11:54:51Z",
+      "attempt_count": 1,
+      "upload_id": "68bddfc7881c2",
+      "source_url": "https://prehraj.to/vlci-2024-cz-dabing-1080p-full-hd/68bddfc7881c2",
+      "upload_title": "Vlci 2024 CZ Dabing 1080p Full HD",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 186.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4063,
       "cr_slug": "mizerove-na-zivot-a-na-smrt",
