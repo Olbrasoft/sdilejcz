@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T01:26:19Z",
+  "last_updated": "2026-07-14T01:30:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -60738,6 +60738,30 @@
         "upload_sec": 342.8,
         "total_sec": 453.9
       }
+    },
+    {
+      "cr_film_id": 2891,
+      "cr_slug": "safety",
+      "title": "Obránce",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "625dcbb8bdb29",
+      "source_url": "https://prehraj.to/safety-2020-czdab/625dcbb8bdb29",
+      "source_title": "Safety (2020) CZdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34651052/obrance-2020-cz-dabing.mp4",
+      "sdilej_name": "Obránce (2020) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T01:30:02Z",
+      "status": "uploaded",
+      "size_bytes": 3260551206,
+      "worker_id": "worker-2-29290293089",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 88.2,
+        "upload_sec": 314.7,
+        "total_sec": 404.7
+      }
     }
   ],
   "failed_attempts": [
@@ -64228,48 +64252,6 @@
       }
     },
     {
-      "cr_film_id": 2891,
-      "cr_slug": "safety",
-      "title": "Obránce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T00:52:58Z",
-      "first_failed_at": "2026-07-14T00:52:58Z",
-      "attempt_count": 1,
-      "upload_id": "625dcbb8bdb29",
-      "source_url": "https://prehraj.to/safety-2020-czdab/625dcbb8bdb29",
-      "upload_title": "Safety (2020) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 209.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 2891,
-      "cr_slug": "safety",
-      "title": "Obránce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T00:59:42Z",
-      "first_failed_at": "2026-07-14T00:59:42Z",
-      "attempt_count": 1,
-      "upload_id": "625dc0e5a1864",
-      "source_url": "https://prehraj.to/obrance-2020-czdab/625dc0e5a1864",
-      "upload_title": "Obránce (2020) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 318.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 2946,
       "cr_slug": "nejvyssi-pocta",
       "title": "Nejvyšší pocta",
@@ -64292,16 +64274,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2891,
-      "cr_slug": "safety",
-      "title": "Obránce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T01:23:16Z"
-    },
     {
       "cr_film_id": 2951,
       "cr_slug": "vyprosteni",
