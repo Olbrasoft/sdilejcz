@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T00:41:35Z",
+  "last_updated": "2026-07-14T00:42:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -63524,6 +63524,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 2876,
+      "cr_slug": "enola-holmesova-2",
+      "title": "Enola Holmesová 2",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T00:42:59Z",
+      "first_failed_at": "2026-07-14T00:42:59Z",
+      "attempt_count": 1,
+      "upload_id": "6365a13a6740f",
+      "source_url": "https://prehraj.to/enola-holmesova-2-2022-czdab/6365a13a6740f",
+      "upload_title": "Enola Holmesova 2 (2022) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 106.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -63536,16 +63557,6 @@
       "worker_id": "worker-4-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-14T00:39:12Z"
-    },
-    {
-      "cr_film_id": 2876,
-      "cr_slug": "enola-holmesova-2",
-      "title": "Enola Holmesová 2",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T00:40:39Z"
     },
     {
       "cr_film_id": 2877,
