@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T11:39:28Z",
+  "last_updated": "2026-07-14T11:39:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -78223,19 +78223,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4050,
       "cr_slug": "krute-more",
       "title": "Kruté moře",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-3-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T11:36:37Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T11:39:40Z",
+      "first_failed_at": "2026-07-14T11:39:40Z",
+      "attempt_count": 1,
+      "upload_id": "68ec45453adcb",
+      "source_url": "https://prehraj.to/krute-more-2021-cz-dab-1080p/68ec45453adcb",
+      "upload_title": "Kruté moře 2021 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 150.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4053,
       "cr_slug": "prirucak",
