@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T01:08:37Z",
+  "last_updated": "2026-07-14T01:09:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -64025,19 +64025,30 @@
         "download_sec": 96.8,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2923,
       "cr_slug": "zpravy-ze-sveta",
       "title": "Zprávy ze světa",
       "year": 2020,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T01:03:08Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T01:09:20Z",
+      "first_failed_at": "2026-07-14T01:09:20Z",
+      "attempt_count": 1,
+      "upload_id": "6086fb4388739",
+      "source_url": "https://prehraj.to/zpravy-ze-sveta-2020-cz-dabing-1080p-akcni-dobrodruzny-drama-western/6086fb4388739",
+      "upload_title": "Zprávy ze světa 2020 CZ dabing 1080p Akční Dobrodružný Drama Western",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 338.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2929,
       "cr_slug": "vanoce-jako-z-romanu",
