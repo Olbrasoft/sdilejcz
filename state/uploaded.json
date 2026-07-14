@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T22:00:18Z",
+  "last_updated": "2026-07-14T22:01:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -86177,6 +86177,27 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 4668,
+      "cr_slug": "sobibor",
+      "title": "Sobibor",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T22:01:18Z",
+      "first_failed_at": "2026-07-14T22:01:18Z",
+      "attempt_count": 1,
+      "upload_id": "6065a1d6379a3",
+      "source_url": "https://prehraj.to/sobibor-2018-cz-dabing/6065a1d6379a3",
+      "upload_title": "Sobibor (2018) - CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 168.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -86219,16 +86240,6 @@
       "worker_id": "worker-3-29367318232",
       "run_id": "29367318232",
       "reserved_at": "2026-07-14T21:55:09Z"
-    },
-    {
-      "cr_film_id": 4668,
-      "cr_slug": "sobibor",
-      "title": "Sobibor",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29367318232",
-      "run_id": "29367318232",
-      "reserved_at": "2026-07-14T21:57:57Z"
     },
     {
       "cr_film_id": 4670,
