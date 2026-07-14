@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T05:38:02Z",
+  "last_updated": "2026-07-14T05:39:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -70152,6 +70152,27 @@
       "timing": {
         "resolve_sec": 4.6
       }
+    },
+    {
+      "cr_film_id": 3448,
+      "cr_slug": "benga-v-zaloze",
+      "title": "Benga v záloze",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T05:39:23Z",
+      "first_failed_at": "2026-07-14T05:39:23Z",
+      "attempt_count": 1,
+      "upload_id": "7eba40ac8b9c2329",
+      "source_url": "https://prehraj.to/benga-v-zaloze-2010-cz-dabing-1080p-mkv/7eba40ac8b9c2329",
+      "upload_title": "Benga v záloze (2010) CZ Dabing 1080p.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 88.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -70164,16 +70185,6 @@
       "worker_id": "worker-1-29304360063",
       "run_id": "29304360063",
       "reserved_at": "2026-07-14T05:37:14Z"
-    },
-    {
-      "cr_film_id": 3448,
-      "cr_slug": "benga-v-zaloze",
-      "title": "Benga v záloze",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29304360063",
-      "run_id": "29304360063",
-      "reserved_at": "2026-07-14T05:37:22Z"
     },
     {
       "cr_film_id": 3449,
