@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T01:17:32Z",
+  "last_updated": "2026-07-14T01:18:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -60594,6 +60594,30 @@
         "upload_sec": 164.4,
         "total_sec": 237.4
       }
+    },
+    {
+      "cr_film_id": 2923,
+      "cr_slug": "zpravy-ze-sveta",
+      "title": "Zprávy ze světa",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "6041534774b11",
+      "source_url": "https://prehraj.to/zpravy-ze-sveta-2020-cz-dabing/6041534774b11",
+      "source_title": "Zprávy ze světa (2020) CZ Dabing",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34651037/zpravy-ze-sveta-2020-cz-dabing.mp4",
+      "sdilej_name": "Zprávy ze světa (2020) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T01:18:40Z",
+      "status": "uploaded",
+      "size_bytes": 2315002562,
+      "worker_id": "worker-1-29290293089",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 129.1,
+        "upload_sec": 305.4,
+        "total_sec": 436.0
+      }
     }
   ],
   "failed_attempts": [
@@ -64124,40 +64148,9 @@
         "download_sec": 318.7,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 2923,
-      "cr_slug": "zpravy-ze-sveta",
-      "title": "Zprávy ze světa",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T01:09:20Z",
-      "first_failed_at": "2026-07-14T01:09:20Z",
-      "attempt_count": 1,
-      "upload_id": "6086fb4388739",
-      "source_url": "https://prehraj.to/zpravy-ze-sveta-2020-cz-dabing-1080p-akcni-dobrodruzny-drama-western/6086fb4388739",
-      "upload_title": "Zprávy ze světa 2020 CZ dabing 1080p Akční Dobrodružný Drama Western",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 338.7,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2923,
-      "cr_slug": "zpravy-ze-sveta",
-      "title": "Zprávy ze světa",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T01:11:23Z"
-    },
     {
       "cr_film_id": 2935,
       "cr_slug": "mank",
