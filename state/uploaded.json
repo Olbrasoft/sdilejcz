@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T04:10:28Z",
+  "last_updated": "2026-07-14T04:10:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -68195,6 +68195,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 3283,
+      "cr_slug": "pan-mravencu",
+      "title": "Pán mravenců",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T04:10:55Z",
+      "first_failed_at": "2026-07-14T04:10:55Z",
+      "attempt_count": 1,
+      "upload_id": "65bcdc18c76f3",
+      "source_url": "https://prehraj.to/pan-mravencu-2022-cz-dabing-1080p/65bcdc18c76f3",
+      "upload_title": "Pán mravenců 2022 CZ dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 140.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -68217,16 +68238,6 @@
       "worker_id": "worker-2-29290293089",
       "run_id": "29290293089",
       "reserved_at": "2026-07-14T04:07:31Z"
-    },
-    {
-      "cr_film_id": 3283,
-      "cr_slug": "pan-mravencu",
-      "title": "Pán mravenců",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T04:08:01Z"
     },
     {
       "cr_film_id": 3229,
