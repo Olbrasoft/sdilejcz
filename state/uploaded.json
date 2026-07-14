@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T13:46:26Z",
+  "last_updated": "2026-07-14T13:47:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -80410,6 +80410,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 4216,
+      "cr_slug": "last-christmas",
+      "title": "Last Christmas",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-14T13:47:15Z",
+      "first_failed_at": "2026-07-14T13:47:15Z",
+      "attempt_count": 1,
+      "upload_id": "68d94bb9c15de",
+      "source_url": "https://prehraj.to/last-christmas-2019-hd-1080p-cz-dabing/68d94bb9c15de",
+      "upload_title": "Last Christmas (2019) HD 1080p CZ DABING",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 72.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -80422,16 +80443,6 @@
       "worker_id": "worker-4-29321610623",
       "run_id": "29321610623",
       "reserved_at": "2026-07-14T13:42:12Z"
-    },
-    {
-      "cr_film_id": 4216,
-      "cr_slug": "last-christmas",
-      "title": "Last Christmas",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29321610623",
-      "run_id": "29321610623",
-      "reserved_at": "2026-07-14T13:45:29Z"
     },
     {
       "cr_film_id": 4217,
