@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-14T02:45:47Z",
+  "last_updated": "2026-07-14T02:46:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -62730,6 +62730,30 @@
         "upload_sec": 56.5,
         "total_sec": 80.2
       }
+    },
+    {
+      "cr_film_id": 3134,
+      "cr_slug": "muzi-v-cernem-3",
+      "title": "Muži v černém 3",
+      "year": 2012,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "629b727c7c955",
+      "source_url": "https://prehraj.to/man-in-black-3-cz-dabing-2012-novinky/629b727c7c955",
+      "source_title": "Man in black 3 CZ dabing (2012) NOVINKY",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34651193/muzi-v-cernem-3-2012-cz-dabing.mp4",
+      "sdilej_name": "Muži v černém 3 (2012) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-14T02:46:26Z",
+      "status": "uploaded",
+      "size_bytes": 600970134,
+      "worker_id": "worker-1-29290293089",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 30.6,
+        "upload_sec": 80.3,
+        "total_sec": 112.3
+      }
     }
   ],
   "failed_attempts": [
@@ -66338,40 +66362,9 @@
       "timing": {
         "resolve_sec": 4.2
       }
-    },
-    {
-      "cr_film_id": 3134,
-      "cr_slug": "muzi-v-cernem-3",
-      "title": "Muži v černém 3",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-14T02:44:22Z",
-      "first_failed_at": "2026-07-14T02:44:22Z",
-      "attempt_count": 1,
-      "upload_id": "67996e687d416",
-      "source_url": "https://prehraj.to/muzi-v-cernem-3-2012-cz-dab-1080p/67996e687d416",
-      "upload_title": "Muži v černém 3 2012 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 123.8,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 3134,
-      "cr_slug": "muzi-v-cernem-3",
-      "title": "Muži v černém 3",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29290293089",
-      "run_id": "29290293089",
-      "reserved_at": "2026-07-14T02:44:32Z"
-    },
     {
       "cr_film_id": 3140,
       "cr_slug": "pokoj-1408",
