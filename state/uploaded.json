@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T03:11:01Z",
+  "last_updated": "2026-07-15T03:12:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -92121,6 +92121,27 @@
         "download_sec": 97.2,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 5095,
+      "cr_slug": "pokemon-film-volim-si-tebe",
+      "title": "Pokémon film: Volím si tebe!",
+      "year": 2017,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T03:12:15Z",
+      "first_failed_at": "2026-07-15T03:12:15Z",
+      "attempt_count": 1,
+      "upload_id": "5d5adc8f3bf6a",
+      "source_url": "https://prehraj.to/pokemon-the-movie-i-choose-you-2017-cz-dabing/5d5adc8f3bf6a",
+      "upload_title": "Pokemon the Movie I Choose You 2017 CZ dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 41.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -92153,16 +92174,6 @@
       "worker_id": "worker-4-29382910705",
       "run_id": "29382910705",
       "reserved_at": "2026-07-15T03:10:50Z"
-    },
-    {
-      "cr_film_id": 5095,
-      "cr_slug": "pokemon-film-volim-si-tebe",
-      "title": "Pokémon film: Volím si tebe!",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T03:11:01Z"
     }
   ]
 }
