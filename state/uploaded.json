@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T07:21:44Z",
+  "last_updated": "2026-07-15T07:21:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -91458,6 +91458,30 @@
         "upload_sec": 224.8,
         "total_sec": 326.0
       }
+    },
+    {
+      "cr_film_id": 5416,
+      "cr_slug": "flora-ulysses",
+      "title": "Flora a Odysseus",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "62585236a3dfc",
+      "source_url": "https://prehraj.to/flora-a-odysseus-2021-czdab/62585236a3dfc",
+      "source_title": "Flora a Odysseus (2021) CZdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34660184/flora-a-odysseus-2021-cz-dabing.mp4",
+      "sdilej_name": "Flora a Odysseus (2021) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T07:21:58Z",
+      "status": "uploaded",
+      "size_bytes": 3275286470,
+      "worker_id": "worker-1-29382910705",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 172.7,
+        "upload_sec": 422.4,
+        "total_sec": 597.1
+      }
     }
   ],
   "failed_attempts": [
@@ -96792,27 +96816,6 @@
       }
     },
     {
-      "cr_film_id": 5416,
-      "cr_slug": "flora-ulysses",
-      "title": "Flora a Odysseus",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T06:37:24Z",
-      "first_failed_at": "2026-07-15T06:37:24Z",
-      "attempt_count": 1,
-      "upload_id": "62585236a3dfc",
-      "source_url": "https://prehraj.to/flora-a-odysseus-2021-czdab/62585236a3dfc",
-      "upload_title": "Flora a Odysseus (2021) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 175.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5426,
       "cr_slug": "chyt-svuj-osud",
       "title": "Chyť svůj osud",
@@ -96877,16 +96880,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5416,
-      "cr_slug": "flora-ulysses",
-      "title": "Flora a Odysseus",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T07:12:00Z"
-    },
     {
       "cr_film_id": 5426,
       "cr_slug": "chyt-svuj-osud",
