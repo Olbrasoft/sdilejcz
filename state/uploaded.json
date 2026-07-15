@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T07:10:09Z",
+  "last_updated": "2026-07-15T07:11:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -96712,6 +96712,27 @@
         "download_sec": 111.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 5469,
+      "cr_slug": "pod-bodem-mrazu",
+      "title": "Pod bodem mrazu",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T07:11:18Z",
+      "first_failed_at": "2026-07-15T07:11:18Z",
+      "attempt_count": 1,
+      "upload_id": "65de44e994aeb",
+      "source_url": "https://prehraj.to/pod-bodem-mrazu-2021-cz-dab/65de44e994aeb",
+      "upload_title": "Pod bodem mrazu 2021 CZ dab°",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 35.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -96744,16 +96765,6 @@
       "worker_id": "worker-4-29382910705",
       "run_id": "29382910705",
       "reserved_at": "2026-07-15T07:07:14Z"
-    },
-    {
-      "cr_film_id": 5469,
-      "cr_slug": "pod-bodem-mrazu",
-      "title": "Pod bodem mrazu",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T07:10:09Z"
     }
   ]
 }
