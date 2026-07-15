@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T07:50:17Z",
+  "last_updated": "2026-07-15T07:51:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -92010,6 +92010,30 @@
         "upload_sec": 151.4,
         "total_sec": 206.2
       }
+    },
+    {
+      "cr_film_id": 5503,
+      "cr_slug": "operace-kolibrik",
+      "title": "Operace kolibřík",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "60efddff5b0ce",
+      "source_url": "https://prehraj.to/operace-kolibrik-the-hummingbird-project-2018/60efddff5b0ce",
+      "source_title": "Operace kolibřík (The Hummingbird Project, 2018)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34660246/operace-kolibrik-2018-cz.mp4",
+      "sdilej_name": "Operace kolibřík (2018) CZ.mp4",
+      "uploaded_at": "2026-07-15T07:51:35Z",
+      "status": "uploaded",
+      "size_bytes": 515742022,
+      "worker_id": "worker-2-29396806861",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 21.3,
+        "upload_sec": 54.0,
+        "total_sec": 76.4
+      }
     }
   ],
   "failed_attempts": [
@@ -97363,27 +97387,6 @@
         "download_sec": 102.0,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 5503,
-      "cr_slug": "operace-kolibrik",
-      "title": "Operace kolibřík",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T07:50:07Z",
-      "first_failed_at": "2026-07-15T07:50:07Z",
-      "attempt_count": 1,
-      "upload_id": "60eea97d00c51",
-      "source_url": "https://prehraj.to/operace-kolibrik-the-hummingbird-project-2018/60eea97d00c51",
-      "upload_title": "Operace kolibřík (The Hummingbird Project, 2018)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 21.8,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -97416,16 +97419,6 @@
       "worker_id": "worker-1-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T07:50:08Z"
-    },
-    {
-      "cr_film_id": 5503,
-      "cr_slug": "operace-kolibrik",
-      "title": "Operace kolibřík",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T07:50:17Z"
     }
   ]
 }
