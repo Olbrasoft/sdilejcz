@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T03:41:24Z",
+  "last_updated": "2026-07-15T03:42:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -87570,6 +87570,30 @@
         "upload_sec": 131.3,
         "total_sec": 192.3
       }
+    },
+    {
+      "cr_film_id": 5117,
+      "cr_slug": "vriskot-2",
+      "title": "Vřískot 2",
+      "year": 1997,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "69015f68d575d",
+      "source_url": "https://prehraj.to/vriskot-2-1997-fhd-1080p-cz-1390/69015f68d575d",
+      "source_title": "Vřískot 2 (1997) FHD 1080p CZ [1390]",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34659804/vriskot-2-1997-cz-dabing.mp4",
+      "sdilej_name": "Vřískot 2 (1997) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T03:42:28Z",
+      "status": "uploaded",
+      "size_bytes": 1983348282,
+      "worker_id": "worker-4-29382910705",
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 85.2,
+        "upload_sec": 258.3,
+        "total_sec": 345.3
+      }
     }
   ],
   "failed_attempts": [
@@ -92657,48 +92681,6 @@
       }
     },
     {
-      "cr_film_id": 5117,
-      "cr_slug": "vriskot-2",
-      "title": "Vřískot 2",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T03:29:17Z",
-      "first_failed_at": "2026-07-15T03:29:17Z",
-      "attempt_count": 1,
-      "upload_id": "347cbf22b57b96bb",
-      "source_url": "https://prehraj.to/vriskot-2-scream-2-1997-horor-mysteriozni-czdab-mp4/347cbf22b57b96bb",
-      "upload_title": "Vřískot 2 - Scream 2 (1997) horor mysteriózní czdab.mp4",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 86.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 5117,
-      "cr_slug": "vriskot-2",
-      "title": "Vřískot 2",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T03:36:23Z",
-      "first_failed_at": "2026-07-15T03:36:23Z",
-      "attempt_count": 1,
-      "upload_id": "6902dea6c2b3b",
-      "source_url": "https://prehraj.to/vriskot-2-1997-fhd-1080p-cz-1390/6902dea6c2b3b",
-      "upload_title": "Vřískot 2 (1997) FHD 1080p CZ [1390]",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.6,
-        "download_sec": 86.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5134,
       "cr_slug": "tomb-raider",
       "title": "Tomb Raider",
@@ -92719,16 +92701,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5117,
-      "cr_slug": "vriskot-2",
-      "title": "Vřískot 2",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T03:36:41Z"
-    },
     {
       "cr_film_id": 5134,
       "cr_slug": "tomb-raider",
