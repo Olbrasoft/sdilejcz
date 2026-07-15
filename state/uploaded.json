@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T03:16:41Z",
+  "last_updated": "2026-07-15T03:17:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -87066,6 +87066,30 @@
         "upload_sec": 172.5,
         "total_sec": 243.6
       }
+    },
+    {
+      "cr_film_id": 5086,
+      "cr_slug": "bez-veci-nad-veci",
+      "title": "Bez věcí nad věcí",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "60d42c329bec2",
+      "source_url": "https://prehraj.to/bez-veci-nad-veci-2018-1080-p-cz-dabing/60d42c329bec2",
+      "source_title": "Bez veci nad veci (2018) 1080 p CZ DABING",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34659758/bez-veci-nad-veci-2018-cz-dabing.mp4",
+      "sdilej_name": "Bez věcí nad věcí (2018) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T03:17:30Z",
+      "status": "uploaded",
+      "size_bytes": 2322361700,
+      "worker_id": "worker-4-29382910705",
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 97.0,
+        "upload_sec": 299.8,
+        "total_sec": 398.6
+      }
     }
   ],
   "failed_attempts": [
@@ -92151,40 +92175,9 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 5086,
-      "cr_slug": "bez-veci-nad-veci",
-      "title": "Bez věcí nad věcí",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T03:05:09Z",
-      "first_failed_at": "2026-07-15T03:05:09Z",
-      "attempt_count": 1,
-      "upload_id": "5deb3a6811263",
-      "source_url": "https://prehraj.to/bez-veci-nad-veci-komedie-cz-dab-2018-jad/5deb3a6811263",
-      "upload_title": "Bez věcí nad věcí-komedie-cz dab.-2018-jad",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 97.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5086,
-      "cr_slug": "bez-veci-nad-veci",
-      "title": "Bez věcí nad věcí",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T03:10:50Z"
-    },
     {
       "cr_film_id": 5096,
       "cr_slug": "zlom",
