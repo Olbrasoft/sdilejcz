@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T00:37:34Z",
+  "last_updated": "2026-07-15T00:39:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -89459,6 +89459,27 @@
       "timing": {
         "resolve_sec": 4.1
       }
+    },
+    {
+      "cr_film_id": 4908,
+      "cr_slug": "pedro-paramo",
+      "title": "Pedro Páramo",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T00:39:10Z",
+      "first_failed_at": "2026-07-15T00:39:10Z",
+      "attempt_count": 1,
+      "upload_id": "672c16d9d8875",
+      "source_url": "https://prehraj.to/pedro-paramo-2024-cz-dabing-1080p/672c16d9d8875",
+      "upload_title": "Pedro Páramo (2024) CZ Dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 62.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -89521,16 +89542,6 @@
       "worker_id": "worker-3-29367318232",
       "run_id": "29367318232",
       "reserved_at": "2026-07-15T00:36:03Z"
-    },
-    {
-      "cr_film_id": 4908,
-      "cr_slug": "pedro-paramo",
-      "title": "Pedro Páramo",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29367318232",
-      "run_id": "29367318232",
-      "reserved_at": "2026-07-15T00:37:34Z"
     }
   ]
 }
