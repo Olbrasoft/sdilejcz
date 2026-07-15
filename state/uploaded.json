@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T08:50:55Z",
+  "last_updated": "2026-07-15T08:51:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -99122,19 +99122,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5666,
       "cr_slug": "temne-stiny",
       "title": "Temné stíny",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T08:44:43Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T08:51:34Z",
+      "first_failed_at": "2026-07-15T08:51:34Z",
+      "attempt_count": 1,
+      "upload_id": "674916e398299",
+      "source_url": "https://prehraj.to/temne-stiny-johnny-depp-michelle-pfeiffer-2012-komedie-horor-fantasy-cz-dabing/674916e398299",
+      "upload_title": "Temné stíny (Johnny Depp, Michelle Pfeiffer 2012 Komedie Horor Fantasy) Cz dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 375.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5673,
       "cr_slug": "modra-jako-safir",
