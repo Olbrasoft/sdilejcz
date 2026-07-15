@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T07:46:48Z",
+  "last_updated": "2026-07-15T07:48:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -97246,6 +97246,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 5500,
+      "cr_slug": "vanoce-v-divocine",
+      "title": "Vánoce v divočině",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T07:48:28Z",
+      "first_failed_at": "2026-07-15T07:48:28Z",
+      "attempt_count": 1,
+      "upload_id": "5dc504ccbc56c",
+      "source_url": "https://prehraj.to/vanoce-v-divocine-christmas-in-the-wild-2019-cz-dabing-web-1080p-5-1/5dc504ccbc56c",
+      "upload_title": "Vánoce v divočině ( Christmas in the Wild 2019 ) CZ dabing ,.WEB,1080p,5.1,",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 102.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -97268,16 +97289,6 @@
       "worker_id": "worker-3-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T07:44:28Z"
-    },
-    {
-      "cr_film_id": 5500,
-      "cr_slug": "vanoce-v-divocine",
-      "title": "Vánoce v divočině",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T07:46:13Z"
     },
     {
       "cr_film_id": 5501,
