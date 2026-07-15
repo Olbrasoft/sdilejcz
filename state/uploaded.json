@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T07:58:40Z",
+  "last_updated": "2026-07-15T07:59:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -92178,6 +92178,30 @@
         "upload_sec": 207.4,
         "total_sec": 270.4
       }
+    },
+    {
+      "cr_film_id": 5504,
+      "cr_slug": "dumbo",
+      "title": "Dumbo",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "6069dda54a4e4",
+      "source_url": "https://prehraj.to/dumbo-cz-dabing-2019-avi/6069dda54a4e4",
+      "source_title": "Dumbo CZ Dabing 2019.avi",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34660265/dumbo-2019-cz-dabing.mp4",
+      "sdilej_name": "Dumbo (2019) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T07:59:00Z",
+      "status": "uploaded",
+      "size_bytes": 697973837,
+      "worker_id": "worker-2-29396806861",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 27.5,
+        "upload_sec": 72.5,
+        "total_sec": 101.3
+      }
     }
   ],
   "failed_attempts": [
@@ -97529,27 +97553,6 @@
       "timing": {
         "resolve_sec": 0.5
       }
-    },
-    {
-      "cr_film_id": 5504,
-      "cr_slug": "dumbo",
-      "title": "Dumbo",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T07:56:33Z",
-      "first_failed_at": "2026-07-15T07:56:33Z",
-      "attempt_count": 1,
-      "upload_id": "607ecddc5fe35",
-      "source_url": "https://prehraj.to/dumbo-2019-cz-dabing/607ecddc5fe35",
-      "upload_title": "Dumbo (2019) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 357.0,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -97562,16 +97565,6 @@
       "worker_id": "worker-4-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T07:56:36Z"
-    },
-    {
-      "cr_film_id": 5504,
-      "cr_slug": "dumbo",
-      "title": "Dumbo",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T07:57:17Z"
     },
     {
       "cr_film_id": 5522,
