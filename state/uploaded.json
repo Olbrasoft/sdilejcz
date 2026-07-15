@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T09:55:44Z",
+  "last_updated": "2026-07-15T09:58:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -95226,6 +95226,30 @@
         "upload_sec": 121.5,
         "total_sec": 159.5
       }
+    },
+    {
+      "cr_film_id": 5795,
+      "cr_slug": "jsem-v-poradku",
+      "title": "Jsem v pořádku?",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "98db4e476499783f",
+      "source_url": "https://prehraj.to/jsem-v-poradku-2022-cz-dab-1080p-mp4/98db4e476499783f",
+      "source_title": "Jsem v pořádku 2022 CZ dab 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34660685/jsem-v-poradku-2022-cz-dabing.mp4",
+      "sdilej_name": "Jsem v pořádku? (2022) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T09:58:06Z",
+      "status": "uploaded",
+      "size_bytes": 1036877540,
+      "worker_id": "worker-2-29396806861",
+      "timing": {
+        "resolve_sec": 1.9,
+        "download_sec": 32.4,
+        "upload_sec": 106.8,
+        "total_sec": 141.3
+      }
     }
   ],
   "failed_attempts": [
@@ -100969,27 +100993,6 @@
       }
     },
     {
-      "cr_film_id": 5795,
-      "cr_slug": "jsem-v-poradku",
-      "title": "Jsem v pořádku?",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T09:55:08Z",
-      "first_failed_at": "2026-07-15T09:55:08Z",
-      "attempt_count": 1,
-      "upload_id": "3af6e6239cf7116c",
-      "source_url": "https://prehraj.to/jsem-v-poradku-2022-cz-dab-1080p-mp4/3af6e6239cf7116c",
-      "upload_title": "Jsem v pořádku 2022 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 37.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5739,
       "cr_slug": "cerny-telefon-2",
       "title": "Černý telefon 2",
@@ -101041,16 +101044,6 @@
       "worker_id": "worker-4-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T09:55:10Z"
-    },
-    {
-      "cr_film_id": 5795,
-      "cr_slug": "jsem-v-poradku",
-      "title": "Jsem v pořádku?",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T09:55:44Z"
     }
   ]
 }
