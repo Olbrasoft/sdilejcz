@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T05:14:04Z",
+  "last_updated": "2026-07-15T05:16:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -94772,6 +94772,27 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 5307,
+      "cr_slug": "cas-na-hrdinstvi",
+      "title": "Čas na hrdinství",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T05:16:23Z",
+      "first_failed_at": "2026-07-15T05:16:23Z",
+      "attempt_count": 1,
+      "upload_id": "6dc39abe63e9516b",
+      "source_url": "https://prehraj.to/cas-na-hrdinstvi-2025-cz-dabing-1080p-mkv/6dc39abe63e9516b",
+      "upload_title": "Čas na hrdinství (2025) CZ Dabing 1080p.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 106.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -94804,16 +94825,6 @@
       "worker_id": "worker-2-29382910705",
       "run_id": "29382910705",
       "reserved_at": "2026-07-15T05:13:48Z"
-    },
-    {
-      "cr_film_id": 5307,
-      "cr_slug": "cas-na-hrdinstvi",
-      "title": "Čas na hrdinství",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T05:14:04Z"
     }
   ]
 }
