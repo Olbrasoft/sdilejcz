@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T05:56:14Z",
+  "last_updated": "2026-07-15T05:56:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -90042,6 +90042,30 @@
         "upload_sec": 254.7,
         "total_sec": 678.5
       }
+    },
+    {
+      "cr_film_id": 5307,
+      "cr_slug": "cas-na-hrdinstvi",
+      "title": "Čas na hrdinství",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "6dc39abe63e9516b",
+      "source_url": "https://prehraj.to/cas-na-hrdinstvi-2025-cz-dabing-1080p-mkv/6dc39abe63e9516b",
+      "source_title": "Čas na hrdinství (2025) CZ Dabing 1080p.mkv",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34660036/cas-na-hrdinstvi-2025-cz-dabing.mp4",
+      "sdilej_name": "Čas na hrdinství (2025) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T05:56:41Z",
+      "status": "uploaded",
+      "size_bytes": 2411194852,
+      "worker_id": "worker-3-29382910705",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 95.4,
+        "upload_sec": 296.8,
+        "total_sec": 394.0
+      }
     }
   ],
   "failed_attempts": [
@@ -95262,27 +95286,6 @@
       }
     },
     {
-      "cr_film_id": 5307,
-      "cr_slug": "cas-na-hrdinstvi",
-      "title": "Čas na hrdinství",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T05:16:23Z",
-      "first_failed_at": "2026-07-15T05:16:23Z",
-      "attempt_count": 1,
-      "upload_id": "6dc39abe63e9516b",
-      "source_url": "https://prehraj.to/cas-na-hrdinstvi-2025-cz-dabing-1080p-mkv/6dc39abe63e9516b",
-      "upload_title": "Čas na hrdinství (2025) CZ Dabing 1080p.mkv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 106.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5321,
       "cr_slug": "dokonala-shoda",
       "title": "Dokonalá shoda",
@@ -95444,16 +95447,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5307,
-      "cr_slug": "cas-na-hrdinstvi",
-      "title": "Čas na hrdinství",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T05:50:06Z"
-    },
     {
       "cr_film_id": 5345,
       "cr_slug": "oblezeny",
