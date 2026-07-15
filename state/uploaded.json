@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T09:53:58Z",
+  "last_updated": "2026-07-15T09:54:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -95178,6 +95178,30 @@
         "upload_sec": 315.0,
         "total_sec": 426.0
       }
+    },
+    {
+      "cr_film_id": 5744,
+      "cr_slug": "dead-of-winter",
+      "title": "Dead of Winter",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "154a314543c1d069",
+      "source_url": "https://prehraj.to/dead-of-winter-2025-cz-smrtici-dech-zimy/154a314543c1d069",
+      "source_title": "Dead.Of.Winter.2025 CZ Smrtící dech zimy",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34660674/dead-of-winter-2025-cz.mp4",
+      "sdilej_name": "Dead of Winter (2025) CZ.mp4",
+      "uploaded_at": "2026-07-15T09:54:27Z",
+      "status": "uploaded",
+      "size_bytes": 936285786,
+      "worker_id": "worker-3-29396806861",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 37.0,
+        "upload_sec": 108.2,
+        "total_sec": 146.5
+      }
     }
   ],
   "failed_attempts": [
@@ -100702,27 +100726,6 @@
       }
     },
     {
-      "cr_film_id": 5744,
-      "cr_slug": "dead-of-winter",
-      "title": "Dead of Winter",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T09:21:57Z",
-      "first_failed_at": "2026-07-15T09:21:57Z",
-      "attempt_count": 1,
-      "upload_id": "154a314543c1d069",
-      "source_url": "https://prehraj.to/dead-of-winter-2025-cz-smrtici-dech-zimy/154a314543c1d069",
-      "upload_title": "Dead.Of.Winter.2025 CZ Smrtící dech zimy",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 29.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5739,
       "cr_slug": "cerny-telefon-2",
       "title": "Černý telefon 2",
@@ -100945,16 +100948,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5744,
-      "cr_slug": "dead-of-winter",
-      "title": "Dead of Winter",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T09:51:59Z"
-    },
     {
       "cr_film_id": 5794,
       "cr_slug": "lisa-frankenstein",
