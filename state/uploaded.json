@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T06:34:20Z",
+  "last_updated": "2026-07-15T06:36:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -96070,6 +96070,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 5417,
+      "cr_slug": "fantasticka-zvirata-brumbalova-tajemstvi",
+      "title": "Fantastická zvířata: Brumbálova tajemství",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T06:36:18Z",
+      "first_failed_at": "2026-07-15T06:36:18Z",
+      "attempt_count": 1,
+      "upload_id": "682a95591d99e",
+      "source_url": "https://prehraj.to/fantasticka-zvirata-brumbalova-tajemstvi-fantastic-beasts-the-secrets-of-dumbledore-2022-fullhd-1080p-cz-dabing/682a95591d99e",
+      "upload_title": "Fantastická zvířata Brumbálova tajemství - Fantastic Beasts The Secrets of Dumbledore (2022)(FullHD 1080p)(CZ Dabing)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 85.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -96102,16 +96123,6 @@
       "worker_id": "worker-2-29382910705",
       "run_id": "29382910705",
       "reserved_at": "2026-07-15T06:33:55Z"
-    },
-    {
-      "cr_film_id": 5417,
-      "cr_slug": "fantasticka-zvirata-brumbalova-tajemstvi",
-      "title": "Fantastická zvířata: Brumbálova tajemství",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T06:34:20Z"
     }
   ]
 }
