@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T09:08:15Z",
+  "last_updated": "2026-07-15T09:10:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -99698,19 +99698,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5719,
       "cr_slug": "kracejici-skala",
       "title": "Kráčející skála",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T09:06:33Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T09:10:41Z",
+      "first_failed_at": "2026-07-15T09:10:41Z",
+      "attempt_count": 1,
+      "upload_id": "67bfe99e8e782",
+      "source_url": "https://prehraj.to/kracejici-skala-2004-cz-dabing-fullhd-1080p/67bfe99e8e782",
+      "upload_title": "Kráčející skála 2004 CZ Dabing FullHD 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 215.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5720,
       "cr_slug": "nelitostny-parker",
