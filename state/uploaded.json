@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T10:03:50Z",
+  "last_updated": "2026-07-15T10:05:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -95370,6 +95370,30 @@
         "upload_sec": 259.0,
         "total_sec": 338.4
       }
+    },
+    {
+      "cr_film_id": 5755,
+      "cr_slug": "zabity-vecer",
+      "title": "Zabitý večer",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "68452f2463be4",
+      "source_url": "https://prehraj.to/drop-2025-cz-dabing-1080p/68452f2463be4",
+      "source_title": "Drop (2025) CZ Dabing 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34660713/zabity-vecer-2025-cz-dabing.mp4",
+      "sdilej_name": "Zabitý večer (2025) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T10:05:18Z",
+      "status": "uploaded",
+      "size_bytes": 1511451165,
+      "worker_id": "worker-1-29396806861",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 45.5,
+        "upload_sec": 149.3,
+        "total_sec": 196.0
+      }
     }
   ],
   "failed_attempts": [
@@ -100974,65 +100998,6 @@
       }
     },
     {
-      "cr_film_id": 5755,
-      "cr_slug": "zabity-vecer",
-      "title": "Zabitý večer",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T09:31:07Z",
-      "first_failed_at": "2026-07-15T09:31:07Z",
-      "attempt_count": 1,
-      "upload_id": "68452f2463be4",
-      "source_url": "https://prehraj.to/drop-2025-cz-dabing-1080p/68452f2463be4",
-      "upload_title": "Drop (2025) CZ Dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 52.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 5755,
-      "cr_slug": "zabity-vecer",
-      "title": "Zabitý večer",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/zabity-vecer-2025-cz-dab/e2cd70793af1e560",
-      "failed_at": "2026-07-15T09:33:10Z",
-      "first_failed_at": "2026-07-15T09:33:10Z",
-      "attempt_count": 1,
-      "upload_id": "e2cd70793af1e560",
-      "source_url": "https://prehraj.to/zabity-vecer-2025-cz-dab/e2cd70793af1e560",
-      "upload_title": "Zabity vecer 2025 cz dab",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
-    },
-    {
-      "cr_film_id": 5755,
-      "cr_slug": "zabity-vecer",
-      "title": "Zabitý večer",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/drop-zabity-vecer-2025-czdub/7a7e07d1e9916dc0",
-      "failed_at": "2026-07-15T09:33:18Z",
-      "first_failed_at": "2026-07-15T09:33:18Z",
-      "attempt_count": 1,
-      "upload_id": "7a7e07d1e9916dc0",
-      "source_url": "https://prehraj.to/drop-zabity-vecer-2025-czdub/7a7e07d1e9916dc0",
-      "upload_title": "Zabitý večer (2025) CZ dab -Drop",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 4.1
-      }
-    },
-    {
       "cr_film_id": 5766,
       "cr_slug": "zlatokop",
       "title": "Zlatokop",
@@ -101205,16 +101170,6 @@
       "worker_id": "worker-3-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T09:59:30Z"
-    },
-    {
-      "cr_film_id": 5755,
-      "cr_slug": "zabity-vecer",
-      "title": "Zabitý večer",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T10:02:01Z"
     },
     {
       "cr_film_id": 5812,
