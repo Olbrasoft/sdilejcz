@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T13:14:33Z",
+  "last_updated": "2026-07-15T13:14:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -105436,19 +105436,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 6161,
       "cr_slug": "la-dolce-villa",
       "title": "La Dolce Villa",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-29416448209",
-      "run_id": "29416448209",
-      "reserved_at": "2026-07-15T13:12:20Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T13:14:54Z",
+      "first_failed_at": "2026-07-15T13:14:54Z",
+      "attempt_count": 1,
+      "upload_id": "67ade60ab9ffc",
+      "source_url": "https://prehraj.to/la-dolce-villa-2025-cz-dabing-1080p/67ade60ab9ffc",
+      "upload_title": "La Dolce Villa 2025 CZ dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 120.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 6164,
       "cr_slug": "tanec-lasky",
