@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T09:37:15Z",
+  "last_updated": "2026-07-15T09:37:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -100569,6 +100569,27 @@
       "timing": {
         "resolve_sec": 4.1
       }
+    },
+    {
+      "cr_film_id": 5766,
+      "cr_slug": "zlatokop",
+      "title": "Zlatokop",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T09:37:51Z",
+      "first_failed_at": "2026-07-15T09:37:51Z",
+      "attempt_count": 1,
+      "upload_id": "6796626b9fe05",
+      "source_url": "https://prehraj.to/zlatokop-komedie-romanticky-2025-cz-dab/6796626b9fe05",
+      "upload_title": "Zlatokop - komedie,romanticky - 2025 - cz dab.",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 76.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -100581,16 +100602,6 @@
       "worker_id": "worker-1-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T09:35:20Z"
-    },
-    {
-      "cr_film_id": 5766,
-      "cr_slug": "zlatokop",
-      "title": "Zlatokop",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T09:36:02Z"
     },
     {
       "cr_film_id": 5771,
