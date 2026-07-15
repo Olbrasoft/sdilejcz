@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T10:55:50Z",
+  "last_updated": "2026-07-15T10:57:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -102143,6 +102143,27 @@
         "download_sec": 156.1,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 5901,
+      "cr_slug": "golman",
+      "title": "Gólman",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T10:57:18Z",
+      "first_failed_at": "2026-07-15T10:57:18Z",
+      "attempt_count": 1,
+      "upload_id": "6128a7054ad13",
+      "source_url": "https://prehraj.to/golman-2019-cz-dabing/6128a7054ad13",
+      "upload_title": "Gólman 2019 CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 54.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -102175,16 +102196,6 @@
       "worker_id": "worker-3-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T10:55:35Z"
-    },
-    {
-      "cr_film_id": 5901,
-      "cr_slug": "golman",
-      "title": "Gólman",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T10:55:50Z"
     }
   ]
 }
