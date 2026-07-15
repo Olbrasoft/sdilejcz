@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T14:49:58Z",
+  "last_updated": "2026-07-15T14:50:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -107407,19 +107407,30 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 6293,
       "cr_slug": "godzilla-ii-kral-monster",
       "title": "Godzilla II Král monster",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-1-29416448209",
-      "run_id": "29416448209",
-      "reserved_at": "2026-07-15T14:47:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T14:50:24Z",
+      "first_failed_at": "2026-07-15T14:50:24Z",
+      "attempt_count": 1,
+      "upload_id": "6644c52d07d11",
+      "source_url": "https://prehraj.to/godzilla-ii-kral-monster-2019-cz-dabing-1080p/6644c52d07d11",
+      "upload_title": "Godzilla II Kral monster 2019 CZ dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 125.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 6294,
       "cr_slug": "manzel-na-zkousku",
