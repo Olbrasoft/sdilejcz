@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T09:30:09Z",
+  "last_updated": "2026-07-15T09:31:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -100342,6 +100342,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 5755,
+      "cr_slug": "zabity-vecer",
+      "title": "Zabitý večer",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T09:31:07Z",
+      "first_failed_at": "2026-07-15T09:31:07Z",
+      "attempt_count": 1,
+      "upload_id": "68452f2463be4",
+      "source_url": "https://prehraj.to/drop-2025-cz-dabing-1080p/68452f2463be4",
+      "upload_title": "Drop (2025) CZ Dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 52.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -100364,16 +100385,6 @@
       "worker_id": "worker-2-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T09:26:37Z"
-    },
-    {
-      "cr_film_id": 5755,
-      "cr_slug": "zabity-vecer",
-      "title": "Zabitý večer",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T09:29:41Z"
     },
     {
       "cr_film_id": 5759,
