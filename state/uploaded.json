@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T07:56:12Z",
+  "last_updated": "2026-07-15T07:56:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -97457,19 +97457,30 @@
       "timing": {
         "resolve_sec": 0.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5504,
       "cr_slug": "dumbo",
       "title": "Dumbo",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T07:50:03Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T07:56:33Z",
+      "first_failed_at": "2026-07-15T07:56:33Z",
+      "attempt_count": 1,
+      "upload_id": "607ecddc5fe35",
+      "source_url": "https://prehraj.to/dumbo-2019-cz-dabing/607ecddc5fe35",
+      "upload_title": "Dumbo (2019) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 357.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5508,
       "cr_slug": "zahulime-uvidime-3",
