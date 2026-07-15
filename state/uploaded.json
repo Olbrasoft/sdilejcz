@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T13:32:51Z",
+  "last_updated": "2026-07-15T13:32:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -105743,6 +105743,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 6187,
+      "cr_slug": "erik-kamenne-srdce",
+      "title": "Erik Kamenné srdce",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T13:32:54Z",
+      "first_failed_at": "2026-07-15T13:32:54Z",
+      "attempt_count": 1,
+      "upload_id": "9e5b95dbf463f580",
+      "source_url": "https://prehraj.to/erik-kamenne-srdce-2022-cz-dab-1080p/9e5b95dbf463f580",
+      "upload_title": "Erik Kamenné srdce 2022 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 123.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -105765,16 +105786,6 @@
       "worker_id": "worker-3-29416448209",
       "run_id": "29416448209",
       "reserved_at": "2026-07-15T13:28:04Z"
-    },
-    {
-      "cr_film_id": 6187,
-      "cr_slug": "erik-kamenne-srdce",
-      "title": "Erik Kamenné srdce",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29416448209",
-      "run_id": "29416448209",
-      "reserved_at": "2026-07-15T13:30:18Z"
     },
     {
       "cr_film_id": 6188,
