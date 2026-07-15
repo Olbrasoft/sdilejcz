@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T11:15:46Z",
+  "last_updated": "2026-07-15T11:16:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -96786,6 +96786,30 @@
         "upload_sec": 224.2,
         "total_sec": 290.7
       }
+    },
+    {
+      "cr_film_id": 5864,
+      "cr_slug": "vanocni-tanec",
+      "title": "Vánoční tanec",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "63713b56b5d9e",
+      "source_url": "https://prehraj.to/vanocni-tanec-2022-czdab/63713b56b5d9e",
+      "source_title": "Vánoční tanec (2022) CZdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34661043/vanocni-tanec-2021-cz-dabing.mp4",
+      "sdilej_name": "Vánoční tanec (2021) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T11:16:14Z",
+      "status": "uploaded",
+      "size_bytes": 2164443847,
+      "worker_id": "worker-3-29396806861",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 96.2,
+        "upload_sec": 257.1,
+        "total_sec": 354.8
+      }
     }
   ],
   "failed_attempts": [
@@ -102424,27 +102448,6 @@
       }
     },
     {
-      "cr_film_id": 5864,
-      "cr_slug": "vanocni-tanec",
-      "title": "Vánoční tanec",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T10:38:18Z",
-      "first_failed_at": "2026-07-15T10:38:18Z",
-      "attempt_count": 1,
-      "upload_id": "63713b56b5d9e",
-      "source_url": "https://prehraj.to/vanocni-tanec-2022-czdab/63713b56b5d9e",
-      "upload_title": "Vánoční tanec (2022) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 76.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5881,
       "cr_slug": "godmothered",
       "title": "Moje dobrá víla",
@@ -102467,16 +102470,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5864,
-      "cr_slug": "vanocni-tanec",
-      "title": "Vánoční tanec",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T11:10:18Z"
-    },
     {
       "cr_film_id": 5928,
       "cr_slug": "princezna-z-cukrarny",
