@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T00:39:19Z",
+  "last_updated": "2026-07-15T00:42:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -84474,6 +84474,30 @@
         "upload_sec": 210.3,
         "total_sec": 281.8
       }
+    },
+    {
+      "cr_film_id": 4908,
+      "cr_slug": "pedro-paramo",
+      "title": "Pedro Páramo",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "672c1861b7f2f",
+      "source_url": "https://prehraj.to/pedro-paramo-2024-cz-dabing-1080p-mp4/672c1861b7f2f",
+      "source_title": "Pedro Páramo (2024) CZ Dabing 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34659513/pedro-paramo-2024-cz-dabing.mp4",
+      "sdilej_name": "Pedro Páramo (2024) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T00:42:08Z",
+      "status": "uploaded",
+      "size_bytes": 1111420196,
+      "worker_id": "worker-4-29367318232",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 47.0,
+        "upload_sec": 120.4,
+        "total_sec": 168.8
+      }
     }
   ],
   "failed_attempts": [
@@ -89466,27 +89490,6 @@
       }
     },
     {
-      "cr_film_id": 4908,
-      "cr_slug": "pedro-paramo",
-      "title": "Pedro Páramo",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T00:39:10Z",
-      "first_failed_at": "2026-07-15T00:39:10Z",
-      "attempt_count": 1,
-      "upload_id": "672c16d9d8875",
-      "source_url": "https://prehraj.to/pedro-paramo-2024-cz-dabing-1080p/672c16d9d8875",
-      "upload_title": "Pedro Páramo (2024) CZ Dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 62.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 4910,
       "cr_slug": "nami-to-konci",
       "title": "Námi to končí",
@@ -89566,16 +89569,6 @@
       "worker_id": "worker-1-29367318232",
       "run_id": "29367318232",
       "reserved_at": "2026-07-15T00:39:12Z"
-    },
-    {
-      "cr_film_id": 4908,
-      "cr_slug": "pedro-paramo",
-      "title": "Pedro Páramo",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29367318232",
-      "run_id": "29367318232",
-      "reserved_at": "2026-07-15T00:39:19Z"
     }
   ]
 }
