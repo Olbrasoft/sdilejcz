@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T09:20:55Z",
+  "last_updated": "2026-07-15T09:21:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -100124,6 +100124,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 5744,
+      "cr_slug": "dead-of-winter",
+      "title": "Dead of Winter",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T09:21:57Z",
+      "first_failed_at": "2026-07-15T09:21:57Z",
+      "attempt_count": 1,
+      "upload_id": "154a314543c1d069",
+      "source_url": "https://prehraj.to/dead-of-winter-2025-cz-smrtici-dech-zimy/154a314543c1d069",
+      "upload_title": "Dead.Of.Winter.2025 CZ Smrtící dech zimy",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 29.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -100156,16 +100177,6 @@
       "worker_id": "worker-2-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T09:20:37Z"
-    },
-    {
-      "cr_film_id": 5744,
-      "cr_slug": "dead-of-winter",
-      "title": "Dead of Winter",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T09:20:55Z"
     }
   ]
 }
