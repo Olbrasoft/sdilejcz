@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T23:02:03Z",
+  "last_updated": "2026-07-15T23:02:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -115555,19 +115555,30 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 6959,
       "cr_slug": "mrakodrap",
       "title": "Mrakodrap",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-2-29441540815",
-      "run_id": "29441540815",
-      "reserved_at": "2026-07-15T22:58:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T23:02:31Z",
+      "first_failed_at": "2026-07-15T23:02:31Z",
+      "attempt_count": 1,
+      "upload_id": "5d7e624fb72a9",
+      "source_url": "https://prehraj.to/mrakodrap-2018-4k-hdr-cz-dabing/5d7e624fb72a9",
+      "upload_title": "Mrakodrap (2018) 4K HDR, CZ dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 193.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 6964,
       "cr_slug": "status-update",
