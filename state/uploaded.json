@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T00:01:03Z",
+  "last_updated": "2026-07-15T00:02:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -88788,6 +88788,27 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 4873,
+      "cr_slug": "noelle",
+      "title": "Noelle",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T00:02:15Z",
+      "first_failed_at": "2026-07-15T00:02:15Z",
+      "attempt_count": 1,
+      "upload_id": "634225d4c9d5a",
+      "source_url": "https://prehraj.to/noelle-2019-czdab/634225d4c9d5a",
+      "upload_title": "Noelle (2019) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.3,
+        "download_sec": 104.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -88840,16 +88861,6 @@
       "worker_id": "worker-2-29367318232",
       "run_id": "29367318232",
       "reserved_at": "2026-07-14T23:59:54Z"
-    },
-    {
-      "cr_film_id": 4873,
-      "cr_slug": "noelle",
-      "title": "Noelle",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29367318232",
-      "run_id": "29367318232",
-      "reserved_at": "2026-07-14T23:59:57Z"
     },
     {
       "cr_film_id": 4874,
