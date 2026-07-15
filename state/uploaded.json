@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T12:57:45Z",
+  "last_updated": "2026-07-15T12:58:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -99498,6 +99498,30 @@
         "upload_sec": 119.5,
         "total_sec": 163.3
       }
+    },
+    {
+      "cr_film_id": 6100,
+      "cr_slug": "dvoji-hra",
+      "title": "Dvojí hra",
+      "year": 2009,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "623220a2d1195",
+      "source_url": "https://prehraj.to/dvoji-hra-2009-romanticky-thriller-cz/623220a2d1195",
+      "source_title": "Dvojí hra (2009-romantický-thriller) cz",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34661467/dvoji-hra-2009-cz.mp4",
+      "sdilej_name": "Dvojí hra (2009) CZ.mp4",
+      "uploaded_at": "2026-07-15T12:58:55Z",
+      "status": "uploaded",
+      "size_bytes": 475920306,
+      "worker_id": "worker-1-29396806861",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 19.0,
+        "upload_sec": 49.0,
+        "total_sec": 69.1
+      }
     }
   ],
   "failed_attempts": [
@@ -105136,27 +105160,6 @@
       }
     },
     {
-      "cr_film_id": 6100,
-      "cr_slug": "dvoji-hra",
-      "title": "Dvojí hra",
-      "year": 2009,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T12:25:59Z",
-      "first_failed_at": "2026-07-15T12:25:59Z",
-      "attempt_count": 1,
-      "upload_id": "623220a2d1195",
-      "source_url": "https://prehraj.to/dvoji-hra-2009-romanticky-thriller-cz/623220a2d1195",
-      "upload_title": "Dvojí hra (2009-romantický-thriller) cz",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 19.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 6134,
       "cr_slug": "velka-odvazna-nadherna-cesta",
       "title": "Velká odvážná nádherná cesta",
@@ -105225,16 +105228,6 @@
       "worker_id": "worker-3-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T12:54:32Z"
-    },
-    {
-      "cr_film_id": 6100,
-      "cr_slug": "dvoji-hra",
-      "title": "Dvojí hra",
-      "year": 2009,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T12:57:45Z"
     }
   ]
 }
