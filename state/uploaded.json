@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T09:44:57Z",
+  "last_updated": "2026-07-15T09:46:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -94986,6 +94986,30 @@
         "upload_sec": 399.9,
         "total_sec": 521.8
       }
+    },
+    {
+      "cr_film_id": 5778,
+      "cr_slug": "moje-vina",
+      "title": "Moje vina",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "6819824d274a2",
+      "source_url": "https://prehraj.to/culpa-mia-2023-cz-dabing-1080p/6819824d274a2",
+      "source_title": "Culpa mía 2023 CZ Dabing 1080p ",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34660634/moje-vina-2023-cz-dabing.mp4",
+      "sdilej_name": "Moje vina (2023) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T09:46:37Z",
+      "status": "uploaded",
+      "size_bytes": 1762974498,
+      "worker_id": "worker-1-29396806861",
+      "timing": {
+        "resolve_sec": 4.7,
+        "download_sec": 52.0,
+        "upload_sec": 176.2,
+        "total_sec": 235.4
+      }
     }
   ],
   "failed_attempts": [
@@ -100710,38 +100734,9 @@
         "download_sec": 76.9,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 5778,
-      "cr_slug": "moje-vina",
-      "title": "Moje vina",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/culpa-mia-2023-cz-dabing-1080p-mkv/f81834b22a1a65eb",
-      "failed_at": "2026-07-15T09:42:42Z",
-      "first_failed_at": "2026-07-15T09:42:42Z",
-      "attempt_count": 1,
-      "upload_id": "f81834b22a1a65eb",
-      "source_url": "https://prehraj.to/culpa-mia-2023-cz-dabing-1080p-mkv/f81834b22a1a65eb",
-      "upload_title": "! Culpa mía 2023 CZ Dabing 1080p.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5778,
-      "cr_slug": "moje-vina",
-      "title": "Moje vina",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T09:42:40Z"
-    },
     {
       "cr_film_id": 5780,
       "cr_slug": "vyroci-v-rime",
