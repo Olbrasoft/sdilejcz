@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T21:01:49Z",
+  "last_updated": "2026-07-15T21:02:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -106938,6 +106938,30 @@
         "upload_sec": 217.7,
         "total_sec": 287.1
       }
+    },
+    {
+      "cr_film_id": 6747,
+      "cr_slug": "primat",
+      "title": "Primát",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "2b598d56ba8dd6d9",
+      "source_url": "https://prehraj.to/primate-primat-2025-1080p-cz-dabing-mkv/2b598d56ba8dd6d9",
+      "source_title": "Primate Primát 2025.1080p CZ DABING.mkv",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34663336/primat-2025-cz-dabing.mp4",
+      "sdilej_name": "Primát (2025) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T21:02:03Z",
+      "status": "uploaded",
+      "size_bytes": 1271133201,
+      "worker_id": "worker-1-29441540815",
+      "timing": {
+        "resolve_sec": 4.4,
+        "download_sec": 453.0,
+        "upload_sec": 129.3,
+        "total_sec": 589.2
+      }
     }
   ],
   "failed_attempts": [
@@ -112861,25 +112885,6 @@
       }
     },
     {
-      "cr_film_id": 6747,
-      "cr_slug": "primat",
-      "title": "Primát",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/primate-2026-1080p-primat-cz-dabing-mkv/9e88a61d65c929cd",
-      "failed_at": "2026-07-15T20:52:15Z",
-      "first_failed_at": "2026-07-15T20:52:15Z",
-      "attempt_count": 1,
-      "upload_id": "9e88a61d65c929cd",
-      "source_url": "https://prehraj.to/primate-2026-1080p-primat-cz-dabing-mkv/9e88a61d65c929cd",
-      "upload_title": "PRIMÁT 2026.1080p Primát CZ DABING.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
-    },
-    {
       "cr_film_id": 6749,
       "cr_slug": "holky-to-chtej-porad",
       "title": "Holky to chtěj pořád",
@@ -112938,16 +112943,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 6747,
-      "cr_slug": "primat",
-      "title": "Primát",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29441540815",
-      "run_id": "29441540815",
-      "reserved_at": "2026-07-15T20:52:12Z"
-    },
     {
       "cr_film_id": 6750,
       "cr_slug": "tanec-smrti",
