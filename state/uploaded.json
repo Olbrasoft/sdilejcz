@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T18:11:28Z",
+  "last_updated": "2026-07-15T18:13:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -111299,6 +111299,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 6619,
+      "cr_slug": "strazci-majaku",
+      "title": "Strážci majáku",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T18:13:27Z",
+      "first_failed_at": "2026-07-15T18:13:27Z",
+      "attempt_count": 1,
+      "upload_id": "5dbfd37d96781",
+      "source_url": "https://prehraj.to/strazci-majaku-the-vanishing-bluray-2018-cz-dabing-bluray-1080p/5dbfd37d96781",
+      "upload_title": "Strážci.majáku.The.Vanishing.bluray.2018.CZ dabing ,BluRay,1080p,",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 85.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -111331,16 +111352,6 @@
       "worker_id": "worker-4-29416448209",
       "run_id": "29416448209",
       "reserved_at": "2026-07-15T18:10:02Z"
-    },
-    {
-      "cr_film_id": 6619,
-      "cr_slug": "strazci-majaku",
-      "title": "Strážci majáku",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29416448209",
-      "run_id": "29416448209",
-      "reserved_at": "2026-07-15T18:11:28Z"
     }
   ]
 }
