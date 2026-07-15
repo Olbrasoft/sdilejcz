@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T10:05:24Z",
+  "last_updated": "2026-07-15T10:06:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -95418,6 +95418,30 @@
         "upload_sec": 95.9,
         "total_sec": 135.9
       }
+    },
+    {
+      "cr_film_id": 5753,
+      "cr_slug": "chobotnice",
+      "title": "Chobotnice",
+      "year": 1998,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "68e862c538e8c",
+      "source_url": "https://prehraj.to/chobotnice-1998-akcni-horor-czdab/68e862c538e8c",
+      "source_title": "Chobotnice,(1998,Akční,Horor),CZdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34660718/chobotnice-1998-cz-dabing.mp4",
+      "sdilej_name": "Chobotnice (1998) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T10:06:40Z",
+      "status": "uploaded",
+      "size_bytes": 2799327588,
+      "worker_id": "worker-3-29396806861",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 105.1,
+        "upload_sec": 322.2,
+        "total_sec": 428.8
+      }
     }
   ],
   "failed_attempts": [
@@ -100961,48 +100985,6 @@
       }
     },
     {
-      "cr_film_id": 5753,
-      "cr_slug": "chobotnice",
-      "title": "Chobotnice",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-      "failed_at": "2026-07-15T09:26:35Z",
-      "first_failed_at": "2026-07-15T09:26:35Z",
-      "attempt_count": 1,
-      "upload_id": "68e862c538e8c",
-      "source_url": "https://prehraj.to/chobotnice-1998-akcni-horor-czdab/68e862c538e8c",
-      "upload_title": "Chobotnice,(1998,Akční,Horor),CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 79.3,
-        "upload_sec": 0.0
-      }
-    },
-    {
-      "cr_film_id": 5753,
-      "cr_slug": "chobotnice",
-      "title": "Chobotnice",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T09:30:02Z",
-      "first_failed_at": "2026-07-15T09:30:02Z",
-      "attempt_count": 1,
-      "upload_id": "7fd20c789fd958cc",
-      "source_url": "https://prehraj.to/chobotnice-1998-akcni-horor-czdab-mkv/7fd20c789fd958cc",
-      "upload_title": "Chobotnice,(1998,Akční,Horor),CZdab.mkv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 80.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5758,
       "cr_slug": "ja-rebelka",
       "title": "Já, rebelka",
@@ -101185,16 +101167,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5753,
-      "cr_slug": "chobotnice",
-      "title": "Chobotnice",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T09:59:30Z"
-    },
     {
       "cr_film_id": 5816,
       "cr_slug": "vlci-lov",
