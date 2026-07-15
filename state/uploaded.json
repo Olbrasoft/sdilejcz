@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T23:09:58Z",
+  "last_updated": "2026-07-15T23:10:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -109746,6 +109746,30 @@
         "upload_sec": 52.9,
         "total_sec": 76.0
       }
+    },
+    {
+      "cr_film_id": 6987,
+      "cr_slug": "trable-o-vanocich",
+      "title": "Trable o Vánocích",
+      "year": 2015,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "58aad97b2124a",
+      "source_url": "https://prehraj.to/trable-o-vanocich-cz-dab-2015/58aad97b2124a",
+      "source_title": "Trable o Vanocich CZ Dab 2015",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34664897/trable-o-vanocich-2015-cz-dabing.mp4",
+      "sdilej_name": "Trable o Vánocích (2015) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T23:10:55Z",
+      "status": "uploaded",
+      "size_bytes": 1826955553,
+      "worker_id": "worker-1-29441540815",
+      "timing": {
+        "resolve_sec": 4.4,
+        "download_sec": 66.2,
+        "upload_sec": 180.8,
+        "total_sec": 254.0
+      }
     }
   ],
   "failed_attempts": [
@@ -115819,38 +115843,9 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    },
-    {
-      "cr_film_id": 6987,
-      "cr_slug": "trable-o-vanocich",
-      "title": "Trable o Vánocích",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/trable-o-vanocich-cz-dabing-2015-vanocni-film-fullhd/5ff1dd5f47ff8",
-      "failed_at": "2026-07-15T23:06:42Z",
-      "first_failed_at": "2026-07-15T23:06:42Z",
-      "attempt_count": 1,
-      "upload_id": "5ff1dd5f47ff8",
-      "source_url": "https://prehraj.to/trable-o-vanocich-cz-dabing-2015-vanocni-film-fullhd/5ff1dd5f47ff8",
-      "upload_title": "Trable o Vanocich (CZ Dabing 2015) Vánoční film FullHD",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 6987,
-      "cr_slug": "trable-o-vanocich",
-      "title": "Trable o Vánocích",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29441540815",
-      "run_id": "29441540815",
-      "reserved_at": "2026-07-15T23:06:40Z"
-    },
     {
       "cr_film_id": 6991,
       "cr_slug": "hvezdna-pechota-invaze",
