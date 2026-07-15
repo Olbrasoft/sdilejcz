@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T06:04:07Z",
+  "last_updated": "2026-07-15T06:05:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -90162,6 +90162,30 @@
         "upload_sec": 245.8,
         "total_sec": 429.2
       }
+    },
+    {
+      "cr_film_id": 5344,
+      "cr_slug": "klaunovy-vanoce",
+      "title": "Klaunovy Vánoce",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "676b3686f08de",
+      "source_url": "https://prehraj.to/klaunovy-vanoce-2024-cz-dabing/676b3686f08de",
+      "source_title": "Klaunovy Vánoce 2024 cz dabing",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34660046/klaunovy-vanoce-2024-cz-dabing.mp4",
+      "sdilej_name": "Klaunovy Vánoce (2024) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T06:05:07Z",
+      "status": "uploaded",
+      "size_bytes": 3120276095,
+      "worker_id": "worker-3-29382910705",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 122.7,
+        "upload_sec": 378.0,
+        "total_sec": 502.3
+      }
     }
   ],
   "failed_attempts": [
@@ -95458,27 +95482,6 @@
       }
     },
     {
-      "cr_film_id": 5344,
-      "cr_slug": "klaunovy-vanoce",
-      "title": "Klaunovy Vánoce",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T05:54:34Z",
-      "first_failed_at": "2026-07-15T05:54:34Z",
-      "attempt_count": 1,
-      "upload_id": "68f13a23a6710",
-      "source_url": "https://prehraj.to/klaunovy-vanoce-terrifier-3-2024-horor-czdab/68f13a23a6710",
-      "upload_title": "Klaunovy Vánoce - Terrifier 3 2024) horor czdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 87.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5350,
       "cr_slug": "spici-hrozba",
       "title": "Spící hrozba",
@@ -95520,16 +95523,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5344,
-      "cr_slug": "klaunovy-vanoce",
-      "title": "Klaunovy Vánoce",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T05:56:44Z"
-    },
     {
       "cr_film_id": 5357,
       "cr_slug": "den-dikuvzdani",
