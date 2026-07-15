@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T02:39:55Z",
+  "last_updated": "2026-07-15T02:41:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -86490,6 +86490,30 @@
         "upload_sec": 209.6,
         "total_sec": 280.9
       }
+    },
+    {
+      "cr_film_id": 5010,
+      "cr_slug": "kopilot",
+      "title": "Kopilot",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "621d6bb94d33f",
+      "source_url": "https://prehraj.to/kopilot-2021-czdab/621d6bb94d33f",
+      "source_title": "Kopilot (2021) CZdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34659703/kopilot-2021-cz-dabing.mp4",
+      "sdilej_name": "Kopilot (2021) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T02:41:41Z",
+      "status": "uploaded",
+      "size_bytes": 2195490805,
+      "worker_id": "worker-4-29382910705",
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 116.4,
+        "upload_sec": 278.2,
+        "total_sec": 396.4
+      }
     }
   ],
   "failed_attempts": [
@@ -91575,40 +91599,9 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 5010,
-      "cr_slug": "kopilot",
-      "title": "Kopilot",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T02:03:18Z",
-      "first_failed_at": "2026-07-15T02:03:18Z",
-      "attempt_count": 1,
-      "upload_id": "621d6bb94d33f",
-      "source_url": "https://prehraj.to/kopilot-2021-czdab/621d6bb94d33f",
-      "upload_title": "Kopilot (2021) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 117.9,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5010,
-      "cr_slug": "kopilot",
-      "title": "Kopilot",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T02:35:04Z"
-    },
     {
       "cr_film_id": 5056,
       "cr_slug": "o-vanocni-hvezde",
