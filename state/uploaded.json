@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T06:02:34Z",
+  "last_updated": "2026-07-15T06:03:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -90138,6 +90138,30 @@
         "upload_sec": 153.9,
         "total_sec": 238.2
       }
+    },
+    {
+      "cr_film_id": 5332,
+      "cr_slug": "svatba-za-vsechny-prachy",
+      "title": "Svatba za všechny prachy",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "67c9e00aef8ad",
+      "source_url": "https://prehraj.to/svatba-za-vsechny-prachy-2023-cz-dabing-1080p/67c9e00aef8ad",
+      "source_title": "Svatba za všechny prachy 2023 CZ dabing 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34660045/svatba-za-vsechny-prachy-2023-cz-dabing.mp4",
+      "sdilej_name": "Svatba za všechny prachy (2023) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T06:03:24Z",
+      "status": "uploaded",
+      "size_bytes": 1932986585,
+      "worker_id": "worker-4-29382910705",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 182.1,
+        "upload_sec": 245.8,
+        "total_sec": 429.2
+      }
     }
   ],
   "failed_attempts": [
@@ -95434,48 +95458,6 @@
       }
     },
     {
-      "cr_film_id": 5332,
-      "cr_slug": "svatba-za-vsechny-prachy",
-      "title": "Svatba za všechny prachy",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T05:44:16Z",
-      "first_failed_at": "2026-07-15T05:44:16Z",
-      "attempt_count": 1,
-      "upload_id": "67c97e316f8ee",
-      "source_url": "https://prehraj.to/svatba-za-vsechny-prachy-2023-cz-dabing-1080p/67c97e316f8ee",
-      "upload_title": "Svatba za všechny prachy (2023) CZ Dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 85.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 5332,
-      "cr_slug": "svatba-za-vsechny-prachy",
-      "title": "Svatba za všechny prachy",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T05:46:44Z",
-      "first_failed_at": "2026-07-15T05:46:44Z",
-      "attempt_count": 1,
-      "upload_id": "68e8fe80521f6",
-      "source_url": "https://prehraj.to/svatba-za-vsechny-prachy-2023-cz-dab-1080p/68e8fe80521f6",
-      "upload_title": "Svatba za všechny prachy 2023 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 106.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5344,
       "cr_slug": "klaunovy-vanoce",
       "title": "Klaunovy Vánoce",
@@ -95517,16 +95499,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5332,
-      "cr_slug": "svatba-za-vsechny-prachy",
-      "title": "Svatba za všechny prachy",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T05:56:14Z"
-    },
     {
       "cr_film_id": 5344,
       "cr_slug": "klaunovy-vanoce",
