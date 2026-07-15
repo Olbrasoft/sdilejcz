@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T03:12:17Z",
+  "last_updated": "2026-07-15T03:12:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -86994,6 +86994,30 @@
         "upload_sec": 314.0,
         "total_sec": 442.5
       }
+    },
+    {
+      "cr_film_id": 5083,
+      "cr_slug": "veteran-2020",
+      "title": "Veterán",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "6046a3e286d28",
+      "source_url": "https://prehraj.to/veteran-2020-cesky-tv-film/6046a3e286d28",
+      "source_title": "Veterán (2020) Český TV film",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34659752/veteran-2020-cz.mp4",
+      "sdilej_name": "Veterán (2020) CZ.mp4",
+      "uploaded_at": "2026-07-15T03:12:31Z",
+      "status": "uploaded",
+      "size_bytes": 2913311959,
+      "worker_id": "worker-3-29382910705",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 138.9,
+        "upload_sec": 351.8,
+        "total_sec": 492.3
+      }
     }
   ],
   "failed_attempts": [
@@ -92081,27 +92105,6 @@
       }
     },
     {
-      "cr_film_id": 5083,
-      "cr_slug": "veteran-2020",
-      "title": "Veterán",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T03:03:32Z",
-      "first_failed_at": "2026-07-15T03:03:32Z",
-      "attempt_count": 1,
-      "upload_id": "5e48811046764",
-      "source_url": "https://prehraj.to/veteran-krimi-drama-cesko-2020-1080p-tvrip-x264-58-sten-ok/5e48811046764",
-      "upload_title": "Veterán krimi drama Česko 2020.1080p.TvRip.x264.58%.STEN.ok",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 132.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5086,
       "cr_slug": "bez-veci-nad-veci",
       "title": "Bez věcí nad věcí",
@@ -92145,16 +92148,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5083,
-      "cr_slug": "veteran-2020",
-      "title": "Veterán",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T03:04:18Z"
-    },
     {
       "cr_film_id": 5094,
       "cr_slug": "vsechno-uplne-vsechno",
