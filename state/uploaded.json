@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T02:02:27Z",
+  "last_updated": "2026-07-15T02:03:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -91066,6 +91066,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 5010,
+      "cr_slug": "kopilot",
+      "title": "Kopilot",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T02:03:18Z",
+      "first_failed_at": "2026-07-15T02:03:18Z",
+      "attempt_count": 1,
+      "upload_id": "621d6bb94d33f",
+      "source_url": "https://prehraj.to/kopilot-2021-czdab/621d6bb94d33f",
+      "upload_title": "Kopilot (2021) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 117.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -91088,16 +91109,6 @@
       "worker_id": "worker-3-29367318232",
       "run_id": "29367318232",
       "reserved_at": "2026-07-15T01:59:29Z"
-    },
-    {
-      "cr_film_id": 5010,
-      "cr_slug": "kopilot",
-      "title": "Kopilot",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29367318232",
-      "run_id": "29367318232",
-      "reserved_at": "2026-07-15T02:00:47Z"
     },
     {
       "cr_film_id": 5016,
