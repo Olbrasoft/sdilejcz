@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T11:25:30Z",
+  "last_updated": "2026-07-15T11:27:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -102720,6 +102720,27 @@
       "timing": {
         "resolve_sec": 0.4
       }
+    },
+    {
+      "cr_film_id": 5945,
+      "cr_slug": "carodejovy-hodiny",
+      "title": "Čarodějovy hodiny",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T11:27:10Z",
+      "first_failed_at": "2026-07-15T11:27:10Z",
+      "attempt_count": 1,
+      "upload_id": "5d023f2a11be7",
+      "source_url": "https://prehraj.to/carodejovy-hodiny-2018-cz-dab-2018-1080p-bluray-ac3-x264/5d023f2a11be7",
+      "upload_title": "Carodejovy.hodiny.2018.CZ.Dab.2018.1080p.BluRay.AC3.X264",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 67.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -102752,16 +102773,6 @@
       "worker_id": "worker-3-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T11:25:24Z"
-    },
-    {
-      "cr_film_id": 5945,
-      "cr_slug": "carodejovy-hodiny",
-      "title": "Čarodějovy hodiny",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T11:25:30Z"
     }
   ]
 }
