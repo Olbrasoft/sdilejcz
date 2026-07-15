@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T08:02:51Z",
+  "last_updated": "2026-07-15T08:04:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -97649,6 +97649,27 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 5529,
+      "cr_slug": "wolf-creek-2",
+      "title": "Wolf Creek 2",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T08:04:04Z",
+      "first_failed_at": "2026-07-15T08:04:04Z",
+      "attempt_count": 1,
+      "upload_id": "5c0256caaccb5",
+      "source_url": "https://prehraj.to/wolf-creek-2-2013-cz-dabing/5c0256caaccb5",
+      "upload_title": "Wolf Creek 2 (2013) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 55.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -97661,16 +97682,6 @@
       "worker_id": "worker-3-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T08:02:20Z"
-    },
-    {
-      "cr_film_id": 5529,
-      "cr_slug": "wolf-creek-2",
-      "title": "Wolf Creek 2",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T08:02:36Z"
     },
     {
       "cr_film_id": 5530,
