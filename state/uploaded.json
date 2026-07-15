@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T10:38:19Z",
+  "last_updated": "2026-07-15T10:38:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -101813,19 +101813,30 @@
         "download_sec": 76.7,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5866,
       "cr_slug": "vem-si-me",
       "title": "Vem si mě",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T10:36:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T10:38:33Z",
+      "first_failed_at": "2026-07-15T10:38:33Z",
+      "attempt_count": 1,
+      "upload_id": "62880142aa26d",
+      "source_url": "https://prehraj.to/marry-me-2022-czdab/62880142aa26d",
+      "upload_title": "Marry Me (2022) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 76.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5867,
       "cr_slug": "jaula",
