@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T07:22:01Z",
+  "last_updated": "2026-07-15T07:23:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -96877,6 +96877,27 @@
         "download_sec": 121.6,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 5480,
+      "cr_slug": "vanoce-z-jineho-sveta",
+      "title": "Vánoce z jiného světa",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T07:23:23Z",
+      "first_failed_at": "2026-07-15T07:23:23Z",
+      "attempt_count": 1,
+      "upload_id": "6544babbe83a3",
+      "source_url": "https://prehraj.to/vanoce-z-jineho-sveta-alien-xmas-2020-1080p-cz-dabing-anoimovany-vanoce-2023-mp4/6544babbe83a3",
+      "upload_title": "Vánoce z Jiného Světa - Alien Xmas (2020) 1080p. CZ Dabing - Anoimovaný - Vánoce 2023",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 49.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -96909,16 +96930,6 @@
       "worker_id": "worker-3-29382910705",
       "run_id": "29382910705",
       "reserved_at": "2026-07-15T07:21:44Z"
-    },
-    {
-      "cr_film_id": 5480,
-      "cr_slug": "vanoce-z-jineho-sveta",
-      "title": "Vánoce z jiného světa",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T07:22:01Z"
     }
   ]
 }
