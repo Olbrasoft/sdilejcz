@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T07:31:07Z",
+  "last_updated": "2026-07-15T07:32:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -91626,6 +91626,30 @@
         "upload_sec": 118.4,
         "total_sec": 170.6
       }
+    },
+    {
+      "cr_film_id": 5485,
+      "cr_slug": "wolf-creek",
+      "title": "Wolf Creek",
+      "year": 2005,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5bb7753f3c546",
+      "source_url": "https://prehraj.to/wolf-creek-2005-cz-dabing/5bb7753f3c546",
+      "source_title": "Wolf Creek (2005) CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34660205/wolf-creek-2005-cz-dabing.mp4",
+      "sdilej_name": "Wolf Creek (2005) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T07:32:41Z",
+      "status": "uploaded",
+      "size_bytes": 537394106,
+      "worker_id": "worker-3-29382910705",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 25.3,
+        "upload_sec": 65.8,
+        "total_sec": 92.6
+      }
     }
   ],
   "failed_attempts": [
@@ -96979,27 +97003,6 @@
         "download_sec": 35.8,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 5485,
-      "cr_slug": "wolf-creek",
-      "title": "Wolf Creek",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T07:30:56Z",
-      "first_failed_at": "2026-07-15T07:30:56Z",
-      "attempt_count": 1,
-      "upload_id": "59d7e03757145",
-      "source_url": "https://prehraj.to/wolf-creek-2005-cz-dabing/59d7e03757145",
-      "upload_title": "Wolf Creek (2005) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 28.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -97032,16 +97035,6 @@
       "worker_id": "worker-1-29382910705",
       "run_id": "29382910705",
       "reserved_at": "2026-07-15T07:30:58Z"
-    },
-    {
-      "cr_film_id": 5485,
-      "cr_slug": "wolf-creek",
-      "title": "Wolf Creek",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T07:31:07Z"
     }
   ]
 }
