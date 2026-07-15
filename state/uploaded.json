@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T07:42:36Z",
+  "last_updated": "2026-07-15T07:43:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -91818,6 +91818,30 @@
         "upload_sec": 131.7,
         "total_sec": 171.1
       }
+    },
+    {
+      "cr_film_id": 5469,
+      "cr_slug": "pod-bodem-mrazu",
+      "title": "Pod bodem mrazu",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "65de44e994aeb",
+      "source_url": "https://prehraj.to/pod-bodem-mrazu-2021-cz-dab/65de44e994aeb",
+      "source_title": "Pod bodem mrazu 2021 CZ dab°",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34660229/pod-bodem-mrazu-2021-cz-dabing.mp4",
+      "sdilej_name": "Pod bodem mrazu (2021) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T07:43:32Z",
+      "status": "uploaded",
+      "size_bytes": 370314064,
+      "worker_id": "worker-2-29396806861",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 15.9,
+        "upload_sec": 37.8,
+        "total_sec": 54.8
+      }
     }
   ],
   "failed_attempts": [
@@ -97152,27 +97176,6 @@
       }
     },
     {
-      "cr_film_id": 5469,
-      "cr_slug": "pod-bodem-mrazu",
-      "title": "Pod bodem mrazu",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T07:11:18Z",
-      "first_failed_at": "2026-07-15T07:11:18Z",
-      "attempt_count": 1,
-      "upload_id": "65de44e994aeb",
-      "source_url": "https://prehraj.to/pod-bodem-mrazu-2021-cz-dab/65de44e994aeb",
-      "upload_title": "Pod bodem mrazu 2021 CZ dab°",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 35.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5492,
       "cr_slug": "nikdy-to-nevzdavej-3",
       "title": "Nikdy to nevzdávej 3",
@@ -97224,16 +97227,6 @@
       "worker_id": "worker-1-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T07:41:06Z"
-    },
-    {
-      "cr_film_id": 5469,
-      "cr_slug": "pod-bodem-mrazu",
-      "title": "Pod bodem mrazu",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T07:42:36Z"
     }
   ]
 }
