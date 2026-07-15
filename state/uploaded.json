@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T01:54:06Z",
+  "last_updated": "2026-07-15T01:54:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -85770,6 +85770,30 @@
         "upload_sec": 285.7,
         "total_sec": 385.8
       }
+    },
+    {
+      "cr_film_id": 4991,
+      "cr_slug": "z-kazdeho-konce",
+      "title": "Z každého konce",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "62fed5dd4f649",
+      "source_url": "https://prehraj.to/z-kazdeho-konce-2022-czdab/62fed5dd4f649",
+      "source_title": "Z každého konce (2022) CZdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34659639/z-kazdeho-konce-2022-cz-dabing.mp4",
+      "sdilej_name": "Z každého konce (2022) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T01:54:12Z",
+      "status": "uploaded",
+      "size_bytes": 1980629152,
+      "worker_id": "worker-4-29367318232",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 64.4,
+        "upload_sec": 214.1,
+        "total_sec": 280.1
+      }
     }
   ],
   "failed_attempts": [
@@ -90855,27 +90879,6 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 4991,
-      "cr_slug": "z-kazdeho-konce",
-      "title": "Z každého konce",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T01:47:34Z",
-      "first_failed_at": "2026-07-15T01:47:34Z",
-      "attempt_count": 1,
-      "upload_id": "62fd02b568861",
-      "source_url": "https://prehraj.to/z-kazdeho-konce-2022-cz-dabing-1080p/62fd02b568861",
-      "upload_title": "Z kazdeho konce 2022 CZ dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.6,
-        "download_sec": 86.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -90888,16 +90891,6 @@
       "worker_id": "worker-3-29367318232",
       "run_id": "29367318232",
       "reserved_at": "2026-07-15T01:47:10Z"
-    },
-    {
-      "cr_film_id": 4991,
-      "cr_slug": "z-kazdeho-konce",
-      "title": "Z každého konce",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29367318232",
-      "run_id": "29367318232",
-      "reserved_at": "2026-07-15T01:49:30Z"
     },
     {
       "cr_film_id": 4561,
