@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T01:31:52Z",
+  "last_updated": "2026-07-15T01:33:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -90524,6 +90524,27 @@
       "timing": {
         "resolve_sec": 4.3
       }
+    },
+    {
+      "cr_film_id": 4979,
+      "cr_slug": "sledujici",
+      "title": "Sledující",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T01:33:01Z",
+      "first_failed_at": "2026-07-15T01:33:01Z",
+      "attempt_count": 1,
+      "upload_id": "6380c81875d9e",
+      "source_url": "https://prehraj.to/watcher-thriller-usa-2022-cz-dabing-1080p/6380c81875d9e",
+      "upload_title": "Watcher (Thriller, USA, 2022) CZ dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 36.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -90566,16 +90587,6 @@
       "worker_id": "worker-1-29367318232",
       "run_id": "29367318232",
       "reserved_at": "2026-07-15T01:31:47Z"
-    },
-    {
-      "cr_film_id": 4979,
-      "cr_slug": "sledujici",
-      "title": "Sledující",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29367318232",
-      "run_id": "29367318232",
-      "reserved_at": "2026-07-15T01:31:52Z"
     }
   ]
 }
