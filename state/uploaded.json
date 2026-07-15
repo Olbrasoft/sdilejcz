@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T08:43:57Z",
+  "last_updated": "2026-07-15T08:44:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -93522,6 +93522,30 @@
         "upload_sec": 85.1,
         "total_sec": 120.1
       }
+    },
+    {
+      "cr_film_id": 5646,
+      "cr_slug": "grimsby",
+      "title": "Grimsby",
+      "year": 2016,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "58aada87ccb84",
+      "source_url": "https://prehraj.to/the-brothers-grimsby-2016-cz-dabing/58aada87ccb84",
+      "source_title": "The Brothers Grimsby (2016) Cz Dabing  ",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34660386/grimsby-2016-cz-dabing.mp4",
+      "sdilej_name": "Grimsby (2016) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T08:44:06Z",
+      "status": "uploaded",
+      "size_bytes": 1930215052,
+      "worker_id": "worker-3-29396806861",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 70.6,
+        "upload_sec": 224.6,
+        "total_sec": 296.5
+      }
     }
   ],
   "failed_attempts": [
@@ -98930,40 +98954,9 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 5646,
-      "cr_slug": "grimsby",
-      "title": "Grimsby",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T08:38:16Z",
-      "first_failed_at": "2026-07-15T08:38:16Z",
-      "attempt_count": 1,
-      "upload_id": "68d6042026cbb",
-      "source_url": "https://prehraj.to/grimsby-2016-cz-dab-1080p/68d6042026cbb",
-      "upload_title": "Grimsby 2016 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 45.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5646,
-      "cr_slug": "grimsby",
-      "title": "Grimsby",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T08:39:08Z"
-    },
     {
       "cr_film_id": 5658,
       "cr_slug": "blazniva-dovolena-2015",
