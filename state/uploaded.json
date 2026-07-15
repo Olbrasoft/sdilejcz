@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T18:23:16Z",
+  "last_updated": "2026-07-15T18:24:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -105522,6 +105522,30 @@
         "upload_sec": 332.3,
         "total_sec": 501.9
       }
+    },
+    {
+      "cr_film_id": 6619,
+      "cr_slug": "strazci-majaku",
+      "title": "Strážci majáku",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5d3c380d8b46c",
+      "source_url": "https://prehraj.to/strazci-majaku-2018-cz-dabing-bst/5d3c380d8b46c",
+      "source_title": "Strážci majaku 2018 CZ DABING-BST",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34662577/strazci-majaku-2018-cz-dabing.mp4",
+      "sdilej_name": "Strážci majáku (2018) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T18:24:39Z",
+      "status": "uploaded",
+      "size_bytes": 422955151,
+      "worker_id": "worker-4-29416448209",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 583.9,
+        "upload_sec": 44.1,
+        "total_sec": 629.2
+      }
     }
   ],
   "failed_attempts": [
@@ -111443,40 +111467,9 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    },
-    {
-      "cr_film_id": 6619,
-      "cr_slug": "strazci-majaku",
-      "title": "Strážci majáku",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T18:13:27Z",
-      "first_failed_at": "2026-07-15T18:13:27Z",
-      "attempt_count": 1,
-      "upload_id": "5dbfd37d96781",
-      "source_url": "https://prehraj.to/strazci-majaku-the-vanishing-bluray-2018-cz-dabing-bluray-1080p/5dbfd37d96781",
-      "upload_title": "Strážci.majáku.The.Vanishing.bluray.2018.CZ dabing ,BluRay,1080p,",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 85.8,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 6619,
-      "cr_slug": "strazci-majaku",
-      "title": "Strážci majáku",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29416448209",
-      "run_id": "29416448209",
-      "reserved_at": "2026-07-15T18:14:09Z"
-    },
     {
       "cr_film_id": 6622,
       "cr_slug": "tajemstvi-malomesta",
