@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T21:39:52Z",
+  "last_updated": "2026-07-15T21:40:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -113755,19 +113755,30 @@
       "timing": {
         "resolve_sec": 4.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 6803,
       "cr_slug": "exekutor-ii",
       "title": "Exekutor II",
       "year": 2020,
       "sktorrent_id": null,
-      "worker_id": "worker-2-29441540815",
-      "run_id": "29441540815",
-      "reserved_at": "2026-07-15T21:35:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T21:40:10Z",
+      "first_failed_at": "2026-07-15T21:40:10Z",
+      "attempt_count": 1,
+      "upload_id": "95769eccf6ce6be0",
+      "source_url": "https://prehraj.to/exekutor-ii-2020-cz-dab-1080p/95769eccf6ce6be0",
+      "upload_title": "Exekutor II 2020 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 229.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 6810,
       "cr_slug": "kousek-tebe",
