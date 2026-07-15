@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T02:29:46Z",
+  "last_updated": "2026-07-15T02:30:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -91497,19 +91497,30 @@
         "download_sec": 196.9,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5041,
       "cr_slug": "stripky",
       "title": "Střípky",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-1-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T02:22:13Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T02:30:45Z",
+      "first_failed_at": "2026-07-15T02:30:45Z",
+      "attempt_count": 1,
+      "upload_id": "60d70c743ba42",
+      "source_url": "https://prehraj.to/male-veci-2021-cz-dabing-novinka-chockoy/60d70c743ba42",
+      "upload_title": "Malé věci (2021) CZ dabing NOVINKA  chockoy",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 478.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5047,
       "cr_slug": "pinocchio",
