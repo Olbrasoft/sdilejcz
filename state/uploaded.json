@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T10:38:04Z",
+  "last_updated": "2026-07-15T10:38:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -101792,19 +101792,30 @@
       "timing": {
         "resolve_sec": 4.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5864,
       "cr_slug": "vanocni-tanec",
       "title": "Vánoční tanec",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-1-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T10:36:28Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T10:38:18Z",
+      "first_failed_at": "2026-07-15T10:38:18Z",
+      "attempt_count": 1,
+      "upload_id": "63713b56b5d9e",
+      "source_url": "https://prehraj.to/vanocni-tanec-2022-czdab/63713b56b5d9e",
+      "upload_title": "Vánoční tanec (2022) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 76.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5866,
       "cr_slug": "vem-si-me",
