@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T03:36:48Z",
+  "last_updated": "2026-07-15T03:38:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -92601,19 +92601,30 @@
         "download_sec": 86.7,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5124,
       "cr_slug": "debbie-a-jeji-partacky",
       "title": "Debbie a její parťačky",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-2-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T03:35:57Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T03:38:06Z",
+      "first_failed_at": "2026-07-15T03:38:06Z",
+      "attempt_count": 1,
+      "upload_id": "fadcdafc910c4bc7",
+      "source_url": "https://prehraj.to/debbie-a-jeji-partacky-2018-cz-dab-1080p/fadcdafc910c4bc7",
+      "upload_title": "Debbie a její parťačky 2018 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 95.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5125,
       "cr_slug": "american",
