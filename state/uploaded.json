@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T06:11:17Z",
+  "last_updated": "2026-07-15T06:11:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -90258,6 +90258,30 @@
         "upload_sec": 297.3,
         "total_sec": 401.2
       }
+    },
+    {
+      "cr_film_id": 5356,
+      "cr_slug": "v-neznamych-vodach",
+      "title": "V neznámych vodách",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "6812a698979a6",
+      "source_url": "https://prehraj.to/v-neznamych-vodach-2023-cz-dab/6812a698979a6",
+      "source_title": "V neznámých vodách 2023 CZ dab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34660057/v-neznamych-vodach-2023-cz-dabing.mp4",
+      "sdilej_name": "V neznámych vodách (2023) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T06:11:37Z",
+      "status": "uploaded",
+      "size_bytes": 2269303109,
+      "worker_id": "worker-3-29382910705",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 110.4,
+        "upload_sec": 273.3,
+        "total_sec": 385.2
+      }
     }
   ],
   "failed_attempts": [
@@ -95573,27 +95597,6 @@
       }
     },
     {
-      "cr_film_id": 5356,
-      "cr_slug": "v-neznamych-vodach",
-      "title": "V neznámych vodách",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-15T06:04:05Z",
-      "first_failed_at": "2026-07-15T06:04:05Z",
-      "attempt_count": 1,
-      "upload_id": "b0a9162d08b3e429",
-      "source_url": "https://prehraj.to/v-neznamych-vodach-2023-cz-dab-1080p/b0a9162d08b3e429",
-      "upload_title": "V neznámých vodách 2023 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 127.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5366,
       "cr_slug": "ricky-stanicky",
       "title": "Ricky Stanicky",
@@ -95637,16 +95640,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5356,
-      "cr_slug": "v-neznamych-vodach",
-      "title": "V neznámych vodách",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T06:05:11Z"
-    },
     {
       "cr_film_id": 5365,
       "cr_slug": "hrozba-smrti",
