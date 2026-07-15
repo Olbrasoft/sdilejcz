@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T09:02:25Z",
+  "last_updated": "2026-07-15T09:03:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -99482,19 +99482,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5699,
       "cr_slug": "indiana-jones-a-kralovstvi-kristalove-lebky",
       "title": "Indiana Jones a Království křišťálové lebky",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T08:58:22Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T09:03:04Z",
+      "first_failed_at": "2026-07-15T09:03:04Z",
+      "attempt_count": 1,
+      "upload_id": "673809c6ae02c",
+      "source_url": "https://prehraj.to/kralovstvi-kristalove-lebky-2008-cz-dabing-1080p/673809c6ae02c",
+      "upload_title": "Království křišťálové lebky 2008 CZ Dabing 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 248.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5709,
       "cr_slug": "resident-evil-zanik",
