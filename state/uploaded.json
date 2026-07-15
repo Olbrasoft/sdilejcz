@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T12:48:29Z",
+  "last_updated": "2026-07-15T12:48:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -105049,6 +105049,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 6138,
+      "cr_slug": "blb-a-blbec",
+      "title": "Blb a blbec",
+      "year": 1994,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T12:48:51Z",
+      "first_failed_at": "2026-07-15T12:48:51Z",
+      "attempt_count": 1,
+      "upload_id": "65acdf638b921",
+      "source_url": "https://prehraj.to/blb-a-blbec-pruserari-1994-bud-spencer-terence-hill-cz-bydejv/65acdf638b921",
+      "upload_title": "Blb a blbec-Průseráři (1994) Bud Spencer,Terence Hill CZ byDejv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 81.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -105061,16 +105082,6 @@
       "worker_id": "worker-2-29396806861",
       "run_id": "29396806861",
       "reserved_at": "2026-07-15T12:42:05Z"
-    },
-    {
-      "cr_film_id": 6138,
-      "cr_slug": "blb-a-blbec",
-      "title": "Blb a blbec",
-      "year": 1994,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T12:46:57Z"
     },
     {
       "cr_film_id": 6141,
