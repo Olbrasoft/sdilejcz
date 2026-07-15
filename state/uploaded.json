@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T06:44:42Z",
+  "last_updated": "2026-07-15T06:44:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -96254,19 +96254,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5426,
       "cr_slug": "chyt-svuj-osud",
       "title": "Chyť svůj osud",
       "year": 2020,
       "sktorrent_id": null,
-      "worker_id": "worker-2-29382910705",
-      "run_id": "29382910705",
-      "reserved_at": "2026-07-15T06:42:28Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-15T06:44:53Z",
+      "first_failed_at": "2026-07-15T06:44:53Z",
+      "attempt_count": 1,
+      "upload_id": "624de3ba2cb21",
+      "source_url": "https://prehraj.to/chyt-svuj-osud-2020-czdab/624de3ba2cb21",
+      "upload_title": "Chyť svůj osud (2020) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 111.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5427,
       "cr_slug": "prokleti",
