@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T17:01:08Z",
+  "last_updated": "2026-07-15T17:01:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -110185,6 +110185,25 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 1.1
+      }
+    },
+    {
+      "cr_film_id": 6532,
+      "cr_slug": "medved-na-koksu",
+      "title": "Medvěd na koksu",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/medved-na-koksu-2023-cz-dab/ef367788cd56f845",
+      "failed_at": "2026-07-15T17:01:10Z",
+      "first_failed_at": "2026-07-15T17:01:10Z",
+      "attempt_count": 1,
+      "upload_id": "ef367788cd56f845",
+      "source_url": "https://prehraj.to/medved-na-koksu-2023-cz-dab/ef367788cd56f845",
+      "upload_title": "Medvěd na koksu (2023) CZ dab",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.5
       }
     }
   ],
