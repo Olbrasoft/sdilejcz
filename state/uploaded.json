@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-15T12:24:16Z",
+  "last_updated": "2026-07-15T12:25:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -98730,6 +98730,30 @@
         "upload_sec": 105.3,
         "total_sec": 140.9
       }
+    },
+    {
+      "cr_film_id": 6083,
+      "cr_slug": "san-andreas",
+      "title": "San Andreas",
+      "year": 2015,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "67baa0c24f774",
+      "source_url": "https://prehraj.to/san-andreas-2015-cz-dabing-1080p-hq/67baa0c24f774",
+      "source_title": "San Andreas 2015 CZ Dabing 1080p HQ+",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34661319/san-andreas-2015-cz-dabing.mp4",
+      "sdilej_name": "San Andreas (2015) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-15T12:25:05Z",
+      "status": "uploaded",
+      "size_bytes": 2740809314,
+      "worker_id": "worker-2-29396806861",
+      "timing": {
+        "resolve_sec": 4.5,
+        "download_sec": 78.0,
+        "upload_sec": 273.1,
+        "total_sec": 358.1
+      }
     }
   ],
   "failed_attempts": [
@@ -104368,25 +104392,6 @@
       }
     },
     {
-      "cr_film_id": 6083,
-      "cr_slug": "san-andreas",
-      "title": "San Andreas",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/san-andreas-2015-cz-dabing-1080p-hq/67ba6f564af4e",
-      "failed_at": "2026-07-15T12:19:07Z",
-      "first_failed_at": "2026-07-15T12:19:07Z",
-      "attempt_count": 1,
-      "upload_id": "67ba6f564af4e",
-      "source_url": "https://prehraj.to/san-andreas-2015-cz-dabing-1080p-hq/67ba6f564af4e",
-      "upload_title": "San Andreas 2015 CZ Dabing 1080p HQ+",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.6
-      }
-    },
-    {
       "cr_film_id": 6096,
       "cr_slug": "zastav-a-neprezijes-2-vysoke-napeti",
       "title": "Zastav a nepřežiješ 2 - Vysoké napětí",
@@ -104445,16 +104450,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 6083,
-      "cr_slug": "san-andreas",
-      "title": "San Andreas",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-29396806861",
-      "run_id": "29396806861",
-      "reserved_at": "2026-07-15T12:19:05Z"
-    },
     {
       "cr_film_id": 6091,
       "cr_slug": "largo-winch-ii-spiknuti-v-barme",
