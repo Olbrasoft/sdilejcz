@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T14:20:24Z",
+  "last_updated": "2026-07-25T14:20:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -453089,6 +453089,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 21519,
+      "cr_slug": "kovboj",
+      "title": "Kovboj",
+      "year": 1958,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T14:20:47Z",
+      "first_failed_at": "2026-07-25T14:20:47Z",
+      "attempt_count": 1,
+      "upload_id": "60ad5053c8e36",
+      "source_url": "https://prehraj.to/kovboj-western-1958-cz-dabing/60ad5053c8e36",
+      "upload_title": "Kovboj-(western)-(1958)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 39.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -453101,16 +453122,6 @@
       "worker_id": "worker-4-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T14:18:23Z"
-    },
-    {
-      "cr_film_id": 21519,
-      "cr_slug": "kovboj",
-      "title": "Kovboj",
-      "year": 1958,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T14:19:33Z"
     },
     {
       "cr_film_id": 21509,
