@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T14:03:14Z",
+  "last_updated": "2026-07-25T14:04:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -452606,6 +452606,27 @@
         "download_sec": 89.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 33397,
+      "cr_slug": "perny-den",
+      "title": "Perný den",
+      "year": 1964,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T14:04:20Z",
+      "first_failed_at": "2026-07-25T14:04:20Z",
+      "attempt_count": 1,
+      "upload_id": "6806cbcbee4cc",
+      "source_url": "https://prehraj.to/perny-den-1964-cz-dab/6806cbcbee4cc",
+      "upload_title": "Perný den 1964 CZ dab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 46.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -452618,16 +452639,6 @@
       "worker_id": "worker-3-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T14:02:11Z"
-    },
-    {
-      "cr_film_id": 33397,
-      "cr_slug": "perny-den",
-      "title": "Perný den",
-      "year": 1964,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T14:02:52Z"
     },
     {
       "cr_film_id": 10861,
