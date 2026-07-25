@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T07:40:38Z",
+  "last_updated": "2026-07-25T07:41:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -426666,6 +426666,30 @@
         "upload_sec": 234.0,
         "total_sec": 406.3
       }
+    },
+    {
+      "cr_film_id": 1396,
+      "cr_slug": "osma-trida",
+      "title": "Osmá třída",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "60f098357234d",
+      "source_url": "https://prehraj.to/osma-trida-2018-cztitulky/60f098357234d",
+      "source_title": "Osmá třída (2018) CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34721323/osma-trida-2018-cz-dabing.mp4",
+      "sdilej_name": "Osmá třída (2018) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T07:41:25Z",
+      "status": "uploaded",
+      "size_bytes": 1077801419,
+      "worker_id": "worker-2-30138816524",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 284.2,
+        "upload_sec": 142.0,
+        "total_sec": 427.9
+      }
     }
   ],
   "failed_attempts": [
@@ -440815,26 +440839,6 @@
       }
     },
     {
-      "cr_film_id": 1396,
-      "cr_slug": "osma-trida",
-      "title": "Osmá třída",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-25T07:33:38Z",
-      "first_failed_at": "2026-07-25T07:33:38Z",
-      "attempt_count": 1,
-      "upload_id": "23336e7de24ad304",
-      "source_url": "https://prehraj.to/osma-trida-2018-cz-dab-1080p/23336e7de24ad304",
-      "upload_title": "Osmá třída 2018 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 355.9
-      }
-    },
-    {
       "cr_film_id": 5509,
       "cr_slug": "nicitelka",
       "title": "Ničitelka",
@@ -440856,16 +440860,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 1396,
-      "cr_slug": "osma-trida",
-      "title": "Osmá třída",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T07:34:15Z"
-    },
     {
       "cr_film_id": 5509,
       "cr_slug": "nicitelka",
