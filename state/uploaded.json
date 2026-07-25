@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T01:33:12Z",
+  "last_updated": "2026-07-25T01:33:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -429960,19 +429960,30 @@
         "download_sec": 60.5,
         "upload_sec": 30.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35176,
       "cr_slug": "voyage-of-the-unicorn",
       "title": "Voyage of the Unicorn",
       "year": 2001,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T01:31:27Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T01:33:24Z",
+      "first_failed_at": "2026-07-25T01:33:24Z",
+      "attempt_count": 1,
+      "upload_id": "5bdd0c28d72cb",
+      "source_url": "https://prehraj.to/na-palube-jednorozce-2001-cz-dabing/5bdd0c28d72cb",
+      "upload_title": "Na Palubě Jednorožce (2001) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 81.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35177,
       "cr_slug": "bad-25",
