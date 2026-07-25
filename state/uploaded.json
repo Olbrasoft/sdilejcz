@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T19:56:55Z",
+  "last_updated": "2026-07-25T20:01:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459036,6 +459036,25 @@
       "timing": {
         "resolve_sec": 254.3
       }
+    },
+    {
+      "cr_film_id": 37204,
+      "cr_slug": "cycling-africa",
+      "title": "Cycling Africa",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fcycling-africa-2025-cz-titulky%2Ffb0f65472143d6d9 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a7534ad0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/cycling-africa-2025-cz-titulky/fb0f65472143d6d9",
+      "failed_at": "2026-07-25T20:01:12Z",
+      "first_failed_at": "2026-07-25T20:01:12Z",
+      "attempt_count": 1,
+      "upload_id": "fb0f65472143d6d9",
+      "source_url": "https://prehraj.to/cycling-africa-2025-cz-titulky/fb0f65472143d6d9",
+      "upload_title": "Cycling Africa (2025) CZ Titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.8
+      }
     }
   ],
   "in_progress": [
@@ -459078,16 +459097,6 @@
       "worker_id": "worker-1-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T19:56:27Z"
-    },
-    {
-      "cr_film_id": 37204,
-      "cr_slug": "cycling-africa",
-      "title": "Cycling Africa",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T19:56:55Z"
     }
   ]
 }
