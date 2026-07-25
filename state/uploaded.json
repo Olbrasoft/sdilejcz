@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:04:08Z",
+  "last_updated": "2026-07-25T13:04:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -450926,19 +450926,29 @@
         "download_sec": 130.8,
         "upload_sec": 0.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 33143,
       "cr_slug": "anna-sestra-jany",
       "title": "Anna, sestra Jany",
       "year": 1976,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T12:58:20Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T13:04:43Z",
+      "first_failed_at": "2026-07-25T13:04:43Z",
+      "attempt_count": 1,
+      "upload_id": "a687b3b434d00bce",
+      "source_url": "https://prehraj.to/anna-sestra-jany-1975-cz-dabing/a687b3b434d00bce",
+      "upload_title": "Anna, sestra Jany (1975) CZ dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 375.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23942,
       "cr_slug": "romance-za-korunu",
