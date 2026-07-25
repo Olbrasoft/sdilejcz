@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T00:37:36Z",
+  "last_updated": "2026-07-25T00:37:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -428474,19 +428474,30 @@
         "download_sec": 23.6,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34880,
       "cr_slug": "ucho",
       "title": "Ucho",
       "year": 1970,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T00:34:59Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T00:37:49Z",
+      "first_failed_at": "2026-07-25T00:37:49Z",
+      "attempt_count": 1,
+      "upload_id": "24ae718f15f32236",
+      "source_url": "https://prehraj.to/ucho-1970-cz-dab-1080p/24ae718f15f32236",
+      "upload_title": "Ucho 1970 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 134.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34894,
       "cr_slug": "stevie",
