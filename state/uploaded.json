@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T10:37:48Z",
+  "last_updated": "2026-07-25T10:38:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -446224,6 +446224,26 @@
         "resolve_sec": 1.2,
         "download_sec": 114.6
       }
+    },
+    {
+      "cr_film_id": 23917,
+      "cr_slug": "mutant-2",
+      "title": "Mutant 2",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T10:38:18Z",
+      "first_failed_at": "2026-07-25T10:38:18Z",
+      "attempt_count": 1,
+      "upload_id": "57aec02fd031c",
+      "source_url": "https://prehraj.to/mutant-2-1998-cz-dabing/57aec02fd031c",
+      "upload_title": "Mutant 2 (1998) CZ-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 91.7
+      }
     }
   ],
   "in_progress": [
@@ -446246,16 +446266,6 @@
       "worker_id": "worker-1-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T10:36:30Z"
-    },
-    {
-      "cr_film_id": 23917,
-      "cr_slug": "mutant-2",
-      "title": "Mutant 2",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T10:36:41Z"
     },
     {
       "cr_film_id": 32980,
