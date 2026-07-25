@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:18:17Z",
+  "last_updated": "2026-07-25T13:19:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -436986,6 +436986,30 @@
         "upload_sec": 93.6,
         "total_sec": 199.2
       }
+    },
+    {
+      "cr_film_id": 22234,
+      "cr_slug": "700-mil-v-sedle",
+      "title": "700 mil v sedle",
+      "year": 1975,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6057920a3c4c5",
+      "source_url": "https://prehraj.to/700-mil-v-sedle-1975-cz/6057920a3c4c5",
+      "source_title": "700.mil.v.sedle.1975.cz",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34722756/700-mil-v-sedle-1975-cz-dabing.mp4",
+      "sdilej_name": "700 mil v sedle (1975) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T13:19:25Z",
+      "status": "uploaded",
+      "size_bytes": 1840643052,
+      "worker_id": "worker-4-30150182076",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 101.4,
+        "upload_sec": 177.7,
+        "total_sec": 280.6
+      }
     }
   ],
   "failed_attempts": [
@@ -451192,47 +451216,6 @@
       }
     },
     {
-      "cr_film_id": 22234,
-      "cr_slug": "700-mil-v-sedle",
-      "title": "700 mil v sedle",
-      "year": 1975,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-25T13:10:38Z",
-      "first_failed_at": "2026-07-25T13:10:38Z",
-      "attempt_count": 1,
-      "upload_id": "609d323ce30a7",
-      "source_url": "https://prehraj.to/700-mil-v-sedle-western-1975-cz-dabing/609d323ce30a7",
-      "upload_title": "700 mil v sedle-(western)-(1975)--cz-dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 243.5
-      }
-    },
-    {
-      "cr_film_id": 22234,
-      "cr_slug": "700-mil-v-sedle",
-      "title": "700 mil v sedle",
-      "year": 1975,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T13:13:59Z",
-      "first_failed_at": "2026-07-25T13:13:59Z",
-      "attempt_count": 1,
-      "upload_id": "5abf6e1c00c8b",
-      "source_url": "https://prehraj.to/700-mil-v-sedle-1975/5abf6e1c00c8b",
-      "upload_title": "700 mil v sedle (1975)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 114.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 22194,
       "cr_slug": "foxy-brown",
       "title": "Foxy Brown",
@@ -451255,16 +451238,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 22234,
-      "cr_slug": "700-mil-v-sedle",
-      "title": "700 mil v sedle",
-      "year": 1975,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:14:42Z"
-    },
     {
       "cr_film_id": 34853,
       "cr_slug": "karambol",
