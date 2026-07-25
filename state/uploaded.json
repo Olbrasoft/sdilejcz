@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:46:54Z",
+  "last_updated": "2026-07-25T08:47:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -428106,6 +428106,30 @@
         "upload_sec": 43.3,
         "total_sec": 203.7
       }
+    },
+    {
+      "cr_film_id": 324,
+      "cr_slug": "avengers",
+      "title": "Avengers",
+      "year": 2012,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "081a63c1553cc3f6",
+      "source_url": "https://prehraj.to/avangers-2012/081a63c1553cc3f6",
+      "source_title": "Avangers (2012)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34721530/avengers-2012-cz-dabing.mp4",
+      "sdilej_name": "Avengers (2012) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T08:47:03Z",
+      "status": "uploaded",
+      "size_bytes": 752425642,
+      "worker_id": "worker-2-30150182076",
+      "timing": {
+        "resolve_sec": 3.2,
+        "download_sec": 37.7,
+        "upload_sec": 100.6,
+        "total_sec": 152.0
+      }
     }
   ],
   "failed_attempts": [
@@ -442356,44 +442380,6 @@
       }
     },
     {
-      "cr_film_id": 324,
-      "cr_slug": "avengers",
-      "title": "Avengers",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/avengers-2012-cz-dabing-hd/218d37c927478b63",
-      "failed_at": "2026-07-25T08:44:33Z",
-      "first_failed_at": "2026-07-25T08:44:33Z",
-      "attempt_count": 1,
-      "upload_id": "218d37c927478b63",
-      "source_url": "https://prehraj.to/avengers-2012-cz-dabing-hd/218d37c927478b63",
-      "upload_title": "Avengers 2012 CZ dabing HD",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.1
-      }
-    },
-    {
-      "cr_film_id": 324,
-      "cr_slug": "avengers",
-      "title": "Avengers",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/avengers-2012-1080p-cz-mp4/8f5d07db888f86ce",
-      "failed_at": "2026-07-25T08:44:39Z",
-      "first_failed_at": "2026-07-25T08:44:39Z",
-      "attempt_count": 1,
-      "upload_id": "8f5d07db888f86ce",
-      "source_url": "https://prehraj.to/avengers-2012-1080p-cz-mp4/8f5d07db888f86ce",
-      "upload_title": "Avengers 2012 1080p CZ.mp4",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 2.4
-      }
-    },
-    {
       "cr_film_id": 33443,
       "cr_slug": "eddie-namesicny-kanibal",
       "title": "Eddie - náměsíčný kanibal",
@@ -442416,16 +442402,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 324,
-      "cr_slug": "avengers",
-      "title": "Avengers",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:44:29Z"
-    },
     {
       "cr_film_id": 27777,
       "cr_slug": "unaveni-sluncem-3-citadela",
