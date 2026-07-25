@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T18:24:09Z",
+  "last_updated": "2026-07-25T18:25:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -458417,6 +458417,27 @@
         "download_sec": 77.1,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 10361,
+      "cr_slug": "helloween",
+      "title": "Helloween",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T18:25:21Z",
+      "first_failed_at": "2026-07-25T18:25:21Z",
+      "attempt_count": 1,
+      "upload_id": "bdb328b3edf243b5",
+      "source_url": "https://prehraj.to/helloween-2025-cz-titulky-1080p-mkv/bdb328b3edf243b5",
+      "upload_title": "Helloween (2025) CZ Titulky 1080p.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 48.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -458439,16 +458460,6 @@
       "worker_id": "worker-1-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T18:23:30Z"
-    },
-    {
-      "cr_film_id": 10361,
-      "cr_slug": "helloween",
-      "title": "Helloween",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T18:23:58Z"
     },
     {
       "cr_film_id": 6146,
