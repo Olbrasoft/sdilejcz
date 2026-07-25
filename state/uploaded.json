@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T07:32:53Z",
+  "last_updated": "2026-07-25T07:33:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -440717,6 +440717,26 @@
         "download_sec": 302.8,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 1396,
+      "cr_slug": "osma-trida",
+      "title": "Osmá třída",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T07:33:38Z",
+      "first_failed_at": "2026-07-25T07:33:38Z",
+      "attempt_count": 1,
+      "upload_id": "23336e7de24ad304",
+      "source_url": "https://prehraj.to/osma-trida-2018-cz-dab-1080p/23336e7de24ad304",
+      "upload_title": "Osmá třída 2018 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 355.9
+      }
     }
   ],
   "in_progress": [
@@ -440729,16 +440749,6 @@
       "worker_id": "worker-4-30138816524",
       "run_id": "30138816524",
       "reserved_at": "2026-07-25T07:19:48Z"
-    },
-    {
-      "cr_film_id": 1396,
-      "cr_slug": "osma-trida",
-      "title": "Osmá třída",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T07:27:37Z"
     },
     {
       "cr_film_id": 30832,
