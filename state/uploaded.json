@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T22:46:13Z",
+  "last_updated": "2026-07-25T22:47:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -460280,25 +460280,6 @@
       }
     },
     {
-      "cr_film_id": 9176,
-      "cr_slug": "v-bezvedomi",
-      "title": "V bezvědomí",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Flights-out-2024-cz-titulky-1080p-fullhd%2F65d097f1e2213 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a770a990>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/lights-out-2024-cz-titulky-1080p-fullhd/65d097f1e2213",
-      "failed_at": "2026-07-25T22:41:28Z",
-      "first_failed_at": "2026-07-25T22:41:28Z",
-      "attempt_count": 1,
-      "upload_id": "65d097f1e2213",
-      "source_url": "https://prehraj.to/lights-out-2024-cz-titulky-1080p-fullhd/65d097f1e2213",
-      "upload_title": "Lights Out (2024) CZ Titulky 1080p (FullHD)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.6
-      }
-    },
-    {
       "cr_film_id": 31374,
       "cr_slug": "un-hipster-en-la-espana-vacia",
       "title": "Un hipster en la España vacía",
@@ -460315,6 +460296,27 @@
       "permanent": false,
       "timing": {
         "resolve_sec": 254.6
+      }
+    },
+    {
+      "cr_film_id": 9176,
+      "cr_slug": "v-bezvedomi",
+      "title": "V bezvědomí",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T22:47:38Z",
+      "first_failed_at": "2026-07-25T22:41:28Z",
+      "attempt_count": 2,
+      "upload_id": "65d097f1e2213",
+      "source_url": "https://prehraj.to/lights-out-2024-cz-titulky-1080p-fullhd/65d097f1e2213",
+      "upload_title": "Lights Out (2024) CZ Titulky 1080p (FullHD)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 71.6,
+        "upload_sec": 30.0
       }
     }
   ],
@@ -460338,16 +460340,6 @@
       "worker_id": "worker-1-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T22:36:37Z"
-    },
-    {
-      "cr_film_id": 9176,
-      "cr_slug": "v-bezvedomi",
-      "title": "V bezvědomí",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T22:45:51Z"
     },
     {
       "cr_film_id": 36991,
