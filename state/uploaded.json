@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T02:32:24Z",
+  "last_updated": "2026-07-25T02:34:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -431991,6 +431991,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 35389,
+      "cr_slug": "frauen-die-prosecco-trinken",
+      "title": "Frauen, die Prosecco trinken",
+      "year": 2001,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T02:34:03Z",
+      "first_failed_at": "2026-07-25T02:34:03Z",
+      "attempt_count": 1,
+      "upload_id": "5ab9b649c0221",
+      "source_url": "https://prehraj.to/zeny-co-piji-prosecco-2001/5ab9b649c0221",
+      "upload_title": "Ženy, co pijí prosecco (2001)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.8,
+        "download_sec": 70.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -432013,16 +432034,6 @@
       "worker_id": "worker-3-30126678495",
       "run_id": "30126678495",
       "reserved_at": "2026-07-25T02:31:45Z"
-    },
-    {
-      "cr_film_id": 35389,
-      "cr_slug": "frauen-die-prosecco-trinken",
-      "title": "Frauen, die Prosecco trinken",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T02:32:11Z"
     },
     {
       "cr_film_id": 35390,
