@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T10:18:55Z",
+  "last_updated": "2026-07-25T10:19:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -431298,6 +431298,30 @@
         "upload_sec": 31.5,
         "total_sec": 46.7
       }
+    },
+    {
+      "cr_film_id": 7761,
+      "cr_slug": "alexander-veliky",
+      "title": "Alexander Veliký",
+      "year": 2004,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "61b601665a4a0",
+      "source_url": "https://prehraj.to/alexander-veliky-alexander-2004-cz-en-1080phd/61b601665a4a0",
+      "source_title": "Alexander Veliký_Alexander (2004)(CZ_EN)[1080pHD]",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34722007/alexander-veliky-2004-cz-dabing.mp4",
+      "sdilej_name": "Alexander Veliký (2004) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T10:19:42Z",
+      "status": "uploaded",
+      "size_bytes": 4614565913,
+      "worker_id": "worker-1-30150182076",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 204.8,
+        "upload_sec": 609.7,
+        "total_sec": 816.6
+      }
     }
   ],
   "failed_attempts": [
@@ -445466,27 +445490,6 @@
       }
     },
     {
-      "cr_film_id": 7761,
-      "cr_slug": "alexander-veliky",
-      "title": "Alexander Veliký",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-      "failed_at": "2026-07-25T10:04:29Z",
-      "first_failed_at": "2026-07-25T10:04:29Z",
-      "attempt_count": 1,
-      "upload_id": "37732fc9e0b52b1b",
-      "source_url": "https://prehraj.to/alexander-veliky-2004-cz-dab-1080p/37732fc9e0b52b1b",
-      "upload_title": "Alexander Veliký 2004 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 162.3,
-        "upload_sec": 0.0
-      }
-    },
-    {
       "cr_film_id": 24473,
       "cr_slug": "divoka-krev",
       "title": "Divoká krev",
@@ -445508,16 +445511,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 7761,
-      "cr_slug": "alexander-veliky",
-      "title": "Alexander Veliký",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T10:06:03Z"
-    },
     {
       "cr_film_id": 13170,
       "cr_slug": "kostka-2",
