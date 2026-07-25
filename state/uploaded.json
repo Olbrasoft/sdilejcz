@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T20:21:36Z",
+  "last_updated": "2026-07-25T20:21:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459010,25 +459010,6 @@
       }
     },
     {
-      "cr_film_id": 15714,
-      "cr_slug": "das-verschwinden-des-josef-mengele",
-      "title": "Das Verschwinden des Josef Mengele",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fzmizeni-josefa-mengeleho-das-verschwinden-des-josef-mengele-2025-cz-tit-mkv%2F1d6bed5d4174634f (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a6044650>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/zmizeni-josefa-mengeleho-das-verschwinden-des-josef-mengele-2025-cz-tit-mkv/1d6bed5d4174634f",
-      "failed_at": "2026-07-25T19:52:25Z",
-      "first_failed_at": "2026-07-25T19:52:25Z",
-      "attempt_count": 1,
-      "upload_id": "1d6bed5d4174634f",
-      "source_url": "https://prehraj.to/zmizeni-josefa-mengeleho-das-verschwinden-des-josef-mengele-2025-cz-tit-mkv/1d6bed5d4174634f",
-      "upload_title": "Zmizení Josefa Mengeleho - Das Verschwinden des Josef Mengele (2025) CZ tit.mkv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.6
-      }
-    },
-    {
       "cr_film_id": 16300,
       "cr_slug": "dark-nuns",
       "title": "Dark Nuns",
@@ -459161,6 +459142,27 @@
         "resolve_sec": 1.5,
         "download_sec": 3602.5
       }
+    },
+    {
+      "cr_film_id": 15714,
+      "cr_slug": "das-verschwinden-des-josef-mengele",
+      "title": "Das Verschwinden des Josef Mengele",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T20:21:48Z",
+      "first_failed_at": "2026-07-25T19:52:25Z",
+      "attempt_count": 2,
+      "upload_id": "1d6bed5d4174634f",
+      "source_url": "https://prehraj.to/zmizeni-josefa-mengeleho-das-verschwinden-des-josef-mengele-2025-cz-tit-mkv/1d6bed5d4174634f",
+      "upload_title": "Zmizení Josefa Mengeleho - Das Verschwinden des Josef Mengele (2025) CZ tit.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 318.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -459183,16 +459185,6 @@
       "worker_id": "worker-1-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T20:04:37Z"
-    },
-    {
-      "cr_film_id": 15714,
-      "cr_slug": "das-verschwinden-des-josef-mengele",
-      "title": "Das Verschwinden des Josef Mengele",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T20:15:53Z"
     },
     {
       "cr_film_id": 34409,
