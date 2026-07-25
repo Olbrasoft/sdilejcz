@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T01:59:32Z",
+  "last_updated": "2026-07-25T01:59:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -417738,6 +417738,30 @@
         "upload_sec": 76.4,
         "total_sec": 107.1
       }
+    },
+    {
+      "cr_film_id": 35160,
+      "cr_slug": "kral-komiku",
+      "title": "Král komiků",
+      "year": 1963,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5abf1bcee9ec0",
+      "source_url": "https://prehraj.to/kral-komiku-1963/5abf1bcee9ec0",
+      "source_title": "Král komiků (1963)",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34720339/kral-komiku-1963-cz.mp4",
+      "sdilej_name": "Král komiků (1963) CZ.mp4",
+      "uploaded_at": "2026-07-25T01:59:54Z",
+      "status": "uploaded",
+      "size_bytes": 1477067813,
+      "worker_id": "worker-4-30126678495",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 84.3,
+        "upload_sec": 200.7,
+        "total_sec": 286.8
+      }
     }
   ],
   "failed_attempts": [
@@ -430745,27 +430769,6 @@
       }
     },
     {
-      "cr_film_id": 35160,
-      "cr_slug": "kral-komiku",
-      "title": "Král komiků",
-      "year": 1963,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T01:24:25Z",
-      "first_failed_at": "2026-07-25T01:24:25Z",
-      "attempt_count": 1,
-      "upload_id": "5abf1bcee9ec0",
-      "source_url": "https://prehraj.to/kral-komiku-1963/5abf1bcee9ec0",
-      "upload_title": "Král komiků (1963)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 83.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35177,
       "cr_slug": "bad-25",
       "title": "Bad 25",
@@ -430906,16 +430909,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 35160,
-      "cr_slug": "kral-komiku",
-      "title": "Král komiků",
-      "year": 1963,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T01:55:04Z"
-    },
     {
       "cr_film_id": 35229,
       "cr_slug": "mrak",
