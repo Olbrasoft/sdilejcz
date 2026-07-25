@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T20:40:30Z",
+  "last_updated": "2026-07-25T20:41:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459266,6 +459266,25 @@
       "timing": {
         "resolve_sec": 254.9
       }
+    },
+    {
+      "cr_film_id": 15734,
+      "cr_slug": "bloat",
+      "title": "Bloat",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fbloat-2025-hd-cz-tit-mp4%2F67cdb5ec95aa1 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a71a3ce0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/bloat-2025-hd-cz-tit-mp4/67cdb5ec95aa1",
+      "failed_at": "2026-07-25T20:41:06Z",
+      "first_failed_at": "2026-07-25T20:41:06Z",
+      "attempt_count": 1,
+      "upload_id": "67cdb5ec95aa1",
+      "source_url": "https://prehraj.to/bloat-2025-hd-cz-tit-mp4/67cdb5ec95aa1",
+      "upload_title": "Bloat_2025_HD_cz_tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.2
+      }
     }
   ],
   "in_progress": [
@@ -459298,16 +459317,6 @@
       "worker_id": "worker-4-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T20:36:28Z"
-    },
-    {
-      "cr_film_id": 15734,
-      "cr_slug": "bloat",
-      "title": "Bloat",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T20:36:48Z"
     },
     {
       "cr_film_id": 34409,
