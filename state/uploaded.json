@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T07:36:34Z",
+  "last_updated": "2026-07-25T07:38:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -426618,6 +426618,30 @@
         "upload_sec": 248.8,
         "total_sec": 991.7
       }
+    },
+    {
+      "cr_film_id": 7313,
+      "cr_slug": "jsem-bozska",
+      "title": "Jsem božská",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "a0810c6b33903316",
+      "source_url": "https://prehraj.to/jsem-bozska-2018-usa-chn-komedie-romanticky/a0810c6b33903316",
+      "source_title": "Jsem bozska-2018,USA,CHN-komedie,romanticky",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34721315/jsem-bozska-2018-cz-dabing.mp4",
+      "sdilej_name": "Jsem božská (2018) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T07:38:42Z",
+      "status": "uploaded",
+      "size_bytes": 942156838,
+      "worker_id": "worker-4-30138816524",
+      "timing": {
+        "resolve_sec": 2.4,
+        "download_sec": 28.4,
+        "upload_sec": 94.3,
+        "total_sec": 129.4
+      }
     }
   ],
   "failed_attempts": [
@@ -440805,25 +440829,6 @@
         "resolve_sec": 1.1,
         "download_sec": 71.5
       }
-    },
-    {
-      "cr_film_id": 7313,
-      "cr_slug": "jsem-bozska",
-      "title": "Jsem božská",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/jsem-bozska-2018-cz-dab-530p/bdf55df9346d6ac7",
-      "failed_at": "2026-07-25T07:36:34Z",
-      "first_failed_at": "2026-07-25T07:36:34Z",
-      "attempt_count": 1,
-      "upload_id": "bdf55df9346d6ac7",
-      "source_url": "https://prehraj.to/jsem-bozska-2018-cz-dab-530p/bdf55df9346d6ac7",
-      "upload_title": "Jsem božská 2018 CZ dab 530p",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
     }
   ],
   "in_progress": [
@@ -440856,16 +440861,6 @@
       "worker_id": "worker-1-30138816524",
       "run_id": "30138816524",
       "reserved_at": "2026-07-25T07:34:37Z"
-    },
-    {
-      "cr_film_id": 7313,
-      "cr_slug": "jsem-bozska",
-      "title": "Jsem božská",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T07:36:30Z"
     }
   ]
 }
