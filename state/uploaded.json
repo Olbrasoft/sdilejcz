@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T20:18:51Z",
+  "last_updated": "2026-07-25T20:21:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459141,6 +459141,26 @@
       "timing": {
         "resolve_sec": 254.1
       }
+    },
+    {
+      "cr_film_id": 31531,
+      "cr_slug": "dollhouse",
+      "title": "Dollhouse",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3599325 milliseconds with 1687514705 out of 2338847891 bytes received",
+      "failed_at": "2026-07-25T20:21:29Z",
+      "first_failed_at": "2026-07-25T20:21:29Z",
+      "attempt_count": 1,
+      "upload_id": "5e09e7da0b609dfc",
+      "source_url": "https://prehraj.to/dollhouse-2025-cztitulky/5e09e7da0b609dfc",
+      "upload_title": "Dollhouse (2025) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 3602.5
+      }
     }
   ],
   "in_progress": [
@@ -459153,16 +459173,6 @@
       "worker_id": "worker-2-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T15:12:12Z"
-    },
-    {
-      "cr_film_id": 31531,
-      "cr_slug": "dollhouse",
-      "title": "Dollhouse",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T19:21:18Z"
     },
     {
       "cr_film_id": 7124,
