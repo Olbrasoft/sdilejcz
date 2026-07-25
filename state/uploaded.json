@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T23:00:33Z",
+  "last_updated": "2026-07-25T23:02:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -460381,16 +460381,18 @@
       "year": 2024,
       "sktorrent_id": null,
       "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fjiu-long-cheng-zhai-wei-cheng-2024-cz-titulky-1080p%2F671a775acfec8 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a665aae0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/jiu-long-cheng-zhai-wei-cheng-2024-cz-titulky-1080p/671a775acfec8",
-      "failed_at": "2026-07-25T22:59:08Z",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T23:02:36Z",
       "first_failed_at": "2026-07-25T22:59:08Z",
-      "attempt_count": 1,
+      "attempt_count": 2,
       "upload_id": "671a775acfec8",
       "source_url": "https://prehraj.to/jiu-long-cheng-zhai-wei-cheng-2024-cz-titulky-1080p/671a775acfec8",
       "upload_title": "Jiu long cheng zhai wei cheng (2024) CZ Titulky 1080p",
       "permanent": false,
       "timing": {
-        "resolve_sec": 254.5
+        "resolve_sec": 1.4,
+        "download_sec": 88.6,
+        "upload_sec": 30.0
       }
     }
   ],
@@ -460434,16 +460436,6 @@
       "worker_id": "worker-2-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T22:59:13Z"
-    },
-    {
-      "cr_film_id": 2516,
-      "cr_slug": "jiu-long-cheng-zhai-wei-cheng",
-      "title": "Twilight of the Warriors: Walled In",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T23:00:33Z"
     }
   ]
 }
