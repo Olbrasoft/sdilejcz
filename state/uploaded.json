@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T07:59:09Z",
+  "last_updated": "2026-07-25T08:02:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -441293,19 +441293,30 @@
         "download_sec": 302.8,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16610,
       "cr_slug": "virtualni-revoluce",
       "title": "Virtuální revoluce",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T07:55:42Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T08:02:01Z",
+      "first_failed_at": "2026-07-25T08:02:01Z",
+      "attempt_count": 1,
+      "upload_id": "5eedab8676023",
+      "source_url": "https://prehraj.to/virtualni-revoluce-sci-fi-2016-cz-dabing/5eedab8676023",
+      "upload_title": "Virtualni-revoluce-(sci-fi)-(2016)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 343.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17482,
       "cr_slug": "pobrezi-smrti",
