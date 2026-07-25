@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:24:23Z",
+  "last_updated": "2026-07-25T08:24:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -441842,19 +441842,29 @@
         "download_sec": 177.7,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 28522,
       "cr_slug": "seal-team-8-za-nepratelskou-linii",
       "title": "Seal Team 8: Za nepřátelskou linií",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:19:54Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T08:24:28Z",
+      "first_failed_at": "2026-07-25T08:24:28Z",
+      "attempt_count": 1,
+      "upload_id": "61c25e70c566b",
+      "source_url": "https://prehraj.to/seal-team-8-za-nepratelskou-linii-cz-dabing-akcni-valecny-2014/61c25e70c566b",
+      "upload_title": "seal-team-8-za-nepratelskou-linii-cz-dabing-akcni-valecny-2014",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 3.8,
+        "download_sec": 260.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3543,
       "cr_slug": "pachut-pomsty",
