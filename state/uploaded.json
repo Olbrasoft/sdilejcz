@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T20:04:37Z",
+  "last_updated": "2026-07-25T20:05:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459060,6 +459060,25 @@
       "timing": {
         "resolve_sec": 254.8
       }
+    },
+    {
+      "cr_film_id": 28358,
+      "cr_slug": "code-3",
+      "title": "Code 3",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fcode-3-2025-cz-titulky-1080p%2F68ef3188252ee (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a5984da0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/code-3-2025-cz-titulky-1080p/68ef3188252ee",
+      "failed_at": "2026-07-25T20:05:36Z",
+      "first_failed_at": "2026-07-25T20:05:36Z",
+      "attempt_count": 1,
+      "upload_id": "68ef3188252ee",
+      "source_url": "https://prehraj.to/code-3-2025-cz-titulky-1080p/68ef3188252ee",
+      "upload_title": "Code 3 (2025) CZ Titulky 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.6
+      }
     }
   ],
   "in_progress": [
@@ -459092,16 +459111,6 @@
       "worker_id": "worker-3-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T19:39:55Z"
-    },
-    {
-      "cr_film_id": 28358,
-      "cr_slug": "code-3",
-      "title": "Code 3",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T20:01:18Z"
     },
     {
       "cr_film_id": 7124,
