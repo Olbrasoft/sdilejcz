@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T21:11:57Z",
+  "last_updated": "2026-07-25T21:16:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459300,25 +459300,6 @@
       }
     },
     {
-      "cr_film_id": 16001,
-      "cr_slug": "birthrite",
-      "title": "Birthrite",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fbirthrite-2025-hd-cz-tit-mp4%2F689b6b66ab67b (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1b21735f0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/birthrite-2025-hd-cz-tit-mp4/689b6b66ab67b",
-      "failed_at": "2026-07-25T20:45:29Z",
-      "first_failed_at": "2026-07-25T20:45:29Z",
-      "attempt_count": 1,
-      "upload_id": "689b6b66ab67b",
-      "source_url": "https://prehraj.to/birthrite-2025-hd-cz-tit-mp4/689b6b66ab67b",
-      "upload_title": "Birthrite_2025_HD_cz_tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.6
-      }
-    },
-    {
       "cr_film_id": 34391,
       "cr_slug": "beauty-from-pain",
       "title": "Beauty from Pain",
@@ -459452,6 +459433,27 @@
       "timing": {
         "resolve_sec": 254.6
       }
+    },
+    {
+      "cr_film_id": 16001,
+      "cr_slug": "birthrite",
+      "title": "Birthrite",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T21:16:00Z",
+      "first_failed_at": "2026-07-25T20:45:29Z",
+      "attempt_count": 2,
+      "upload_id": "689b6b66ab67b",
+      "source_url": "https://prehraj.to/birthrite-2025-hd-cz-tit-mp4/689b6b66ab67b",
+      "upload_title": "Birthrite_2025_HD_cz_tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 654.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -459474,16 +459476,6 @@
       "worker_id": "worker-4-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T20:54:30Z"
-    },
-    {
-      "cr_film_id": 16001,
-      "cr_slug": "birthrite",
-      "title": "Birthrite",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T21:04:30Z"
     },
     {
       "cr_film_id": 34391,
