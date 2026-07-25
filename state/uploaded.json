@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T23:10:19Z",
+  "last_updated": "2026-07-25T23:12:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -460522,18 +460522,6 @@
         "download_sec": 88.6,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
-    {
-      "cr_film_id": 37216,
-      "cr_slug": "el-susurro",
-      "title": "El Susurro",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T15:12:12Z"
     },
     {
       "cr_film_id": 31418,
@@ -460541,10 +460529,21 @@
       "title": "The Shamrock Spitfire",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T23:08:02Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fthe-shamrock-spitfire-2024-cz-titulky-1080p-mp4%2F6661d3ab5728e (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a71af890>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/the-shamrock-spitfire-2024-cz-titulky-1080p-mp4/6661d3ab5728e",
+      "failed_at": "2026-07-25T23:12:22Z",
+      "first_failed_at": "2026-07-25T23:12:22Z",
+      "attempt_count": 1,
+      "upload_id": "6661d3ab5728e",
+      "source_url": "https://prehraj.to/the-shamrock-spitfire-2024-cz-titulky-1080p-mp4/6661d3ab5728e",
+      "upload_title": "The Shamrock Spitfire 2024 CZ titulky 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34137,
       "cr_slug": "the-seeding",
