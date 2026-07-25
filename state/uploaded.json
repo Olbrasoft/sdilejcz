@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T11:28:56Z",
+  "last_updated": "2026-07-25T11:29:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -447842,6 +447842,27 @@
       "timing": {
         "resolve_sec": 1.2
       }
+    },
+    {
+      "cr_film_id": 9496,
+      "cr_slug": "freddyho-smrt-posledni-nocni-mura",
+      "title": "Freddyho smrt – Poslední noční můra",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T11:29:00Z",
+      "first_failed_at": "2026-07-25T11:29:00Z",
+      "attempt_count": 1,
+      "upload_id": "604ee823971a0",
+      "source_url": "https://prehraj.to/nocni-mura-v-elm-street-6-1991-cz-dabing-horor-avi-by-05m05/604ee823971a0",
+      "upload_title": "Nocni-mura-v-Elm-Street-6-1991-CZ-dabing-horor-avi-by+05m05",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 76.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -447864,16 +447885,6 @@
       "worker_id": "worker-3-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T11:26:49Z"
-    },
-    {
-      "cr_film_id": 9496,
-      "cr_slug": "freddyho-smrt-posledni-nocni-mura",
-      "title": "Freddyho smrt – Poslední noční můra",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T11:27:05Z"
     }
   ]
 }
