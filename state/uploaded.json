@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:59:46Z",
+  "last_updated": "2026-07-25T08:59:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -442784,19 +442784,30 @@
         "download_sec": 51.6,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15088,
       "cr_slug": "iris-spiknuti-zla",
       "title": "IRIS: Spiknutí zla",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:58:34Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T08:59:56Z",
+      "first_failed_at": "2026-07-25T08:59:56Z",
+      "attempt_count": 1,
+      "upload_id": "586927032f7a2",
+      "source_url": "https://prehraj.to/iris-spiknuti-zla-cz-dabing-csfd-58-akcni/586927032f7a2",
+      "upload_title": "IRIS-Spiknuti-zla.cz-dabing.csfd-58-akcni..",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 38.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 27056,
       "cr_slug": "do-morku-kosti-2010",
