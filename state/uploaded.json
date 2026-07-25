@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T20:58:46Z",
+  "last_updated": "2026-07-25T21:01:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459268,25 +459268,6 @@
       }
     },
     {
-      "cr_film_id": 15734,
-      "cr_slug": "bloat",
-      "title": "Bloat",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fbloat-2025-hd-cz-tit-mp4%2F67cdb5ec95aa1 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a71a3ce0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/bloat-2025-hd-cz-tit-mp4/67cdb5ec95aa1",
-      "failed_at": "2026-07-25T20:41:06Z",
-      "first_failed_at": "2026-07-25T20:41:06Z",
-      "attempt_count": 1,
-      "upload_id": "67cdb5ec95aa1",
-      "source_url": "https://prehraj.to/bloat-2025-hd-cz-tit-mp4/67cdb5ec95aa1",
-      "upload_title": "Bloat_2025_HD_cz_tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.2
-      }
-    },
-    {
       "cr_film_id": 16001,
       "cr_slug": "birthrite",
       "title": "Birthrite",
@@ -459382,6 +459363,27 @@
       "timing": {
         "resolve_sec": 254.7
       }
+    },
+    {
+      "cr_film_id": 15734,
+      "cr_slug": "bloat",
+      "title": "Bloat",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T21:01:07Z",
+      "first_failed_at": "2026-07-25T20:41:06Z",
+      "attempt_count": 2,
+      "upload_id": "67cdb5ec95aa1",
+      "source_url": "https://prehraj.to/bloat-2025-hd-cz-tit-mp4/67cdb5ec95aa1",
+      "upload_title": "Bloat_2025_HD_cz_tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 603.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -459404,16 +459406,6 @@
       "worker_id": "worker-1-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T20:45:41Z"
-    },
-    {
-      "cr_film_id": 15734,
-      "cr_slug": "bloat",
-      "title": "Bloat",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T20:50:27Z"
     },
     {
       "cr_film_id": 15714,
