@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:17:30Z",
+  "last_updated": "2026-07-25T13:18:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -451231,6 +451231,27 @@
         "download_sec": 114.3,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 22194,
+      "cr_slug": "foxy-brown",
+      "title": "Foxy Brown",
+      "year": 1974,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T13:18:14Z",
+      "first_failed_at": "2026-07-25T13:18:14Z",
+      "attempt_count": 1,
+      "upload_id": "584ffcab64d9f",
+      "source_url": "https://prehraj.to/foxy-brownova-1974-cz-dabing/584ffcab64d9f",
+      "upload_title": "Foxy-Brownova-1974-CZ-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 33.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -451253,16 +451274,6 @@
       "worker_id": "worker-2-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T13:16:52Z"
-    },
-    {
-      "cr_film_id": 22194,
-      "cr_slug": "foxy-brown",
-      "title": "Foxy Brown",
-      "year": 1974,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:17:05Z"
     },
     {
       "cr_film_id": 22131,
