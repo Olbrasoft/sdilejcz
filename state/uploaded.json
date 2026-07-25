@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T11:11:11Z",
+  "last_updated": "2026-07-25T11:11:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -447250,6 +447250,25 @@
       "timing": {
         "resolve_sec": 3.3,
         "download_sec": 97.4
+      }
+    },
+    {
+      "cr_film_id": 37245,
+      "cr_slug": "house-party-3",
+      "title": "House Party 3",
+      "year": 1994,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/house-party-1990-1-cz-dab/c62f098b62ae4b17",
+      "failed_at": "2026-07-25T11:11:15Z",
+      "first_failed_at": "2026-07-25T11:11:15Z",
+      "attempt_count": 1,
+      "upload_id": "c62f098b62ae4b17",
+      "source_url": "https://prehraj.to/house-party-1990-1-cz-dab/c62f098b62ae4b17",
+      "upload_title": "House party (1990)-1-cz dab",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.9
       }
     }
   ],
