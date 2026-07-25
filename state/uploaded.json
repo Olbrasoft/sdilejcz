@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:10:45Z",
+  "last_updated": "2026-07-25T13:11:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -436818,6 +436818,30 @@
         "upload_sec": 128.2,
         "total_sec": 188.6
       }
+    },
+    {
+      "cr_film_id": 22313,
+      "cr_slug": "operace-daybreak",
+      "title": "Operace \"Daybreak\"",
+      "year": 1975,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6760201dad26e",
+      "source_url": "https://prehraj.to/operace-daybreak-1975-cz/6760201dad26e",
+      "source_title": "Operace-Daybreak-(1975)-CZ.",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34722730/operace-22daybreak-22-1975-cz-dabing.mp4",
+      "sdilej_name": "Operace %22Daybreak%22 (1975) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T13:11:22Z",
+      "status": "uploaded",
+      "size_bytes": 1572664008,
+      "worker_id": "worker-1-30150182076",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 75.1,
+        "upload_sec": 207.2,
+        "total_sec": 284.1
+      }
     }
   ],
   "failed_attempts": [
@@ -451024,26 +451048,6 @@
       }
     },
     {
-      "cr_film_id": 22313,
-      "cr_slug": "operace-daybreak",
-      "title": "Operace \"Daybreak\"",
-      "year": 1975,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-25T13:05:55Z",
-      "first_failed_at": "2026-07-25T13:05:55Z",
-      "attempt_count": 1,
-      "upload_id": "58552d693e993",
-      "source_url": "https://prehraj.to/operace-daybreak-1975-cz-dabing-martincz75/58552d693e993",
-      "upload_title": "Operace-Daybreak-(1975)-CZ-dabing-(martincz75)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 101.0
-      }
-    },
-    {
       "cr_film_id": 32015,
       "cr_slug": "zapadakov",
       "title": "Zapadákov",
@@ -451085,16 +451089,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 22313,
-      "cr_slug": "operace-daybreak",
-      "title": "Operace \"Daybreak\"",
-      "year": 1975,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:06:33Z"
-    },
     {
       "cr_film_id": 22217,
       "cr_slug": "spikesova-banda",
