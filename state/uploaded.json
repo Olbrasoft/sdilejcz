@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T05:53:45Z",
+  "last_updated": "2026-07-25T05:53:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -424722,6 +424722,30 @@
         "upload_sec": 67.9,
         "total_sec": 103.9
       }
+    },
+    {
+      "cr_film_id": 36907,
+      "cr_slug": "pongo-calling",
+      "title": "Pongo Calling",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "653f029c560e0",
+      "source_url": "https://prehraj.to/pongo-calling-2022-czdab/653f029c560e0",
+      "source_title": "Pongo Calling (2022) CZdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34721047/pongo-calling-2022-cz-dabing.mp4",
+      "sdilej_name": "Pongo Calling (2022) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T05:53:30Z",
+      "status": "uploaded",
+      "size_bytes": 2157989956,
+      "worker_id": "worker-2-30138816524",
+      "timing": {
+        "resolve_sec": 2.3,
+        "download_sec": 123.7,
+        "upload_sec": 280.5,
+        "total_sec": 406.9
+      }
     }
   ],
   "failed_attempts": [
@@ -437919,27 +437943,6 @@
       }
     },
     {
-      "cr_film_id": 36907,
-      "cr_slug": "pongo-calling",
-      "title": "Pongo Calling",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T05:15:55Z",
-      "first_failed_at": "2026-07-25T05:15:55Z",
-      "attempt_count": 1,
-      "upload_id": "653f029c560e0",
-      "source_url": "https://prehraj.to/pongo-calling-2022-czdab/653f029c560e0",
-      "upload_title": "Pongo Calling (2022) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 121.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 36956,
       "cr_slug": "superbraska",
       "title": "Superbráška",
@@ -438019,16 +438022,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 36907,
-      "cr_slug": "pongo-calling",
-      "title": "Pongo Calling",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T05:46:41Z"
-    },
     {
       "cr_film_id": 37149,
       "cr_slug": "liga-spravedlivych-trun-atlantidy",
