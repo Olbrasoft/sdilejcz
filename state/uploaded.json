@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T01:24:52Z",
+  "last_updated": "2026-07-25T01:26:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -416610,6 +416610,30 @@
         "upload_sec": 58.0,
         "total_sec": 84.6
       }
+    },
+    {
+      "cr_film_id": 35082,
+      "cr_slug": "tenhle-rok-to-vyjde",
+      "title": "Tenhle rok to vyjde",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "c78f2da574a1f534",
+      "source_url": "https://prehraj.to/tenhle-rok-to-vyjde-cz-dabing-mkv/c78f2da574a1f534",
+      "source_title": "Tenhle rok to vyjde CZ DABING.mkv",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34720222/tenhle-rok-to-vyjde-2021-cz-dabing.mp4",
+      "sdilej_name": "Tenhle rok to vyjde (2021) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T01:26:22Z",
+      "status": "uploaded",
+      "size_bytes": 2937669731,
+      "worker_id": "worker-2-30126678495",
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 136.4,
+        "upload_sec": 382.9,
+        "total_sec": 521.5
+      }
     }
   ],
   "failed_attempts": [
@@ -429680,27 +429704,6 @@
       }
     },
     {
-      "cr_film_id": 35082,
-      "cr_slug": "tenhle-rok-to-vyjde",
-      "title": "Tenhle rok to vyjde",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T01:16:13Z",
-      "first_failed_at": "2026-07-25T01:16:13Z",
-      "attempt_count": 1,
-      "upload_id": "558fefd1a066e725",
-      "source_url": "https://prehraj.to/tenhle-rok-to-vyjde-2020-cz-dab-1080p/558fefd1a066e725",
-      "upload_title": "Tenhle rok to vyjde 2020 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 84.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35157,
       "cr_slug": "af1-alle-for-en",
       "title": "AF1 (Alle for en)",
@@ -429744,16 +429747,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 35082,
-      "cr_slug": "tenhle-rok-to-vyjde",
-      "title": "Tenhle rok to vyjde",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T01:17:38Z"
-    },
     {
       "cr_film_id": 35158,
       "cr_slug": "top-gear-barmsky-special",
