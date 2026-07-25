@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:06:51Z",
+  "last_updated": "2026-07-25T13:07:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -436770,6 +436770,30 @@
         "upload_sec": 189.4,
         "total_sec": 260.1
       }
+    },
+    {
+      "cr_film_id": 33143,
+      "cr_slug": "anna-sestra-jany",
+      "title": "Anna, sestra Jany",
+      "year": 1976,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "37b5938bc627cf74",
+      "source_url": "https://prehraj.to/anna-sestra-jany-1975-cz-dabing/37b5938bc627cf74",
+      "source_title": "Anna, sestra Jany (1975) CZ dabing",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34722721/anna-sestra-jany-1976-cz-dabing.mp4",
+      "sdilej_name": "Anna, sestra Jany (1976) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T13:07:57Z",
+      "status": "uploaded",
+      "size_bytes": 1051167174,
+      "worker_id": "worker-4-30150182076",
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 38.5,
+        "upload_sec": 102.3,
+        "total_sec": 142.0
+      }
     }
   ],
   "failed_attempts": [
@@ -450976,26 +451000,6 @@
       }
     },
     {
-      "cr_film_id": 33143,
-      "cr_slug": "anna-sestra-jany",
-      "title": "Anna, sestra Jany",
-      "year": 1976,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-25T13:04:43Z",
-      "first_failed_at": "2026-07-25T13:04:43Z",
-      "attempt_count": 1,
-      "upload_id": "a687b3b434d00bce",
-      "source_url": "https://prehraj.to/anna-sestra-jany-1975-cz-dabing/a687b3b434d00bce",
-      "upload_title": "Anna, sestra Jany (1975) CZ dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 375.4
-      }
-    },
-    {
       "cr_film_id": 22313,
       "cr_slug": "operace-daybreak",
       "title": "Operace \"Daybreak\"",
@@ -451038,16 +451042,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 33143,
-      "cr_slug": "anna-sestra-jany",
-      "title": "Anna, sestra Jany",
-      "year": 1976,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:05:33Z"
-    },
     {
       "cr_film_id": 22234,
       "cr_slug": "700-mil-v-sedle",
