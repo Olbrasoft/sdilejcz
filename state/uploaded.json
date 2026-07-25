@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T10:50:27Z",
+  "last_updated": "2026-07-25T10:50:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -446525,26 +446525,6 @@
       }
     },
     {
-      "cr_film_id": 24473,
-      "cr_slug": "divoka-krev",
-      "title": "Divoká krev",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 18: curl: (18) transfer closed with 233592008 bytes remaining to read",
-      "failed_at": "2026-07-25T10:18:05Z",
-      "first_failed_at": "2026-07-25T10:18:05Z",
-      "attempt_count": 1,
-      "upload_id": "57eed0140ffb7",
-      "source_url": "https://prehraj.to/divoka-krev-2002-cz-dabing/57eed0140ffb7",
-      "upload_title": "Divoka-krev-2002-CZ-dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 116.2
-      }
-    },
-    {
       "cr_film_id": 32334,
       "cr_slug": "taurus",
       "title": "Taurus",
@@ -446604,6 +446584,26 @@
         "resolve_sec": 1.2,
         "download_sec": 91.8
       }
+    },
+    {
+      "cr_film_id": 24473,
+      "cr_slug": "divoka-krev",
+      "title": "Divoká krev",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 22: curl: (22) The requested URL returned error: 401",
+      "failed_at": "2026-07-25T10:50:34Z",
+      "first_failed_at": "2026-07-25T10:18:05Z",
+      "attempt_count": 2,
+      "upload_id": "57eed0140ffb7",
+      "source_url": "https://prehraj.to/divoka-krev-2002-cz-dabing/57eed0140ffb7",
+      "upload_title": "Divoka-krev-2002-CZ-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 79.4
+      }
     }
   ],
   "in_progress": [
@@ -446626,16 +446626,6 @@
       "worker_id": "worker-3-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T10:46:07Z"
-    },
-    {
-      "cr_film_id": 24473,
-      "cr_slug": "divoka-krev",
-      "title": "Divoká krev",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T10:49:08Z"
     },
     {
       "cr_film_id": 12332,
