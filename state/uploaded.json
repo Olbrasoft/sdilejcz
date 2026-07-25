@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T07:33:43Z",
+  "last_updated": "2026-07-25T07:34:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -440737,6 +440737,26 @@
         "resolve_sec": 1.0,
         "download_sec": 355.9
       }
+    },
+    {
+      "cr_film_id": 5509,
+      "cr_slug": "nicitelka",
+      "title": "Ničitelka",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T07:34:09Z",
+      "first_failed_at": "2026-07-25T07:34:09Z",
+      "attempt_count": 1,
+      "upload_id": "6710fbe65fc3a",
+      "source_url": "https://prehraj.to/nicitelka-2018-destroyer-czdub-bluray/6710fbe65fc3a",
+      "upload_title": "Ničitelka (2018) Destroyer CZdub ✿ BluRay",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 71.5
+      }
     }
   ],
   "in_progress": [
@@ -440759,16 +440779,6 @@
       "worker_id": "worker-1-30138816524",
       "run_id": "30138816524",
       "reserved_at": "2026-07-25T07:28:47Z"
-    },
-    {
-      "cr_film_id": 5509,
-      "cr_slug": "nicitelka",
-      "title": "Ničitelka",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T07:32:53Z"
     },
     {
       "cr_film_id": 1326,
