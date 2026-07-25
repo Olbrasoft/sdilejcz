@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T11:13:47Z",
+  "last_updated": "2026-07-25T11:14:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -447318,6 +447318,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 12151,
+      "cr_slug": "hercules-a-amazonky",
+      "title": "Hercules a Amazonky",
+      "year": 1994,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T11:14:46Z",
+      "first_failed_at": "2026-07-25T11:14:46Z",
+      "attempt_count": 1,
+      "upload_id": "2dc00f775e1b58c7",
+      "source_url": "https://prehraj.to/hercules-a-amazonky-1994-cz-dab-1080p/2dc00f775e1b58c7",
+      "upload_title": "Hercules a Amazonky 1994 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 169.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -447340,16 +447361,6 @@
       "worker_id": "worker-2-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T11:09:50Z"
-    },
-    {
-      "cr_film_id": 12151,
-      "cr_slug": "hercules-a-amazonky",
-      "title": "Hercules a Amazonky",
-      "year": 1994,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T11:11:21Z"
     },
     {
       "cr_film_id": 23436,
