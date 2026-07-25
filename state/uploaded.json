@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:41:24Z",
+  "last_updated": "2026-07-25T08:43:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -442299,6 +442299,26 @@
         "resolve_sec": 1.0,
         "download_sec": 91.9
       }
+    },
+    {
+      "cr_film_id": 28010,
+      "cr_slug": "ghost",
+      "title": "Ghost",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T08:43:06Z",
+      "first_failed_at": "2026-07-25T08:43:06Z",
+      "attempt_count": 1,
+      "upload_id": "5c51d3facbed5",
+      "source_url": "https://prehraj.to/ghost-rider-2-cage-2012-cz-dabing/5c51d3facbed5",
+      "upload_title": "Ghost-Rider-2-(Cage)-(2012)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 97.6
+      }
     }
   ],
   "in_progress": [
@@ -442331,16 +442351,6 @@
       "worker_id": "worker-2-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T08:40:41Z"
-    },
-    {
-      "cr_film_id": 28010,
-      "cr_slug": "ghost",
-      "title": "Ghost",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:41:24Z"
     }
   ]
 }
