@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T07:09:07Z",
+  "last_updated": "2026-07-25T07:11:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -426186,6 +426186,30 @@
         "upload_sec": 91.9,
         "total_sec": 127.7
       }
+    },
+    {
+      "cr_film_id": 14260,
+      "cr_slug": "party-hard",
+      "title": "Párty Hárd",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "46adb953766fa2a7",
+      "source_url": "https://prehraj.to/party-hard-cz-2020/46adb953766fa2a7",
+      "source_title": "Párty Hard cz 2020",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34721235/party-hard-2019-cz-dabing.mp4",
+      "sdilej_name": "Párty Hárd (2019) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T07:11:11Z",
+      "status": "uploaded",
+      "size_bytes": 881202337,
+      "worker_id": "worker-3-30138816524",
+      "timing": {
+        "resolve_sec": 3.0,
+        "download_sec": 28.1,
+        "upload_sec": 90.3,
+        "total_sec": 125.4
+      }
     }
   ],
   "failed_attempts": [
@@ -440122,25 +440146,6 @@
       "timing": {
         "resolve_sec": 2.7
       }
-    },
-    {
-      "cr_film_id": 14260,
-      "cr_slug": "party-hard",
-      "title": "Párty Hárd",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/party-hard-2019-cz-dab-1080p/12ebaaeee9db9616",
-      "failed_at": "2026-07-25T07:09:07Z",
-      "first_failed_at": "2026-07-25T07:09:07Z",
-      "attempt_count": 1,
-      "upload_id": "12ebaaeee9db9616",
-      "source_url": "https://prehraj.to/party-hard-2019-cz-dab-1080p/12ebaaeee9db9616",
-      "upload_title": "Párty Hárd 2019 CZ dab 1080p",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.6
-      }
     }
   ],
   "in_progress": [
@@ -440173,16 +440178,6 @@
       "worker_id": "worker-4-30138816524",
       "run_id": "30138816524",
       "reserved_at": "2026-07-25T07:08:54Z"
-    },
-    {
-      "cr_film_id": 14260,
-      "cr_slug": "party-hard",
-      "title": "Párty Hárd",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T07:09:04Z"
     }
   ]
 }
