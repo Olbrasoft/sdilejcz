@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T19:21:45Z",
+  "last_updated": "2026-07-25T19:25:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -443202,6 +443202,30 @@
         "upload_sec": 120.5,
         "total_sec": 353.9
       }
+    },
+    {
+      "cr_film_id": 16313,
+      "cr_slug": "dolly",
+      "title": "Dolly",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5fb9df8dbfe7ccaf",
+      "source_url": "https://prehraj.to/dolly-2025-cztitulky/5fb9df8dbfe7ccaf",
+      "source_title": "Dolly 2025 CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34723962/dolly-2025-cz-titulky.mp4",
+      "sdilej_name": "Dolly (2025) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-25T19:25:00Z",
+      "status": "uploaded",
+      "size_bytes": 1350722982,
+      "worker_id": "worker-1-30170372789",
+      "timing": {
+        "resolve_sec": 2.3,
+        "download_sec": 52.0,
+        "upload_sec": 157.0,
+        "total_sec": 240.8
+      }
     }
   ],
   "failed_attempts": [
@@ -458718,44 +458742,6 @@
       }
     },
     {
-      "cr_film_id": 16313,
-      "cr_slug": "dolly",
-      "title": "Dolly",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/dolly-2025-1080p-cz-titulky-novinka-horor/0c2ed1a83733221d",
-      "failed_at": "2026-07-25T19:21:01Z",
-      "first_failed_at": "2026-07-25T19:21:01Z",
-      "attempt_count": 1,
-      "upload_id": "0c2ed1a83733221d",
-      "source_url": "https://prehraj.to/dolly-2025-1080p-cz-titulky-novinka-horor/0c2ed1a83733221d",
-      "upload_title": "Dolly 2025 1080P  CZ TITULKY NOVINKA HOROR",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 16313,
-      "cr_slug": "dolly",
-      "title": "Dolly",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/dolly-2025-1080p-webrip-x264-aac5-1-yts-bz/f25dc1e53a409c5c",
-      "failed_at": "2026-07-25T19:21:07Z",
-      "first_failed_at": "2026-07-25T19:21:07Z",
-      "attempt_count": 1,
-      "upload_id": "f25dc1e53a409c5c",
-      "source_url": "https://prehraj.to/dolly-2025-1080p-webrip-x264-aac5-1-yts-bz/f25dc1e53a409c5c",
-      "upload_title": "Dolly 2025 horor cz titulky",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 2.4
-      }
-    },
-    {
       "cr_film_id": 28891,
       "cr_slug": "dva-svety-jedno-prani",
       "title": "Dva světy, jedno přání",
@@ -458773,44 +458759,6 @@
       "timing": {
         "resolve_sec": 1.2,
         "download_sec": 83.2
-      }
-    },
-    {
-      "cr_film_id": 16313,
-      "cr_slug": "dolly",
-      "title": "Dolly",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/dolly-2025-cz-titulky-mkv/cb0c16e024686c1d",
-      "failed_at": "2026-07-25T19:21:21Z",
-      "first_failed_at": "2026-07-25T19:21:21Z",
-      "attempt_count": 1,
-      "upload_id": "cb0c16e024686c1d",
-      "source_url": "https://prehraj.to/dolly-2025-cz-titulky-mkv/cb0c16e024686c1d",
-      "upload_title": "Dolly (2025) CZ titulky.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 2.3
-      }
-    },
-    {
-      "cr_film_id": 16313,
-      "cr_slug": "dolly",
-      "title": "Dolly",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/dolly-2026-cz-titulky-avi/0e220df41690127b",
-      "failed_at": "2026-07-25T19:21:26Z",
-      "first_failed_at": "2026-07-25T19:21:26Z",
-      "attempt_count": 1,
-      "upload_id": "0e220df41690127b",
-      "source_url": "https://prehraj.to/dolly-2026-cz-titulky-avi/0e220df41690127b",
-      "upload_title": "Dolly-2026-CZ Titulky.avi",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
       }
     },
     {
@@ -458853,16 +458801,6 @@
       "worker_id": "worker-3-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T19:11:16Z"
-    },
-    {
-      "cr_film_id": 16313,
-      "cr_slug": "dolly",
-      "title": "Dolly",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T19:20:57Z"
     },
     {
       "cr_film_id": 31531,
