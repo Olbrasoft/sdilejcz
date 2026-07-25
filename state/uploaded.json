@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:10:30Z",
+  "last_updated": "2026-07-25T13:10:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -451062,19 +451062,29 @@
         "resolve_sec": 0.9,
         "download_sec": 130.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 22234,
       "cr_slug": "700-mil-v-sedle",
       "title": "700 mil v sedle",
       "year": 1975,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:06:01Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T13:10:38Z",
+      "first_failed_at": "2026-07-25T13:10:38Z",
+      "attempt_count": 1,
+      "upload_id": "609d323ce30a7",
+      "source_url": "https://prehraj.to/700-mil-v-sedle-western-1975-cz-dabing/609d323ce30a7",
+      "upload_title": "700 mil v sedle-(western)-(1975)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 243.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22313,
       "cr_slug": "operace-daybreak",
