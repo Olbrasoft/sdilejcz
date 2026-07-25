@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T01:46:03Z",
+  "last_updated": "2026-07-25T01:46:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -417234,6 +417234,30 @@
         "upload_sec": 60.0,
         "total_sec": 94.8
       }
+    },
+    {
+      "cr_film_id": 34880,
+      "cr_slug": "ucho",
+      "title": "Ucho",
+      "year": 1970,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "24ae718f15f32236",
+      "source_url": "https://prehraj.to/ucho-1970-cz-dab-1080p/24ae718f15f32236",
+      "source_title": "Ucho 1970 CZ dab 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34720289/ucho-1970-cz-dabing.mp4",
+      "sdilej_name": "Ucho (1970) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T01:46:53Z",
+      "status": "uploaded",
+      "size_bytes": 2444871351,
+      "worker_id": "worker-3-30126678495",
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 73.7,
+        "upload_sec": 242.5,
+        "total_sec": 320.1
+      }
     }
   ],
   "failed_attempts": [
@@ -430241,27 +430265,6 @@
       }
     },
     {
-      "cr_film_id": 34880,
-      "cr_slug": "ucho",
-      "title": "Ucho",
-      "year": 1970,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T01:11:06Z",
-      "first_failed_at": "2026-07-25T00:37:49Z",
-      "attempt_count": 2,
-      "upload_id": "24ae718f15f32236",
-      "source_url": "https://prehraj.to/ucho-1970-cz-dab-1080p/24ae718f15f32236",
-      "upload_title": "Ucho 1970 CZ dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 133.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35157,
       "cr_slug": "af1-alle-for-en",
       "title": "AF1 (Alle for en)",
@@ -430444,16 +430447,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 34880,
-      "cr_slug": "ucho",
-      "title": "Ucho",
-      "year": 1970,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T01:41:21Z"
-    },
     {
       "cr_film_id": 35198,
       "cr_slug": "drums-along-the-mohawk",
