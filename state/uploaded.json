@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T21:07:33Z",
+  "last_updated": "2026-07-25T21:09:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -443682,6 +443682,30 @@
         "upload_sec": 426.7,
         "total_sec": 1166.0
       }
+    },
+    {
+      "cr_film_id": 15734,
+      "cr_slug": "bloat",
+      "title": "Bloat",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "67d30fdaa370b",
+      "source_url": "https://prehraj.to/bloat-2025-cz-titulky-v-obraze/67d30fdaa370b",
+      "source_title": "Bloat 2025 cz titulky v obraze",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34724320/bloat-2025-cz-titulky.mp4",
+      "sdilej_name": "Bloat (2025) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-25T21:09:52Z",
+      "status": "uploaded",
+      "size_bytes": 1636039257,
+      "worker_id": "worker-1-30170372789",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 81.4,
+        "upload_sec": 187.3,
+        "total_sec": 270.2
+      }
     }
   ],
   "failed_attempts": [
@@ -459373,27 +459397,6 @@
       }
     },
     {
-      "cr_film_id": 15734,
-      "cr_slug": "bloat",
-      "title": "Bloat",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T21:01:07Z",
-      "first_failed_at": "2026-07-25T20:41:06Z",
-      "attempt_count": 2,
-      "upload_id": "67cdb5ec95aa1",
-      "source_url": "https://prehraj.to/bloat-2025-hd-cz-tit-mp4/67cdb5ec95aa1",
-      "upload_title": "Bloat_2025_HD_cz_tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 603.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 37002,
       "cr_slug": "attack-13",
       "title": "Attack 13",
@@ -459462,16 +459465,6 @@
       "worker_id": "worker-3-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T21:04:30Z"
-    },
-    {
-      "cr_film_id": 15734,
-      "cr_slug": "bloat",
-      "title": "Bloat",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T21:05:19Z"
     },
     {
       "cr_film_id": 35357,
