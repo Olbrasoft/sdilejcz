@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T11:02:41Z",
+  "last_updated": "2026-07-25T11:02:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -447015,19 +447015,30 @@
         "resolve_sec": 1.2,
         "download_sec": 92.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23628,
       "cr_slug": "operace-slon",
       "title": "Operace slon",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T11:01:37Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T11:02:52Z",
+      "first_failed_at": "2026-07-25T11:02:52Z",
+      "attempt_count": 1,
+      "upload_id": "583ffb3883373",
+      "source_url": "https://prehraj.to/operace-slon-operation-dumbo-drop-dvdrip-cz-dabing-1995/583ffb3883373",
+      "upload_title": "Operace-slon---Operation-Dumbo-Drop-DVDrip-CZ-dabing-1995",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 38.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34311,
       "cr_slug": "machri-1995",
