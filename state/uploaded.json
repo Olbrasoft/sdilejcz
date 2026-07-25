@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T23:41:59Z",
+  "last_updated": "2026-07-25T23:43:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -461016,19 +461016,28 @@
       "timing": {
         "resolve_sec": 254.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9467,
       "cr_slug": "the-demon-disorder",
       "title": "The Demon Disorder",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T23:39:13Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fthe-demon-disorder-2024-1080p-cz-titulky%2F66ec6cc36499d (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a71a22a0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/the-demon-disorder-2024-1080p-cz-titulky/66ec6cc36499d",
+      "failed_at": "2026-07-25T23:43:32Z",
+      "first_failed_at": "2026-07-25T23:43:32Z",
+      "attempt_count": 1,
+      "upload_id": "66ec6cc36499d",
+      "source_url": "https://prehraj.to/the-demon-disorder-2024-1080p-cz-titulky/66ec6cc36499d",
+      "upload_title": "The.Demon.Disorder.2024.1080p.cz titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31411,
       "cr_slug": "the-friend",
