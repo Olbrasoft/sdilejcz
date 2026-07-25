@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T21:04:30Z",
+  "last_updated": "2026-07-25T21:05:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -443658,6 +443658,30 @@
         "upload_sec": 137.2,
         "total_sec": 192.8
       }
+    },
+    {
+      "cr_film_id": 16546,
+      "cr_slug": "bodycam",
+      "title": "Bodycam",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "e3a8f33e852dd136",
+      "source_url": "https://prehraj.to/bodycam-2025-cz-tit-mkv/e3a8f33e852dd136",
+      "source_title": "Bodycam (2025) CZ tit.mkv",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34724301/bodycam-2025-cz-titulky.mp4",
+      "sdilej_name": "Bodycam (2025) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-25T21:05:10Z",
+      "status": "uploaded",
+      "size_bytes": 3748749027,
+      "worker_id": "worker-1-30170372789",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 737.3,
+        "upload_sec": 426.7,
+        "total_sec": 1166.0
+      }
     }
   ],
   "failed_attempts": [
@@ -459252,25 +459276,6 @@
       }
     },
     {
-      "cr_film_id": 16546,
-      "cr_slug": "bodycam",
-      "title": "Bodycam",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fbodycam-2025-cz-tit-mkv%2Fe3a8f33e852dd136 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1b1299760>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/bodycam-2025-cz-tit-mkv/e3a8f33e852dd136",
-      "failed_at": "2026-07-25T20:32:19Z",
-      "first_failed_at": "2026-07-25T20:32:19Z",
-      "attempt_count": 1,
-      "upload_id": "e3a8f33e852dd136",
-      "source_url": "https://prehraj.to/bodycam-2025-cz-tit-mkv/e3a8f33e852dd136",
-      "upload_title": "Bodycam (2025) CZ tit.mkv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 253.9
-      }
-    },
-    {
       "cr_film_id": 16001,
       "cr_slug": "birthrite",
       "title": "Birthrite",
@@ -459418,16 +459423,6 @@
       "worker_id": "worker-2-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T15:12:12Z"
-    },
-    {
-      "cr_film_id": 16546,
-      "cr_slug": "bodycam",
-      "title": "Bodycam",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T20:45:41Z"
     },
     {
       "cr_film_id": 15714,
