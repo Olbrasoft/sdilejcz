@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T01:05:03Z",
+  "last_updated": "2026-07-25T01:05:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -429267,6 +429267,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34997,
+      "cr_slug": "konto-separato",
+      "title": "Konto separato",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T01:05:55Z",
+      "first_failed_at": "2026-07-25T01:05:55Z",
+      "attempt_count": 1,
+      "upload_id": "d9688eb77be2facf",
+      "source_url": "https://prehraj.to/konto-separato-1997-czdabing/d9688eb77be2facf",
+      "upload_title": "Konto separato (1997) CZdabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 23.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -429289,16 +429310,6 @@
       "worker_id": "worker-1-30126678495",
       "run_id": "30126678495",
       "reserved_at": "2026-07-25T01:04:32Z"
-    },
-    {
-      "cr_film_id": 34997,
-      "cr_slug": "konto-separato",
-      "title": "Konto separato",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T01:04:57Z"
     },
     {
       "cr_film_id": 34998,
