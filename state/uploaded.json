@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T23:05:14Z",
+  "last_updated": "2026-07-25T23:06:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -444810,6 +444810,30 @@
         "upload_sec": 109.8,
         "total_sec": 147.9
       }
+    },
+    {
+      "cr_film_id": 26996,
+      "cr_slug": "turno-nocturno",
+      "title": "Turno nocturno",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "687ac630374f3",
+      "source_url": "https://prehraj.to/turno-nocturno-2024-cz-titulky/687ac630374f3",
+      "source_title": "Turno Nocturno (2024) CZ titulky",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34724637/turno-nocturno-2024-cz-titulky.mp4",
+      "sdilej_name": "Turno nocturno (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-25T23:06:51Z",
+      "status": "uploaded",
+      "size_bytes": 597480737,
+      "worker_id": "worker-3-30170372789",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 26.9,
+        "upload_sec": 65.9,
+        "total_sec": 94.1
+      }
     }
   ],
   "failed_attempts": [
@@ -460421,25 +460445,6 @@
         "download_sec": 88.6,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 26996,
-      "cr_slug": "turno-nocturno",
-      "title": "Turno nocturno",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fturno-nocturno-2024-cz-titulky%2F687ac630374f3 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1b29476b0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/turno-nocturno-2024-cz-titulky/687ac630374f3",
-      "failed_at": "2026-07-25T23:03:32Z",
-      "first_failed_at": "2026-07-25T23:03:32Z",
-      "attempt_count": 1,
-      "upload_id": "687ac630374f3",
-      "source_url": "https://prehraj.to/turno-nocturno-2024-cz-titulky/687ac630374f3",
-      "upload_title": "Turno Nocturno (2024) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.6
-      }
     }
   ],
   "in_progress": [
@@ -460482,16 +460487,6 @@
       "worker_id": "worker-2-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T23:03:38Z"
-    },
-    {
-      "cr_film_id": 26996,
-      "cr_slug": "turno-nocturno",
-      "title": "Turno nocturno",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T23:05:14Z"
     }
   ]
 }
