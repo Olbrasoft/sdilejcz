@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T09:11:57Z",
+  "last_updated": "2026-07-25T09:12:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -428898,6 +428898,30 @@
         "upload_sec": 59.2,
         "total_sec": 89.6
       }
+    },
+    {
+      "cr_film_id": 16610,
+      "cr_slug": "virtualni-revoluce",
+      "title": "Virtuální revoluce",
+      "year": 2016,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5eedab8676023",
+      "source_url": "https://prehraj.to/virtualni-revoluce-sci-fi-2016-cz-dabing/5eedab8676023",
+      "source_title": "Virtualni-revoluce-(sci-fi)-(2016)--cz-dabing",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34721668/virtualni-revoluce-2016-cz-dabing.mp4",
+      "sdilej_name": "Virtuální revoluce (2016) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T09:11:54Z",
+      "status": "uploaded",
+      "size_bytes": 1420487679,
+      "worker_id": "worker-3-30150182076",
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 84.5,
+        "upload_sec": 202.9,
+        "total_sec": 289.5
+      }
     }
   ],
   "failed_attempts": [
@@ -443026,26 +443050,6 @@
       }
     },
     {
-      "cr_film_id": 16610,
-      "cr_slug": "virtualni-revoluce",
-      "title": "Virtuální revoluce",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-25T08:36:27Z",
-      "first_failed_at": "2026-07-25T08:02:01Z",
-      "attempt_count": 2,
-      "upload_id": "5eedab8676023",
-      "source_url": "https://prehraj.to/virtualni-revoluce-sci-fi-2016-cz-dabing/5eedab8676023",
-      "upload_title": "Virtualni-revoluce-(sci-fi)-(2016)--cz-dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.7,
-        "download_sec": 248.9
-      }
-    },
-    {
       "cr_film_id": 28010,
       "cr_slug": "ghost",
       "title": "Ghost",
@@ -443169,16 +443173,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 16610,
-      "cr_slug": "virtualni-revoluce",
-      "title": "Virtuální revoluce",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T09:07:02Z"
-    },
     {
       "cr_film_id": 27138,
       "cr_slug": "desiva-predpoved",
