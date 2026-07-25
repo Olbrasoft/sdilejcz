@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T23:34:34Z",
+  "last_updated": "2026-07-25T23:34:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -460896,6 +460896,25 @@
       "timing": {
         "resolve_sec": 254.5
       }
+    },
+    {
+      "cr_film_id": 31150,
+      "cr_slug": "the-great-lillian-hall",
+      "title": "The Great Lillian Hall",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fthe-great-lillian-hall-2024-cz-titulky-1080p%2F676df7f6c33bd (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a7c376b0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/the-great-lillian-hall-2024-cz-titulky-1080p/676df7f6c33bd",
+      "failed_at": "2026-07-25T23:34:44Z",
+      "first_failed_at": "2026-07-25T23:34:44Z",
+      "attempt_count": 1,
+      "upload_id": "676df7f6c33bd",
+      "source_url": "https://prehraj.to/the-great-lillian-hall-2024-cz-titulky-1080p/676df7f6c33bd",
+      "upload_title": "The Great Lillian Hall 2024 CZ titulky 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.4
+      }
     }
   ],
   "in_progress": [
@@ -460908,16 +460927,6 @@
       "worker_id": "worker-4-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T23:29:59Z"
-    },
-    {
-      "cr_film_id": 31150,
-      "cr_slug": "the-great-lillian-hall",
-      "title": "The Great Lillian Hall",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T23:30:26Z"
     },
     {
       "cr_film_id": 7163,
