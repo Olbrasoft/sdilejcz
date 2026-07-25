@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T11:18:42Z",
+  "last_updated": "2026-07-25T11:19:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -447462,19 +447462,30 @@
         "resolve_sec": 1.2,
         "download_sec": 67.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23444,
       "cr_slug": "elitni-boj-byt-nejlepsi",
       "title": "Elitní boj: Být nejlepší",
       "year": 1993,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T11:17:55Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T11:19:20Z",
+      "first_failed_at": "2026-07-25T11:19:20Z",
+      "attempt_count": 1,
+      "upload_id": "588493e741557",
+      "source_url": "https://prehraj.to/elitni-boj-1993-vhs-rip-cz-dabing/588493e741557",
+      "upload_title": "Elitní-boj-(1993)-VHS-rip-CZ-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 48.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12061,
       "cr_slug": "beethoven-ii",
