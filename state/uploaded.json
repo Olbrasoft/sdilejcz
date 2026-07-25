@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T14:58:12Z",
+  "last_updated": "2026-07-25T14:59:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -454442,6 +454442,27 @@
         "download_sec": 49.2,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 16599,
+      "cr_slug": "pavana",
+      "title": "Pavana",
+      "year": 2026,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T14:59:59Z",
+      "first_failed_at": "2026-07-25T14:59:59Z",
+      "attempt_count": 1,
+      "upload_id": "ae7260a5ea5957b3",
+      "source_url": "https://prehraj.to/pabanneu-pavana-2026-cztitulky/ae7260a5ea5957b3",
+      "upload_title": "Pabanneu Pavana (2026) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 72.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -454474,16 +454495,6 @@
       "worker_id": "worker-3-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T14:57:59Z"
-    },
-    {
-      "cr_film_id": 16599,
-      "cr_slug": "pavana",
-      "title": "Pavana",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T14:58:12Z"
     }
   ]
 }
