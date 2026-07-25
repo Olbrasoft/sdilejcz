@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T22:23:40Z",
+  "last_updated": "2026-07-25T22:23:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -460034,6 +460034,25 @@
       "timing": {
         "resolve_sec": 254.6
       }
+    },
+    {
+      "cr_film_id": 34587,
+      "cr_slug": "what-you-wish-for",
+      "title": "What You Wish For",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fwhat-you-wish-for-2023-cz-tit-1080p%2F675024258d576 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a9942090>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/what-you-wish-for-2023-cz-tit-1080p/675024258d576",
+      "failed_at": "2026-07-25T22:23:50Z",
+      "first_failed_at": "2026-07-25T22:23:50Z",
+      "attempt_count": 1,
+      "upload_id": "675024258d576",
+      "source_url": "https://prehraj.to/what-you-wish-for-2023-cz-tit-1080p/675024258d576",
+      "upload_title": "What You Wish For 2023 CZ tit 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.4
+      }
     }
   ],
   "in_progress": [
@@ -460046,16 +460065,6 @@
       "worker_id": "worker-2-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T15:12:12Z"
-    },
-    {
-      "cr_film_id": 34587,
-      "cr_slug": "what-you-wish-for",
-      "title": "What You Wish For",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T22:19:13Z"
     },
     {
       "cr_film_id": 31536,
