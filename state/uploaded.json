@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T10:20:43Z",
+  "last_updated": "2026-07-25T10:21:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -445535,6 +445535,27 @@
         "resolve_sec": 1.4,
         "download_sec": 116.2
       }
+    },
+    {
+      "cr_film_id": 32334,
+      "cr_slug": "taurus",
+      "title": "Taurus",
+      "year": 2001,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T10:21:03Z",
+      "first_failed_at": "2026-07-25T10:21:03Z",
+      "attempt_count": 1,
+      "upload_id": "5668de50d0d4e",
+      "source_url": "https://prehraj.to/taurus-konec-sveta-sci-fi-2000-cz-dabing-ldandasova/5668de50d0d4e",
+      "upload_title": "Taurus--Konec-sveta--sci-fi-2000-cz-dabing(ldandasova)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.9,
+        "download_sec": 29.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -445547,16 +445568,6 @@
       "worker_id": "worker-3-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T10:14:17Z"
-    },
-    {
-      "cr_film_id": 32334,
-      "cr_slug": "taurus",
-      "title": "Taurus",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T10:19:50Z"
     },
     {
       "cr_film_id": 13172,
