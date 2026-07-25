@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:55:51Z",
+  "last_updated": "2026-07-25T08:56:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -442504,26 +442504,6 @@
       "year": 2014,
       "sktorrent_id": null,
       "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-25T08:24:28Z",
-      "first_failed_at": "2026-07-25T08:24:28Z",
-      "attempt_count": 1,
-      "upload_id": "61c25e70c566b",
-      "source_url": "https://prehraj.to/seal-team-8-za-nepratelskou-linii-cz-dabing-akcni-valecny-2014/61c25e70c566b",
-      "upload_title": "seal-team-8-za-nepratelskou-linii-cz-dabing-akcni-valecny-2014",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 3.8,
-        "download_sec": 260.8
-      }
-    },
-    {
-      "cr_film_id": 28522,
-      "cr_slug": "seal-team-8-za-nepratelskou-linii",
-      "title": "Seal Team 8: Za nepřátelskou linií",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
       "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
       "failed_at": "2026-07-25T08:34:03Z",
       "first_failed_at": "2026-07-25T08:34:03Z",
@@ -442660,6 +442640,27 @@
         "download_sec": 328.8,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 28522,
+      "cr_slug": "seal-team-8-za-nepratelskou-linii",
+      "title": "Seal Team 8: Za nepřátelskou linií",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T08:56:58Z",
+      "first_failed_at": "2026-07-25T08:24:28Z",
+      "attempt_count": 2,
+      "upload_id": "61c25e70c566b",
+      "source_url": "https://prehraj.to/seal-team-8-za-nepratelskou-linii-cz-dabing-akcni-valecny-2014/61c25e70c566b",
+      "upload_title": "seal-team-8-za-nepratelskou-linii-cz-dabing-akcni-valecny-2014",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 51.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -442672,16 +442673,6 @@
       "worker_id": "worker-2-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T08:51:56Z"
-    },
-    {
-      "cr_film_id": 28522,
-      "cr_slug": "seal-team-8-za-nepratelskou-linii",
-      "title": "Seal Team 8: Za nepřátelskou linií",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:55:31Z"
     },
     {
       "cr_film_id": 14289,
