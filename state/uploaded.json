@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T01:33:26Z",
+  "last_updated": "2026-07-25T01:33:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -429981,19 +429981,30 @@
         "download_sec": 81.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35177,
       "cr_slug": "bad-25",
       "title": "Bad 25",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T01:32:23Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T01:33:49Z",
+      "first_failed_at": "2026-07-25T01:33:49Z",
+      "attempt_count": 1,
+      "upload_id": "61f1bb7c2f4d2",
+      "source_url": "https://prehraj.to/michael-jackson-bad-25-2021-czdab/61f1bb7c2f4d2",
+      "upload_title": "Michael Jackson - Bad 25 (2021) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 49.9,
+        "upload_sec": 30.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35174,
       "cr_slug": "dinocroc-vs-supergator",
