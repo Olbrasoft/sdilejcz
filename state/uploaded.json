@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T20:21:51Z",
+  "last_updated": "2026-07-25T20:22:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459010,25 +459010,6 @@
       }
     },
     {
-      "cr_film_id": 16300,
-      "cr_slug": "dark-nuns",
-      "title": "Dark Nuns",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fdark-nuns-2025-cz-titulky-1080p%2F67d0605f06df0 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a6920860>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/dark-nuns-2025-cz-titulky-1080p/67d0605f06df0",
-      "failed_at": "2026-07-25T19:56:49Z",
-      "first_failed_at": "2026-07-25T19:56:49Z",
-      "attempt_count": 1,
-      "upload_id": "67d0605f06df0",
-      "source_url": "https://prehraj.to/dark-nuns-2025-cz-titulky-1080p/67d0605f06df0",
-      "upload_title": "Dark Nuns (2025) CZ Titulky 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.3
-      }
-    },
-    {
       "cr_film_id": 37204,
       "cr_slug": "cycling-africa",
       "title": "Cycling Africa",
@@ -459163,6 +459144,26 @@
         "download_sec": 318.5,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 16300,
+      "cr_slug": "dark-nuns",
+      "title": "Dark Nuns",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T20:22:58Z",
+      "first_failed_at": "2026-07-25T19:56:49Z",
+      "attempt_count": 2,
+      "upload_id": "67d0605f06df0",
+      "source_url": "https://prehraj.to/dark-nuns-2025-cz-titulky-1080p/67d0605f06df0",
+      "upload_title": "Dark Nuns (2025) CZ Titulky 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 77.2
+      }
     }
   ],
   "in_progress": [
@@ -459195,16 +459196,6 @@
       "worker_id": "worker-2-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T20:18:51Z"
-    },
-    {
-      "cr_film_id": 16300,
-      "cr_slug": "dark-nuns",
-      "title": "Dark Nuns",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T20:21:36Z"
     },
     {
       "cr_film_id": 31531,
