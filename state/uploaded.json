@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T06:49:49Z",
+  "last_updated": "2026-07-25T06:50:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -425754,6 +425754,30 @@
         "upload_sec": 65.2,
         "total_sec": 87.6
       }
+    },
+    {
+      "cr_film_id": 16032,
+      "cr_slug": "hotel-holiday",
+      "title": "Hotel Holiday",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "65ca8ac973e3d",
+      "source_url": "https://prehraj.to/hotel-palace-2023-cztitulky/65ca8ac973e3d",
+      "source_title": "Hotel Palace (2023) CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34721175/hotel-holiday-2023-cz-dabing.mp4",
+      "sdilej_name": "Hotel Holiday (2023) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T06:50:35Z",
+      "status": "uploaded",
+      "size_bytes": 1729157496,
+      "worker_id": "worker-4-30138816524",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 63.0,
+        "upload_sec": 169.4,
+        "total_sec": 234.3
+      }
     }
   ],
   "failed_attempts": [
@@ -439464,27 +439488,6 @@
       }
     },
     {
-      "cr_film_id": 16032,
-      "cr_slug": "hotel-holiday",
-      "title": "Hotel Holiday",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T06:44:13Z",
-      "first_failed_at": "2026-07-25T06:44:13Z",
-      "attempt_count": 1,
-      "upload_id": "679e44a892a32",
-      "source_url": "https://prehraj.to/holiday-2023-cz-dabing-1080p/679e44a892a32",
-      "upload_title": "Holiday (2023) CZ Dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 80.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5871,
       "cr_slug": "thor-laska-jako-hrom",
       "title": "Thor: Láska jako hrom",
@@ -439524,16 +439527,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 16032,
-      "cr_slug": "hotel-holiday",
-      "title": "Hotel Holiday",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T06:46:38Z"
-    },
     {
       "cr_film_id": 15765,
       "cr_slug": "soukroma-lekce",
