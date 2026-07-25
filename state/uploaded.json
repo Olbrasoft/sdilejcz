@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T05:15:52Z",
+  "last_updated": "2026-07-25T05:15:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -437077,6 +437077,27 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 36907,
+      "cr_slug": "pongo-calling",
+      "title": "Pongo Calling",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T05:15:55Z",
+      "first_failed_at": "2026-07-25T05:15:55Z",
+      "attempt_count": 1,
+      "upload_id": "653f029c560e0",
+      "source_url": "https://prehraj.to/pongo-calling-2022-czdab/653f029c560e0",
+      "upload_title": "Pongo Calling (2022) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 121.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -437089,16 +437110,6 @@
       "worker_id": "worker-3-30138816524",
       "run_id": "30138816524",
       "reserved_at": "2026-07-25T05:11:25Z"
-    },
-    {
-      "cr_film_id": 36907,
-      "cr_slug": "pongo-calling",
-      "title": "Pongo Calling",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T05:13:15Z"
     },
     {
       "cr_film_id": 36912,
