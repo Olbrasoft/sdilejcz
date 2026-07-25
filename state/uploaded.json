@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T03:07:44Z",
+  "last_updated": "2026-07-25T03:08:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -420186,6 +420186,30 @@
         "upload_sec": 64.9,
         "total_sec": 106.7
       }
+    },
+    {
+      "cr_film_id": 35389,
+      "cr_slug": "frauen-die-prosecco-trinken",
+      "title": "Frauen, die Prosecco trinken",
+      "year": 2001,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5ab9b649c0221",
+      "source_url": "https://prehraj.to/zeny-co-piji-prosecco-2001/5ab9b649c0221",
+      "source_title": "Ženy, co pijí prosecco (2001)",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34720585/frauen-die-prosecco-trinken-2001-cz.mp4",
+      "sdilej_name": "Frauen, die Prosecco trinken (2001) CZ.mp4",
+      "uploaded_at": "2026-07-25T03:08:00Z",
+      "status": "uploaded",
+      "size_bytes": 1199895518,
+      "worker_id": "worker-1-30138816524",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 70.3,
+        "upload_sec": 158.7,
+        "total_sec": 230.5
+      }
     }
   ],
   "failed_attempts": [
@@ -433193,27 +433217,6 @@
       }
     },
     {
-      "cr_film_id": 35389,
-      "cr_slug": "frauen-die-prosecco-trinken",
-      "title": "Frauen, die Prosecco trinken",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T02:34:03Z",
-      "first_failed_at": "2026-07-25T02:34:03Z",
-      "attempt_count": 1,
-      "upload_id": "5ab9b649c0221",
-      "source_url": "https://prehraj.to/zeny-co-piji-prosecco-2001/5ab9b649c0221",
-      "upload_title": "Ženy, co pijí prosecco (2001)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.8,
-        "download_sec": 70.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35424,
       "cr_slug": "kraken-2026",
       "title": "Kraken",
@@ -433275,16 +433278,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 35389,
-      "cr_slug": "frauen-die-prosecco-trinken",
-      "title": "Frauen, die Prosecco trinken",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T03:04:07Z"
-    },
     {
       "cr_film_id": 35576,
       "cr_slug": "wakefield",
