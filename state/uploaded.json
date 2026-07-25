@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T09:36:36Z",
+  "last_updated": "2026-07-25T09:37:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -444140,6 +444140,26 @@
         "resolve_sec": 0.9,
         "download_sec": 2.4
       }
+    },
+    {
+      "cr_film_id": 25629,
+      "cr_slug": "prokleti-hrobky-faraona-tutanchamona",
+      "title": "Prokletí hrobky faraona Tutanchamona",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 22: curl: (22) The requested URL returned error: 404",
+      "failed_at": "2026-07-25T09:37:01Z",
+      "first_failed_at": "2026-07-25T09:37:01Z",
+      "attempt_count": 1,
+      "upload_id": "5cd5b22296c4e",
+      "source_url": "https://prehraj.to/prokleti-hrobky-faraona-tutanchamona-1-van-dien-2006-cz-dabing/5cd5b22296c4e",
+      "upload_title": "Prokleti-hrobky-faraona-Tutanchamona-1-(Van-Dien)-(2006)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 20.1
+      }
     }
   ],
   "in_progress": [
@@ -444172,16 +444192,6 @@
       "worker_id": "worker-4-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T09:36:10Z"
-    },
-    {
-      "cr_film_id": 25629,
-      "cr_slug": "prokleti-hrobky-faraona-tutanchamona",
-      "title": "Prokletí hrobky faraona Tutanchamona",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T09:36:36Z"
     }
   ]
 }
