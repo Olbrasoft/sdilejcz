@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T23:46:51Z",
+  "last_updated": "2026-07-25T23:47:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -461093,19 +461093,28 @@
         "download_sec": 95.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9943,
       "cr_slug": "the-beast-within",
       "title": "The Beast Within",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T23:43:37Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fthe-beast-within-2024-cztit%2F66c45aeec79e1 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1aa566750>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/the-beast-within-2024-cztit/66c45aeec79e1",
+      "failed_at": "2026-07-25T23:47:57Z",
+      "first_failed_at": "2026-07-25T23:47:57Z",
+      "attempt_count": 1,
+      "upload_id": "66c45aeec79e1",
+      "source_url": "https://prehraj.to/the-beast-within-2024-cztit/66c45aeec79e1",
+      "upload_title": "The Beast Within (2024) CZtit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3589,
       "cr_slug": "the-assessment",
