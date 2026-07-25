@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T19:04:10Z",
+  "last_updated": "2026-07-25T19:06:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -443010,6 +443010,30 @@
         "upload_sec": 157.1,
         "total_sec": 2397.7
       }
+    },
+    {
+      "cr_film_id": 10361,
+      "cr_slug": "helloween",
+      "title": "Helloween",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "bdb328b3edf243b5",
+      "source_url": "https://prehraj.to/helloween-2025-cz-titulky-1080p-mkv/bdb328b3edf243b5",
+      "source_title": "Helloween (2025) CZ Titulky 1080p.mkv",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34723908/helloween-2025-cz-titulky.mp4",
+      "sdilej_name": "Helloween (2025) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-25T19:06:07Z",
+      "status": "uploaded",
+      "size_bytes": 799115080,
+      "worker_id": "worker-1-30170372789",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 33.1,
+        "upload_sec": 92.8,
+        "total_sec": 127.4
+      }
     }
   ],
   "failed_attempts": [
@@ -458564,27 +458588,6 @@
         "download_sec": 77.1,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 10361,
-      "cr_slug": "helloween",
-      "title": "Helloween",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T18:25:21Z",
-      "first_failed_at": "2026-07-25T18:25:21Z",
-      "attempt_count": 1,
-      "upload_id": "bdb328b3edf243b5",
-      "source_url": "https://prehraj.to/helloween-2025-cz-titulky-1080p-mkv/bdb328b3edf243b5",
-      "upload_title": "Helloween (2025) CZ Titulky 1080p.mkv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 48.5,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -458607,16 +458610,6 @@
       "worker_id": "worker-3-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T19:03:52Z"
-    },
-    {
-      "cr_film_id": 10361,
-      "cr_slug": "helloween",
-      "title": "Helloween",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T19:03:57Z"
     },
     {
       "cr_film_id": 31474,
