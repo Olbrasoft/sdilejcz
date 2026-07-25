@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T06:16:03Z",
+  "last_updated": "2026-07-25T06:16:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -438748,6 +438748,27 @@
       "timing": {
         "resolve_sec": 2.4
       }
+    },
+    {
+      "cr_film_id": 37209,
+      "cr_slug": "krev-meho-srdce",
+      "title": "Krev mého srdce",
+      "year": 2026,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T06:16:36Z",
+      "first_failed_at": "2026-07-25T06:16:36Z",
+      "attempt_count": 1,
+      "upload_id": "08958d38aeb5b8f6",
+      "source_url": "https://prehraj.to/krev-meho-srdce-2026-cz-dab-1080p/08958d38aeb5b8f6",
+      "upload_title": "Krev mého srdce 2026 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 89.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -438770,16 +438791,6 @@
       "worker_id": "worker-2-30138816524",
       "run_id": "30138816524",
       "reserved_at": "2026-07-25T06:14:07Z"
-    },
-    {
-      "cr_film_id": 37209,
-      "cr_slug": "krev-meho-srdce",
-      "title": "Krev mého srdce",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T06:14:31Z"
     },
     {
       "cr_film_id": 37268,
