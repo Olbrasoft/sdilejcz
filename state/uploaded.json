@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T19:06:12Z",
+  "last_updated": "2026-07-25T19:08:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -443034,6 +443034,30 @@
         "upload_sec": 92.8,
         "total_sec": 127.4
       }
+    },
+    {
+      "cr_film_id": 6760,
+      "cr_slug": "hunting-season",
+      "title": "Hunting Season",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "ee0e150c44f23ed2",
+      "source_url": "https://prehraj.to/hunting-season-2025-mp4/ee0e150c44f23ed2",
+      "source_title": "Hunting Season (2025).mp4",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34723914/hunting-season-2025-cz-titulky.mp4",
+      "sdilej_name": "Hunting Season (2025) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-25T19:08:07Z",
+      "status": "uploaded",
+      "size_bytes": 1710480604,
+      "worker_id": "worker-3-30170372789",
+      "timing": {
+        "resolve_sec": 1.8,
+        "download_sec": 68.8,
+        "upload_sec": 180.5,
+        "total_sec": 251.5
+      }
     }
   ],
   "failed_attempts": [
@@ -458548,46 +458572,6 @@
       "timing": {
         "resolve_sec": 2.4
       }
-    },
-    {
-      "cr_film_id": 6760,
-      "cr_slug": "hunting-season",
-      "title": "Hunting Season",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/hunting-season-2025-1080p-mkv/c5c5382ea8ada364",
-      "failed_at": "2026-07-25T18:09:31Z",
-      "first_failed_at": "2026-07-25T18:09:31Z",
-      "attempt_count": 1,
-      "upload_id": "c5c5382ea8ada364",
-      "source_url": "https://prehraj.to/hunting-season-2025-1080p-mkv/c5c5382ea8ada364",
-      "upload_title": "Hunting Season 2025 1080p CZ Titulky",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.8
-      }
-    },
-    {
-      "cr_film_id": 6760,
-      "cr_slug": "hunting-season",
-      "title": "Hunting Season",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T18:11:25Z",
-      "first_failed_at": "2026-07-25T18:11:25Z",
-      "attempt_count": 1,
-      "upload_id": "ee0e150c44f23ed2",
-      "source_url": "https://prehraj.to/hunting-season-2025-mp4/ee0e150c44f23ed2",
-      "upload_title": "Hunting Season (2025).mp4",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.7,
-        "download_sec": 77.1,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -458600,16 +458584,6 @@
       "worker_id": "worker-2-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T15:12:12Z"
-    },
-    {
-      "cr_film_id": 6760,
-      "cr_slug": "hunting-season",
-      "title": "Hunting Season",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T19:03:52Z"
     },
     {
       "cr_film_id": 31474,
