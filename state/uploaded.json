@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:17:05Z",
+  "last_updated": "2026-07-25T13:17:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -436962,6 +436962,30 @@
         "upload_sec": 267.7,
         "total_sec": 401.3
       }
+    },
+    {
+      "cr_film_id": 32015,
+      "cr_slug": "zapadakov",
+      "title": "Zapadákov",
+      "year": 1974,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5857f5a574e1d",
+      "source_url": "https://prehraj.to/zapadakov-seriovy-vrah-ch-starkweathe-1973/5857f5a574e1d",
+      "source_title": "Zapadakov-Seriovy-vrah-Ch.Starkweathe-1973",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34722749/zapadakov-1974-cz-dabing.mp4",
+      "sdilej_name": "Zapadákov (1974) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T13:17:24Z",
+      "status": "uploaded",
+      "size_bytes": 629555875,
+      "worker_id": "worker-1-30150182076",
+      "timing": {
+        "resolve_sec": 2.0,
+        "download_sec": 103.3,
+        "upload_sec": 93.6,
+        "total_sec": 199.2
+      }
     }
   ],
   "failed_attempts": [
@@ -451168,26 +451192,6 @@
       }
     },
     {
-      "cr_film_id": 32015,
-      "cr_slug": "zapadakov",
-      "title": "Zapadákov",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-25T13:10:17Z",
-      "first_failed_at": "2026-07-25T13:10:17Z",
-      "attempt_count": 1,
-      "upload_id": "609fbedc7b62e",
-      "source_url": "https://prehraj.to/zapadakov-thriller-1973-cz-dabing/609fbedc7b62e",
-      "upload_title": "Zapadákov-(thriller)-(1973)--cz-dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 130.0
-      }
-    },
-    {
       "cr_film_id": 22234,
       "cr_slug": "700-mil-v-sedle",
       "title": "700 mil v sedle",
@@ -451205,27 +451209,6 @@
       "timing": {
         "resolve_sec": 1.2,
         "download_sec": 243.5
-      }
-    },
-    {
-      "cr_film_id": 32015,
-      "cr_slug": "zapadakov",
-      "title": "Zapadákov",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T13:12:13Z",
-      "first_failed_at": "2026-07-25T13:12:13Z",
-      "attempt_count": 1,
-      "upload_id": "5c0a409288759",
-      "source_url": "https://prehraj.to/zapadakov-1973/5c0a409288759",
-      "upload_title": "Zapadákov (1973)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 52.6,
-        "upload_sec": 30.0
       }
     },
     {
@@ -451251,16 +451234,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 32015,
-      "cr_slug": "zapadakov",
-      "title": "Zapadákov",
-      "year": 1974,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:14:02Z"
-    },
     {
       "cr_film_id": 22234,
       "cr_slug": "700-mil-v-sedle",
