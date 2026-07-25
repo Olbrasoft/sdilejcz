@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:06:01Z",
+  "last_updated": "2026-07-25T13:06:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -450990,6 +450990,27 @@
         "resolve_sec": 1.4,
         "download_sec": 101.0
       }
+    },
+    {
+      "cr_film_id": 31974,
+      "cr_slug": "cesta-do-sonory",
+      "title": "Cesta do Sonory",
+      "year": 1975,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T13:06:29Z",
+      "first_failed_at": "2026-07-25T13:06:29Z",
+      "attempt_count": 1,
+      "upload_id": "585bd33f9cd66",
+      "source_url": "https://prehraj.to/cesta-do-sonory-cz-dabing-western-1975/585bd33f9cd66",
+      "upload_title": "Cesta-do-Sonory-CZ-dabing-western-1975",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 64.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -451002,16 +451023,6 @@
       "worker_id": "worker-3-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T13:02:05Z"
-    },
-    {
-      "cr_film_id": 31974,
-      "cr_slug": "cesta-do-sonory",
-      "title": "Cesta do Sonory",
-      "year": 1975,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:04:49Z"
     },
     {
       "cr_film_id": 33143,
