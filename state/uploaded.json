@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T01:52:38Z",
+  "last_updated": "2026-07-25T01:54:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -417546,6 +417546,30 @@
         "upload_sec": 61.0,
         "total_sec": 87.2
       }
+    },
+    {
+      "cr_film_id": 35157,
+      "cr_slug": "af1-alle-for-en",
+      "title": "AF1 (Alle for en)",
+      "year": 2008,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5a903466ce073",
+      "source_url": "https://prehraj.to/vsechnoparty-2008/5a903466ce073",
+      "source_title": "Všechnopárty (2008)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34720318/af1-alle-for-en-2008-cz.mp4",
+      "sdilej_name": "AF1 (Alle for en) (2008) CZ.mp4",
+      "uploaded_at": "2026-07-25T01:54:20Z",
+      "status": "uploaded",
+      "size_bytes": 690270528,
+      "worker_id": "worker-3-30126678495",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 27.4,
+        "upload_sec": 70.6,
+        "total_sec": 99.3
+      }
     }
   ],
   "failed_attempts": [
@@ -430553,27 +430577,6 @@
       }
     },
     {
-      "cr_film_id": 35157,
-      "cr_slug": "af1-alle-for-en",
-      "title": "AF1 (Alle for en)",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T01:21:55Z",
-      "first_failed_at": "2026-07-25T01:21:55Z",
-      "attempt_count": 1,
-      "upload_id": "5a903466ce073",
-      "source_url": "https://prehraj.to/vsechnoparty-2008/5a903466ce073",
-      "upload_title": "Všechnopárty (2008)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 44.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35160,
       "cr_slug": "kral-komiku",
       "title": "Král komiků",
@@ -430764,16 +430767,6 @@
       "worker_id": "worker-4-30126678495",
       "run_id": "30126678495",
       "reserved_at": "2026-07-25T01:52:30Z"
-    },
-    {
-      "cr_film_id": 35157,
-      "cr_slug": "af1-alle-for-en",
-      "title": "AF1 (Alle for en)",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T01:52:38Z"
     }
   ]
 }
