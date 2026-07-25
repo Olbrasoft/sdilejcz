@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T21:46:11Z",
+  "last_updated": "2026-07-25T21:47:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459636,6 +459636,25 @@
       "timing": {
         "resolve_sec": 254.5
       }
+    },
+    {
+      "cr_film_id": 15955,
+      "cr_slug": "a-knight-s-war",
+      "title": "A Knight's War",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fa-knight-s-war-2025-cz-titulky%2F67d6a0e28da42 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a6cfa840>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/a-knight-s-war-2025-cz-titulky/67d6a0e28da42",
+      "failed_at": "2026-07-25T21:47:09Z",
+      "first_failed_at": "2026-07-25T21:47:09Z",
+      "attempt_count": 1,
+      "upload_id": "67d6a0e28da42",
+      "source_url": "https://prehraj.to/a-knight-s-war-2025-cz-titulky/67d6a0e28da42",
+      "upload_title": "A Knight’s War 2025 cz titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.6
+      }
     }
   ],
   "in_progress": [
@@ -459668,16 +459687,6 @@
       "worker_id": "worker-4-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T21:42:03Z"
-    },
-    {
-      "cr_film_id": 15955,
-      "cr_slug": "a-knight-s-war",
-      "title": "A Knight's War",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T21:42:51Z"
     },
     {
       "cr_film_id": 31536,
