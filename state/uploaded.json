@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:05:33Z",
+  "last_updated": "2026-07-25T13:05:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -450970,6 +450970,26 @@
         "resolve_sec": 1.5,
         "download_sec": 375.4
       }
+    },
+    {
+      "cr_film_id": 22313,
+      "cr_slug": "operace-daybreak",
+      "title": "Operace \"Daybreak\"",
+      "year": 1975,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T13:05:55Z",
+      "first_failed_at": "2026-07-25T13:05:55Z",
+      "attempt_count": 1,
+      "upload_id": "58552d693e993",
+      "source_url": "https://prehraj.to/operace-daybreak-1975-cz-dabing-martincz75/58552d693e993",
+      "upload_title": "Operace-Daybreak-(1975)-CZ-dabing-(martincz75)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 101.0
+      }
     }
   ],
   "in_progress": [
@@ -450982,16 +451002,6 @@
       "worker_id": "worker-3-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T13:02:05Z"
-    },
-    {
-      "cr_film_id": 22313,
-      "cr_slug": "operace-daybreak",
-      "title": "Operace \"Daybreak\"",
-      "year": 1975,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:04:08Z"
     },
     {
       "cr_film_id": 31974,
