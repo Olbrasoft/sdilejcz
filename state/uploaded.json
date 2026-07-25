@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:21:34Z",
+  "last_updated": "2026-07-25T08:22:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -441794,19 +441794,30 @@
         "download_sec": 60.4,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 33302,
       "cr_slug": "top-gear-patagonsky-special",
       "title": "Top Gear: Patagonský speciál",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:19:21Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T08:22:55Z",
+      "first_failed_at": "2026-07-25T08:22:55Z",
+      "attempt_count": 1,
+      "upload_id": "335a5310efb2862c",
+      "source_url": "https://prehraj.to/top-gear-patagonsky-special-2014-cz-dabing-1080p-mkv/335a5310efb2862c",
+      "upload_title": "Top Gear - Patagonsky special (2014) CZ-Dabing 1080p.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 177.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 28522,
       "cr_slug": "seal-team-8-za-nepratelskou-linii",
