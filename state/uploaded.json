@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:50:34Z",
+  "last_updated": "2026-07-25T08:51:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -442495,19 +442495,30 @@
         "download_sec": 59.6,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 27777,
       "cr_slug": "unaveni-sluncem-3-citadela",
       "title": "Unaveni sluncem 3: Citadela",
       "year": 2011,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:45:02Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T08:51:09Z",
+      "first_failed_at": "2026-07-25T08:51:09Z",
+      "attempt_count": 1,
+      "upload_id": "6609c5b613b2a",
+      "source_url": "https://prehraj.to/unaveni-sluncem-3-citadela-2011-historicky-valecny-czdab/6609c5b613b2a",
+      "upload_title": "Unaveni sluncem 3 - Citadela (2011) historický válečný czdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 328.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15392,
       "cr_slug": "yamada-samuraj-z-ayothaye",
