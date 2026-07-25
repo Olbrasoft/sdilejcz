@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T10:52:54Z",
+  "last_updated": "2026-07-25T10:53:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -446703,19 +446703,30 @@
         "resolve_sec": 0.9,
         "download_sec": 79.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 32517,
       "cr_slug": "sgt-bilko",
       "title": "Sgt. Bilko",
       "year": 1996,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T10:51:48Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T10:53:05Z",
+      "first_failed_at": "2026-07-25T10:53:05Z",
+      "attempt_count": 1,
+      "upload_id": "5846e641173d3",
+      "source_url": "https://prehraj.to/serzant-bilko-cz-dabing-komedie-1996/5846e641173d3",
+      "upload_title": "Seržant-Bilko-CZ-Dabing-Komedie-1996",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 41.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35477,
       "cr_slug": "sabotaz-1996",
