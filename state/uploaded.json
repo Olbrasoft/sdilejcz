@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T16:47:29Z",
+  "last_updated": "2026-07-25T16:48:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -456922,6 +456922,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 16253,
+      "cr_slug": "roseovi",
+      "title": "Roseovi",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T16:48:48Z",
+      "first_failed_at": "2026-07-25T16:48:48Z",
+      "attempt_count": 1,
+      "upload_id": "09d2e1f235865774",
+      "source_url": "https://prehraj.to/the-roses-2025-cz-titulky-mp4/09d2e1f235865774",
+      "upload_title": "The Roses (2025) CZ titulky.mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 44.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -456954,16 +456975,6 @@
       "worker_id": "worker-1-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T16:46:59Z"
-    },
-    {
-      "cr_film_id": 16253,
-      "cr_slug": "roseovi",
-      "title": "Roseovi",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T16:47:29Z"
     }
   ]
 }
