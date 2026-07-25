@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T16:35:27Z",
+  "last_updated": "2026-07-25T16:37:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -456823,6 +456823,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 31517,
+      "cr_slug": "simple-plan-the-kids-in-the-crowd",
+      "title": "Simple Plan: The Kids in the Crowd",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T16:37:57Z",
+      "first_failed_at": "2026-07-25T16:37:57Z",
+      "attempt_count": 1,
+      "upload_id": "bd06e3f3a8c60e4a",
+      "source_url": "https://prehraj.to/simple-plan-the-kids-in-the-crowd-2025-cz-titulky/bd06e3f3a8c60e4a",
+      "upload_title": "Simple Plan: The Kids in the Crowd (2025) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 115.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -456855,16 +456876,6 @@
       "worker_id": "worker-4-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T16:35:03Z"
-    },
-    {
-      "cr_film_id": 31517,
-      "cr_slug": "simple-plan-the-kids-in-the-crowd",
-      "title": "Simple Plan: The Kids in the Crowd",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T16:35:27Z"
     }
   ]
 }
