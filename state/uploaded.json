@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T20:05:42Z",
+  "last_updated": "2026-07-25T20:09:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459079,6 +459079,25 @@
       "timing": {
         "resolve_sec": 254.6
       }
+    },
+    {
+      "cr_film_id": 28421,
+      "cr_slug": "citova-hodnota",
+      "title": "Citová hodnota",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fsentimental-value-2025-2160p-4k-web-x265-10bit-aac5-1-yts-lt%2Ffe482be60ba04e85 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a6658da0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/sentimental-value-2025-2160p-4k-web-x265-10bit-aac5-1-yts-lt/fe482be60ba04e85",
+      "failed_at": "2026-07-25T20:09:59Z",
+      "first_failed_at": "2026-07-25T20:09:59Z",
+      "attempt_count": 1,
+      "upload_id": "fe482be60ba04e85",
+      "source_url": "https://prehraj.to/sentimental-value-2025-2160p-4k-web-x265-10bit-aac5-1-yts-lt/fe482be60ba04e85",
+      "upload_title": "Citova hodnota 2025 CzTit.2160p.4K.WEB.x265.10bit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.5
+      }
     }
   ],
   "in_progress": [
@@ -459121,16 +459140,6 @@
       "worker_id": "worker-1-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T20:04:37Z"
-    },
-    {
-      "cr_film_id": 28421,
-      "cr_slug": "citova-hodnota",
-      "title": "Citová hodnota",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T20:05:42Z"
     }
   ]
 }
