@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T07:02:47Z",
+  "last_updated": "2026-07-25T07:04:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -426042,6 +426042,30 @@
         "upload_sec": 98.6,
         "total_sec": 135.6
       }
+    },
+    {
+      "cr_film_id": 35749,
+      "cr_slug": "nocni-smena-2021",
+      "title": "Noční směna",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "d2b29bb7f2433936",
+      "source_url": "https://prehraj.to/nocni-smena-1990-cz-dab-1080p/d2b29bb7f2433936",
+      "source_title": "Noční směna 1990 CZ dab 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34721214/nocni-smena-2021-cz-dabing.mp4",
+      "sdilej_name": "Noční směna (2021) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T07:04:10Z",
+      "status": "uploaded",
+      "size_bytes": 3423612262,
+      "worker_id": "worker-2-30138816524",
+      "timing": {
+        "resolve_sec": 3.1,
+        "download_sec": 190.3,
+        "upload_sec": 449.3,
+        "total_sec": 646.9
+      }
     }
   ],
   "failed_attempts": [
@@ -439847,25 +439871,6 @@
       }
     },
     {
-      "cr_film_id": 35749,
-      "cr_slug": "nocni-smena-2021",
-      "title": "Noční směna",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/nocni-smena-2020-cz-dab-1080p/69eff2e8828944ac",
-      "failed_at": "2026-07-25T06:53:24Z",
-      "first_failed_at": "2026-07-25T06:53:24Z",
-      "attempt_count": 1,
-      "upload_id": "69eff2e8828944ac",
-      "source_url": "https://prehraj.to/nocni-smena-2020-cz-dab-1080p/69eff2e8828944ac",
-      "upload_title": "Noční směna 2020 CZ dab 1080p",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.5
-      }
-    },
-    {
       "cr_film_id": 26789,
       "cr_slug": "luca",
       "title": "Luca",
@@ -440000,16 +440005,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 35749,
-      "cr_slug": "nocni-smena-2021",
-      "title": "Noční směna",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T06:53:20Z"
-    },
     {
       "cr_film_id": 9356,
       "cr_slug": "vlci-parta",
