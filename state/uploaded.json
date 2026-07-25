@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T21:16:04Z",
+  "last_updated": "2026-07-25T21:16:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459454,6 +459454,25 @@
         "download_sec": 654.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 36931,
+      "cr_slug": "anniversary",
+      "title": "Anniversary",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fanniversary-2025-cz-tit-1080p%2F782b9a8fd4ec3074 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a60458e0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/anniversary-2025-cz-tit-1080p/782b9a8fd4ec3074",
+      "failed_at": "2026-07-25T21:16:15Z",
+      "first_failed_at": "2026-07-25T21:16:15Z",
+      "attempt_count": 1,
+      "upload_id": "782b9a8fd4ec3074",
+      "source_url": "https://prehraj.to/anniversary-2025-cz-tit-1080p/782b9a8fd4ec3074",
+      "upload_title": "Anniversary 2025 CZ tit 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.7
+      }
     }
   ],
   "in_progress": [
@@ -459486,16 +459505,6 @@
       "worker_id": "worker-1-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T21:09:56Z"
-    },
-    {
-      "cr_film_id": 36931,
-      "cr_slug": "anniversary",
-      "title": "Anniversary",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T21:11:57Z"
     },
     {
       "cr_film_id": 9155,
