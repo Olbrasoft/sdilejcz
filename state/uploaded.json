@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T15:27:34Z",
+  "last_updated": "2026-07-25T15:28:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -455391,6 +455391,27 @@
       "timing": {
         "resolve_sec": 2.4
       }
+    },
+    {
+      "cr_film_id": 31527,
+      "cr_slug": "cas-co-nam-zbyva",
+      "title": "Čas, co nám zbývá",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T15:28:20Z",
+      "first_failed_at": "2026-07-25T15:28:20Z",
+      "attempt_count": 1,
+      "upload_id": "32436fdc09e429b8",
+      "source_url": "https://prehraj.to/cas-co-nam-zbyva-2025-cz-titulky/32436fdc09e429b8",
+      "upload_title": "Čas, co nám zbývá (2025) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 106.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -455413,16 +455434,6 @@
       "worker_id": "worker-4-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T15:16:22Z"
-    },
-    {
-      "cr_film_id": 31527,
-      "cr_slug": "cas-co-nam-zbyva",
-      "title": "Čas, co nám zbývá",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T15:25:59Z"
     },
     {
       "cr_film_id": 37198,
