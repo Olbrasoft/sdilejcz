@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:11:29Z",
+  "last_updated": "2026-07-25T13:12:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -451086,6 +451086,27 @@
         "resolve_sec": 1.2,
         "download_sec": 243.5
       }
+    },
+    {
+      "cr_film_id": 32015,
+      "cr_slug": "zapadakov",
+      "title": "Zapadákov",
+      "year": 1974,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T13:12:13Z",
+      "first_failed_at": "2026-07-25T13:12:13Z",
+      "attempt_count": 1,
+      "upload_id": "5c0a409288759",
+      "source_url": "https://prehraj.to/zapadakov-1973/5c0a409288759",
+      "upload_title": "Zapadákov (1973)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 52.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -451108,16 +451129,6 @@
       "worker_id": "worker-4-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T13:10:30Z"
-    },
-    {
-      "cr_film_id": 32015,
-      "cr_slug": "zapadakov",
-      "title": "Zapadákov",
-      "year": 1974,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:10:45Z"
     },
     {
       "cr_film_id": 22234,
