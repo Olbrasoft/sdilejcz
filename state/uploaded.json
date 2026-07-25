@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T04:24:59Z",
+  "last_updated": "2026-07-25T04:26:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -435628,6 +435628,27 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 36671,
+      "cr_slug": "vrazedni-ptaci",
+      "title": "Vražední ptáci",
+      "year": 1988,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T04:26:29Z",
+      "first_failed_at": "2026-07-25T04:26:29Z",
+      "attempt_count": 1,
+      "upload_id": "6890477dbe8fc",
+      "source_url": "https://prehraj.to/vrazedni-ptaci-1987-cz-dab-1080p/6890477dbe8fc",
+      "upload_title": "Vražední ptáci 1987 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 62.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -435650,16 +435671,6 @@
       "worker_id": "worker-1-30138816524",
       "run_id": "30138816524",
       "reserved_at": "2026-07-25T04:24:34Z"
-    },
-    {
-      "cr_film_id": 36671,
-      "cr_slug": "vrazedni-ptaci",
-      "title": "Vražední ptáci",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30138816524",
-      "run_id": "30138816524",
-      "reserved_at": "2026-07-25T04:24:51Z"
     },
     {
       "cr_film_id": 36676,
