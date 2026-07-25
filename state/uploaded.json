@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T21:54:14Z",
+  "last_updated": "2026-07-25T21:55:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459696,6 +459696,25 @@
       "timing": {
         "resolve_sec": 254.5
       }
+    },
+    {
+      "cr_film_id": 3163,
+      "cr_slug": "13-dni-13-noci",
+      "title": "13 dní, 13 nocí",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2F13-days-13-nights-2025-1080p-bluray-x264-aac5-1-yts-lt-mp4%2Ff49f611780d3f670 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a77b5b80>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/13-days-13-nights-2025-1080p-bluray-x264-aac5-1-yts-lt-mp4/f49f611780d3f670",
+      "failed_at": "2026-07-25T21:55:57Z",
+      "first_failed_at": "2026-07-25T21:55:57Z",
+      "attempt_count": 1,
+      "upload_id": "f49f611780d3f670",
+      "source_url": "https://prehraj.to/13-days-13-nights-2025-1080p-bluray-x264-aac5-1-yts-lt-mp4/f49f611780d3f670",
+      "upload_title": "13.Days.13.Nights.2025.cz tit .mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.5
+      }
     }
   ],
   "in_progress": [
@@ -459718,16 +459737,6 @@
       "worker_id": "worker-4-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T21:42:03Z"
-    },
-    {
-      "cr_film_id": 3163,
-      "cr_slug": "13-dni-13-noci",
-      "title": "13 dní, 13 nocí",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T21:51:38Z"
     },
     {
       "cr_film_id": 14995,
