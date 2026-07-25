@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:10:09Z",
+  "last_updated": "2026-07-25T13:10:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -451042,6 +451042,26 @@
         "resolve_sec": 1.4,
         "download_sec": 101.0
       }
+    },
+    {
+      "cr_film_id": 32015,
+      "cr_slug": "zapadakov",
+      "title": "Zapadákov",
+      "year": 1974,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T13:10:17Z",
+      "first_failed_at": "2026-07-25T13:10:17Z",
+      "attempt_count": 1,
+      "upload_id": "609fbedc7b62e",
+      "source_url": "https://prehraj.to/zapadakov-thriller-1973-cz-dabing/609fbedc7b62e",
+      "upload_title": "Zapadákov-(thriller)-(1973)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 130.0
+      }
     }
   ],
   "in_progress": [
@@ -451064,16 +451084,6 @@
       "worker_id": "worker-1-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T13:06:33Z"
-    },
-    {
-      "cr_film_id": 32015,
-      "cr_slug": "zapadakov",
-      "title": "Zapadákov",
-      "year": 1974,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T13:08:02Z"
     },
     {
       "cr_film_id": 22217,
