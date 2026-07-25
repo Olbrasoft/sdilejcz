@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:38:20Z",
+  "last_updated": "2026-07-25T08:38:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -442166,6 +442166,26 @@
         "download_sec": 38.7,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 28122,
+      "cr_slug": "ten",
+      "title": "Ten",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T08:38:25Z",
+      "first_failed_at": "2026-07-25T08:38:25Z",
+      "attempt_count": 1,
+      "upload_id": "58472afd81374",
+      "source_url": "https://prehraj.to/ten-nejvetsi-cz-dabing-100-dobra-kvalita-2012-by-pablos32/58472afd81374",
+      "upload_title": "Ten-nejvetsi-CZ-Dabing-100-Dobra-Kvalita-2012-by-Pablos32",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 91.8
+      }
     }
   ],
   "in_progress": [
@@ -442178,16 +442198,6 @@
       "worker_id": "worker-2-30150182076",
       "run_id": "30150182076",
       "reserved_at": "2026-07-25T08:35:55Z"
-    },
-    {
-      "cr_film_id": 28122,
-      "cr_slug": "ten",
-      "title": "Ten",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:36:45Z"
     },
     {
       "cr_film_id": 35400,
