@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T13:35:15Z",
+  "last_updated": "2026-07-25T13:35:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -451667,6 +451667,26 @@
         "download_sec": 89.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 11043,
+      "cr_slug": "oklamany-1971",
+      "title": "Oklamaný",
+      "year": 1971,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T13:35:38Z",
+      "first_failed_at": "2026-07-25T13:35:38Z",
+      "attempt_count": 1,
+      "upload_id": "60a1f88b573b6",
+      "source_url": "https://prehraj.to/oklamany-drama-1971-cz-dabing/60a1f88b573b6",
+      "upload_title": "Oklamaný-(drama)-(1971)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 131.8
+      }
     }
   ],
   "in_progress": [
@@ -451679,16 +451699,6 @@
       "worker_id": "worker-4-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T13:33:15Z"
-    },
-    {
-      "cr_film_id": 11043,
-      "cr_slug": "oklamany-1971",
-      "title": "Oklamaný",
-      "year": 1971,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T13:33:21Z"
     },
     {
       "cr_film_id": 22062,
