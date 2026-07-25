@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:35:55Z",
+  "last_updated": "2026-07-25T08:36:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -442018,27 +442018,6 @@
       }
     },
     {
-      "cr_film_id": 16610,
-      "cr_slug": "virtualni-revoluce",
-      "title": "Virtuální revoluce",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T08:02:01Z",
-      "first_failed_at": "2026-07-25T08:02:01Z",
-      "attempt_count": 1,
-      "upload_id": "5eedab8676023",
-      "source_url": "https://prehraj.to/virtualni-revoluce-sci-fi-2016-cz-dabing/5eedab8676023",
-      "upload_title": "Virtualni-revoluce-(sci-fi)-(2016)--cz-dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 343.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 28522,
       "cr_slug": "seal-team-8-za-nepratelskou-linii",
       "title": "Seal Team 8: Za nepřátelskou linií",
@@ -442118,19 +442097,29 @@
         "resolve_sec": 1.1,
         "download_sec": 185.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16610,
       "cr_slug": "virtualni-revoluce",
       "title": "Virtuální revoluce",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:32:11Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-25T08:36:27Z",
+      "first_failed_at": "2026-07-25T08:02:01Z",
+      "attempt_count": 2,
+      "upload_id": "5eedab8676023",
+      "source_url": "https://prehraj.to/virtualni-revoluce-sci-fi-2016-cz-dabing/5eedab8676023",
+      "upload_title": "Virtualni-revoluce-(sci-fi)-(2016)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 248.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 28472,
       "cr_slug": "my-little-pony-equestria-girls",
