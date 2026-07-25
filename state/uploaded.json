@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T14:53:13Z",
+  "last_updated": "2026-07-25T14:54:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -454387,6 +454387,27 @@
       "timing": {
         "resolve_sec": 2.5
       }
+    },
+    {
+      "cr_film_id": 28849,
+      "cr_slug": "relationship-goals",
+      "title": "Relationship Goals",
+      "year": 2026,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T14:54:36Z",
+      "first_failed_at": "2026-07-25T14:54:36Z",
+      "attempt_count": 1,
+      "upload_id": "cf8548c4a1b535f9",
+      "source_url": "https://prehraj.to/relationship-goals-2026-cz-titulky-hd/cf8548c4a1b535f9",
+      "upload_title": "Relationship Goals 2026 CZ titulky HD",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 49.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -454419,16 +454440,6 @@
       "worker_id": "worker-2-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T14:52:34Z"
-    },
-    {
-      "cr_film_id": 28849,
-      "cr_slug": "relationship-goals",
-      "title": "Relationship Goals",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T14:53:13Z"
     }
   ]
 }
