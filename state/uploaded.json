@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T21:42:51Z",
+  "last_updated": "2026-07-25T21:46:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -443946,6 +443946,30 @@
         "upload_sec": 186.7,
         "total_sec": 255.2
       }
+    },
+    {
+      "cr_film_id": 16281,
+      "cr_slug": "alpha",
+      "title": "Alpha",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "426568d170a6a990",
+      "source_url": "https://prehraj.to/alpha-2025-cztit-1080p/426568d170a6a990",
+      "source_title": "Alpha (2025) CZtit 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34724410/alpha-2025-cz-titulky.mp4",
+      "sdilej_name": "Alpha (2025) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-25T21:46:06Z",
+      "status": "uploaded",
+      "size_bytes": 2514575415,
+      "worker_id": "worker-3-30170372789",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 81.5,
+        "upload_sec": 270.6,
+        "total_sec": 353.7
+      }
     }
   ],
   "failed_attempts": [
@@ -459538,25 +459562,6 @@
       }
     },
     {
-      "cr_film_id": 16281,
-      "cr_slug": "alpha",
-      "title": "Alpha",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Falpha-2025-cztit-1080p%2F426568d170a6a990 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1b20fd910>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/alpha-2025-cztit-1080p/426568d170a6a990",
-      "failed_at": "2026-07-25T21:25:03Z",
-      "first_failed_at": "2026-07-25T21:25:03Z",
-      "attempt_count": 1,
-      "upload_id": "426568d170a6a990",
-      "source_url": "https://prehraj.to/alpha-2025-cztit-1080p/426568d170a6a990",
-      "upload_title": "Alpha (2025) CZtit 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.6
-      }
-    },
-    {
       "cr_film_id": 31627,
       "cr_slug": "aileen-kralovna-seriovych-vrahu",
       "title": "Aileen: Královna sériových vrahů",
@@ -459653,16 +459658,6 @@
       "worker_id": "worker-1-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T21:33:51Z"
-    },
-    {
-      "cr_film_id": 16281,
-      "cr_slug": "alpha",
-      "title": "Alpha",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T21:40:10Z"
     },
     {
       "cr_film_id": 31627,
