@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T22:12:36Z",
+  "last_updated": "2026-07-25T22:13:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459893,6 +459893,25 @@
       "timing": {
         "resolve_sec": 254.7
       }
+    },
+    {
+      "cr_film_id": 31486,
+      "cr_slug": "stesti-a-tak",
+      "title": "Štěstí a tak",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fstesti-a-tak-2024-cz-titulky-1080p%2F671521a5ad7cb (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a7a92e40>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/stesti-a-tak-2024-cz-titulky-1080p/671521a5ad7cb",
+      "failed_at": "2026-07-25T22:13:33Z",
+      "first_failed_at": "2026-07-25T22:13:33Z",
+      "attempt_count": 1,
+      "upload_id": "671521a5ad7cb",
+      "source_url": "https://prehraj.to/stesti-a-tak-2024-cz-titulky-1080p/671521a5ad7cb",
+      "upload_title": "Štěstí a tak 2024 CZ titulky 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.3
+      }
     }
   ],
   "in_progress": [
@@ -459905,16 +459924,6 @@
       "worker_id": "worker-2-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T15:12:12Z"
-    },
-    {
-      "cr_film_id": 31486,
-      "cr_slug": "stesti-a-tak",
-      "title": "Štěstí a tak",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T22:09:15Z"
     },
     {
       "cr_film_id": 35457,
