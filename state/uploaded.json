@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T22:14:07Z",
+  "last_updated": "2026-07-25T22:17:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459876,25 +459876,6 @@
       }
     },
     {
-      "cr_film_id": 35457,
-      "cr_slug": "film-2024",
-      "title": "फाइटर",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Ffighter-2024-cz-titulky%2F661d7fc3c5aef (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1b09ea570>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/fighter-2024-cz-titulky/661d7fc3c5aef",
-      "failed_at": "2026-07-25T22:09:09Z",
-      "first_failed_at": "2026-07-25T22:09:09Z",
-      "attempt_count": 1,
-      "upload_id": "661d7fc3c5aef",
-      "source_url": "https://prehraj.to/fighter-2024-cz-titulky/661d7fc3c5aef",
-      "upload_title": "Fighter (2024) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.7
-      }
-    },
-    {
       "cr_film_id": 31486,
       "cr_slug": "stesti-a-tak",
       "title": "Štěstí a tak",
@@ -459933,6 +459914,27 @@
         "download_sec": 77.3,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 35457,
+      "cr_slug": "film-2024",
+      "title": "फाइटर",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T22:17:19Z",
+      "first_failed_at": "2026-07-25T22:09:09Z",
+      "attempt_count": 2,
+      "upload_id": "661d7fc3c5aef",
+      "source_url": "https://prehraj.to/fighter-2024-cz-titulky/661d7fc3c5aef",
+      "upload_title": "Fighter (2024) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 328.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -459945,16 +459947,6 @@
       "worker_id": "worker-2-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T15:12:12Z"
-    },
-    {
-      "cr_film_id": 35457,
-      "cr_slug": "film-2024",
-      "title": "फाइटर",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T22:11:14Z"
     },
     {
       "cr_film_id": 2815,
