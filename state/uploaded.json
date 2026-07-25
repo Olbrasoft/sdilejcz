@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T21:23:52Z",
+  "last_updated": "2026-07-25T21:25:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459510,6 +459510,25 @@
         "download_sec": 60.3,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 16281,
+      "cr_slug": "alpha",
+      "title": "Alpha",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Falpha-2025-cztit-1080p%2F426568d170a6a990 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1b20fd910>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/alpha-2025-cztit-1080p/426568d170a6a990",
+      "failed_at": "2026-07-25T21:25:03Z",
+      "first_failed_at": "2026-07-25T21:25:03Z",
+      "attempt_count": 1,
+      "upload_id": "426568d170a6a990",
+      "source_url": "https://prehraj.to/alpha-2025-cztit-1080p/426568d170a6a990",
+      "upload_title": "Alpha (2025) CZtit 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.6
+      }
     }
   ],
   "in_progress": [
@@ -459522,16 +459541,6 @@
       "worker_id": "worker-2-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T15:12:12Z"
-    },
-    {
-      "cr_film_id": 16281,
-      "cr_slug": "alpha",
-      "title": "Alpha",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T21:20:44Z"
     },
     {
       "cr_film_id": 37002,
