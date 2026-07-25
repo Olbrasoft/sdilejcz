@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T01:39:52Z",
+  "last_updated": "2026-07-25T01:40:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -416994,6 +416994,30 @@
         "upload_sec": 59.7,
         "total_sec": 96.2
       }
+    },
+    {
+      "cr_film_id": 35176,
+      "cr_slug": "voyage-of-the-unicorn",
+      "title": "Voyage of the Unicorn",
+      "year": 2001,
+      "source": "prehrajto",
+      "source_backlog": "prehrajto-films.jsonl.gz",
+      "source_upload_id": "5c367ba441999",
+      "source_url": "https://prehraj.to/na-palube-jednorozce-2001-cz-dabing/5c367ba441999",
+      "source_title": "Na Palubě Jednorožce (2001) CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34720269/voyage-of-the-unicorn-2001-cz-dabing.mp4",
+      "sdilej_name": "Voyage of the Unicorn (2001) CZ Dabing.mp4",
+      "uploaded_at": "2026-07-25T01:40:38Z",
+      "status": "uploaded",
+      "size_bytes": 1128842974,
+      "worker_id": "worker-2-30126678495",
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 65.7,
+        "upload_sec": 150.1,
+        "total_sec": 217.8
+      }
     }
   ],
   "failed_attempts": [
@@ -430064,27 +430088,6 @@
       }
     },
     {
-      "cr_film_id": 35176,
-      "cr_slug": "voyage-of-the-unicorn",
-      "title": "Voyage of the Unicorn",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T01:33:24Z",
-      "first_failed_at": "2026-07-25T01:33:24Z",
-      "attempt_count": 1,
-      "upload_id": "5bdd0c28d72cb",
-      "source_url": "https://prehraj.to/na-palube-jednorozce-2001-cz-dabing/5bdd0c28d72cb",
-      "upload_title": "Na Palubě Jednorožce (2001) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 81.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35177,
       "cr_slug": "bad-25",
       "title": "Bad 25",
@@ -430222,40 +430225,9 @@
         "download_sec": 16.8,
         "upload_sec": 30.1
       }
-    },
-    {
-      "cr_film_id": 35176,
-      "cr_slug": "voyage-of-the-unicorn",
-      "title": "Voyage of the Unicorn",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T01:35:47Z",
-      "first_failed_at": "2026-07-25T01:35:47Z",
-      "attempt_count": 1,
-      "upload_id": "5b881a16e5565",
-      "source_url": "https://prehraj.to/na-palube-jednorozce-2001-cz-dabing/5b881a16e5565",
-      "upload_title": "Na Palubě Jednorožce (2001) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 77.7,
-        "upload_sec": 30.1
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 35176,
-      "cr_slug": "voyage-of-the-unicorn",
-      "title": "Voyage of the Unicorn",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T01:36:58Z"
-    },
     {
       "cr_film_id": 35183,
       "cr_slug": "the-derby-stallion",
