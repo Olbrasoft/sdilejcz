@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:44:33Z",
+  "last_updated": "2026-07-25T08:44:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -442341,6 +442341,25 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 1.1
+      }
+    },
+    {
+      "cr_film_id": 324,
+      "cr_slug": "avengers",
+      "title": "Avengers",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/avengers-2012-1080p-cz-mp4/8f5d07db888f86ce",
+      "failed_at": "2026-07-25T08:44:39Z",
+      "first_failed_at": "2026-07-25T08:44:39Z",
+      "attempt_count": 1,
+      "upload_id": "8f5d07db888f86ce",
+      "source_url": "https://prehraj.to/avengers-2012-1080p-cz-mp4/8f5d07db888f86ce",
+      "upload_title": "Avengers 2012 1080p CZ.mp4",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 2.4
       }
     }
   ],
