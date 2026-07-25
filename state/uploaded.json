@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T20:10:04Z",
+  "last_updated": "2026-07-25T20:14:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459098,6 +459098,25 @@
       "timing": {
         "resolve_sec": 254.5
       }
+    },
+    {
+      "cr_film_id": 15183,
+      "cr_slug": "chhorii-2",
+      "title": "Chhorii 2",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fchhorii-2-2025-cz-titulky-1080p-mp4%2F681880beab609 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a7d68fe0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/chhorii-2-2025-cz-titulky-1080p-mp4/681880beab609",
+      "failed_at": "2026-07-25T20:14:22Z",
+      "first_failed_at": "2026-07-25T20:14:22Z",
+      "attempt_count": 1,
+      "upload_id": "681880beab609",
+      "source_url": "https://prehraj.to/chhorii-2-2025-cz-titulky-1080p-mp4/681880beab609",
+      "upload_title": "Chhorii 2 2025 CZ titulky 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.7
+      }
     }
   ],
   "in_progress": [
@@ -459140,16 +459159,6 @@
       "worker_id": "worker-1-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T20:04:37Z"
-    },
-    {
-      "cr_film_id": 15183,
-      "cr_slug": "chhorii-2",
-      "title": "Chhorii 2",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T20:10:04Z"
     }
   ]
 }
