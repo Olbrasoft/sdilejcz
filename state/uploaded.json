@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T00:55:27Z",
+  "last_updated": "2026-07-25T00:56:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -429045,6 +429045,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34974,
+      "cr_slug": "lekce-umirani",
+      "title": "Lekce umírání",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T00:56:07Z",
+      "first_failed_at": "2026-07-25T00:56:07Z",
+      "attempt_count": 1,
+      "upload_id": "55d7529e8eef4",
+      "source_url": "https://prehraj.to/lekce-umirani-2007-czdab/55d7529e8eef4",
+      "upload_title": "Lekce umirani (2007)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 31.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -429067,16 +429088,6 @@
       "worker_id": "worker-4-30126678495",
       "run_id": "30126678495",
       "reserved_at": "2026-07-25T00:54:51Z"
-    },
-    {
-      "cr_film_id": 34974,
-      "cr_slug": "lekce-umirani",
-      "title": "Lekce umírání",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30126678495",
-      "run_id": "30126678495",
-      "reserved_at": "2026-07-25T00:55:01Z"
     },
     {
       "cr_film_id": 34975,
