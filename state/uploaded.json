@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T17:39:16Z",
+  "last_updated": "2026-07-25T17:40:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -457668,27 +457668,6 @@
       }
     },
     {
-      "cr_film_id": 28459,
-      "cr_slug": "pohled-do-slunce",
-      "title": "Pohled do slunce",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T17:07:37Z",
-      "first_failed_at": "2026-07-25T17:07:37Z",
-      "attempt_count": 1,
-      "upload_id": "78daab10f2ace940",
-      "source_url": "https://prehraj.to/pohled-do-slunce-2025-cz-titulky-hd-mp4/78daab10f2ace940",
-      "upload_title": "Pohled do slunce 2025 CZ titulky HD.mp4",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 125.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35785,
       "cr_slug": "pan-nikdo-proti-putinovi",
       "title": "Pan Nikdo proti Putinovi",
@@ -457763,6 +457742,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 28459,
+      "cr_slug": "pohled-do-slunce",
+      "title": "Pohled do slunce",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T17:40:46Z",
+      "first_failed_at": "2026-07-25T17:07:37Z",
+      "attempt_count": 2,
+      "upload_id": "78daab10f2ace940",
+      "source_url": "https://prehraj.to/pohled-do-slunce-2025-cz-titulky-hd-mp4/78daab10f2ace940",
+      "upload_title": "Pohled do slunce 2025 CZ titulky HD.mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 130.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -457785,16 +457785,6 @@
       "worker_id": "worker-1-30158642260",
       "run_id": "30158642260",
       "reserved_at": "2026-07-25T17:33:35Z"
-    },
-    {
-      "cr_film_id": 28459,
-      "cr_slug": "pohled-do-slunce",
-      "title": "Pohled do slunce",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30158642260",
-      "run_id": "30158642260",
-      "reserved_at": "2026-07-25T17:38:01Z"
     },
     {
       "cr_film_id": 2472,
