@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T19:21:07Z",
+  "last_updated": "2026-07-25T19:21:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -458718,25 +458718,6 @@
       }
     },
     {
-      "cr_film_id": 28891,
-      "cr_slug": "dva-svety-jedno-prani",
-      "title": "Dva světy, jedno přání",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fdva-svety-jedno-prani-2025-cz-titulky-1080p-mkv%2F75a9999460973f10 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1ab3a79e0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/dva-svety-jedno-prani-2025-cz-titulky-1080p-mkv/75a9999460973f10",
-      "failed_at": "2026-07-25T19:17:10Z",
-      "first_failed_at": "2026-07-25T19:17:10Z",
-      "attempt_count": 1,
-      "upload_id": "75a9999460973f10",
-      "source_url": "https://prehraj.to/dva-svety-jedno-prani-2025-cz-titulky-1080p-mkv/75a9999460973f10",
-      "upload_title": "Dva světy, jedno přání (2025) CZ Titulky 1080p.mkv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.7
-      }
-    },
-    {
       "cr_film_id": 16313,
       "cr_slug": "dolly",
       "title": "Dolly",
@@ -458773,6 +458754,26 @@
       "timing": {
         "resolve_sec": 2.4
       }
+    },
+    {
+      "cr_film_id": 28891,
+      "cr_slug": "dva-svety-jedno-prani",
+      "title": "Dva světy, jedno přání",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 18: curl: (18) transfer closed with 974316017 bytes remaining to read",
+      "failed_at": "2026-07-25T19:21:11Z",
+      "first_failed_at": "2026-07-25T19:17:10Z",
+      "attempt_count": 2,
+      "upload_id": "75a9999460973f10",
+      "source_url": "https://prehraj.to/dva-svety-jedno-prani-2025-cz-titulky-1080p-mkv/75a9999460973f10",
+      "upload_title": "Dva světy, jedno přání (2025) CZ Titulky 1080p.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 83.2
+      }
     }
   ],
   "in_progress": [
@@ -458805,16 +458806,6 @@
       "worker_id": "worker-2-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-25T19:17:15Z"
-    },
-    {
-      "cr_film_id": 28891,
-      "cr_slug": "dva-svety-jedno-prani",
-      "title": "Dva světy, jedno přání",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T19:19:43Z"
     },
     {
       "cr_film_id": 16313,
