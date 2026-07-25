@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-25T08:32:11Z",
+  "last_updated": "2026-07-25T08:34:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -442029,19 +442029,30 @@
         "resolve_sec": 1.0,
         "download_sec": 91.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 28522,
       "cr_slug": "seal-team-8-za-nepratelskou-linii",
       "title": "Seal Team 8: Za nepřátelskou linií",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30150182076",
-      "run_id": "30150182076",
-      "reserved_at": "2026-07-25T08:25:46Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-25T08:34:03Z",
+      "first_failed_at": "2026-07-25T08:34:03Z",
+      "attempt_count": 1,
+      "upload_id": "26ad77f06316bdb2",
+      "source_url": "https://prehraj.to/seal-team-8-za-nepratelskou-linii-2014-cz/26ad77f06316bdb2",
+      "upload_title": "Seal Team 8- Za nepřátelskou linií (2014) cz",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 458.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19974,
       "cr_slug": "pokrevni-pouto",
