@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T01:33:20Z",
+  "last_updated": "2026-07-26T01:34:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -462952,19 +462952,30 @@
         "download_sec": 56.8,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37213,
       "cr_slug": "horror-in-the-high-desert-3-firewatch",
       "title": "Horror in the High Desert 3: Firewatch",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T01:31:57Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T01:34:13Z",
+      "first_failed_at": "2026-07-26T01:34:13Z",
+      "attempt_count": 1,
+      "upload_id": "c6cf942716154f19",
+      "source_url": "https://prehraj.to/horror-in-the-high-desert-3-firewatch-2024-1080p-web-dl-h264-loco-mkv/c6cf942716154f19",
+      "upload_title": "Horror.in.the.High.Desert.3. Firewatch.2024. cz tit.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 100.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4906,
       "cr_slug": "here",
