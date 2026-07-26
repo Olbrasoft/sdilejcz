@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T01:17:42Z",
+  "last_updated": "2026-07-26T01:17:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -446898,6 +446898,30 @@
         "upload_sec": 117.6,
         "total_sec": 166.2
       }
+    },
+    {
+      "cr_film_id": 31405,
+      "cr_slug": "maharadza",
+      "title": "Mahárádža",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "7996a41cec138649",
+      "source_url": "https://prehraj.to/maharadza-2024-cz-titulky/7996a41cec138649",
+      "source_title": "Mahárádža (2024) CZ titulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34724935/maharadza-2024-cz-titulky.mp4",
+      "sdilej_name": "Mahárádža (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T01:17:52Z",
+      "status": "uploaded",
+      "size_bytes": 2214325602,
+      "worker_id": "worker-4-30180079613",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 93.8,
+        "upload_sec": 238.8,
+        "total_sec": 335.7
+      }
     }
   ],
   "failed_attempts": [
@@ -462526,40 +462550,9 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 31405,
-      "cr_slug": "maharadza",
-      "title": "Mahárádža",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T01:11:12Z",
-      "first_failed_at": "2026-07-26T01:11:12Z",
-      "attempt_count": 1,
-      "upload_id": "680392d412ae7",
-      "source_url": "https://prehraj.to/maharadza-2024-cz-tit-1080p/680392d412ae7",
-      "upload_title": "Mahárádža 2024 CZ tit 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.8,
-        "download_sec": 139.8,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 31405,
-      "cr_slug": "maharadza",
-      "title": "Mahárádža",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T01:12:08Z"
-    },
     {
       "cr_film_id": 31428,
       "cr_slug": "m-a-s-h-the-comedy-that-changed-television",
