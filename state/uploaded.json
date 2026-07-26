@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T09:46:00Z",
+  "last_updated": "2026-07-26T09:46:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -473052,6 +473052,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 27360,
+      "cr_slug": "mal-de-ojo",
+      "title": "Mal de ojo",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T09:46:29Z",
+      "first_failed_at": "2026-07-26T09:46:29Z",
+      "attempt_count": 1,
+      "upload_id": "63db96c9dd7ab",
+      "source_url": "https://prehraj.to/mal-de-ojo-2022-cz-sub-1080p/63db96c9dd7ab",
+      "upload_title": "Mal.De.Ojo.2022 cz sub 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 84.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -473074,16 +473095,6 @@
       "worker_id": "worker-3-30188928436",
       "run_id": "30188928436",
       "reserved_at": "2026-07-26T09:42:04Z"
-    },
-    {
-      "cr_film_id": 27360,
-      "cr_slug": "mal-de-ojo",
-      "title": "Mal de ojo",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T09:44:29Z"
     },
     {
       "cr_film_id": 28492,
