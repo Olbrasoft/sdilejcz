@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T12:34:50Z",
+  "last_updated": "2026-07-26T12:35:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -475670,19 +475670,30 @@
         "download_sec": 220.9,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15131,
       "cr_slug": "bejval-sem-slavnej",
       "title": "Bejval sem slavnej",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T12:32:55Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T12:35:22Z",
+      "first_failed_at": "2026-07-26T12:35:22Z",
+      "attempt_count": 1,
+      "upload_id": "632746aeb6a91",
+      "source_url": "https://prehraj.to/bejval-sem-slavnej-2022-cztitulky/632746aeb6a91",
+      "upload_title": "Bejval sem slavnej (2022) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 110.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14755,
       "cr_slug": "beavis-and-butt-head-do-the-universe",
