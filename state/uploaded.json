@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T03:50:01Z",
+  "last_updated": "2026-07-26T03:51:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -465773,19 +465773,29 @@
         "download_sec": 115.4,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 36944,
       "cr_slug": "the-engineer",
       "title": "The Engineer",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T03:48:05Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-26T03:51:14Z",
+      "first_failed_at": "2026-07-26T03:51:14Z",
+      "attempt_count": 1,
+      "upload_id": "64df7e7fa87eb",
+      "source_url": "https://prehraj.to/the-engineer-2023-1080p-amzn-web-dl-ddp5-1-h-264-flux/64df7e7fa87eb",
+      "upload_title": "The.Engineer.2023.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 182.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 6168,
       "cr_slug": "the-critic",
