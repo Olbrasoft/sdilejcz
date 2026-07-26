@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T15:00:21Z",
+  "last_updated": "2026-07-26T15:01:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -478001,19 +478001,30 @@
         "download_sec": 69.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 27119,
       "cr_slug": "the-box",
       "title": "The Box",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T14:53:53Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T15:01:16Z",
+      "first_failed_at": "2026-07-26T15:01:16Z",
+      "attempt_count": 1,
+      "upload_id": "60f5fef8579e0",
+      "source_url": "https://prehraj.to/the-box-2021-cztitulky/60f5fef8579e0",
+      "upload_title": "The Box (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 405.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20992,
       "cr_slug": "ted-k",
