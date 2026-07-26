@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T03:11:16Z",
+  "last_updated": "2026-07-26T03:11:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -464867,6 +464867,26 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 14910,
+      "cr_slug": "vyzov",
+      "title": "Vyzov",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-26T03:11:41Z",
+      "first_failed_at": "2026-07-26T03:11:41Z",
+      "attempt_count": 1,
+      "upload_id": "64f67df4c3106",
+      "source_url": "https://prehraj.to/the-challenge-2023-cztitulky/64f67df4c3106",
+      "upload_title": "The Challenge (2023) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 88.7
+      }
     }
   ],
   "in_progress": [
@@ -464889,16 +464909,6 @@
       "worker_id": "worker-1-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T03:09:39Z"
-    },
-    {
-      "cr_film_id": 14910,
-      "cr_slug": "vyzov",
-      "title": "Vyzov",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T03:10:07Z"
     },
     {
       "cr_film_id": 28046,
