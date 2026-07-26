@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:18:20Z",
+  "last_updated": "2026-07-26T00:18:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -461586,19 +461586,28 @@
         "download_sec": 75.1,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16207,
       "cr_slug": "s-t-a-l-k-e-r-shadow-of-the-zone",
       "title": "S.T.A.L.K.E.R. Shadow of the Zone",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-26T00:14:31Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fs-t-a-l-k-e-r-shadow-of-the-zone-2024-cz-titulky%2F678ca7a41c5f9 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a8ddf770>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/s-t-a-l-k-e-r-shadow-of-the-zone-2024-cz-titulky/678ca7a41c5f9",
+      "failed_at": "2026-07-26T00:18:49Z",
+      "first_failed_at": "2026-07-26T00:18:49Z",
+      "attempt_count": 1,
+      "upload_id": "678ca7a41c5f9",
+      "source_url": "https://prehraj.to/s-t-a-l-k-e-r-shadow-of-the-zone-2024-cz-titulky/678ca7a41c5f9",
+      "upload_title": "S.T.A.L.K.E.R. Shadow of the Zone (2024)(CZ titulky)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34202,
       "cr_slug": "sebastian",
