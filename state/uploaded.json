@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T12:18:33Z",
+  "last_updated": "2026-07-26T12:19:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459258,6 +459258,30 @@
         "upload_sec": 137.9,
         "total_sec": 197.7
       }
+    },
+    {
+      "cr_film_id": 32171,
+      "cr_slug": "carter-2",
+      "title": "Carter",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "62ecd7c49fafd",
+      "source_url": "https://prehraj.to/carter-2022-1080p-en-kr-dabing-a-cz-titulky/62ecd7c49fafd",
+      "source_title": "Carter 2022 1080P EN-KR Dabing a CZ Titulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34727602/carter-2022-cz-titulky.mp4",
+      "sdilej_name": "Carter (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T12:19:28Z",
+      "status": "uploaded",
+      "size_bytes": 3987659542,
+      "worker_id": "worker-4-30198992890",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 381.6,
+        "upload_sec": 512.7,
+        "total_sec": 896.3
+      }
     }
   ],
   "failed_attempts": [
@@ -475386,27 +475410,6 @@
       }
     },
     {
-      "cr_film_id": 32171,
-      "cr_slug": "carter-2",
-      "title": "Carter",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: Final upload response did not include url: {'name': 'Carter (2022) CZ Titulky (709).mp4', 'size': 71779, 'type': 'video/mp4'}",
-      "failed_at": "2026-07-26T12:02:58Z",
-      "first_failed_at": "2026-07-26T12:02:58Z",
-      "attempt_count": 1,
-      "upload_id": "62ed57f45c499",
-      "source_url": "https://prehraj.to/carter-2022-cz-sub-1080p/62ed57f45c499",
-      "upload_title": "Carter.2022 cz sub 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 186.0,
-        "upload_sec": 466.7
-      }
-    },
-    {
       "cr_film_id": 18002,
       "cr_slug": "ek-villain-returns",
       "title": "Ek Villain Returns",
@@ -475450,16 +475453,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 32171,
-      "cr_slug": "carter-2",
-      "title": "Carter",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T12:04:29Z"
-    },
     {
       "cr_film_id": 18002,
       "cr_slug": "ek-villain-returns",
