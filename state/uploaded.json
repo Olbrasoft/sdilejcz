@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T08:44:46Z",
+  "last_updated": "2026-07-26T08:46:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -455730,6 +455730,30 @@
         "upload_sec": 278.8,
         "total_sec": 368.1
       }
+    },
+    {
+      "cr_film_id": 20114,
+      "cr_slug": "stutz",
+      "title": "Stutz",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6377171a9bfc6",
+      "source_url": "https://prehraj.to/stutz-2022-cztitulky/6377171a9bfc6",
+      "source_title": "Stutz (2022) CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34726887/stutz-2022-cz-titulky.mp4",
+      "sdilej_name": "Stutz (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T08:46:48Z",
+      "status": "uploaded",
+      "size_bytes": 1079329767,
+      "worker_id": "worker-3-30188928436",
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 143.4,
+        "upload_sec": 138.9,
+        "total_sec": 284.2
+      }
     }
   ],
   "failed_attempts": [
@@ -471645,27 +471669,6 @@
       }
     },
     {
-      "cr_film_id": 20114,
-      "cr_slug": "stutz",
-      "title": "Stutz",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T08:10:53Z",
-      "first_failed_at": "2026-07-26T08:10:53Z",
-      "attempt_count": 1,
-      "upload_id": "6377171a9bfc6",
-      "source_url": "https://prehraj.to/stutz-2022-cztitulky/6377171a9bfc6",
-      "upload_title": "Stutz (2022) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.6,
-        "download_sec": 50.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 36908,
       "cr_slug": "sniper-rogue-mission",
       "title": "Sniper: Rogue Mission",
@@ -471728,16 +471731,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 20114,
-      "cr_slug": "stutz",
-      "title": "Stutz",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T08:42:01Z"
-    },
     {
       "cr_film_id": 9653,
       "cr_slug": "ripd-2-rise-of-the-damned",
