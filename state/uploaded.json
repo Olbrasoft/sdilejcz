@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T02:23:17Z",
+  "last_updated": "2026-07-26T02:23:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -463890,19 +463890,30 @@
         "resolve_sec": 1.2,
         "download_sec": 200.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9941,
       "cr_slug": "dagr",
       "title": "Dagr",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T02:20:40Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T02:23:56Z",
+      "first_failed_at": "2026-07-26T02:23:56Z",
+      "attempt_count": 1,
+      "upload_id": "66dc6bd2a086c",
+      "source_url": "https://prehraj.to/dagr-2024-cz-titulky-1080p/66dc6bd2a086c",
+      "upload_title": "Dagr (2024) CZ Titulky 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 159.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7161,
       "cr_slug": "cuckoo",
