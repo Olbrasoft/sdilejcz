@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T17:04:55Z",
+  "last_updated": "2026-07-26T17:07:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -479413,19 +479413,30 @@
       "timing": {
         "resolve_sec": 1.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30896,
       "cr_slug": "peter-tatchell-laska-a-nenavist",
       "title": "Peter Tatchell: Láska a nenávist",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T17:01:12Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T17:07:15Z",
+      "first_failed_at": "2026-07-26T17:07:15Z",
+      "attempt_count": 1,
+      "upload_id": "b78117eecc1e4b77",
+      "source_url": "https://prehraj.to/peter-tatchell-laska-a-nenavist-2021-cz-titulky/b78117eecc1e4b77",
+      "upload_title": "Peter Tatchell: Láska a nenávist (2021) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.8,
+        "download_sec": 325.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31152,
       "cr_slug": "pekelne-bingo",
