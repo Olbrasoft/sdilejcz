@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T02:02:35Z",
+  "last_updated": "2026-07-26T02:03:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -463546,19 +463546,30 @@
         "download_sec": 45.5,
         "upload_sec": 30.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15976,
       "cr_slug": "dream-eater",
       "title": "Dream Eater",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T02:01:07Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T02:03:26Z",
+      "first_failed_at": "2026-07-26T02:03:26Z",
+      "attempt_count": 1,
+      "upload_id": "10219ceb26bfc2d2",
+      "source_url": "https://prehraj.to/dream-eater-2025-1080p-cz-tit-mp4/10219ceb26bfc2d2",
+      "upload_title": "Dream.Eater.2025.1080p cz tit .mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 99.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14952,
       "cr_slug": "dominique",
