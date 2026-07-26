@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T14:15:30Z",
+  "last_updated": "2026-07-26T14:15:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -461058,6 +461058,30 @@
         "upload_sec": 415.6,
         "total_sec": 605.7
       }
+    },
+    {
+      "cr_film_id": 18041,
+      "cr_slug": "ve-vate",
+      "title": "Ve vatě",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "63552fbd4af34",
+      "source_url": "https://prehraj.to/ve-vate-forever-rich-2021-cz-tit/63552fbd4af34",
+      "source_title": "Ve vatě - Forever Rich 2021 CZ-TIT",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34728209/ve-vate-2021-cz-titulky.mp4",
+      "sdilej_name": "Ve vatě (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T14:15:27Z",
+      "status": "uploaded",
+      "size_bytes": 1840628949,
+      "worker_id": "worker-4-30198992890",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 152.0,
+        "upload_sec": 233.2,
+        "total_sec": 387.1
+      }
     }
   ],
   "failed_attempts": [
@@ -477166,27 +477190,6 @@
       }
     },
     {
-      "cr_film_id": 18041,
-      "cr_slug": "ve-vate",
-      "title": "Ve vatě",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T14:03:40Z",
-      "first_failed_at": "2026-07-26T14:03:40Z",
-      "attempt_count": 1,
-      "upload_id": "6355307d3bb09",
-      "source_url": "https://prehraj.to/ve-vate-forever-rich-2021-cz-tit/6355307d3bb09",
-      "upload_title": "Ve vatě - Forever Rich 2021 CZ-TIT",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 164.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35455,
       "cr_slug": "undergods",
       "title": "Undergods",
@@ -477209,16 +477212,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 18041,
-      "cr_slug": "ve-vate",
-      "title": "Ve vatě",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T14:08:57Z"
-    },
     {
       "cr_film_id": 5446,
       "cr_slug": "v-oblezeni-2021",
