@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T09:16:41Z",
+  "last_updated": "2026-07-26T09:17:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -456378,6 +456378,30 @@
         "upload_sec": 126.1,
         "total_sec": 175.3
       }
+    },
+    {
+      "cr_film_id": 31293,
+      "cr_slug": "nulteho-cervna",
+      "title": "Nultého června",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "659cb8f6ee20d",
+      "source_url": "https://prehraj.to/nulteho-cervna/659cb8f6ee20d",
+      "source_title": "Nultého června",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34726977/nulteho-cervna-2022-cz-titulky.mp4",
+      "sdilej_name": "Nultého června (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T09:17:14Z",
+      "status": "uploaded",
+      "size_bytes": 1310095604,
+      "worker_id": "worker-1-30188928436",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 81.4,
+        "upload_sec": 167.6,
+        "total_sec": 250.8
+      }
     }
   ],
   "failed_attempts": [
@@ -472348,40 +472372,9 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    },
-    {
-      "cr_film_id": 31293,
-      "cr_slug": "nulteho-cervna",
-      "title": "Nultého června",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T09:12:00Z",
-      "first_failed_at": "2026-07-26T09:12:00Z",
-      "attempt_count": 1,
-      "upload_id": "9e10944dc1093307",
-      "source_url": "https://prehraj.to/nulteho-cervna-2023-cz-titulky/9e10944dc1093307",
-      "upload_title": "Nultého června (2023) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.7,
-        "download_sec": 139.0,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 31293,
-      "cr_slug": "nulteho-cervna",
-      "title": "Nultého června",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T09:13:00Z"
-    },
     {
       "cr_film_id": 35402,
       "cr_slug": "non-mi-uccidere",
