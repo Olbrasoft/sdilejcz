@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T17:25:19Z",
+  "last_updated": "2026-07-26T17:26:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -479629,6 +479629,27 @@
       "timing": {
         "resolve_sec": 1.2
       }
+    },
+    {
+      "cr_film_id": 14145,
+      "cr_slug": "o-menino-que-matou-meus-pais",
+      "title": "O Menino Que Matou Meus Pais",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T17:26:04Z",
+      "first_failed_at": "2026-07-26T17:26:04Z",
+      "attempt_count": 1,
+      "upload_id": "61ca5fe9f20c5",
+      "source_url": "https://prehraj.to/o-menino-que-matou-meus-pais-2021-cztitulky/61ca5fe9f20c5",
+      "upload_title": "O Menino que Matou Meus Pais (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 50.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -479651,16 +479672,6 @@
       "worker_id": "worker-4-30211240394",
       "run_id": "30211240394",
       "reserved_at": "2026-07-26T17:23:51Z"
-    },
-    {
-      "cr_film_id": 14145,
-      "cr_slug": "o-menino-que-matou-meus-pais",
-      "title": "O Menino Que Matou Meus Pais",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T17:24:39Z"
     },
     {
       "cr_film_id": 26637,
