@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T04:46:51Z",
+  "last_updated": "2026-07-26T04:49:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -451098,6 +451098,30 @@
         "upload_sec": 209.1,
         "total_sec": 275.7
       }
+    },
+    {
+      "cr_film_id": 7844,
+      "cr_slug": "night-shift",
+      "title": "Night Shift",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "65fa014177910",
+      "source_url": "https://prehraj.to/night-shift-2023-cz-titulky-hd-1080p/65fa014177910",
+      "source_title": "Night Shift 2023 CZ titulky HD 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34725504/night-shift-2023-cz-titulky.mp4",
+      "sdilej_name": "Night Shift (2023) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T04:49:07Z",
+      "status": "uploaded",
+      "size_bytes": 801314345,
+      "worker_id": "worker-4-30180079613",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 44.8,
+        "upload_sec": 87.6,
+        "total_sec": 134.0
+      }
     }
   ],
   "failed_attempts": [
@@ -466840,27 +466864,6 @@
       "timing": {
         "resolve_sec": 2.5
       }
-    },
-    {
-      "cr_film_id": 7844,
-      "cr_slug": "night-shift",
-      "title": "Night Shift",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T04:46:01Z",
-      "first_failed_at": "2026-07-26T04:46:01Z",
-      "attempt_count": 1,
-      "upload_id": "65edb1d212a2e",
-      "source_url": "https://prehraj.to/night-shift-2023-cz-titulky-1080p-fullhd/65edb1d212a2e",
-      "upload_title": "Night Shift (2023) CZ Titulky 1080p (FullHD)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 54.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -466893,16 +466896,6 @@
       "worker_id": "worker-3-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T04:46:04Z"
-    },
-    {
-      "cr_film_id": 7844,
-      "cr_slug": "night-shift",
-      "title": "Night Shift",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T04:46:51Z"
     }
   ]
 }
