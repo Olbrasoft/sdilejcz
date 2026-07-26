@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T02:10:18Z",
+  "last_updated": "2026-07-26T02:11:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -447930,6 +447930,30 @@
         "upload_sec": 278.5,
         "total_sec": 384.1
       }
+    },
+    {
+      "cr_film_id": 28125,
+      "cr_slug": "hrad-z-pisku",
+      "title": "Hrad z písku",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "67a26dcc75a05",
+      "source_url": "https://prehraj.to/the-sand-castle-hrad-z-pisku-2024-cz-titulky/67a26dcc75a05",
+      "source_title": "The Sand Castle - Hrad z písku 2024 CZ titulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34725090/hrad-z-pisku-2024-cz-titulky.mp4",
+      "sdilej_name": "Hrad z písku (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T02:11:26Z",
+      "status": "uploaded",
+      "size_bytes": 1545769849,
+      "worker_id": "worker-1-30180079613",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 86.3,
+        "upload_sec": 198.3,
+        "total_sec": 286.1
+      }
     }
   ],
   "failed_attempts": [
@@ -463560,27 +463584,6 @@
       }
     },
     {
-      "cr_film_id": 28125,
-      "cr_slug": "hrad-z-pisku",
-      "title": "Hrad z písku",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T01:33:16Z",
-      "first_failed_at": "2026-07-26T01:33:16Z",
-      "attempt_count": 1,
-      "upload_id": "67a26dcc75a05",
-      "source_url": "https://prehraj.to/the-sand-castle-hrad-z-pisku-2024-cz-titulky/67a26dcc75a05",
-      "upload_title": "The Sand Castle - Hrad z písku 2024 CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 56.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 37213,
       "cr_slug": "horror-in-the-high-desert-3-firewatch",
       "title": "Horror in the High Desert 3: Firewatch",
@@ -463666,16 +463669,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 28125,
-      "cr_slug": "hrad-z-pisku",
-      "title": "Hrad z písku",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T02:06:37Z"
-    },
     {
       "cr_film_id": 37213,
       "cr_slug": "horror-in-the-high-desert-3-firewatch",
