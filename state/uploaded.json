@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T10:44:51Z",
+  "last_updated": "2026-07-26T10:45:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -474009,19 +474009,30 @@
         "download_sec": 181.7,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10588,
       "cr_slug": "hollywoodska-stargirl",
       "title": "Hollywoodská Stargirl",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T10:41:39Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Final upload response did not include url: {'name': 'Hollywoodská Stargirl (2022) CZ Titulky (95).mp4', 'size': 1200354, 'type': 'video/mp4'}",
+      "failed_at": "2026-07-26T10:45:09Z",
+      "first_failed_at": "2026-07-26T10:45:09Z",
+      "attempt_count": 1,
+      "upload_id": "629cf0531196b",
+      "source_url": "https://prehraj.to/hollywood-stargirl-2022-cztitulky-mp4/629cf0531196b",
+      "upload_title": "Hollywood Stargirl (2022) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 60.7,
+        "upload_sec": 142.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 28059,
       "cr_slug": "hodinova-manzelka",
