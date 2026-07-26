@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T03:29:19Z",
+  "last_updated": "2026-07-26T03:29:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -449490,6 +449490,30 @@
         "upload_sec": 109.8,
         "total_sec": 160.4
       }
+    },
+    {
+      "cr_film_id": 15886,
+      "cr_slug": "the-well",
+      "title": "The Well",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6905edb997180",
+      "source_url": "https://prehraj.to/the-well-2023-sktonline/6905edb997180",
+      "source_title": "The Well (2023) - SkTonline",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34725290/the-well-2023-cz-titulky.mp4",
+      "sdilej_name": "The Well (2023) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T03:29:35Z",
+      "status": "uploaded",
+      "size_bytes": 236505084,
+      "worker_id": "worker-4-30180079613",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 12.2,
+        "upload_sec": 26.2,
+        "total_sec": 40.0
+      }
     }
   ],
   "failed_attempts": [
@@ -465273,27 +465297,6 @@
       "timing": {
         "resolve_sec": 2.5
       }
-    },
-    {
-      "cr_film_id": 15886,
-      "cr_slug": "the-well",
-      "title": "The Well",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T03:27:50Z",
-      "first_failed_at": "2026-07-26T03:27:50Z",
-      "attempt_count": 1,
-      "upload_id": "670820a8085cc",
-      "source_url": "https://prehraj.to/the-well-2024-cz-titulky-1080p/670820a8085cc",
-      "upload_title": "The Well (2024) CZ Titulky 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 33.7,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -465306,16 +465309,6 @@
       "worker_id": "worker-3-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T03:27:53Z"
-    },
-    {
-      "cr_film_id": 15886,
-      "cr_slug": "the-well",
-      "title": "The Well",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T03:28:53Z"
     },
     {
       "cr_film_id": 9645,
