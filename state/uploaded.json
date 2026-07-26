@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T11:54:28Z",
+  "last_updated": "2026-07-26T11:58:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -458994,6 +458994,30 @@
         "upload_sec": 135.7,
         "total_sec": 272.6
       }
+    },
+    {
+      "cr_film_id": 34041,
+      "cr_slug": "emergency-declaration",
+      "title": "Emergency Declaration",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6391017445397",
+      "source_url": "https://prehraj.to/emergency-declaration-2022-cztitulky/6391017445397",
+      "source_title": "Emergency Declaration (2022) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34727525/emergency-declaration-2022-cz-titulky.mp4",
+      "sdilej_name": "Emergency Declaration (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T11:58:39Z",
+      "status": "uploaded",
+      "size_bytes": 2982074140,
+      "worker_id": "worker-2-30198992890",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 198.3,
+        "upload_sec": 323.9,
+        "total_sec": 523.9
+      }
     }
   ],
   "failed_attempts": [
@@ -475023,27 +475047,6 @@
       }
     },
     {
-      "cr_film_id": 34041,
-      "cr_slug": "emergency-declaration",
-      "title": "Emergency Declaration",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T11:18:20Z",
-      "first_failed_at": "2026-07-26T11:18:20Z",
-      "attempt_count": 1,
-      "upload_id": "6391017445397",
-      "source_url": "https://prehraj.to/emergency-declaration-2022-cztitulky/6391017445397",
-      "upload_title": "Emergency Declaration (2022) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 263.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 18002,
       "cr_slug": "ek-villain-returns",
       "title": "Ek Villain Returns",
@@ -475266,16 +475269,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 34041,
-      "cr_slug": "emergency-declaration",
-      "title": "Emergency Declaration",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T11:49:53Z"
-    },
     {
       "cr_film_id": 31336,
       "cr_slug": "carter-2022",
