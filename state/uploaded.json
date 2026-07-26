@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T12:19:36Z",
+  "last_updated": "2026-07-26T12:19:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459282,6 +459282,30 @@
         "upload_sec": 512.7,
         "total_sec": 896.3
       }
+    },
+    {
+      "cr_film_id": 18002,
+      "cr_slug": "ek-villain-returns",
+      "title": "Ek Villain Returns",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "633cbe3a9a69a",
+      "source_url": "https://prehraj.to/ek-villain-returns-2022-hind-cz-sub-1080p/633cbe3a9a69a",
+      "source_title": "Ek Villain Returns (2022) Hind cz.sub 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34727604/ek-villain-returns-2022-cz-titulky.mp4",
+      "sdilej_name": "Ek Villain Returns (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T12:19:44Z",
+      "status": "uploaded",
+      "size_bytes": 3016682526,
+      "worker_id": "worker-1-30198992890",
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 367.3,
+        "upload_sec": 291.9,
+        "total_sec": 661.7
+      }
     }
   ],
   "failed_attempts": [
@@ -475311,26 +475335,6 @@
       }
     },
     {
-      "cr_film_id": 18002,
-      "cr_slug": "ek-villain-returns",
-      "title": "Ek Villain Returns",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-26T11:31:17Z",
-      "first_failed_at": "2026-07-26T11:31:17Z",
-      "attempt_count": 1,
-      "upload_id": "633cbe3a9a69a",
-      "source_url": "https://prehraj.to/ek-villain-returns-2022-hind-cz-sub-1080p/633cbe3a9a69a",
-      "upload_title": "Ek Villain Returns (2022) Hind cz.sub 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 259.2
-      }
-    },
-    {
       "cr_film_id": 31322,
       "cr_slug": "dangerous-game-the-legacy-murders",
       "title": "Dangerous Game: The Legacy Murders",
@@ -475410,27 +475414,6 @@
       }
     },
     {
-      "cr_film_id": 18002,
-      "cr_slug": "ek-villain-returns",
-      "title": "Ek Villain Returns",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T12:04:26Z",
-      "first_failed_at": "2026-07-26T11:25:58Z",
-      "attempt_count": 2,
-      "upload_id": "633b50a61d7b4",
-      "source_url": "https://prehraj.to/ek-villain-returns-2022-cztitulky/633b50a61d7b4",
-      "upload_title": "Ek Villain Returns (2022) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 257.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 19680,
       "cr_slug": "dio-dreamers-never-die",
       "title": "Dio: Dreamers Never Die",
@@ -475453,16 +475436,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 18002,
-      "cr_slug": "ek-villain-returns",
-      "title": "Ek Villain Returns",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T12:08:40Z"
-    },
     {
       "cr_film_id": 27445,
       "cr_slug": "bubble",
