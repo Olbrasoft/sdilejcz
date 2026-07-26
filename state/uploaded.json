@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T21:10:51Z",
+  "last_updated": "2026-07-26T21:11:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -480633,19 +480633,30 @@
         "resolve_sec": 1.0,
         "download_sec": 3602.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 26882,
       "cr_slug": "ma-belle-my-beauty",
       "title": "Ma Belle, My Beauty",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T20:44:09Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T21:11:08Z",
+      "first_failed_at": "2026-07-26T21:11:08Z",
+      "attempt_count": 1,
+      "upload_id": "6202e7be80470",
+      "source_url": "https://prehraj.to/ma-belle-my-beauty-2021-cztitulky/6202e7be80470",
+      "upload_title": "Ma Belle, My Beauty (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 1582.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17186,
       "cr_slug": "minnal-murali",
