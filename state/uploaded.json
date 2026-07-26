@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T07:43:23Z",
+  "last_updated": "2026-07-26T07:45:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -470429,6 +470429,26 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 9197,
+      "cr_slug": "the-price-we-pay",
+      "title": "The Price We Pay",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-26T07:45:32Z",
+      "first_failed_at": "2026-07-26T07:45:32Z",
+      "attempt_count": 1,
+      "upload_id": "63cc90fa11f5e",
+      "source_url": "https://prehraj.to/the-price-we-pay-2022-cztitulky/63cc90fa11f5e",
+      "upload_title": "The Price We Pay (2022) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 237.9
+      }
     }
   ],
   "in_progress": [
@@ -470441,16 +470461,6 @@
       "worker_id": "worker-3-30188928436",
       "run_id": "30188928436",
       "reserved_at": "2026-07-26T07:41:19Z"
-    },
-    {
-      "cr_film_id": 9197,
-      "cr_slug": "the-price-we-pay",
-      "title": "The Price We Pay",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T07:41:29Z"
     },
     {
       "cr_film_id": 35681,
