@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T22:09:52Z",
+  "last_updated": "2026-07-26T22:10:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -481664,19 +481664,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10429,
       "cr_slug": "fortress",
       "title": "Fortress",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T22:08:39Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T22:10:23Z",
+      "first_failed_at": "2026-07-26T22:10:23Z",
+      "attempt_count": 1,
+      "upload_id": "6262f5625d067",
+      "source_url": "https://prehraj.to/fortress-2021-cztitulky/6262f5625d067",
+      "upload_title": "Fortress (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 3.9,
+        "download_sec": 65.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 27070,
       "cr_slug": "fit-for-a-prince",
