@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:03:25Z",
+  "last_updated": "2026-07-26T00:03:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -445722,6 +445722,30 @@
         "upload_sec": 136.5,
         "total_sec": 179.6
       }
+    },
+    {
+      "cr_film_id": 31476,
+      "cr_slug": "stin-vitezstvi",
+      "title": "Stín vítězství",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "e6591c5a3d03425f",
+      "source_url": "https://prehraj.to/stin-vitezstvi-2024-cz-titulky/e6591c5a3d03425f",
+      "source_title": "Stín vítězství (2024) CZ titulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34724771/stin-vitezstvi-2024-cz-titulky.mp4",
+      "sdilej_name": "Stín vítězství (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T00:03:25Z",
+      "status": "uploaded",
+      "size_bytes": 2230363643,
+      "worker_id": "worker-3-30170372789",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 105.1,
+        "upload_sec": 246.1,
+        "total_sec": 352.9
+      }
     }
   ],
   "failed_attempts": [
@@ -461356,25 +461380,6 @@
       }
     },
     {
-      "cr_film_id": 31476,
-      "cr_slug": "stin-vitezstvi",
-      "title": "Stín vítězství",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fstin-vitezstvi-2024-cz-titulky%2Fe6591c5a3d03425f (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a6c5a240>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/stin-vitezstvi-2024-cz-titulky/e6591c5a3d03425f",
-      "failed_at": "2026-07-25T23:56:45Z",
-      "first_failed_at": "2026-07-25T23:56:45Z",
-      "attempt_count": 1,
-      "upload_id": "e6591c5a3d03425f",
-      "source_url": "https://prehraj.to/stin-vitezstvi-2024-cz-titulky/e6591c5a3d03425f",
-      "upload_title": "Stín vítězství (2024) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.2
-      }
-    },
-    {
       "cr_film_id": 31439,
       "cr_slug": "star-abyss",
       "title": "Star Abyss",
@@ -461395,16 +461400,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 31476,
-      "cr_slug": "stin-vitezstvi",
-      "title": "Stín vítězství",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-25T23:57:29Z"
-    },
     {
       "cr_film_id": 16352,
       "cr_slug": "sorop",
