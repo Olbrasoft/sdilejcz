@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T15:59:20Z",
+  "last_updated": "2026-07-26T15:59:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -478972,19 +478972,29 @@
         "resolve_sec": 1.1,
         "download_sec": 166.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 26603,
       "cr_slug": "psanci",
       "title": "Psanci",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T15:53:02Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-26T15:59:27Z",
+      "first_failed_at": "2026-07-26T15:59:27Z",
+      "attempt_count": 1,
+      "upload_id": "619d625cc3f7c",
+      "source_url": "https://prehraj.to/psanci-2021-cztitulky/619d625cc3f7c",
+      "upload_title": "Psanci (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 377.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18203,
       "cr_slug": "pravda-z-diry",
