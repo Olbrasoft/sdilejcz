@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T11:18:59Z",
+  "last_updated": "2026-07-26T11:24:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -458490,6 +458490,30 @@
         "upload_sec": 153.2,
         "total_sec": 247.3
       }
+    },
+    {
+      "cr_film_id": 31277,
+      "cr_slug": "hawa",
+      "title": "Hawa",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "c10fd6aa391ab31f",
+      "source_url": "https://prehraj.to/tutanchamon-posledni-vystava-2022-cz-titulky-mp4/c10fd6aa391ab31f",
+      "source_title": "Hawa (2022) CZ titulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34727432/hawa-2022-cz-titulky.mp4",
+      "sdilej_name": "Hawa (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T11:24:23Z",
+      "status": "uploaded",
+      "size_bytes": 2542880779,
+      "worker_id": "worker-1-30198992890",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 89.4,
+        "upload_sec": 247.2,
+        "total_sec": 338.3
+      }
     }
   ],
   "failed_attempts": [
@@ -474500,27 +474524,6 @@
       }
     },
     {
-      "cr_film_id": 31277,
-      "cr_slug": "hawa",
-      "title": "Hawa",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T10:47:30Z",
-      "first_failed_at": "2026-07-26T10:47:30Z",
-      "attempt_count": 1,
-      "upload_id": "c10fd6aa391ab31f",
-      "source_url": "https://prehraj.to/tutanchamon-posledni-vystava-2022-cz-titulky-mp4/c10fd6aa391ab31f",
-      "upload_title": "Hawa (2022) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 132.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 37175,
       "cr_slug": "exorcismus-me-nejlepsi-kamaradky",
       "title": "Exorcismus mé nejlepší kamarádky",
@@ -474562,16 +474565,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 31277,
-      "cr_slug": "hawa",
-      "title": "Hawa",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T11:18:42Z"
-    },
     {
       "cr_film_id": 27375,
       "cr_slug": "el-suplente",
