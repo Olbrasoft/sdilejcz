@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T06:43:41Z",
+  "last_updated": "2026-07-26T06:43:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -469297,6 +469297,25 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 1.2
+      }
+    },
+    {
+      "cr_film_id": 4117,
+      "cr_slug": "stesti",
+      "title": "Štěstí",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/luck-2022-1080p-cz-sub-mp4/40e44478622f053e",
+      "failed_at": "2026-07-26T06:43:47Z",
+      "first_failed_at": "2026-07-26T06:43:47Z",
+      "attempt_count": 1,
+      "upload_id": "40e44478622f053e",
+      "source_url": "https://prehraj.to/luck-2022-1080p-cz-sub-mp4/40e44478622f053e",
+      "upload_title": "Luck.2022.1080p.cz sub.mp4",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 2.0
       }
     }
   ],
