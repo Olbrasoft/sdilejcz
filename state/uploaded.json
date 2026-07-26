@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T17:00:41Z",
+  "last_updated": "2026-07-26T17:00:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -463194,6 +463194,30 @@
         "upload_sec": 238.5,
         "total_sec": 390.9
       }
+    },
+    {
+      "cr_film_id": 31140,
+      "cr_slug": "podivinka",
+      "title": "Podivínka",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "60bad30b02113",
+      "source_url": "https://prehraj.to/podivinka-2021-cztitulky/60bad30b02113",
+      "source_title": "Podivínka (2021) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34728956/podivinka-2021-cz-titulky.mp4",
+      "sdilej_name": "Podivínka (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T17:00:54Z",
+      "status": "uploaded",
+      "size_bytes": 2028409627,
+      "worker_id": "worker-4-30211240394",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 140.4,
+        "upload_sec": 262.7,
+        "total_sec": 404.8
+      }
     }
   ],
   "failed_attempts": [
@@ -479298,40 +479322,9 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    },
-    {
-      "cr_film_id": 31140,
-      "cr_slug": "podivinka",
-      "title": "Podivínka",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T16:53:41Z",
-      "first_failed_at": "2026-07-26T16:53:41Z",
-      "attempt_count": 1,
-      "upload_id": "605f986442564",
-      "source_url": "https://prehraj.to/podivinka-2021-cztitulky/605f986442564",
-      "upload_title": "Podivínka (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 1900.3,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 31140,
-      "cr_slug": "podivinka",
-      "title": "Podivínka",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T16:54:07Z"
-    },
     {
       "cr_film_id": 14182,
       "cr_slug": "piratska-vysilani",
