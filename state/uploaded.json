@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T09:26:06Z",
+  "last_updated": "2026-07-26T09:27:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -472628,6 +472628,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 2880,
+      "cr_slug": "na-pivo-do-prvni-linie",
+      "title": "Na pivo do první linie",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T09:27:55Z",
+      "first_failed_at": "2026-07-26T09:27:55Z",
+      "attempt_count": 1,
+      "upload_id": "68050ff024ef8",
+      "source_url": "https://prehraj.to/na-pivo-do-prvni-linie-2022-cz-tit/68050ff024ef8",
+      "upload_title": "Na pivo do první linie 2022 CZ tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.5,
+        "download_sec": 78.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -472650,16 +472671,6 @@
       "worker_id": "worker-4-30188928436",
       "run_id": "30188928436",
       "reserved_at": "2026-07-26T09:24:43Z"
-    },
-    {
-      "cr_film_id": 2880,
-      "cr_slug": "na-pivo-do-prvni-linie",
-      "title": "Na pivo do první linie",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T09:25:59Z"
     },
     {
       "cr_film_id": 5821,
