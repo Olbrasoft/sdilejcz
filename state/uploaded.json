@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T16:44:46Z",
+  "last_updated": "2026-07-26T16:53:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -479263,18 +479263,28 @@
         "download_sec": 77.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31140,
       "cr_slug": "podivinka",
       "title": "Podivínka",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T16:21:23Z"
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T16:53:41Z",
+      "first_failed_at": "2026-07-26T16:53:41Z",
+      "attempt_count": 1,
+      "upload_id": "605f986442564",
+      "source_url": "https://prehraj.to/podivinka-2021-cztitulky/605f986442564",
+      "upload_title": "Podivínka (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 1900.3,
+        "upload_sec": 30.0
+      }
     }
-  ]
+  ],
+  "in_progress": []
 }
