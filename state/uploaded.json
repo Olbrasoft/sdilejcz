@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T01:33:03Z",
+  "last_updated": "2026-07-26T01:33:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -462931,19 +462931,30 @@
         "download_sec": 50.0,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 28125,
       "cr_slug": "hrad-z-pisku",
       "title": "Hrad z písku",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T01:31:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T01:33:16Z",
+      "first_failed_at": "2026-07-26T01:33:16Z",
+      "attempt_count": 1,
+      "upload_id": "67a26dcc75a05",
+      "source_url": "https://prehraj.to/the-sand-castle-hrad-z-pisku-2024-cz-titulky/67a26dcc75a05",
+      "upload_title": "The Sand Castle - Hrad z písku 2024 CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 56.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37213,
       "cr_slug": "horror-in-the-high-desert-3-firewatch",
