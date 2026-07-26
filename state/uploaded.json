@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T13:43:52Z",
+  "last_updated": "2026-07-26T13:44:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -476711,19 +476711,30 @@
         "resolve_sec": 1.1,
         "download_sec": 1.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19750,
       "cr_slug": "wrazda",
       "title": "Wražda",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T13:41:45Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T13:44:27Z",
+      "first_failed_at": "2026-07-26T13:44:27Z",
+      "attempt_count": 1,
+      "upload_id": "6171f0a44e5b4",
+      "source_url": "https://prehraj.to/wrazda-2021-cztitulky/6171f0a44e5b4",
+      "upload_title": "Wražda (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 125.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36873,
       "cr_slug": "world-ends-at-camp-z",
