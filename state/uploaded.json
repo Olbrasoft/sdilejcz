@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T02:32:52Z",
+  "last_updated": "2026-07-26T02:34:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -464059,19 +464059,30 @@
         "download_sec": 125.1,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31421,
       "cr_slug": "bila-odvaha",
       "title": "Bílá odvaha",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T02:31:16Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T02:34:09Z",
+      "first_failed_at": "2026-07-26T02:34:09Z",
+      "attempt_count": 1,
+      "upload_id": "673d3d1bf3606",
+      "source_url": "https://prehraj.to/bila-odvaha-2024-cz-tit/673d3d1bf3606",
+      "upload_title": "Bílá odvaha 2024 CZ tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 136.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15890,
       "cr_slug": "bone-lake",
