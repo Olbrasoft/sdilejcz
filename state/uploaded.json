@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T02:09:07Z",
+  "last_updated": "2026-07-26T02:10:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -463642,6 +463642,27 @@
         "download_sec": 99.5,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 16409,
+      "cr_slug": "distant",
+      "title": "Distant",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T02:10:15Z",
+      "first_failed_at": "2026-07-26T02:10:15Z",
+      "attempt_count": 1,
+      "upload_id": "6772a92eca109",
+      "source_url": "https://prehraj.to/distant-2024-cz-titulky-1080p/6772a92eca109",
+      "upload_title": "Distant (2024) CZ Titulky 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 34.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -463674,16 +463695,6 @@
       "worker_id": "worker-4-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T02:07:51Z"
-    },
-    {
-      "cr_film_id": 16409,
-      "cr_slug": "distant",
-      "title": "Distant",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T02:09:07Z"
     }
   ]
 }
