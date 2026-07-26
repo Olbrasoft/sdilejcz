@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T05:40:04Z",
+  "last_updated": "2026-07-26T05:40:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -468058,19 +468058,30 @@
       "timing": {
         "resolve_sec": 2.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 20329,
       "cr_slug": "hardcore-never-dies",
       "title": "Hardcore Never Dies",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T05:32:35Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T05:40:49Z",
+      "first_failed_at": "2026-07-26T05:40:49Z",
+      "attempt_count": 1,
+      "upload_id": "65d668f7587c0",
+      "source_url": "https://prehraj.to/hardcore-never-dies-2023-cztitulky/65d668f7587c0",
+      "upload_title": "Hardcore Never Dies (2023) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 455.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18183,
       "cr_slug": "ghosted",
