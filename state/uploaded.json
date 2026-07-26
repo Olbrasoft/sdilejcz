@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:13:26Z",
+  "last_updated": "2026-07-26T00:14:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -445842,6 +445842,30 @@
         "upload_sec": 123.6,
         "total_sec": 166.5
       }
+    },
+    {
+      "cr_film_id": 31150,
+      "cr_slug": "the-great-lillian-hall",
+      "title": "The Great Lillian Hall",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "676df7f6c33bd",
+      "source_url": "https://prehraj.to/the-great-lillian-hall-2024-cz-titulky-1080p/676df7f6c33bd",
+      "source_title": "The Great Lillian Hall 2024 CZ titulky 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34724792/the-great-lillian-hall-2024-cz-titulky.mp4",
+      "sdilej_name": "The Great Lillian Hall (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T00:14:01Z",
+      "status": "uploaded",
+      "size_bytes": 1582330355,
+      "worker_id": "worker-1-30170372789",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 80.2,
+        "upload_sec": 181.2,
+        "total_sec": 263.0
+      }
     }
   ],
   "failed_attempts": [
@@ -461434,27 +461458,6 @@
       }
     },
     {
-      "cr_film_id": 31150,
-      "cr_slug": "the-great-lillian-hall",
-      "title": "The Great Lillian Hall",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-25T23:37:09Z",
-      "first_failed_at": "2026-07-25T23:34:44Z",
-      "attempt_count": 2,
-      "upload_id": "676df7f6c33bd",
-      "source_url": "https://prehraj.to/the-great-lillian-hall-2024-cz-titulky-1080p/676df7f6c33bd",
-      "upload_title": "The Great Lillian Hall 2024 CZ titulky 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 95.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 3226,
       "cr_slug": "suncoast",
       "title": "Suncoast",
@@ -461517,16 +461520,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 31150,
-      "cr_slug": "the-great-lillian-hall",
-      "title": "The Great Lillian Hall",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-26T00:09:35Z"
-    },
     {
       "cr_film_id": 34202,
       "cr_slug": "sebastian",
