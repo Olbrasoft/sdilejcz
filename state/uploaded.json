@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T04:31:10Z",
+  "last_updated": "2026-07-26T04:31:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -450786,6 +450786,30 @@
         "upload_sec": 129.1,
         "total_sec": 177.9
       }
+    },
+    {
+      "cr_film_id": 4960,
+      "cr_slug": "ride-on",
+      "title": "Ride On",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "66b3b9d66fe92",
+      "source_url": "https://prehraj.to/ride-on-2023-cz-tit/66b3b9d66fe92",
+      "source_title": "Ride On 2023 CZ tit.",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34725444/ride-on-2023-cz-titulky.mp4",
+      "sdilej_name": "Ride On (2023) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T04:31:44Z",
+      "status": "uploaded",
+      "size_bytes": 2416319132,
+      "worker_id": "worker-4-30180079613",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 108.1,
+        "upload_sec": 257.1,
+        "total_sec": 367.1
+      }
     }
   ],
   "failed_attempts": [
@@ -466549,40 +466573,9 @@
         "download_sec": 66.0,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 4960,
-      "cr_slug": "ride-on",
-      "title": "Ride On",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T04:25:20Z",
-      "first_failed_at": "2026-07-26T04:25:20Z",
-      "attempt_count": 1,
-      "upload_id": "64ab92f03af22",
-      "source_url": "https://prehraj.to/ride-on-long-ma-jing-shen-2023-czsub-1080p/64ab92f03af22",
-      "upload_title": "Ride On   Long ma jing shen 2023 czsub 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 134.3,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 4960,
-      "cr_slug": "ride-on",
-      "title": "Ride On",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T04:25:34Z"
-    },
     {
       "cr_film_id": 36880,
       "cr_slug": "raging-grace",
