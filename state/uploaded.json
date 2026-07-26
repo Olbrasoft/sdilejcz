@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T01:47:09Z",
+  "last_updated": "2026-07-26T01:47:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -463234,19 +463234,30 @@
         "download_sec": 45.5,
         "upload_sec": 30.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 36953,
       "cr_slug": "get-away",
       "title": "Get Away",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T01:44:51Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T01:47:16Z",
+      "first_failed_at": "2026-07-26T01:47:16Z",
+      "attempt_count": 1,
+      "upload_id": "679bc5132a546",
+      "source_url": "https://prehraj.to/get-away-2024-cz-titulky-1080p/679bc5132a546",
+      "upload_title": "Get Away (2024) CZ TITULKY 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 108.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31471,
       "cr_slug": "from-darkness-to-light",
