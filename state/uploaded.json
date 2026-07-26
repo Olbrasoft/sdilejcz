@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T14:45:27Z",
+  "last_updated": "2026-07-26T14:46:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -477713,19 +477713,30 @@
         "download_sec": 179.1,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 26528,
       "cr_slug": "the-priest-2021",
       "title": "The Priest",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T14:38:04Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Final upload response did not include url: {'name': 'The Priest (2021) CZ Titulky (969).mp4', 'size': 1214269, 'type': 'video/mp4'}",
+      "failed_at": "2026-07-26T14:46:31Z",
+      "first_failed_at": "2026-07-26T14:46:31Z",
+      "attempt_count": 1,
+      "upload_id": "60da5ad1bb48b",
+      "source_url": "https://prehraj.to/the-priest-2021-cztitulky/60da5ad1bb48b",
+      "upload_title": "The Priest (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.5,
+        "download_sec": 146.6,
+        "upload_sec": 351.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36853,
       "cr_slug": "the-mutation",
