@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T04:44:32Z",
+  "last_updated": "2026-07-26T04:45:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -451050,6 +451050,30 @@
         "upload_sec": 311.9,
         "total_sec": 501.7
       }
+    },
+    {
+      "cr_film_id": 6498,
+      "cr_slug": "efekt-paradoxu",
+      "title": "Paradox Effect",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "666322656603f",
+      "source_url": "https://prehraj.to/paradox-effect-2023-cz-titulky-1080p/666322656603f",
+      "source_title": "Paradox Effect 2023 CZ titulky 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34725487/paradox-effect-2023-cz-titulky.mp4",
+      "sdilej_name": "Paradox Effect (2023) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T04:45:03Z",
+      "status": "uploaded",
+      "size_bytes": 1229917007,
+      "worker_id": "worker-2-30180079613",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 58.7,
+        "upload_sec": 140.1,
+        "total_sec": 200.6
+      }
     }
   ],
   "failed_attempts": [
@@ -466792,40 +466816,9 @@
       "timing": {
         "resolve_sec": 2.5
       }
-    },
-    {
-      "cr_film_id": 6498,
-      "cr_slug": "efekt-paradoxu",
-      "title": "Paradox Effect",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T04:39:11Z",
-      "first_failed_at": "2026-07-26T04:39:11Z",
-      "attempt_count": 1,
-      "upload_id": "6663630213850",
-      "source_url": "https://prehraj.to/paradox-effect-2023-cz-titulky-1080p-mp4/6663630213850",
-      "upload_title": "Paradox Effect 2023 CZ titulky 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 68.5,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 6498,
-      "cr_slug": "efekt-paradoxu",
-      "title": "Paradox Effect",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T04:41:40Z"
-    },
     {
       "cr_film_id": 35683,
       "cr_slug": "odemcena-identita",
