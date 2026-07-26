@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T14:55:15Z",
+  "last_updated": "2026-07-26T14:55:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -461778,6 +461778,30 @@
         "upload_sec": 120.5,
         "total_sec": 172.0
       }
+    },
+    {
+      "cr_film_id": 31179,
+      "cr_slug": "umlcene-svedectvi",
+      "title": "Umlčené svědectví",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "61be7c89738cb",
+      "source_url": "https://prehraj.to/umlcene-svedectvi-2021-cztitulky-mp4/61be7c89738cb",
+      "source_title": "Umlčené svědectví (2021) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34728537/umlcene-svedectvi-2021-cz-titulky.mp4",
+      "sdilej_name": "Umlčené svědectví (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T14:55:17Z",
+      "status": "uploaded",
+      "size_bytes": 2230816376,
+      "worker_id": "worker-2-30198992890",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 97.6,
+        "upload_sec": 239.4,
+        "total_sec": 338.5
+      }
     }
   ],
   "failed_attempts": [
@@ -477865,27 +477889,6 @@
       }
     },
     {
-      "cr_film_id": 31179,
-      "cr_slug": "umlcene-svedectvi",
-      "title": "Umlčené svědectví",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T14:19:15Z",
-      "first_failed_at": "2026-07-26T14:19:15Z",
-      "attempt_count": 1,
-      "upload_id": "61be7c89738cb",
-      "source_url": "https://prehraj.to/umlcene-svedectvi-2021-cztitulky-mp4/61be7c89738cb",
-      "upload_title": "Umlčené svědectví (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 179.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 26528,
       "cr_slug": "the-priest-2021",
       "title": "The Priest",
@@ -477929,16 +477932,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 31179,
-      "cr_slug": "umlcene-svedectvi",
-      "title": "Umlčené svědectví",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T14:49:36Z"
-    },
     {
       "cr_film_id": 27119,
       "cr_slug": "the-box",
