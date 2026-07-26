@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T10:25:44Z",
+  "last_updated": "2026-07-26T10:28:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -473676,6 +473676,27 @@
         "download_sec": 171.5,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 18307,
+      "cr_slug": "incantation",
+      "title": "Incantation",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T10:28:39Z",
+      "first_failed_at": "2026-07-26T10:28:39Z",
+      "attempt_count": 1,
+      "upload_id": "62eba35285552",
+      "source_url": "https://prehraj.to/incantation-2022-cz-sub-1080p/62eba35285552",
+      "upload_title": "Incantation  (2022)  cz sub 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 139.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -473708,16 +473729,6 @@
       "worker_id": "worker-2-30188928436",
       "run_id": "30188928436",
       "reserved_at": "2026-07-26T10:24:18Z"
-    },
-    {
-      "cr_film_id": 18307,
-      "cr_slug": "incantation",
-      "title": "Incantation",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T10:25:44Z"
     }
   ]
 }
