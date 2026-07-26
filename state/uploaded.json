@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T15:59:34Z",
+  "last_updated": "2026-07-26T16:00:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -478992,19 +478992,29 @@
         "resolve_sec": 1.1,
         "download_sec": 377.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18203,
       "cr_slug": "pravda-z-diry",
       "title": "Pravda z díry",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T15:58:43Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-26T16:00:21Z",
+      "first_failed_at": "2026-07-26T16:00:21Z",
+      "attempt_count": 1,
+      "upload_id": "61ac199ada6da",
+      "source_url": "https://prehraj.to/pravda-z-diry-2021-cztitulky/61ac199ada6da",
+      "upload_title": "Pravda z díry (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 91.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36865,
       "cr_slug": "prachy-na-rozjezd",
