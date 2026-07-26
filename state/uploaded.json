@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T03:20:41Z",
+  "last_updated": "2026-07-26T03:22:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -465091,6 +465091,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 7216,
+      "cr_slug": "u-tebe-nebo-u-me",
+      "title": "U tebe nebo u mě?",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T03:22:04Z",
+      "first_failed_at": "2026-07-26T03:22:04Z",
+      "attempt_count": 1,
+      "upload_id": "63facccc0f5bc",
+      "source_url": "https://prehraj.to/your-place-or-mine-2023-cztitulky/63facccc0f5bc",
+      "upload_title": "Your Place or Mine (2023) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 116.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -465113,16 +465134,6 @@
       "worker_id": "worker-4-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T03:18:13Z"
-    },
-    {
-      "cr_film_id": 7216,
-      "cr_slug": "u-tebe-nebo-u-me",
-      "title": "U tebe nebo u mě?",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T03:19:32Z"
     },
     {
       "cr_film_id": 34097,
