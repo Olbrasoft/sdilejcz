@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T11:16:17Z",
+  "last_updated": "2026-07-26T11:16:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -458466,6 +458466,30 @@
         "upload_sec": 119.7,
         "total_sec": 203.0
       }
+    },
+    {
+      "cr_film_id": 10426,
+      "cr_slug": "time-is-up-2",
+      "title": "Hra lásky",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "63712d29028f9",
+      "source_url": "https://prehraj.to/game-of-love-2022-cztitulky/63712d29028f9",
+      "source_title": "Game of Love (2022) CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34727413/hra-lasky-2022-cz-titulky.mp4",
+      "sdilej_name": "Hra lásky (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T11:16:39Z",
+      "status": "uploaded",
+      "size_bytes": 1574945418,
+      "worker_id": "worker-4-30188928436",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 92.7,
+        "upload_sec": 153.2,
+        "total_sec": 247.3
+      }
     }
   ],
   "failed_attempts": [
@@ -474476,27 +474500,6 @@
       }
     },
     {
-      "cr_film_id": 10426,
-      "cr_slug": "time-is-up-2",
-      "title": "Hra lásky",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T10:41:36Z",
-      "first_failed_at": "2026-07-26T10:41:36Z",
-      "attempt_count": 1,
-      "upload_id": "63712d29028f9",
-      "source_url": "https://prehraj.to/game-of-love-2022-cztitulky/63712d29028f9",
-      "upload_title": "Game of Love (2022) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 181.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31277,
       "cr_slug": "hawa",
       "title": "Hawa",
@@ -474538,16 +474541,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 10426,
-      "cr_slug": "time-is-up-2",
-      "title": "Hra lásky",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T11:12:29Z"
-    },
     {
       "cr_film_id": 34041,
       "cr_slug": "emergency-declaration",
