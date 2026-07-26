@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T06:27:07Z",
+  "last_updated": "2026-07-26T06:28:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -468922,6 +468922,27 @@
       "timing": {
         "resolve_sec": 2.4
       }
+    },
+    {
+      "cr_film_id": 8874,
+      "cr_slug": "barber",
+      "title": "Barber",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T06:28:51Z",
+      "first_failed_at": "2026-07-26T06:28:51Z",
+      "attempt_count": 1,
+      "upload_id": "651a826fa0cab",
+      "source_url": "https://prehraj.to/barber-2023-1080p-amzn-web-dl-ddp5-1-h264-cz-tit/651a826fa0cab",
+      "upload_title": "Barber.2023.1080p.AMZN.WEB-DL.DDP5.1.H264 CZ tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 69.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -468954,16 +468975,6 @@
       "worker_id": "worker-4-30188928436",
       "run_id": "30188928436",
       "reserved_at": "2026-07-26T06:26:24Z"
-    },
-    {
-      "cr_film_id": 8874,
-      "cr_slug": "barber",
-      "title": "Barber",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T06:27:07Z"
     }
   ]
 }
