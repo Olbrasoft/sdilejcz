@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T22:16:26Z",
+  "last_updated": "2026-07-26T22:17:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -465618,6 +465618,30 @@
         "upload_sec": 149.2,
         "total_sec": 211.6
       }
+    },
+    {
+      "cr_film_id": 10429,
+      "cr_slug": "fortress",
+      "title": "Fortress",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "61c34096ec0a8",
+      "source_url": "https://prehraj.to/fortress-2021-1080p-bluray-x264-woat/61c34096ec0a8",
+      "source_title": "fortress.2021.1080p.bluray.x264-woat",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34730868/fortress-2021-cz-titulky.mp4",
+      "sdilej_name": "Fortress (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T22:17:07Z",
+      "status": "uploaded",
+      "size_bytes": 2122355744,
+      "worker_id": "worker-3-30211240394",
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 75.6,
+        "upload_sec": 219.9,
+        "total_sec": 296.7
+      }
     }
   ],
   "failed_attempts": [
@@ -481760,27 +481784,6 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    },
-    {
-      "cr_film_id": 10429,
-      "cr_slug": "fortress",
-      "title": "Fortress",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T22:10:23Z",
-      "first_failed_at": "2026-07-26T22:10:23Z",
-      "attempt_count": 1,
-      "upload_id": "6262f5625d067",
-      "source_url": "https://prehraj.to/fortress-2021-cztitulky/6262f5625d067",
-      "upload_title": "Fortress (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 3.9,
-        "download_sec": 65.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -481793,16 +481796,6 @@
       "worker_id": "worker-1-30211240394",
       "run_id": "30211240394",
       "reserved_at": "2026-07-26T22:10:26Z"
-    },
-    {
-      "cr_film_id": 10429,
-      "cr_slug": "fortress",
-      "title": "Fortress",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T22:12:08Z"
     }
   ]
 }
