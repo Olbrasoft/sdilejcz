@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T09:09:24Z",
+  "last_updated": "2026-07-26T09:12:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -472228,6 +472228,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 31293,
+      "cr_slug": "nulteho-cervna",
+      "title": "Nultého června",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T09:12:00Z",
+      "first_failed_at": "2026-07-26T09:12:00Z",
+      "attempt_count": 1,
+      "upload_id": "9e10944dc1093307",
+      "source_url": "https://prehraj.to/nulteho-cervna-2023-cz-titulky/9e10944dc1093307",
+      "upload_title": "Nultého června (2023) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 139.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -472250,16 +472271,6 @@
       "worker_id": "worker-2-30188928436",
       "run_id": "30188928436",
       "reserved_at": "2026-07-26T09:07:20Z"
-    },
-    {
-      "cr_film_id": 31293,
-      "cr_slug": "nulteho-cervna",
-      "title": "Nultého června",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T09:09:05Z"
     },
     {
       "cr_film_id": 31325,
