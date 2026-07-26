@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T15:26:15Z",
+  "last_updated": "2026-07-26T15:27:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -462330,6 +462330,30 @@
         "upload_sec": 106.4,
         "total_sec": 257.8
       }
+    },
+    {
+      "cr_film_id": 30975,
+      "cr_slug": "seance",
+      "title": "Seance",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5abc2f293081a",
+      "source_url": "https://prehraj.to/sance-2009/5abc2f293081a",
+      "source_title": "Šance (2009)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34728673/seance-2021-cz-titulky.mp4",
+      "sdilej_name": "Seance (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T15:27:28Z",
+      "status": "uploaded",
+      "size_bytes": 409435817,
+      "worker_id": "worker-2-30198992890",
+      "timing": {
+        "resolve_sec": 3.3,
+        "download_sec": 20.3,
+        "upload_sec": 46.3,
+        "total_sec": 74.3
+      }
     }
   ],
   "failed_attempts": [
@@ -478478,25 +478502,6 @@
         "download_sec": 123.7,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 30975,
-      "cr_slug": "seance",
-      "title": "Seance",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/seance-2021-en-cz-tit-mp4/cd870a9393d9fc45",
-      "failed_at": "2026-07-26T15:26:15Z",
-      "first_failed_at": "2026-07-26T15:26:15Z",
-      "attempt_count": 1,
-      "upload_id": "cd870a9393d9fc45",
-      "source_url": "https://prehraj.to/seance-2021-en-cz-tit-mp4/cd870a9393d9fc45",
-      "upload_title": "Seance",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.9
-      }
     }
   ],
   "in_progress": [
@@ -478529,16 +478534,6 @@
       "worker_id": "worker-3-30198992890",
       "run_id": "30198992890",
       "reserved_at": "2026-07-26T15:26:02Z"
-    },
-    {
-      "cr_film_id": 30975,
-      "cr_slug": "seance",
-      "title": "Seance",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T15:26:11Z"
     }
   ]
 }
