@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:35:25Z",
+  "last_updated": "2026-07-26T00:36:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -446058,6 +446058,30 @@
         "upload_sec": 142.6,
         "total_sec": 190.9
       }
+    },
+    {
+      "cr_film_id": 10030,
+      "cr_slug": "the-red",
+      "title": "Rippy",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "672e642b69bcb",
+      "source_url": "https://prehraj.to/rippy-2024-1080p-cz-sub/672e642b69bcb",
+      "source_title": "Rippy.2024.1080p.cz sub",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34724838/rippy-2024-cz-titulky.mp4",
+      "sdilej_name": "Rippy (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T00:36:24Z",
+      "status": "uploaded",
+      "size_bytes": 1117017618,
+      "worker_id": "worker-1-30180079613",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 110.7,
+        "upload_sec": 149.2,
+        "total_sec": 261.5
+      }
     }
   ],
   "failed_attempts": [
@@ -461709,25 +461733,6 @@
       "timing": {
         "resolve_sec": 254.1
       }
-    },
-    {
-      "cr_film_id": 10030,
-      "cr_slug": "the-red",
-      "title": "Rippy",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Frippy-2024-1080p-cz-sub%2F672e642b69bcb (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f1c0c1fe5d0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/rippy-2024-1080p-cz-sub/672e642b69bcb",
-      "failed_at": "2026-07-26T00:25:16Z",
-      "first_failed_at": "2026-07-26T00:25:16Z",
-      "attempt_count": 1,
-      "upload_id": "672e642b69bcb",
-      "source_url": "https://prehraj.to/rippy-2024-1080p-cz-sub/672e642b69bcb",
-      "upload_title": "Rippy.2024.1080p.cz sub",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.9
-      }
     }
   ],
   "in_progress": [
@@ -461740,16 +461745,6 @@
       "worker_id": "worker-2-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T00:31:56Z"
-    },
-    {
-      "cr_film_id": 10030,
-      "cr_slug": "the-red",
-      "title": "Rippy",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T00:32:00Z"
     },
     {
       "cr_film_id": 34233,
