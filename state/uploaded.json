@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T12:51:19Z",
+  "last_updated": "2026-07-26T12:52:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -459834,6 +459834,30 @@
         "upload_sec": 175.2,
         "total_sec": 247.3
       }
+    },
+    {
+      "cr_film_id": 15181,
+      "cr_slug": "all-hail",
+      "title": "All Hail",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "564d3ca16f108a94",
+      "source_url": "https://prehraj.to/krupobiti-granizo-all-hail-2022-esp-cz-tit-mkv-mp4/564d3ca16f108a94",
+      "source_title": "Krupobití Granizo All Hail 2022, ESP - CZ tit.mkv",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34727699/all-hail-2022-cz-titulky.mp4",
+      "sdilej_name": "All Hail (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T12:52:00Z",
+      "status": "uploaded",
+      "size_bytes": 1780284597,
+      "worker_id": "worker-1-30198992890",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 164.3,
+        "upload_sec": 174.4,
+        "total_sec": 340.1
+      }
     }
   ],
   "failed_attempts": [
@@ -475982,40 +476006,9 @@
         "download_sec": 110.7,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 15181,
-      "cr_slug": "all-hail",
-      "title": "All Hail",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T12:44:12Z",
-      "first_failed_at": "2026-07-26T12:44:12Z",
-      "attempt_count": 1,
-      "upload_id": "6245e90d379ae",
-      "source_url": "https://prehraj.to/all-hail-2022-cztitulky/6245e90d379ae",
-      "upload_title": "All Hail (2022) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 159.7,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 15181,
-      "cr_slug": "all-hail",
-      "title": "All Hail",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T12:46:17Z"
-    },
     {
       "cr_film_id": 18617,
       "cr_slug": "abandoned",
