@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T06:32:12Z",
+  "last_updated": "2026-07-26T06:32:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -469018,6 +469018,27 @@
       "timing": {
         "resolve_sec": 2.4
       }
+    },
+    {
+      "cr_film_id": 20014,
+      "cr_slug": "awareness",
+      "title": "Awareness",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T06:32:36Z",
+      "first_failed_at": "2026-07-26T06:32:36Z",
+      "attempt_count": 1,
+      "upload_id": "6527c86256f72",
+      "source_url": "https://prehraj.to/awareness-2023-cz-titulky-hd-1080p/6527c86256f72",
+      "upload_title": "Awareness 2023 CZ titulky HD 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 65.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -469030,16 +469051,6 @@
       "worker_id": "worker-3-30188928436",
       "run_id": "30188928436",
       "reserved_at": "2026-07-26T06:28:55Z"
-    },
-    {
-      "cr_film_id": 20014,
-      "cr_slug": "awareness",
-      "title": "Awareness",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T06:30:55Z"
     },
     {
       "cr_film_id": 36925,
