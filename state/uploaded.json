@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T16:01:57Z",
+  "last_updated": "2026-07-26T16:07:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -462810,6 +462810,30 @@
         "upload_sec": 59.0,
         "total_sec": 107.1
       }
+    },
+    {
+      "cr_film_id": 18203,
+      "cr_slug": "pravda-z-diry",
+      "title": "Pravda z díry",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6307ec712e76b",
+      "source_url": "https://prehraj.to/pravda-z-diry-2021-cztitulky/6307ec712e76b",
+      "source_title": "Pravda z díry (2021) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34728828/pravda-z-diry-2021-cz-titulky.mp4",
+      "sdilej_name": "Pravda z díry (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T16:07:20Z",
+      "status": "uploaded",
+      "size_bytes": 2336685704,
+      "worker_id": "worker-2-30198992890",
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 93.9,
+        "upload_sec": 258.8,
+        "total_sec": 355.1
+      }
     }
   ],
   "failed_attempts": [
@@ -478998,26 +479022,6 @@
       }
     },
     {
-      "cr_film_id": 18203,
-      "cr_slug": "pravda-z-diry",
-      "title": "Pravda z díry",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-26T16:00:21Z",
-      "first_failed_at": "2026-07-26T16:00:21Z",
-      "attempt_count": 1,
-      "upload_id": "61ac199ada6da",
-      "source_url": "https://prehraj.to/pravda-z-diry-2021-cztitulky/61ac199ada6da",
-      "upload_title": "Pravda z díry (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 91.8
-      }
-    },
-    {
       "cr_film_id": 37165,
       "cr_slug": "potulny-samuraj-kensin-pocatek",
       "title": "Potulný samuraj Kenšin: Počátek",
@@ -479058,16 +479062,6 @@
       "worker_id": "worker-3-30198992890",
       "run_id": "30198992890",
       "reserved_at": "2026-07-26T15:59:34Z"
-    },
-    {
-      "cr_film_id": 18203,
-      "cr_slug": "pravda-z-diry",
-      "title": "Pravda z díry",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T16:01:17Z"
     }
   ]
 }
