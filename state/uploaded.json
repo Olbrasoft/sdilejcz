@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T02:27:57Z",
+  "last_updated": "2026-07-26T02:30:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -463983,6 +463983,27 @@
         "download_sec": 159.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 31421,
+      "cr_slug": "bila-odvaha",
+      "title": "Bílá odvaha",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T02:30:36Z",
+      "first_failed_at": "2026-07-26T02:30:36Z",
+      "attempt_count": 1,
+      "upload_id": "bdc19603e945ba94",
+      "source_url": "https://prehraj.to/bila-odvaha-2024-cz-tit-1080p/bdc19603e945ba94",
+      "upload_title": "Bílá odvaha 2024 CZ tit 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 125.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -464015,16 +464036,6 @@
       "worker_id": "worker-3-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T02:26:27Z"
-    },
-    {
-      "cr_film_id": 31421,
-      "cr_slug": "bila-odvaha",
-      "title": "Bílá odvaha",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T02:27:57Z"
     }
   ]
 }
