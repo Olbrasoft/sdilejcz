@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:37:49Z",
+  "last_updated": "2026-07-26T00:38:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -446106,6 +446106,30 @@
         "upload_sec": 141.5,
         "total_sec": 185.0
       }
+    },
+    {
+      "cr_film_id": 9611,
+      "cr_slug": "river-of-blood",
+      "title": "River of Blood",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "686bb894dde6a",
+      "source_url": "https://prehraj.to/river-of-blood-2024-cz-titulky-1080p/686bb894dde6a",
+      "source_title": "River.Of.Blood  (2024)CZ TITULKY 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34724842/river-of-blood-2024-cz-titulky.mp4",
+      "sdilej_name": "River of Blood (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T00:38:29Z",
+      "status": "uploaded",
+      "size_bytes": 2560435452,
+      "worker_id": "worker-2-30180079613",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 93.9,
+        "upload_sec": 295.4,
+        "total_sec": 391.2
+      }
     }
   ],
   "failed_attempts": [
@@ -461738,38 +461762,9 @@
         "download_sec": 75.1,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 9611,
-      "cr_slug": "river-of-blood",
-      "title": "River of Blood",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Friver-of-blood-2024-cz-titulky-1080p%2F686bb894dde6a (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a5984800>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/river-of-blood-2024-cz-titulky-1080p/686bb894dde6a",
-      "failed_at": "2026-07-26T00:23:13Z",
-      "first_failed_at": "2026-07-26T00:23:13Z",
-      "attempt_count": 1,
-      "upload_id": "686bb894dde6a",
-      "source_url": "https://prehraj.to/river-of-blood-2024-cz-titulky-1080p/686bb894dde6a",
-      "upload_title": "River.Of.Blood  (2024)CZ TITULKY 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.1
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 9611,
-      "cr_slug": "river-of-blood",
-      "title": "River of Blood",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T00:31:56Z"
-    },
     {
       "cr_film_id": 8647,
       "cr_slug": "powstaniec",
