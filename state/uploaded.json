@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T02:31:16Z",
+  "last_updated": "2026-07-26T02:32:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -448338,6 +448338,30 @@
         "upload_sec": 301.3,
         "total_sec": 427.3
       }
+    },
+    {
+      "cr_film_id": 9941,
+      "cr_slug": "dagr",
+      "title": "Dagr",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "66dce1eec0f27",
+      "source_url": "https://prehraj.to/dagr-2024-cztitulky/66dce1eec0f27",
+      "source_title": "Dagr (2024) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34725150/dagr-2024-cz-titulky.mp4",
+      "sdilej_name": "Dagr (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T02:32:10Z",
+      "status": "uploaded",
+      "size_bytes": 2245243377,
+      "worker_id": "worker-2-30180079613",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 112.2,
+        "upload_sec": 258.4,
+        "total_sec": 372.5
+      }
     }
   ],
   "failed_attempts": [
@@ -463968,47 +463992,6 @@
       }
     },
     {
-      "cr_film_id": 9941,
-      "cr_slug": "dagr",
-      "title": "Dagr",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 18: curl: (18) transfer closed with 379547994 bytes remaining to read",
-      "failed_at": "2026-07-26T02:20:26Z",
-      "first_failed_at": "2026-07-26T02:20:26Z",
-      "attempt_count": 1,
-      "upload_id": "66dc563b4c975",
-      "source_url": "https://prehraj.to/dagr-2024-cz-titulky-1080p/66dc563b4c975",
-      "upload_title": "Dagr 2024 CZ titulky 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 200.7
-      }
-    },
-    {
-      "cr_film_id": 9941,
-      "cr_slug": "dagr",
-      "title": "Dagr",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T02:23:56Z",
-      "first_failed_at": "2026-07-26T02:23:56Z",
-      "attempt_count": 1,
-      "upload_id": "66dc6bd2a086c",
-      "source_url": "https://prehraj.to/dagr-2024-cz-titulky-1080p/66dc6bd2a086c",
-      "upload_title": "Dagr (2024) CZ Titulky 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 159.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31421,
       "cr_slug": "bila-odvaha",
       "title": "Bílá odvaha",
@@ -464031,16 +464014,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 9941,
-      "cr_slug": "dagr",
-      "title": "Dagr",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T02:25:55Z"
-    },
     {
       "cr_film_id": 2503,
       "cr_slug": "nickel-boys",
