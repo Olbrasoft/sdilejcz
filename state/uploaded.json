@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T16:24:15Z",
+  "last_updated": "2026-07-26T16:26:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -479132,27 +479132,6 @@
       }
     },
     {
-      "cr_film_id": 26932,
-      "cr_slug": "pripad-wanninkhof-carabantes",
-      "title": "Případ Wanninkhof-Carabantes",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T15:49:36Z",
-      "first_failed_at": "2026-07-26T15:49:36Z",
-      "attempt_count": 1,
-      "upload_id": "60d7adb0b51d8",
-      "source_url": "https://prehraj.to/pripad-wanninkhof-carabantes-2021-cztitulky/60d7adb0b51d8",
-      "upload_title": "Případ Wanninkhof - Carabantes (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 140.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 27086,
       "cr_slug": "pripad-ztracene-kozy",
       "title": "Případ ztracené kozy",
@@ -479232,6 +479211,27 @@
         "resolve_sec": 1.2,
         "download_sec": 37.2
       }
+    },
+    {
+      "cr_film_id": 26932,
+      "cr_slug": "pripad-wanninkhof-carabantes",
+      "title": "Případ Wanninkhof-Carabantes",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T16:26:06Z",
+      "first_failed_at": "2026-07-26T15:49:36Z",
+      "attempt_count": 2,
+      "upload_id": "60d7adb0b51d8",
+      "source_url": "https://prehraj.to/pripad-wanninkhof-carabantes-2021-cztitulky/60d7adb0b51d8",
+      "upload_title": "Případ Wanninkhof - Carabantes (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 77.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -479254,16 +479254,6 @@
       "worker_id": "worker-2-30198992890",
       "run_id": "30198992890",
       "reserved_at": "2026-07-26T16:23:59Z"
-    },
-    {
-      "cr_film_id": 26932,
-      "cr_slug": "pripad-wanninkhof-carabantes",
-      "title": "Případ Wanninkhof-Carabantes",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T16:24:15Z"
     }
   ]
 }
