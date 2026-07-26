@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:20:57Z",
+  "last_updated": "2026-07-26T00:23:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -461634,6 +461634,25 @@
       "timing": {
         "resolve_sec": 254.0
       }
+    },
+    {
+      "cr_film_id": 9611,
+      "cr_slug": "river-of-blood",
+      "title": "River of Blood",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Friver-of-blood-2024-cz-titulky-1080p%2F686bb894dde6a (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1a5984800>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/river-of-blood-2024-cz-titulky-1080p/686bb894dde6a",
+      "failed_at": "2026-07-26T00:23:13Z",
+      "first_failed_at": "2026-07-26T00:23:13Z",
+      "attempt_count": 1,
+      "upload_id": "686bb894dde6a",
+      "source_url": "https://prehraj.to/river-of-blood-2024-cz-titulky-1080p/686bb894dde6a",
+      "upload_title": "River.Of.Blood  (2024)CZ TITULKY 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.1
+      }
     }
   ],
   "in_progress": [
@@ -461646,16 +461665,6 @@
       "worker_id": "worker-1-30170372789",
       "run_id": "30170372789",
       "reserved_at": "2026-07-26T00:18:20Z"
-    },
-    {
-      "cr_film_id": 9611,
-      "cr_slug": "river-of-blood",
-      "title": "River of Blood",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-26T00:18:55Z"
     },
     {
       "cr_film_id": 16207,
