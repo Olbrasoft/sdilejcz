@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T02:20:04Z",
+  "last_updated": "2026-07-26T02:20:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -463774,6 +463774,26 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 9941,
+      "cr_slug": "dagr",
+      "title": "Dagr",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 18: curl: (18) transfer closed with 379547994 bytes remaining to read",
+      "failed_at": "2026-07-26T02:20:26Z",
+      "first_failed_at": "2026-07-26T02:20:26Z",
+      "attempt_count": 1,
+      "upload_id": "66dc563b4c975",
+      "source_url": "https://prehraj.to/dagr-2024-cz-titulky-1080p/66dc563b4c975",
+      "upload_title": "Dagr 2024 CZ titulky 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 200.7
+      }
     }
   ],
   "in_progress": [
@@ -463796,16 +463816,6 @@
       "worker_id": "worker-2-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T02:16:27Z"
-    },
-    {
-      "cr_film_id": 9941,
-      "cr_slug": "dagr",
-      "title": "Dagr",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T02:17:00Z"
     },
     {
       "cr_film_id": 7477,
