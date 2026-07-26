@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T01:07:52Z",
+  "last_updated": "2026-07-26T01:08:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -446730,6 +446730,30 @@
         "upload_sec": 248.3,
         "total_sec": 350.8
       }
+    },
+    {
+      "cr_film_id": 15061,
+      "cr_slug": "na-kordy",
+      "title": "Na kordy",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "628e2ff050275e10",
+      "source_url": "https://prehraj.to/na-kordy-pierce-2024-topkvalita-cz-titulky/628e2ff050275e10",
+      "source_title": "Na kordy Pierce 2024 TOPKVALITA Cz Titulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34724914/na-kordy-2024-cz-titulky.mp4",
+      "sdilej_name": "Na kordy (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T01:08:00Z",
+      "status": "uploaded",
+      "size_bytes": 2627899457,
+      "worker_id": "worker-1-30180079613",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 144.4,
+        "upload_sec": 337.1,
+        "total_sec": 483.6
+      }
     }
   ],
   "failed_attempts": [
@@ -462341,27 +462365,6 @@
       }
     },
     {
-      "cr_film_id": 15061,
-      "cr_slug": "na-kordy",
-      "title": "Na kordy",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T00:59:04Z",
-      "first_failed_at": "2026-07-26T00:59:04Z",
-      "attempt_count": 1,
-      "upload_id": "ed3c6c430d7b7b56",
-      "source_url": "https://prehraj.to/na-kordy-2024-cz-titulky/ed3c6c430d7b7b56",
-      "upload_title": "Na kordy 2024 CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 105.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 36983,
       "cr_slug": "millers-in-marriage",
       "title": "Millers in Marriage",
@@ -462382,16 +462385,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 15061,
-      "cr_slug": "na-kordy",
-      "title": "Na kordy",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T00:59:54Z"
-    },
     {
       "cr_film_id": 9456,
       "cr_slug": "megalopolis",
