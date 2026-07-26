@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:32:07Z",
+  "last_updated": "2026-07-26T00:34:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -446010,6 +446010,30 @@
         "upload_sec": 511.4,
         "total_sec": 709.2
       }
+    },
+    {
+      "cr_film_id": 3226,
+      "cr_slug": "suncoast",
+      "title": "Suncoast",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "680b5a9aa2482",
+      "source_url": "https://prehraj.to/suncoast-2024-cz-tit-1080p/680b5a9aa2482",
+      "source_title": "Suncoast 2024 CZ tit 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34724832/suncoast-2024-cz-titulky.mp4",
+      "sdilej_name": "Suncoast (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T00:34:33Z",
+      "status": "uploaded",
+      "size_bytes": 1249580701,
+      "worker_id": "worker-3-30180079613",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 36.2,
+        "upload_sec": 120.9,
+        "total_sec": 158.5
+      }
     }
   ],
   "failed_attempts": [
@@ -461680,38 +461704,9 @@
       "timing": {
         "resolve_sec": 254.9
       }
-    },
-    {
-      "cr_film_id": 3226,
-      "cr_slug": "suncoast",
-      "title": "Suncoast",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fsuncoast-2024-cz-tit-1080p%2F680b5a9aa2482 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1b202a750>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/suncoast-2024-cz-tit-1080p/680b5a9aa2482",
-      "failed_at": "2026-07-26T00:27:36Z",
-      "first_failed_at": "2026-07-25T23:52:01Z",
-      "attempt_count": 2,
-      "upload_id": "680b5a9aa2482",
-      "source_url": "https://prehraj.to/suncoast-2024-cz-tit-1080p/680b5a9aa2482",
-      "upload_title": "Suncoast 2024 CZ tit 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.5
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 3226,
-      "cr_slug": "suncoast",
-      "title": "Suncoast",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T00:31:52Z"
-    },
     {
       "cr_film_id": 9611,
       "cr_slug": "river-of-blood",
