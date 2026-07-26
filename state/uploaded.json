@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:58:25Z",
+  "last_updated": "2026-07-26T00:59:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -462168,6 +462168,27 @@
         "download_sec": 60.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 15061,
+      "cr_slug": "na-kordy",
+      "title": "Na kordy",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T00:59:04Z",
+      "first_failed_at": "2026-07-26T00:59:04Z",
+      "attempt_count": 1,
+      "upload_id": "ed3c6c430d7b7b56",
+      "source_url": "https://prehraj.to/na-kordy-2024-cz-titulky/ed3c6c430d7b7b56",
+      "upload_title": "Na kordy 2024 CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 105.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -462180,16 +462201,6 @@
       "worker_id": "worker-2-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T00:55:58Z"
-    },
-    {
-      "cr_film_id": 15061,
-      "cr_slug": "na-kordy",
-      "title": "Na kordy",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T00:56:43Z"
     },
     {
       "cr_film_id": 31466,
