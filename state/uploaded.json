@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T02:45:07Z",
+  "last_updated": "2026-07-26T02:45:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -464278,6 +464278,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 36939,
+      "cr_slug": "armand",
+      "title": "Armand",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T02:45:30Z",
+      "first_failed_at": "2026-07-26T02:45:30Z",
+      "attempt_count": 1,
+      "upload_id": "0f6ed6674874faac",
+      "source_url": "https://prehraj.to/armand-2024-cz-titulky/0f6ed6674874faac",
+      "upload_title": "Armand (2024) CZ Titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 79.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -464290,16 +464311,6 @@
       "worker_id": "worker-4-30180079613",
       "run_id": "30180079613",
       "reserved_at": "2026-07-26T02:42:17Z"
-    },
-    {
-      "cr_film_id": 36939,
-      "cr_slug": "armand",
-      "title": "Armand",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T02:43:35Z"
     },
     {
       "cr_film_id": 27887,
