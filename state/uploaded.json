@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T19:36:10Z",
+  "last_updated": "2026-07-26T19:46:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -480274,19 +480274,29 @@
         "download_sec": 3082.9,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17186,
       "cr_slug": "minnal-murali",
       "title": "Minnal Murali",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T18:46:08Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3599620 milliseconds with 2657308241 out of 3233872538 bytes received",
+      "failed_at": "2026-07-26T19:46:17Z",
+      "first_failed_at": "2026-07-26T19:46:17Z",
+      "attempt_count": 1,
+      "upload_id": "61c777c8c4688",
+      "source_url": "https://prehraj.to/blesk-murali-2021-cztitulky/61c777c8c4688",
+      "upload_title": "Blesk Murali (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 3602.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 26865,
       "cr_slug": "miluj-sveho-robota",
