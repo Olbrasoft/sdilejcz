@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T19:26:22Z",
+  "last_updated": "2026-07-26T19:29:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -480205,19 +480205,30 @@
       "timing": {
         "resolve_sec": 1.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17915,
       "cr_slug": "moje-nejlepsi-kamaradka-anna-frankova",
       "title": "Moje nejlepší kamarádka Anna Franková",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T18:37:39Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T19:29:40Z",
+      "first_failed_at": "2026-07-26T19:29:40Z",
+      "attempt_count": 1,
+      "upload_id": "624e7ae25e386",
+      "source_url": "https://prehraj.to/moje-nejlepsi-kamaradka-anna-frankova-2021-1080p-hevc-cz-tit-drama-valecny/624e7ae25e386",
+      "upload_title": "Moje nejlepší kamarádka Anna Franková ( 2021 ) 1080p hevc cz tit Drama  Válečný",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 3082.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17186,
       "cr_slug": "minnal-murali",
