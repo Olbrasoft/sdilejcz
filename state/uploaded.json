@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T12:02:40Z",
+  "last_updated": "2026-07-26T12:02:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -475341,19 +475341,30 @@
         "download_sec": 364.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 32171,
       "cr_slug": "carter-2",
       "title": "Carter",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T11:51:58Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Final upload response did not include url: {'name': 'Carter (2022) CZ Titulky (709).mp4', 'size': 71779, 'type': 'video/mp4'}",
+      "failed_at": "2026-07-26T12:02:58Z",
+      "first_failed_at": "2026-07-26T12:02:58Z",
+      "attempt_count": 1,
+      "upload_id": "62ed57f45c499",
+      "source_url": "https://prehraj.to/carter-2022-cz-sub-1080p/62ed57f45c499",
+      "upload_title": "Carter.2022 cz sub 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 186.0,
+        "upload_sec": 466.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18002,
       "cr_slug": "ek-villain-returns",
