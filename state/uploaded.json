@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T14:46:45Z",
+  "last_updated": "2026-07-26T14:48:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -477697,27 +477697,6 @@
       }
     },
     {
-      "cr_film_id": 35455,
-      "cr_slug": "undergods",
-      "title": "Undergods",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T14:15:26Z",
-      "first_failed_at": "2026-07-26T14:15:26Z",
-      "attempt_count": 1,
-      "upload_id": "61e78f5e0be60",
-      "source_url": "https://prehraj.to/utajeni-bohove-2021-cztitulky/61e78f5e0be60",
-      "upload_title": "Utajení bohové (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 55.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31179,
       "cr_slug": "umlcene-svedectvi",
       "title": "Umlčené svědectví",
@@ -477758,6 +477737,27 @@
         "download_sec": 146.6,
         "upload_sec": 351.2
       }
+    },
+    {
+      "cr_film_id": 35455,
+      "cr_slug": "undergods",
+      "title": "Undergods",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T14:48:19Z",
+      "first_failed_at": "2026-07-26T14:15:26Z",
+      "attempt_count": 2,
+      "upload_id": "61e78f5e0be60",
+      "source_url": "https://prehraj.to/utajeni-bohove-2021-cztitulky/61e78f5e0be60",
+      "upload_title": "Utajení bohové (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 69.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -477780,16 +477780,6 @@
       "worker_id": "worker-3-30198992890",
       "run_id": "30198992890",
       "reserved_at": "2026-07-26T14:45:27Z"
-    },
-    {
-      "cr_film_id": 35455,
-      "cr_slug": "undergods",
-      "title": "Undergods",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T14:46:34Z"
     },
     {
       "cr_film_id": 8473,
