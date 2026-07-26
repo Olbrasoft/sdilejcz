@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T13:12:55Z",
+  "last_updated": "2026-07-26T13:13:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -460146,6 +460146,30 @@
         "upload_sec": 126.1,
         "total_sec": 178.0
       }
+    },
+    {
+      "cr_film_id": 15131,
+      "cr_slug": "bejval-sem-slavnej",
+      "title": "Bejval sem slavnej",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "632746aeb6a91",
+      "source_url": "https://prehraj.to/bejval-sem-slavnej-2022-cztitulky/632746aeb6a91",
+      "source_title": "Bejval sem slavnej (2022) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34727780/bejval-sem-slavnej-2022-cz-titulky.mp4",
+      "sdilej_name": "Bejval sem slavnej (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T13:13:56Z",
+      "status": "uploaded",
+      "size_bytes": 2392078822,
+      "worker_id": "worker-1-30198992890",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 80.2,
+        "upload_sec": 232.2,
+        "total_sec": 313.9
+      }
     }
   ],
   "failed_attempts": [
@@ -476233,27 +476257,6 @@
       }
     },
     {
-      "cr_film_id": 15131,
-      "cr_slug": "bejval-sem-slavnej",
-      "title": "Bejval sem slavnej",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T12:35:22Z",
-      "first_failed_at": "2026-07-26T12:35:22Z",
-      "attempt_count": 1,
-      "upload_id": "632746aeb6a91",
-      "source_url": "https://prehraj.to/bejval-sem-slavnej-2022-cztitulky/632746aeb6a91",
-      "upload_title": "Bejval sem slavnej (2022) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 110.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31264,
       "cr_slug": "a-good-enough-day",
       "title": "A Good Enough Day",
@@ -476318,16 +476321,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 15131,
-      "cr_slug": "bejval-sem-slavnej",
-      "title": "Bejval sem slavnej",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T13:08:39Z"
-    },
     {
       "cr_film_id": 27129,
       "cr_slug": "stastni-az-naveky",
