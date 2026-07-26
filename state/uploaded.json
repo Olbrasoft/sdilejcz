@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T11:29:03Z",
+  "last_updated": "2026-07-26T11:31:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -474679,6 +474679,26 @@
         "download_sec": 390.3,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 6838,
+      "cr_slug": "do-hajzlu",
+      "title": "Do hajzlu!",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-26T11:31:07Z",
+      "first_failed_at": "2026-07-26T11:31:07Z",
+      "attempt_count": 1,
+      "upload_id": "64a1d21ae0685",
+      "source_url": "https://prehraj.to/do-hajzlu-2022-cztitulky/64a1d21ae0685",
+      "upload_title": "Do hajzlu! (2022) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 171.6
+      }
     }
   ],
   "in_progress": [
@@ -474691,16 +474711,6 @@
       "worker_id": "worker-2-30198992890",
       "run_id": "30198992890",
       "reserved_at": "2026-07-26T11:26:44Z"
-    },
-    {
-      "cr_film_id": 6838,
-      "cr_slug": "do-hajzlu",
-      "title": "Do hajzlu!",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T11:28:09Z"
     },
     {
       "cr_film_id": 14935,
