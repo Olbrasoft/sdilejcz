@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T04:00:37Z",
+  "last_updated": "2026-07-26T04:00:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -450138,6 +450138,30 @@
         "upload_sec": 164.7,
         "total_sec": 221.0
       }
+    },
+    {
+      "cr_film_id": 36947,
+      "cr_slug": "the-black-book",
+      "title": "The Black Book",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "650fb267e3756",
+      "source_url": "https://prehraj.to/the-black-book-2023-cz-titulky/650fb267e3756",
+      "source_title": "The Black Book (2023) CZ titulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34725364/the-black-book-2023-cz-titulky.mp4",
+      "sdilej_name": "The Black Book (2023) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T04:00:36Z",
+      "status": "uploaded",
+      "size_bytes": 1181530806,
+      "worker_id": "worker-1-30180079613",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 79.8,
+        "upload_sec": 154.3,
+        "total_sec": 235.7
+      }
     }
   ],
   "failed_attempts": [
@@ -465940,40 +465964,9 @@
         "resolve_sec": 1.2,
         "download_sec": 182.9
       }
-    },
-    {
-      "cr_film_id": 36947,
-      "cr_slug": "the-black-book",
-      "title": "The Black Book",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T03:55:08Z",
-      "first_failed_at": "2026-07-26T03:55:08Z",
-      "attempt_count": 1,
-      "upload_id": "650fb30dd5466",
-      "source_url": "https://prehraj.to/the-black-book-2023-cztitulky/650fb30dd5466",
-      "upload_title": "The Black Book (2023) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 4.0,
-        "download_sec": 181.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 36947,
-      "cr_slug": "the-black-book",
-      "title": "The Black Book",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T03:56:38Z"
-    },
     {
       "cr_film_id": 9631,
       "cr_slug": "temna-okna",
