@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T16:56:15Z",
+  "last_updated": "2026-07-26T16:58:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -463122,6 +463122,30 @@
         "upload_sec": 88.3,
         "total_sec": 116.8
       }
+    },
+    {
+      "cr_film_id": 26932,
+      "cr_slug": "pripad-wanninkhof-carabantes",
+      "title": "Případ Wanninkhof-Carabantes",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "60d7adb0b51d8",
+      "source_url": "https://prehraj.to/pripad-wanninkhof-carabantes-2021-cztitulky/60d7adb0b51d8",
+      "source_title": "Případ Wanninkhof - Carabantes (2021) CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34728950/pripad-wanninkhof-carabantes-2021-cz-titulky.mp4",
+      "sdilej_name": "Případ Wanninkhof-Carabantes (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T16:58:43Z",
+      "status": "uploaded",
+      "size_bytes": 1049267743,
+      "worker_id": "worker-3-30211240394",
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 33.5,
+        "upload_sec": 110.7,
+        "total_sec": 145.5
+      }
     }
   ],
   "failed_attempts": [
@@ -479268,27 +479292,6 @@
       }
     },
     {
-      "cr_film_id": 26932,
-      "cr_slug": "pripad-wanninkhof-carabantes",
-      "title": "Případ Wanninkhof-Carabantes",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T16:26:06Z",
-      "first_failed_at": "2026-07-26T15:49:36Z",
-      "attempt_count": 2,
-      "upload_id": "60d7adb0b51d8",
-      "source_url": "https://prehraj.to/pripad-wanninkhof-carabantes-2021-cztitulky/60d7adb0b51d8",
-      "upload_title": "Případ Wanninkhof - Carabantes (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 77.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31140,
       "cr_slug": "podivinka",
       "title": "Podivínka",
@@ -479340,16 +479343,6 @@
       "worker_id": "worker-4-30211240394",
       "run_id": "30211240394",
       "reserved_at": "2026-07-26T16:54:07Z"
-    },
-    {
-      "cr_film_id": 26932,
-      "cr_slug": "pripad-wanninkhof-carabantes",
-      "title": "Případ Wanninkhof-Carabantes",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T16:56:15Z"
     }
   ]
 }
