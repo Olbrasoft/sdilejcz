@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T21:59:45Z",
+  "last_updated": "2026-07-26T21:59:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -481424,6 +481424,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 31162,
+      "cr_slug": "heroes-ticho-a-rock-roll",
+      "title": "Heroes: Ticho a rock & roll",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T21:59:54Z",
+      "first_failed_at": "2026-07-26T21:59:54Z",
+      "attempt_count": 1,
+      "upload_id": "c70f24c6947e4b40",
+      "source_url": "https://prehraj.to/heroes-ticho-a-rock-roll-2021-cz-titulky-mp4/c70f24c6947e4b40",
+      "upload_title": "Heroes: Ticho a rock & roll",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 87.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -481436,16 +481457,6 @@
       "worker_id": "worker-3-30211240394",
       "run_id": "30211240394",
       "reserved_at": "2026-07-26T21:57:23Z"
-    },
-    {
-      "cr_film_id": 31162,
-      "cr_slug": "heroes-ticho-a-rock-roll",
-      "title": "Heroes: Ticho a rock & roll",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T21:57:52Z"
     },
     {
       "cr_film_id": 31020,
