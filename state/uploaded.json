@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T21:11:12Z",
+  "last_updated": "2026-07-26T21:14:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -464490,6 +464490,30 @@
         "upload_sec": 164.0,
         "total_sec": 221.0
       }
+    },
+    {
+      "cr_film_id": 17186,
+      "cr_slug": "minnal-murali",
+      "title": "Minnal Murali",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "61c777c8c4688",
+      "source_url": "https://prehraj.to/blesk-murali-2021-cztitulky/61c777c8c4688",
+      "source_title": "Blesk Murali (2021) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34730601/minnal-murali-2021-cz-titulky.mp4",
+      "sdilej_name": "Minnal Murali (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T21:14:45Z",
+      "status": "uploaded",
+      "size_bytes": 3233872538,
+      "worker_id": "worker-2-30211240394",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 1412.2,
+        "upload_sec": 342.0,
+        "total_sec": 1756.0
+      }
     }
   ],
   "failed_attempts": [
@@ -480615,26 +480639,6 @@
       }
     },
     {
-      "cr_film_id": 17186,
-      "cr_slug": "minnal-murali",
-      "title": "Minnal Murali",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3599620 milliseconds with 2657308241 out of 3233872538 bytes received",
-      "failed_at": "2026-07-26T19:46:17Z",
-      "first_failed_at": "2026-07-26T19:46:17Z",
-      "attempt_count": 1,
-      "upload_id": "61c777c8c4688",
-      "source_url": "https://prehraj.to/blesk-murali-2021-cztitulky/61c777c8c4688",
-      "upload_title": "Blesk Murali (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 3602.1
-      }
-    },
-    {
       "cr_film_id": 26882,
       "cr_slug": "ma-belle-my-beauty",
       "title": "Ma Belle, My Beauty",
@@ -480657,16 +480661,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 17186,
-      "cr_slug": "minnal-murali",
-      "title": "Minnal Murali",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T20:45:26Z"
-    },
     {
       "cr_film_id": 27254,
       "cr_slug": "lockdown-2021",
