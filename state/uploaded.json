@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T23:42:03Z",
+  "last_updated": "2026-07-26T23:43:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -467250,6 +467250,30 @@
         "upload_sec": 239.3,
         "total_sec": 345.9
       }
+    },
+    {
+      "cr_film_id": 19837,
+      "cr_slug": "bright-duse-samuraje",
+      "title": "Bright: Duše samuraje",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6165b5bbedac3",
+      "source_url": "https://prehraj.to/bright-duse-samuraje-2021-cztitulky/6165b5bbedac3",
+      "source_title": "Bright Duše samuraje (2021) CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34731621/bright-duse-samuraje-2021-cz-titulky.mp4",
+      "sdilej_name": "Bright: Duše samuraje (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T23:43:20Z",
+      "status": "uploaded",
+      "size_bytes": 1514201102,
+      "worker_id": "worker-2-30221840747",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 69.6,
+        "upload_sec": 189.3,
+        "total_sec": 260.4
+      }
     }
   ],
   "failed_attempts": [
@@ -483392,40 +483416,9 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    },
-    {
-      "cr_film_id": 19837,
-      "cr_slug": "bright-duse-samuraje",
-      "title": "Bright: Duše samuraje",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T23:07:50Z",
-      "first_failed_at": "2026-07-26T23:07:50Z",
-      "attempt_count": 1,
-      "upload_id": "6165b5bbedac3",
-      "source_url": "https://prehraj.to/bright-duse-samuraje-2021-cztitulky/6165b5bbedac3",
-      "upload_title": "Bright Duše samuraje (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 3.9,
-        "download_sec": 84.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 19837,
-      "cr_slug": "bright-duse-samuraje",
-      "title": "Bright: Duše samuraje",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-26T23:38:57Z"
-    },
     {
       "cr_film_id": 5025,
       "cr_slug": "annette",
