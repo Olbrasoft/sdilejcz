@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T14:19:19Z",
+  "last_updated": "2026-07-26T14:22:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -461106,6 +461106,30 @@
         "upload_sec": 101.0,
         "total_sec": 229.8
       }
+    },
+    {
+      "cr_film_id": 19750,
+      "cr_slug": "wrazda",
+      "title": "Wražda",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6171f0a44e5b4",
+      "source_url": "https://prehraj.to/wrazda-2021-cztitulky/6171f0a44e5b4",
+      "source_title": "Wražda (2021) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34728257/wrazda-2021-cz-titulky.mp4",
+      "sdilej_name": "Wražda (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T14:22:18Z",
+      "status": "uploaded",
+      "size_bytes": 2421849906,
+      "worker_id": "worker-3-30198992890",
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 123.9,
+        "upload_sec": 279.3,
+        "total_sec": 405.5
+      }
     }
   ],
   "failed_attempts": [
@@ -477193,27 +477217,6 @@
       }
     },
     {
-      "cr_film_id": 19750,
-      "cr_slug": "wrazda",
-      "title": "Wražda",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T13:44:27Z",
-      "first_failed_at": "2026-07-26T13:44:27Z",
-      "attempt_count": 1,
-      "upload_id": "6171f0a44e5b4",
-      "source_url": "https://prehraj.to/wrazda-2021-cztitulky/6171f0a44e5b4",
-      "upload_title": "Wražda (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 125.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35455,
       "cr_slug": "undergods",
       "title": "Undergods",
@@ -477266,16 +477269,6 @@
       "worker_id": "worker-2-30198992890",
       "run_id": "30198992890",
       "reserved_at": "2026-07-26T14:09:38Z"
-    },
-    {
-      "cr_film_id": 19750,
-      "cr_slug": "wrazda",
-      "title": "Wražda",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T14:15:30Z"
     },
     {
       "cr_film_id": 18090,
