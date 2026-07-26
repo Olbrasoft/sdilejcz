@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T11:51:58Z",
+  "last_updated": "2026-07-26T11:54:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -475242,19 +475242,30 @@
         "download_sec": 74.4,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37174,
       "cr_slug": "cha-cha-real-smooth",
       "title": "Cha Cha Real Smooth",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T11:47:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T11:54:25Z",
+      "first_failed_at": "2026-07-26T11:54:25Z",
+      "attempt_count": 1,
+      "upload_id": "c823a568ce6d5aac",
+      "source_url": "https://prehraj.to/cha-cha-real-smooth-2022-cz-titulky/c823a568ce6d5aac",
+      "upload_title": "Cha Cha Real Smooth (2022) CZ Titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 364.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34041,
       "cr_slug": "emergency-declaration",
