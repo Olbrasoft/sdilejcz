@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T19:47:38Z",
+  "last_updated": "2026-07-26T19:52:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -480342,6 +480342,27 @@
         "resolve_sec": 1.0,
         "download_sec": 3602.1
       }
+    },
+    {
+      "cr_film_id": 36862,
+      "cr_slug": "masquerade",
+      "title": "Masquerade",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T19:52:29Z",
+      "first_failed_at": "2026-07-26T19:52:29Z",
+      "attempt_count": 1,
+      "upload_id": "689e0fddcbc9e",
+      "source_url": "https://prehraj.to/masquerade-2021-cz-tit/689e0fddcbc9e",
+      "upload_title": "Masquerade.2021-cz tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 265.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -480364,16 +480385,6 @@
       "worker_id": "worker-1-30211240394",
       "run_id": "30211240394",
       "reserved_at": "2026-07-26T19:46:23Z"
-    },
-    {
-      "cr_film_id": 36862,
-      "cr_slug": "masquerade",
-      "title": "Masquerade",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30211240394",
-      "run_id": "30211240394",
-      "reserved_at": "2026-07-26T19:47:29Z"
     },
     {
       "cr_film_id": 36863,
