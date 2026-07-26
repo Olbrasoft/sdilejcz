@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T03:19:32Z",
+  "last_updated": "2026-07-26T03:19:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -449298,6 +449298,30 @@
         "upload_sec": 248.7,
         "total_sec": 374.9
       }
+    },
+    {
+      "cr_film_id": 36939,
+      "cr_slug": "armand",
+      "title": "Armand",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "0f6ed6674874faac",
+      "source_url": "https://prehraj.to/armand-2024-cz-titulky/0f6ed6674874faac",
+      "source_title": "Armand (2024) CZ Titulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34725266/armand-2024-cz-titulky.mp4",
+      "sdilej_name": "Armand (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T03:19:35Z",
+      "status": "uploaded",
+      "size_bytes": 1437929242,
+      "worker_id": "worker-2-30180079613",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 68.2,
+        "upload_sec": 160.8,
+        "total_sec": 230.6
+      }
     }
   ],
   "failed_attempts": [
@@ -464928,27 +464952,6 @@
       }
     },
     {
-      "cr_film_id": 36939,
-      "cr_slug": "armand",
-      "title": "Armand",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T02:45:30Z",
-      "first_failed_at": "2026-07-26T02:45:30Z",
-      "attempt_count": 1,
-      "upload_id": "0f6ed6674874faac",
-      "source_url": "https://prehraj.to/armand-2024-cz-titulky/0f6ed6674874faac",
-      "upload_title": "Armand (2024) CZ Titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 79.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 8170,
       "cr_slug": "warhorse-one",
       "title": "Warhorse One",
@@ -465048,16 +465051,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 36939,
-      "cr_slug": "armand",
-      "title": "Armand",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T03:15:42Z"
-    },
     {
       "cr_film_id": 7521,
       "cr_slug": "vhs85",
