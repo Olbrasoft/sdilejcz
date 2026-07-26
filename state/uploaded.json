@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:14:08Z",
+  "last_updated": "2026-07-26T00:14:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -461517,19 +461517,28 @@
       "timing": {
         "resolve_sec": 254.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34202,
       "cr_slug": "sebastian",
       "title": "Sebastian",
       "year": 2024,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30170372789",
-      "run_id": "30170372789",
-      "reserved_at": "2026-07-26T00:10:06Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fsebastian-2024-hd-cz-tit%2F679bb9c5e30ac (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7fd1b20fd070>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/sebastian-2024-hd-cz-tit/679bb9c5e30ac",
+      "failed_at": "2026-07-26T00:14:26Z",
+      "first_failed_at": "2026-07-26T00:14:26Z",
+      "attempt_count": 1,
+      "upload_id": "679bb9c5e30ac",
+      "source_url": "https://prehraj.to/sebastian-2024-hd-cz-tit/679bb9c5e30ac",
+      "upload_title": "Sebastian 2024 HD cz tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15902,
       "cr_slug": "siksa-kubur",
