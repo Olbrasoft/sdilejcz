@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T07:19:51Z",
+  "last_updated": "2026-07-26T07:21:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -454026,6 +454026,30 @@
         "upload_sec": 314.2,
         "total_sec": 426.1
       }
+    },
+    {
+      "cr_film_id": 4117,
+      "cr_slug": "stesti",
+      "title": "Štěstí",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6891f5d68cd82",
+      "source_url": "https://prehraj.to/luck-2022/6891f5d68cd82",
+      "source_title": "Luck.2022",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34726516/stesti-2022-cz-titulky.mp4",
+      "sdilej_name": "Štěstí (2022) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T07:21:41Z",
+      "status": "uploaded",
+      "size_bytes": 1390198431,
+      "worker_id": "worker-2-30188928436",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 46.9,
+        "upload_sec": 150.5,
+        "total_sec": 199.2
+      }
     }
   ],
   "failed_attempts": [
@@ -469884,84 +469908,6 @@
       }
     },
     {
-      "cr_film_id": 4117,
-      "cr_slug": "stesti",
-      "title": "Štěstí",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/luck-2022-1080p-cz-sub-mp4/e7a7a228c1bdb8e2",
-      "failed_at": "2026-07-26T06:43:41Z",
-      "first_failed_at": "2026-07-26T06:43:41Z",
-      "attempt_count": 1,
-      "upload_id": "e7a7a228c1bdb8e2",
-      "source_url": "https://prehraj.to/luck-2022-1080p-cz-sub-mp4/e7a7a228c1bdb8e2",
-      "upload_title": "Luck.2022.1080p.cz sub.mp4",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.2
-      }
-    },
-    {
-      "cr_film_id": 4117,
-      "cr_slug": "stesti",
-      "title": "Štěstí",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/luck-2022-1080p-cz-sub-mp4/40e44478622f053e",
-      "failed_at": "2026-07-26T06:43:47Z",
-      "first_failed_at": "2026-07-26T06:43:47Z",
-      "attempt_count": 1,
-      "upload_id": "40e44478622f053e",
-      "source_url": "https://prehraj.to/luck-2022-1080p-cz-sub-mp4/40e44478622f053e",
-      "upload_title": "Luck.2022.1080p.cz sub.mp4",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 2.0
-      }
-    },
-    {
-      "cr_film_id": 4117,
-      "cr_slug": "stesti",
-      "title": "Štěstí",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/luck-2022-1080p-cz-sub/0a95dc0b80b99c85",
-      "failed_at": "2026-07-26T06:43:53Z",
-      "first_failed_at": "2026-07-26T06:43:53Z",
-      "attempt_count": 1,
-      "upload_id": "0a95dc0b80b99c85",
-      "source_url": "https://prehraj.to/luck-2022-1080p-cz-sub/0a95dc0b80b99c85",
-      "upload_title": "Luck.2022.1080p.cz sub",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 2.2
-      }
-    },
-    {
-      "cr_film_id": 4117,
-      "cr_slug": "stesti",
-      "title": "Štěstí",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T06:45:30Z",
-      "first_failed_at": "2026-07-26T06:45:30Z",
-      "attempt_count": 1,
-      "upload_id": "6891f5d68cd82",
-      "source_url": "https://prehraj.to/luck-2022/6891f5d68cd82",
-      "upload_title": "Luck.2022",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.8,
-        "download_sec": 61.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 19691,
       "cr_slug": "vsechny-jsme-krasne",
       "title": "Všechny jsme krásné",
@@ -469993,16 +469939,6 @@
       "worker_id": "worker-1-30188928436",
       "run_id": "30188928436",
       "reserved_at": "2026-07-26T07:07:30Z"
-    },
-    {
-      "cr_film_id": 4117,
-      "cr_slug": "stesti",
-      "title": "Štěstí",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T07:18:19Z"
     },
     {
       "cr_film_id": 18471,
