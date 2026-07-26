@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T03:49:38Z",
+  "last_updated": "2026-07-26T03:49:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -449946,6 +449946,30 @@
         "upload_sec": 133.1,
         "total_sec": 187.8
       }
+    },
+    {
+      "cr_film_id": 8170,
+      "cr_slug": "warhorse-one",
+      "title": "Warhorse One",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "64acc30f5ca0a",
+      "source_url": "https://prehraj.to/warhorse-one-2023-1080p-cz-sub/64acc30f5ca0a",
+      "source_title": "Warhorse.One.2023.1080p.cz sub",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34725339/warhorse-one-2023-cz-titulky.mp4",
+      "sdilej_name": "Warhorse One (2023) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T03:49:39Z",
+      "status": "uploaded",
+      "size_bytes": 4136066585,
+      "worker_id": "worker-2-30180079613",
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 147.2,
+        "upload_sec": 472.5,
+        "total_sec": 621.4
+      }
     }
   ],
   "failed_attempts": [
@@ -465576,27 +465600,6 @@
       }
     },
     {
-      "cr_film_id": 8170,
-      "cr_slug": "warhorse-one",
-      "title": "Warhorse One",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T03:08:44Z",
-      "first_failed_at": "2026-07-26T03:08:44Z",
-      "attempt_count": 1,
-      "upload_id": "64acc30f5ca0a",
-      "source_url": "https://prehraj.to/warhorse-one-2023-1080p-cz-sub/64acc30f5ca0a",
-      "upload_title": "Warhorse.One.2023.1080p.cz sub",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 130.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14682,
       "cr_slug": "vzorny-student",
       "title": "Vzorný student",
@@ -465773,16 +465776,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 8170,
-      "cr_slug": "warhorse-one",
-      "title": "Warhorse One",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T03:39:15Z"
-    },
     {
       "cr_film_id": 36944,
       "cr_slug": "the-engineer",
