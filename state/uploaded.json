@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T15:41:07Z",
+  "last_updated": "2026-07-26T15:42:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -462522,6 +462522,30 @@
         "upload_sec": 124.9,
         "total_sec": 344.5
       }
+    },
+    {
+      "cr_film_id": 27119,
+      "cr_slug": "the-box",
+      "title": "The Box",
+      "year": 2021,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "60f5fef8579e0",
+      "source_url": "https://prehraj.to/the-box-2021-cztitulky/60f5fef8579e0",
+      "source_title": "The Box (2021) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34728737/the-box-2021-cz-titulky.mp4",
+      "sdilej_name": "The Box (2021) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T15:42:23Z",
+      "status": "uploaded",
+      "size_bytes": 1820836264,
+      "worker_id": "worker-2-30198992890",
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 428.7,
+        "upload_sec": 199.3,
+        "total_sec": 629.3
+      }
     }
   ],
   "failed_attempts": [
@@ -478609,27 +478633,6 @@
       }
     },
     {
-      "cr_film_id": 27119,
-      "cr_slug": "the-box",
-      "title": "The Box",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T15:01:16Z",
-      "first_failed_at": "2026-07-26T15:01:16Z",
-      "attempt_count": 1,
-      "upload_id": "60f5fef8579e0",
-      "source_url": "https://prehraj.to/the-box-2021-cztitulky/60f5fef8579e0",
-      "upload_title": "The Box (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 405.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31187,
       "cr_slug": "soukroma-sit-kdo-zabil-manuela-buendiu",
       "title": "Soukromá síť: Kdo zabil Manuela Buendíu?",
@@ -478692,16 +478695,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 27119,
-      "cr_slug": "the-box",
-      "title": "The Box",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T15:31:51Z"
-    },
     {
       "cr_film_id": 26445,
       "cr_slug": "rock-dog-2-rock-around-the-park",
