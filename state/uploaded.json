@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T06:17:33Z",
+  "last_updated": "2026-07-26T06:20:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -452898,6 +452898,30 @@
         "upload_sec": 98.3,
         "total_sec": 138.4
       }
+    },
+    {
+      "cr_film_id": 31343,
+      "cr_slug": "fancy-dance",
+      "title": "Fancy Dance",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "bedc1f2bcb1a22dc",
+      "source_url": "https://prehraj.to/fancy-dance-2024-en-cz-tit/bedc1f2bcb1a22dc",
+      "source_title": "Fancy Dance (2024) EN CZ tit",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34725907/fancy-dance-2023-cz-titulky.mp4",
+      "sdilej_name": "Fancy Dance (2023) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T06:20:04Z",
+      "status": "uploaded",
+      "size_bytes": 1168573690,
+      "worker_id": "worker-4-30188928436",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 41.8,
+        "upload_sec": 115.4,
+        "total_sec": 158.7
+      }
     }
   ],
   "failed_attempts": [
@@ -468775,27 +468799,6 @@
         "download_sec": 455.7,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 31343,
-      "cr_slug": "fancy-dance",
-      "title": "Fancy Dance",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T05:47:11Z",
-      "first_failed_at": "2026-07-26T05:47:11Z",
-      "attempt_count": 1,
-      "upload_id": "bedc1f2bcb1a22dc",
-      "source_url": "https://prehraj.to/fancy-dance-2024-en-cz-tit/bedc1f2bcb1a22dc",
-      "upload_title": "Fancy Dance (2024) EN CZ tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 66.9,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -468818,16 +468821,6 @@
       "worker_id": "worker-3-30188928436",
       "run_id": "30188928436",
       "reserved_at": "2026-07-26T06:12:56Z"
-    },
-    {
-      "cr_film_id": 31343,
-      "cr_slug": "fancy-dance",
-      "title": "Fancy Dance",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T06:17:23Z"
     },
     {
       "cr_film_id": 10466,
