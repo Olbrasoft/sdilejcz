@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T11:45:36Z",
+  "last_updated": "2026-07-26T11:46:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -475106,6 +475106,26 @@
         "resolve_sec": 0.8,
         "download_sec": 130.0
       }
+    },
+    {
+      "cr_film_id": 5408,
+      "cr_slug": "clerks-iii",
+      "title": "Clerks III",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-26T11:46:42Z",
+      "first_failed_at": "2026-07-26T11:46:42Z",
+      "attempt_count": 1,
+      "upload_id": "635aca5b32dc7",
+      "source_url": "https://prehraj.to/clerks-iii-2022-cztitulky/635aca5b32dc7",
+      "upload_title": "Clerks III (2022) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 70.9
+      }
     }
   ],
   "in_progress": [
@@ -475128,16 +475148,6 @@
       "worker_id": "worker-4-30198992890",
       "run_id": "30198992890",
       "reserved_at": "2026-07-26T11:44:10Z"
-    },
-    {
-      "cr_film_id": 5408,
-      "cr_slug": "clerks-iii",
-      "title": "Clerks III",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T11:45:27Z"
     },
     {
       "cr_film_id": 10116,
