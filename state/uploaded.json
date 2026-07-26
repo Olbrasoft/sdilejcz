@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T00:42:10Z",
+  "last_updated": "2026-07-26T00:42:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -446202,6 +446202,30 @@
         "upload_sec": 148.8,
         "total_sec": 198.4
       }
+    },
+    {
+      "cr_film_id": 15902,
+      "cr_slug": "siksa-kubur",
+      "title": "Siksa Kubur",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "66fd45d08998b",
+      "source_url": "https://prehraj.to/siksa-kubur-2024-cz-titulky-1080p/66fd45d08998b",
+      "source_title": "Siksa Kubur (2024) CZ Titulky 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34724855/siksa-kubur-2024-cz-titulky.mp4",
+      "sdilej_name": "Siksa Kubur (2024) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-26T00:42:43Z",
+      "status": "uploaded",
+      "size_bytes": 2038907533,
+      "worker_id": "worker-1-30180079613",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 109.1,
+        "upload_sec": 260.7,
+        "total_sec": 371.5
+      }
     }
   ],
   "failed_attempts": [
@@ -461792,61 +461816,9 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    },
-    {
-      "cr_film_id": 15902,
-      "cr_slug": "siksa-kubur",
-      "title": "Siksa Kubur",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T00:05:30Z",
-      "first_failed_at": "2026-07-26T00:05:30Z",
-      "attempt_count": 1,
-      "upload_id": "66fd45d08998b",
-      "source_url": "https://prehraj.to/siksa-kubur-2024-cz-titulky-1080p/66fd45d08998b",
-      "upload_title": "Siksa Kubur (2024) CZ Titulky 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 82.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 15902,
-      "cr_slug": "siksa-kubur",
-      "title": "Siksa Kubur",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T00:15:01Z",
-      "first_failed_at": "2026-07-26T00:10:00Z",
-      "attempt_count": 2,
-      "upload_id": "66fd7e0edd52a",
-      "source_url": "https://prehraj.to/grave-torture-siksa-kubur-2024-horror-thriller-id-dabing-titulky-cz-hevc-1080p/66fd7e0edd52a",
-      "upload_title": "Grave Torture, Siksa Kubur (2024) Horror, Thriller, ID…",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 75.1,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 15902,
-      "cr_slug": "siksa-kubur",
-      "title": "Siksa Kubur",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30180079613",
-      "run_id": "30180079613",
-      "reserved_at": "2026-07-26T00:36:29Z"
-    },
     {
       "cr_film_id": 31324,
       "cr_slug": "posledni-zeny-more",
