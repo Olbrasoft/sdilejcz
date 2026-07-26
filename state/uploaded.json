@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T10:37:59Z",
+  "last_updated": "2026-07-26T10:38:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -473852,27 +473852,6 @@
       }
     },
     {
-      "cr_film_id": 31228,
-      "cr_slug": "krylya-nad-berlinom",
-      "title": "Krylya nad Berlinom",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-26T10:05:39Z",
-      "first_failed_at": "2026-07-26T10:05:39Z",
-      "attempt_count": 1,
-      "upload_id": "cad31f8f46681d9c",
-      "source_url": "https://prehraj.to/krylya-nad-berlinom-2022-cz-titulky-mp4/cad31f8f46681d9c",
-      "upload_title": "Krylya nad Berlinom",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.1,
-        "download_sec": 88.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 27670,
       "cr_slug": "kdo-je-tady-hodny-kluk",
       "title": "Kdo je tady hodný kluk?",
@@ -473892,19 +473871,30 @@
         "download_sec": 171.5,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31228,
       "cr_slug": "krylya-nad-berlinom",
       "title": "Krylya nad Berlinom",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30188928436",
-      "run_id": "30188928436",
-      "reserved_at": "2026-07-26T10:36:09Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-26T10:38:14Z",
+      "first_failed_at": "2026-07-26T10:05:39Z",
+      "attempt_count": 2,
+      "upload_id": "cad31f8f46681d9c",
+      "source_url": "https://prehraj.to/krylya-nad-berlinom-2022-cz-titulky-mp4/cad31f8f46681d9c",
+      "upload_title": "Krylya nad Berlinom",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 88.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 6213,
       "cr_slug": "huesera-sberatelka-kosti",
