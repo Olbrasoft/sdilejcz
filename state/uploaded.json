@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-26T11:31:14Z",
+  "last_updated": "2026-07-26T11:31:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -474699,19 +474699,29 @@
         "resolve_sec": 1.2,
         "download_sec": 171.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18002,
       "cr_slug": "ek-villain-returns",
       "title": "Ek Villain Returns",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30198992890",
-      "run_id": "30198992890",
-      "reserved_at": "2026-07-26T11:26:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-26T11:31:17Z",
+      "first_failed_at": "2026-07-26T11:31:17Z",
+      "attempt_count": 1,
+      "upload_id": "633cbe3a9a69a",
+      "source_url": "https://prehraj.to/ek-villain-returns-2022-hind-cz-sub-1080p/633cbe3a9a69a",
+      "upload_title": "Ek Villain Returns (2022) Hind cz.sub 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 259.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14935,
       "cr_slug": "do-dobrych-rukou",
