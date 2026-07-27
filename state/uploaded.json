@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T13:52:29Z",
+  "last_updated": "2026-07-27T13:52:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -500055,19 +500055,30 @@
         "download_sec": 62.1,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19599,
       "cr_slug": "basket-v-san-quentin",
       "title": "Basket v San Quentin",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T13:47:24Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T13:52:43Z",
+      "first_failed_at": "2026-07-27T13:52:43Z",
+      "attempt_count": 1,
+      "upload_id": "6000d87a72381",
+      "source_url": "https://prehraj.to/q-ball-2019-cztitulky/6000d87a72381",
+      "upload_title": "Q Ball (2019) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.0,
+        "download_sec": 281.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14062,
       "cr_slug": "barot-house",
