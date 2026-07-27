@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T17:33:53Z",
+  "last_updated": "2026-07-27T17:34:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -486642,6 +486642,30 @@
         "upload_sec": 260.9,
         "total_sec": 672.2
       }
+    },
+    {
+      "cr_film_id": 7653,
+      "cr_slug": "the-dark",
+      "title": "The Dark",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5c2b1a0011023",
+      "source_url": "https://prehraj.to/the-dark-2018/5c2b1a0011023",
+      "source_title": "The Dark (2018)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34735659/the-dark-2018-cz-titulky.mp4",
+      "sdilej_name": "The Dark (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T17:33:59Z",
+      "status": "uploaded",
+      "size_bytes": 583786560,
+      "worker_id": "worker-4-30274413700",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 1217.5,
+        "upload_sec": 77.4,
+        "total_sec": 1296.4
+      }
     }
   ],
   "failed_attempts": [
@@ -502938,27 +502962,6 @@
       }
     },
     {
-      "cr_film_id": 7653,
-      "cr_slug": "the-dark",
-      "title": "The Dark",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T17:06:26Z",
-      "first_failed_at": "2026-07-27T17:06:26Z",
-      "attempt_count": 1,
-      "upload_id": "5bddc0f775488",
-      "source_url": "https://prehraj.to/the-dark-horor-cz-titulky-2018-jad/5bddc0f775488",
-      "upload_title": "The dark-horor-cz titulky-2018-jad",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 871.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 17222,
       "cr_slug": "the-boat",
       "title": "The Boat",
@@ -503023,16 +503026,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 7653,
-      "cr_slug": "the-dark",
-      "title": "The Dark",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T17:12:20Z"
-    },
     {
       "cr_film_id": 19123,
       "cr_slug": "the-angel",
