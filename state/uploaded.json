@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T13:53:26Z",
+  "last_updated": "2026-07-27T13:54:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -483762,6 +483762,30 @@
         "upload_sec": 186.3,
         "total_sec": 259.4
       }
+    },
+    {
+      "cr_film_id": 19650,
+      "cr_slug": "baekdusan",
+      "title": "Baekdusan",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5f1a8f078829e",
+      "source_url": "https://prehraj.to/baekdusan-2019-cztitulky/5f1a8f078829e",
+      "source_title": "Baekdusan (2019) CZtitulky",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34734731/baekdusan-2019-cz-titulky.mp4",
+      "sdilej_name": "Baekdusan (2019) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T13:54:54Z",
+      "status": "uploaded",
+      "size_bytes": 633796627,
+      "worker_id": "worker-1-30248064109",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 20.8,
+        "upload_sec": 63.7,
+        "total_sec": 85.9
+      }
     }
   ],
   "failed_attempts": [
@@ -500100,27 +500124,6 @@
         "download_sec": 281.3,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 19650,
-      "cr_slug": "baekdusan",
-      "title": "Baekdusan",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T13:53:10Z",
-      "first_failed_at": "2026-07-27T13:53:10Z",
-      "attempt_count": 1,
-      "upload_id": "5ff5fd3aa870a",
-      "source_url": "https://prehraj.to/baekdusan-2019-cztitulky/5ff5fd3aa870a",
-      "upload_title": "Baekdusan (2019) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 166.1,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -500153,16 +500156,6 @@
       "worker_id": "worker-4-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T13:53:14Z"
-    },
-    {
-      "cr_film_id": 19650,
-      "cr_slug": "baekdusan",
-      "title": "Baekdusan",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T13:53:26Z"
     }
   ]
 }
