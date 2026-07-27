@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T01:53:01Z",
+  "last_updated": "2026-07-27T01:54:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -469602,6 +469602,30 @@
         "upload_sec": 109.9,
         "total_sec": 157.9
       }
+    },
+    {
+      "cr_film_id": 31062,
+      "cr_slug": "the-cure-2020",
+      "title": "The Cure",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "616769ebeeaea",
+      "source_url": "https://prehraj.to/the-cure-2020-cztitulky/616769ebeeaea",
+      "source_title": "The Cure (2020) CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34732000/the-cure-2020-cz-titulky.mp4",
+      "sdilej_name": "The Cure (2020) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T01:54:18Z",
+      "status": "uploaded",
+      "size_bytes": 785649821,
+      "worker_id": "worker-1-30221840747",
+      "timing": {
+        "resolve_sec": 2.5,
+        "download_sec": 53.0,
+        "upload_sec": 101.8,
+        "total_sec": 162.4
+      }
     }
   ],
   "failed_attempts": [
@@ -485846,25 +485870,6 @@
         "resolve_sec": 2.0,
         "download_sec": 103.3
       }
-    },
-    {
-      "cr_film_id": 31062,
-      "cr_slug": "the-cure-2020",
-      "title": "The Cure",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/the-cure-2020-cztitulky-mp4/6d3e4dfa3102c8bb",
-      "failed_at": "2026-07-27T01:51:37Z",
-      "first_failed_at": "2026-07-27T01:51:37Z",
-      "attempt_count": 1,
-      "upload_id": "6d3e4dfa3102c8bb",
-      "source_url": "https://prehraj.to/the-cure-2020-cztitulky-mp4/6d3e4dfa3102c8bb",
-      "upload_title": "The Cure 2020 CZtitulky.mp4",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.9
-      }
     }
   ],
   "in_progress": [
@@ -485877,16 +485882,6 @@
       "worker_id": "worker-3-30221840747",
       "run_id": "30221840747",
       "reserved_at": "2026-07-27T01:48:53Z"
-    },
-    {
-      "cr_film_id": 31062,
-      "cr_slug": "the-cure-2020",
-      "title": "The Cure",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T01:51:32Z"
     },
     {
       "cr_film_id": 29639,
