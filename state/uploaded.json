@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T00:55:47Z",
+  "last_updated": "2026-07-27T00:55:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -484732,6 +484732,26 @@
         "resolve_sec": 1.2,
         "download_sec": 152.2
       }
+    },
+    {
+      "cr_film_id": 10053,
+      "cr_slug": "vdova",
+      "title": "Vdova",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-27T00:55:54Z",
+      "first_failed_at": "2026-07-27T00:55:54Z",
+      "attempt_count": 1,
+      "upload_id": "6215631b35c8d",
+      "source_url": "https://prehraj.to/vdova-2020-cztitulky/6215631b35c8d",
+      "upload_title": "Vdova (2020) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 65.4
+      }
     }
   ],
   "in_progress": [
@@ -484754,16 +484774,6 @@
       "worker_id": "worker-1-30221840747",
       "run_id": "30221840747",
       "reserved_at": "2026-07-27T00:53:27Z"
-    },
-    {
-      "cr_film_id": 10053,
-      "cr_slug": "vdova",
-      "title": "Vdova",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T00:54:35Z"
     },
     {
       "cr_film_id": 29762,
