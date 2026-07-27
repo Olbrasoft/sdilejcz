@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T23:00:13Z",
+  "last_updated": "2026-07-27T23:01:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -489618,6 +489618,30 @@
         "upload_sec": 101.2,
         "total_sec": 139.7
       }
+    },
+    {
+      "cr_film_id": 29463,
+      "cr_slug": "jde-si-pro-nas-noc",
+      "title": "Jde si pro nás noc",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5bdc5b2953884",
+      "source_url": "https://prehraj.to/the-night-comes-for-us-akcni-krimi-thriller-2018-1080p-x264-s-cz-titulky-75-sten-ok/5bdc5b2953884",
+      "source_title": "The Night Comes for Us akční krimi thriller 2018.1080p.x264.s.Cz titulky.75%.STEN.ok",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34737002/jde-si-pro-nas-noc-2018-cz-titulky.mp4",
+      "sdilej_name": "Jde si pro nás noc (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T23:01:01Z",
+      "status": "uploaded",
+      "size_bytes": 2405774580,
+      "worker_id": "worker-3-30300033771",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 66.0,
+        "upload_sec": 237.7,
+        "total_sec": 305.3
+      }
     }
   ],
   "failed_attempts": [
@@ -505912,40 +505936,9 @@
       "timing": {
         "resolve_sec": 1.1
       }
-    },
-    {
-      "cr_film_id": 29463,
-      "cr_slug": "jde-si-pro-nas-noc",
-      "title": "Jde si pro nás noc",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T22:54:20Z",
-      "first_failed_at": "2026-07-27T22:54:20Z",
-      "attempt_count": 1,
-      "upload_id": "5bfb74fd03841",
-      "source_url": "https://prehraj.to/the-night-comes-for-us-akcni-krimi-thriller-2018-1080p-x264-s-cz-titulky-75-sten-ok/5bfb74fd03841",
-      "upload_title": "The Night Comes for Us akční krimi thriller 2018.1080p.x264.s.Cz titulky.75%.STEN.ok",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 103.3,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 29463,
-      "cr_slug": "jde-si-pro-nas-noc",
-      "title": "Jde si pro nás noc",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30300033771",
-      "run_id": "30300033771",
-      "reserved_at": "2026-07-27T22:55:53Z"
-    },
     {
       "cr_film_id": 17351,
       "cr_slug": "i-am-jonas",
