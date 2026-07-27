@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T14:49:26Z",
+  "last_updated": "2026-07-27T14:50:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -501087,6 +501087,27 @@
         "download_sec": 211.1,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 20979,
+      "cr_slug": "aga",
+      "title": "Ága",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T14:50:05Z",
+      "first_failed_at": "2026-07-27T14:50:05Z",
+      "attempt_count": 1,
+      "upload_id": "6001d2ac4ec85",
+      "source_url": "https://prehraj.to/aga-2018-cztitulky/6001d2ac4ec85",
+      "upload_title": "Ága (2018) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 350.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -501099,16 +501120,6 @@
       "worker_id": "worker-4-30274413700",
       "run_id": "30274413700",
       "reserved_at": "2026-07-27T14:34:12Z"
-    },
-    {
-      "cr_film_id": 20979,
-      "cr_slug": "aga",
-      "title": "Ága",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T14:43:38Z"
     },
     {
       "cr_film_id": 20924,
