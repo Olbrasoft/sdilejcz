@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T11:18:20Z",
+  "last_updated": "2026-07-27T11:18:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -497204,19 +497204,30 @@
         "download_sec": 180.6,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8528,
       "cr_slug": "kraj-sveta",
       "title": "Kraj světa",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T11:16:29Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T11:18:48Z",
+      "first_failed_at": "2026-07-27T11:18:48Z",
+      "attempt_count": 1,
+      "upload_id": "5ce8dd9c802cc",
+      "source_url": "https://prehraj.to/rim-of-the-world-sci-fi-2019-1080p-5-1-x264-s-cztitulky-49-sten-ok/5ce8dd9c802cc",
+      "upload_title": "Rim of the World sci-fi 2019.1080p.5.1.x264.s.Cztitulky.49%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 101.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17433,
       "cr_slug": "kopfplatzen",
