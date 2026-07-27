@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T00:30:00Z",
+  "last_updated": "2026-07-27T00:30:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -484208,6 +484208,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 3352,
+      "cr_slug": "zase-vanoce",
+      "title": "Zase Vánoce",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T00:30:31Z",
+      "first_failed_at": "2026-07-27T00:30:31Z",
+      "attempt_count": 1,
+      "upload_id": "5fca931762d7d",
+      "source_url": "https://prehraj.to/zase-vanoce-komedie-brazilie-2020-1080p-5-1-x264-por-s-cztitulky-58-sten-ok/5fca931762d7d",
+      "upload_title": "Zase Vánoce komedie Brazílie 2020.1080p.5.1.x264.POR.s.Cztitulky.58%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 140.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -484220,16 +484241,6 @@
       "worker_id": "worker-4-30221840747",
       "run_id": "30221840747",
       "reserved_at": "2026-07-27T00:26:50Z"
-    },
-    {
-      "cr_film_id": 3352,
-      "cr_slug": "zase-vanoce",
-      "title": "Zase Vánoce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T00:27:35Z"
     },
     {
       "cr_film_id": 4128,
