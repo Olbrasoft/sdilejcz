@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T01:31:59Z",
+  "last_updated": "2026-07-27T01:32:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -485453,19 +485453,30 @@
         "download_sec": 122.8,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7874,
       "cr_slug": "the-quarry",
       "title": "The Quarry",
       "year": 2020,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T01:30:23Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T01:32:45Z",
+      "first_failed_at": "2026-07-27T01:32:45Z",
+      "attempt_count": 1,
+      "upload_id": "650a98f399b32",
+      "source_url": "https://prehraj.to/the-quarry-2020-cztitulky-mp4/650a98f399b32",
+      "upload_title": "The Quarry (2020) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 99.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 1101,
       "cr_slug": "fenomen",
