@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T09:44:09Z",
+  "last_updated": "2026-07-27T09:44:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -495193,19 +495193,30 @@
         "download_sec": 140.9,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 33509,
       "cr_slug": "psi-nenosi-kalhoty",
       "title": "Psi nenosí kalhoty",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T09:41:49Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T09:44:15Z",
+      "first_failed_at": "2026-07-27T09:44:15Z",
+      "attempt_count": 1,
+      "upload_id": "5e89a6aab6688",
+      "source_url": "https://prehraj.to/psi-nenosi-kalhoty-romanticka-komedie-fi-lo-2019-1080p-5-1-h264-finsky-s-cztitulky-80-sten-ok/5e89a6aab6688",
+      "upload_title": "Psi nenosí kalhoty romantická komedie Fi+Lo 2019.1080p.5.1.H264.Finsky s.Cztitulky.80%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 106.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36795,
       "cr_slug": "prvni-zradce",
