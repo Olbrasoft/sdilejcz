@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T18:30:05Z",
+  "last_updated": "2026-07-27T18:31:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -503221,19 +503221,30 @@
         "download_sec": 3297.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 33396,
       "cr_slug": "take-the-ball-pass-the-ball",
       "title": "Take the Ball, Pass the Ball",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T17:36:35Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T18:31:10Z",
+      "first_failed_at": "2026-07-27T18:31:10Z",
+      "attempt_count": 1,
+      "upload_id": "5c518a7fcb377",
+      "source_url": "https://prehraj.to/take-the-ball-pass-the-ball-spartovni-dokument-2018-1080i-x264-s-cztitulky-93-sten-ok/5c518a7fcb377",
+      "upload_title": "Take The Ball Pass The Ball spartovní dokument 2018.1080i.x264.s.Cztitulky 93%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 3234.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19123,
       "cr_slug": "the-angel",
