@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T15:29:33Z",
+  "last_updated": "2026-07-27T15:29:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -485418,6 +485418,30 @@
         "upload_sec": 136.0,
         "total_sec": 230.0
       }
+    },
+    {
+      "cr_film_id": 20979,
+      "cr_slug": "aga",
+      "title": "Ága",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6001d2ac4ec85",
+      "source_url": "https://prehraj.to/aga-2018-cztitulky/6001d2ac4ec85",
+      "source_title": "Ága (2018) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34735176/aga-2018-cz-titulky.mp4",
+      "sdilej_name": "Ága (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T15:29:44Z",
+      "status": "uploaded",
+      "size_bytes": 1402765809,
+      "worker_id": "worker-4-30274413700",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 389.6,
+        "upload_sec": 181.9,
+        "total_sec": 573.3
+      }
     }
   ],
   "failed_attempts": [
@@ -501695,27 +501719,6 @@
       }
     },
     {
-      "cr_film_id": 20979,
-      "cr_slug": "aga",
-      "title": "Ága",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T14:50:05Z",
-      "first_failed_at": "2026-07-27T14:50:05Z",
-      "attempt_count": 1,
-      "upload_id": "6001d2ac4ec85",
-      "source_url": "https://prehraj.to/aga-2018-cztitulky/6001d2ac4ec85",
-      "upload_title": "Ága (2018) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 350.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 29309,
       "cr_slug": "wild-nights-with-emily",
       "title": "Wild Nights with Emily",
@@ -501780,16 +501783,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 20979,
-      "cr_slug": "aga",
-      "title": "Ága",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T15:20:08Z"
-    },
     {
       "cr_film_id": 949,
       "cr_slug": "tisnove-volani",
