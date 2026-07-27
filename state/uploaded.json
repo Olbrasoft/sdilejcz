@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T12:48:14Z",
+  "last_updated": "2026-07-27T12:50:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -482538,6 +482538,30 @@
         "upload_sec": 124.8,
         "total_sec": 173.6
       }
+    },
+    {
+      "cr_film_id": 21030,
+      "cr_slug": "greed",
+      "title": "Greed",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6000b4c7b4259",
+      "source_url": "https://prehraj.to/greed-2019-cztitulky/6000b4c7b4259",
+      "source_title": "Greed (2019) CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34734499/greed-2019-cz-titulky.mp4",
+      "sdilej_name": "Greed (2019) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T12:50:27Z",
+      "status": "uploaded",
+      "size_bytes": 1849414464,
+      "worker_id": "worker-4-30248064109",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 188.4,
+        "upload_sec": 246.3,
+        "total_sec": 436.4
+      }
     }
   ],
   "failed_attempts": [
@@ -498815,27 +498839,6 @@
       }
     },
     {
-      "cr_film_id": 21030,
-      "cr_slug": "greed",
-      "title": "Greed",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T12:11:53Z",
-      "first_failed_at": "2026-07-27T12:11:53Z",
-      "attempt_count": 1,
-      "upload_id": "6000b4c7b4259",
-      "source_url": "https://prehraj.to/greed-2019-cztitulky/6000b4c7b4259",
-      "upload_title": "Greed (2019) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 136.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 33450,
       "cr_slug": "extreme-job",
       "title": "Extreme Job",
@@ -498900,16 +498903,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 21030,
-      "cr_slug": "greed",
-      "title": "Greed",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T12:43:07Z"
-    },
     {
       "cr_film_id": 19301,
       "cr_slug": "dokonale-rande",
