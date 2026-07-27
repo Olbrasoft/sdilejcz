@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T12:41:24Z",
+  "last_updated": "2026-07-27T12:43:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -498729,6 +498729,27 @@
         "download_sec": 139.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 30925,
+      "cr_slug": "druhy-zivot-jedna-laska",
+      "title": "Druhý život, jedna láska",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T12:43:03Z",
+      "first_failed_at": "2026-07-27T12:43:03Z",
+      "attempt_count": 1,
+      "upload_id": "5e15c90caa638",
+      "source_url": "https://prehraj.to/druhy-zivot-jedna-laska-drama-spanelsko-2019-1080p-5-1-h264-s-cztitulky-sten-ok/5e15c90caa638",
+      "upload_title": "Druhý život, jedna láska drama Španělsko 2019.1080p.5.1.H264.s.Cztitulky.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 64.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -498761,16 +498782,6 @@
       "worker_id": "worker-2-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T12:41:13Z"
-    },
-    {
-      "cr_film_id": 30925,
-      "cr_slug": "druhy-zivot-jedna-laska",
-      "title": "Druhý život, jedna láska",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T12:41:24Z"
     }
   ]
 }
