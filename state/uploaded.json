@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T10:50:46Z",
+  "last_updated": "2026-07-27T10:51:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -480306,6 +480306,30 @@
         "upload_sec": 267.4,
         "total_sec": 377.6
       }
+    },
+    {
+      "cr_film_id": 29822,
+      "cr_slug": "mosul",
+      "title": "Mosul",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5fc4de82c8d40",
+      "source_url": "https://prehraj.to/mosul-akcni-2019-cz-titulky/5fc4de82c8d40",
+      "source_title": "Mosul-(akcni)-(2019)--cz-titulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34734130/mosul-2019-cz-titulky.mp4",
+      "sdilej_name": "Mosul (2019) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T10:51:13Z",
+      "status": "uploaded",
+      "size_bytes": 2257039371,
+      "worker_id": "worker-2-30248064109",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 134.7,
+        "upload_sec": 299.1,
+        "total_sec": 436.5
+      }
     }
   ],
   "failed_attempts": [
@@ -496582,40 +496606,9 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 29822,
-      "cr_slug": "mosul",
-      "title": "Mosul",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T10:42:59Z",
-      "first_failed_at": "2026-07-27T10:42:59Z",
-      "attempt_count": 1,
-      "upload_id": "5fc2cc477614f",
-      "source_url": "https://prehraj.to/mosul-akcni-2019-cz-titulky/5fc2cc477614f",
-      "upload_title": "Mosul-(akcni)-(2019)--cz-titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 127.1,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 29822,
-      "cr_slug": "mosul",
-      "title": "Mosul",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T10:43:48Z"
-    },
     {
       "cr_film_id": 30828,
       "cr_slug": "miles-davis-zrod-cool-jazzu",
