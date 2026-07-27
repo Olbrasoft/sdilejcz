@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T17:06:33Z",
+  "last_updated": "2026-07-27T17:11:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -486474,6 +486474,30 @@
         "upload_sec": 78.0,
         "total_sec": 113.0
       }
+    },
+    {
+      "cr_film_id": 32098,
+      "cr_slug": "the-convent",
+      "title": "The Convent",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5d14082777209",
+      "source_url": "https://prehraj.to/the-convent-heretiks-horor-2018-cztitulky-1080p-x264-5-1-s-cztitulky-34-34-sten-ok/5d14082777209",
+      "source_title": "The Convent Heretiks horor 2018.Cztitulky.1080p.x264.5.1.s.Cztitulky.34%.(34).STEN.ok",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34735595/the-convent-2018-cz-titulky.mp4",
+      "sdilej_name": "The Convent (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T17:11:42Z",
+      "status": "uploaded",
+      "size_bytes": 1045994302,
+      "worker_id": "worker-1-30274413700",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 158.5,
+        "upload_sec": 141.2,
+        "total_sec": 301.8
+      }
     }
   ],
   "failed_attempts": [
@@ -502812,27 +502836,6 @@
       }
     },
     {
-      "cr_film_id": 32098,
-      "cr_slug": "the-convent",
-      "title": "The Convent",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T16:56:34Z",
-      "first_failed_at": "2026-07-27T16:56:34Z",
-      "attempt_count": 1,
-      "upload_id": "5d09bac2df8ef",
-      "source_url": "https://prehraj.to/the-convent-heretiks-horor-2018-1080p-x264-5-1-s-cz-titulky-40-sten-ok/5d09bac2df8ef",
-      "upload_title": "The Convent Heretiks horor 2018.1080p.x264.5.1.s.Cz titulky.40%.STEN.ok",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 169.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 7653,
       "cr_slug": "the-dark",
       "title": "The Dark",
@@ -502884,16 +502887,6 @@
       "worker_id": "worker-3-30274413700",
       "run_id": "30274413700",
       "reserved_at": "2026-07-27T17:05:48Z"
-    },
-    {
-      "cr_film_id": 32098,
-      "cr_slug": "the-convent",
-      "title": "The Convent",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T17:06:33Z"
     }
   ]
 }
