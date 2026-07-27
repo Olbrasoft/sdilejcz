@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T07:38:29Z",
+  "last_updated": "2026-07-27T07:40:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -492516,6 +492516,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 7591,
+      "cr_slug": "zbesilost",
+      "title": "Zběsilost",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T07:40:29Z",
+      "first_failed_at": "2026-07-27T07:40:29Z",
+      "attempt_count": 1,
+      "upload_id": "5d022b2335497",
+      "source_url": "https://prehraj.to/furie-akcni-vietnam-2019-1020p-x264-s-cztitulky-64-sten-ok/5d022b2335497",
+      "upload_title": "Furie akční Vietnam 2019.1020p..x264.s.Cztitulky.64%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 85.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -492548,16 +492569,6 @@
       "worker_id": "worker-2-30231880100",
       "run_id": "30231880100",
       "reserved_at": "2026-07-27T07:37:49Z"
-    },
-    {
-      "cr_film_id": 7591,
-      "cr_slug": "zbesilost",
-      "title": "Zběsilost",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30231880100",
-      "run_id": "30231880100",
-      "reserved_at": "2026-07-27T07:38:29Z"
     }
   ]
 }
