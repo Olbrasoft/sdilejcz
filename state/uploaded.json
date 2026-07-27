@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T13:29:59Z",
+  "last_updated": "2026-07-27T13:30:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -499623,6 +499623,27 @@
         "download_sec": 311.2,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 33521,
+      "cr_slug": "braska",
+      "title": "Bráška",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T13:30:09Z",
+      "first_failed_at": "2026-07-27T13:30:09Z",
+      "attempt_count": 1,
+      "upload_id": "5ec9861dbdc73",
+      "source_url": "https://prehraj.to/braska-drama-francie-2019-bluray-576p-x264-s-cztitulky-59-24-sten-ok/5ec9861dbdc73",
+      "upload_title": "Bráška drama FRANCIE 2019.BluRay.576p.x264.s.Cztitulky.59%(24).STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 45.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -499645,16 +499666,6 @@
       "worker_id": "worker-1-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T13:28:36Z"
-    },
-    {
-      "cr_film_id": 33521,
-      "cr_slug": "braska",
-      "title": "Bráška",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T13:28:47Z"
     },
     {
       "cr_film_id": 2950,
