@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T13:28:47Z",
+  "last_updated": "2026-07-27T13:29:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -483282,6 +483282,30 @@
         "upload_sec": 367.3,
         "total_sec": 563.8
       }
+    },
+    {
+      "cr_film_id": 9512,
+      "cr_slug": "chladnokrevny-odkaz",
+      "title": "Chladnokrevný odkaz",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "62fd12d9276ea",
+      "source_url": "https://prehraj.to/chladnokrevny-odkaz-2019-cz-1080p/62fd12d9276ea",
+      "source_title": "Chladnokrevný odkaz (2019) cz 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34734632/chladnokrevny-odkaz-2019-cz-titulky.mp4",
+      "sdilej_name": "Chladnokrevný odkaz (2019) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T13:29:53Z",
+      "status": "uploaded",
+      "size_bytes": 1301156418,
+      "worker_id": "worker-3-30248064109",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 47.0,
+        "upload_sec": 143.9,
+        "total_sec": 193.5
+      }
     }
   ],
   "failed_attempts": [
@@ -499580,48 +499604,6 @@
       }
     },
     {
-      "cr_film_id": 9512,
-      "cr_slug": "chladnokrevny-odkaz",
-      "title": "Chladnokrevný odkaz",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T13:19:04Z",
-      "first_failed_at": "2026-07-27T13:19:04Z",
-      "attempt_count": 1,
-      "upload_id": "61e311e111bda",
-      "source_url": "https://prehraj.to/cold-blood-legacy-2019-cztitulky/61e311e111bda",
-      "upload_title": "Cold Blood Legacy (2019) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 275.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 9512,
-      "cr_slug": "chladnokrevny-odkaz",
-      "title": "Chladnokrevný odkaz",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T13:23:30Z",
-      "first_failed_at": "2026-07-27T13:23:30Z",
-      "attempt_count": 1,
-      "upload_id": "5d20be29a3477",
-      "source_url": "https://prehraj.to/cold-blood-2019-1080p-web-dl-dd5-1-h264-cmrg/5d20be29a3477",
-      "upload_title": "Cold.Blood.2019.1080p.WEB-DL.DD5.1.H264-CMRG",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 192.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 17188,
       "cr_slug": "carmilla",
       "title": "Carmilla",
@@ -499644,16 +499626,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 9512,
-      "cr_slug": "chladnokrevny-odkaz",
-      "title": "Chladnokrevný odkaz",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T13:26:30Z"
-    },
     {
       "cr_film_id": 31023,
       "cr_slug": "building-the-channel-tunnel",
