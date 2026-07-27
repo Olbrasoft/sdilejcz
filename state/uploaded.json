@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T09:30:35Z",
+  "last_updated": "2026-07-27T09:30:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -494887,19 +494887,30 @@
       "timing": {
         "resolve_sec": 1.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31025,
       "cr_slug": "rozhodujici-utkani",
       "title": "Rozhodující utkání",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T09:27:54Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T09:30:41Z",
+      "first_failed_at": "2026-07-27T09:30:41Z",
+      "attempt_count": 1,
+      "upload_id": "2c957ef88d3593e4",
+      "source_url": "https://prehraj.to/rozhodujici-utkani-2020-cz-titulky/2c957ef88d3593e4",
+      "upload_title": "Rozhodující utkání (2020) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 130.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30849,
       "cr_slug": "rolling-thunder-revue-martin-scorsese-na-turne-s-bobem-dylanem",
