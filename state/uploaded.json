@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T11:29:43Z",
+  "last_updated": "2026-07-27T11:29:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -481026,6 +481026,30 @@
         "upload_sec": 263.7,
         "total_sec": 418.2
       }
+    },
+    {
+      "cr_film_id": 8528,
+      "cr_slug": "kraj-sveta",
+      "title": "Kraj světa",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5d2dc189c925c",
+      "source_url": "https://prehraj.to/rim-of-the-world-2019-cz-titulky/5d2dc189c925c",
+      "source_title": "Rim of the world 2019 Cz titulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34734231/kraj-sveta-2019-cz-titulky.mp4",
+      "sdilej_name": "Kraj světa (2019) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T11:29:49Z",
+      "status": "uploaded",
+      "size_bytes": 3001091373,
+      "worker_id": "worker-2-30248064109",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 205.9,
+        "upload_sec": 386.7,
+        "total_sec": 594.7
+      }
     }
   ],
   "failed_attempts": [
@@ -497326,27 +497350,6 @@
       }
     },
     {
-      "cr_film_id": 8528,
-      "cr_slug": "kraj-sveta",
-      "title": "Kraj světa",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T11:18:48Z",
-      "first_failed_at": "2026-07-27T11:18:48Z",
-      "attempt_count": 1,
-      "upload_id": "5ce8dd9c802cc",
-      "source_url": "https://prehraj.to/rim-of-the-world-sci-fi-2019-1080p-5-1-x264-s-cztitulky-49-sten-ok/5ce8dd9c802cc",
-      "upload_title": "Rim of the World sci-fi 2019.1080p.5.1.x264.s.Cztitulky.49%.STEN.ok",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 101.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30958,
       "cr_slug": "kdyz-ptaci-tanci",
       "title": "Když ptáci tančí",
@@ -497369,16 +497372,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 8528,
-      "cr_slug": "kraj-sveta",
-      "title": "Kraj světa",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T11:19:51Z"
-    },
     {
       "cr_film_id": 30828,
       "cr_slug": "miles-davis-zrod-cool-jazzu",
