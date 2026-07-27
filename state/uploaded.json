@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T14:24:13Z",
+  "last_updated": "2026-07-27T14:25:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -484338,6 +484338,30 @@
         "upload_sec": 294.4,
         "total_sec": 464.8
       }
+    },
+    {
+      "cr_film_id": 206,
+      "cr_slug": "apollo-11",
+      "title": "Apollo 11",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5ff4a470909d8",
+      "source_url": "https://prehraj.to/apollo-11-2019-2160p-bluray-x265-10bit-hdr-tigole/5ff4a470909d8",
+      "source_title": "Apollo 11 (2019) (2160p BluRay x265 10bit HDR Tigole)",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34734867/apollo-11-2019-cz-titulky.mp4",
+      "sdilej_name": "Apollo 11 (2019) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T14:25:42Z",
+      "status": "uploaded",
+      "size_bytes": 4858857859,
+      "worker_id": "worker-2-30248064109",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 341.7,
+        "upload_sec": 633.4,
+        "total_sec": 977.5
+      }
     }
   ],
   "failed_attempts": [
@@ -500636,27 +500660,6 @@
       }
     },
     {
-      "cr_film_id": 206,
-      "cr_slug": "apollo-11",
-      "title": "Apollo 11",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T14:08:35Z",
-      "first_failed_at": "2026-07-27T14:08:35Z",
-      "attempt_count": 1,
-      "upload_id": "601dc4fa852c2",
-      "source_url": "https://prehraj.to/apollo-11-2019-720p-bluray-x264-cz-tit-v-odkaze/601dc4fa852c2",
-      "upload_title": "Apollo.11.2019.720p.BluRay.x264. cz tit v odkaze",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 221.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30942,
       "cr_slug": "americke-dite",
       "title": "Americké dítě",
@@ -500700,16 +500703,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 206,
-      "cr_slug": "apollo-11",
-      "title": "Apollo 11",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T14:09:21Z"
-    },
     {
       "cr_film_id": 14121,
       "cr_slug": "abstak",
