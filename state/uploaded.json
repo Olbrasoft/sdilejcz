@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T23:48:42Z",
+  "last_updated": "2026-07-27T23:49:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -507416,6 +507416,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 29021,
+      "cr_slug": "brian-banks",
+      "title": "Brian Banks",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T23:49:30Z",
+      "first_failed_at": "2026-07-27T23:49:30Z",
+      "attempt_count": 1,
+      "upload_id": "5dd6e5172c95e",
+      "source_url": "https://prehraj.to/brian-banks-2019-cz-titulky/5dd6e5172c95e",
+      "upload_title": "Brian Banks 2019 cz titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.3,
+        "download_sec": 95.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -507428,16 +507449,6 @@
       "worker_id": "worker-1-30300033771",
       "run_id": "30300033771",
       "reserved_at": "2026-07-27T23:45:02Z"
-    },
-    {
-      "cr_film_id": 29021,
-      "cr_slug": "brian-banks",
-      "title": "Brian Banks",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30300033771",
-      "run_id": "30300033771",
-      "reserved_at": "2026-07-27T23:47:17Z"
     },
     {
       "cr_film_id": 1377,
