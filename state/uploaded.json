@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T01:26:25Z",
+  "last_updated": "2026-07-27T01:26:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -469146,6 +469146,30 @@
         "upload_sec": 252.7,
         "total_sec": 331.0
       }
+    },
+    {
+      "cr_film_id": 14116,
+      "cr_slug": "the-warrant",
+      "title": "The Warrant",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5e72b66433e96",
+      "source_url": "https://prehraj.to/the-warrant-2020-1080p-amzn-web-dl-ddp5-1-h-264-ntg/5e72b66433e96",
+      "source_title": "The.Warrant.2020.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTG",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34731941/the-warrant-2020-cz-titulky.mp4",
+      "sdilej_name": "The Warrant (2020) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T01:26:51Z",
+      "status": "uploaded",
+      "size_bytes": 3270097272,
+      "worker_id": "worker-4-30221840747",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 198.4,
+        "upload_sec": 422.1,
+        "total_sec": 622.3
+      }
     }
   ],
   "failed_attempts": [
@@ -485308,40 +485332,9 @@
         "resolve_sec": 1.2,
         "download_sec": 65.4
       }
-    },
-    {
-      "cr_film_id": 14116,
-      "cr_slug": "the-warrant",
-      "title": "The Warrant",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T01:14:59Z",
-      "first_failed_at": "2026-07-27T01:14:59Z",
-      "attempt_count": 1,
-      "upload_id": "5ea444b7ae411",
-      "source_url": "https://prehraj.to/the-warrant-western-2020-cz-titulky/5ea444b7ae411",
-      "upload_title": "The-Warrant-(western)-(2020)--cz-titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 36.4,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 14116,
-      "cr_slug": "the-warrant",
-      "title": "The Warrant",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T01:16:26Z"
-    },
     {
       "cr_film_id": 14163,
       "cr_slug": "the-stylist",
