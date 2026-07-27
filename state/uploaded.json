@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T11:42:48Z",
+  "last_updated": "2026-07-27T11:44:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -497588,6 +497588,27 @@
         "download_sec": 119.7,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 21023,
+      "cr_slug": "janicka-z-arku",
+      "title": "Janička z Arku",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T11:44:03Z",
+      "first_failed_at": "2026-07-27T11:44:03Z",
+      "attempt_count": 1,
+      "upload_id": "617d80f296247",
+      "source_url": "https://prehraj.to/janicka-z-arku-2019-cztitulky/617d80f296247",
+      "upload_title": "Janička z Arku (2019) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 279.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -497600,16 +497621,6 @@
       "worker_id": "worker-4-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T11:38:05Z"
-    },
-    {
-      "cr_film_id": 21023,
-      "cr_slug": "janicka-z-arku",
-      "title": "Janička z Arku",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T11:38:48Z"
     },
     {
       "cr_film_id": 29838,
