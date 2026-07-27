@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T03:05:32Z",
+  "last_updated": "2026-07-27T03:06:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -471090,6 +471090,30 @@
         "upload_sec": 150.4,
         "total_sec": 218.2
       }
+    },
+    {
+      "cr_film_id": 7232,
+      "cr_slug": "pondeli",
+      "title": "Pondělí",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "60939dc47300b",
+      "source_url": "https://prehraj.to/monday-2020-cz-titulky-vlozeny/60939dc47300b",
+      "source_title": "MONDAY.2020.CZ titulky vloženy",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34732210/pondeli-2020-cz-titulky.mp4",
+      "sdilej_name": "Pondělí (2020) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T03:06:14Z",
+      "status": "uploaded",
+      "size_bytes": 2225113428,
+      "worker_id": "worker-2-30221840747",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 102.4,
+        "upload_sec": 273.8,
+        "total_sec": 377.8
+      }
     }
   ],
   "failed_attempts": [
@@ -487335,27 +487359,6 @@
       }
     },
     {
-      "cr_film_id": 7232,
-      "cr_slug": "pondeli",
-      "title": "Pondělí",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T02:58:37Z",
-      "first_failed_at": "2026-07-27T02:58:37Z",
-      "attempt_count": 1,
-      "upload_id": "60939d1638d97",
-      "source_url": "https://prehraj.to/monday-2020-cz-titulky-vlozeny-1/60939d1638d97",
-      "upload_title": "Monday.2020.CZ titulky vloženy(1)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 120.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31090,
       "cr_slug": "pearl-2021",
       "title": "Pearl",
@@ -487378,16 +487381,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 7232,
-      "cr_slug": "pondeli",
-      "title": "Pondělí",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T02:59:54Z"
-    },
     {
       "cr_film_id": 15429,
       "cr_slug": "penance-lane",
