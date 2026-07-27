@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T03:41:31Z",
+  "last_updated": "2026-07-27T03:44:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -471834,6 +471834,30 @@
         "upload_sec": 360.3,
         "total_sec": 518.5
       }
+    },
+    {
+      "cr_film_id": 31090,
+      "cr_slug": "pearl-2021",
+      "title": "Pearl",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5f934e054f50a",
+      "source_url": "https://prehraj.to/pearl-2020-cztitulky/5f934e054f50a",
+      "source_title": "Pearl (2020) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34732917/pearl-2020-cz-titulky.mp4",
+      "sdilej_name": "Pearl (2020) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T03:44:09Z",
+      "status": "uploaded",
+      "size_bytes": 2311099318,
+      "worker_id": "worker-4-30221840747",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 120.2,
+        "upload_sec": 293.2,
+        "total_sec": 415.2
+      }
     }
   ],
   "failed_attempts": [
@@ -488079,27 +488103,6 @@
       }
     },
     {
-      "cr_film_id": 31090,
-      "cr_slug": "pearl-2021",
-      "title": "Pearl",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T03:05:28Z",
-      "first_failed_at": "2026-07-27T03:05:28Z",
-      "attempt_count": 1,
-      "upload_id": "5f934e054f50a",
-      "source_url": "https://prehraj.to/pearl-2020-cztitulky/5f934e054f50a",
-      "upload_title": "Pearl (2020) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 132.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 36816,
       "cr_slug": "neco-jako-bratri",
       "title": "Něco jako bratři",
@@ -488129,16 +488132,6 @@
       "worker_id": "worker-1-30221840747",
       "run_id": "30221840747",
       "reserved_at": "2026-07-27T03:35:00Z"
-    },
-    {
-      "cr_film_id": 31090,
-      "cr_slug": "pearl-2021",
-      "title": "Pearl",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T03:37:11Z"
     }
   ]
 }
