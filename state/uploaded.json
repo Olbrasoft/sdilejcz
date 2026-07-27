@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T18:42:01Z",
+  "last_updated": "2026-07-27T18:59:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -503266,6 +503266,27 @@
         "download_sec": 3234.6,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 19115,
+      "cr_slug": "spitfire",
+      "title": "Spitfire",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T18:59:03Z",
+      "first_failed_at": "2026-07-27T18:59:03Z",
+      "attempt_count": 1,
+      "upload_id": "602836d4c731f",
+      "source_url": "https://prehraj.to/spitfire-the-plane-that-saved-the-world-dokument-2018-en-cz-tit/602836d4c731f",
+      "upload_title": "Spitfire- The Plane That Saved the World - dokument 2018, EN - CZ tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.1,
+        "download_sec": 986.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -503298,16 +503319,6 @@
       "worker_id": "worker-4-30274413700",
       "run_id": "30274413700",
       "reserved_at": "2026-07-27T18:30:05Z"
-    },
-    {
-      "cr_film_id": 19115,
-      "cr_slug": "spitfire",
-      "title": "Spitfire",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T18:42:01Z"
     }
   ]
 }
