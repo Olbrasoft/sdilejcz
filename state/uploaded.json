@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T20:18:02Z",
+  "last_updated": "2026-07-27T20:21:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -487194,6 +487194,30 @@
         "upload_sec": 52.3,
         "total_sec": 106.9
       }
+    },
+    {
+      "cr_film_id": 30776,
+      "cr_slug": "sloni-kralovna",
+      "title": "Sloní královna",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "58caeb295d556a05",
+      "source_url": "https://prehraj.to/sloni-kralovna-2019-en-cz-tit/58caeb295d556a05",
+      "source_title": "Sloní královna (2019) EN CZ tit",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34736665/sloni-kralovna-2018-cz-titulky.mp4",
+      "sdilej_name": "Sloní královna (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T20:21:37Z",
+      "status": "uploaded",
+      "size_bytes": 2277298973,
+      "worker_id": "worker-1-30300033771",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 102.3,
+        "upload_sec": 227.2,
+        "total_sec": 331.7
+      }
     }
   ],
   "failed_attempts": [
@@ -503490,27 +503514,6 @@
       }
     },
     {
-      "cr_film_id": 30776,
-      "cr_slug": "sloni-kralovna",
-      "title": "Sloní královna",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T19:34:23Z",
-      "first_failed_at": "2026-07-27T19:34:23Z",
-      "attempt_count": 1,
-      "upload_id": "58caeb295d556a05",
-      "source_url": "https://prehraj.to/sloni-kralovna-2019-en-cz-tit/58caeb295d556a05",
-      "upload_title": "Sloní královna (2019) EN CZ tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 422.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30767,
       "cr_slug": "sibel",
       "title": "Sibel",
@@ -503533,16 +503536,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 30776,
-      "cr_slug": "sloni-kralovna",
-      "title": "Sloní královna",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30300033771",
-      "run_id": "30300033771",
-      "reserved_at": "2026-07-27T20:16:02Z"
-    },
     {
       "cr_film_id": 30767,
       "cr_slug": "sibel",
