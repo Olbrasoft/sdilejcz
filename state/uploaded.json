@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T13:26:30Z",
+  "last_updated": "2026-07-27T13:27:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -499572,6 +499572,27 @@
         "download_sec": 192.3,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 17188,
+      "cr_slug": "carmilla",
+      "title": "Carmilla",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T13:27:21Z",
+      "first_failed_at": "2026-07-27T13:27:21Z",
+      "attempt_count": 1,
+      "upload_id": "603be96f9b072",
+      "source_url": "https://prehraj.to/carmilla-2019-cztitulky/603be96f9b072",
+      "upload_title": "Carmilla 2019 CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 311.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -499584,16 +499605,6 @@
       "worker_id": "worker-2-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T13:19:08Z"
-    },
-    {
-      "cr_film_id": 17188,
-      "cr_slug": "carmilla",
-      "title": "Carmilla",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T13:21:33Z"
     },
     {
       "cr_film_id": 19154,
