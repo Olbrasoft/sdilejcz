@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T23:54:48Z",
+  "last_updated": "2026-07-27T23:54:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -491202,6 +491202,30 @@
         "upload_sec": 199.6,
         "total_sec": 301.6
       }
+    },
+    {
+      "cr_film_id": 30790,
+      "cr_slug": "evelyn",
+      "title": "Evelyn",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5d7b3d60502b5",
+      "source_url": "https://prehraj.to/evelyn-dokument-v-b-2018-720p-5-1-x264-s-cztitulky-84-sten-ok/5d7b3d60502b5",
+      "source_title": "Evelyn dokument V.B.2018.720p.5.1.x264.s.Cztitulky.84%.STEN…",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34737111/evelyn-2018-cz-titulky.mp4",
+      "sdilej_name": "Evelyn (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T23:54:54Z",
+      "status": "uploaded",
+      "size_bytes": 1967866166,
+      "worker_id": "worker-1-30300033771",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 71.1,
+        "upload_sec": 194.3,
+        "total_sec": 266.9
+      }
     }
   ],
   "failed_attempts": [
@@ -507498,27 +507522,6 @@
       }
     },
     {
-      "cr_film_id": 30790,
-      "cr_slug": "evelyn",
-      "title": "Evelyn",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T23:19:13Z",
-      "first_failed_at": "2026-07-27T23:19:13Z",
-      "attempt_count": 1,
-      "upload_id": "5d7b3d60502b5",
-      "source_url": "https://prehraj.to/evelyn-dokument-v-b-2018-720p-5-1-x264-s-cztitulky-84-sten-ok/5d7b3d60502b5",
-      "upload_title": "Evelyn dokument V.B.2018.720p.5.1.x264.s.Cztitulky.84%.STEN…",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 107.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30773,
       "cr_slug": "constantine-city-of-demons-the-movie",
       "title": "Constantine: City of Demons - The Movie",
@@ -507560,16 +507563,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 30790,
-      "cr_slug": "evelyn",
-      "title": "Evelyn",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30300033771",
-      "run_id": "30300033771",
-      "reserved_at": "2026-07-27T23:50:24Z"
-    },
     {
       "cr_film_id": 29021,
       "cr_slug": "brian-banks",
