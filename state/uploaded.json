@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T15:16:43Z",
+  "last_updated": "2026-07-27T15:17:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -501612,19 +501612,30 @@
         "download_sec": 313.9,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 33456,
       "cr_slug": "veseli-chlapici-jorubove-v-nesnazich",
       "title": "Veselí chlapíci: Jorubové v nesnázích",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T15:08:27Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T15:17:41Z",
+      "first_failed_at": "2026-07-27T15:17:41Z",
+      "attempt_count": 1,
+      "upload_id": "5d7f6532b9cbd",
+      "source_url": "https://prehraj.to/merry-men-the-real-yoruba-demons-komedie-2018-1080p-5-1-x264-s-cztitulky-sten-ok/5d7f6532b9cbd",
+      "upload_title": "Merry Men The Real Yoruba Demons komedie 2018.1080p.5.1.x264.s.Cztitulky.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 516.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29784,
       "cr_slug": "velky-zavod-2018",
