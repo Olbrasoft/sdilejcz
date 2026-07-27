@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T14:08:29Z",
+  "last_updated": "2026-07-27T14:08:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -500415,19 +500415,30 @@
         "download_sec": 281.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 206,
       "cr_slug": "apollo-11",
       "title": "Apollo 11",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T14:04:17Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T14:08:35Z",
+      "first_failed_at": "2026-07-27T14:08:35Z",
+      "attempt_count": 1,
+      "upload_id": "601dc4fa852c2",
+      "source_url": "https://prehraj.to/apollo-11-2019-720p-bluray-x264-cz-tit-v-odkaze/601dc4fa852c2",
+      "upload_title": "Apollo.11.2019.720p.BluRay.x264. cz tit v odkaze",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 221.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30933,
       "cr_slug": "anime-je-tady",
