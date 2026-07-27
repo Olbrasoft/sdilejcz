@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T02:24:03Z",
+  "last_updated": "2026-07-27T02:24:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -486541,6 +486541,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 4597,
+      "cr_slug": "slet-carodejnic",
+      "title": "Slet čarodějnic",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T02:24:19Z",
+      "first_failed_at": "2026-07-27T02:24:19Z",
+      "attempt_count": 1,
+      "upload_id": "604a788a6c811",
+      "source_url": "https://prehraj.to/slet-carodejnic-akelarre-historicke-drama-spanelsko-2020-1080p-web-5-1-x264-spa-s-cztitulky-sten-ok/604a788a6c811",
+      "upload_title": "Slet čarodějnic - Akelarre historické drama Španělsko 2020.1080p.WEB-5.1.x264.SPA.s.Cztitulky.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 140.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -486563,16 +486584,6 @@
       "worker_id": "worker-3-30221840747",
       "run_id": "30221840747",
       "reserved_at": "2026-07-27T02:20:40Z"
-    },
-    {
-      "cr_film_id": 4597,
-      "cr_slug": "slet-carodejnic",
-      "title": "Slet čarodějnic",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T02:21:23Z"
     },
     {
       "cr_film_id": 19373,
