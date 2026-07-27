@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T16:14:40Z",
+  "last_updated": "2026-07-27T16:23:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -502359,6 +502359,27 @@
         "download_sec": 350.2,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 30423,
+      "cr_slug": "the-legacy-of-a-whitetail-deer-hunter",
+      "title": "The Legacy of a Whitetail Deer Hunter",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T16:23:23Z",
+      "first_failed_at": "2026-07-27T16:23:23Z",
+      "attempt_count": 1,
+      "upload_id": "794054da43db5a6b",
+      "source_url": "https://prehraj.to/the-legacy-of-a-whitetail-deer-hunter-2018-en-cz-tit/794054da43db5a6b",
+      "upload_title": "The Legacy of a Whitetail Deer Hunter (2018) EN CZ tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 488.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -502391,16 +502412,6 @@
       "worker_id": "worker-2-30274413700",
       "run_id": "30274413700",
       "reserved_at": "2026-07-27T16:12:58Z"
-    },
-    {
-      "cr_film_id": 30423,
-      "cr_slug": "the-legacy-of-a-whitetail-deer-hunter",
-      "title": "The Legacy of a Whitetail Deer Hunter",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T16:14:40Z"
     }
   ]
 }
