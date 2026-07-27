@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T10:51:21Z",
+  "last_updated": "2026-07-27T10:52:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -496606,19 +496606,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30828,
       "cr_slug": "miles-davis-zrod-cool-jazzu",
       "title": "Miles Davis – Zrod cool-jazzu",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T10:47:34Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T10:52:32Z",
+      "first_failed_at": "2026-07-27T10:52:32Z",
+      "attempt_count": 1,
+      "upload_id": "60dd976866e91",
+      "source_url": "https://prehraj.to/miles-davis-birth-of-the-cool-cz-titulky-mp4/60dd976866e91",
+      "upload_title": "Miles Davis Birth of the Cool - CZ TITULKY",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 261.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16465,
       "cr_slug": "mermaid-down",
