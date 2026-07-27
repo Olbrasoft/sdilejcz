@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T20:02:05Z",
+  "last_updated": "2026-07-27T20:09:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -503458,6 +503458,27 @@
         "download_sec": 322.5,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 30767,
+      "cr_slug": "sibel",
+      "title": "Sibel",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T20:09:29Z",
+      "first_failed_at": "2026-07-27T20:09:29Z",
+      "attempt_count": 1,
+      "upload_id": "5d2d4fc988a48",
+      "source_url": "https://prehraj.to/sibel-drama-2018-720p-2-0-x264-s-cztitulky-68-sten-ok/5d2d4fc988a48",
+      "upload_title": "Sibel drama 2018.720p.2.0.x264.s.Cztitulky.68%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 1168.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -503480,16 +503501,6 @@
       "worker_id": "worker-3-30274413700",
       "run_id": "30274413700",
       "reserved_at": "2026-07-27T19:38:29Z"
-    },
-    {
-      "cr_film_id": 30767,
-      "cr_slug": "sibel",
-      "title": "Sibel",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T19:49:26Z"
     }
   ]
 }
