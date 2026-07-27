@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T06:54:37Z",
+  "last_updated": "2026-07-27T06:55:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -491628,6 +491628,26 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 9232,
+      "cr_slug": "amulet",
+      "title": "Amulet",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-27T06:55:59Z",
+      "first_failed_at": "2026-07-27T06:55:59Z",
+      "attempt_count": 1,
+      "upload_id": "5f3d84b9bf8c4",
+      "source_url": "https://prehraj.to/amulet-2020-1080p-cz-titulky/5f3d84b9bf8c4",
+      "upload_title": "Amulet.2020.1080p. CZ TITULKY",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 72.6
+      }
     }
   ],
   "in_progress": [
@@ -491660,16 +491680,6 @@
       "worker_id": "worker-2-30231880100",
       "run_id": "30231880100",
       "reserved_at": "2026-07-27T06:53:48Z"
-    },
-    {
-      "cr_film_id": 9232,
-      "cr_slug": "amulet",
-      "title": "Amulet",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30231880100",
-      "run_id": "30231880100",
-      "reserved_at": "2026-07-27T06:54:37Z"
     }
   ]
 }
