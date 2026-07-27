@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T23:54:59Z",
+  "last_updated": "2026-07-27T23:56:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -491226,6 +491226,30 @@
         "upload_sec": 194.3,
         "total_sec": 266.9
       }
+    },
+    {
+      "cr_film_id": 29021,
+      "cr_slug": "brian-banks",
+      "title": "Brian Banks",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5fab481d3a5d9",
+      "source_url": "https://prehraj.to/brian-banks-2019-cz-sub-1080p-web-dl-h264-ac3/5fab481d3a5d9",
+      "source_title": "Brian.Banks.2019.cz.sub.1080p.WEB-DL.H264.AC3",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34737114/brian-banks-2018-cz-titulky.mp4",
+      "sdilej_name": "Brian Banks (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T23:56:00Z",
+      "status": "uploaded",
+      "size_bytes": 1554560377,
+      "worker_id": "worker-2-30300033771",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 81.4,
+        "upload_sec": 207.9,
+        "total_sec": 291.0
+      }
     }
   ],
   "failed_attempts": [
@@ -507539,40 +507563,9 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    },
-    {
-      "cr_film_id": 29021,
-      "cr_slug": "brian-banks",
-      "title": "Brian Banks",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T23:49:30Z",
-      "first_failed_at": "2026-07-27T23:49:30Z",
-      "attempt_count": 1,
-      "upload_id": "5dd6e5172c95e",
-      "source_url": "https://prehraj.to/brian-banks-2019-cz-titulky/5dd6e5172c95e",
-      "upload_title": "Brian Banks 2019 cz titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.3,
-        "download_sec": 95.3,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 29021,
-      "cr_slug": "brian-banks",
-      "title": "Brian Banks",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30300033771",
-      "run_id": "30300033771",
-      "reserved_at": "2026-07-27T23:51:06Z"
-    },
     {
       "cr_film_id": 29417,
       "cr_slug": "bloodline-lovesick-2",
