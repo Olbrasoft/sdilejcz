@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T15:27:41Z",
+  "last_updated": "2026-07-27T15:28:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -501732,19 +501732,30 @@
         "download_sec": 516.4,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29784,
       "cr_slug": "velky-zavod-2018",
       "title": "Velký závod",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T15:09:58Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T15:28:27Z",
+      "first_failed_at": "2026-07-27T15:28:27Z",
+      "attempt_count": 1,
+      "upload_id": "5d2f0e8649b2c",
+      "source_url": "https://prehraj.to/velky-zavod-racetime-2018-1080p-bluray-5-1-x264-s-cztitulky-sten-ok/5d2f0e8649b2c",
+      "upload_title": "Velký závod  - Racetime 2018.1080p.BluRay.5.1.x264.s.Cztitulky.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 1069.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20979,
       "cr_slug": "aga",
