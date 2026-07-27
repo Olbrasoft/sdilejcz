@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T01:44:35Z",
+  "last_updated": "2026-07-27T01:45:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -485636,6 +485636,26 @@
         "download_sec": 84.2,
         "upload_sec": 30.1
       }
+    },
+    {
+      "cr_film_id": 7874,
+      "cr_slug": "the-quarry",
+      "title": "The Quarry",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-27T01:45:06Z",
+      "first_failed_at": "2026-07-27T01:45:06Z",
+      "attempt_count": 1,
+      "upload_id": "64fff74b1e0e7",
+      "source_url": "https://prehraj.to/the-quarry-2020-1080p-web-dl-h264-ac3-mp4/64fff74b1e0e7",
+      "upload_title": "The.Quarry.2020.1080p.WEB-DL.H264.AC3",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 243.7
+      }
     }
   ],
   "in_progress": [
@@ -485648,16 +485668,6 @@
       "worker_id": "worker-4-30221840747",
       "run_id": "30221840747",
       "reserved_at": "2026-07-27T01:34:25Z"
-    },
-    {
-      "cr_film_id": 7874,
-      "cr_slug": "the-quarry",
-      "title": "The Quarry",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T01:40:55Z"
     },
     {
       "cr_film_id": 31117,
