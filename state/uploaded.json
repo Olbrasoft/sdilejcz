@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T07:03:55Z",
+  "last_updated": "2026-07-27T07:05:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -491837,6 +491837,26 @@
         "download_sec": 197.5,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 30812,
+      "cr_slug": "a-thousand-miles-behind",
+      "title": "A Thousand Miles Behind",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-27T07:05:02Z",
+      "first_failed_at": "2026-07-27T07:05:02Z",
+      "attempt_count": 1,
+      "upload_id": "5ee7bb5a69bb3",
+      "source_url": "https://prehraj.to/a-thousand-miles-behind-2019-cztitulky/5ee7bb5a69bb3",
+      "upload_title": "A Thousand Miles Behind (2019) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 88.8
+      }
     }
   ],
   "in_progress": [
@@ -491859,16 +491879,6 @@
       "worker_id": "worker-1-30231880100",
       "run_id": "30231880100",
       "reserved_at": "2026-07-27T07:02:42Z"
-    },
-    {
-      "cr_film_id": 30812,
-      "cr_slug": "a-thousand-miles-behind",
-      "title": "A Thousand Miles Behind",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30231880100",
-      "run_id": "30231880100",
-      "reserved_at": "2026-07-27T07:03:29Z"
     },
     {
       "cr_film_id": 30997,
