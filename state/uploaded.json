@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T16:51:16Z",
+  "last_updated": "2026-07-27T16:52:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -486354,6 +486354,30 @@
         "upload_sec": 77.1,
         "total_sec": 157.7
       }
+    },
+    {
+      "cr_film_id": 29572,
+      "cr_slug": "the-great-battle",
+      "title": "The Great Battle",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5bf72ed8d2c01",
+      "source_url": "https://prehraj.to/the-great-battle-historicky-2018-1080p-x264-s-sktitulky-69-sten-ok/5bf72ed8d2c01",
+      "source_title": "The Great Battle historický 2018.1080p.x264.s.Sktitulky.69%.STEN.ok",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34735545/the-great-battle-2018-cz-titulky.mp4",
+      "sdilej_name": "The Great Battle (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T16:52:52Z",
+      "status": "uploaded",
+      "size_bytes": 4126040088,
+      "worker_id": "worker-3-30274413700",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 186.7,
+        "upload_sec": 470.8,
+        "total_sec": 659.6
+      }
     }
   ],
   "failed_attempts": [
@@ -502652,27 +502676,6 @@
       }
     },
     {
-      "cr_film_id": 29572,
-      "cr_slug": "the-great-battle",
-      "title": "The Great Battle",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T16:38:10Z",
-      "first_failed_at": "2026-07-27T16:38:10Z",
-      "attempt_count": 1,
-      "upload_id": "5cb5bb4b5aea5",
-      "source_url": "https://prehraj.to/the-great-battle-historicke-drama-2018-1080p-h264-s-cztitulky-73-sten-ok/5cb5bb4b5aea5",
-      "upload_title": "The Great Battle historické drama 2018.1080p.H264.s.Cztitulky.73%.STEN.ok",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 232.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30693,
       "cr_slug": "the-escape-of-prisoner-614",
       "title": "The Escape of Prisoner 614",
@@ -502714,16 +502717,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 29572,
-      "cr_slug": "the-great-battle",
-      "title": "The Great Battle",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T16:41:49Z"
-    },
     {
       "cr_film_id": 15831,
       "cr_slug": "the-final-mission",
