@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T01:30:36Z",
+  "last_updated": "2026-07-27T01:30:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -469242,6 +469242,30 @@
         "upload_sec": 132.4,
         "total_sec": 193.6
       }
+    },
+    {
+      "cr_film_id": 10053,
+      "cr_slug": "vdova",
+      "title": "Vdova",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6215631b35c8d",
+      "source_url": "https://prehraj.to/vdova-2020-cztitulky/6215631b35c8d",
+      "source_title": "Vdova (2020) CZtitulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34731950/vdova-2020-cz-titulky.mp4",
+      "sdilej_name": "Vdova (2020) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T01:30:44Z",
+      "status": "uploaded",
+      "size_bytes": 1507644579,
+      "worker_id": "worker-2-30221840747",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 75.1,
+        "upload_sec": 180.3,
+        "total_sec": 257.3
+      }
     }
   ],
   "failed_attempts": [
@@ -485386,26 +485410,6 @@
       }
     },
     {
-      "cr_film_id": 10053,
-      "cr_slug": "vdova",
-      "title": "Vdova",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-07-27T00:55:54Z",
-      "first_failed_at": "2026-07-27T00:55:54Z",
-      "attempt_count": 1,
-      "upload_id": "6215631b35c8d",
-      "source_url": "https://prehraj.to/vdova-2020-cztitulky/6215631b35c8d",
-      "upload_title": "Vdova (2020) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 65.4
-      }
-    },
-    {
       "cr_film_id": 31112,
       "cr_slug": "the-real-right-stuff",
       "title": "The Real Right Stuff",
@@ -485428,16 +485432,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 10053,
-      "cr_slug": "vdova",
-      "title": "Vdova",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T01:26:25Z"
-    },
     {
       "cr_film_id": 9218,
       "cr_slug": "the-reckoning",
