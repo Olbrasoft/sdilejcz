@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T20:13:45Z",
+  "last_updated": "2026-07-27T20:15:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -487146,6 +487146,30 @@
         "upload_sec": 177.0,
         "total_sec": 2737.5
       }
+    },
+    {
+      "cr_film_id": 5544,
+      "cr_slug": "skif",
+      "title": "Skif",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5f6312c16faf1",
+      "source_url": "https://prehraj.to/skif-akcni-2018-cz-titulky/5f6312c16faf1",
+      "source_title": "Skif-(akcni)-(2018)--cz-titulky",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34736650/skif-2018-cz-titulky.mp4",
+      "sdilej_name": "Skif (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T20:15:39Z",
+      "status": "uploaded",
+      "size_bytes": 1273697365,
+      "worker_id": "worker-3-30274413700",
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 2080.1,
+        "upload_sec": 144.2,
+        "total_sec": 2226.3
+      }
     }
   ],
   "failed_attempts": [
@@ -503505,16 +503529,5 @@
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 5544,
-      "cr_slug": "skif",
-      "title": "Skif",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T19:38:29Z"
-    }
-  ]
+  "in_progress": []
 }
