@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T21:54:54Z",
+  "last_updated": "2026-07-27T21:55:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -487962,6 +487962,30 @@
         "upload_sec": 39.9,
         "total_sec": 58.5
       }
+    },
+    {
+      "cr_film_id": 30687,
+      "cr_slug": "rodokmen-krve",
+      "title": "Rodokmen krve",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5efc486778bb6",
+      "source_url": "https://prehraj.to/rodokmen-krve-drama-spanelsko-2018-480p-5-1-x264-s-cztitulky-71-sten-ok/5efc486778bb6",
+      "source_title": "Rodokmen krve drama Španělsko 2018.480p.5.1.x264.s.Cztitulky.71%.STEN.ok",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34736868/rodokmen-krve-2018-cz-titulky.mp4",
+      "sdilej_name": "Rodokmen krve (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T21:54:53Z",
+      "status": "uploaded",
+      "size_bytes": 679604946,
+      "worker_id": "worker-1-30300033771",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 670.7,
+        "upload_sec": 64.7,
+        "total_sec": 736.7
+      }
     }
   ],
   "failed_attempts": [
@@ -504258,27 +504282,6 @@
       }
     },
     {
-      "cr_film_id": 30687,
-      "cr_slug": "rodokmen-krve",
-      "title": "Rodokmen krve",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T21:10:40Z",
-      "first_failed_at": "2026-07-27T21:10:40Z",
-      "attempt_count": 1,
-      "upload_id": "5efc486778bb6",
-      "source_url": "https://prehraj.to/rodokmen-krve-drama-spanelsko-2018-480p-5-1-x264-s-cztitulky-71-sten-ok/5efc486778bb6",
-      "upload_title": "Rodokmen krve drama Španělsko 2018.480p.5.1.x264.s.Cztitulky.71%.STEN.ok",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 596.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5545,
       "cr_slug": "pitbull-ostatni-pies",
       "title": "Pitbull. Ostatni pies",
@@ -504301,16 +504304,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 30687,
-      "cr_slug": "rodokmen-krve",
-      "title": "Rodokmen krve",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30300033771",
-      "run_id": "30300033771",
-      "reserved_at": "2026-07-27T21:42:33Z"
-    },
     {
       "cr_film_id": 20835,
       "cr_slug": "padmaavat",
