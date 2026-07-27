@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T09:51:18Z",
+  "last_updated": "2026-07-27T09:52:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -495403,6 +495403,27 @@
         "download_sec": 55.6,
         "upload_sec": 0.0
       }
+    },
+    {
+      "cr_film_id": 29058,
+      "cr_slug": "pod-vlivem",
+      "title": "Pod vlivem",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T09:52:28Z",
+      "first_failed_at": "2026-07-27T09:52:28Z",
+      "attempt_count": 1,
+      "upload_id": "5da4c120e6de5",
+      "source_url": "https://prehraj.to/the-influence-pod-vlivem-2019-cz-titulky/5da4c120e6de5",
+      "upload_title": "The Influence - Pod vlivem 2019 cz titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 80.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -495425,16 +495446,6 @@
       "worker_id": "worker-3-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T09:50:02Z"
-    },
-    {
-      "cr_film_id": 29058,
-      "cr_slug": "pod-vlivem",
-      "title": "Pod vlivem",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T09:50:24Z"
     },
     {
       "cr_film_id": 30841,
