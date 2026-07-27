@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T17:17:29Z",
+  "last_updated": "2026-07-27T17:20:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -502903,19 +502903,30 @@
         "download_sec": 181.5,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30692,
       "cr_slug": "the-bombing-of-wall-street",
       "title": "The Bombing of Wall Street",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T17:05:48Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T17:20:37Z",
+      "first_failed_at": "2026-07-27T17:20:37Z",
+      "attempt_count": 1,
+      "upload_id": "28a99f0c4d02d9be",
+      "source_url": "https://prehraj.to/the-bombing-of-wall-street-2018-en-cz-tit/28a99f0c4d02d9be",
+      "upload_title": "The Bombing of Wall Street (2018) EN CZ tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 851.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7653,
       "cr_slug": "the-dark",
