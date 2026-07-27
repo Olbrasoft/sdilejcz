@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T01:34:25Z",
+  "last_updated": "2026-07-27T01:34:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -485537,19 +485537,30 @@
         "download_sec": 57.0,
         "upload_sec": 30.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31032,
       "cr_slug": "the-nine-lives-of-ozzy-osbourne",
       "title": "The Nine Lives of Ozzy Osbourne",
       "year": 2020,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T01:31:59Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T01:34:30Z",
+      "first_failed_at": "2026-07-27T01:34:30Z",
+      "attempt_count": 1,
+      "upload_id": "60046881bfa4d",
+      "source_url": "https://prehraj.to/the-nine-lives-of-ozzy-osbourne-2020-1080p-hdtv-h264-cz-tit-mp4/60046881bfa4d",
+      "upload_title": "The.Nine.Lives.of.Ozzy.Osbourne.2020.1080p.HDTV.H264 CZ tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 111.1,
+        "upload_sec": 30.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7874,
       "cr_slug": "the-quarry",
