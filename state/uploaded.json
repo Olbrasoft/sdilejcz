@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T01:33:50Z",
+  "last_updated": "2026-07-27T01:34:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -485516,6 +485516,27 @@
         "download_sec": 153.4,
         "upload_sec": 30.1
       }
+    },
+    {
+      "cr_film_id": 31499,
+      "cr_slug": "the-night",
+      "title": "The Night",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T01:34:22Z",
+      "first_failed_at": "2026-07-27T01:34:22Z",
+      "attempt_count": 1,
+      "upload_id": "606a6c0f88fd0",
+      "source_url": "https://prehraj.to/night-hift-police-2020-1080p-cz-sub-bluray-h264-mp4/606a6c0f88fd0",
+      "upload_title": "Night.hift_Police.2020.1080p.cz.sub.BluRay.H264",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 57.0,
+        "upload_sec": 30.2
+      }
     }
   ],
   "in_progress": [
@@ -485528,16 +485549,6 @@
       "worker_id": "worker-3-30221840747",
       "run_id": "30221840747",
       "reserved_at": "2026-07-27T01:31:59Z"
-    },
-    {
-      "cr_film_id": 31499,
-      "cr_slug": "the-night",
-      "title": "The Night",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T01:32:49Z"
     },
     {
       "cr_film_id": 7874,
