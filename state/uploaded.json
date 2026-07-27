@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T19:26:45Z",
+  "last_updated": "2026-07-27T19:27:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -487002,6 +487002,30 @@
         "upload_sec": 75.4,
         "total_sec": 1191.5
       }
+    },
+    {
+      "cr_film_id": 19123,
+      "cr_slug": "the-angel",
+      "title": "The Angel",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5f31be450bf02",
+      "source_url": "https://prehraj.to/the-angel-2018-cztitulky/5f31be450bf02",
+      "source_title": "The Angel (2018) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34736536/the-angel-2018-cz-titulky.mp4",
+      "sdilej_name": "The Angel (2018) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T19:27:52Z",
+      "status": "uploaded",
+      "size_bytes": 2004546337,
+      "worker_id": "worker-2-30274413700",
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 3378.7,
+        "upload_sec": 228.9,
+        "total_sec": 3609.6
+      }
     }
   ],
   "failed_attempts": [
@@ -503298,27 +503322,6 @@
       }
     },
     {
-      "cr_film_id": 19123,
-      "cr_slug": "the-angel",
-      "title": "The Angel",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T18:24:28Z",
-      "first_failed_at": "2026-07-27T18:24:28Z",
-      "attempt_count": 1,
-      "upload_id": "5f370e68a6b2f",
-      "source_url": "https://prehraj.to/the-angel-drama-thriller-2018-1080p-5-1-x264-s-cztitulky-66-sten-ok/5f370e68a6b2f",
-      "upload_title": "The Angel drama thriller 2018.1080p.5.1.x264.s.Cztitulky.66%.STEN.ok",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.9,
-        "download_sec": 3297.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 33396,
       "cr_slug": "take-the-ball-pass-the-ball",
       "title": "Take the Ball, Pass the Ball",
@@ -503362,16 +503365,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 19123,
-      "cr_slug": "the-angel",
-      "title": "The Angel",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T18:27:39Z"
-    },
     {
       "cr_film_id": 30624,
       "cr_slug": "spare-room",
