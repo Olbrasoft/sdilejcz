@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T10:29:34Z",
+  "last_updated": "2026-07-27T10:29:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -479898,6 +479898,30 @@
         "upload_sec": 297.0,
         "total_sec": 429.9
       }
+    },
+    {
+      "cr_film_id": 30841,
+      "cr_slug": "plaz-paradise",
+      "title": "Pláž Paradise",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "2b5e011ffad09eca",
+      "source_url": "https://prehraj.to/plaz-paradise-2019-fr-cz-tit-mp4/2b5e011ffad09eca",
+      "source_title": "Pláž Paradise",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34734056/plaz-paradise-2019-cz-titulky.mp4",
+      "sdilej_name": "Pláž Paradise (2019) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T10:29:36Z",
+      "status": "uploaded",
+      "size_bytes": 1950717811,
+      "worker_id": "worker-4-30248064109",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 109.8,
+        "upload_sec": 263.7,
+        "total_sec": 375.4
+      }
     }
   ],
   "failed_attempts": [
@@ -496137,27 +496161,6 @@
       }
     },
     {
-      "cr_film_id": 30841,
-      "cr_slug": "plaz-paradise",
-      "title": "Pláž Paradise",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T09:53:03Z",
-      "first_failed_at": "2026-07-27T09:53:03Z",
-      "attempt_count": 1,
-      "upload_id": "2b5e011ffad09eca",
-      "source_url": "https://prehraj.to/plaz-paradise-2019-fr-cz-tit-mp4/2b5e011ffad09eca",
-      "upload_title": "Pláž Paradise",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 69.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 19338,
       "cr_slug": "nevrland",
       "title": "Nevrland",
@@ -496179,16 +496182,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 30841,
-      "cr_slug": "plaz-paradise",
-      "title": "Pláž Paradise",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T10:23:18Z"
-    },
     {
       "cr_film_id": 30780,
       "cr_slug": "nevidani",
