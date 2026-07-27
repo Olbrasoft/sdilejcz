@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T12:32:32Z",
+  "last_updated": "2026-07-27T12:35:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -498588,6 +498588,27 @@
         "download_sec": 109.7,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 32167,
+      "cr_slug": "elisa-a-marcela",
+      "title": "Elisa a Marcela",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T12:35:28Z",
+      "first_failed_at": "2026-07-27T12:35:28Z",
+      "attempt_count": 1,
+      "upload_id": "5cfbc24c24cbe",
+      "source_url": "https://prehraj.to/elisa-and-marcela-romanticky-2019-1080p-x264-s-cztitulky-46-sten-ok/5cfbc24c24cbe",
+      "upload_title": "Elisa and Marcela romantický 2019.1080p.x264.s.Cztitulky.46%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 141.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -498620,16 +498641,6 @@
       "worker_id": "worker-3-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T12:32:15Z"
-    },
-    {
-      "cr_film_id": 32167,
-      "cr_slug": "elisa-a-marcela",
-      "title": "Elisa a Marcela",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T12:32:32Z"
     }
   ]
 }
