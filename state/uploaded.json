@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T10:42:26Z",
+  "last_updated": "2026-07-27T10:42:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -496414,6 +496414,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 29822,
+      "cr_slug": "mosul",
+      "title": "Mosul",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T10:42:59Z",
+      "first_failed_at": "2026-07-27T10:42:59Z",
+      "attempt_count": 1,
+      "upload_id": "5fc2cc477614f",
+      "source_url": "https://prehraj.to/mosul-akcni-2019-cz-titulky/5fc2cc477614f",
+      "upload_title": "Mosul-(akcni)-(2019)--cz-titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 127.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -496426,16 +496447,6 @@
       "worker_id": "worker-2-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T10:31:14Z"
-    },
-    {
-      "cr_film_id": 29822,
-      "cr_slug": "mosul",
-      "title": "Mosul",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T10:40:17Z"
     },
     {
       "cr_film_id": 30893,
