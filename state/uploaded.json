@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T00:36:07Z",
+  "last_updated": "2026-07-27T00:36:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -468162,6 +468162,30 @@
         "upload_sec": 255.7,
         "total_sec": 358.7
       }
+    },
+    {
+      "cr_film_id": 3352,
+      "cr_slug": "zase-vanoce",
+      "title": "Zase Vánoce",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5fcb9463b25c1",
+      "source_url": "https://prehraj.to/zase-vanoce-2020-cztitulky/5fcb9463b25c1",
+      "source_title": "Zase Vánoce 2020 CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34731809/zase-vanoce-2020-cz-titulky.mp4",
+      "sdilej_name": "Zase Vánoce (2020) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T00:36:45Z",
+      "status": "uploaded",
+      "size_bytes": 2178916158,
+      "worker_id": "worker-2-30221840747",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 98.5,
+        "upload_sec": 255.9,
+        "total_sec": 356.1
+      }
     }
   ],
   "failed_attempts": [
@@ -484304,40 +484328,9 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    },
-    {
-      "cr_film_id": 3352,
-      "cr_slug": "zase-vanoce",
-      "title": "Zase Vánoce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T00:30:31Z",
-      "first_failed_at": "2026-07-27T00:30:31Z",
-      "attempt_count": 1,
-      "upload_id": "5fca931762d7d",
-      "source_url": "https://prehraj.to/zase-vanoce-komedie-brazilie-2020-1080p-5-1-x264-por-s-cztitulky-58-sten-ok/5fca931762d7d",
-      "upload_title": "Zase Vánoce komedie Brazílie 2020.1080p.5.1.x264.POR.s.Cztitulky.58%.STEN.ok",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 140.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 3352,
-      "cr_slug": "zase-vanoce",
-      "title": "Zase Vánoce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T00:30:46Z"
-    },
     {
       "cr_film_id": 26260,
       "cr_slug": "your-name-engraved-herein",
