@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T10:28:08Z",
+  "last_updated": "2026-07-27T10:29:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -496156,6 +496156,26 @@
         "download_sec": 69.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 19338,
+      "cr_slug": "nevrland",
+      "title": "Nevrland",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-27T10:29:27Z",
+      "first_failed_at": "2026-07-27T10:29:27Z",
+      "attempt_count": 1,
+      "upload_id": "600205ec6d1c4",
+      "source_url": "https://prehraj.to/nevrland-2019-cztitulky/600205ec6d1c4",
+      "upload_title": "Nevrland (2019) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 73.5
+      }
     }
   ],
   "in_progress": [
@@ -496188,16 +496208,6 @@
       "worker_id": "worker-3-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T10:27:57Z"
-    },
-    {
-      "cr_film_id": 19338,
-      "cr_slug": "nevrland",
-      "title": "Nevrland",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T10:28:08Z"
     }
   ]
 }
