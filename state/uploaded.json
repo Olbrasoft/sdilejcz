@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T17:32:02Z",
+  "last_updated": "2026-07-27T17:33:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -502999,6 +502999,27 @@
         "download_sec": 851.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 35202,
+      "cr_slug": "tau",
+      "title": "Tau",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T17:33:49Z",
+      "first_failed_at": "2026-07-27T17:33:49Z",
+      "attempt_count": 1,
+      "upload_id": "5cb5bac476f2e",
+      "source_url": "https://prehraj.to/tau-scifi-thriller-2018-1080p-x264-s-cztitulky-54-sten-ok/5cb5bac476f2e",
+      "upload_title": "Tau scifi thriller 2018.1080p.x264.s.Cztitulky.54%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 72.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -503031,16 +503052,6 @@
       "worker_id": "worker-2-30274413700",
       "run_id": "30274413700",
       "reserved_at": "2026-07-27T17:29:18Z"
-    },
-    {
-      "cr_film_id": 35202,
-      "cr_slug": "tau",
-      "title": "Tau",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T17:32:02Z"
     }
   ]
 }
