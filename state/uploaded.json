@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T16:53:42Z",
+  "last_updated": "2026-07-27T16:56:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -502738,6 +502738,27 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 32098,
+      "cr_slug": "the-convent",
+      "title": "The Convent",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T16:56:34Z",
+      "first_failed_at": "2026-07-27T16:56:34Z",
+      "attempt_count": 1,
+      "upload_id": "5d09bac2df8ef",
+      "source_url": "https://prehraj.to/the-convent-heretiks-horor-2018-1080p-x264-5-1-s-cz-titulky-40-sten-ok/5d09bac2df8ef",
+      "upload_title": "The Convent Heretiks horor 2018.1080p.x264.5.1.s.Cz titulky.40%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 169.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -502760,16 +502781,6 @@
       "worker_id": "worker-1-30274413700",
       "run_id": "30274413700",
       "reserved_at": "2026-07-27T16:51:16Z"
-    },
-    {
-      "cr_film_id": 32098,
-      "cr_slug": "the-convent",
-      "title": "The Convent",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30274413700",
-      "run_id": "30274413700",
-      "reserved_at": "2026-07-27T16:53:02Z"
     },
     {
       "cr_film_id": 30423,
