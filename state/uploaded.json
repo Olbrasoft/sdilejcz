@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T11:46:35Z",
+  "last_updated": "2026-07-27T11:48:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -497700,6 +497700,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 30960,
+      "cr_slug": "inherit-the-viper",
+      "title": "Inherit the Viper",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-27T11:48:01Z",
+      "first_failed_at": "2026-07-27T11:48:01Z",
+      "attempt_count": 1,
+      "upload_id": "5e398d41b75ee",
+      "source_url": "https://prehraj.to/inherit-the-viper-krimi-drama-thriller-2019-720p-800mb-x264-s-cztitulky-sten-ok/5e398d41b75ee",
+      "upload_title": "Inherit The Viper krimi drama thriller 2019.720p.800MB.x264.s.Cztitulky.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 43.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -497732,16 +497753,6 @@
       "worker_id": "worker-3-30248064109",
       "run_id": "30248064109",
       "reserved_at": "2026-07-27T11:46:06Z"
-    },
-    {
-      "cr_film_id": 30960,
-      "cr_slug": "inherit-the-viper",
-      "title": "Inherit the Viper",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T11:46:35Z"
     }
   ]
 }
