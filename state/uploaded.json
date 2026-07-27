@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T01:46:53Z",
+  "last_updated": "2026-07-27T01:48:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -485686,19 +485686,29 @@
         "resolve_sec": 1.5,
         "download_sec": 243.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17348,
       "cr_slug": "the-f-k-it-list",
       "title": "The F**k-It List",
       "year": 2020,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30221840747",
-      "run_id": "30221840747",
-      "reserved_at": "2026-07-27T01:45:12Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-27T01:48:35Z",
+      "first_failed_at": "2026-07-27T01:48:35Z",
+      "attempt_count": 1,
+      "upload_id": "60491233cebac",
+      "source_url": "https://prehraj.to/the-f-k-it-list-the-f-k-it-fuck-it-list-2019-1080p-cz-titulky-komedie/60491233cebac",
+      "upload_title": "The F++k-It List (The f__k-it fuck-it list 2019 1080p CZ titulky Komedie",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 195.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36845,
       "cr_slug": "the-end-of-the-storm",
