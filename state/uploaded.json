@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T10:05:31Z",
+  "last_updated": "2026-07-27T10:06:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -479370,6 +479370,30 @@
         "upload_sec": 131.0,
         "total_sec": 192.9
       }
+    },
+    {
+      "cr_film_id": 31025,
+      "cr_slug": "rozhodujici-utkani",
+      "title": "Rozhodující utkání",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "2c957ef88d3593e4",
+      "source_url": "https://prehraj.to/rozhodujici-utkani-2020-cz-titulky/2c957ef88d3593e4",
+      "source_title": "Rozhodující utkání (2020) CZ titulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34733976/rozhodujici-utkani-2019-cz-titulky.mp4",
+      "sdilej_name": "Rozhodující utkání (2019) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T10:06:41Z",
+      "status": "uploaded",
+      "size_bytes": 2087836416,
+      "worker_id": "worker-3-30248064109",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 85.2,
+        "upload_sec": 239.7,
+        "total_sec": 326.5
+      }
     }
   ],
   "failed_attempts": [
@@ -495609,27 +495633,6 @@
       }
     },
     {
-      "cr_film_id": 31025,
-      "cr_slug": "rozhodujici-utkani",
-      "title": "Rozhodující utkání",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T09:30:41Z",
-      "first_failed_at": "2026-07-27T09:30:41Z",
-      "attempt_count": 1,
-      "upload_id": "2c957ef88d3593e4",
-      "source_url": "https://prehraj.to/rozhodujici-utkani-2020-cz-titulky/2c957ef88d3593e4",
-      "upload_title": "Rozhodující utkání (2020) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 130.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 35280,
       "cr_slug": "psychobitch",
       "title": "Psychobitch",
@@ -495715,16 +495718,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 31025,
-      "cr_slug": "rozhodujici-utkani",
-      "title": "Rozhodující utkání",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T10:01:11Z"
-    },
     {
       "cr_film_id": 19339,
       "cr_slug": "pamet-zrod-vetrelce",
