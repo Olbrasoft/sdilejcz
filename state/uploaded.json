@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-27T14:28:52Z",
+  "last_updated": "2026-07-27T14:31:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -484434,6 +484434,30 @@
         "upload_sec": 147.8,
         "total_sec": 270.4
       }
+    },
+    {
+      "cr_film_id": 19599,
+      "cr_slug": "basket-v-san-quentin",
+      "title": "Basket v San Quentin",
+      "year": 2019,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6000d87a72381",
+      "source_url": "https://prehraj.to/q-ball-2019-cztitulky/6000d87a72381",
+      "source_title": "Q Ball (2019) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34734897/basket-v-san-quentin-2019-cz-titulky.mp4",
+      "sdilej_name": "Basket v San Quentin (2019) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-27T14:31:17Z",
+      "status": "uploaded",
+      "size_bytes": 2094364569,
+      "worker_id": "worker-4-30248064109",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 202.5,
+        "upload_sec": 284.0,
+        "total_sec": 489.5
+      }
     }
   ],
   "failed_attempts": [
@@ -500711,27 +500735,6 @@
       }
     },
     {
-      "cr_film_id": 19599,
-      "cr_slug": "basket-v-san-quentin",
-      "title": "Basket v San Quentin",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-27T13:52:43Z",
-      "first_failed_at": "2026-07-27T13:52:43Z",
-      "attempt_count": 1,
-      "upload_id": "6000d87a72381",
-      "source_url": "https://prehraj.to/q-ball-2019-cztitulky/6000d87a72381",
-      "upload_title": "Q Ball (2019) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.0,
-        "download_sec": 281.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30942,
       "cr_slug": "americke-dite",
       "title": "Americké dítě",
@@ -500775,16 +500778,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 19599,
-      "cr_slug": "basket-v-san-quentin",
-      "title": "Basket v San Quentin",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30248064109",
-      "run_id": "30248064109",
-      "reserved_at": "2026-07-27T14:22:59Z"
-    },
     {
       "cr_film_id": 33500,
       "cr_slug": "37-sekund",
