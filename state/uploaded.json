@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T01:32:36Z",
+  "last_updated": "2026-07-28T01:32:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -510464,19 +510464,30 @@
         "download_sec": 40.9,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30493,
       "cr_slug": "rangoon",
       "title": "Rangoon",
       "year": 2017,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30300033771",
-      "run_id": "30300033771",
-      "reserved_at": "2026-07-28T01:31:11Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T01:32:44Z",
+      "first_failed_at": "2026-07-28T01:32:44Z",
+      "attempt_count": 1,
+      "upload_id": "597f69bb51870",
+      "source_url": "https://prehraj.to/rangoon-2017-cztit-v-obraze-720p/597f69bb51870",
+      "upload_title": "Rangoon (2017)CZtit  V OBRAZE 720p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 57.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20918,
       "cr_slug": "qi-man-dun-jia",
