@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T17:44:53Z",
+  "last_updated": "2026-07-28T17:46:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -521754,6 +521754,30 @@
         "upload_sec": 82.0,
         "total_sec": 115.4
       }
+    },
+    {
+      "cr_film_id": 32549,
+      "cr_slug": "film-1989",
+      "title": "Пиры Валтасара, или Ночь со Сталиным",
+      "year": 1989,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "607b4a77c4e99",
+      "source_url": "https://prehraj.to/baltazarova-hostina-aneb-noc-se-stalinem-1989-ru-cz-tit/607b4a77c4e99",
+      "source_title": "Baltazarova hostina aneb Noc se Stalinem _ Пиры Валтасара, или Ночь со Сталиным 1989, RU - CZ tit",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34752997/----------1989-cz-titulky.mp4",
+      "sdilej_name": "Пиры Валтасара, или Ночь со Сталиным (1989) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T17:46:34Z",
+      "status": "uploaded",
+      "size_bytes": 582667537,
+      "worker_id": "worker-3-30356708945",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 27.1,
+        "upload_sec": 69.6,
+        "total_sec": 98.0
+      }
     }
   ],
   "failed_attempts": [
@@ -538086,27 +538110,6 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    },
-    {
-      "cr_film_id": 32549,
-      "cr_slug": "film-1989",
-      "title": "Пиры Валтасара, или Ночь со Сталиным",
-      "year": 1989,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T17:44:18Z",
-      "first_failed_at": "2026-07-28T17:44:18Z",
-      "attempt_count": 1,
-      "upload_id": "5851554905e76",
-      "source_url": "https://prehraj.to/baltazarova-hostina-aneb-noc-se-stalinem-1989-cz-tit/5851554905e76",
-      "upload_title": "Baltazarova-hostina-aneb-Noc-se-Stalinem-_-Пиры-Валтасара,-или-Ночь-со-Сталиным-1989,-CZ-tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 42.1,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -538139,16 +538142,6 @@
       "worker_id": "worker-4-30356708945",
       "run_id": "30356708945",
       "reserved_at": "2026-07-28T17:44:22Z"
-    },
-    {
-      "cr_film_id": 32549,
-      "cr_slug": "film-1989",
-      "title": "Пиры Валтасара, или Ночь со Сталиным",
-      "year": 1989,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30356708945",
-      "run_id": "30356708945",
-      "reserved_at": "2026-07-28T17:44:53Z"
     }
   ]
 }
