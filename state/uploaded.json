@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T21:26:30Z",
+  "last_updated": "2026-07-28T21:27:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -539567,6 +539567,27 @@
         "download_sec": 35.6,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 32749,
+      "cr_slug": "tarka-the-otter",
+      "title": "Tarka the Otter",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T21:27:46Z",
+      "first_failed_at": "2026-07-28T21:27:46Z",
+      "attempt_count": 1,
+      "upload_id": "586c82a3a6a85",
+      "source_url": "https://prehraj.to/vydra-tarka-tarka-the-otter-1979-ru-cz-tit/586c82a3a6a85",
+      "upload_title": "Vydra-Tarka-_-Tarka-the-Otter-1979,-RU---CZ-tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 959.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -539579,16 +539600,6 @@
       "worker_id": "worker-1-30356708945",
       "run_id": "30356708945",
       "reserved_at": "2026-07-28T17:44:02Z"
-    },
-    {
-      "cr_film_id": 32749,
-      "cr_slug": "tarka-the-otter",
-      "title": "Tarka the Otter",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T21:11:07Z"
     },
     {
       "cr_film_id": 17636,
