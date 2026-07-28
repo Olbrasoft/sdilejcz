@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T22:15:44Z",
+  "last_updated": "2026-07-28T22:15:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -540595,6 +540595,27 @@
         "resolve_sec": 1.1,
         "download_sec": 92.1
       }
+    },
+    {
+      "cr_film_id": 22118,
+      "cr_slug": "super-fly",
+      "title": "Super Fly",
+      "year": 1972,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T22:15:51Z",
+      "first_failed_at": "2026-07-28T22:15:51Z",
+      "attempt_count": 1,
+      "upload_id": "5f0628d381c11",
+      "source_url": "https://prehraj.to/super-fly-1972-cztitulky/5f0628d381c11",
+      "upload_title": "Super Fly (1972) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 217.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -540607,16 +540628,6 @@
       "worker_id": "worker-1-30356708945",
       "run_id": "30356708945",
       "reserved_at": "2026-07-28T17:44:02Z"
-    },
-    {
-      "cr_film_id": 22118,
-      "cr_slug": "super-fly",
-      "title": "Super Fly",
-      "year": 1972,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T22:11:28Z"
     },
     {
       "cr_film_id": 11086,
