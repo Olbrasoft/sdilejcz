@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T16:21:00Z",
+  "last_updated": "2026-07-28T16:21:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -520098,6 +520098,30 @@
         "upload_sec": 58.3,
         "total_sec": 225.7
       }
+    },
+    {
+      "cr_film_id": 25513,
+      "cr_slug": "uder-2",
+      "title": "Úder 2",
+      "year": 2006,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5f528cadcffc7",
+      "source_url": "https://prehraj.to/dhoom-2-2006-cztitulky/5f528cadcffc7",
+      "source_title": "Dhoom 2 (2006) CZtitulky",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34751522/uder-2-2006-cz-titulky.mp4",
+      "sdilej_name": "Úder 2 (2006) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T16:21:03Z",
+      "status": "uploaded",
+      "size_bytes": 2619363364,
+      "worker_id": "worker-4-30356708945",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 288.0,
+        "upload_sec": 277.8,
+        "total_sec": 567.4
+      }
     }
   ],
   "failed_attempts": [
@@ -536413,27 +536437,6 @@
       }
     },
     {
-      "cr_film_id": 25513,
-      "cr_slug": "uder-2",
-      "title": "Úder 2",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: Final upload response did not include url: {'name': 'Úder 2 (2006) CZ Titulky (147).mp4', 'size': 20516, 'type': 'video/mp4'}",
-      "failed_at": "2026-07-28T15:41:10Z",
-      "first_failed_at": "2026-07-28T14:57:06Z",
-      "attempt_count": 2,
-      "upload_id": "5f528cadcffc7",
-      "source_url": "https://prehraj.to/dhoom-2-2006-cztitulky/5f528cadcffc7",
-      "upload_title": "Dhoom 2 (2006) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 355.1,
-        "upload_sec": 366.5
-      }
-    },
-    {
       "cr_film_id": 3972,
       "cr_slug": "napoleon",
       "title": "Monsieur N.",
@@ -536477,16 +536480,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 25513,
-      "cr_slug": "uder-2",
-      "title": "Úder 2",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30356708945",
-      "run_id": "30356708945",
-      "reserved_at": "2026-07-28T16:11:33Z"
-    },
     {
       "cr_film_id": 3972,
       "cr_slug": "napoleon",
