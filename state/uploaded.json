@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T21:19:21Z",
+  "last_updated": "2026-07-28T21:22:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -523074,6 +523074,30 @@
         "upload_sec": 312.3,
         "total_sec": 497.3
       }
+    },
+    {
+      "cr_film_id": 22748,
+      "cr_slug": "pariz-texas",
+      "title": "Paříž, Texas",
+      "year": 1984,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "60512b82e6abc",
+      "source_url": "https://prehraj.to/paris-texas-1984-cztitulky/60512b82e6abc",
+      "source_title": "Paris, Texas (1984) CZtitulky",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34755770/pariz-texas-1984-cz-titulky.mp4",
+      "sdilej_name": "Paříž, Texas (1984) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T21:22:52Z",
+      "status": "uploaded",
+      "size_bytes": 5038010829,
+      "worker_id": "worker-2-30386206167",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 2826.3,
+        "upload_sec": 638.8,
+        "total_sec": 3467.4
+      }
     }
   ],
   "failed_attempts": [
@@ -539426,26 +539450,6 @@
         "resolve_sec": 1.2,
         "download_sec": 2.2
       }
-    },
-    {
-      "cr_film_id": 22748,
-      "cr_slug": "pariz-texas",
-      "title": "Paříž, Texas",
-      "year": 1984,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3599602 milliseconds with 2846260809 out of 5038010829 bytes received",
-      "failed_at": "2026-07-28T20:22:52Z",
-      "first_failed_at": "2026-07-28T20:22:52Z",
-      "attempt_count": 1,
-      "upload_id": "60512f2985d4a",
-      "source_url": "https://prehraj.to/pariz-texas-1984-cztitulky/60512f2985d4a",
-      "upload_title": "Paříž, Texas (1984) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 3602.4
-      }
     }
   ],
   "in_progress": [
@@ -539458,16 +539462,6 @@
       "worker_id": "worker-1-30356708945",
       "run_id": "30356708945",
       "reserved_at": "2026-07-28T17:44:02Z"
-    },
-    {
-      "cr_film_id": 22748,
-      "cr_slug": "pariz-texas",
-      "title": "Paříž, Texas",
-      "year": 1984,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T20:25:01Z"
     },
     {
       "cr_film_id": 11309,
