@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T07:15:25Z",
+  "last_updated": "2026-07-28T07:16:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -521072,6 +521072,27 @@
         "download_sec": 15.7,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 20605,
+      "cr_slug": "drishyam",
+      "title": "Drishyam",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T07:16:06Z",
+      "first_failed_at": "2026-07-28T07:16:06Z",
+      "attempt_count": 1,
+      "upload_id": "577550e865b38",
+      "source_url": "https://prehraj.to/drishyam-2015-cz-titulky/577550e865b38",
+      "upload_title": "Drishyam (2015) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 113.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -521094,16 +521115,6 @@
       "worker_id": "worker-2-30333835450",
       "run_id": "30333835450",
       "reserved_at": "2026-07-28T07:13:11Z"
-    },
-    {
-      "cr_film_id": 20605,
-      "cr_slug": "drishyam",
-      "title": "Drishyam",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T07:13:36Z"
     },
     {
       "cr_film_id": 20548,
