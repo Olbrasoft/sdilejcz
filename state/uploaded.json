@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T10:32:57Z",
+  "last_updated": "2026-07-28T10:34:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -510810,6 +510810,30 @@
         "upload_sec": 76.6,
         "total_sec": 106.3
       }
+    },
+    {
+      "cr_film_id": 28520,
+      "cr_slug": "eastern-boys",
+      "title": "Eastern Boys",
+      "year": 2013,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "55c652126b7fe",
+      "source_url": "https://prehraj.to/eastern-boys-2013-limited-french-dvdrip-xvid-ac3-utt/55c652126b7fe",
+      "source_title": "Eastern.Boys.2013.Limited.French.DVDRip.XviD.AC3-UTT",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34741020/eastern-boys-2013-cz-titulky.mp4",
+      "sdilej_name": "Eastern Boys (2013) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T10:34:12Z",
+      "status": "uploaded",
+      "size_bytes": 426122638,
+      "worker_id": "worker-2-30333835450",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 19.3,
+        "upload_sec": 52.2,
+        "total_sec": 72.7
+      }
     }
   ],
   "failed_attempts": [
@@ -527123,27 +527147,6 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    },
-    {
-      "cr_film_id": 28520,
-      "cr_slug": "eastern-boys",
-      "title": "Eastern Boys",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T10:31:52Z",
-      "first_failed_at": "2026-07-28T10:31:52Z",
-      "attempt_count": 1,
-      "upload_id": "5ffdfea168383",
-      "source_url": "https://prehraj.to/eastern-boys-2013-cztitulky/5ffdfea168383",
-      "upload_title": "Eastern Boys (2013) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 118.9,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -527176,16 +527179,6 @@
       "worker_id": "worker-1-30333835450",
       "run_id": "30333835450",
       "reserved_at": "2026-07-28T10:31:55Z"
-    },
-    {
-      "cr_film_id": 28520,
-      "cr_slug": "eastern-boys",
-      "title": "Eastern Boys",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T10:32:57Z"
     }
   ]
 }
