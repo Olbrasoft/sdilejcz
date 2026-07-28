@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T07:28:11Z",
+  "last_updated": "2026-07-28T07:29:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -505170,6 +505170,30 @@
         "upload_sec": 100.1,
         "total_sec": 152.7
       }
+    },
+    {
+      "cr_film_id": 35153,
+      "cr_slug": "kapsul",
+      "title": "Kapsul",
+      "year": 2015,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "580ead8ae0e47",
+      "source_url": "https://prehraj.to/capsule-cz-tit-v-obraze-scifi-2015/580ead8ae0e47",
+      "source_title": "Capsule-cz-tit.v-obraze.scifi..2015",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34738134/kapsul-2015-cz-titulky.mp4",
+      "sdilej_name": "Kapsul (2015) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T07:29:26Z",
+      "status": "uploaded",
+      "size_bytes": 341618401,
+      "worker_id": "worker-1-30333835450",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 23.2,
+        "upload_sec": 47.4,
+        "total_sec": 72.2
+      }
     }
   ],
   "failed_attempts": [
@@ -521485,27 +521509,6 @@
       }
     },
     {
-      "cr_film_id": 35153,
-      "cr_slug": "kapsul",
-      "title": "Kapsul",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T06:56:57Z",
-      "first_failed_at": "2026-07-28T06:56:57Z",
-      "attempt_count": 1,
-      "upload_id": "580ead8ae0e47",
-      "source_url": "https://prehraj.to/capsule-cz-tit-v-obraze-scifi-2015/580ead8ae0e47",
-      "upload_title": "Capsule-cz-tit.v-obraze.scifi..2015",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 5.7,
-        "download_sec": 15.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 28994,
       "cr_slug": "beneath-the-skin",
       "title": "Beneath the Skin",
@@ -521567,16 +521570,6 @@
       "worker_id": "worker-2-30333835450",
       "run_id": "30333835450",
       "reserved_at": "2026-07-28T07:26:36Z"
-    },
-    {
-      "cr_film_id": 35153,
-      "cr_slug": "kapsul",
-      "title": "Kapsul",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T07:28:11Z"
     }
   ]
 }
