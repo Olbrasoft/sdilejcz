@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T07:59:52Z",
+  "last_updated": "2026-07-28T08:00:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -522707,6 +522707,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 20525,
+      "cr_slug": "that-sugar-film",
+      "title": "That Sugar Film",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T08:00:33Z",
+      "first_failed_at": "2026-07-28T08:00:33Z",
+      "attempt_count": 1,
+      "upload_id": "599c37deacc7d",
+      "source_url": "https://prehraj.to/that-sugar-film-dokument-2014-cz-tit/599c37deacc7d",
+      "upload_title": "That-Sugar-Film---dokument-2014,-CZ-tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 61.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -522729,16 +522750,6 @@
       "worker_id": "worker-2-30333835450",
       "run_id": "30333835450",
       "reserved_at": "2026-07-28T07:58:03Z"
-    },
-    {
-      "cr_film_id": 20525,
-      "cr_slug": "that-sugar-film",
-      "title": "That Sugar Film",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T07:58:48Z"
     },
     {
       "cr_film_id": 33215,
