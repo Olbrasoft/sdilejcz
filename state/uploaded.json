@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T09:55:05Z",
+  "last_updated": "2026-07-28T09:55:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -509898,6 +509898,30 @@
         "upload_sec": 58.1,
         "total_sec": 79.6
       }
+    },
+    {
+      "cr_film_id": 18502,
+      "cr_slug": "the-den",
+      "title": "The Den",
+      "year": 2013,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5ac9124e1ace9",
+      "source_url": "https://prehraj.to/the-den-2013/5ac9124e1ace9",
+      "source_title": "The Den (2013)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34739216/the-den-2013-cz-titulky.mp4",
+      "sdilej_name": "The Den (2013) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T09:55:23Z",
+      "status": "uploaded",
+      "size_bytes": 283520475,
+      "worker_id": "worker-1-30333835450",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 21.1,
+        "upload_sec": 45.8,
+        "total_sec": 68.4
+      }
     }
   ],
   "failed_attempts": [
@@ -526213,27 +526237,6 @@
       }
     },
     {
-      "cr_film_id": 18502,
-      "cr_slug": "the-den",
-      "title": "The Den",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T09:53:57Z",
-      "first_failed_at": "2026-07-28T09:53:57Z",
-      "attempt_count": 1,
-      "upload_id": "6310671eec206",
-      "source_url": "https://prehraj.to/the-den-2013-cz-titulky/6310671eec206",
-      "upload_title": "The Den (2013) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 18.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 18486,
       "cr_slug": "the-green-inferno",
       "title": "The Green Inferno",
@@ -526275,16 +526278,6 @@
       "worker_id": "worker-4-30333835450",
       "run_id": "30333835450",
       "reserved_at": "2026-07-28T09:54:00Z"
-    },
-    {
-      "cr_film_id": 18502,
-      "cr_slug": "the-den",
-      "title": "The Den",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T09:54:11Z"
     },
     {
       "cr_film_id": 18486,
