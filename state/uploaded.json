@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T13:33:28Z",
+  "last_updated": "2026-07-28T13:34:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -531578,6 +531578,27 @@
         "download_sec": 103.0,
         "upload_sec": 364.2
       }
+    },
+    {
+      "cr_film_id": 26673,
+      "cr_slug": "luno",
+      "title": "Lůno",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T13:34:22Z",
+      "first_failed_at": "2026-07-28T13:34:22Z",
+      "attempt_count": 1,
+      "upload_id": "5cb761864c034",
+      "source_url": "https://prehraj.to/luno-womb-2010-cz-titulky/5cb761864c034",
+      "upload_title": "Lůno (Womb) 2010 CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 19.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -531620,16 +531641,6 @@
       "worker_id": "worker-4-30356708945",
       "run_id": "30356708945",
       "reserved_at": "2026-07-28T13:32:19Z"
-    },
-    {
-      "cr_film_id": 26673,
-      "cr_slug": "luno",
-      "title": "Lůno",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30356708945",
-      "run_id": "30356708945",
-      "reserved_at": "2026-07-28T13:33:28Z"
     }
   ]
 }
