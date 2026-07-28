@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T09:38:05Z",
+  "last_updated": "2026-07-28T09:38:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -525947,6 +525947,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 27700,
+      "cr_slug": "uder-3",
+      "title": "Úder 3",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T09:38:14Z",
+      "first_failed_at": "2026-07-28T09:38:14Z",
+      "attempt_count": 1,
+      "upload_id": "5ffdf809e9ead",
+      "source_url": "https://prehraj.to/dhoom-3-2013-cztitulky/5ffdf809e9ead",
+      "upload_title": "Dhoom 3 (2013) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 320.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -525959,16 +525980,6 @@
       "worker_id": "worker-4-30320665554",
       "run_id": "30320665554",
       "reserved_at": "2026-07-28T06:11:36Z"
-    },
-    {
-      "cr_film_id": 27700,
-      "cr_slug": "uder-3",
-      "title": "Úder 3",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T09:32:12Z"
     },
     {
       "cr_film_id": 20310,
