@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T11:17:41Z",
+  "last_updated": "2026-07-28T11:18:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -528179,6 +528179,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 6070,
+      "cr_slug": "the-collection",
+      "title": "The Collection",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T11:18:26Z",
+      "first_failed_at": "2026-07-28T11:18:26Z",
+      "attempt_count": 1,
+      "upload_id": "159f74815a7ec565",
+      "source_url": "https://prehraj.to/the-collection-2012-720p-brrip-x264-gaz-yify-cz-tit/159f74815a7ec565",
+      "upload_title": "The.Collection.2012.720p.BRrip.x264.GAZ.YIFY-cz tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 25.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -528201,16 +528222,6 @@
       "worker_id": "worker-1-30333835450",
       "run_id": "30333835450",
       "reserved_at": "2026-07-28T11:16:35Z"
-    },
-    {
-      "cr_film_id": 6070,
-      "cr_slug": "the-collection",
-      "title": "The Collection",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T11:17:26Z"
     },
     {
       "cr_film_id": 28233,
