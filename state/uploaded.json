@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T07:24:32Z",
+  "last_updated": "2026-07-28T07:24:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -505050,6 +505050,30 @@
         "upload_sec": 70.8,
         "total_sec": 108.2
       }
+    },
+    {
+      "cr_film_id": 20605,
+      "cr_slug": "drishyam",
+      "title": "Drishyam",
+      "year": 2015,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5aacf6f5d81b3",
+      "source_url": "https://prehraj.to/drishyam-2015/5aacf6f5d81b3",
+      "source_title": "Drishyam (2015)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34738121/drishyam-2015-cz-titulky.mp4",
+      "sdilej_name": "Drishyam (2015) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T07:24:37Z",
+      "status": "uploaded",
+      "size_bytes": 2193448330,
+      "worker_id": "worker-4-30333835450",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 121.7,
+        "upload_sec": 290.3,
+        "total_sec": 413.8
+      }
     }
   ],
   "failed_attempts": [
@@ -521384,27 +521408,6 @@
         "download_sec": 15.7,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 20605,
-      "cr_slug": "drishyam",
-      "title": "Drishyam",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T07:16:06Z",
-      "first_failed_at": "2026-07-28T07:16:06Z",
-      "attempt_count": 1,
-      "upload_id": "577550e865b38",
-      "source_url": "https://prehraj.to/drishyam-2015-cz-titulky/577550e865b38",
-      "upload_title": "Drishyam (2015) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 113.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -521417,16 +521420,6 @@
       "worker_id": "worker-4-30320665554",
       "run_id": "30320665554",
       "reserved_at": "2026-07-28T06:11:36Z"
-    },
-    {
-      "cr_film_id": 20605,
-      "cr_slug": "drishyam",
-      "title": "Drishyam",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T07:17:40Z"
     },
     {
       "cr_film_id": 20636,
