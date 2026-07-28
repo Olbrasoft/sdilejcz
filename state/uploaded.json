@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T09:50:45Z",
+  "last_updated": "2026-07-28T09:50:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -509778,6 +509778,30 @@
         "upload_sec": 57.7,
         "total_sec": 78.5
       }
+    },
+    {
+      "cr_film_id": 32051,
+      "cr_slug": "v-hlubinach",
+      "title": "V hlubinách",
+      "year": 2013,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5ad0b5d9adac9",
+      "source_url": "https://prehraj.to/pioneer-2013/5ad0b5d9adac9",
+      "source_title": "Pioneer (2013)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34739202/v-hlubinach-2013-cz-titulky.mp4",
+      "sdilej_name": "V hlubinách (2013) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T09:50:41Z",
+      "status": "uploaded",
+      "size_bytes": 1004464019,
+      "worker_id": "worker-1-30333835450",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 58.3,
+        "upload_sec": 152.5,
+        "total_sec": 212.6
+      }
     }
   ],
   "failed_attempts": [
@@ -526112,27 +526136,6 @@
         "download_sec": 320.3,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 32051,
-      "cr_slug": "v-hlubinach",
-      "title": "V hlubinách",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T09:46:00Z",
-      "first_failed_at": "2026-07-28T09:46:00Z",
-      "attempt_count": 1,
-      "upload_id": "5ce38100c5e7b",
-      "source_url": "https://prehraj.to/pioneer-2013-cztit/5ce38100c5e7b",
-      "upload_title": "Pioneer (2013) CZtit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 22.5,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -526155,16 +526158,6 @@
       "worker_id": "worker-4-30333835450",
       "run_id": "30333835450",
       "reserved_at": "2026-07-28T09:40:20Z"
-    },
-    {
-      "cr_film_id": 32051,
-      "cr_slug": "v-hlubinach",
-      "title": "V hlubinách",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T09:47:05Z"
     },
     {
       "cr_film_id": 28116,
