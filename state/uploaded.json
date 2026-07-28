@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T16:01:21Z",
+  "last_updated": "2026-07-28T16:03:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -536066,6 +536066,27 @@
         "download_sec": 21.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 24575,
+      "cr_slug": "asoka",
+      "title": "Ašoka",
+      "year": 2001,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T16:03:14Z",
+      "first_failed_at": "2026-07-28T16:03:14Z",
+      "attempt_count": 1,
+      "upload_id": "569a667d3b015",
+      "source_url": "https://prehraj.to/asoka-cz-titulky-2001/569a667d3b015",
+      "upload_title": "Asoka, CZ titulky (2001)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 101.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -536088,16 +536109,6 @@
       "worker_id": "worker-3-30356708945",
       "run_id": "30356708945",
       "reserved_at": "2026-07-28T16:00:07Z"
-    },
-    {
-      "cr_film_id": 24575,
-      "cr_slug": "asoka",
-      "title": "Ašoka",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30356708945",
-      "run_id": "30356708945",
-      "reserved_at": "2026-07-28T16:00:57Z"
     },
     {
       "cr_film_id": 12619,
