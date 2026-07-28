@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T22:21:02Z",
+  "last_updated": "2026-07-28T22:21:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -540759,6 +540759,27 @@
         "resolve_sec": 1.2,
         "download_sec": 92.4
       }
+    },
+    {
+      "cr_film_id": 32759,
+      "cr_slug": "utvandrarna",
+      "title": "Utvandrarna",
+      "year": 1971,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T22:21:23Z",
+      "first_failed_at": "2026-07-28T22:21:23Z",
+      "attempt_count": 1,
+      "upload_id": "586d8d5b1b7f9",
+      "source_url": "https://prehraj.to/vystehovalci-utvandrarna-1971-cz-tit/586d8d5b1b7f9",
+      "upload_title": "Vystěhovalci-_-Utvandrarna-1971,-CZ-tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 56.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -540781,16 +540802,6 @@
       "worker_id": "worker-1-30386206167",
       "run_id": "30386206167",
       "reserved_at": "2026-07-28T22:15:56Z"
-    },
-    {
-      "cr_film_id": 32759,
-      "cr_slug": "utvandrarna",
-      "title": "Utvandrarna",
-      "year": 1971,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T22:19:49Z"
     },
     {
       "cr_film_id": 22023,
