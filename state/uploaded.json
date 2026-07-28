@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T22:51:49Z",
+  "last_updated": "2026-07-28T22:53:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -541625,6 +541625,27 @@
         "download_sec": 103.1,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 34238,
+      "cr_slug": "andrej-rublev",
+      "title": "Andrej Rublev",
+      "year": 1966,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T22:53:16Z",
+      "first_failed_at": "2026-07-28T22:53:16Z",
+      "attempt_count": 1,
+      "upload_id": "67d4c278b2647",
+      "source_url": "https://prehraj.to/andrej-rublev-rusko-1966-andrej-tarkovskij-bluray-1080p-ru-dts-cz-sub-1/67d4c278b2647",
+      "upload_title": "Andrej Rublev (Rusko, 1966, Andrej Tarkovskij) Bluray.1080P.Ru Dts, Cz-Sub-1",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 195.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -541637,16 +541658,6 @@
       "worker_id": "worker-1-30356708945",
       "run_id": "30356708945",
       "reserved_at": "2026-07-28T17:44:02Z"
-    },
-    {
-      "cr_film_id": 34238,
-      "cr_slug": "andrej-rublev",
-      "title": "Andrej Rublev",
-      "year": 1966,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T22:49:22Z"
     },
     {
       "cr_film_id": 21743,
