@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T20:10:09Z",
+  "last_updated": "2026-07-28T20:17:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -538996,27 +538996,6 @@
       }
     },
     {
-      "cr_film_id": 22670,
-      "cr_slug": "posledni-bitva",
-      "title": "Poslední bitva",
-      "year": 1983,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T19:36:28Z",
-      "first_failed_at": "2026-07-28T19:36:28Z",
-      "attempt_count": 1,
-      "upload_id": "5de5896505be0",
-      "source_url": "https://prehraj.to/posledni-bitva-1983-cz-titulky/5de5896505be0",
-      "upload_title": "Poslední bitva (1983) - CZ TITULKY",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 435.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 11591,
       "cr_slug": "navrat-do-zeme-oz",
       "title": "Návrat do země Oz",
@@ -539055,6 +539034,27 @@
       "timing": {
         "resolve_sec": 1.1,
         "download_sec": 28.7,
+        "upload_sec": 30.0
+      }
+    },
+    {
+      "cr_film_id": 22670,
+      "cr_slug": "posledni-bitva",
+      "title": "Poslední bitva",
+      "year": 1983,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T20:17:31Z",
+      "first_failed_at": "2026-07-28T19:36:28Z",
+      "attempt_count": 2,
+      "upload_id": "5de5896505be0",
+      "source_url": "https://prehraj.to/posledni-bitva-1983-cz-titulky/5de5896505be0",
+      "upload_title": "Poslední bitva (1983) - CZ TITULKY",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 406.5,
         "upload_sec": 30.0
       }
     }
@@ -539099,16 +539099,6 @@
       "worker_id": "worker-3-30386206167",
       "run_id": "30386206167",
       "reserved_at": "2026-07-28T19:43:08Z"
-    },
-    {
-      "cr_film_id": 22670,
-      "cr_slug": "posledni-bitva",
-      "title": "Poslední bitva",
-      "year": 1983,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T20:10:09Z"
     }
   ]
 }
