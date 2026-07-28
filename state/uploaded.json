@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T01:35:13Z",
+  "last_updated": "2026-07-28T01:35:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -510590,19 +510590,30 @@
         "download_sec": 38.7,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 20918,
       "cr_slug": "qi-man-dun-jia",
       "title": "Qi man dun jia",
       "year": 2017,
       "sktorrent_id": null,
-      "worker_id": "worker-4-30300033771",
-      "run_id": "30300033771",
-      "reserved_at": "2026-07-28T01:32:17Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T01:35:39Z",
+      "first_failed_at": "2026-07-28T01:35:39Z",
+      "attempt_count": 1,
+      "upload_id": "5ac1ceb957a57",
+      "source_url": "https://prehraj.to/qi-men-dun-jia-akcni-fantasy-2017-1080p-s-cztitulky-sten-ok/5ac1ceb957a57",
+      "upload_title": "Qi men dun jia akční fantasy 2017.1080p.s.Cztitulky.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.1,
+        "download_sec": 161.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29449,
       "cr_slug": "princezna-cyd",
