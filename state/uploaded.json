@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T18:55:43Z",
+  "last_updated": "2026-07-28T18:58:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -538659,6 +538659,27 @@
         "download_sec": 483.5,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 11664,
+      "cr_slug": "touch-and-go",
+      "title": "Touch and Go",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T18:58:24Z",
+      "first_failed_at": "2026-07-28T18:58:24Z",
+      "attempt_count": 1,
+      "upload_id": "66242479c5903",
+      "source_url": "https://prehraj.to/touch-and-go-1991-cz-tit/66242479c5903",
+      "upload_title": "Touch and Go 1991 cz tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 1867.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -538671,16 +538692,6 @@
       "worker_id": "worker-1-30356708945",
       "run_id": "30356708945",
       "reserved_at": "2026-07-28T17:44:02Z"
-    },
-    {
-      "cr_film_id": 11664,
-      "cr_slug": "touch-and-go",
-      "title": "Touch and Go",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T18:26:37Z"
     },
     {
       "cr_film_id": 11620,
