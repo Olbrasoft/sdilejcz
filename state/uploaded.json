@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T16:11:33Z",
+  "last_updated": "2026-07-28T16:12:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -519906,6 +519906,30 @@
         "upload_sec": 46.2,
         "total_sec": 68.9
       }
+    },
+    {
+      "cr_film_id": 24575,
+      "cr_slug": "asoka",
+      "title": "Ašoka",
+      "year": 2001,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "56e3da3817059",
+      "source_url": "https://prehraj.to/asoka-2001-cz-titulky/56e3da3817059",
+      "source_title": "Asoka (2001)[cz titulky",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34751499/asoka-2001-cz-titulky.mp4",
+      "sdilej_name": "Ašoka (2001) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T16:12:04Z",
+      "status": "uploaded",
+      "size_bytes": 2521478434,
+      "worker_id": "worker-1-30356708945",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 166.5,
+        "upload_sec": 328.0,
+        "total_sec": 496.6
+      }
     }
   ],
   "failed_attempts": [
@@ -536282,40 +536306,9 @@
         "download_sec": 21.4,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 24575,
-      "cr_slug": "asoka",
-      "title": "Ašoka",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T16:03:14Z",
-      "first_failed_at": "2026-07-28T16:03:14Z",
-      "attempt_count": 1,
-      "upload_id": "569a667d3b015",
-      "source_url": "https://prehraj.to/asoka-cz-titulky-2001/569a667d3b015",
-      "upload_title": "Asoka, CZ titulky (2001)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 101.8,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 24575,
-      "cr_slug": "asoka",
-      "title": "Ašoka",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30356708945",
-      "run_id": "30356708945",
-      "reserved_at": "2026-07-28T16:03:44Z"
-    },
     {
       "cr_film_id": 24420,
       "cr_slug": "mohabbatein",
