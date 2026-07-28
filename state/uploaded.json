@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T19:59:26Z",
+  "last_updated": "2026-07-28T20:00:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -538928,27 +538928,6 @@
       }
     },
     {
-      "cr_film_id": 32522,
-      "cr_slug": "forbrydelsens-element",
-      "title": "Forbrydelsens element",
-      "year": 1984,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T19:25:23Z",
-      "first_failed_at": "2026-07-28T19:25:23Z",
-      "attempt_count": 1,
-      "upload_id": "58483b87dae58",
-      "source_url": "https://prehraj.to/prvek-zlocinu-forbrydelsens-element-1984-cz-tit/58483b87dae58",
-      "upload_title": "Prvek-zločinu-_-Forbrydelsens-element-1984,-CZ-tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 28.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 33580,
       "cr_slug": "prenom-carmen",
       "title": "Prénom Carmen",
@@ -539009,6 +538988,27 @@
         "download_sec": 2954.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 32522,
+      "cr_slug": "forbrydelsens-element",
+      "title": "Forbrydelsens element",
+      "year": 1984,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T20:00:31Z",
+      "first_failed_at": "2026-07-28T19:25:23Z",
+      "attempt_count": 2,
+      "upload_id": "58483b87dae58",
+      "source_url": "https://prehraj.to/prvek-zlocinu-forbrydelsens-element-1984-cz-tit/58483b87dae58",
+      "upload_title": "Prvek-zločinu-_-Forbrydelsens-element-1984,-CZ-tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 28.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -539051,16 +539051,6 @@
       "worker_id": "worker-3-30386206167",
       "run_id": "30386206167",
       "reserved_at": "2026-07-28T19:43:08Z"
-    },
-    {
-      "cr_film_id": 32522,
-      "cr_slug": "forbrydelsens-element",
-      "title": "Forbrydelsens element",
-      "year": 1984,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T19:59:26Z"
     }
   ]
 }
