@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T15:07:39Z",
+  "last_updated": "2026-07-28T15:07:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -534656,19 +534656,30 @@
         "download_sec": 141.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31984,
       "cr_slug": "behind-the-mask-the-rise-of-leslie-vernon",
       "title": "Behind the Mask: The Rise of Leslie Vernon",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30356708945",
-      "run_id": "30356708945",
-      "reserved_at": "2026-07-28T15:06:45Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T15:07:46Z",
+      "first_failed_at": "2026-07-28T15:07:46Z",
+      "attempt_count": 1,
+      "upload_id": "689ad41fc367d",
+      "source_url": "https://prehraj.to/behind-the-mask-the-rise-of-leslie-vernon-2006-cz-tit/689ad41fc367d",
+      "upload_title": "Behind-the-Mask---The-Rise-of-Leslie-Vernon---2006-cz tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 14.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 32466,
       "cr_slug": "film-2005",
