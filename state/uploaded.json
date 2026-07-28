@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T08:03:01Z",
+  "last_updated": "2026-07-28T08:03:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -506442,6 +506442,30 @@
         "upload_sec": 133.3,
         "total_sec": 189.0
       }
+    },
+    {
+      "cr_film_id": 20525,
+      "cr_slug": "that-sugar-film",
+      "title": "That Sugar Film",
+      "year": 2014,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "576d84d2c143e",
+      "source_url": "https://prehraj.to/that-sugar-film-dokument-2014-cz-tit/576d84d2c143e",
+      "source_title": "That-Sugar-Film---dokument-2014,-CZ-tit",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34738243/that-sugar-film-2014-cz-titulky.mp4",
+      "sdilej_name": "That Sugar Film (2014) CZ Titulky.mp4",
+      "uploaded_at": "2026-07-28T08:03:20Z",
+      "status": "uploaded",
+      "size_bytes": 969819463,
+      "worker_id": "worker-2-30333835450",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 39.0,
+        "upload_sec": 97.5,
+        "total_sec": 138.5
+      }
     }
   ],
   "failed_attempts": [
@@ -522755,27 +522779,6 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    },
-    {
-      "cr_film_id": 20525,
-      "cr_slug": "that-sugar-film",
-      "title": "That Sugar Film",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-28T08:00:33Z",
-      "first_failed_at": "2026-07-28T08:00:33Z",
-      "attempt_count": 1,
-      "upload_id": "599c37deacc7d",
-      "source_url": "https://prehraj.to/that-sugar-film-dokument-2014-cz-tit/599c37deacc7d",
-      "upload_title": "That-Sugar-Film---dokument-2014,-CZ-tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 61.6,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -522808,16 +522811,6 @@
       "worker_id": "worker-4-30333835450",
       "run_id": "30333835450",
       "reserved_at": "2026-07-28T08:00:37Z"
-    },
-    {
-      "cr_film_id": 20525,
-      "cr_slug": "that-sugar-film",
-      "title": "That Sugar Film",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30333835450",
-      "run_id": "30333835450",
-      "reserved_at": "2026-07-28T08:00:58Z"
     },
     {
       "cr_film_id": 33608,
