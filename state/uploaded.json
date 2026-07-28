@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T22:00:33Z",
+  "last_updated": "2026-07-28T22:01:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -540211,6 +540211,26 @@
         "download_sec": 47.7,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 22209,
+      "cr_slug": "pohled-spolecnosti-parallax",
+      "title": "Pohled společnosti Parallax",
+      "year": 1974,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
+      "failed_at": "2026-07-28T22:01:01Z",
+      "first_failed_at": "2026-07-28T22:01:01Z",
+      "attempt_count": 1,
+      "upload_id": "5abd0e007b056",
+      "source_url": "https://prehraj.to/pohled-spolecnosti-parallax-1974/5abd0e007b056",
+      "upload_title": "Pohled společnosti Parallax (1974)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 91.6
+      }
     }
   ],
   "in_progress": [
@@ -540243,16 +540263,6 @@
       "worker_id": "worker-1-30386206167",
       "run_id": "30386206167",
       "reserved_at": "2026-07-28T21:58:27Z"
-    },
-    {
-      "cr_film_id": 22209,
-      "cr_slug": "pohled-spolecnosti-parallax",
-      "title": "Pohled společnosti Parallax",
-      "year": 1974,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T21:59:23Z"
     },
     {
       "cr_film_id": 31274,
