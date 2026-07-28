@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T21:23:58Z",
+  "last_updated": "2026-07-28T21:24:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -539474,6 +539474,27 @@
         "resolve_sec": 1.2,
         "download_sec": 2.2
       }
+    },
+    {
+      "cr_film_id": 24462,
+      "cr_slug": "lovec-krasnych-divek",
+      "title": "Lovec krásných dívek",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T21:24:21Z",
+      "first_failed_at": "2026-07-28T21:24:21Z",
+      "attempt_count": 1,
+      "upload_id": "633a0bce41c92",
+      "source_url": "https://prehraj.to/lovec-krasnych-divek-1979-cztitulky/633a0bce41c92",
+      "upload_title": "Lovec krásných dívek (1979) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 35.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -539506,16 +539527,6 @@
       "worker_id": "worker-1-30386206167",
       "run_id": "30386206167",
       "reserved_at": "2026-07-28T21:11:07Z"
-    },
-    {
-      "cr_film_id": 24462,
-      "cr_slug": "lovec-krasnych-divek",
-      "title": "Lovec krásných dívek",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30386206167",
-      "run_id": "30386206167",
-      "reserved_at": "2026-07-28T21:23:02Z"
     },
     {
       "cr_film_id": 22477,
