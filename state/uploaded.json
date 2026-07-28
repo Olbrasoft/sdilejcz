@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-28T01:35:43Z",
+  "last_updated": "2026-07-28T01:35:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -510611,19 +510611,30 @@
         "download_sec": 161.0,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29449,
       "cr_slug": "princezna-cyd",
       "title": "Princezna Cyd",
       "year": 2017,
       "sktorrent_id": null,
-      "worker_id": "worker-2-30300033771",
-      "run_id": "30300033771",
-      "reserved_at": "2026-07-28T01:34:39Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-28T01:35:50Z",
+      "first_failed_at": "2026-07-28T01:35:50Z",
+      "attempt_count": 1,
+      "upload_id": "630ead6a7c49c",
+      "source_url": "https://prehraj.to/princess-cyd-2017-cztitulky/630ead6a7c49c",
+      "upload_title": "Princess Cyd (2017) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 30.9,
+        "upload_sec": 30.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19159,
       "cr_slug": "potvora",
