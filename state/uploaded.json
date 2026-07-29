@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T15:43:18Z",
+  "last_updated": "2026-07-29T15:45:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -550722,6 +550722,30 @@
         "upload_sec": 102.2,
         "total_sec": 202.0
       }
+    },
+    {
+      "cr_film_id": 35470,
+      "cr_slug": "supergirl",
+      "title": "Supergirl",
+      "year": 2026,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "e47040e785d49323",
+      "source_url": "https://prehraj.to/supergirl-2026-1080p-cz-mkv/e47040e785d49323",
+      "source_title": "Supergirl (2026) 1080p CZ",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34770927/supergirl-2026-.mp4",
+      "sdilej_name": "Supergirl (2026).mp4",
+      "uploaded_at": "2026-07-29T15:45:24Z",
+      "status": "uploaded",
+      "size_bytes": 4682040728,
+      "worker_id": "worker-2-30442813598",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 164.8,
+        "upload_sec": 451.4,
+        "total_sec": 618.1
+      }
     }
   ],
   "failed_attempts": [
@@ -567515,27 +567539,6 @@
       }
     },
     {
-      "cr_film_id": 35470,
-      "cr_slug": "supergirl",
-      "title": "Supergirl",
-      "year": 2026,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T15:04:52Z",
-      "first_failed_at": "2026-07-29T15:04:52Z",
-      "attempt_count": 1,
-      "upload_id": "e47040e785d49323",
-      "source_url": "https://prehraj.to/supergirl-2026-1080p-cz-mkv/e47040e785d49323",
-      "upload_title": "Supergirl (2026) 1080p CZ",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 290.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 28649,
       "cr_slug": "scary-movie",
       "title": "Scary Movie",
@@ -567843,16 +567846,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 35470,
-      "cr_slug": "supergirl",
-      "title": "Supergirl",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T15:35:02Z"
-    },
     {
       "cr_film_id": 35484,
       "cr_slug": "epic-elvis-presley-in-concert",
