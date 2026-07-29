@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T05:37:25Z",
+  "last_updated": "2026-07-29T05:37:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -534018,6 +534018,30 @@
         "upload_sec": 112.9,
         "total_sec": 156.3
       }
+    },
+    {
+      "cr_film_id": 29443,
+      "cr_slug": "vyskok",
+      "title": "Výskok",
+      "year": 2017,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "603831d85bbf7",
+      "source_url": "https://prehraj.to/vyskok-2017-skdab/603831d85bbf7",
+      "source_title": "Výskok (2017) SKdab",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34756931/vyskok-2017-sk-dabing.mp4",
+      "sdilej_name": "Výskok (2017) SK Dabing.mp4",
+      "uploaded_at": "2026-07-29T05:37:43Z",
+      "status": "uploaded",
+      "size_bytes": 3307992137,
+      "worker_id": "worker-2-30420721598",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 148.2,
+        "upload_sec": 383.8,
+        "total_sec": 533.6
+      }
     }
   ],
   "failed_attempts": [
@@ -550638,27 +550662,6 @@
       }
     },
     {
-      "cr_film_id": 29443,
-      "cr_slug": "vyskok",
-      "title": "Výskok",
-      "year": 2017,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T04:57:44Z",
-      "first_failed_at": "2026-07-29T04:57:44Z",
-      "attempt_count": 1,
-      "upload_id": "603831d85bbf7",
-      "source_url": "https://prehraj.to/vyskok-2017-skdab/603831d85bbf7",
-      "upload_title": "Výskok (2017) SKdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 179.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 29395,
       "cr_slug": "nevestou-v-prosinci",
       "title": "Nevěstou v prosinci",
@@ -550681,16 +550684,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 29443,
-      "cr_slug": "vyskok",
-      "title": "Výskok",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30420721598",
-      "run_id": "30420721598",
-      "reserved_at": "2026-07-29T05:28:47Z"
-    },
     {
       "cr_film_id": 33930,
       "cr_slug": "my-christmas-love",
