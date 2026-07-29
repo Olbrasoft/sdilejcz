@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T01:38:25Z",
+  "last_updated": "2026-07-29T01:41:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -529338,6 +529338,30 @@
         "upload_sec": 361.4,
         "total_sec": 496.5
       }
+    },
+    {
+      "cr_film_id": 9455,
+      "cr_slug": "love-2",
+      "title": "Love 2",
+      "year": 2024,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "bf1c13bce31d4195",
+      "source_url": "https://prehraj.to/love-2-2024-sk-dab-1080p/bf1c13bce31d4195",
+      "source_title": "Love 2 2024 SK dab 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34756364/love-2-2024-sk-dabing.mp4",
+      "sdilej_name": "Love 2 (2024) SK Dabing.mp4",
+      "uploaded_at": "2026-07-29T01:41:15Z",
+      "status": "uploaded",
+      "size_bytes": 2062002170,
+      "worker_id": "worker-1-30408432169",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 92.3,
+        "upload_sec": 231.2,
+        "total_sec": 325.5
+      }
     }
   ],
   "failed_attempts": [
@@ -545850,27 +545874,6 @@
       }
     },
     {
-      "cr_film_id": 9455,
-      "cr_slug": "love-2",
-      "title": "Love 2",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T01:34:42Z",
-      "first_failed_at": "2026-07-29T01:34:42Z",
-      "attempt_count": 1,
-      "upload_id": "a74228f00d68b7cf",
-      "source_url": "https://prehraj.to/love-2-2024-sk-dabing-1080p/a74228f00d68b7cf",
-      "upload_title": "Love 2 2024 SK Dabing 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.9,
-        "download_sec": 95.5,
-        "upload_sec": 30.3
-      }
-    },
-    {
       "cr_film_id": 16260,
       "cr_slug": "kali",
       "title": "KALI",
@@ -545933,16 +545936,6 @@
       "worker_id": "worker-2-30408432169",
       "run_id": "30408432169",
       "reserved_at": "2026-07-29T01:34:46Z"
-    },
-    {
-      "cr_film_id": 9455,
-      "cr_slug": "love-2",
-      "title": "Love 2",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30408432169",
-      "run_id": "30408432169",
-      "reserved_at": "2026-07-29T01:35:46Z"
     },
     {
       "cr_film_id": 15556,
