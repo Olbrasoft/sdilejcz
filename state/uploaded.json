@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T09:13:40Z",
+  "last_updated": "2026-07-29T09:13:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -540258,6 +540258,30 @@
         "upload_sec": 120.6,
         "total_sec": 161.2
       }
+    },
+    {
+      "cr_film_id": 6140,
+      "cr_slug": "srdcovy-vrah",
+      "title": "Srdcový vrah",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "683df304117af",
+      "source_url": "https://prehraj.to/heart-eyes-2025/683df304117af",
+      "source_title": "Heart Eyes (2025",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/34758368/srdcovy-vrah-2025-sk-titulky.mp4",
+      "sdilej_name": "Srdcový vrah (2025) SK Titulky.mp4",
+      "uploaded_at": "2026-07-29T09:13:37Z",
+      "status": "uploaded",
+      "size_bytes": 599984836,
+      "worker_id": "worker-4-30420721598",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 20.1,
+        "upload_sec": 69.3,
+        "total_sec": 90.6
+      }
     }
   ],
   "failed_attempts": [
@@ -556917,25 +556941,6 @@
       }
     },
     {
-      "cr_film_id": 6140,
-      "cr_slug": "srdcovy-vrah",
-      "title": "Srdcový vrah",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/heart-eyes-2025-sktit-1080p/f37d3447bedf9331",
-      "failed_at": "2026-07-29T09:09:40Z",
-      "first_failed_at": "2026-07-29T09:09:40Z",
-      "attempt_count": 1,
-      "upload_id": "f37d3447bedf9331",
-      "source_url": "https://prehraj.to/heart-eyes-2025-sktit-1080p/f37d3447bedf9331",
-      "upload_title": "Heart Eyes (2025) SKtit 1080p",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
-    },
-    {
       "cr_film_id": 9842,
       "cr_slug": "rosario-prokleti",
       "title": "Rosario: Prokletí",
@@ -556972,27 +556977,6 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    },
-    {
-      "cr_film_id": 6140,
-      "cr_slug": "srdcovy-vrah",
-      "title": "Srdcový vrah",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T09:11:39Z",
-      "first_failed_at": "2026-07-29T09:11:39Z",
-      "attempt_count": 1,
-      "upload_id": "67cdaccbf19c9",
-      "source_url": "https://prehraj.to/heart-eyes-2025-en-5-1-by-nexsus-2160p-4k-web/67cdaccbf19c9",
-      "upload_title": "Heart Eyes (2025) EN 5.1 (by Nexsus)[2160p] [4K] [WEB]",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.2,
-        "download_sec": 80.0,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -557005,16 +556989,6 @@
       "worker_id": "worker-3-30420721598",
       "run_id": "30420721598",
       "reserved_at": "2026-07-29T09:11:42Z"
-    },
-    {
-      "cr_film_id": 6140,
-      "cr_slug": "srdcovy-vrah",
-      "title": "Srdcový vrah",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30420721598",
-      "run_id": "30420721598",
-      "reserved_at": "2026-07-29T09:12:04Z"
     },
     {
       "cr_film_id": 16499,
