@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T08:43:46Z",
+  "last_updated": "2026-07-29T08:45:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -539394,6 +539394,30 @@
         "upload_sec": 54.5,
         "total_sec": 77.9
       }
+    },
+    {
+      "cr_film_id": 14900,
+      "cr_slug": "zena-uspesneho-muza",
+      "title": "Žena úspešného muža",
+      "year": 1978,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "614e6f1e80257",
+      "source_url": "https://prehraj.to/zena-uspesneho-muza-1978-skdab/614e6f1e80257",
+      "source_title": "Žena úspešného muža (1978) SKdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34758258/zena-uspesneho-muza-1978-sk-dabing.mp4",
+      "sdilej_name": "Žena úspešného muža (1978) SK Dabing.mp4",
+      "uploaded_at": "2026-07-29T08:45:15Z",
+      "status": "uploaded",
+      "size_bytes": 1792518544,
+      "worker_id": "worker-3-30420721598",
+      "timing": {
+        "resolve_sec": 0.7,
+        "download_sec": 64.7,
+        "upload_sec": 184.9,
+        "total_sec": 250.8
+      }
     }
   ],
   "failed_attempts": [
@@ -556032,40 +556056,9 @@
         "resolve_sec": 1.2,
         "download_sec": 2.1
       }
-    },
-    {
-      "cr_film_id": 14900,
-      "cr_slug": "zena-uspesneho-muza",
-      "title": "Žena úspešného muža",
-      "year": 1978,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T08:09:44Z",
-      "first_failed_at": "2026-07-29T08:09:44Z",
-      "attempt_count": 1,
-      "upload_id": "614e6f1e80257",
-      "source_url": "https://prehraj.to/zena-uspesneho-muza-1978-skdab/614e6f1e80257",
-      "upload_title": "Žena úspešného muža (1978) SKdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 64.8,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 14900,
-      "cr_slug": "zena-uspesneho-muza",
-      "title": "Žena úspešného muža",
-      "year": 1978,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30420721598",
-      "run_id": "30420721598",
-      "reserved_at": "2026-07-29T08:41:01Z"
-    },
     {
       "cr_film_id": 17289,
       "cr_slug": "strieborny-neptun",
