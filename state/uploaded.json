@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T15:19:38Z",
+  "last_updated": "2026-07-29T15:21:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -567484,19 +567484,30 @@
       "timing": {
         "resolve_sec": 1.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34412,
       "cr_slug": "mexicali",
       "title": "Mexicali",
       "year": 2026,
       "sktorrent_id": null,
-      "worker_id": "worker-1-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T15:18:07Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T15:21:05Z",
+      "first_failed_at": "2026-07-29T15:21:05Z",
+      "attempt_count": 1,
+      "upload_id": "1060eed301563098",
+      "source_url": "https://prehraj.to/mexicali-2026-mp4/1060eed301563098",
+      "upload_title": "Mexicali (2026).mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 138.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34501,
       "cr_slug": "livia",
