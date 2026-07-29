@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T04:41:15Z",
+  "last_updated": "2026-07-29T04:41:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -532722,6 +532722,30 @@
         "upload_sec": 203.9,
         "total_sec": 289.0
       }
+    },
+    {
+      "cr_film_id": 34042,
+      "cr_slug": "the-christmas-doctor",
+      "title": "The Christmas Doctor",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "6396800bd7728",
+      "source_url": "https://prehraj.to/vianocna-lekarka-2020-skdab/6396800bd7728",
+      "source_title": "Vianočná lekárka (2020) SKdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34756779/the-christmas-doctor-2020-sk-dabing.mp4",
+      "sdilej_name": "The Christmas Doctor (2020) SK Dabing.mp4",
+      "uploaded_at": "2026-07-29T04:41:29Z",
+      "status": "uploaded",
+      "size_bytes": 1632989563,
+      "worker_id": "worker-4-30408432169",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 60.3,
+        "upload_sec": 159.5,
+        "total_sec": 221.3
+      }
     }
   ],
   "failed_attempts": [
@@ -549342,27 +549366,6 @@
       }
     },
     {
-      "cr_film_id": 34042,
-      "cr_slug": "the-christmas-doctor",
-      "title": "The Christmas Doctor",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T04:07:19Z",
-      "first_failed_at": "2026-07-29T03:02:01Z",
-      "attempt_count": 3,
-      "upload_id": "6396800bd7728",
-      "source_url": "https://prehraj.to/vianocna-lekarka-2020-skdab/6396800bd7728",
-      "upload_title": "Vianočná lekárka (2020) SKdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 71.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 17531,
       "cr_slug": "vanocni-vymena",
       "title": "Vánoční výměna",
@@ -549406,16 +549409,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 34042,
-      "cr_slug": "the-christmas-doctor",
-      "title": "The Christmas Doctor",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30408432169",
-      "run_id": "30408432169",
-      "reserved_at": "2026-07-29T04:37:45Z"
-    },
     {
       "cr_film_id": 10214,
       "cr_slug": "jurassic-games",
