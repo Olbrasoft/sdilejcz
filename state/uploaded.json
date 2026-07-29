@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T11:31:40Z",
+  "last_updated": "2026-07-29T11:31:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -560517,19 +560517,30 @@
         "download_sec": 77.8,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29618,
       "cr_slug": "sye-raa-narasimha-reddy",
       "title": "Sye Raa Narasimha Reddy",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T11:27:03Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T11:31:53Z",
+      "first_failed_at": "2026-07-29T11:31:53Z",
+      "attempt_count": 1,
+      "upload_id": "5e36d4fa8f953",
+      "source_url": "https://prehraj.to/sye-raa-narasimha-reddy-akcni-sk-tit-2019-jad/5e36d4fa8f953",
+      "upload_title": "Sye Raa Narasimha Reddy-akční-sk tit.-2019-jad",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 252.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30879,
       "cr_slug": "suzi-q",
