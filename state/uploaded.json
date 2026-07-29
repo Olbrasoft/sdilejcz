@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T14:07:17Z",
+  "last_updated": "2026-07-29T14:08:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -565699,6 +565699,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 36689,
+      "cr_slug": "project-metalbeast",
+      "title": "Project: Metalbeast",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T14:08:31Z",
+      "first_failed_at": "2026-07-29T14:08:31Z",
+      "attempt_count": 1,
+      "upload_id": "68749753c6064",
+      "source_url": "https://prehraj.to/project-metalbeast-1995-720p-webrip-x264-aac-yts-mx-sk-tit/68749753c6064",
+      "upload_title": "Project.Metalbeast.1995.720p.WEBRip.x264.AAC-[YTS.MX]-sk tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 49.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -565711,16 +565732,6 @@
       "worker_id": "worker-1-30442813598",
       "run_id": "30442813598",
       "reserved_at": "2026-07-29T14:06:43Z"
-    },
-    {
-      "cr_film_id": 36689,
-      "cr_slug": "project-metalbeast",
-      "title": "Project: Metalbeast",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T14:07:05Z"
     },
     {
       "cr_film_id": 34315,
