@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T10:53:19Z",
+  "last_updated": "2026-07-29T10:54:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -559680,6 +559680,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 31077,
+      "cr_slug": "yaara",
+      "title": "Yaara",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T10:54:26Z",
+      "first_failed_at": "2026-07-29T10:54:26Z",
+      "attempt_count": 1,
+      "upload_id": "5feaa13166530",
+      "source_url": "https://prehraj.to/yaara-2020-sktitulky-mp4/5feaa13166530",
+      "upload_title": "Yaara (2020) SKtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 154.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -559692,16 +559713,6 @@
       "worker_id": "worker-4-30442813598",
       "run_id": "30442813598",
       "reserved_at": "2026-07-29T10:50:44Z"
-    },
-    {
-      "cr_film_id": 31077,
-      "cr_slug": "yaara",
-      "title": "Yaara",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T10:51:04Z"
     },
     {
       "cr_film_id": 17655,
