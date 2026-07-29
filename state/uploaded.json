@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T11:14:03Z",
+  "last_updated": "2026-07-29T11:14:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -543330,6 +543330,30 @@
         "upload_sec": 61.3,
         "total_sec": 85.6
       }
+    },
+    {
+      "cr_film_id": 31121,
+      "cr_slug": "leap",
+      "title": "Leap",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5fc6e79a7c9e2",
+      "source_url": "https://prehraj.to/leap-2020-chinese-1080p-webrip-x265-vxt-mp4/5fc6e79a7c9e2",
+      "source_title": "Leap.2020.CHINESE.1080p.WEBRip.x265-VXT",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34762753/leap-2020-sk-titulky.mp4",
+      "sdilej_name": "Leap (2020) SK Titulky.mp4",
+      "uploaded_at": "2026-07-29T11:14:18Z",
+      "status": "uploaded",
+      "size_bytes": 2161446012,
+      "worker_id": "worker-2-30442813598",
+      "timing": {
+        "resolve_sec": 3.6,
+        "download_sec": 83.0,
+        "upload_sec": 223.0,
+        "total_sec": 310.2
+      }
     }
   ],
   "failed_attempts": [
@@ -560127,27 +560151,6 @@
         "download_sec": 136.0,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 31121,
-      "cr_slug": "leap",
-      "title": "Leap",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T11:08:49Z",
-      "first_failed_at": "2026-07-29T11:08:49Z",
-      "attempt_count": 1,
-      "upload_id": "602d7e4e81ee5",
-      "source_url": "https://prehraj.to/leap-2020-sktitulky/602d7e4e81ee5",
-      "upload_title": "Leap (2020) SKtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 321.3,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -560160,16 +560163,6 @@
       "worker_id": "worker-3-30442813598",
       "run_id": "30442813598",
       "reserved_at": "2026-07-29T11:08:54Z"
-    },
-    {
-      "cr_film_id": 31121,
-      "cr_slug": "leap",
-      "title": "Leap",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T11:09:05Z"
     },
     {
       "cr_film_id": 26975,
