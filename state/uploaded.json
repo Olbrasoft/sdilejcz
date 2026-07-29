@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T15:45:36Z",
+  "last_updated": "2026-07-29T15:48:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -550746,6 +550746,30 @@
         "upload_sec": 451.4,
         "total_sec": 618.1
       }
+    },
+    {
+      "cr_film_id": 34437,
+      "cr_slug": "avengers-doomsday",
+      "title": "Avengers: Doomsday",
+      "year": 2026,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "5a3fdd7149d5fdfe",
+      "source_url": "https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/5a3fdd7149d5fdfe",
+      "source_title": "Avengers Doomsday (2026) 1080p CZ",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34770931/avengers-doomsday-2026-.mp4",
+      "sdilej_name": "Avengers: Doomsday (2026).mp4",
+      "uploaded_at": "2026-07-29T15:48:56Z",
+      "status": "uploaded",
+      "size_bytes": 1274284942,
+      "worker_id": "worker-2-30442813598",
+      "timing": {
+        "resolve_sec": 1.8,
+        "download_sec": 67.8,
+        "upload_sec": 126.5,
+        "total_sec": 201.5
+      }
     }
   ],
   "failed_attempts": [
@@ -567843,25 +567867,6 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    },
-    {
-      "cr_film_id": 34437,
-      "cr_slug": "avengers-doomsday",
-      "title": "Avengers: Doomsday",
-      "year": 2026,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/e6eab79b3b89116f",
-      "failed_at": "2026-07-29T15:45:36Z",
-      "first_failed_at": "2026-07-29T15:45:36Z",
-      "attempt_count": 1,
-      "upload_id": "e6eab79b3b89116f",
-      "source_url": "https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/e6eab79b3b89116f",
-      "upload_title": "Avengers Doomsday (2026) 1080p CZ.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
     }
   ],
   "in_progress": [
@@ -567884,16 +567889,6 @@
       "worker_id": "worker-1-30442813598",
       "run_id": "30442813598",
       "reserved_at": "2026-07-29T15:43:18Z"
-    },
-    {
-      "cr_film_id": 34437,
-      "cr_slug": "avengers-doomsday",
-      "title": "Avengers: Doomsday",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T15:45:31Z"
     }
   ]
 }
