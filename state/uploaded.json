@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T04:57:48Z",
+  "last_updated": "2026-07-29T04:59:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -533058,6 +533058,30 @@
         "upload_sec": 153.5,
         "total_sec": 223.4
       }
+    },
+    {
+      "cr_film_id": 26302,
+      "cr_slug": "tien-jaguara",
+      "title": "Tieň jaguára",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "600b578d339ad",
+      "source_url": "https://prehraj.to/tien-jaguara-2018-skdab/600b578d339ad",
+      "source_title": "Tieň jaguára (2018) SKdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34756832/tien-jaguara-2018-sk-dabing.mp4",
+      "sdilej_name": "Tieň jaguára (2018) SK Dabing.mp4",
+      "uploaded_at": "2026-07-29T04:59:27Z",
+      "status": "uploaded",
+      "size_bytes": 3350462115,
+      "worker_id": "worker-4-30408432169",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 120.2,
+        "upload_sec": 328.6,
+        "total_sec": 450.7
+      }
     }
   ],
   "failed_attempts": [
@@ -549678,27 +549702,6 @@
       }
     },
     {
-      "cr_film_id": 26302,
-      "cr_slug": "tien-jaguara",
-      "title": "Tieň jaguára",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T04:21:02Z",
-      "first_failed_at": "2026-07-29T04:21:02Z",
-      "attempt_count": 1,
-      "upload_id": "600b578d339ad",
-      "source_url": "https://prehraj.to/tien-jaguara-2018-skdab/600b578d339ad",
-      "upload_title": "Tieň jaguára (2018) SKdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 185.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 29690,
       "cr_slug": "az-prijde-valka",
       "title": "Až přijde válka",
@@ -549742,16 +549745,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 26302,
-      "cr_slug": "tien-jaguara",
-      "title": "Tieň jaguára",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30408432169",
-      "run_id": "30408432169",
-      "reserved_at": "2026-07-29T04:51:53Z"
-    },
     {
       "cr_film_id": 29674,
       "cr_slug": "vanocni-zazrak-2017",
