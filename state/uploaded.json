@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T02:07:09Z",
+  "last_updated": "2026-07-29T02:07:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -529794,6 +529794,30 @@
         "upload_sec": 274.9,
         "total_sec": 376.7
       }
+    },
+    {
+      "cr_film_id": 36901,
+      "cr_slug": "sneh",
+      "title": "Sneh",
+      "year": 2022,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "653986c0338e7",
+      "source_url": "https://prehraj.to/sneh-2022-skdabing/653986c0338e7",
+      "source_title": "Sneh (2022) SKdabing",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34756424/sneh-2022-sk-dabing.mp4",
+      "sdilej_name": "Sneh (2022) SK Dabing.mp4",
+      "uploaded_at": "2026-07-29T02:07:33Z",
+      "status": "uploaded",
+      "size_bytes": 1847588310,
+      "worker_id": "worker-1-30408432169",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 98.2,
+        "upload_sec": 212.4,
+        "total_sec": 312.2
+      }
     }
   ],
   "failed_attempts": [
@@ -546401,27 +546425,6 @@
       }
     },
     {
-      "cr_film_id": 36901,
-      "cr_slug": "sneh",
-      "title": "Sneh",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T02:00:48Z",
-      "first_failed_at": "2026-07-29T02:00:48Z",
-      "attempt_count": 1,
-      "upload_id": "665144367315a",
-      "source_url": "https://prehraj.to/sneh-2022-skdab/665144367315a",
-      "upload_title": "Sneh (2022) SKdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 105.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 15879,
       "cr_slug": "pohadka-o-zabakovi-a-zlate-kouli",
       "title": "Pohádka o žabákovi a zlaté kouli",
@@ -546444,16 +546447,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 36901,
-      "cr_slug": "sneh",
-      "title": "Sneh",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30408432169",
-      "run_id": "30408432169",
-      "reserved_at": "2026-07-29T02:02:18Z"
-    },
     {
       "cr_film_id": 16183,
       "cr_slug": "kavej",
