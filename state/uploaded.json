@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T15:54:16Z",
+  "last_updated": "2026-07-29T15:58:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -550818,6 +550818,30 @@
         "upload_sec": 735.4,
         "total_sec": 1073.6
       }
+    },
+    {
+      "cr_film_id": 34412,
+      "cr_slug": "mexicali",
+      "title": "Mexicali",
+      "year": 2026,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "1060eed301563098",
+      "source_url": "https://prehraj.to/mexicali-2026-mp4/1060eed301563098",
+      "source_title": "Mexicali (2026).mp4",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34770949/mexicali-2026-.mp4",
+      "sdilej_name": "Mexicali (2026).mp4",
+      "uploaded_at": "2026-07-29T15:58:51Z",
+      "status": "uploaded",
+      "size_bytes": 2268805248,
+      "worker_id": "worker-4-30465818394",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 79.9,
+        "upload_sec": 227.6,
+        "total_sec": 309.1
+      }
     }
   ],
   "failed_attempts": [
@@ -567801,27 +567825,6 @@
       }
     },
     {
-      "cr_film_id": 34412,
-      "cr_slug": "mexicali",
-      "title": "Mexicali",
-      "year": 2026,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T15:21:05Z",
-      "first_failed_at": "2026-07-29T15:21:05Z",
-      "attempt_count": 1,
-      "upload_id": "1060eed301563098",
-      "source_url": "https://prehraj.to/mexicali-2026-mp4/1060eed301563098",
-      "upload_title": "Mexicali (2026).mp4",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 138.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 29141,
       "cr_slug": "how-to-make-a-killing",
       "title": "How to Make a Killing",
@@ -567956,16 +567959,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 34412,
-      "cr_slug": "mexicali",
-      "title": "Mexicali",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30465818394",
-      "run_id": "30465818394",
-      "reserved_at": "2026-07-29T15:53:37Z"
-    },
     {
       "cr_film_id": 34429,
       "cr_slug": "6-gramu",
