@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T11:46:49Z",
+  "last_updated": "2026-07-29T11:48:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -560922,6 +560922,27 @@
         "download_sec": 252.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 30999,
+      "cr_slug": "hinsdale-house",
+      "title": "Hinsdale House",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T11:48:05Z",
+      "first_failed_at": "2026-07-29T11:48:05Z",
+      "attempt_count": 1,
+      "upload_id": "5e0d2b1eb0c57",
+      "source_url": "https://prehraj.to/hinsdale-house-horor-2019-720p-800mb-x264-s-sktitulky-sten/5e0d2b1eb0c57",
+      "upload_title": "Hinsdale House horor 2019.720p.800MB.x264.s.Sktitulky.STEN",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 47.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -560944,16 +560965,6 @@
       "worker_id": "worker-1-30442813598",
       "run_id": "30442813598",
       "reserved_at": "2026-07-29T11:45:53Z"
-    },
-    {
-      "cr_film_id": 30999,
-      "cr_slug": "hinsdale-house",
-      "title": "Hinsdale House",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T11:46:31Z"
     },
     {
       "cr_film_id": 29120,
