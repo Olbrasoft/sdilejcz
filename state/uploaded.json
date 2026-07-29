@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T04:50:51Z",
+  "last_updated": "2026-07-29T04:51:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -532938,6 +532938,30 @@
         "upload_sec": 201.3,
         "total_sec": 286.3
       }
+    },
+    {
+      "cr_film_id": 17531,
+      "cr_slug": "vanocni-vymena",
+      "title": "Vánoční výměna",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "61b95f93ab52b",
+      "source_url": "https://prehraj.to/vianocna-vymena-2018-skdab/61b95f93ab52b",
+      "source_title": "Vianočná výmena (2018) SKdab",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34756815/vanocni-vymena-2018-sk-dabing.mp4",
+      "sdilej_name": "Vánoční výměna (2018) SK Dabing.mp4",
+      "uploaded_at": "2026-07-29T04:51:47Z",
+      "status": "uploaded",
+      "size_bytes": 2131905567,
+      "worker_id": "worker-4-30408432169",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 81.0,
+        "upload_sec": 211.9,
+        "total_sec": 296.1
+      }
     }
   ],
   "failed_attempts": [
@@ -549558,27 +549582,6 @@
       }
     },
     {
-      "cr_film_id": 17531,
-      "cr_slug": "vanocni-vymena",
-      "title": "Vánoční výměna",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T04:15:47Z",
-      "first_failed_at": "2026-07-29T04:15:47Z",
-      "attempt_count": 1,
-      "upload_id": "61b95f93ab52b",
-      "source_url": "https://prehraj.to/vianocna-vymena-2018-skdab/61b95f93ab52b",
-      "upload_title": "Vianočná výmena (2018) SKdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 98.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 26302,
       "cr_slug": "tien-jaguara",
       "title": "Tieň jaguára",
@@ -549622,16 +549625,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 17531,
-      "cr_slug": "vanocni-vymena",
-      "title": "Vánoční výměna",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30408432169",
-      "run_id": "30408432169",
-      "reserved_at": "2026-07-29T04:46:42Z"
-    },
     {
       "cr_film_id": 17302,
       "cr_slug": "christmas-perfection",
