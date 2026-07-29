@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T04:59:34Z",
+  "last_updated": "2026-07-29T04:59:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -549742,19 +549742,30 @@
         "download_sec": 179.5,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29674,
       "cr_slug": "vanocni-zazrak-2017",
       "title": "Vánoční zázrak",
       "year": 2017,
       "sktorrent_id": null,
-      "worker_id": "worker-3-30408432169",
-      "run_id": "30408432169",
-      "reserved_at": "2026-07-29T04:54:41Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T04:59:39Z",
+      "first_failed_at": "2026-07-29T04:59:39Z",
+      "attempt_count": 1,
+      "upload_id": "61c51085a5bca",
+      "source_url": "https://prehraj.to/vianocny-zazrak-2017-skdab/61c51085a5bca",
+      "upload_title": "Vianočný zázrak (2017) SKdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 256.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35244,
       "cr_slug": "vymodlene-dite",
