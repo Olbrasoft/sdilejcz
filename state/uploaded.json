@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T13:59:11Z",
+  "last_updated": "2026-07-29T13:59:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -565459,6 +565459,27 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 36634,
+      "cr_slug": "the-line",
+      "title": "The Line",
+      "year": 2007,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T13:59:59Z",
+      "first_failed_at": "2026-07-29T13:59:59Z",
+      "attempt_count": 1,
+      "upload_id": "611041ccb7f65",
+      "source_url": "https://prehraj.to/cross-the-line-2020-sktitulky/611041ccb7f65",
+      "upload_title": "Cross the Line (2020) SKtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 106.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -565471,16 +565492,6 @@
       "worker_id": "worker-3-30442813598",
       "run_id": "30442813598",
       "reserved_at": "2026-07-29T13:56:03Z"
-    },
-    {
-      "cr_film_id": 36634,
-      "cr_slug": "the-line",
-      "title": "The Line",
-      "year": 2007,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T13:57:36Z"
     },
     {
       "cr_film_id": 25983,
