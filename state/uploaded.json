@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T10:59:15Z",
+  "last_updated": "2026-07-29T11:01:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -559821,6 +559821,27 @@
         "download_sec": 154.5,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 33709,
+      "cr_slug": "perske-lekce",
+      "title": "Perské lekce",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T11:01:02Z",
+      "first_failed_at": "2026-07-29T11:01:02Z",
+      "attempt_count": 1,
+      "upload_id": "611ec8191685a",
+      "source_url": "https://prehraj.to/persian-lessons-2020-sktitulky/611ec8191685a",
+      "upload_title": "Persian Lessons (2020) SKtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 72.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -559853,16 +559874,6 @@
       "worker_id": "worker-3-30442813598",
       "run_id": "30442813598",
       "reserved_at": "2026-07-29T10:58:51Z"
-    },
-    {
-      "cr_film_id": 33709,
-      "cr_slug": "perske-lekce",
-      "title": "Perské lekce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T10:59:15Z"
     }
   ]
 }
