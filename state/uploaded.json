@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T03:37:56Z",
+  "last_updated": "2026-07-29T03:38:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -531450,6 +531450,30 @@
         "upload_sec": 215.0,
         "total_sec": 312.1
       }
+    },
+    {
+      "cr_film_id": 37156,
+      "cr_slug": "samsam-nejmensi-superhrdina",
+      "title": "Samsam: Nejmenší superhrdina",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "81743d07ca4636f4",
+      "source_url": "https://prehraj.to/samsam-nejmensi-superhrdina-2020-sk-dabing/81743d07ca4636f4",
+      "source_title": "Samsam: Nejmenší superhrdina (2020) SK Dabing",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/34756585/samsam-nejmensi-superhrdina-2020-sk-dabing.mp4",
+      "sdilej_name": "Samsam: Nejmenší superhrdina (2020) SK Dabing.mp4",
+      "uploaded_at": "2026-07-29T03:38:07Z",
+      "status": "uploaded",
+      "size_bytes": 891382486,
+      "worker_id": "worker-3-30408432169",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 50.4,
+        "upload_sec": 116.9,
+        "total_sec": 169.1
+      }
     }
   ],
   "failed_attempts": [
@@ -548070,27 +548094,6 @@
       }
     },
     {
-      "cr_film_id": 37156,
-      "cr_slug": "samsam-nejmensi-superhrdina",
-      "title": "Samsam: Nejmenší superhrdina",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T03:04:26Z",
-      "first_failed_at": "2026-07-29T03:04:26Z",
-      "attempt_count": 1,
-      "upload_id": "81743d07ca4636f4",
-      "source_url": "https://prehraj.to/samsam-nejmensi-superhrdina-2020-sk-dabing/81743d07ca4636f4",
-      "upload_title": "Samsam: Nejmenší superhrdina (2020) SK Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 42.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14223,
       "cr_slug": "pekelny-dum",
       "title": "Pekelný dům",
@@ -548176,16 +548179,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 37156,
-      "cr_slug": "samsam-nejmensi-superhrdina",
-      "title": "Samsam: Nejmenší superhrdina",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-30408432169",
-      "run_id": "30408432169",
-      "reserved_at": "2026-07-29T03:35:15Z"
-    },
     {
       "cr_film_id": 14204,
       "cr_slug": "vanocni-hvezdy",
