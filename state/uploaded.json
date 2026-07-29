@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T11:38:44Z",
+  "last_updated": "2026-07-29T11:39:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -560706,6 +560706,27 @@
         "download_sec": 252.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 1955,
+      "cr_slug": "queen-slim",
+      "title": "Queen & Slim",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T11:39:17Z",
+      "first_failed_at": "2026-07-29T11:39:17Z",
+      "attempt_count": 1,
+      "upload_id": "60720a71cf330",
+      "source_url": "https://prehraj.to/queen-of-hearts-2019-sktitulky/60720a71cf330",
+      "upload_title": "Queen of Hearts (2019) SKtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 200.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -560718,16 +560739,6 @@
       "worker_id": "worker-3-30442813598",
       "run_id": "30442813598",
       "reserved_at": "2026-07-29T11:31:58Z"
-    },
-    {
-      "cr_film_id": 1955,
-      "cr_slug": "queen-slim",
-      "title": "Queen & Slim",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-30442813598",
-      "run_id": "30442813598",
-      "reserved_at": "2026-07-29T11:35:21Z"
     },
     {
       "cr_film_id": 20585,
