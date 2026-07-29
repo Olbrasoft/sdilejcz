@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T02:23:02Z",
+  "last_updated": "2026-07-29T02:24:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -530130,6 +530130,30 @@
         "upload_sec": 250.8,
         "total_sec": 338.9
       }
+    },
+    {
+      "cr_film_id": 10422,
+      "cr_slug": "sheroes",
+      "title": "Sheroes",
+      "year": 2023,
+      "source": "prehrajto",
+      "source_backlog": "phase2-candidate-films.jsonl.gz",
+      "source_upload_id": "4baa3fc33586afee",
+      "source_url": "https://prehraj.to/sheroes-2023-sk-dab-1080p/4baa3fc33586afee",
+      "source_title": "Sheroes 2023 SK dab 1080p",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/34756458/sheroes-2023-sk-dabing.mp4",
+      "sdilej_name": "Sheroes (2023) SK Dabing.mp4",
+      "uploaded_at": "2026-07-29T02:24:21Z",
+      "status": "uploaded",
+      "size_bytes": 1870145097,
+      "worker_id": "worker-1-30408432169",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 87.9,
+        "upload_sec": 208.9,
+        "total_sec": 298.7
+      }
     }
   ],
   "failed_attempts": [
@@ -546672,40 +546696,9 @@
       "timing": {
         "resolve_sec": 1.7
       }
-    },
-    {
-      "cr_film_id": 10422,
-      "cr_slug": "sheroes",
-      "title": "Sheroes",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-07-29T01:48:25Z",
-      "first_failed_at": "2026-07-29T01:48:25Z",
-      "attempt_count": 1,
-      "upload_id": "4baa3fc33586afee",
-      "source_url": "https://prehraj.to/sheroes-2023-sk-dab-1080p/4baa3fc33586afee",
-      "upload_title": "Sheroes 2023 SK dab 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 3.2,
-        "download_sec": 118.1,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 10422,
-      "cr_slug": "sheroes",
-      "title": "Sheroes",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-30408432169",
-      "run_id": "30408432169",
-      "reserved_at": "2026-07-29T02:19:19Z"
-    },
     {
       "cr_film_id": 15603,
       "cr_slug": "designing-christmas",
