@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-07-29T01:47:32Z",
+  "last_updated": "2026-07-29T01:48:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -546087,6 +546087,27 @@
       "timing": {
         "resolve_sec": 1.7
       }
+    },
+    {
+      "cr_film_id": 10422,
+      "cr_slug": "sheroes",
+      "title": "Sheroes",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-07-29T01:48:25Z",
+      "first_failed_at": "2026-07-29T01:48:25Z",
+      "attempt_count": 1,
+      "upload_id": "4baa3fc33586afee",
+      "source_url": "https://prehraj.to/sheroes-2023-sk-dab-1080p/4baa3fc33586afee",
+      "upload_title": "Sheroes 2023 SK dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 3.2,
+        "download_sec": 118.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -546109,16 +546130,6 @@
       "worker_id": "worker-4-30408432169",
       "run_id": "30408432169",
       "reserved_at": "2026-07-29T01:44:59Z"
-    },
-    {
-      "cr_film_id": 10422,
-      "cr_slug": "sheroes",
-      "title": "Sheroes",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-30408432169",
-      "run_id": "30408432169",
-      "reserved_at": "2026-07-29T01:45:47Z"
     },
     {
       "cr_film_id": 12790,
