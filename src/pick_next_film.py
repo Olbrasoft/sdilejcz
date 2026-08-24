@@ -12,6 +12,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_BACKLOGS = (
+    REPO_ROOT / "backlog" / "catalog-films.jsonl.gz",
     REPO_ROOT / "backlog" / "prehrajto-films.jsonl.gz",
     REPO_ROOT / "backlog" / "phase2-candidate-films.jsonl.gz",
     REPO_ROOT / "backlog" / "sktorrent-films.jsonl",
@@ -89,14 +90,27 @@ def failure_retryable(failure: dict, now: dt.datetime | None = None) -> bool:
 
 
 def excluded_ids(state: dict, extra: set[int] | None = None) -> set[int]:
-    done = {u["cr_film_id"] for u in state.get("uploads", [])}
-    failed = {
-        f["cr_film_id"]
-        for f in state.get("failed_attempts", [])
-        if not f.get("upload_id") and not failure_retryable(f)
+    done = {
+        u["cr_film_id"]
+        for u in state.get("uploads", [])
+        if u.get("status", "uploaded") == "uploaded"
     }
     reserved = {r["cr_film_id"] for r in state.get("in_progress", [])}
-    return done | failed | reserved | (extra or set())
+    return done | reserved | (extra or set())
+
+
+def provider_available(film: dict, state: dict, provider: str) -> bool:
+    source = film.get(f"{provider}_source")
+    if not source:
+        return False
+    failures = [
+        item
+        for item in state.get("failed_attempts", [])
+        if item.get("cr_film_id") == film.get("cr_film_id")
+        and item.get("source") == provider
+        and not item.get("upload_id")
+    ]
+    return not failures or failure_retryable(failures[-1])
 
 
 def _require_cs_audio() -> bool:
@@ -126,9 +140,12 @@ def pick_next(
         if row.get("cr_film_id") in excluded:
             continue
         if row.get("candidates"):
-            if pick_candidate(row, state) is None:
-                continue
+            if pick_candidate(row, state) is not None:
+                return row
+        if provider_available(row, state, "sktorrent") or provider_available(row, state, "sledujteto"):
             return row
+        if row.get("candidates"):
+            continue
         if require_cs:
             has_cs_audio = row.get("detected_language") in ("cs", "sk")
             has_subtitles = _has_cz_sk_subtitles(row) or _has_burned_in_subs(row)

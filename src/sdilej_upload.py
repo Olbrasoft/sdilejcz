@@ -8,6 +8,7 @@ Run:
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import mimetypes
 import os
@@ -30,6 +31,7 @@ LOGIN_URL = f"{BASE_URL}/sql.php"
 LOGIN_PAGE = f"{BASE_URL}/prihlasit"
 UPLOAD_PAGE = f"{BASE_URL}/upload"
 UPLOAD_URL = "https://uploadweb2.sdilej.cz/upload/index.php"
+FILE_MANAGER_URL = f"{BASE_URL}/spravce-souboru"
 DEFAULT_CHUNK_SIZE = 2 * 1024 * 1024
 DEFAULT_CHUNK_RETRIES = 5
 USER_AGENT = (
@@ -40,6 +42,15 @@ USER_AGENT = (
 
 class SdilejError(RuntimeError):
     """Raised when Sdilej.cz returns an unexpected response."""
+
+
+def file_id_from_url(url: str | None) -> int | None:
+    """Return a positive Sdilej file id, rejecting incomplete upload URLs."""
+    match = re.match(r"https?://(?:www\.)?sdilej\.cz/(\d+)(?:/|$)", url or "")
+    if not match:
+        return None
+    file_id = int(match.group(1))
+    return file_id if file_id > 0 else None
 
 
 def _load_dotenv() -> None:
@@ -77,6 +88,24 @@ def fetch_user_id(session: requests.Session) -> str:
     if not match:
         raise SdilejError("Upload page did not contain a user_id field")
     return match.group(1)
+
+
+def list_account_files(session: requests.Session) -> dict[int, dict[str, str]]:
+    """Fetch completed files shown in the authenticated file manager."""
+    response = session.get(FILE_MANAGER_URL, timeout=120)
+    response.raise_for_status()
+    pattern = re.compile(
+        r'<a href="(https://sdilej\.cz/(\d+)/[^"<]+)"[^>]*>(.*?)</a>',
+        re.IGNORECASE | re.DOTALL,
+    )
+    files: dict[int, dict[str, str]] = {}
+    for url, raw_id, raw_name in pattern.findall(response.text):
+        file_id = int(raw_id)
+        name = html.unescape(re.sub(r"<[^>]+>", "", raw_name))
+        files[file_id] = {"url": url, "name": name.strip()}
+    if not files:
+        raise SdilejError("File manager did not contain any completed files")
+    return files
 
 
 def _parse_upload_response(response: requests.Response) -> dict:
@@ -173,6 +202,8 @@ def upload_file(
 
     if not last or "url" not in last:
         raise SdilejError(f"Final upload response did not include url: {last!r}")
+    if file_id_from_url(last.get("url")) is None:
+        raise SdilejError(f"Final upload response contains an invalid file id: {last!r}")
     return last
 
 

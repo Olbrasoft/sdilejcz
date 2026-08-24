@@ -19,8 +19,43 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  reconcile-account:
+    name: Reconcile Sdilej.cz account
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Reconcile completed account files
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+        run: python src/reconcile_account.py
+
+      - name: Persist reconciliation
+        run: |
+          if git diff --quiet -- state/uploaded.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/uploaded.json
+          git commit -m "chore(sync): reconcile Sdilej.cz account"
+          git push
+
   upload-batch:
     name: Upload missing films to Sdilej.cz (${{ matrix.worker }})
+    needs: reconcile-account
     runs-on: ubuntu-latest
     timeout-minutes: 350
     strategy:

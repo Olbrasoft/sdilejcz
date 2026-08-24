@@ -13,9 +13,19 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from download_prehrajto import DownloadError as PrehrajtoDownloadError, download_to as download_prehrajto
-from pick_next_film import STATE, configured_backlogs, display_name, load_backlog, load_state, pick_candidate, pick_next
+from pick_next_film import (
+    STATE,
+    configured_backlogs,
+    display_name,
+    load_backlog,
+    load_state,
+    pick_candidate,
+    pick_next,
+    provider_available,
+)
 from resolve_prehrajto_stream import ResolveError, pick_best, resolve as resolve_prehrajto
 from resolve_sktorrent_cdn import resolve as resolve_cdn
+from resolve_sledujteto_cdn import resolve as resolve_sledujteto
 from sdilej_upload import login, upload_file
 
 
@@ -23,6 +33,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 LOG_PATH = REPO_ROOT / "state" / "sync.log"
 TMP_DIR = Path("/tmp")
 MIN_FILE_SIZE = 10_000_000
+MAX_FILE_SIZE = 6_000_000_000
 RESERVATION_TTL_MINUTES = 480
 
 
@@ -124,7 +135,14 @@ def safe_filename(name: str) -> str:
     return name.replace("/", "_").replace("\\", "_")
 
 
-def download(url: str, dest: Path, timeout_sec: int = 540) -> int:
+def download(
+    url: str,
+    dest: Path,
+    timeout_sec: int = 3600,
+    *,
+    referer: str = "https://sktorrent.eu/",
+    use_range: bool = False,
+) -> int:
     command = [
         "curl",
         "-fL",
@@ -132,7 +150,7 @@ def download(url: str, dest: Path, timeout_sec: int = 540) -> int:
         "-H",
         "User-Agent: Mozilla/5.0",
         "-H",
-        "Referer: https://sktorrent.eu/",
+        f"Referer: {referer}",
         "--max-time",
         str(timeout_sec),
         "--speed-time",
@@ -144,10 +162,15 @@ def download(url: str, dest: Path, timeout_sec: int = 540) -> int:
         "-o",
         str(dest),
     ]
+    if use_range:
+        command[7:7] = ["-H", "Range: bytes=0-"]
     proc = subprocess.run(command, capture_output=True, text=True)
     if proc.returncode != 0:
         raise RuntimeError(f"curl exit={proc.returncode} stderr={proc.stderr.strip()[:200]}")
     size = dest.stat().st_size
+    if size > MAX_FILE_SIZE:
+        dest.unlink(missing_ok=True)
+        raise RuntimeError(f"file exceeds max size: {size} B")
     if size < MIN_FILE_SIZE:
         raise RuntimeError(f"file too small: {size} B")
     return size
@@ -167,6 +190,23 @@ def remove_failed_attempt(state: dict, cr_film_id: int, upload_id: str | None = 
         same_film = item.get("cr_film_id") == cr_film_id
         same_candidate = upload_id is None or str(item.get("upload_id") or "") == str(upload_id)
         if same_film and same_candidate:
+            previous = item
+        else:
+            kept.append(item)
+    state["failed_attempts"] = kept
+    return previous
+
+
+def remove_provider_failure(state: dict, cr_film_id: int, source: str) -> dict | None:
+    previous: dict | None = None
+    kept = []
+    for item in state.get("failed_attempts", []):
+        same_failure = (
+            item.get("cr_film_id") == cr_film_id
+            and item.get("source") == source
+            and not item.get("upload_id")
+        )
+        if same_failure:
             previous = item
         else:
             kept.append(item)
@@ -206,19 +246,25 @@ def record_failure(
     candidate: dict | None = None,
     permanent: bool | None = None,
     keep_reservation: bool = False,
+    source: str | None = None,
 ) -> None:
     def mutate(state: dict):
         if not keep_reservation:
             remove_reservation(state, film["cr_film_id"], worker_id)
         upload_id = str(candidate.get("upload_id")) if candidate and candidate.get("upload_id") else None
-        previous = remove_failed_attempt(state, film["cr_film_id"], upload_id)
+        if upload_id:
+            previous = remove_failed_attempt(state, film["cr_film_id"], upload_id)
+        elif source:
+            previous = remove_provider_failure(state, film["cr_film_id"], source)
+        else:
+            previous = remove_failed_attempt(state, film["cr_film_id"])
         entry = {
             "cr_film_id": film["cr_film_id"],
             "cr_slug": film.get("cr_slug"),
             "title": film["title"],
             "year": film["year"],
             "sktorrent_id": film.get("id"),
-            "source": "prehrajto" if candidate else "sktorrent",
+            "source": source or ("prehrajto" if candidate else "sktorrent"),
             "reason": reason,
             "failed_at": now_iso(),
             "first_failed_at": (previous or {}).get("first_failed_at") or (previous or {}).get("failed_at") or now_iso(),
@@ -255,6 +301,8 @@ def process_prehrajto(film: dict, session, worker_id: str) -> bool:
         state = load_state()
         candidate = pick_candidate(film, state)
         if candidate is None:
+            if film.get("sktorrent_source") or film.get("sledujteto_source"):
+                return process_fallback(film, session, worker_id)
             record_failure(film, "candidate_failed: no usable prehrajto candidate left", worker_id)
             return False
 
@@ -288,6 +336,8 @@ def process_prehrajto(film: dict, session, worker_id: str) -> bool:
             )
             if exc.permanent and candidates_left_after_failure(film):
                 continue
+            if exc.permanent and (film.get("sktorrent_source") or film.get("sledujteto_source")):
+                return process_fallback(film, session, worker_id)
             remove_reservation_transaction(film, worker_id)
             return False
 
@@ -317,6 +367,8 @@ def process_prehrajto(film: dict, session, worker_id: str) -> bool:
             )
             if permanent and candidates_left_after_failure(film):
                 continue
+            if permanent and (film.get("sktorrent_source") or film.get("sledujteto_source")):
+                return process_fallback(film, session, worker_id)
             remove_reservation_transaction(film, worker_id)
             return False
 
@@ -392,21 +444,22 @@ def remove_reservation_transaction(film: dict, worker_id: str) -> None:
     state_transaction(f"release cr_film_id={film['cr_film_id']}", mutate)
 
 
-def process_one(film: dict, session, worker_id: str) -> bool:
-    if film.get("candidates"):
-        return process_prehrajto(film, session, worker_id)
-
+def process_sktorrent(film: dict, session, worker_id: str) -> bool:
+    source = film.get("sktorrent_source") or film
     name = display_name(film)
     cr_film_id = film["cr_film_id"]
     start_total = time.monotonic()
-    log(f"step=film-start cr_film_id={cr_film_id} name={name!r}")
+    log(f"step=film-start source=sktorrent cr_film_id={cr_film_id} name={name!r}")
 
     t = time.monotonic()
-    resolved = resolve_cdn(film["url"])
+    resolved = resolve_cdn(source["url"])
     cdn_sec = round(time.monotonic() - t, 1)
     if not resolved:
         log(f"step=cdn-resolve failed cr_film_id={cr_film_id}")
-        record_failure(film, "cdn_resolve_failed", worker_id, {"cdn_resolve_sec": cdn_sec})
+        record_failure(
+            film, "cdn_resolve_failed", worker_id,
+            {"cdn_resolve_sec": cdn_sec}, source="sktorrent",
+        )
         return False
     log(f"step=cdn-resolve done cr_film_id={cr_film_id} dur={cdn_sec}s url={resolved}")
 
@@ -426,6 +479,7 @@ def process_one(film: dict, session, worker_id: str) -> bool:
             f"download_failed: {exc}",
             worker_id,
             {"cdn_resolve_sec": cdn_sec, "download_sec": download_sec},
+            source="sktorrent",
         )
         return False
 
@@ -446,6 +500,7 @@ def process_one(film: dict, session, worker_id: str) -> bool:
                 "download_sec": download_sec,
                 "upload_sec": upload_sec,
             },
+            source="sktorrent",
         )
         return False
     finally:
@@ -458,7 +513,9 @@ def process_one(film: dict, session, worker_id: str) -> bool:
         "cr_slug": film.get("cr_slug"),
         "title": film["title"],
         "year": film["year"],
-        "sktorrent_id": film.get("id"),
+        "source": "sktorrent",
+        "source_backlog": film.get("_source_backlog"),
+        "sktorrent_id": source.get("id"),
         "sdilej_url": result["url"],
         "sdilej_name": result.get("name"),
         "uploaded_at": now_iso(),
@@ -484,6 +541,129 @@ def process_one(film: dict, session, worker_id: str) -> bool:
     state, _ = state_transaction(f"upload cr_film_id={cr_film_id}", mutate)
     log(f"step=state-saved cr_film_id={cr_film_id} total_uploads={len(state.get('uploads', []))}")
     return True
+
+
+def process_sledujteto(film: dict, session, worker_id: str) -> bool:
+    source = film["sledujteto_source"]
+    name = display_name(film)
+    cr_film_id = film["cr_film_id"]
+    file_id = source["file_id"]
+    start_total = time.monotonic()
+    log(f"step=film-start source=sledujteto cr_film_id={cr_film_id} file_id={file_id} name={name!r}")
+
+    if (source.get("filesize_bytes") or 0) > MAX_FILE_SIZE:
+        record_failure(
+            film,
+            f"download_failed: file exceeds max size: {source['filesize_bytes']} B",
+            worker_id,
+            permanent=True,
+            source="sledujteto",
+        )
+        return False
+
+    t = time.monotonic()
+    resolved = resolve_sledujteto(file_id, source.get("cdn"))
+    resolve_sec = round(time.monotonic() - t, 1)
+    if not resolved:
+        record_failure(
+            film, "cdn_resolve_failed", worker_id,
+            {"cdn_resolve_sec": resolve_sec}, source="sledujteto",
+        )
+        return False
+
+    tmp_path = TMP_DIR / safe_filename(name)
+    t = time.monotonic()
+    try:
+        size = download(
+            resolved,
+            tmp_path,
+            referer="https://www.sledujteto.cz/",
+            use_range=True,
+        )
+        download_sec = round(time.monotonic() - t, 1)
+    except Exception as exc:
+        download_sec = round(time.monotonic() - t, 1)
+        tmp_path.unlink(missing_ok=True)
+        record_failure(
+            film,
+            f"download_failed: {exc}",
+            worker_id,
+            {"cdn_resolve_sec": resolve_sec, "download_sec": download_sec},
+            source="sledujteto",
+        )
+        return False
+
+    t = time.monotonic()
+    try:
+        result = upload_file(session, tmp_path, display_name=name)
+        upload_sec = round(time.monotonic() - t, 1)
+    except Exception as exc:
+        upload_sec = round(time.monotonic() - t, 1)
+        record_failure(
+            film,
+            f"upload_failed: {exc}",
+            worker_id,
+            {
+                "cdn_resolve_sec": resolve_sec,
+                "download_sec": download_sec,
+                "upload_sec": upload_sec,
+            },
+            source="sledujteto",
+        )
+        return False
+    finally:
+        tmp_path.unlink(missing_ok=True)
+
+    entry = {
+        "cr_film_id": cr_film_id,
+        "cr_slug": film.get("cr_slug"),
+        "title": film["title"],
+        "year": film.get("year"),
+        "source": "sledujteto",
+        "source_backlog": film.get("_source_backlog"),
+        "source_file_id": file_id,
+        "source_cdn": source.get("cdn"),
+        "sdilej_url": result["url"],
+        "sdilej_name": result.get("name"),
+        "uploaded_at": now_iso(),
+        "status": "uploaded",
+        "size_bytes": size,
+        "worker_id": worker_id,
+        "timing": {
+            "cdn_resolve_sec": resolve_sec,
+            "download_sec": download_sec,
+            "upload_sec": upload_sec,
+            "total_sec": round(time.monotonic() - start_total, 1),
+        },
+    }
+
+    def mutate(state: dict):
+        remove_reservation(state, cr_film_id, worker_id)
+        remove_failed_attempt(state, cr_film_id)
+        if any(u.get("cr_film_id") == cr_film_id for u in state.get("uploads", [])):
+            return True, None
+        state.setdefault("uploads", []).append(entry)
+        return True, None
+
+    state, _ = state_transaction(f"upload cr_film_id={cr_film_id}", mutate)
+    log(f"step=state-saved cr_film_id={cr_film_id} total_uploads={len(state.get('uploads', []))}")
+    return True
+
+
+def process_fallback(film: dict, session, worker_id: str) -> bool:
+    state = load_state()
+    if provider_available(film, state, "sktorrent"):
+        return process_sktorrent(film, session, worker_id)
+    if provider_available(film, state, "sledujteto"):
+        return process_sledujteto(film, session, worker_id)
+    remove_reservation_transaction(film, worker_id)
+    return False
+
+
+def process_one(film: dict, session, worker_id: str) -> bool:
+    if film.get("candidates") and pick_candidate(film, load_state()) is not None:
+        return process_prehrajto(film, session, worker_id)
+    return process_fallback(film, session, worker_id)
 
 
 def main() -> int:
