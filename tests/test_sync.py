@@ -13,6 +13,7 @@ from reconcile_account import reconcile  # noqa: E402
 from sdilej_upload import (  # noqa: E402
     SdilejTemporaryError,
     file_id_from_url,
+    sanitize_display_name,
     validate_upload_result,
 )
 
@@ -27,6 +28,9 @@ class UploadResponseTests(unittest.TestCase):
     def test_zero_file_id_is_temporary_service_error(self) -> None:
         with self.assertRaises(SdilejTemporaryError):
             validate_upload_result({"url": "https://sdilej.cz/0/movie.mp4"})
+
+    def test_sanitizes_apostrophe_that_breaks_finalization(self) -> None:
+        self.assertEqual("Cmon Cmon (2021).mp4", sanitize_display_name("C'mon C'mon (2021).mp4"))
 
 
 class PickerTests(unittest.TestCase):

@@ -68,6 +68,11 @@ def validate_upload_result(result: dict | None) -> dict:
     return result
 
 
+def sanitize_display_name(name: str) -> str:
+    """Remove characters that break Sdilej.cz upload finalization."""
+    return name.replace("'", "")
+
+
 def _load_dotenv() -> None:
     if load_dotenv is not None:
         load_dotenv(Path(__file__).resolve().parent.parent / ".env")
@@ -193,7 +198,7 @@ def upload_file(
         raise FileNotFoundError(path)
 
     user_id = fetch_user_id(session)
-    final_name = display_name or path.name
+    final_name = sanitize_display_name(display_name or path.name)
     total = path.stat().st_size
     mime_type = mimetypes.guess_type(final_name)[0] or "application/octet-stream"
 
