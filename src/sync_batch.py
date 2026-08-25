@@ -97,11 +97,6 @@ def state_transaction(reason: str, mutate, attempts: int = 8):
             if os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() in ("1", "true", "yes", "on"):
                 commit_progress(reason)
             return state, result
-        except SdilejTemporaryError as exc:
-            upload_sec = round(time.monotonic() - t, 1)
-            log(f"step=upload temporarily-unavailable cr_film_id={cr_film_id} upload_id={upload_id} err={exc}")
-            remove_reservation_transaction(film, worker_id)
-            raise
         except Exception as exc:
             last_error = exc
             log(f"step=state-transaction-retry attempt={attempt}/{attempts} reason={reason!r} err={exc}")
@@ -382,6 +377,11 @@ def process_prehrajto(film: dict, session, worker_id: str) -> bool:
             result = upload_file(session, tmp_path, display_name=name)
             upload_sec = round(time.monotonic() - t, 1)
             log(f"step=upload done cr_film_id={cr_film_id} upload_id={upload_id} dur={upload_sec}s url={result['url']}")
+        except SdilejTemporaryError as exc:
+            upload_sec = round(time.monotonic() - t, 1)
+            log(f"step=upload temporarily-unavailable cr_film_id={cr_film_id} upload_id={upload_id} err={exc}")
+            remove_reservation_transaction(film, worker_id)
+            raise
         except Exception as exc:
             upload_sec = round(time.monotonic() - t, 1)
             log(f"step=upload failed cr_film_id={cr_film_id} upload_id={upload_id} err={exc}")
@@ -474,11 +474,6 @@ def process_sktorrent(film: dict, session, worker_id: str) -> bool:
         size = download(resolved, tmp_path)
         download_sec = round(time.monotonic() - t, 1)
         log(f"step=download done cr_film_id={cr_film_id} size={size} dur={download_sec}s")
-    except SdilejTemporaryError as exc:
-        upload_sec = round(time.monotonic() - t, 1)
-        log(f"step=upload temporarily-unavailable cr_film_id={cr_film_id} err={exc}")
-        remove_reservation_transaction(film, worker_id)
-        raise
     except Exception as exc:
         download_sec = round(time.monotonic() - t, 1)
         if tmp_path.exists():
@@ -612,6 +607,11 @@ def process_sledujteto(film: dict, session, worker_id: str) -> bool:
     try:
         result = upload_file(session, tmp_path, display_name=name)
         upload_sec = round(time.monotonic() - t, 1)
+    except SdilejTemporaryError as exc:
+        upload_sec = round(time.monotonic() - t, 1)
+        log(f"step=upload temporarily-unavailable cr_film_id={cr_film_id} err={exc}")
+        remove_reservation_transaction(film, worker_id)
+        raise
     except Exception as exc:
         upload_sec = round(time.monotonic() - t, 1)
         record_failure(
