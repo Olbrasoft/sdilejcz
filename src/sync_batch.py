@@ -26,7 +26,7 @@ from pick_next_film import (
 from resolve_prehrajto_stream import ResolveError, pick_best, resolve as resolve_prehrajto
 from resolve_sktorrent_cdn import resolve as resolve_cdn
 from resolve_sledujteto_cdn import resolve as resolve_sledujteto
-from sdilej_upload import login, upload_file
+from sdilej_upload import SdilejTemporaryError, login, upload_file
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -97,6 +97,11 @@ def state_transaction(reason: str, mutate, attempts: int = 8):
             if os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() in ("1", "true", "yes", "on"):
                 commit_progress(reason)
             return state, result
+        except SdilejTemporaryError as exc:
+            upload_sec = round(time.monotonic() - t, 1)
+            log(f"step=upload temporarily-unavailable cr_film_id={cr_film_id} upload_id={upload_id} err={exc}")
+            remove_reservation_transaction(film, worker_id)
+            raise
         except Exception as exc:
             last_error = exc
             log(f"step=state-transaction-retry attempt={attempt}/{attempts} reason={reason!r} err={exc}")
@@ -469,6 +474,11 @@ def process_sktorrent(film: dict, session, worker_id: str) -> bool:
         size = download(resolved, tmp_path)
         download_sec = round(time.monotonic() - t, 1)
         log(f"step=download done cr_film_id={cr_film_id} size={size} dur={download_sec}s")
+    except SdilejTemporaryError as exc:
+        upload_sec = round(time.monotonic() - t, 1)
+        log(f"step=upload temporarily-unavailable cr_film_id={cr_film_id} err={exc}")
+        remove_reservation_transaction(film, worker_id)
+        raise
     except Exception as exc:
         download_sec = round(time.monotonic() - t, 1)
         if tmp_path.exists():
@@ -488,6 +498,11 @@ def process_sktorrent(film: dict, session, worker_id: str) -> bool:
         result = upload_file(session, tmp_path, display_name=name)
         upload_sec = round(time.monotonic() - t, 1)
         log(f"step=upload done cr_film_id={cr_film_id} dur={upload_sec}s url={result['url']}")
+    except SdilejTemporaryError as exc:
+        upload_sec = round(time.monotonic() - t, 1)
+        log(f"step=upload temporarily-unavailable cr_film_id={cr_film_id} err={exc}")
+        remove_reservation_transaction(film, worker_id)
+        raise
     except Exception as exc:
         upload_sec = round(time.monotonic() - t, 1)
         log(f"step=upload failed cr_film_id={cr_film_id} err={exc}")
@@ -720,10 +735,14 @@ def main() -> int:
             log("step=batch-end no candidate")
             break
         extra_exclude.add(film["cr_film_id"])
-        if process_one(film, session, worker_id):
-            succeeded += 1
-        else:
-            failed += 1
+        try:
+            if process_one(film, session, worker_id):
+                succeeded += 1
+            else:
+                failed += 1
+        except SdilejTemporaryError as exc:
+            log(f"step=batch-stop upload-service-unavailable err={exc}")
+            break
 
     log(
         f"step=batch-end succeeded={succeeded} failed={failed} "

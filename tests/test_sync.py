@@ -10,7 +10,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from pick_next_film import pick_next  # noqa: E402
 from reconcile_account import reconcile  # noqa: E402
-from sdilej_upload import file_id_from_url  # noqa: E402
+from sdilej_upload import (  # noqa: E402
+    SdilejTemporaryError,
+    file_id_from_url,
+    validate_upload_result,
+)
 
 
 class UploadResponseTests(unittest.TestCase):
@@ -19,6 +23,10 @@ class UploadResponseTests(unittest.TestCase):
 
     def test_accepts_positive_file_id(self) -> None:
         self.assertEqual(123, file_id_from_url("https://sdilej.cz/123/movie.mp4"))
+
+    def test_zero_file_id_is_temporary_service_error(self) -> None:
+        with self.assertRaises(SdilejTemporaryError):
+            validate_upload_result({"url": "https://sdilej.cz/0/movie.mp4"})
 
 
 class PickerTests(unittest.TestCase):

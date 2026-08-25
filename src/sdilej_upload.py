@@ -44,6 +44,10 @@ class SdilejError(RuntimeError):
     """Raised when Sdilej.cz returns an unexpected response."""
 
 
+class SdilejTemporaryError(SdilejError):
+    """Raised when Sdilej.cz accepts bytes but cannot finalize the file."""
+
+
 def file_id_from_url(url: str | None) -> int | None:
     """Return a positive Sdilej file id, rejecting incomplete upload URLs."""
     match = re.match(r"https?://(?:www\.)?sdilej\.cz/(\d+)(?:/|$)", url or "")
@@ -51,6 +55,17 @@ def file_id_from_url(url: str | None) -> int | None:
         return None
     file_id = int(match.group(1))
     return file_id if file_id > 0 else None
+
+
+def validate_upload_result(result: dict | None) -> dict:
+    """Validate the final chunk response and classify retryable outages."""
+    if not result or "url" not in result:
+        raise SdilejError(f"Final upload response did not include url: {result!r}")
+    if file_id_from_url(result.get("url")) is None:
+        raise SdilejTemporaryError(
+            f"Final upload response contains an invalid file id: {result!r}"
+        )
+    return result
 
 
 def _load_dotenv() -> None:
@@ -200,11 +215,7 @@ def upload_file(
             )
             start = end + 1
 
-    if not last or "url" not in last:
-        raise SdilejError(f"Final upload response did not include url: {last!r}")
-    if file_id_from_url(last.get("url")) is None:
-        raise SdilejError(f"Final upload response contains an invalid file id: {last!r}")
-    return last
+    return validate_upload_result(last)
 
 
 def upload_with_credentials(

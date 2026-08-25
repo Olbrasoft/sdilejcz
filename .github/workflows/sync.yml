@@ -60,9 +60,9 @@ jobs:
     timeout-minutes: 350
     strategy:
       fail-fast: false
-      max-parallel: 4
+      max-parallel: 2
       matrix:
-        worker: [1, 2, 3, 4]
+        worker: [1, 2]
     permissions:
       contents: write
     steps:
