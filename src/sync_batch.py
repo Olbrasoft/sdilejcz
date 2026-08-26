@@ -6,6 +6,7 @@ import argparse
 import datetime as dt
 import json
 import os
+import random
 import subprocess
 import sys
 import time
@@ -82,7 +83,7 @@ def clean_expired_reservations(state: dict) -> None:
     state["in_progress"] = kept
 
 
-def state_transaction(reason: str, mutate, attempts: int = 8):
+def state_transaction(reason: str, mutate, attempts: int = 30):
     last_error: Exception | None = None
     for attempt in range(1, attempts + 1):
         try:
@@ -99,8 +100,12 @@ def state_transaction(reason: str, mutate, attempts: int = 8):
             return state, result
         except Exception as exc:
             last_error = exc
-            log(f"step=state-transaction-retry attempt={attempt}/{attempts} reason={reason!r} err={exc}")
-            time.sleep(min(attempt, 10))
+            delay = random.uniform(1, min(5 + attempt, 20))
+            log(
+                f"step=state-transaction-retry attempt={attempt}/{attempts} delay={delay:.1f}s "
+                f"reason={reason!r} err={exc}"
+            )
+            time.sleep(delay)
     raise RuntimeError(f"state transaction failed after {attempts} attempts: {last_error}")
 
 

@@ -25,33 +25,42 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           persist-credentials: true
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Reconcile completed account files
+      - name: Reconcile and persist account files
         env:
           SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
           SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
-        run: python src/reconcile_account.py
-
-      - name: Persist reconciliation
         run: |
-          if git diff --quiet -- state/uploaded.json; then
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/uploaded.json
-          git commit -m "chore(sync): reconcile Sdilej.cz account"
-          git push
+          for attempt in $(seq 1 30); do
+            git fetch origin main
+            git reset --hard origin/main
+            python src/reconcile_account.py
+            if git diff --quiet -- state/uploaded.json; then
+              exit 0
+            fi
+            git add state/uploaded.json
+            git commit -m "chore(sync): reconcile Sdilej.cz account"
+            if git push; then
+              exit 0
+            fi
+            delay=$((1 + RANDOM % 20))
+            echo "Reconciliation push collided (attempt ${attempt}/30); retrying in ${delay}s"
+            sleep "${delay}"
+          done
+          echo "Reconciliation failed after 30 attempts" >&2
+          exit 1
 
   upload-batch:
     name: Upload missing films to Sdilej.cz (${{ matrix.worker }})
@@ -66,11 +75,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           persist-credentials: true
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
