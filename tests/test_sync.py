@@ -8,7 +8,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from pick_next_film import pick_next  # noqa: E402
+from pick_next_film import (  # noqa: E402
+    failure_retryable,
+    next_retry_delay_seconds,
+    pick_next,
+)
 from reconcile_account import reconcile  # noqa: E402
 from sdilej_upload import (  # noqa: E402
     SdilejTemporaryError,
@@ -34,6 +38,35 @@ class UploadResponseTests(unittest.TestCase):
 
 
 class PickerTests(unittest.TestCase):
+    def test_retries_cdn_resolution_failure_after_delay(self) -> None:
+        failed_at = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(minutes=31)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        self.assertTrue(failure_retryable({
+            "reason": "cdn_resolve_failed",
+            "attempt_count": 1,
+            "failed_at": failed_at,
+        }))
+
+    def test_reports_delay_until_future_source_retry(self) -> None:
+        now = dt.datetime(2026, 8, 27, 10, 0, tzinfo=dt.timezone.utc)
+        state = {
+            "uploads": [],
+            "in_progress": [],
+            "failed_attempts": [{
+                "cr_film_id": 10,
+                "source": "sktorrent",
+                "reason": "cdn_resolve_failed",
+                "attempt_count": 1,
+                "failed_at": "2026-08-27T09:45:00Z",
+            }],
+        }
+        backlog = [{
+            "cr_film_id": 10,
+            "title": "Film",
+            "year": 2026,
+            "sktorrent_source": {"url": "https://example.test/movie.mp4"},
+        }]
+        self.assertEqual(900, next_retry_delay_seconds(state, backlog, now))
+
     def test_uses_sledujteto_fallback_after_prehrajto_candidates_fail(self) -> None:
         film = {
             "cr_film_id": 10,

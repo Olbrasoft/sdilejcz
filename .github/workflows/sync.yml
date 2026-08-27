@@ -117,3 +117,30 @@ jobs:
           WORKER_ID: worker-${{ matrix.worker }}-${{ github.run_id }}
           COMMIT_AFTER_EACH_UPLOAD: "true"
         run: python src/sync_batch.py --count "${BATCH_SIZE}" --max-runtime-minutes "${MAX_RUNTIME_MINUTES}" --worker-id "${WORKER_ID}"
+
+  continue-sync:
+    name: Continue sync while work remains
+    needs: [reconcile-account, upload-batch]
+    if: ${{ always() && needs.reconcile-account.result == 'success' }}
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Dispatch next batch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          if ! delay=$(python src/pick_next_film.py --next-retry-delay); then
+            echo "No pending catalog work remains"
+            exit 0
+          fi
+          if (( delay > 0 )); then
+            echo "Next source retry is available in ${delay}s"
+            sleep "${delay}"
+          fi
+          gh workflow run sync.yml -f batch_size=999 -f max_runtime_minutes=320

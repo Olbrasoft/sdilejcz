@@ -7,6 +7,7 @@ import json
 import os
 import sys
 import datetime as dt
+import math
 from pathlib import Path
 
 
@@ -19,7 +20,7 @@ DEFAULT_BACKLOGS = (
 )
 STATE = REPO_ROOT / "state" / "uploaded.json"
 NATIVE_ORIGINS = {"cs", "sk"}
-RETRYABLE_FAILURE_PREFIXES = ("download_failed", "upload_failed")
+RETRYABLE_FAILURE_PREFIXES = ("cdn_resolve_failed", "download_failed", "upload_failed")
 FAILED_RETRY_DELAY_MINUTES = 30
 FAILED_MAX_ATTEMPTS = 4
 
@@ -87,6 +88,25 @@ def failure_retryable(failure: dict, now: dt.datetime | None = None) -> bool:
         return True
     now = now or dt.datetime.now(dt.timezone.utc)
     return now - failed_at >= dt.timedelta(minutes=FAILED_RETRY_DELAY_MINUTES)
+
+
+def failure_retry_delay_seconds(failure: dict, now: dt.datetime | None = None) -> int | None:
+    """Return seconds until a failure can be retried, or None if exhausted."""
+    if failure.get("permanent") is True:
+        return None
+    reason = failure.get("reason") or ""
+    if reason.startswith(("resolve_failed", "candidate_failed")):
+        return 0 if failure.get("permanent") is False else None
+    if not reason.startswith(RETRYABLE_FAILURE_PREFIXES):
+        return None
+    if int(failure.get("attempt_count") or 1) >= FAILED_MAX_ATTEMPTS:
+        return None
+    failed_at = parse_iso(failure.get("failed_at"))
+    if not failed_at:
+        return 0
+    now = now or dt.datetime.now(dt.timezone.utc)
+    retry_at = failed_at + dt.timedelta(minutes=FAILED_RETRY_DELAY_MINUTES)
+    return max(0, math.ceil((retry_at - now).total_seconds()))
 
 
 def excluded_ids(state: dict, extra: set[int] | None = None) -> set[int]:
@@ -177,6 +197,45 @@ def pick_candidate(film: dict, state: dict) -> dict | None:
     return None
 
 
+def next_retry_delay_seconds(state: dict, backlog_rows: list[dict], now: dt.datetime | None = None) -> int | None:
+    """Return when any unfinished film can next be attempted."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    if pick_next(state, backlog_rows) is not None:
+        return 0
+
+    done = {
+        item.get("cr_film_id")
+        for item in state.get("uploads", [])
+        if item.get("status", "uploaded") == "uploaded"
+    }
+    delays: list[int] = []
+    for film in backlog_rows:
+        cr_film_id = film.get("cr_film_id")
+        if cr_film_id in done:
+            continue
+        failures = candidate_failure_map(state, cr_film_id)
+        for candidate in film.get("candidates") or []:
+            failure = failures.get(str(candidate.get("upload_id") or ""))
+            if failure:
+                delay = failure_retry_delay_seconds(failure, now)
+                if delay is not None:
+                    delays.append(delay)
+        for provider in ("sktorrent", "sledujteto"):
+            if not film.get(f"{provider}_source"):
+                continue
+            provider_failures = [
+                item for item in state.get("failed_attempts", [])
+                if item.get("cr_film_id") == cr_film_id
+                and item.get("source") == provider
+                and not item.get("upload_id")
+            ]
+            if provider_failures:
+                delay = failure_retry_delay_seconds(provider_failures[-1], now)
+                if delay is not None:
+                    delays.append(delay)
+    return min(delays) if delays else None
+
+
 def display_name(film: dict) -> str:
     if film.get("display_name"):
         name = str(film["display_name"])
@@ -197,6 +256,13 @@ def display_name(film: dict) -> str:
 
 
 def main() -> int:
+    if "--next-retry-delay" in sys.argv[1:]:
+        delay = next_retry_delay_seconds(load_state(), load_backlog())
+        if delay is None:
+            print("No pending work")
+            return 1
+        print(delay)
+        return 0
     state = load_state()
     rows = load_backlog()
     picked = pick_next(state, rows)
