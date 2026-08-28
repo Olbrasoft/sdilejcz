@@ -14,6 +14,7 @@ from pick_next_film import (  # noqa: E402
     pick_next,
 )
 from reconcile_account import reconcile  # noqa: E402
+from sync_batch import state_lock_expired  # noqa: E402
 from sdilej_upload import (  # noqa: E402
     SdilejTemporaryError,
     file_id_from_url,
@@ -86,6 +87,12 @@ class PickerTests(unittest.TestCase):
             }],
         }
         self.assertEqual(film, pick_next(state, [film]))
+
+
+class StateLockTests(unittest.TestCase):
+    def test_only_expires_abandoned_lock(self) -> None:
+        self.assertFalse(state_lock_expired(1_000, now=1_299))
+        self.assertTrue(state_lock_expired(1_000, now=1_300))
 
 
 class ReconciliationTests(unittest.TestCase):

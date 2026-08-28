@@ -36,6 +36,9 @@ TMP_DIR = Path("/tmp")
 MIN_FILE_SIZE = 10_000_000
 MAX_FILE_SIZE = 6_000_000_000
 RESERVATION_TTL_MINUTES = 480
+STATE_LOCK_REF = "refs/heads/sync-state-lock"
+STATE_LOCK_REMOTE_REF = "refs/remotes/origin/sync-state-lock"
+STATE_LOCK_STALE_SECONDS = 300
 
 
 def now_iso() -> str:
@@ -73,6 +76,113 @@ def git_sync_latest() -> None:
         subprocess.run(["git", "pull", "--ff-only", "origin", "main"], cwd=REPO_ROOT, check=True)
 
 
+def git_state_enabled() -> bool:
+    return os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() in ("1", "true", "yes", "on")
+
+
+def state_lock_expired(created_at: int, now: int | None = None) -> bool:
+    return (now or int(time.time())) - created_at >= STATE_LOCK_STALE_SECONDS
+
+
+def clear_stale_state_lock() -> None:
+    fetched = subprocess.run(
+        ["git", "fetch", "origin", f"+{STATE_LOCK_REF}:{STATE_LOCK_REMOTE_REF}"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    if fetched.returncode != 0:
+        return
+    locked_at = subprocess.run(
+        ["git", "show", "-s", "--format=%ct", STATE_LOCK_REMOTE_REF],
+        cwd=REPO_ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    created_at = int(locked_at.stdout.strip())
+    if not state_lock_expired(created_at):
+        return
+    lock_sha = subprocess.run(
+        ["git", "rev-parse", STATE_LOCK_REMOTE_REF],
+        cwd=REPO_ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout.strip()
+    removed = subprocess.run(
+        [
+            "git",
+            "push",
+            f"--force-with-lease={STATE_LOCK_REF}:{lock_sha}",
+            "origin",
+            f":{STATE_LOCK_REF}",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    if removed.returncode == 0:
+        log(f"step=state-lock-cleared stale_sha={lock_sha[:12]}")
+
+
+def acquire_state_lock(attempts: int = 180) -> str:
+    tree = subprocess.run(
+        ["git", "rev-parse", "HEAD^{tree}"],
+        cwd=REPO_ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout.strip()
+    parent = subprocess.run(
+        ["git", "rev-parse", "HEAD"],
+        cwd=REPO_ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout.strip()
+    owner = os.environ.get("WORKER_ID", "local")
+    message = f"state lock owner={owner} nonce={random.getrandbits(64):016x}"
+    lock_sha = subprocess.run(
+        ["git", "commit-tree", tree, "-p", parent, "-m", message],
+        cwd=REPO_ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout.strip()
+
+    for attempt in range(1, attempts + 1):
+        acquired = subprocess.run(
+            ["git", "push", "origin", f"{lock_sha}:{STATE_LOCK_REF}"],
+            cwd=REPO_ROOT,
+            capture_output=True,
+            text=True,
+        )
+        if acquired.returncode == 0:
+            return lock_sha
+        if attempt == 1 or attempt % 10 == 0:
+            clear_stale_state_lock()
+        time.sleep(random.uniform(0.5, 2.5))
+    raise RuntimeError(f"could not acquire state lock after {attempts} attempts")
+
+
+def release_state_lock(lock_sha: str) -> None:
+    released = subprocess.run(
+        [
+            "git",
+            "push",
+            f"--force-with-lease={STATE_LOCK_REF}:{lock_sha}",
+            "origin",
+            f":{STATE_LOCK_REF}",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    if released.returncode != 0:
+        log(f"step=state-lock-release-failed sha={lock_sha[:12]} err={released.stderr.strip()[:200]}")
+
+
 def clean_expired_reservations(state: dict) -> None:
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(minutes=RESERVATION_TTL_MINUTES)
     kept = []
@@ -86,8 +196,10 @@ def clean_expired_reservations(state: dict) -> None:
 def state_transaction(reason: str, mutate, attempts: int = 30):
     last_error: Exception | None = None
     for attempt in range(1, attempts + 1):
+        lock_sha: str | None = None
         try:
-            if os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() in ("1", "true", "yes", "on"):
+            if git_state_enabled():
+                lock_sha = acquire_state_lock()
                 git_sync_latest()
             state = load_state()
             clean_expired_reservations(state)
@@ -95,7 +207,7 @@ def state_transaction(reason: str, mutate, attempts: int = 30):
             if not changed:
                 return state, result
             save_state(state)
-            if os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() in ("1", "true", "yes", "on"):
+            if git_state_enabled():
                 commit_progress(reason)
             return state, result
         except Exception as exc:
@@ -106,6 +218,9 @@ def state_transaction(reason: str, mutate, attempts: int = 30):
                 f"reason={reason!r} err={exc}"
             )
             time.sleep(delay)
+        finally:
+            if lock_sha:
+                release_state_lock(lock_sha)
     raise RuntimeError(f"state transaction failed after {attempts} attempts: {last_error}")
 
 
@@ -117,7 +232,7 @@ def set_account(state: dict):
 
 
 def commit_progress(reason: str) -> None:
-    if os.environ.get("COMMIT_AFTER_EACH_UPLOAD", "").strip().lower() not in ("1", "true", "yes", "on"):
+    if not git_state_enabled():
         return
 
     state = load_state()

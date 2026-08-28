@@ -119,7 +119,12 @@ def excluded_ids(state: dict, extra: set[int] | None = None) -> set[int]:
     return done | reserved | (extra or set())
 
 
-def provider_available(film: dict, state: dict, provider: str) -> bool:
+def provider_available(
+    film: dict,
+    state: dict,
+    provider: str,
+    now: dt.datetime | None = None,
+) -> bool:
     source = film.get(f"{provider}_source")
     if not source:
         return False
@@ -130,7 +135,7 @@ def provider_available(film: dict, state: dict, provider: str) -> bool:
         and item.get("source") == provider
         and not item.get("upload_id")
     ]
-    return not failures or failure_retryable(failures[-1])
+    return not failures or failure_retryable(failures[-1], now)
 
 
 def _require_cs_audio() -> bool:
@@ -153,6 +158,7 @@ def pick_next(
     state: dict,
     backlog_rows: list[dict],
     extra_exclude: set[int] | None = None,
+    now: dt.datetime | None = None,
 ) -> dict | None:
     excluded = excluded_ids(state, extra_exclude)
     require_cs = _require_cs_audio()
@@ -160,9 +166,9 @@ def pick_next(
         if row.get("cr_film_id") in excluded:
             continue
         if row.get("candidates"):
-            if pick_candidate(row, state) is not None:
+            if pick_candidate(row, state, now) is not None:
                 return row
-        if provider_available(row, state, "sktorrent") or provider_available(row, state, "sledujteto"):
+        if provider_available(row, state, "sktorrent", now) or provider_available(row, state, "sledujteto", now):
             return row
         if row.get("candidates"):
             continue
@@ -186,12 +192,12 @@ def candidate_failure_map(state: dict, cr_film_id: int) -> dict[str, dict]:
     return failures
 
 
-def pick_candidate(film: dict, state: dict) -> dict | None:
+def pick_candidate(film: dict, state: dict, now: dt.datetime | None = None) -> dict | None:
     failures = candidate_failure_map(state, film["cr_film_id"])
     for candidate in film.get("candidates") or []:
         upload_id = str(candidate.get("upload_id") or "")
         failure = failures.get(upload_id)
-        if failure and not failure_retryable(failure):
+        if failure and not failure_retryable(failure, now):
             continue
         return candidate
     return None
@@ -200,7 +206,7 @@ def pick_candidate(film: dict, state: dict) -> dict | None:
 def next_retry_delay_seconds(state: dict, backlog_rows: list[dict], now: dt.datetime | None = None) -> int | None:
     """Return when any unfinished film can next be attempted."""
     now = now or dt.datetime.now(dt.timezone.utc)
-    if pick_next(state, backlog_rows) is not None:
+    if pick_next(state, backlog_rows, now=now) is not None:
         return 0
 
     done = {
