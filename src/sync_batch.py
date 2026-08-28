@@ -39,6 +39,7 @@ RESERVATION_TTL_MINUTES = 480
 STATE_LOCK_REF = "refs/heads/sync-state-lock"
 STATE_LOCK_REMOTE_REF = "refs/remotes/origin/sync-state-lock"
 STATE_LOCK_STALE_SECONDS = 300
+STATE_LOCK_HANDOFF_SECONDS = (2.5, 3.5)
 
 
 def now_iso() -> str:
@@ -221,6 +222,7 @@ def state_transaction(reason: str, mutate, attempts: int = 30):
         finally:
             if lock_sha:
                 release_state_lock(lock_sha)
+                time.sleep(random.uniform(*STATE_LOCK_HANDOFF_SECONDS))
     raise RuntimeError(f"state transaction failed after {attempts} attempts: {last_error}")
 
 
