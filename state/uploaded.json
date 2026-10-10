@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-10T23:15:41Z",
+  "last_updated": "2026-10-10T23:16:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674812,6 +674812,27 @@
         "upload_sec": 324.8,
         "total_sec": 675.7
       }
+    },
+    {
+      "cr_film_id": 37253,
+      "cr_slug": "svedska-trojka",
+      "title": "Švédská trojka",
+      "year": 1994,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 60869,
+      "sdilej_url": "https://sdilej.cz/35287696/svedska-trojka-1994-.mp4",
+      "sdilej_name": "Švédská trojka (1994).mp4",
+      "uploaded_at": "2026-10-10T23:11:06Z",
+      "status": "uploaded",
+      "size_bytes": 612647660,
+      "worker_id": "worker-4-38073542735",
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 65.5,
+        "upload_sec": 77.4,
+        "total_sec": 149.0
+      }
     }
   ],
   "failed_attempts": [
@@ -678285,18 +678306,7 @@
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 37253,
-      "cr_slug": "svedska-trojka",
-      "title": "Švédská trojka",
-      "year": 1994,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38073542735",
-      "run_id": "38073542735",
-      "reserved_at": "2026-10-10T23:08:29Z"
-    }
-  ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
