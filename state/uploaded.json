@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-10T23:06:28Z",
+  "last_updated": "2026-10-10T23:06:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677103,21 +677103,6 @@
       }
     },
     {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-10T22:28:14Z",
-      "first_failed_at": "2026-10-10T21:57:36Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678178,19 +678163,24 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38073542735",
-      "run_id": "38073542735",
-      "reserved_at": "2026-10-10T23:02:13Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-10T23:06:54Z",
+      "first_failed_at": "2026-10-10T21:57:36Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
