@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-10T23:25:35Z",
+  "last_updated": "2026-10-10T23:25:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674127,19 +674127,30 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7442,
       "cr_slug": "vriskot-7",
       "title": "Vřískot 7",
       "year": 2026,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-10T23:22:50Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-10T23:25:44Z",
+      "first_failed_at": "2026-10-10T23:25:44Z",
+      "attempt_count": 1,
+      "upload_id": "c872935c54bb9e08",
+      "source_url": "https://prehraj.to/scary-movie-2026-cz-dabing-mkv/c872935c54bb9e08",
+      "upload_title": "Scary Movie (2026) CZ dabing.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 67.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
