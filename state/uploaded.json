@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T21:05:59Z",
+  "last_updated": "2026-10-11T21:06:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676663,21 +676663,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T20:31:55Z",
-      "first_failed_at": "2026-10-11T19:55:08Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 22.1
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -677115,6 +677100,21 @@
         "download_sec": 281.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T21:06:33Z",
+      "first_failed_at": "2026-10-11T19:55:08Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 23.2
+      }
     }
   ],
   "in_progress": [
@@ -677147,16 +677147,6 @@
       "worker_id": "worker-1-38157858329",
       "run_id": "38157858329",
       "reserved_at": "2026-10-11T21:02:46Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38157858329",
-      "run_id": "38157858329",
-      "reserved_at": "2026-10-11T21:05:59Z"
     }
   ],
   "missing_on_account": [
