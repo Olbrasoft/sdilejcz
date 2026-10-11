@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T09:36:39Z",
+  "last_updated": "2026-10-11T09:36:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674947,21 +674947,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T09:02:41Z",
-      "first_failed_at": "2026-10-11T09:02:41Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -676273,6 +676258,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T09:36:58Z",
+      "first_failed_at": "2026-10-11T09:02:41Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.5
+      }
     }
   ],
   "in_progress": [
@@ -676305,16 +676305,6 @@
       "worker_id": "worker-2-38124325879",
       "run_id": "38124325879",
       "reserved_at": "2026-10-11T09:36:27Z"
-    },
-    {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38124325879",
-      "run_id": "38124325879",
-      "reserved_at": "2026-10-11T09:36:39Z"
     }
   ],
   "missing_on_account": [
