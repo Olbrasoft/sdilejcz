@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T11:58:28Z",
+  "last_updated": "2026-10-11T11:58:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674806,6 +674806,30 @@
         "upload_sec": 52.7,
         "total_sec": 72.1
       }
+    },
+    {
+      "cr_film_id": 36787,
+      "cr_slug": "dead-sexy",
+      "title": "Dead Sexy",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "140805e2e85771c8",
+      "source_url": "https://prehraj.to/dead-sexy-2018-cz-titulky/140805e2e85771c8",
+      "source_title": "Dead Sexy (2018) CZ Titulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35290847/dead-sexy-2018-cz-titulky.mp4",
+      "sdilej_name": "Dead Sexy (2018) CZ titulky.mp4",
+      "uploaded_at": "2026-10-11T11:54:20Z",
+      "status": "uploaded",
+      "size_bytes": 1291527944,
+      "worker_id": "worker-4-38124325879",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 36.4,
+        "upload_sec": 161.7,
+        "total_sec": 199.6
+      }
     }
   ],
   "failed_attempts": [
@@ -677873,27 +677897,6 @@
       }
     },
     {
-      "cr_film_id": 36787,
-      "cr_slug": "dead-sexy",
-      "title": "Dead Sexy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-11T11:40:45Z",
-      "first_failed_at": "2026-10-11T11:40:45Z",
-      "attempt_count": 1,
-      "upload_id": "2971f41e0ab53aad",
-      "source_url": "https://prehraj.to/dead-sexy-2018-cz-titulky-mp4/2971f41e0ab53aad",
-      "upload_title": "Dead Sexy (2018) CZ Titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 655.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -678315,18 +678318,7 @@
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 36787,
-      "cr_slug": "dead-sexy",
-      "title": "Dead Sexy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38124325879",
-      "run_id": "38124325879",
-      "reserved_at": "2026-10-11T11:50:52Z"
-    }
-  ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
