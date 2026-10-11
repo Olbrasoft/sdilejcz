@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T06:46:59Z",
+  "last_updated": "2026-10-11T06:47:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676722,19 +676722,24 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T06:41:02Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T06:47:57Z",
+      "first_failed_at": "2026-10-11T06:47:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 32196,
       "cr_slug": "mad-couple",
