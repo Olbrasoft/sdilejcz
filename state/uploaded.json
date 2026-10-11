@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T01:57:04Z",
+  "last_updated": "2026-10-11T01:57:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676410,19 +676410,30 @@
         "download_sec": 21.8,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 28682,
       "cr_slug": "hunger-games-usvit-sklizne",
       "title": "Hunger Games: Úsvit sklizně",
       "year": 2026,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T01:45:26Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T01:57:27Z",
+      "first_failed_at": "2026-10-11T01:57:27Z",
+      "attempt_count": 1,
+      "upload_id": "c900a2293e35e419",
+      "source_url": "https://prehraj.to/hunger-games-usvit-sklizne-2026-cz-4k-mov/c900a2293e35e419",
+      "upload_title": "Hunger Games - Úsvit sklizně (2026) CZ 4K",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 137.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30561,
       "cr_slug": "suck-it-up",
