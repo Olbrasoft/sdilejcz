@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T01:12:04Z",
+  "last_updated": "2026-10-11T01:12:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675768,6 +675768,25 @@
       "attempt_count": 4,
       "timing": {
         "cdn_resolve_sec": 13.5
+      }
+    },
+    {
+      "cr_film_id": 23780,
+      "cr_slug": "anna-karenina-1997",
+      "title": "Anna Karenina",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/anna-karenina-1997-mkv/da4af4b15e79d0c6",
+      "failed_at": "2026-10-11T01:12:52Z",
+      "first_failed_at": "2026-10-11T01:12:52Z",
+      "attempt_count": 1,
+      "upload_id": "da4af4b15e79d0c6",
+      "source_url": "https://prehraj.to/anna-karenina-1997-mkv/da4af4b15e79d0c6",
+      "upload_title": "Anna Karenina (1997).mkv",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.7
       }
     }
   ],
