@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T19:51:46Z",
+  "last_updated": "2026-10-11T19:52:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675077,21 +675077,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T19:18:54Z",
-      "first_failed_at": "2026-10-11T18:06:38Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.9
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -675866,6 +675851,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T19:52:26Z",
+      "first_failed_at": "2026-10-11T18:06:38Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 28.7
+      }
     }
   ],
   "in_progress": [
@@ -675898,16 +675898,6 @@
       "worker_id": "worker-1-38157858329",
       "run_id": "38157858329",
       "reserved_at": "2026-10-11T19:51:02Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38157858329",
-      "run_id": "38157858329",
-      "reserved_at": "2026-10-11T19:51:46Z"
     }
   ],
   "missing_on_account": [
