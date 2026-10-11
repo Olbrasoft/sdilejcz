@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T02:09:01Z",
+  "last_updated": "2026-10-11T02:09:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676647,19 +676647,26 @@
       "timing": {
         "resolve_sec": 0.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30561,
       "cr_slug": "suck-it-up",
       "title": "Suck It Up",
       "year": 2017,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T02:01:34Z"
-    },
+      "source": "sledujteto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T02:09:11Z",
+      "first_failed_at": "2026-10-11T02:09:11Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.8,
+        "download_sec": 34.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31135,
       "cr_slug": "co-by-udelala-sophia-loren",
