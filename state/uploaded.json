@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T09:01:44Z",
+  "last_updated": "2026-10-11T09:02:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675293,6 +675293,21 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T09:02:08Z",
+      "first_failed_at": "2026-10-11T09:02:08Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
     }
   ],
   "in_progress": [
@@ -675325,16 +675340,6 @@
       "worker_id": "worker-3-38124325879",
       "run_id": "38124325879",
       "reserved_at": "2026-10-11T08:59:05Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38124325879",
-      "run_id": "38124325879",
-      "reserved_at": "2026-10-11T09:01:44Z"
     }
   ],
   "missing_on_account": [
