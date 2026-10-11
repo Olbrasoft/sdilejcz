@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T03:53:18Z",
+  "last_updated": "2026-10-11T03:53:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674782,6 +674782,30 @@
         "upload_sec": 537.8,
         "total_sec": 697.0
       }
+    },
+    {
+      "cr_film_id": 34437,
+      "cr_slug": "avengers-doomsday",
+      "title": "Avengers: Doomsday",
+      "year": 2026,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5a3fdd7149d5fdfe",
+      "source_url": "https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/5a3fdd7149d5fdfe",
+      "source_title": "Avengers Doomsday (2026) 1080p CZ",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/35288107/avengers-doomsday-2026-.mp4",
+      "sdilej_name": "Avengers: Doomsday (2026).mp4",
+      "uploaded_at": "2026-10-11T03:48:21Z",
+      "status": "uploaded",
+      "size_bytes": 1274284942,
+      "worker_id": "worker-4-38094527648",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 57.6,
+        "upload_sec": 193.7,
+        "total_sec": 253.3
+      }
     }
   ],
   "failed_attempts": [
@@ -677274,65 +677298,6 @@
       }
     },
     {
-      "cr_film_id": 34437,
-      "cr_slug": "avengers-doomsday",
-      "title": "Avengers: Doomsday",
-      "year": 2026,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/e6eab79b3b89116f",
-      "failed_at": "2026-10-11T02:59:54Z",
-      "first_failed_at": "2026-10-11T02:59:54Z",
-      "attempt_count": 1,
-      "upload_id": "e6eab79b3b89116f",
-      "source_url": "https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/e6eab79b3b89116f",
-      "upload_title": "Avengers Doomsday (2026) 1080p CZ.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.1
-      }
-    },
-    {
-      "cr_film_id": 34437,
-      "cr_slug": "avengers-doomsday",
-      "title": "Avengers: Doomsday",
-      "year": 2026,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-11T03:01:30Z",
-      "first_failed_at": "2026-10-11T03:01:30Z",
-      "attempt_count": 1,
-      "upload_id": "5a3fdd7149d5fdfe",
-      "source_url": "https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/5a3fdd7149d5fdfe",
-      "upload_title": "Avengers Doomsday (2026) 1080p CZ",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.1,
-        "download_sec": 52.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 34437,
-      "cr_slug": "avengers-doomsday",
-      "title": "Avengers: Doomsday",
-      "year": 2026,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/022672501e2d549d",
-      "failed_at": "2026-10-11T03:03:12Z",
-      "first_failed_at": "2026-10-11T03:03:12Z",
-      "attempt_count": 1,
-      "upload_id": "022672501e2d549d",
-      "source_url": "https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/022672501e2d549d",
-      "upload_title": "Avengers Doomsday (2026) 1080p CZ.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.1
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678409,18 +678374,7 @@
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 34437,
-      "cr_slug": "avengers-doomsday",
-      "title": "Avengers: Doomsday",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T03:43:59Z"
-    }
-  ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
