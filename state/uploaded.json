@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T11:52:27Z",
+  "last_updated": "2026-10-11T11:52:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678220,19 +678220,24 @@
       "timing": {
         "cdn_resolve_sec": 15.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37289,
       "cr_slug": "led",
       "title": "Led",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38124325879",
-      "run_id": "38124325879",
-      "reserved_at": "2026-10-11T11:40:16Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T11:52:50Z",
+      "first_failed_at": "2026-10-11T11:52:50Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
