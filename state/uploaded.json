@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T19:27:21Z",
+  "last_updated": "2026-10-11T19:27:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674714,21 +674714,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T18:47:35Z",
-      "first_failed_at": "2026-10-11T18:15:55Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 27.2
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -675412,6 +675397,21 @@
       "timing": {
         "cdn_resolve_sec": 22.7
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T19:27:50Z",
+      "first_failed_at": "2026-10-11T18:15:55Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.9
+      }
     }
   ],
   "in_progress": [
@@ -675444,16 +675444,6 @@
       "worker_id": "worker-4-38157858329",
       "run_id": "38157858329",
       "reserved_at": "2026-10-11T19:25:50Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38157858329",
-      "run_id": "38157858329",
-      "reserved_at": "2026-10-11T19:27:21Z"
     }
   ],
   "missing_on_account": [
