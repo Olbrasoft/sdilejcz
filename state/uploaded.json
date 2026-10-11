@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T21:45:41Z",
+  "last_updated": "2026-10-11T21:46:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677922,19 +677922,24 @@
       "timing": {
         "cdn_resolve_sec": 13.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38157858329",
-      "run_id": "38157858329",
-      "reserved_at": "2026-10-11T21:41:31Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T21:46:03Z",
+      "first_failed_at": "2026-10-11T21:46:03Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
