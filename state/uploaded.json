@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T02:31:50Z",
+  "last_updated": "2026-10-11T02:33:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676590,27 +676590,6 @@
       }
     },
     {
-      "cr_film_id": 30561,
-      "cr_slug": "suck-it-up",
-      "title": "Suck It Up",
-      "year": 2017,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-11T01:58:29Z",
-      "first_failed_at": "2026-10-11T01:58:29Z",
-      "attempt_count": 1,
-      "upload_id": "80e811fb5cc054f6",
-      "source_url": "https://prehraj.to/suck-it-up-2017-en-sk-tit/80e811fb5cc054f6",
-      "upload_title": "Suck It Up (2017) EN SK tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 32.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30794,
       "cr_slug": "ufc-229-khabib-vs-mcgregor",
       "title": "UFC 229: Khabib vs. McGregor",
@@ -677065,6 +677044,27 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 30561,
+      "cr_slug": "suck-it-up",
+      "title": "Suck It Up",
+      "year": 2017,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T02:33:02Z",
+      "first_failed_at": "2026-10-11T01:58:29Z",
+      "attempt_count": 2,
+      "upload_id": "80e811fb5cc054f6",
+      "source_url": "https://prehraj.to/suck-it-up-2017-en-sk-tit/80e811fb5cc054f6",
+      "upload_title": "Suck It Up (2017) EN SK tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 29.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -677097,16 +677097,6 @@
       "worker_id": "worker-4-38094527648",
       "run_id": "38094527648",
       "reserved_at": "2026-10-11T02:30:28Z"
-    },
-    {
-      "cr_film_id": 30561,
-      "cr_slug": "suck-it-up",
-      "title": "Suck It Up",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T02:31:50Z"
     }
   ],
   "missing_on_account": [
