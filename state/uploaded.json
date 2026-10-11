@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T05:23:33Z",
+  "last_updated": "2026-10-11T05:24:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674536,21 +674536,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T04:50:14Z",
-      "first_failed_at": "2026-10-11T04:18:28Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675448,19 +675433,24 @@
       "timing": {
         "cdn_resolve_sec": 9.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T05:20:37Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T05:24:31Z",
+      "first_failed_at": "2026-10-11T04:18:28Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22814,
       "cr_slug": "pee-weeho-velke-dobrodruzstvi",
