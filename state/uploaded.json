@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T07:34:19Z",
+  "last_updated": "2026-10-11T07:34:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676762,21 +676762,6 @@
       }
     },
     {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T06:47:57Z",
-      "first_failed_at": "2026-10-11T06:47:57Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 33246,
       "cr_slug": "appropriate-behavior",
       "title": "Appropriate Behavior",
@@ -677656,19 +677641,24 @@
         "cdn_resolve_sec": 1.3,
         "download_sec": 2.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T07:18:21Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T07:34:41Z",
+      "first_failed_at": "2026-10-11T06:47:57Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34253,
       "cr_slug": "sex-a-zen",
