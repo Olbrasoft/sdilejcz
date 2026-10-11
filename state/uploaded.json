@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T07:53:00Z",
+  "last_updated": "2026-10-11T07:53:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677156,21 +677156,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T07:17:04Z",
-      "first_failed_at": "2026-10-11T06:44:40Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 34827,
       "cr_slug": "ohnivy-ring",
       "title": "Ohnivý ring",
@@ -678000,6 +677985,21 @@
       "timing": {
         "cdn_resolve_sec": 8.9
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T07:53:18Z",
+      "first_failed_at": "2026-10-11T06:44:40Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -678032,16 +678032,6 @@
       "worker_id": "worker-1-38110393157",
       "run_id": "38110393157",
       "reserved_at": "2026-10-11T07:50:34Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T07:53:00Z"
     }
   ],
   "missing_on_account": [
