@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T21:39:32Z",
+  "last_updated": "2026-10-11T21:39:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677768,19 +677768,24 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34885,
       "cr_slug": "tata",
       "title": "Táta",
       "year": 1989,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38157858329",
-      "run_id": "38157858329",
-      "reserved_at": "2026-10-11T21:35:37Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T21:39:46Z",
+      "first_failed_at": "2026-10-11T21:39:46Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
