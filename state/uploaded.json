@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T08:40:37Z",
+  "last_updated": "2026-10-11T08:41:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674855,6 +674855,27 @@
       "timing": {
         "cdn_resolve_sec": 9.6
       }
+    },
+    {
+      "cr_film_id": 8199,
+      "cr_slug": "sexappeal",
+      "title": "Sex Appeal",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T08:41:11Z",
+      "first_failed_at": "2026-10-11T08:41:11Z",
+      "attempt_count": 1,
+      "upload_id": "64f2068b4a06a",
+      "source_url": "https://prehraj.to/sex-appeal-cz-dabing-2022-1080p/64f2068b4a06a",
+      "upload_title": "Sex appeal - CZ Dabing (2022) [1080P]",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 79.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674867,16 +674888,6 @@
       "worker_id": "worker-3-38124325879",
       "run_id": "38124325879",
       "reserved_at": "2026-10-11T08:31:31Z"
-    },
-    {
-      "cr_film_id": 8199,
-      "cr_slug": "sexappeal",
-      "title": "Sex Appeal",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38124325879",
-      "run_id": "38124325879",
-      "reserved_at": "2026-10-11T08:38:42Z"
     },
     {
       "cr_film_id": 8792,
