@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T02:59:54Z",
+  "last_updated": "2026-10-11T03:01:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677559,19 +677559,30 @@
       "timing": {
         "resolve_sec": 1.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34437,
       "cr_slug": "avengers-doomsday",
       "title": "Avengers: Doomsday",
       "year": 2026,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T02:51:56Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T03:01:30Z",
+      "first_failed_at": "2026-10-11T03:01:30Z",
+      "attempt_count": 1,
+      "upload_id": "5a3fdd7149d5fdfe",
+      "source_url": "https://prehraj.to/avengers-doomsday-2026-1080p-cz-mkv/5a3fdd7149d5fdfe",
+      "upload_title": "Avengers Doomsday (2026) 1080p CZ",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.1,
+        "download_sec": 52.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
