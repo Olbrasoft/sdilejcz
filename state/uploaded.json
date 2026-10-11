@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T12:22:23Z",
+  "last_updated": "2026-10-11T12:22:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674411,19 +674411,24 @@
       "timing": {
         "cdn_resolve_sec": 12.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38138493959",
-      "run_id": "38138493959",
-      "reserved_at": "2026-10-11T12:21:27Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T12:22:37Z",
+      "first_failed_at": "2026-10-11T12:22:37Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
