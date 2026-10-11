@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T05:27:09Z",
+  "last_updated": "2026-10-11T05:27:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675472,19 +675472,30 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 22852,
       "cr_slug": "delta-force",
       "title": "Delta Force",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T05:23:33Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T05:27:50Z",
+      "first_failed_at": "2026-10-11T05:27:50Z",
+      "attempt_count": 1,
+      "upload_id": "60f6fcbe1801d",
+      "source_url": "https://prehraj.to/delta-force-1986-czdab/60f6fcbe1801d",
+      "upload_title": "Delta Force (1986) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 93.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22870,
       "cr_slug": "mona-lisa",
