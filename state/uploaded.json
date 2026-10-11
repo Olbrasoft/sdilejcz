@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T10:37:31Z",
+  "last_updated": "2026-10-11T10:37:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675633,21 +675633,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T09:40:34Z",
-      "first_failed_at": "2026-10-11T08:37:20Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -676980,19 +676965,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38124325879",
-      "run_id": "38124325879",
-      "reserved_at": "2026-10-11T10:12:05Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T10:37:53Z",
+      "first_failed_at": "2026-10-11T08:37:20Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 32877,
       "cr_slug": "sex-is-comedy",
