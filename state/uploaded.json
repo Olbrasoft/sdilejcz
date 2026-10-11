@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T11:57:49Z",
+  "last_updated": "2026-10-11T11:58:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677330,21 +677330,6 @@
       }
     },
     {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T11:22:40Z",
-      "first_failed_at": "2026-10-11T10:51:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 15.9
-      }
-    },
-    {
       "cr_film_id": 35726,
       "cr_slug": "taylor-swift-the-eras-tour",
       "title": "TAYLOR SWIFT | THE ERAS TOUR",
@@ -678310,6 +678295,21 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 34827,
+      "cr_slug": "ohnivy-ring",
+      "title": "Ohnivý ring",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T11:58:14Z",
+      "first_failed_at": "2026-10-11T10:51:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
     }
   ],
   "in_progress": [
@@ -678332,16 +678332,6 @@
       "worker_id": "worker-1-38124325879",
       "run_id": "38124325879",
       "reserved_at": "2026-10-11T11:52:59Z"
-    },
-    {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38124325879",
-      "run_id": "38124325879",
-      "reserved_at": "2026-10-11T11:57:49Z"
     }
   ],
   "missing_on_account": [
