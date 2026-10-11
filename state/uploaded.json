@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T00:46:33Z",
+  "last_updated": "2026-10-11T00:46:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675358,6 +675358,23 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
+    },
+    {
+      "cr_film_id": 17393,
+      "cr_slug": "swallow",
+      "title": "Swallow",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T00:46:50Z",
+      "first_failed_at": "2026-10-11T00:46:50Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 2.5,
+        "download_sec": 165.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675370,16 +675387,6 @@
       "worker_id": "worker-2-38094527648",
       "run_id": "38094527648",
       "reserved_at": "2026-10-11T00:35:46Z"
-    },
-    {
-      "cr_film_id": 17393,
-      "cr_slug": "swallow",
-      "title": "Swallow",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T00:41:35Z"
     },
     {
       "cr_film_id": 16595,
