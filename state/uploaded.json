@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T17:37:05Z",
+  "last_updated": "2026-10-11T17:37:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674074,21 +674074,6 @@
       }
     },
     {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T17:06:29Z",
-      "first_failed_at": "2026-10-11T17:06:29Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 29.6
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -674340,6 +674325,21 @@
       "timing": {
         "cdn_resolve_sec": 28.5
       }
+    },
+    {
+      "cr_film_id": 1408,
+      "cr_slug": "black-panther",
+      "title": "Black Panther",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T17:37:37Z",
+      "first_failed_at": "2026-10-11T17:06:29Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 22.4
+      }
     }
   ],
   "in_progress": [
@@ -674372,16 +674372,6 @@
       "worker_id": "worker-2-38157858329",
       "run_id": "38157858329",
       "reserved_at": "2026-10-11T17:32:34Z"
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38157858329",
-      "run_id": "38157858329",
-      "reserved_at": "2026-10-11T17:37:05Z"
     }
   ],
   "missing_on_account": [
