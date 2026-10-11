@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T05:42:46Z",
+  "last_updated": "2026-10-11T05:43:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674930,21 +674930,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T05:10:03Z",
-      "first_failed_at": "2026-10-11T04:05:39Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.9
-      }
-    },
-    {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
@@ -675606,6 +675591,21 @@
       "timing": {
         "cdn_resolve_sec": 10.5
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T05:43:11Z",
+      "first_failed_at": "2026-10-11T04:05:39Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
   "in_progress": [
@@ -675638,16 +675638,6 @@
       "worker_id": "worker-3-38110393157",
       "run_id": "38110393157",
       "reserved_at": "2026-10-11T05:42:18Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T05:42:46Z"
     }
   ],
   "missing_on_account": [
