@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T14:02:54Z",
+  "last_updated": "2026-10-11T14:03:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674890,22 +674890,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-11T13:25:26Z",
-      "first_failed_at": "2026-10-11T13:25:26Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 4.0,
-        "download_sec": 2.0
-      }
-    },
-    {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
@@ -675933,6 +675917,22 @@
       "timing": {
         "cdn_resolve_sec": 23.2
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-11T14:03:22Z",
+      "first_failed_at": "2026-10-11T13:25:26Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7,
+        "download_sec": 2.9
+      }
     }
   ],
   "in_progress": [
@@ -675955,16 +675955,6 @@
       "worker_id": "worker-4-38138493959",
       "run_id": "38138493959",
       "reserved_at": "2026-10-11T14:01:45Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38138493959",
-      "run_id": "38138493959",
-      "reserved_at": "2026-10-11T14:02:54Z"
     }
   ],
   "missing_on_account": [
