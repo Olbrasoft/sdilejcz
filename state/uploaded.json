@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T01:15:41Z",
+  "last_updated": "2026-10-11T01:16:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675807,6 +675807,27 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
+    },
+    {
+      "cr_film_id": 20041,
+      "cr_slug": "sex-tape",
+      "title": "Sex Tape",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T01:16:00Z",
+      "first_failed_at": "2026-10-11T01:16:00Z",
+      "attempt_count": 1,
+      "upload_id": "652f89f27a7db",
+      "source_url": "https://prehraj.to/sex-tape-2014-cz/652f89f27a7db",
+      "upload_title": "Sex.Tape-2014-.CZ",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 29.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675829,16 +675850,6 @@
       "worker_id": "worker-3-38094527648",
       "run_id": "38094527648",
       "reserved_at": "2026-10-11T01:08:38Z"
-    },
-    {
-      "cr_film_id": 20041,
-      "cr_slug": "sex-tape",
-      "title": "Sex Tape",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T01:12:04Z"
     },
     {
       "cr_film_id": 13280,
