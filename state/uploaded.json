@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T06:55:58Z",
+  "last_updated": "2026-10-11T06:57:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676924,6 +676924,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 34253,
+      "cr_slug": "sex-a-zen",
+      "title": "Sex a zen",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T06:57:10Z",
+      "first_failed_at": "2026-10-11T06:57:10Z",
+      "attempt_count": 1,
+      "upload_id": "f0237130314e8e9d",
+      "source_url": "https://prehraj.to/sex-a-zen-1991-mp4/f0237130314e8e9d",
+      "upload_title": "Sex a zen (1991)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 29.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676956,16 +676977,6 @@
       "worker_id": "worker-1-38110393157",
       "run_id": "38110393157",
       "reserved_at": "2026-10-11T06:53:50Z"
-    },
-    {
-      "cr_film_id": 34253,
-      "cr_slug": "sex-a-zen",
-      "title": "Sex a zen",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T06:55:58Z"
     }
   ],
   "missing_on_account": [
