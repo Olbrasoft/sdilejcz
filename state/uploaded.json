@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T11:18:56Z",
+  "last_updated": "2026-10-11T11:19:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676863,21 +676863,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T10:48:49Z",
-      "first_failed_at": "2026-10-11T10:48:49Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.5
-      }
-    },
-    {
       "cr_film_id": 34623,
       "cr_slug": "temne-slunce",
       "title": "Temné slunce",
@@ -677804,6 +677789,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T11:19:15Z",
+      "first_failed_at": "2026-10-11T10:48:49Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -677836,16 +677836,6 @@
       "worker_id": "worker-3-38124325879",
       "run_id": "38124325879",
       "reserved_at": "2026-10-11T11:16:33Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38124325879",
-      "run_id": "38124325879",
-      "reserved_at": "2026-10-11T11:18:56Z"
     }
   ],
   "missing_on_account": [
