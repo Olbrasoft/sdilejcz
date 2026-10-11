@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T19:12:20Z",
+  "last_updated": "2026-10-11T19:13:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674699,21 +674699,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T18:33:32Z",
-      "first_failed_at": "2026-10-11T17:19:05Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 30.9
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -675373,6 +675358,21 @@
       "timing": {
         "cdn_resolve_sec": 32.5
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T19:13:08Z",
+      "first_failed_at": "2026-10-11T17:19:05Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 37.4
+      }
     }
   ],
   "in_progress": [
@@ -675405,16 +675405,6 @@
       "worker_id": "worker-4-38157858329",
       "run_id": "38157858329",
       "reserved_at": "2026-10-11T19:11:27Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38157858329",
-      "run_id": "38157858329",
-      "reserved_at": "2026-10-11T19:12:20Z"
     }
   ],
   "missing_on_account": [
