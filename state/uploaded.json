@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T13:53:17Z",
+  "last_updated": "2026-10-11T13:53:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674600,21 +674600,6 @@
       }
     },
     {
-      "cr_film_id": 14227,
-      "cr_slug": "zeme-lednich-medvedu",
-      "title": "Země ledních medvědů",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T13:12:07Z",
-      "first_failed_at": "2026-10-11T12:32:35Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 19.3
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675873,19 +675858,24 @@
       "timing": {
         "cdn_resolve_sec": 9.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38138493959",
-      "run_id": "38138493959",
-      "reserved_at": "2026-10-11T13:48:11Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T13:53:37Z",
+      "first_failed_at": "2026-10-11T12:32:35Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
