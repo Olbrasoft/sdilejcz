@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T13:43:16Z",
+  "last_updated": "2026-10-11T13:43:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674600,21 +674600,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T13:02:46Z",
-      "first_failed_at": "2026-10-11T12:26:39Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.8
-      }
-    },
-    {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
@@ -675720,19 +675705,24 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38138493959",
-      "run_id": "38138493959",
-      "reserved_at": "2026-10-11T13:41:39Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T13:43:32Z",
+      "first_failed_at": "2026-10-11T12:26:39Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
