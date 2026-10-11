@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T00:52:07Z",
+  "last_updated": "2026-10-11T00:53:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675413,19 +675413,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19462,
       "cr_slug": "sexy-party",
       "title": "Sexy párty",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T00:48:05Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T00:53:04Z",
+      "first_failed_at": "2026-10-11T00:53:04Z",
+      "attempt_count": 1,
+      "upload_id": "55e6ce2086aa9",
+      "source_url": "https://prehraj.to/sexy-party-1-2002-czdab/55e6ce2086aa9",
+      "upload_title": "Sexy party 1 (2002)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 22.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19546,
       "cr_slug": "sexy-party-2",
