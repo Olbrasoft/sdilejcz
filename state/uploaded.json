@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T16:46:02Z",
+  "last_updated": "2026-10-11T16:46:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677674,21 +677674,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T16:10:55Z",
-      "first_failed_at": "2026-10-11T15:04:09Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 16.2
-      }
-    },
-    {
       "cr_film_id": 37171,
       "cr_slug": "romance-na-vinicich",
       "title": "Romance na vinicích",
@@ -678322,19 +678307,24 @@
       "timing": {
         "cdn_resolve_sec": 24.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
       "year": null,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38138493959",
-      "run_id": "38138493959",
-      "reserved_at": "2026-10-11T16:41:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T16:46:32Z",
+      "first_failed_at": "2026-10-11T15:04:09Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 19.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
