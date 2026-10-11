@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T23:08:12Z",
+  "last_updated": "2026-10-11T23:08:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674547,19 +674547,30 @@
       "timing": {
         "cdn_resolve_sec": 17.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13454,
       "cr_slug": "sexy-mrtvola",
       "title": "Sexy mrtvola",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-11T23:05:47Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T23:08:37Z",
+      "first_failed_at": "2026-10-11T23:08:37Z",
+      "attempt_count": 1,
+      "upload_id": "926c7dccd9cc6ee7",
+      "source_url": "https://prehraj.to/smrtelne-sexy-2001-cz-mp4/926c7dccd9cc6ee7",
+      "upload_title": "Sexy mrtvola (2005)(CZ).mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.8,
+        "download_sec": 75.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13506,
       "cr_slug": "nezkrotna-dee-dee",
