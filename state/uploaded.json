@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T05:09:41Z",
+  "last_updated": "2026-10-11T05:10:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674203,21 +674203,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T04:37:08Z",
-      "first_failed_at": "2026-10-11T04:05:39Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.8
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -675361,19 +675346,24 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T05:08:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T05:10:03Z",
+      "first_failed_at": "2026-10-11T04:05:39Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
