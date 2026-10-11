@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T21:02:46Z",
+  "last_updated": "2026-10-11T21:05:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677094,19 +677094,30 @@
       "timing": {
         "resolve_sec": 1.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31135,
       "cr_slug": "co-by-udelala-sophia-loren",
       "title": "Co by udělala Sophia Loren?",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38157858329",
-      "run_id": "38157858329",
-      "reserved_at": "2026-10-11T20:41:02Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T21:05:48Z",
+      "first_failed_at": "2026-10-11T21:05:48Z",
+      "attempt_count": 1,
+      "upload_id": "f8760b63f0e5df74",
+      "source_url": "https://prehraj.to/co-by-udelala-sophia-loren-2021-cz-titulky/f8760b63f0e5df74",
+      "upload_title": "Co by udělala Sophia Loren? (2021) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 281.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31756,
       "cr_slug": "sex-after-kids",
