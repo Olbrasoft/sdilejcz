@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T01:28:27Z",
+  "last_updated": "2026-10-11T01:29:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674834,21 +674834,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T00:39:43Z",
-      "first_failed_at": "2026-10-10T23:34:34Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 16.5
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -675872,19 +675857,24 @@
       "timing": {
         "cdn_resolve_sec": 12.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T01:23:44Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T01:29:27Z",
+      "first_failed_at": "2026-10-10T23:34:34Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 26757,
       "cr_slug": "sex-ve-meste-2",
