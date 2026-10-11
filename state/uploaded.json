@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T08:03:51Z",
+  "last_updated": "2026-10-11T08:04:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677267,21 +677267,6 @@
       }
     },
     {
-      "cr_film_id": 34919,
-      "cr_slug": "milovany-joshua",
-      "title": "Milovaný Joshua",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T07:33:44Z",
-      "first_failed_at": "2026-10-11T07:33:44Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.7
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -678100,6 +678085,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 34919,
+      "cr_slug": "milovany-joshua",
+      "title": "Milovaný Joshua",
+      "year": 2007,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T08:04:11Z",
+      "first_failed_at": "2026-10-11T07:33:44Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
     }
   ],
   "in_progress": [
@@ -678132,16 +678132,6 @@
       "worker_id": "worker-2-38110393157",
       "run_id": "38110393157",
       "reserved_at": "2026-10-11T08:02:25Z"
-    },
-    {
-      "cr_film_id": 34919,
-      "cr_slug": "milovany-joshua",
-      "title": "Milovaný Joshua",
-      "year": 2007,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T08:03:51Z"
     }
   ],
   "missing_on_account": [
