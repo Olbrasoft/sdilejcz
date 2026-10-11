@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T04:34:56Z",
+  "last_updated": "2026-10-11T04:35:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674623,19 +674623,24 @@
       "timing": {
         "cdn_resolve_sec": 12.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T04:33:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T04:35:09Z",
+      "first_failed_at": "2026-10-11T04:35:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
