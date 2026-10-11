@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T13:49:38Z",
+  "last_updated": "2026-10-11T13:49:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674600,21 +674600,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T13:05:54Z",
-      "first_failed_at": "2026-10-11T12:28:06Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -675759,19 +675744,24 @@
         "resolve_sec": 1.0,
         "download_sec": 2.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38138493959",
-      "run_id": "38138493959",
-      "reserved_at": "2026-10-11T13:43:16Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T13:49:50Z",
+      "first_failed_at": "2026-10-11T12:28:06Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
