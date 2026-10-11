@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T05:02:51Z",
+  "last_updated": "2026-10-11T05:03:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674179,21 +674179,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T04:30:11Z",
-      "first_failed_at": "2026-10-11T04:30:11Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
       "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
@@ -675358,19 +675343,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T05:01:19Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T05:03:08Z",
+      "first_failed_at": "2026-10-11T04:30:11Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
