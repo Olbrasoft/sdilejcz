@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T01:54:25Z",
+  "last_updated": "2026-10-11T01:54:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676368,19 +676368,30 @@
         "cdn_resolve_sec": 6.6,
         "download_sec": 2.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 28657,
       "cr_slug": "lone-star-shark-2",
       "title": "Lone Star Shark 2",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T01:44:54Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T01:54:50Z",
+      "first_failed_at": "2026-10-11T01:54:50Z",
+      "attempt_count": 1,
+      "upload_id": "eaeeaf96a78b84bc",
+      "source_url": "https://prehraj.to/lone-star-shark-2025-720p-webrip-x264-aac-yts-bz/eaeeaf96a78b84bc",
+      "upload_title": "Lone.Star.Shark.2025.720p.WEBRip.x264.AAC-[YTS.BZ]",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 25.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 28682,
       "cr_slug": "hunger-games-usvit-sklizne",
