@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T06:41:02Z",
+  "last_updated": "2026-10-11T06:41:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675453,27 +675453,6 @@
       }
     },
     {
-      "cr_film_id": 23796,
-      "cr_slug": "operace-delta-force-3",
-      "title": "Operace Delta Force 3",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-11T06:03:26Z",
-      "first_failed_at": "2026-10-11T06:03:26Z",
-      "attempt_count": 1,
-      "upload_id": "5a984dc29981f",
-      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
-      "upload_title": "Operace Delta Force 3 (1998)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 24.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
@@ -676517,19 +676496,30 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23796,
       "cr_slug": "operace-delta-force-3",
       "title": "Operace Delta Force 3",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T06:33:37Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-11T06:41:22Z",
+      "first_failed_at": "2026-10-11T06:03:26Z",
+      "attempt_count": 2,
+      "upload_id": "5a984dc29981f",
+      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
+      "upload_title": "Operace Delta Force 3 (1998)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.7,
+        "download_sec": 19.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31371,
       "cr_slug": "playboy-inside-the-sexy-girls-next-door-house",
