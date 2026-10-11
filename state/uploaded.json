@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T05:37:04Z",
+  "last_updated": "2026-10-11T05:39:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675586,6 +675586,23 @@
       "timing": {
         "cdn_resolve_sec": 12.6
       }
+    },
+    {
+      "cr_film_id": 22870,
+      "cr_slug": "mona-lisa",
+      "title": "Mona Lisa",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "failed_at": "2026-10-11T05:39:16Z",
+      "first_failed_at": "2026-10-11T05:39:16Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 104.0,
+        "upload_sec": 0.0
+      }
     }
   ],
   "in_progress": [
@@ -675598,16 +675615,6 @@
       "worker_id": "worker-2-38110393157",
       "run_id": "38110393157",
       "reserved_at": "2026-10-11T05:31:54Z"
-    },
-    {
-      "cr_film_id": 22870,
-      "cr_slug": "mona-lisa",
-      "title": "Mona Lisa",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38110393157",
-      "run_id": "38110393157",
-      "reserved_at": "2026-10-11T05:33:02Z"
     },
     {
       "cr_film_id": 23211,
