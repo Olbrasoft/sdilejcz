@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T03:25:58Z",
+  "last_updated": "2026-10-11T03:26:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677114,21 +677114,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T02:50:25Z",
-      "first_failed_at": "2026-10-11T02:15:56Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
@@ -678155,6 +678140,21 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T03:26:23Z",
+      "first_failed_at": "2026-10-11T02:15:56Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -678187,16 +678187,6 @@
       "worker_id": "worker-1-38094527648",
       "run_id": "38094527648",
       "reserved_at": "2026-10-11T03:25:20Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38094527648",
-      "run_id": "38094527648",
-      "reserved_at": "2026-10-11T03:25:58Z"
     }
   ],
   "missing_on_account": [
