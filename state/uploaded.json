@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-11T09:46:23Z",
+  "last_updated": "2026-10-11T09:46:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674966,21 +674966,6 @@
       }
     },
     {
-      "cr_film_id": 14852,
-      "cr_slug": "sci-fi-high-the-movie-musical",
-      "title": "Sci-Fi High: The Movie Musical",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-11T09:08:12Z",
-      "first_failed_at": "2026-10-11T09:08:12Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -676292,20 +676277,24 @@
         "cdn_resolve_sec": 6.5,
         "download_sec": 2.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38124325879",
-      "run_id": "38124325879",
-      "reserved_at": "2026-10-11T09:41:17Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-11T09:46:35Z",
+      "first_failed_at": "2026-10-11T09:08:12Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
