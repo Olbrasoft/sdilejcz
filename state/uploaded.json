@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T02:11:09Z",
+  "last_updated": "2026-10-12T02:12:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676783,27 +676783,6 @@
       }
     },
     {
-      "cr_film_id": 33579,
-      "cr_slug": "the-penthouse",
-      "title": "The Penthouse",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-12T01:29:54Z",
-      "first_failed_at": "2026-10-12T01:29:54Z",
-      "attempt_count": 1,
-      "upload_id": "5fda728a8d152",
-      "source_url": "https://prehraj.to/penthouse-2010-czdab/5fda728a8d152",
-      "upload_title": "Penthouse (2010) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 32.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 33580,
       "cr_slug": "prenom-carmen",
       "title": "Prénom Carmen",
@@ -677658,19 +677637,30 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 33579,
       "cr_slug": "the-penthouse",
       "title": "The Penthouse",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T02:01:50Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-12T02:12:21Z",
+      "first_failed_at": "2026-10-12T01:29:54Z",
+      "attempt_count": 2,
+      "upload_id": "5fda728a8d152",
+      "source_url": "https://prehraj.to/penthouse-2010-czdab/5fda728a8d152",
+      "upload_title": "Penthouse (2010) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 49.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35001,
       "cr_slug": "princip-domina",
