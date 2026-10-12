@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T19:00:24Z",
+  "last_updated": "2026-10-12T19:00:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674919,21 +674919,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T18:23:12Z",
-      "first_failed_at": "2026-10-12T17:04:34Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 23.2
-      }
-    },
-    {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
       "title": "Wind River",
@@ -675567,6 +675552,21 @@
       "timing": {
         "cdn_resolve_sec": 17.3
       }
+    },
+    {
+      "cr_film_id": 14786,
+      "cr_slug": "krakonos-a-sklinkar-matej",
+      "title": "Krakonos a sklínkar Matej",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T19:00:32Z",
+      "first_failed_at": "2026-10-12T17:04:34Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.6
+      }
     }
   ],
   "in_progress": [
@@ -675589,16 +675589,6 @@
       "worker_id": "worker-4-38277448842",
       "run_id": "38277448842",
       "reserved_at": "2026-10-12T18:55:53Z"
-    },
-    {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38277448842",
-      "run_id": "38277448842",
-      "reserved_at": "2026-10-12T19:00:01Z"
     }
   ],
   "missing_on_account": [
