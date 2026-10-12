@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T19:48:15Z",
+  "last_updated": "2026-10-12T19:48:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675786,21 +675786,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T19:17:53Z",
-      "first_failed_at": "2026-10-12T19:17:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 18.5
-      }
-    },
-    {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
@@ -676207,6 +676192,21 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T19:48:50Z",
+      "first_failed_at": "2026-10-12T19:17:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 23.8
+      }
     }
   ],
   "in_progress": [
@@ -676239,16 +676239,6 @@
       "worker_id": "worker-2-38277448842",
       "run_id": "38277448842",
       "reserved_at": "2026-10-12T19:40:55Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38277448842",
-      "run_id": "38277448842",
-      "reserved_at": "2026-10-12T19:48:15Z"
     }
   ],
   "missing_on_account": [
