@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T12:41:14Z",
+  "last_updated": "2026-10-12T12:41:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674585,19 +674585,24 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38246137792",
-      "run_id": "38246137792",
-      "reserved_at": "2026-10-12T12:39:48Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T12:41:35Z",
+      "first_failed_at": "2026-10-12T12:41:35Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13454,
       "cr_slug": "sexy-mrtvola",
