@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T08:42:40Z",
+  "last_updated": "2026-10-12T08:43:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675781,19 +675781,30 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18355,
       "cr_slug": "blue-caprice",
       "title": "Blue Caprice",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38219004631",
-      "run_id": "38219004631",
-      "reserved_at": "2026-10-12T08:37:48Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-12T08:43:09Z",
+      "first_failed_at": "2026-10-12T08:43:09Z",
+      "attempt_count": 1,
+      "upload_id": "5aac055ba6cb4",
+      "source_url": "https://prehraj.to/blue-caprice-2013/5aac055ba6cb4",
+      "upload_title": "Blue Caprice (2013)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 36.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
