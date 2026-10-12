@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T23:40:28Z",
+  "last_updated": "2026-10-12T23:40:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675043,21 +675043,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T23:10:16Z",
-      "first_failed_at": "2026-10-12T22:39:21Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -675940,6 +675925,21 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T23:40:47Z",
+      "first_failed_at": "2026-10-12T22:39:21Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -675972,16 +675972,6 @@
       "worker_id": "worker-3-38313489208",
       "run_id": "38313489208",
       "reserved_at": "2026-10-12T23:38:22Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38313489208",
-      "run_id": "38313489208",
-      "reserved_at": "2026-10-12T23:40:28Z"
     }
   ],
   "missing_on_account": [
