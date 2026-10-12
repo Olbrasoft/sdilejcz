@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T06:45:58Z",
+  "last_updated": "2026-10-12T06:46:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677960,19 +677960,30 @@
         "resolve_sec": 1.6,
         "download_sec": 2.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35543,
       "cr_slug": "love-sick-secrets-of-a-sex-addict",
       "title": "Love Sick: Secrets of a Sex Addict",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38199811488",
-      "run_id": "38199811488",
-      "reserved_at": "2026-10-12T06:40:40Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-12T06:46:16Z",
+      "first_failed_at": "2026-10-12T06:46:16Z",
+      "attempt_count": 1,
+      "upload_id": "5acc63ad02213",
+      "source_url": "https://prehraj.to/nemocna-laskou-2008/5acc63ad02213",
+      "upload_title": "Nemocná láskou (2008)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 20.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35759,
       "cr_slug": "putin",
