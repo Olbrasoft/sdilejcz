@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T03:02:03Z",
+  "last_updated": "2026-10-12T03:02:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678303,19 +678303,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37352,
       "cr_slug": "terra-incognita-making-the-andromeda-strain",
       "title": "Terra Incognita: Making the Andromeda Strain",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T02:56:52Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T03:02:18Z",
+      "first_failed_at": "2026-10-12T03:02:18Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
