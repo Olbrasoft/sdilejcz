@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T15:13:44Z",
+  "last_updated": "2026-10-12T15:13:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676566,22 +676566,6 @@
       "permanent": true
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-12T14:42:45Z",
-      "first_failed_at": "2026-10-12T14:42:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 2.1
-      }
-    },
-    {
       "cr_film_id": 31196,
       "cr_slug": "phil-wang-philly-philly-wang-wang",
       "title": "Phil Wang: Philly Philly Wang Wang",
@@ -677020,6 +677004,22 @@
         "resolve_sec": 1.4,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-12T15:13:59Z",
+      "first_failed_at": "2026-10-12T14:42:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 2.3
+      }
     }
   ],
   "in_progress": [
@@ -677052,16 +677052,6 @@
       "worker_id": "worker-4-38246137792",
       "run_id": "38246137792",
       "reserved_at": "2026-10-12T15:12:10Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38246137792",
-      "run_id": "38246137792",
-      "reserved_at": "2026-10-12T15:13:44Z"
     }
   ],
   "missing_on_account": [
