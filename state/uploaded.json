@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T18:54:11Z",
+  "last_updated": "2026-10-12T18:55:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675522,6 +675522,27 @@
       "timing": {
         "cdn_resolve_sec": 29.2
       }
+    },
+    {
+      "cr_film_id": 23191,
+      "cr_slug": "delta-force-3-vrazedna-hra",
+      "title": "Delta Force 3: Vražedná hra",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-12T18:55:42Z",
+      "first_failed_at": "2026-10-12T18:55:42Z",
+      "attempt_count": 1,
+      "upload_id": "6635b8d96b38c",
+      "source_url": "https://prehraj.to/delta-force-3-vrazedna-hra-1991-cesky-dabing/6635b8d96b38c",
+      "upload_title": "Delta-Force-3-vražedná-hra-(1991)-český-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 47.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675554,16 +675575,6 @@
       "worker_id": "worker-3-38277448842",
       "run_id": "38277448842",
       "reserved_at": "2026-10-12T18:51:39Z"
-    },
-    {
-      "cr_film_id": 23191,
-      "cr_slug": "delta-force-3-vrazedna-hra",
-      "title": "Delta Force 3: Vražedná hra",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38277448842",
-      "run_id": "38277448842",
-      "reserved_at": "2026-10-12T18:54:11Z"
     }
   ],
   "missing_on_account": [
