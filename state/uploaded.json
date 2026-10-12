@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T13:59:26Z",
+  "last_updated": "2026-10-12T13:59:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675014,21 +675014,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T13:26:12Z",
-      "first_failed_at": "2026-10-12T12:55:34Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -675815,6 +675800,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T13:59:53Z",
+      "first_failed_at": "2026-10-12T12:55:34Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 15.0
+      }
     }
   ],
   "in_progress": [
@@ -675837,16 +675837,6 @@
       "worker_id": "worker-2-38246137792",
       "run_id": "38246137792",
       "reserved_at": "2026-10-12T13:58:45Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38246137792",
-      "run_id": "38246137792",
-      "reserved_at": "2026-10-12T13:59:26Z"
     }
   ],
   "missing_on_account": [
