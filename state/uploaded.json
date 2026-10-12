@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T04:26:20Z",
+  "last_updated": "2026-10-12T04:26:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675450,19 +675450,25 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38199811488",
-      "run_id": "38199811488",
-      "reserved_at": "2026-10-12T04:21:42Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-12T04:26:30Z",
+      "first_failed_at": "2026-10-12T04:26:30Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 7.4,
+        "download_sec": 2.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16922,
       "cr_slug": "wet-woman-in-the-wind",
