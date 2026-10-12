@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T17:31:30Z",
+  "last_updated": "2026-10-12T17:32:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673881,6 +673881,27 @@
         "upload_sec": 317.6,
         "total_sec": 1569.7
       }
+    },
+    {
+      "cr_film_id": 14498,
+      "cr_slug": "mariah-carey-a-kouzelne-vanoce",
+      "title": "Mariah Carey a kouzelné Vánoce",
+      "year": 2020,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 14250,
+      "sdilej_url": "https://sdilej.cz/35296185/mariah-carey-a-kouzelne-vanoce-2020-cz-titulky.mp4",
+      "sdilej_name": "Mariah Carey a kouzelné Vánoce (2020) CZ titulky.mp4",
+      "uploaded_at": "2026-10-12T17:30:54Z",
+      "status": "uploaded",
+      "size_bytes": 401440365,
+      "worker_id": "worker-2-38277448842",
+      "timing": {
+        "cdn_resolve_sec": 10.3,
+        "download_sec": 78.0,
+        "upload_sec": 51.4,
+        "total_sec": 139.8
+      }
     }
   ],
   "failed_attempts": [
@@ -674121,27 +674142,6 @@
       "attempt_count": 1,
       "timing": {
         "cdn_resolve_sec": 21.4
-      }
-    },
-    {
-      "cr_film_id": 14498,
-      "cr_slug": "mariah-carey-a-kouzelne-vanoce",
-      "title": "Mariah Carey a kouzelné Vánoce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-      "failed_at": "2026-10-12T17:03:23Z",
-      "first_failed_at": "2026-10-12T17:03:23Z",
-      "attempt_count": 1,
-      "upload_id": "b806ee11745bde85",
-      "source_url": "https://prehraj.to/mariah-carey-a-kouzelne-vanoce-2020-cz-titulky/b806ee11745bde85",
-      "upload_title": "Mariah Carey a kouzelné Vánoce (2020) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.6,
-        "download_sec": 26.6,
-        "upload_sec": 0.0
       }
     },
     {
@@ -674707,16 +674707,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 14498,
-      "cr_slug": "mariah-carey-a-kouzelne-vanoce",
-      "title": "Mariah Carey a kouzelné Vánoce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38277448842",
-      "run_id": "38277448842",
-      "reserved_at": "2026-10-12T17:28:25Z"
-    },
     {
       "cr_film_id": 15084,
       "cr_slug": "sex-jak-to-rozbalit",
