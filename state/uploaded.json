@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T01:03:32Z",
+  "last_updated": "2026-10-12T01:03:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675464,21 +675464,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T00:32:45Z",
-      "first_failed_at": "2026-10-11T23:24:23Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -676120,6 +676105,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T01:03:51Z",
+      "first_failed_at": "2026-10-11T23:24:23Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
     }
   ],
   "in_progress": [
@@ -676142,16 +676142,6 @@
       "worker_id": "worker-1-38180347451",
       "run_id": "38180347451",
       "reserved_at": "2026-10-12T01:01:15Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T01:03:32Z"
     }
   ],
   "missing_on_account": [
