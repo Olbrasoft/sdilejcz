@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T08:15:37Z",
+  "last_updated": "2026-10-12T08:15:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675165,19 +675165,24 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38219004631",
-      "run_id": "38219004631",
-      "reserved_at": "2026-10-12T08:14:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T08:15:49Z",
+      "first_failed_at": "2026-10-12T08:15:49Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
