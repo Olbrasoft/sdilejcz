@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T11:31:45Z",
+  "last_updated": "2026-10-12T11:32:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677392,22 +677392,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-12T10:59:38Z",
-      "first_failed_at": "2026-10-12T09:57:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.6,
-        "download_sec": 3.5
-      }
-    },
-    {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
       "title": "Krvavá Amazonka",
@@ -678217,6 +678201,22 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-12T11:32:00Z",
+      "first_failed_at": "2026-10-12T09:57:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 2.6
+      }
     }
   ],
   "in_progress": [
@@ -678239,16 +678239,6 @@
       "worker_id": "worker-3-38219004631",
       "run_id": "38219004631",
       "reserved_at": "2026-10-12T11:31:28Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38219004631",
-      "run_id": "38219004631",
-      "reserved_at": "2026-10-12T11:31:45Z"
     }
   ],
   "missing_on_account": [
