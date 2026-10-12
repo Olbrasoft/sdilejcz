@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T13:35:49Z",
+  "last_updated": "2026-10-12T13:36:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674797,21 +674797,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T13:05:43Z",
-      "first_failed_at": "2026-10-12T12:04:32Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
@@ -675595,6 +675580,21 @@
       "timing": {
         "cdn_resolve_sec": 10.7
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T13:36:10Z",
+      "first_failed_at": "2026-10-12T12:04:32Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
     }
   ],
   "in_progress": [
@@ -675627,16 +675627,6 @@
       "worker_id": "worker-2-38246137792",
       "run_id": "38246137792",
       "reserved_at": "2026-10-12T13:34:50Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38246137792",
-      "run_id": "38246137792",
-      "reserved_at": "2026-10-12T13:35:49Z"
     }
   ],
   "missing_on_account": [
