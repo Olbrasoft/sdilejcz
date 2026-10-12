@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T02:04:30Z",
+  "last_updated": "2026-10-12T02:04:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674667,6 +674667,27 @@
         "upload_sec": 224.5,
         "total_sec": 289.5
       }
+    },
+    {
+      "cr_film_id": 34754,
+      "cr_slug": "studentka",
+      "title": "Studentka",
+      "year": 1988,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 59277,
+      "sdilej_url": "https://sdilej.cz/35294217/studentka-1988-.mp4",
+      "sdilej_name": "Studentka (1988).mp4",
+      "uploaded_at": "2026-10-12T02:00:57Z",
+      "status": "uploaded",
+      "size_bytes": 652093768,
+      "worker_id": "worker-1-38180347451",
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 63.9,
+        "upload_sec": 107.1,
+        "total_sec": 174.2
+      }
     }
   ],
   "failed_attempts": [
@@ -677262,27 +677283,6 @@
       }
     },
     {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-12T01:56:14Z",
-      "first_failed_at": "2026-10-12T01:56:14Z",
-      "attempt_count": 1,
-      "upload_id": "4deb3748356500d8",
-      "source_url": "https://prehraj.to/studentka-1988-fhd-cz-fr/4deb3748356500d8",
-      "upload_title": "Studentka (1988) FHD cz fr",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 42.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -677462,16 +677462,6 @@
       "worker_id": "worker-2-38180347451",
       "run_id": "38180347451",
       "reserved_at": "2026-10-12T01:47:27Z"
-    },
-    {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T01:57:55Z"
     },
     {
       "cr_film_id": 33579,
