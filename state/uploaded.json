@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T01:22:27Z",
+  "last_updated": "2026-10-12T01:22:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675642,21 +675642,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T00:44:59Z",
-      "first_failed_at": "2026-10-11T23:27:45Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
       "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
@@ -676618,19 +676603,24 @@
       "timing": {
         "cdn_resolve_sec": 15.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T01:15:32Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T01:22:39Z",
+      "first_failed_at": "2026-10-11T23:27:45Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24397,
       "cr_slug": "chilli-sex-a-samba",
