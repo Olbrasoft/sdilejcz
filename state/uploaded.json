@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T07:19:13Z",
+  "last_updated": "2026-10-12T07:21:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677312,21 +677312,6 @@
       }
     },
     {
-      "cr_film_id": 35060,
-      "cr_slug": "malcolm-x",
-      "title": "Malcolm X",
-      "year": 1992,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T06:41:32Z",
-      "first_failed_at": "2026-10-12T06:41:32Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.7
-      }
-    },
-    {
       "cr_film_id": 35726,
       "cr_slug": "taylor-swift-the-eras-tour",
       "title": "TAYLOR SWIFT | THE ERAS TOUR",
@@ -678312,19 +678297,24 @@
       "timing": {
         "cdn_resolve_sec": 20.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35060,
       "cr_slug": "malcolm-x",
       "title": "Malcolm X",
       "year": 1992,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38199811488",
-      "run_id": "38199811488",
-      "reserved_at": "2026-10-12T07:12:09Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T07:21:41Z",
+      "first_failed_at": "2026-10-12T06:41:32Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 18.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35543,
       "cr_slug": "love-sick-secrets-of-a-sex-addict",
