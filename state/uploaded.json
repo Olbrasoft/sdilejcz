@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T05:29:14Z",
+  "last_updated": "2026-10-12T05:29:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675451,21 +675451,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T04:51:55Z",
-      "first_failed_at": "2026-10-12T03:42:57Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.1
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -676141,6 +676126,21 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T05:29:40Z",
+      "first_failed_at": "2026-10-12T03:42:57Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.2
+      }
     }
   ],
   "in_progress": [
@@ -676173,16 +676173,6 @@
       "worker_id": "worker-2-38199811488",
       "run_id": "38199811488",
       "reserved_at": "2026-10-12T05:27:36Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38199811488",
-      "run_id": "38199811488",
-      "reserved_at": "2026-10-12T05:29:14Z"
     }
   ],
   "missing_on_account": [
