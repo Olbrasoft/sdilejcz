@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T20:58:03Z",
+  "last_updated": "2026-10-12T20:59:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674688,6 +674688,27 @@
         "upload_sec": 146.8,
         "total_sec": 188.0
       }
+    },
+    {
+      "cr_film_id": 34754,
+      "cr_slug": "studentka",
+      "title": "Studentka",
+      "year": 1988,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 59277,
+      "sdilej_url": "https://sdilej.cz/35296753/studentka-1988-.mp4",
+      "sdilej_name": "Studentka (1988).mp4",
+      "uploaded_at": "2026-10-12T20:52:05Z",
+      "status": "uploaded",
+      "size_bytes": 652093768,
+      "worker_id": "worker-2-38277448842",
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 126.9,
+        "upload_sec": 86.3,
+        "total_sec": 214.6
+      }
     }
   ],
   "failed_attempts": [
@@ -677275,27 +677296,6 @@
       }
     },
     {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-12T20:46:00Z",
-      "first_failed_at": "2026-10-12T20:46:00Z",
-      "attempt_count": 1,
-      "upload_id": "4deb3748356500d8",
-      "source_url": "https://prehraj.to/studentka-1988-fhd-cz-fr/4deb3748356500d8",
-      "upload_title": "Studentka (1988) FHD cz fr",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 59.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
       "title": "Kája + Oliva",
@@ -677609,16 +677609,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38277448842",
-      "run_id": "38277448842",
-      "reserved_at": "2026-10-12T20:48:22Z"
-    },
     {
       "cr_film_id": 34902,
       "cr_slug": "duch-boure",
