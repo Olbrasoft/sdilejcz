@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T12:21:32Z",
+  "last_updated": "2026-10-12T12:23:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673732,6 +673732,30 @@
         "upload_sec": 99.4,
         "total_sec": 125.9
       }
+    },
+    {
+      "cr_film_id": 7442,
+      "cr_slug": "vriskot-7",
+      "title": "Vřískot 7",
+      "year": 2026,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "c872935c54bb9e08",
+      "source_url": "https://prehraj.to/scary-movie-2026-cz-dabing-mkv/c872935c54bb9e08",
+      "source_title": "Scary Movie (2026) CZ dabing.mkv",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35295480/vriskot-7-2026-cz-dabing.mp4",
+      "sdilej_name": "Vřískot 7 (2026) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-12T12:22:43Z",
+      "status": "uploaded",
+      "size_bytes": 1621403475,
+      "worker_id": "worker-2-38246137792",
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 59.7,
+        "upload_sec": 259.2,
+        "total_sec": 332.4
+      }
     }
   ],
   "failed_attempts": [
@@ -673997,25 +674021,6 @@
       }
     },
     {
-      "cr_film_id": 7442,
-      "cr_slug": "vriskot-7",
-      "title": "Vřískot 7",
-      "year": 2026,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/vriskot-7-scream-2026-cz-dabing/083c26e14a1c8327",
-      "failed_at": "2026-10-12T12:17:13Z",
-      "first_failed_at": "2026-10-12T12:17:13Z",
-      "attempt_count": 1,
-      "upload_id": "083c26e14a1c8327",
-      "source_url": "https://prehraj.to/vriskot-7-scream-2026-cz-dabing/083c26e14a1c8327",
-      "upload_title": "▲ Vřískot 7 Scream (2026) [CZ Dabing]",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -674100,16 +674105,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 7442,
-      "cr_slug": "vriskot-7",
-      "title": "Vřískot 7",
-      "year": 2026,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38246137792",
-      "run_id": "38246137792",
-      "reserved_at": "2026-10-12T12:17:02Z"
-    },
     {
       "cr_film_id": 8199,
       "cr_slug": "sexappeal",
