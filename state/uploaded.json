@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T01:15:32Z",
+  "last_updated": "2026-10-12T01:15:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676420,19 +676420,25 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T01:07:55Z"
-    },
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-12T01:15:59Z",
+      "first_failed_at": "2026-10-12T01:15:59Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 3.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31371,
       "cr_slug": "playboy-inside-the-sexy-girls-next-door-house",
