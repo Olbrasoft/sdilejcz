@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T12:04:09Z",
+  "last_updated": "2026-10-12T12:04:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673779,6 +673779,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T12:04:32Z",
+      "first_failed_at": "2026-10-12T12:04:32Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -673811,16 +673826,6 @@
       "worker_id": "worker-3-38246137792",
       "run_id": "38246137792",
       "reserved_at": "2026-10-12T12:00:49Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38246137792",
-      "run_id": "38246137792",
-      "reserved_at": "2026-10-12T12:03:12Z"
     }
   ],
   "missing_on_account": [
