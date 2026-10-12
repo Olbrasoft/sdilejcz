@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T02:27:20Z",
+  "last_updated": "2026-10-12T02:27:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677095,21 +677095,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T01:52:46Z",
-      "first_failed_at": "2026-10-12T01:20:16Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 34827,
       "cr_slug": "ohnivy-ring",
       "title": "Ohnivý ring",
@@ -677975,6 +677960,21 @@
       "timing": {
         "cdn_resolve_sec": 15.1
       }
+    },
+    {
+      "cr_film_id": 31658,
+      "cr_slug": "tararua-s-k",
+      "title": "Tararua S-K",
+      "year": null,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T02:27:43Z",
+      "first_failed_at": "2026-10-12T01:20:16Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -677997,16 +677997,6 @@
       "worker_id": "worker-4-38180347451",
       "run_id": "38180347451",
       "reserved_at": "2026-10-12T02:24:26Z"
-    },
-    {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T02:27:20Z"
     }
   ],
   "missing_on_account": [
