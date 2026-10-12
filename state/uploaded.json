@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T03:16:17Z",
+  "last_updated": "2026-10-12T03:16:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677496,21 +677496,6 @@
       }
     },
     {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T02:30:28Z",
-      "first_failed_at": "2026-10-12T01:55:57Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 15.0
-      }
-    },
-    {
       "cr_film_id": 36905,
       "cr_slug": "zivot-kotete",
       "title": "Život kotěte",
@@ -678318,20 +678303,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T03:16:17Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T03:16:41Z",
+      "first_failed_at": "2026-10-12T01:55:57Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
