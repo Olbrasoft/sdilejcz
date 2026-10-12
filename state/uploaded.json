@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T01:12:36Z",
+  "last_updated": "2026-10-12T01:13:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675298,21 +675298,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T00:26:42Z",
-      "first_failed_at": "2026-10-11T23:25:04Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
@@ -676382,6 +676367,21 @@
       "timing": {
         "cdn_resolve_sec": 15.1
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T01:13:00Z",
+      "first_failed_at": "2026-10-11T23:25:04Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -676414,16 +676414,6 @@
       "worker_id": "worker-4-38180347451",
       "run_id": "38180347451",
       "reserved_at": "2026-10-12T01:10:42Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T01:12:36Z"
     }
   ],
   "missing_on_account": [
