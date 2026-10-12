@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T06:51:00Z",
+  "last_updated": "2026-10-12T06:51:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677162,21 +677162,6 @@
       }
     },
     {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T06:20:33Z",
-      "first_failed_at": "2026-10-12T06:20:33Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 34885,
       "cr_slug": "tata",
       "title": "Táta",
@@ -678057,6 +678042,21 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
+    },
+    {
+      "cr_film_id": 34882,
+      "cr_slug": "brouk-v-hlave-1968",
+      "title": "Brouk v hlavě",
+      "year": 1968,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T06:51:23Z",
+      "first_failed_at": "2026-10-12T06:20:33Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
     }
   ],
   "in_progress": [
@@ -678089,16 +678089,6 @@
       "worker_id": "worker-4-38199811488",
       "run_id": "38199811488",
       "reserved_at": "2026-10-12T06:49:58Z"
-    },
-    {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38199811488",
-      "run_id": "38199811488",
-      "reserved_at": "2026-10-12T06:51:00Z"
     }
   ],
   "missing_on_account": [
