@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T12:26:36Z",
+  "last_updated": "2026-10-12T12:26:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674204,6 +674204,21 @@
       "timing": {
         "cdn_resolve_sec": 9.4
       }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T12:26:58Z",
+      "first_failed_at": "2026-10-12T12:26:58Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -674236,16 +674251,6 @@
       "worker_id": "worker-4-38246137792",
       "run_id": "38246137792",
       "reserved_at": "2026-10-12T12:26:06Z"
-    },
-    {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38246137792",
-      "run_id": "38246137792",
-      "reserved_at": "2026-10-12T12:26:36Z"
     }
   ],
   "missing_on_account": [
