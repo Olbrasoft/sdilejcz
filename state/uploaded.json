@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T19:44:06Z",
+  "last_updated": "2026-10-12T19:44:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675571,21 +675571,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T18:47:08Z",
-      "first_failed_at": "2026-10-12T17:30:50Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 16.7
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -676017,6 +676002,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T19:44:42Z",
+      "first_failed_at": "2026-10-12T17:30:50Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 24.0
+      }
     }
   ],
   "in_progress": [
@@ -676049,16 +676049,6 @@
       "worker_id": "worker-2-38277448842",
       "run_id": "38277448842",
       "reserved_at": "2026-10-12T19:40:55Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38277448842",
-      "run_id": "38277448842",
-      "reserved_at": "2026-10-12T19:44:06Z"
     }
   ],
   "missing_on_account": [
