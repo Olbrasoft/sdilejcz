@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T17:54:40Z",
+  "last_updated": "2026-10-12T17:55:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674776,19 +674776,30 @@
       "timing": {
         "cdn_resolve_sec": 26.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16379,
       "cr_slug": "blazing-fists",
       "title": "Blazing Fists",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38277448842",
-      "run_id": "38277448842",
-      "reserved_at": "2026-10-12T17:31:30Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-12T17:55:07Z",
+      "first_failed_at": "2026-10-12T17:55:07Z",
+      "attempt_count": 1,
+      "upload_id": "24145dc69dbb4625",
+      "source_url": "https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
+      "upload_title": "Blazing Fists (2025) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.0,
+        "download_sec": 1299.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
