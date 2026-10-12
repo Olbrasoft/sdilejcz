@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T01:46:09Z",
+  "last_updated": "2026-10-12T01:46:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676578,22 +676578,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-12T01:15:59Z",
-      "first_failed_at": "2026-10-12T01:15:59Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.2,
-        "download_sec": 3.4
-      }
-    },
-    {
       "cr_film_id": 31516,
       "cr_slug": "red-flags-2025",
       "title": "Red Flags",
@@ -677214,6 +677198,22 @@
         "resolve_sec": 1.1,
         "download_sec": 1.5
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-12T01:46:22Z",
+      "first_failed_at": "2026-10-12T01:15:59Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -677246,16 +677246,6 @@
       "worker_id": "worker-3-38180347451",
       "run_id": "38180347451",
       "reserved_at": "2026-10-12T01:42:48Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T01:46:09Z"
     }
   ],
   "missing_on_account": [
