@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T06:33:47Z",
+  "last_updated": "2026-10-12T06:34:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676654,21 +676654,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T05:55:50Z",
-      "first_failed_at": "2026-10-12T05:55:50Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.4
-      }
-    },
-    {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
@@ -677667,19 +677652,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38199811488",
-      "run_id": "38199811488",
-      "reserved_at": "2026-10-12T06:25:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T06:34:07Z",
+      "first_failed_at": "2026-10-12T05:55:50Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
