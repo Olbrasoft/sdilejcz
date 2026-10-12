@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T13:42:52Z",
+  "last_updated": "2026-10-12T13:43:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674722,22 +674722,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-12T13:08:33Z",
-      "first_failed_at": "2026-10-12T13:08:33Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 5.1,
-        "download_sec": 2.5
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -675616,6 +675600,22 @@
         "download_sec": 63.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-12T13:43:13Z",
+      "first_failed_at": "2026-10-12T13:08:33Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 6.2,
+        "download_sec": 2.7
+      }
     }
   ],
   "in_progress": [
@@ -675648,16 +675648,6 @@
       "worker_id": "worker-2-38246137792",
       "run_id": "38246137792",
       "reserved_at": "2026-10-12T13:42:18Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38246137792",
-      "run_id": "38246137792",
-      "reserved_at": "2026-10-12T13:42:52Z"
     }
   ],
   "missing_on_account": [
