@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T03:19:45Z",
+  "last_updated": "2026-10-12T03:20:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677560,21 +677560,6 @@
       }
     },
     {
-      "cr_film_id": 34969,
-      "cr_slug": "snehurka-pribeh-hruzy",
-      "title": "Sněhurka - Příběh hrůzy",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T02:41:00Z",
-      "first_failed_at": "2026-10-12T02:08:55Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
       "title": "Krvavá Amazonka",
@@ -678318,20 +678303,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T03:19:45Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T03:20:10Z",
+      "first_failed_at": "2026-10-12T02:08:55Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
