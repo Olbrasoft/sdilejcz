@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T09:33:59Z",
+  "last_updated": "2026-10-12T09:34:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675346,21 +675346,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T09:02:57Z",
-      "first_failed_at": "2026-10-12T08:30:51Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 16.5
-      }
-    },
-    {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
@@ -675999,6 +675984,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T09:34:22Z",
+      "first_failed_at": "2026-10-12T08:30:51Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
     }
   ],
   "in_progress": [
@@ -676031,16 +676031,6 @@
       "worker_id": "worker-2-38219004631",
       "run_id": "38219004631",
       "reserved_at": "2026-10-12T09:33:23Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38219004631",
-      "run_id": "38219004631",
-      "reserved_at": "2026-10-12T09:33:59Z"
     }
   ],
   "missing_on_account": [
