@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T13:32:21Z",
+  "last_updated": "2026-10-12T13:32:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674719,21 +674719,6 @@
       }
     },
     {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T13:01:52Z",
-      "first_failed_at": "2026-10-12T12:30:21Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 15.2
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -675547,6 +675532,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 12170,
+      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
+      "title": "MacGyver: Ztracený poklad Atlantidy",
+      "year": 1994,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T13:32:42Z",
+      "first_failed_at": "2026-10-12T12:30:21Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.3
+      }
     }
   ],
   "in_progress": [
@@ -675579,16 +675579,6 @@
       "worker_id": "worker-2-38246137792",
       "run_id": "38246137792",
       "reserved_at": "2026-10-12T13:29:30Z"
-    },
-    {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38246137792",
-      "run_id": "38246137792",
-      "reserved_at": "2026-10-12T13:32:21Z"
     }
   ],
   "missing_on_account": [
