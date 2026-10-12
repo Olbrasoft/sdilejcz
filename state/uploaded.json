@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T05:34:47Z",
+  "last_updated": "2026-10-12T05:35:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675506,21 +675506,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T05:01:17Z",
-      "first_failed_at": "2026-10-12T03:54:21Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 25633,
       "cr_slug": "michael-clayton",
       "title": "Michael Clayton",
@@ -676165,6 +676150,21 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T05:35:15Z",
+      "first_failed_at": "2026-10-12T03:54:21Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -676177,16 +676177,6 @@
       "worker_id": "worker-2-38199811488",
       "run_id": "38199811488",
       "reserved_at": "2026-10-12T05:27:36Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38199811488",
-      "run_id": "38199811488",
-      "reserved_at": "2026-10-12T05:34:47Z"
     }
   ],
   "missing_on_account": [
