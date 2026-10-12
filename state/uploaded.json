@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T04:15:26Z",
+  "last_updated": "2026-10-12T04:15:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674494,21 +674494,6 @@
       }
     },
     {
-      "cr_film_id": 12825,
-      "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
-      "title": "Dobrodružství Toma Palečka a Malenky",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T03:40:22Z",
-      "first_failed_at": "2026-10-12T03:40:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -675328,19 +675313,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38199811488",
-      "run_id": "38199811488",
-      "reserved_at": "2026-10-12T04:11:14Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T04:15:55Z",
+      "first_failed_at": "2026-10-12T03:40:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16484,
       "cr_slug": "don-t-fuck-in-the-woods",
