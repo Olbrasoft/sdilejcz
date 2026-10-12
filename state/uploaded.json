@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T16:28:01Z",
+  "last_updated": "2026-10-12T16:32:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673782,20 +673782,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38277448842",
-      "run_id": "38277448842",
-      "reserved_at": "2026-10-12T16:27:46Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T16:32:44Z",
+      "first_failed_at": "2026-10-12T16:32:44Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
