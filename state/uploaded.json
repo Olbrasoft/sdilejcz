@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-12T00:31:14Z",
+  "last_updated": "2026-10-12T00:31:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675077,21 +675077,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T00:00:01Z",
-      "first_failed_at": "2026-10-11T22:50:40Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.1
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675721,6 +675706,21 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-12T00:31:37Z",
+      "first_failed_at": "2026-10-11T22:50:40Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -675753,16 +675753,6 @@
       "worker_id": "worker-1-38180347451",
       "run_id": "38180347451",
       "reserved_at": "2026-10-12T00:28:36Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38180347451",
-      "run_id": "38180347451",
-      "reserved_at": "2026-10-12T00:31:14Z"
     }
   ],
   "missing_on_account": [
