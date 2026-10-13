@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T08:20:29Z",
+  "last_updated": "2026-10-13T08:20:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675226,21 +675226,6 @@
       }
     },
     {
-      "cr_film_id": 14852,
-      "cr_slug": "sci-fi-high-the-movie-musical",
-      "title": "Sci-Fi High: The Movie Musical",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T07:50:02Z",
-      "first_failed_at": "2026-10-13T07:12:14Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
       "title": "Moje máma Jayne",
@@ -676026,6 +676011,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 14852,
+      "cr_slug": "sci-fi-high-the-movie-musical",
+      "title": "Sci-Fi High: The Movie Musical",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T08:20:52Z",
+      "first_failed_at": "2026-10-13T07:12:14Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.8
+      }
     }
   ],
   "in_progress": [
@@ -676048,16 +676048,6 @@
       "worker_id": "worker-3-38358642237",
       "run_id": "38358642237",
       "reserved_at": "2026-10-13T08:17:46Z"
-    },
-    {
-      "cr_film_id": 14852,
-      "cr_slug": "sci-fi-high-the-movie-musical",
-      "title": "Sci-Fi High: The Movie Musical",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T08:20:29Z"
     }
   ],
   "missing_on_account": [
