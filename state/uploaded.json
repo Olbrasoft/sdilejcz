@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T13:27:10Z",
+  "last_updated": "2026-10-13T13:27:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676886,6 +676886,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 33579,
+      "cr_slug": "the-penthouse",
+      "title": "The Penthouse",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-13T13:27:28Z",
+      "first_failed_at": "2026-10-13T13:27:28Z",
+      "attempt_count": 1,
+      "upload_id": "5fda728a8d152",
+      "source_url": "https://prehraj.to/penthouse-2010-czdab/5fda728a8d152",
+      "upload_title": "Penthouse (2010) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 51.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676898,16 +676919,6 @@
       "worker_id": "worker-1-38384662212",
       "run_id": "38384662212",
       "reserved_at": "2026-10-13T13:14:32Z"
-    },
-    {
-      "cr_film_id": 33579,
-      "cr_slug": "the-penthouse",
-      "title": "The Penthouse",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T13:21:18Z"
     },
     {
       "cr_film_id": 33956,
