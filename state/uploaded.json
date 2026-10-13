@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T09:39:52Z",
+  "last_updated": "2026-10-13T09:40:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677408,19 +677408,24 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
       "title": "Vzala jsem si mrtvého muže",
       "year": 1996,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T09:35:37Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T09:40:09Z",
+      "first_failed_at": "2026-10-13T09:40:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31745,
       "cr_slug": "fuck-the-prom",
