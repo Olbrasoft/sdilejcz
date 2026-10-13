@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T08:35:53Z",
+  "last_updated": "2026-10-13T08:36:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675282,21 +675282,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T07:53:34Z",
-      "first_failed_at": "2026-10-13T06:49:01Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676359,19 +676344,24 @@
       "timing": {
         "cdn_resolve_sec": 15.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T08:24:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T08:36:40Z",
+      "first_failed_at": "2026-10-13T06:49:01Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30469,
       "cr_slug": "below-her-mouth",
