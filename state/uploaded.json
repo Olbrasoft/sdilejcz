@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T15:25:20Z",
+  "last_updated": "2026-10-13T15:25:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677607,21 +677607,6 @@
       }
     },
     {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T14:48:21Z",
-      "first_failed_at": "2026-10-13T14:11:25Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
@@ -678319,6 +678304,21 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
+    },
+    {
+      "cr_film_id": 34949,
+      "cr_slug": "duch-ohne",
+      "title": "Duch ohně",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T15:25:42Z",
+      "first_failed_at": "2026-10-13T14:11:25Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
     }
   ],
   "in_progress": [
@@ -678331,16 +678331,6 @@
       "worker_id": "worker-4-38384662212",
       "run_id": "38384662212",
       "reserved_at": "2026-10-13T15:24:34Z"
-    },
-    {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T15:25:20Z"
     }
   ],
   "missing_on_account": [
