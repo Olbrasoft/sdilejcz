@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T10:28:38Z",
+  "last_updated": "2026-10-13T10:29:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677329,21 +677329,6 @@
       }
     },
     {
-      "cr_film_id": 34973,
-      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
-      "title": "Děvčátko, které bydlí na konci ulice",
-      "year": 1976,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T09:54:50Z",
-      "first_failed_at": "2026-10-13T09:54:50Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.0
-      }
-    },
-    {
       "cr_film_id": 35424,
       "cr_slug": "kraken-2026",
       "title": "Kraken",
@@ -678270,6 +678255,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 34973,
+      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
+      "title": "Děvčátko, které bydlí na konci ulice",
+      "year": 1976,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T10:29:02Z",
+      "first_failed_at": "2026-10-13T09:54:50Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -678292,16 +678292,6 @@
       "worker_id": "worker-2-38358642237",
       "run_id": "38358642237",
       "reserved_at": "2026-10-13T10:26:06Z"
-    },
-    {
-      "cr_film_id": 34973,
-      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
-      "title": "Děvčátko, které bydlí na konci ulice",
-      "year": 1976,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T10:28:38Z"
     }
   ],
   "missing_on_account": [
