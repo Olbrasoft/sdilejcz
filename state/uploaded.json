@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T22:13:49Z",
+  "last_updated": "2026-10-13T22:14:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674364,21 +674364,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T21:34:46Z",
-      "first_failed_at": "2026-10-13T21:34:46Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -675198,19 +675183,24 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-13T22:09:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T22:14:02Z",
+      "first_failed_at": "2026-10-13T21:34:46Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
