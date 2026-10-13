@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T03:05:15Z",
+  "last_updated": "2026-10-13T03:05:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674400,6 +674400,27 @@
         "upload_sec": 323.9,
         "total_sec": 398.2
       }
+    },
+    {
+      "cr_film_id": 5704,
+      "cr_slug": "bezstarostny-sex",
+      "title": "Bezstarostný sex",
+      "year": 2007,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 52835,
+      "sdilej_url": "https://sdilej.cz/35297726/bezstarostny-sex-2007-cz-dabing.mp4",
+      "sdilej_name": "Bezstarostný sex (2007) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-13T03:03:14Z",
+      "status": "uploaded",
+      "size_bytes": 421200969,
+      "worker_id": "worker-3-38335978081",
+      "timing": {
+        "cdn_resolve_sec": 2.6,
+        "download_sec": 42.7,
+        "upload_sec": 68.3,
+        "total_sec": 113.6
+      }
     }
   ],
   "failed_attempts": [
@@ -674534,23 +674555,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 1.2
-      }
-    },
-    {
-      "cr_film_id": 5704,
-      "cr_slug": "bezstarostny-sex",
-      "title": "Bezstarostný sex",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-13T02:29:51Z",
-      "first_failed_at": "2026-10-13T02:29:51Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 2.7,
-        "download_sec": 40.7,
-        "upload_sec": 30.0
       }
     },
     {
@@ -675162,16 +675166,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5704,
-      "cr_slug": "bezstarostny-sex",
-      "title": "Bezstarostný sex",
-      "year": 2007,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T03:01:10Z"
-    },
     {
       "cr_film_id": 13506,
       "cr_slug": "nezkrotna-dee-dee",
