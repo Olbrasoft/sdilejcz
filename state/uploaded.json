@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T12:04:58Z",
+  "last_updated": "2026-10-13T12:05:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675045,21 +675045,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T11:34:18Z",
-      "first_failed_at": "2026-10-13T11:01:01Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -675745,6 +675730,21 @@
       "timing": {
         "cdn_resolve_sec": 12.9
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T12:05:19Z",
+      "first_failed_at": "2026-10-13T11:01:01Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.4
+      }
     }
   ],
   "in_progress": [
@@ -675777,16 +675777,6 @@
       "worker_id": "worker-2-38384662212",
       "run_id": "38384662212",
       "reserved_at": "2026-10-13T12:04:10Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T12:04:58Z"
     }
   ],
   "missing_on_account": [
