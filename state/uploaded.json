@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T01:58:04Z",
+  "last_updated": "2026-10-13T01:58:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677642,21 +677642,6 @@
       }
     },
     {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T01:27:52Z",
-      "first_failed_at": "2026-10-13T00:57:05Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.0
-      }
-    },
-    {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
@@ -678315,20 +678300,24 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34902,
       "cr_slug": "duch-boure",
       "title": "Duch bouře",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38313489208",
-      "run_id": "38313489208",
-      "reserved_at": "2026-10-13T01:58:04Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T01:58:27Z",
+      "first_failed_at": "2026-10-13T00:57:05Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
