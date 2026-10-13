@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T03:41:31Z",
+  "last_updated": "2026-10-13T03:41:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674925,21 +674925,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T03:10:44Z",
-      "first_failed_at": "2026-10-13T03:10:44Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -675709,6 +675694,21 @@
         "download_sec": 23.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T03:41:58Z",
+      "first_failed_at": "2026-10-13T03:10:44Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
     }
   ],
   "in_progress": [
@@ -675731,16 +675731,6 @@
       "worker_id": "worker-3-38335978081",
       "run_id": "38335978081",
       "reserved_at": "2026-10-13T03:38:22Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T03:41:31Z"
     }
   ],
   "missing_on_account": [
