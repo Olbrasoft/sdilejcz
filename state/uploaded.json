@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T09:05:03Z",
+  "last_updated": "2026-10-13T09:05:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675597,21 +675597,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T08:23:53Z",
-      "first_failed_at": "2026-10-13T07:10:27Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -676755,6 +676740,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 14786,
+      "cr_slug": "krakonos-a-sklinkar-matej",
+      "title": "Krakonos a sklínkar Matej",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T09:05:29Z",
+      "first_failed_at": "2026-10-13T07:10:27Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -676777,16 +676777,6 @@
       "worker_id": "worker-1-38358642237",
       "run_id": "38358642237",
       "reserved_at": "2026-10-13T09:02:56Z"
-    },
-    {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T09:05:03Z"
     }
   ],
   "missing_on_account": [
