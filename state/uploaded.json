@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T15:24:34Z",
+  "last_updated": "2026-10-13T15:25:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674812,6 +674812,27 @@
         "upload_sec": 321.2,
         "total_sec": 464.1
       }
+    },
+    {
+      "cr_film_id": 37363,
+      "cr_slug": "barvy-casu",
+      "title": "Barvy času",
+      "year": 2025,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 61750,
+      "sdilej_url": "https://sdilej.cz/35300203/barvy-casu-2025-.mp4",
+      "sdilej_name": "Barvy času (2025).mp4",
+      "uploaded_at": "2026-10-13T15:04:47Z",
+      "status": "uploaded",
+      "size_bytes": 653733115,
+      "worker_id": "worker-3-38384662212",
+      "timing": {
+        "cdn_resolve_sec": 4.8,
+        "download_sec": 92.0,
+        "upload_sec": 89.5,
+        "total_sec": 186.3
+      }
     }
   ],
   "failed_attempts": [
@@ -677880,25 +677901,6 @@
       }
     },
     {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "failed_at": "2026-10-13T15:01:31Z",
-      "first_failed_at": "2026-10-13T15:01:31Z",
-      "attempt_count": 1,
-      "upload_id": "4564c9462ce70ed7",
-      "source_url": "https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "upload_title": "Barvy času",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -678320,16 +678322,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T15:01:19Z"
-    },
     {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
