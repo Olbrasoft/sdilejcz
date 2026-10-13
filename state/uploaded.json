@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T15:04:39Z",
+  "last_updated": "2026-10-13T15:05:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677588,21 +677588,6 @@
       }
     },
     {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T14:34:25Z",
-      "first_failed_at": "2026-10-13T14:01:07Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 34850,
       "cr_slug": "duch-zraloka",
       "title": "Duch žraloka",
@@ -678299,6 +678284,21 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
+    },
+    {
+      "cr_film_id": 34815,
+      "cr_slug": "kaja-oliva",
+      "title": "Kája + Oliva",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T15:05:03Z",
+      "first_failed_at": "2026-10-13T14:01:07Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -678321,16 +678321,6 @@
       "worker_id": "worker-3-38384662212",
       "run_id": "38384662212",
       "reserved_at": "2026-10-13T15:01:19Z"
-    },
-    {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T15:04:39Z"
     }
   ],
   "missing_on_account": [
