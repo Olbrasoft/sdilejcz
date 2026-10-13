@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T14:30:37Z",
+  "last_updated": "2026-10-13T14:31:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677101,21 +677101,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T13:52:55Z",
-      "first_failed_at": "2026-10-13T13:06:17Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.8
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -677901,6 +677886,21 @@
         "cdn_resolve_sec": 1.0,
         "download_sec": 1.8
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T14:31:04Z",
+      "first_failed_at": "2026-10-13T13:06:17Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
     }
   ],
   "in_progress": [
@@ -677933,16 +677933,6 @@
       "worker_id": "worker-3-38384662212",
       "run_id": "38384662212",
       "reserved_at": "2026-10-13T14:29:40Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T14:30:37Z"
     }
   ],
   "missing_on_account": [
