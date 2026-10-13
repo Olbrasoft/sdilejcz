@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T12:35:36Z",
+  "last_updated": "2026-10-13T12:35:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675314,21 +675314,6 @@
       }
     },
     {
-      "cr_film_id": 12039,
-      "cr_slug": "ritorno-dalla-morte",
-      "title": "Ritorno dalla morte",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T12:03:56Z",
-      "first_failed_at": "2026-10-13T11:01:47Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.9
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -675942,6 +675927,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 12039,
+      "cr_slug": "ritorno-dalla-morte",
+      "title": "Ritorno dalla morte",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T12:35:59Z",
+      "first_failed_at": "2026-10-13T11:01:47Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
     }
   ],
   "in_progress": [
@@ -675974,16 +675974,6 @@
       "worker_id": "worker-2-38384662212",
       "run_id": "38384662212",
       "reserved_at": "2026-10-13T12:33:32Z"
-    },
-    {
-      "cr_film_id": 12039,
-      "cr_slug": "ritorno-dalla-morte",
-      "title": "Ritorno dalla morte",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T12:35:36Z"
     }
   ],
   "missing_on_account": [
