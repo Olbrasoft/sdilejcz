@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T17:52:47Z",
+  "last_updated": "2026-10-13T17:53:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674337,21 +674337,6 @@
       }
     },
     {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T17:18:58Z",
-      "first_failed_at": "2026-10-13T16:44:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 17.7
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
@@ -675217,6 +675202,21 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
+    },
+    {
+      "cr_film_id": 12170,
+      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
+      "title": "MacGyver: Ztracený poklad Atlantidy",
+      "year": 1994,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T17:53:12Z",
+      "first_failed_at": "2026-10-13T16:44:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -675239,16 +675239,6 @@
       "worker_id": "worker-3-38426069369",
       "run_id": "38426069369",
       "reserved_at": "2026-10-13T17:50:13Z"
-    },
-    {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38426069369",
-      "run_id": "38426069369",
-      "reserved_at": "2026-10-13T17:52:47Z"
     }
   ],
   "missing_on_account": [
