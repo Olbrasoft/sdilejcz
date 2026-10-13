@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T06:54:04Z",
+  "last_updated": "2026-10-13T06:54:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674375,19 +674375,24 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T06:51:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T06:54:23Z",
+      "first_failed_at": "2026-10-13T06:54:23Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
