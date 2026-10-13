@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T23:18:57Z",
+  "last_updated": "2026-10-13T23:24:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675943,6 +675943,27 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
+    },
+    {
+      "cr_film_id": 27319,
+      "cr_slug": "studentka-ro-c-ku",
+      "title": "Studentka ro(c)ku",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-13T23:24:06Z",
+      "first_failed_at": "2026-10-13T23:24:06Z",
+      "attempt_count": 1,
+      "upload_id": "5a3211c569b72",
+      "source_url": "https://prehraj.to/studentka-ro-c-ku-2010-cz-dabing/5a3211c569b72",
+      "upload_title": "Studentka Ro(c)ku (2010) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.9,
+        "download_sec": 38.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675975,16 +675996,6 @@
       "worker_id": "worker-1-38469989172",
       "run_id": "38469989172",
       "reserved_at": "2026-10-13T23:17:47Z"
-    },
-    {
-      "cr_film_id": 27319,
-      "cr_slug": "studentka-ro-c-ku",
-      "title": "Studentka ro(c)ku",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-13T23:18:57Z"
     }
   ],
   "missing_on_account": [
