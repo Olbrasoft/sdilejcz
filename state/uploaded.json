@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T18:35:52Z",
+  "last_updated": "2026-10-13T18:37:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675352,6 +675352,27 @@
       "timing": {
         "cdn_resolve_sec": 29.0
       }
+    },
+    {
+      "cr_film_id": 19546,
+      "cr_slug": "sexy-party-2",
+      "title": "Sexy párty 2",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-13T18:37:04Z",
+      "first_failed_at": "2026-10-13T18:37:04Z",
+      "attempt_count": 1,
+      "upload_id": "58211ee068b40",
+      "source_url": "https://prehraj.to/sexi-party-2-cz-dabing-2006/58211ee068b40",
+      "upload_title": "Sexi party 2, CZ dabing (2006)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 29.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675374,16 +675395,6 @@
       "worker_id": "worker-4-38426069369",
       "run_id": "38426069369",
       "reserved_at": "2026-10-13T18:34:35Z"
-    },
-    {
-      "cr_film_id": 19546,
-      "cr_slug": "sexy-party-2",
-      "title": "Sexy párty 2",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38426069369",
-      "run_id": "38426069369",
-      "reserved_at": "2026-10-13T18:35:52Z"
     }
   ],
   "missing_on_account": [
