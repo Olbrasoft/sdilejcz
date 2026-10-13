@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T12:59:47Z",
+  "last_updated": "2026-10-13T13:00:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675495,21 +675495,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T12:24:27Z",
-      "first_failed_at": "2026-10-13T11:12:31Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.4
-      }
-    },
-    {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
       "title": "Moje máma Jayne",
@@ -676345,6 +676330,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T13:00:08Z",
+      "first_failed_at": "2026-10-13T11:12:31Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
     }
   ],
   "in_progress": [
@@ -676367,16 +676367,6 @@
       "worker_id": "worker-2-38384662212",
       "run_id": "38384662212",
       "reserved_at": "2026-10-13T12:54:04Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T12:59:47Z"
     }
   ],
   "missing_on_account": [
