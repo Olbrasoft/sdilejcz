@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T07:40:52Z",
+  "last_updated": "2026-10-13T07:41:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675440,19 +675440,25 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T07:37:42Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-13T07:41:06Z",
+      "first_failed_at": "2026-10-13T07:41:06Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 4.8,
+        "download_sec": 2.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
