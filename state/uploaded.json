@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T11:24:17Z",
+  "last_updated": "2026-10-13T11:24:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674245,21 +674245,6 @@
       }
     },
     {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T10:47:54Z",
-      "first_failed_at": "2026-10-13T10:47:54Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.1
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -675251,19 +675236,24 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T11:19:44Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T11:24:42Z",
+      "first_failed_at": "2026-10-13T10:47:54Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17244,
       "cr_slug": "rocco-chinnici",
