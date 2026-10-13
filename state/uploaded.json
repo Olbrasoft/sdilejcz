@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T10:15:34Z",
+  "last_updated": "2026-10-13T10:15:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677173,21 +677173,6 @@
       }
     },
     {
-      "cr_film_id": 31669,
-      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
-      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T09:35:58Z",
-      "first_failed_at": "2026-10-13T09:01:45Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
@@ -678195,19 +678180,24 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
       "year": 1988,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T10:06:19Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T10:15:56Z",
+      "first_failed_at": "2026-10-13T09:01:45Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
