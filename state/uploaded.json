@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T09:10:47Z",
+  "last_updated": "2026-10-13T09:11:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676861,19 +676861,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31745,
       "cr_slug": "fuck-the-prom",
       "title": "Fuck the Prom",
       "year": 2017,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T09:06:54Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-13T09:11:34Z",
+      "first_failed_at": "2026-10-13T09:11:34Z",
+      "attempt_count": 1,
+      "upload_id": "5f3c4d68201f0",
+      "source_url": "https://prehraj.to/f-the-prom-2017-cz-titulky-v-obraze/5f3c4d68201f0",
+      "upload_title": "F the Prom (2017) CZ titulky v OBRAZE",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 28.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
