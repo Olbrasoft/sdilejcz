@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T03:01:10Z",
+  "last_updated": "2026-10-13T03:01:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674355,6 +674355,27 @@
         "upload_sec": 259.5,
         "total_sec": 330.5
       }
+    },
+    {
+      "cr_film_id": 13418,
+      "cr_slug": "sex-a-svobodna-matka",
+      "title": "Sex a svobodná matka",
+      "year": 2003,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 38021,
+      "sdilej_url": "https://sdilej.cz/35297710/sex-a-svobodna-matka-2003-.mp4",
+      "sdilej_name": "Sex a svobodná matka (2003).mp4",
+      "uploaded_at": "2026-10-13T02:59:28Z",
+      "status": "uploaded",
+      "size_bytes": 431481293,
+      "worker_id": "worker-1-38335978081",
+      "timing": {
+        "cdn_resolve_sec": 1.9,
+        "download_sec": 68.0,
+        "upload_sec": 70.4,
+        "total_sec": 140.4
+      }
     }
   ],
   "failed_attempts": [
@@ -674990,27 +675011,6 @@
       }
     },
     {
-      "cr_film_id": 13418,
-      "cr_slug": "sex-a-svobodna-matka",
-      "title": "Sex a svobodná matka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-13T02:55:49Z",
-      "first_failed_at": "2026-10-13T02:55:49Z",
-      "attempt_count": 1,
-      "upload_id": "e4cdf93bd9f7f73b",
-      "source_url": "https://prehraj.to/sex-a-svobodna-matka-2003-usa-drama/e4cdf93bd9f7f73b",
-      "upload_title": "Sex a svobodna matka-2003,USA-drama",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 15.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -675117,16 +675117,6 @@
       "worker_id": "worker-4-38335978081",
       "run_id": "38335978081",
       "reserved_at": "2026-10-13T02:55:59Z"
-    },
-    {
-      "cr_film_id": 13418,
-      "cr_slug": "sex-a-svobodna-matka",
-      "title": "Sex a svobodná matka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T02:56:58Z"
     },
     {
       "cr_film_id": 14390,
