@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T21:41:02Z",
+  "last_updated": "2026-10-13T21:41:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674542,6 +674542,21 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T21:41:21Z",
+      "first_failed_at": "2026-10-13T21:41:21Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -674574,16 +674589,6 @@
       "worker_id": "worker-4-38469989172",
       "run_id": "38469989172",
       "reserved_at": "2026-10-13T21:39:36Z"
-    },
-    {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-13T21:41:02Z"
     }
   ],
   "missing_on_account": [
