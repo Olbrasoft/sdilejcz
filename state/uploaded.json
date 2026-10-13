@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T15:51:56Z",
+  "last_updated": "2026-10-13T15:52:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677841,21 +677841,6 @@
       }
     },
     {
-      "cr_film_id": 37536,
-      "cr_slug": "a-very-unlucky-leprechaun",
-      "title": "A Very Unlucky Leprechaun",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T15:09:57Z",
-      "first_failed_at": "2026-10-13T15:09:57Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 34919,
       "cr_slug": "milovany-joshua",
       "title": "Milovaný Joshua",
@@ -678319,20 +678304,24 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37536,
       "cr_slug": "a-very-unlucky-leprechaun",
       "title": "A Very Unlucky Leprechaun",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T15:51:56Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T15:52:22Z",
+      "first_failed_at": "2026-10-13T15:09:57Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
