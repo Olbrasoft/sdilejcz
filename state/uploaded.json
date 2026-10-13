@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T04:29:25Z",
+  "last_updated": "2026-10-13T04:29:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675472,21 +675472,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T03:58:08Z",
-      "first_failed_at": "2026-10-13T02:48:55Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.7
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -676243,6 +676228,21 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T04:29:50Z",
+      "first_failed_at": "2026-10-13T02:48:55Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -676265,16 +676265,6 @@
       "worker_id": "worker-4-38335978081",
       "run_id": "38335978081",
       "reserved_at": "2026-10-13T04:26:45Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T04:29:25Z"
     }
   ],
   "missing_on_account": [
