@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T23:03:48Z",
+  "last_updated": "2026-10-13T23:04:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674244,6 +674244,30 @@
         "upload_sec": 157.0,
         "total_sec": 191.7
       }
+    },
+    {
+      "cr_film_id": 21663,
+      "cr_slug": "lolita-1962",
+      "title": "Lolita",
+      "year": 1962,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "63433cbf7decd",
+      "source_url": "https://prehraj.to/lolita-1962-1080p-bluray-x264-cinefile/63433cbf7decd",
+      "source_title": "Lolita.1962.1080p.BluRay.x264-CiNEFiLE",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/35304010/lolita-1962-cz-titulky.mp4",
+      "sdilej_name": "Lolita (1962) CZ titulky.mp4",
+      "uploaded_at": "2026-10-13T22:57:38Z",
+      "status": "uploaded",
+      "size_bytes": 4352677414,
+      "worker_id": "worker-3-38469989172",
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 148.1,
+        "upload_sec": 696.9,
+        "total_sec": 846.7
+      }
     }
   ],
   "failed_attempts": [
@@ -675115,27 +675139,6 @@
       }
     },
     {
-      "cr_film_id": 21663,
-      "cr_slug": "lolita-1962",
-      "title": "Lolita",
-      "year": 1962,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-13T22:36:43Z",
-      "first_failed_at": "2026-10-13T22:36:43Z",
-      "attempt_count": 1,
-      "upload_id": "5891c9a9df449",
-      "source_url": "https://prehraj.to/lolita-1962-cz-titulky/5891c9a9df449",
-      "upload_title": "Lolita-1962-cz-titulky--",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 27.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -675809,16 +675812,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 21663,
-      "cr_slug": "lolita-1962",
-      "title": "Lolita",
-      "year": 1962,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-13T22:43:23Z"
-    },
     {
       "cr_film_id": 22852,
       "cr_slug": "delta-force",
