@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T12:38:26Z",
+  "last_updated": "2026-10-13T12:38:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675202,21 +675202,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T11:57:26Z",
-      "first_failed_at": "2026-10-13T10:55:44Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -675966,19 +675951,24 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T12:30:15Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T12:38:52Z",
+      "first_failed_at": "2026-10-13T10:55:44Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
