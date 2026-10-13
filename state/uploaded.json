@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T04:10:39Z",
+  "last_updated": "2026-10-13T04:11:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675030,21 +675030,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T03:17:19Z",
-      "first_failed_at": "2026-10-13T03:17:19Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.5
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675999,19 +675984,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T04:02:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T04:11:29Z",
+      "first_failed_at": "2026-10-13T03:17:19Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 15.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
