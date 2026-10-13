@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T10:30:38Z",
+  "last_updated": "2026-10-13T10:31:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677241,21 +677241,6 @@
       }
     },
     {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T09:47:29Z",
-      "first_failed_at": "2026-10-13T09:47:29Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678300,19 +678285,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34949,
       "cr_slug": "duch-ohne",
       "title": "Duch ohně",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T10:26:06Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T10:31:33Z",
+      "first_failed_at": "2026-10-13T09:47:29Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37536,
       "cr_slug": "a-very-unlucky-leprechaun",
