@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T03:19:35Z",
+  "last_updated": "2026-10-13T03:19:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675557,19 +675557,24 @@
         "cdn_resolve_sec": 6.5,
         "download_sec": 2.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T03:08:20Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T03:19:48Z",
+      "first_failed_at": "2026-10-13T03:19:48Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
