@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T04:40:28Z",
+  "last_updated": "2026-10-13T04:40:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675496,21 +675496,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T04:02:30Z",
-      "first_failed_at": "2026-10-13T03:16:41Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 16.2
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -676288,19 +676273,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T04:34:23Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T04:40:56Z",
+      "first_failed_at": "2026-10-13T03:16:41Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 27319,
       "cr_slug": "studentka-ro-c-ku",
