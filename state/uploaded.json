@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T09:12:27Z",
+  "last_updated": "2026-10-13T09:12:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675601,21 +675601,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T08:27:10Z",
-      "first_failed_at": "2026-10-13T07:20:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 30363,
       "cr_slug": "otec-mrazik",
       "title": "Otec Mrazík",
@@ -676882,6 +676867,21 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T09:12:50Z",
+      "first_failed_at": "2026-10-13T07:20:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -676914,16 +676914,6 @@
       "worker_id": "worker-3-38358642237",
       "run_id": "38358642237",
       "reserved_at": "2026-10-13T09:11:46Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T09:12:27Z"
     }
   ],
   "missing_on_account": [
