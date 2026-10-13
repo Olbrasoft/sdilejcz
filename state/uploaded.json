@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T03:46:48Z",
+  "last_updated": "2026-10-13T03:47:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674517,6 +674517,30 @@
         "upload_sec": 87.7,
         "total_sec": 117.4
       }
+    },
+    {
+      "cr_film_id": 20041,
+      "cr_slug": "sex-tape",
+      "title": "Sex Tape",
+      "year": 2014,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "652f89f27a7db",
+      "source_url": "https://prehraj.to/sex-tape-2014-cz/652f89f27a7db",
+      "source_title": "Sex.Tape-2014-.CZ",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35297869/sex-tape-2014-cz-dabing.mp4",
+      "sdilej_name": "Sex Tape (2014) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-13T03:44:51Z",
+      "status": "uploaded",
+      "size_bytes": 586131449,
+      "worker_id": "worker-3-38335978081",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 27.0,
+        "upload_sec": 88.2,
+        "total_sec": 117.1
+      }
     }
   ],
   "failed_attempts": [
@@ -675648,27 +675672,6 @@
       }
     },
     {
-      "cr_film_id": 20041,
-      "cr_slug": "sex-tape",
-      "title": "Sex Tape",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-13T03:41:20Z",
-      "first_failed_at": "2026-10-13T03:41:20Z",
-      "attempt_count": 1,
-      "upload_id": "61ebed905f43e",
-      "source_url": "https://prehraj.to/sex-tape-2014-cz-dabing/61ebed905f43e",
-      "upload_title": "SEX TAPE 2014  CZ dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 23.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -675779,16 +675782,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 20041,
-      "cr_slug": "sex-tape",
-      "title": "Sex Tape",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T03:42:44Z"
-    },
     {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
