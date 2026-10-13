@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T11:09:07Z",
+  "last_updated": "2026-10-13T11:09:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674746,19 +674746,24 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
       "year": 1933,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T11:06:13Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T11:09:26Z",
+      "first_failed_at": "2026-10-13T11:09:26Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
