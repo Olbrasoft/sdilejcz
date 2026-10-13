@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T17:30:51Z",
+  "last_updated": "2026-10-13T17:31:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674249,21 +674249,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T16:55:04Z",
-      "first_failed_at": "2026-10-13T16:23:39Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 22.7
-      }
-    },
-    {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
@@ -674960,6 +674945,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T17:31:07Z",
+      "first_failed_at": "2026-10-13T16:23:39Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 17.9
+      }
     }
   ],
   "in_progress": [
@@ -674982,16 +674982,6 @@
       "worker_id": "worker-4-38426069369",
       "run_id": "38426069369",
       "reserved_at": "2026-10-13T17:25:51Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38426069369",
-      "run_id": "38426069369",
-      "reserved_at": "2026-10-13T17:28:53Z"
     },
     {
       "cr_film_id": 13328,
