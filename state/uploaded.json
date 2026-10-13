@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T13:55:55Z",
+  "last_updated": "2026-10-13T13:56:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676493,21 +676493,6 @@
       }
     },
     {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T13:09:30Z",
-      "first_failed_at": "2026-10-13T13:09:30Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677247,19 +677232,24 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T13:47:34Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T13:56:22Z",
+      "first_failed_at": "2026-10-13T13:09:30Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 16.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34750,
       "cr_slug": "same-stesti",
