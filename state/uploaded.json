@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T06:52:23Z",
+  "last_updated": "2026-10-13T06:52:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674311,6 +674311,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 7365,
+      "cr_slug": "monster-trucks",
+      "title": "Monster Trucks",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T06:52:44Z",
+      "first_failed_at": "2026-10-13T06:52:44Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
     }
   ],
   "in_progress": [
@@ -674323,16 +674338,6 @@
       "worker_id": "worker-1-38358642237",
       "run_id": "38358642237",
       "reserved_at": "2026-10-13T06:48:06Z"
-    },
-    {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T06:50:41Z"
     },
     {
       "cr_film_id": 7654,
