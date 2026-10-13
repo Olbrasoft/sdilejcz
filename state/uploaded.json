@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T14:23:52Z",
+  "last_updated": "2026-10-13T14:24:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677040,21 +677040,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T13:49:03Z",
-      "first_failed_at": "2026-10-13T13:14:20Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 34593,
       "cr_slug": "fichtelberg",
       "title": "Fichtelberg",
@@ -677820,19 +677805,24 @@
         "resolve_sec": 0.9,
         "download_sec": 2.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T14:19:21Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T14:24:59Z",
+      "first_failed_at": "2026-10-13T13:14:20Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35561,
       "cr_slug": "slayer-the-repentless-killogy",
