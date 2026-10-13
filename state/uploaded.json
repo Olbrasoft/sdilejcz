@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T22:29:09Z",
+  "last_updated": "2026-10-13T22:29:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674428,21 +674428,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T21:55:21Z",
-      "first_failed_at": "2026-10-13T21:23:42Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -675491,19 +675476,24 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-13T22:25:30Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T22:29:27Z",
+      "first_failed_at": "2026-10-13T21:23:42Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
