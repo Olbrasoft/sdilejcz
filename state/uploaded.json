@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T15:41:52Z",
+  "last_updated": "2026-10-13T15:42:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677562,21 +677562,6 @@
       }
     },
     {
-      "cr_film_id": 34973,
-      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
-      "title": "Děvčátko, které bydlí na konci ulice",
-      "year": 1976,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T14:53:18Z",
-      "first_failed_at": "2026-10-13T14:21:20Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.9
-      }
-    },
-    {
       "cr_film_id": 37128,
       "cr_slug": "surf-plaz-a-kocky",
       "title": "Surf, pláž a kočky",
@@ -678319,20 +678304,24 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34973,
       "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
       "title": "Děvčátko, které bydlí na konci ulice",
       "year": 1976,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T15:41:52Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T15:42:18Z",
+      "first_failed_at": "2026-10-13T14:21:20Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
