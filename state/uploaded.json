@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T17:45:21Z",
+  "last_updated": "2026-10-13T17:45:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674273,21 +674273,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T17:12:24Z",
-      "first_failed_at": "2026-10-13T17:12:24Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 23.1
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -675189,6 +675174,21 @@
       "timing": {
         "cdn_resolve_sec": 21.5
       }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T17:45:43Z",
+      "first_failed_at": "2026-10-13T17:12:24Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.7
+      }
     }
   ],
   "in_progress": [
@@ -675221,16 +675221,6 @@
       "worker_id": "worker-1-38426069369",
       "run_id": "38426069369",
       "reserved_at": "2026-10-13T17:44:18Z"
-    },
-    {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38426069369",
-      "run_id": "38426069369",
-      "reserved_at": "2026-10-13T17:45:21Z"
     }
   ],
   "missing_on_account": [
