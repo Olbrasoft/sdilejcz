@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T00:38:51Z",
+  "last_updated": "2026-10-13T00:39:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675607,21 +675607,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T23:37:11Z",
-      "first_failed_at": "2026-10-12T22:32:54Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.8
-      }
-    },
-    {
       "cr_film_id": 25633,
       "cr_slug": "michael-clayton",
       "title": "Michael Clayton",
@@ -677056,20 +677041,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38313489208",
-      "run_id": "38313489208",
-      "reserved_at": "2026-10-13T00:38:51Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T00:39:16Z",
+      "first_failed_at": "2026-10-12T22:32:54Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
