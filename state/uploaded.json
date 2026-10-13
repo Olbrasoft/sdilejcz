@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T22:22:44Z",
+  "last_updated": "2026-10-13T22:23:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674151,6 +674151,27 @@
         "upload_sec": 390.6,
         "total_sec": 477.9
       }
+    },
+    {
+      "cr_film_id": 16484,
+      "cr_slug": "don-t-fuck-in-the-woods",
+      "title": "Don't Fuck in the Woods",
+      "year": 2016,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 28135,
+      "sdilej_url": "https://sdilej.cz/35303221/dont-fuck-in-the-woods-2016-cz-titulky.mp4",
+      "sdilej_name": "Dont Fuck in the Woods (2016) CZ titulky.mp4",
+      "uploaded_at": "2026-10-13T22:22:16Z",
+      "status": "uploaded",
+      "size_bytes": 586609118,
+      "worker_id": "worker-4-38469989172",
+      "timing": {
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 68.2,
+        "upload_sec": 105.9,
+        "total_sec": 178.7
+      }
     }
   ],
   "failed_attempts": [
@@ -675170,27 +675191,6 @@
       }
     },
     {
-      "cr_film_id": 16484,
-      "cr_slug": "don-t-fuck-in-the-woods",
-      "title": "Don't Fuck in the Woods",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-13T22:18:40Z",
-      "first_failed_at": "2026-10-13T22:18:40Z",
-      "attempt_count": 1,
-      "upload_id": "63ebf853eab2e",
-      "source_url": "https://prehraj.to/dont-fuck-in-the-woods-2-2022-cztitulky/63ebf853eab2e",
-      "upload_title": "Dont Fuck in the Woods 2 (2022) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 57.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -675282,16 +675282,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 16484,
-      "cr_slug": "don-t-fuck-in-the-woods",
-      "title": "Don't Fuck in the Woods",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-13T22:19:09Z"
-    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
