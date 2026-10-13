@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T23:38:25Z",
+  "last_updated": "2026-10-13T23:39:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676012,6 +676012,27 @@
       "timing": {
         "cdn_resolve_sec": 9.9
       }
+    },
+    {
+      "cr_film_id": 28080,
+      "cr_slug": "pee-wee-zima-ktera-zmenila-muj-zivot",
+      "title": "Pee-Wee: Zima, která změnila můj život",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-13T23:39:39Z",
+      "first_failed_at": "2026-10-13T23:39:39Z",
+      "attempt_count": 1,
+      "upload_id": "5c2cb92085b77",
+      "source_url": "https://prehraj.to/pee-wee-zima-ktera-zmenila-muj-zivot-2012/5c2cb92085b77",
+      "upload_title": "Pee-Wee: Zima, která změnila můj život (2012)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 32.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676044,16 +676065,6 @@
       "worker_id": "worker-4-38469989172",
       "run_id": "38469989172",
       "reserved_at": "2026-10-13T23:36:26Z"
-    },
-    {
-      "cr_film_id": 28080,
-      "cr_slug": "pee-wee-zima-ktera-zmenila-muj-zivot",
-      "title": "Pee-Wee: Zima, která změnila můj život",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-13T23:38:25Z"
     }
   ],
   "missing_on_account": [
