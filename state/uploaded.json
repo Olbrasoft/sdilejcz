@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T15:02:50Z",
+  "last_updated": "2026-10-13T15:03:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677336,21 +677336,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T14:20:14Z",
-      "first_failed_at": "2026-10-13T13:11:10Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 35424,
       "cr_slug": "kraken-2026",
       "title": "Kraken",
@@ -678299,6 +678284,21 @@
       "timing": {
         "cdn_resolve_sec": 13.2
       }
+    },
+    {
+      "cr_film_id": 31671,
+      "cr_slug": "e11",
+      "title": "E11",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T15:03:14Z",
+      "first_failed_at": "2026-10-13T13:11:10Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -678321,16 +678321,6 @@
       "worker_id": "worker-3-38384662212",
       "run_id": "38384662212",
       "reserved_at": "2026-10-13T15:01:19Z"
-    },
-    {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T15:02:50Z"
     }
   ],
   "missing_on_account": [
