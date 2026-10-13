@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T01:34:05Z",
+  "last_updated": "2026-10-13T01:35:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677159,21 +677159,6 @@
       }
     },
     {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T00:49:53Z",
-      "first_failed_at": "2026-10-13T00:49:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
       "title": "Brouk v hlavě",
@@ -678309,19 +678294,24 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38313489208",
-      "run_id": "38313489208",
-      "reserved_at": "2026-10-13T01:20:05Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T01:35:04Z",
+      "first_failed_at": "2026-10-13T00:49:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36787,
       "cr_slug": "dead-sexy",
