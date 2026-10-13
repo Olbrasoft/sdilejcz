@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T05:16:28Z",
+  "last_updated": "2026-10-13T05:16:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677364,19 +677364,24 @@
       "timing": {
         "cdn_resolve_sec": 16.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T04:59:03Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T05:16:56Z",
+      "first_failed_at": "2026-10-13T05:16:56Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34739,
       "cr_slug": "pikova-trojka",
