@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T00:08:57Z",
+  "last_updated": "2026-10-13T00:09:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676211,19 +676211,30 @@
       "timing": {
         "cdn_resolve_sec": 9.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29406,
       "cr_slug": "rocco",
       "title": "Rocco",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38313489208",
-      "run_id": "38313489208",
-      "reserved_at": "2026-10-13T00:02:05Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-13T00:09:20Z",
+      "first_failed_at": "2026-10-13T00:09:20Z",
+      "attempt_count": 1,
+      "upload_id": "5cd9e262c91b4",
+      "source_url": "https://prehraj.to/rocco-2016-cz-titulky/5cd9e262c91b4",
+      "upload_title": "Rocco 2016 - CZ TITULKY",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 16.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29777,
       "cr_slug": "gay-chorus-deep-south",
