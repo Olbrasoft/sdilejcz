@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T00:28:35Z",
+  "last_updated": "2026-10-13T00:28:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675948,21 +675948,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-12T23:58:18Z",
-      "first_failed_at": "2026-10-12T23:26:25Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -676748,6 +676733,21 @@
         "cdn_resolve_sec": 5.1,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T00:28:55Z",
+      "first_failed_at": "2026-10-12T23:26:25Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
   "in_progress": [
@@ -676760,16 +676760,6 @@
       "worker_id": "worker-1-38313489208",
       "run_id": "38313489208",
       "reserved_at": "2026-10-13T00:26:15Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38313489208",
-      "run_id": "38313489208",
-      "reserved_at": "2026-10-13T00:28:35Z"
     }
   ],
   "missing_on_account": [
