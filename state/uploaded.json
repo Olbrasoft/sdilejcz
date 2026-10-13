@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T03:07:05Z",
+  "last_updated": "2026-10-13T03:07:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675197,6 +675197,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T03:07:31Z",
+      "first_failed_at": "2026-10-13T03:07:31Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
     }
   ],
   "in_progress": [
@@ -675219,16 +675234,6 @@
       "worker_id": "worker-3-38335978081",
       "run_id": "38335978081",
       "reserved_at": "2026-10-13T03:06:22Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T03:06:53Z"
     }
   ],
   "missing_on_account": [
