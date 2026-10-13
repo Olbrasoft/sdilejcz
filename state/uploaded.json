@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T15:09:32Z",
+  "last_updated": "2026-10-13T15:09:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678299,6 +678299,21 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
+    },
+    {
+      "cr_film_id": 37536,
+      "cr_slug": "a-very-unlucky-leprechaun",
+      "title": "A Very Unlucky Leprechaun",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T15:09:57Z",
+      "first_failed_at": "2026-10-13T15:09:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.6
+      }
     }
   ],
   "in_progress": [
@@ -678321,16 +678336,6 @@
       "worker_id": "worker-3-38384662212",
       "run_id": "38384662212",
       "reserved_at": "2026-10-13T15:01:19Z"
-    },
-    {
-      "cr_film_id": 37536,
-      "cr_slug": "a-very-unlucky-leprechaun",
-      "title": "A Very Unlucky Leprechaun",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38384662212",
-      "run_id": "38384662212",
-      "reserved_at": "2026-10-13T15:09:32Z"
     }
   ],
   "missing_on_account": [
