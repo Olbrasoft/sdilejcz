@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T06:28:34Z",
+  "last_updated": "2026-10-13T06:28:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677566,22 +677566,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-13T05:53:26Z",
-      "first_failed_at": "2026-10-13T04:52:10Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.2,
-        "download_sec": 3.3
-      }
-    },
-    {
       "cr_film_id": 34902,
       "cr_slug": "duch-boure",
       "title": "Duch bouře",
@@ -678309,20 +678293,25 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38335978081",
-      "run_id": "38335978081",
-      "reserved_at": "2026-10-13T06:28:34Z"
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-13T06:28:50Z",
+      "first_failed_at": "2026-10-13T04:52:10Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.7,
+        "download_sec": 2.5
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
