@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-13T08:26:15Z",
+  "last_updated": "2026-10-13T08:26:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675288,21 +675288,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-13T07:55:09Z",
-      "first_failed_at": "2026-10-13T06:50:30Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 15.2
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676088,6 +676073,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 4297,
+      "cr_slug": "po-cem-zeny-touzi",
+      "title": "Po čem ženy touží",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-13T08:26:39Z",
+      "first_failed_at": "2026-10-13T06:50:30Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.3
+      }
     }
   ],
   "in_progress": [
@@ -676120,16 +676120,6 @@
       "worker_id": "worker-4-38358642237",
       "run_id": "38358642237",
       "reserved_at": "2026-10-13T08:26:02Z"
-    },
-    {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38358642237",
-      "run_id": "38358642237",
-      "reserved_at": "2026-10-13T08:26:15Z"
     }
   ],
   "missing_on_account": [
