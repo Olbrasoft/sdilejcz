@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T07:21:52Z",
+  "last_updated": "2026-10-14T07:22:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675698,19 +675698,25 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T07:18:08Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-14T07:22:16Z",
+      "first_failed_at": "2026-10-14T07:22:16Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 6.7,
+        "download_sec": 3.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
