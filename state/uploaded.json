@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T20:00:42Z",
+  "last_updated": "2026-10-14T20:01:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674769,6 +674769,30 @@
         "upload_sec": 116.3,
         "total_sec": 218.0
       }
+    },
+    {
+      "cr_film_id": 25521,
+      "cr_slug": "another-gay-movie",
+      "title": "Another Gay Movie",
+      "year": 2006,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5aa04af228f53",
+      "source_url": "https://prehraj.to/another-gay-movie-2006/5aa04af228f53",
+      "source_title": "Another Gay Movie (2006)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35309965/another-gay-movie-2006-.mp4",
+      "sdilej_name": "Another Gay Movie (2006).mp4",
+      "uploaded_at": "2026-10-14T19:56:57Z",
+      "status": "uploaded",
+      "size_bytes": 578210125,
+      "worker_id": "worker-4-38591348677",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 717.0,
+        "upload_sec": 87.8,
+        "total_sec": 806.2
+      }
     }
   ],
   "failed_attempts": [
@@ -676631,27 +676655,6 @@
       "permanent": true
     },
     {
-      "cr_film_id": 25521,
-      "cr_slug": "another-gay-movie",
-      "title": "Another Gay Movie",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-14T19:03:22Z",
-      "first_failed_at": "2026-10-14T18:11:37Z",
-      "attempt_count": 2,
-      "upload_id": "5aa04af228f53",
-      "source_url": "https://prehraj.to/another-gay-movie-2006/5aa04af228f53",
-      "upload_title": "Another Gay Movie (2006)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 919.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31196,
       "cr_slug": "phil-wang-philly-philly-wang-wang",
       "title": "Phil Wang: Philly Philly Wang Wang",
@@ -677578,16 +677581,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 25521,
-      "cr_slug": "another-gay-movie",
-      "title": "Another Gay Movie",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38591348677",
-      "run_id": "38591348677",
-      "reserved_at": "2026-10-14T19:43:23Z"
-    },
     {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
