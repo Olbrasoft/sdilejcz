@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T11:01:15Z",
+  "last_updated": "2026-10-14T11:01:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673784,6 +673784,27 @@
         "upload_sec": 127.8,
         "total_sec": 165.0
       }
+    },
+    {
+      "cr_film_id": 3603,
+      "cr_slug": "miki",
+      "title": "MIKI",
+      "year": 2024,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 41461,
+      "sdilej_url": "https://sdilej.cz/35308276/miki-2024-.mp4",
+      "sdilej_name": "MIKI (2024).mp4",
+      "uploaded_at": "2026-10-14T11:01:03Z",
+      "status": "uploaded",
+      "size_bytes": 502585434,
+      "worker_id": "worker-1-38552785596",
+      "timing": {
+        "cdn_resolve_sec": 11.6,
+        "download_sec": 22.3,
+        "upload_sec": 81.4,
+        "total_sec": 115.4
+      }
     }
   ],
   "failed_attempts": [
@@ -673966,25 +673987,6 @@
       }
     },
     {
-      "cr_film_id": 3603,
-      "cr_slug": "miki",
-      "title": "MIKI",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/miki-2024-sk/94f22208eec903d5",
-      "failed_at": "2026-10-14T10:58:01Z",
-      "first_failed_at": "2026-10-14T10:58:01Z",
-      "attempt_count": 1,
-      "upload_id": "94f22208eec903d5",
-      "source_url": "https://prehraj.to/miki-2024-sk/94f22208eec903d5",
-      "upload_title": "MIKI 2024 SK (⚡)",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.5
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -674016,25 +674018,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.7
-      }
-    },
-    {
-      "cr_film_id": 3603,
-      "cr_slug": "miki",
-      "title": "MIKI",
-      "year": 2024,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/miki-2024-sk/f0b81410efde6814",
-      "failed_at": "2026-10-14T10:59:00Z",
-      "first_failed_at": "2026-10-14T10:59:00Z",
-      "attempt_count": 1,
-      "upload_id": "f0b81410efde6814",
-      "source_url": "https://prehraj.to/miki-2024-sk/f0b81410efde6814",
-      "upload_title": "▶ MIKI (2024) SK ◀ ★★",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.6
       }
     },
     {
@@ -674137,16 +674120,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 3603,
-      "cr_slug": "miki",
-      "title": "MIKI",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T10:57:02Z"
-    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
