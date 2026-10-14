@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T11:05:47Z",
+  "last_updated": "2026-10-14T11:06:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674256,19 +674256,24 @@
       "timing": {
         "cdn_resolve_sec": 12.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T11:04:14Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T11:06:09Z",
+      "first_failed_at": "2026-10-14T11:06:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
