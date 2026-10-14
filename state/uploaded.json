@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T08:35:08Z",
+  "last_updated": "2026-10-14T08:35:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675563,21 +675563,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T07:58:30Z",
-      "first_failed_at": "2026-10-14T06:48:58Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -676674,6 +676659,21 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T08:35:34Z",
+      "first_failed_at": "2026-10-14T06:48:58Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.2
+      }
     }
   ],
   "in_progress": [
@@ -676686,16 +676686,6 @@
       "worker_id": "worker-2-38520720240",
       "run_id": "38520720240",
       "reserved_at": "2026-10-14T08:34:40Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T08:35:08Z"
     }
   ],
   "missing_on_account": [
