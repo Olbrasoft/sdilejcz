@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T16:32:15Z",
+  "last_updated": "2026-10-14T16:32:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674267,27 +674267,6 @@
       }
     },
     {
-      "cr_film_id": 8855,
-      "cr_slug": "flintstoneovi",
-      "title": "Lara Croft – Tomb Raider: Kolébka života",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-14T15:56:53Z",
-      "first_failed_at": "2026-10-14T15:56:53Z",
-      "attempt_count": 1,
-      "upload_id": "588767430c8b3",
-      "source_url": "https://prehraj.to/zo-zivota-dona-juana-1994-720p-hdtv-x264-skby-marecek/588767430c8b3",
-      "upload_title": "Zo.zivota.dona.Juana.1994.720p.HDTV.x264.SKby.Marecek",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 61.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -675256,19 +675235,30 @@
         "resolve_sec": 0.9,
         "download_sec": 1.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8855,
       "cr_slug": "flintstoneovi",
       "title": "Lara Croft – Tomb Raider: Kolébka života",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38591348677",
-      "run_id": "38591348677",
-      "reserved_at": "2026-10-14T16:28:31Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-14T16:32:31Z",
+      "first_failed_at": "2026-10-14T15:56:53Z",
+      "attempt_count": 2,
+      "upload_id": "588767430c8b3",
+      "source_url": "https://prehraj.to/zo-zivota-dona-juana-1994-720p-hdtv-x264-skby-marecek/588767430c8b3",
+      "upload_title": "Zo.zivota.dona.Juana.1994.720p.HDTV.x264.SKby.Marecek",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 62.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
