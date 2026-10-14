@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T06:50:55Z",
+  "last_updated": "2026-10-14T06:51:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674595,21 +674595,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T06:20:27Z",
-      "first_failed_at": "2026-10-14T06:20:27Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -674909,6 +674894,21 @@
       "timing": {
         "cdn_resolve_sec": 16.2
       }
+    },
+    {
+      "cr_film_id": 4297,
+      "cr_slug": "po-cem-zeny-touzi",
+      "title": "Po čem ženy touží",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T06:51:21Z",
+      "first_failed_at": "2026-10-14T06:20:27Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -674941,16 +674941,6 @@
       "worker_id": "worker-2-38520720240",
       "run_id": "38520720240",
       "reserved_at": "2026-10-14T06:49:44Z"
-    },
-    {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T06:50:55Z"
     }
   ],
   "missing_on_account": [
