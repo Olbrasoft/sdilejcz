@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T10:57:33Z",
+  "last_updated": "2026-10-14T10:57:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673949,19 +673949,24 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T10:55:23Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T10:57:42Z",
+      "first_failed_at": "2026-10-14T10:57:42Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3603,
       "cr_slug": "miki",
