@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T11:09:09Z",
+  "last_updated": "2026-10-14T11:09:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674346,19 +674346,24 @@
       "timing": {
         "cdn_resolve_sec": 9.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T11:05:17Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T11:09:22Z",
+      "first_failed_at": "2026-10-14T11:09:22Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12552,
       "cr_slug": "lara-croft-tomb-raider",
