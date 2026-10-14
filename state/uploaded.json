@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T23:39:41Z",
+  "last_updated": "2026-10-14T23:39:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675760,19 +675760,30 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23841,
       "cr_slug": "operace-delta-force",
       "title": "Operace Delta Force",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-14T23:33:30Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-14T23:39:59Z",
+      "first_failed_at": "2026-10-14T23:39:59Z",
+      "attempt_count": 1,
+      "upload_id": "5aac6c7a0e5f7",
+      "source_url": "https://prehraj.to/operace-delta-force-1997/5aac6c7a0e5f7",
+      "upload_title": "Operace Delta Force (1997)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 4.3,
+        "download_sec": 27.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24397,
       "cr_slug": "chilli-sex-a-samba",
