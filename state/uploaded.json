@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T02:31:19Z",
+  "last_updated": "2026-10-14T02:31:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674017,6 +674017,27 @@
         "upload_sec": 201.2,
         "total_sec": 252.8
       }
+    },
+    {
+      "cr_film_id": 10695,
+      "cr_slug": "the-body-snatcher",
+      "title": "The Body Snatcher",
+      "year": 1945,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 42888,
+      "sdilej_url": "https://sdilej.cz/35305504/the-body-snatcher-1945-cz-dabing.mp4",
+      "sdilej_name": "The Body Snatcher (1945) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-14T02:30:44Z",
+      "status": "uploaded",
+      "size_bytes": 482814241,
+      "worker_id": "worker-4-38498666186",
+      "timing": {
+        "cdn_resolve_sec": 10.2,
+        "download_sec": 45.2,
+        "upload_sec": 83.1,
+        "total_sec": 138.6
+      }
     }
   ],
   "failed_attempts": [
@@ -674533,27 +674554,6 @@
       }
     },
     {
-      "cr_film_id": 10695,
-      "cr_slug": "the-body-snatcher",
-      "title": "The Body Snatcher",
-      "year": 1945,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-14T02:25:39Z",
-      "first_failed_at": "2026-10-14T02:25:39Z",
-      "attempt_count": 1,
-      "upload_id": "ebe6c99e542a7dc2",
-      "source_url": "https://prehraj.to/the-body-snatcher-1945-cz-dabing/ebe6c99e542a7dc2",
-      "upload_title": "The Body Snatcher (1945) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 28.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
@@ -674694,16 +674694,6 @@
       "worker_id": "worker-1-38498666186",
       "run_id": "38498666186",
       "reserved_at": "2026-10-14T02:27:38Z"
-    },
-    {
-      "cr_film_id": 10695,
-      "cr_slug": "the-body-snatcher",
-      "title": "The Body Snatcher",
-      "year": 1945,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38498666186",
-      "run_id": "38498666186",
-      "reserved_at": "2026-10-14T02:28:16Z"
     },
     {
       "cr_film_id": 13280,
