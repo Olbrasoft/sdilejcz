@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T22:26:59Z",
+  "last_updated": "2026-10-14T22:27:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674327,21 +674327,6 @@
       }
     },
     {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T21:55:40Z",
-      "first_failed_at": "2026-10-14T21:55:40Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
@@ -675203,6 +675188,21 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
+    },
+    {
+      "cr_film_id": 12170,
+      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
+      "title": "MacGyver: Ztracený poklad Atlantidy",
+      "year": 1994,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T22:27:19Z",
+      "first_failed_at": "2026-10-14T21:55:40Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -675215,16 +675215,6 @@
       "worker_id": "worker-2-38638554022",
       "run_id": "38638554022",
       "reserved_at": "2026-10-14T22:25:38Z"
-    },
-    {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-14T22:26:59Z"
     }
   ],
   "missing_on_account": [
