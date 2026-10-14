@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T09:00:28Z",
+  "last_updated": "2026-10-14T09:00:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676991,6 +676991,25 @@
       "attempt_count": 4,
       "timing": {
         "cdn_resolve_sec": 13.5
+      }
+    },
+    {
+      "cr_film_id": 34077,
+      "cr_slug": "rukojmi-v-bella-vista",
+      "title": "Rukojmí v Bella Vista",
+      "year": 1980,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/rukojmi-v-bella-vista-1979/64e3cd68c5823",
+      "failed_at": "2026-10-14T09:00:40Z",
+      "first_failed_at": "2026-10-14T09:00:40Z",
+      "attempt_count": 1,
+      "upload_id": "64e3cd68c5823",
+      "source_url": "https://prehraj.to/rukojmi-v-bella-vista-1979/64e3cd68c5823",
+      "upload_title": "Rukojmí v Bella Vista (1979)",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.5
       }
     }
   ],
