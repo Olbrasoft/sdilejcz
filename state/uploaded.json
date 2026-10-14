@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T17:13:41Z",
+  "last_updated": "2026-10-14T17:14:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674924,21 +674924,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T16:43:27Z",
-      "first_failed_at": "2026-10-14T16:11:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.7
-      }
-    },
-    {
       "cr_film_id": 20985,
       "cr_slug": "the-king-of-kings",
       "title": "The King of Kings",
@@ -675536,6 +675521,21 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T17:14:03Z",
+      "first_failed_at": "2026-10-14T16:11:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -675558,16 +675558,6 @@
       "worker_id": "worker-1-38591348677",
       "run_id": "38591348677",
       "reserved_at": "2026-10-14T17:09:54Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38591348677",
-      "run_id": "38591348677",
-      "reserved_at": "2026-10-14T17:13:41Z"
     }
   ],
   "missing_on_account": [
