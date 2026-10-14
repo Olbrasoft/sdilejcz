@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T07:49:08Z",
+  "last_updated": "2026-10-14T07:49:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675207,21 +675207,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T07:17:51Z",
-      "first_failed_at": "2026-10-14T07:17:51Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -676036,6 +676021,21 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T07:49:34Z",
+      "first_failed_at": "2026-10-14T07:17:51Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
     }
   ],
   "in_progress": [
@@ -676068,16 +676068,6 @@
       "worker_id": "worker-1-38520720240",
       "run_id": "38520720240",
       "reserved_at": "2026-10-14T07:48:01Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T07:49:08Z"
     }
   ],
   "missing_on_account": [
