@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T14:54:18Z",
+  "last_updated": "2026-10-14T14:57:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678300,19 +678300,24 @@
       "timing": {
         "cdn_resolve_sec": 8.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37328,
       "cr_slug": "pomsta-skrticu",
       "title": "Pomsta škrtičů",
       "year": 1954,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T14:45:22Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T14:57:08Z",
+      "first_failed_at": "2026-10-14T14:57:08Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
