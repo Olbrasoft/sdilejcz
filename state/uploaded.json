@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T00:45:40Z",
+  "last_updated": "2026-10-14T00:45:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676641,21 +676641,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T00:04:38Z",
-      "first_failed_at": "2026-10-14T00:04:38Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
@@ -677458,19 +677443,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-14T00:34:50Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T00:45:53Z",
+      "first_failed_at": "2026-10-14T00:04:38Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34739,
       "cr_slug": "pikova-trojka",
