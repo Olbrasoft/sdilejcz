@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T07:15:53Z",
+  "last_updated": "2026-10-14T07:16:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674800,21 +674800,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T06:45:53Z",
-      "first_failed_at": "2026-10-14T06:15:13Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -675604,6 +675589,21 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T07:16:21Z",
+      "first_failed_at": "2026-10-14T06:15:13Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 15.0
+      }
     }
   ],
   "in_progress": [
@@ -675626,16 +675626,6 @@
       "worker_id": "worker-1-38520720240",
       "run_id": "38520720240",
       "reserved_at": "2026-10-14T07:11:03Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T07:15:53Z"
     }
   ],
   "missing_on_account": [
