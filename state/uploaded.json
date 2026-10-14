@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T22:20:46Z",
+  "last_updated": "2026-10-14T22:21:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674958,19 +674958,30 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13510,
       "cr_slug": "sexy-pistols",
       "title": "Sexy Pistols",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-14T22:14:52Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-14T22:21:33Z",
+      "first_failed_at": "2026-10-14T22:21:33Z",
+      "attempt_count": 1,
+      "upload_id": "be8f1d98171a6d99",
+      "source_url": "https://prehraj.to/sexy-pistols-2006-cz-dabing-1080p-fhd/be8f1d98171a6d99",
+      "upload_title": "Sexy Pistols 2006 CZ dabing 1080p FHD",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 113.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
