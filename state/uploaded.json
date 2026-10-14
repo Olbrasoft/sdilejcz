@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T11:47:53Z",
+  "last_updated": "2026-10-14T11:48:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675217,19 +675217,24 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T11:46:36Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T11:48:23Z",
+      "first_failed_at": "2026-10-14T11:48:23Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
