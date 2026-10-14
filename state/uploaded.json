@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T02:56:46Z",
+  "last_updated": "2026-10-14T02:57:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674347,21 +674347,6 @@
       }
     },
     {
-      "cr_film_id": 12286,
-      "cr_slug": "vrana-mesto-andelu",
-      "title": "Vrána: Město andělů",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T02:26:16Z",
-      "first_failed_at": "2026-10-14T02:26:16Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.8
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -675338,6 +675323,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 12286,
+      "cr_slug": "vrana-mesto-andelu",
+      "title": "Vrána: Město andělů",
+      "year": 1996,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T02:57:11Z",
+      "first_failed_at": "2026-10-14T02:26:16Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -675370,16 +675370,6 @@
       "worker_id": "worker-3-38498666186",
       "run_id": "38498666186",
       "reserved_at": "2026-10-14T02:51:50Z"
-    },
-    {
-      "cr_film_id": 12286,
-      "cr_slug": "vrana-mesto-andelu",
-      "title": "Vrána: Město andělů",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38498666186",
-      "run_id": "38498666186",
-      "reserved_at": "2026-10-14T02:56:46Z"
     }
   ],
   "missing_on_account": [
