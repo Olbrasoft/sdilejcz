@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T18:02:42Z",
+  "last_updated": "2026-10-14T18:03:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675264,21 +675264,6 @@
       }
     },
     {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T17:28:15Z",
-      "first_failed_at": "2026-10-14T16:08:42Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -675876,6 +675861,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 12836,
+      "cr_slug": "meng-hu-dou-kuang-long",
+      "title": "Meng hu dou kuang long",
+      "year": 1974,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T18:03:07Z",
+      "first_failed_at": "2026-10-14T16:08:42Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -675908,16 +675908,6 @@
       "worker_id": "worker-3-38591348677",
       "run_id": "38591348677",
       "reserved_at": "2026-10-14T18:01:03Z"
-    },
-    {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38591348677",
-      "run_id": "38591348677",
-      "reserved_at": "2026-10-14T18:02:42Z"
     }
   ],
   "missing_on_account": [
