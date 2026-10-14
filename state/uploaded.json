@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T01:53:07Z",
+  "last_updated": "2026-10-14T01:55:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674810,6 +674810,27 @@
         "upload_sec": 214.2,
         "total_sec": 262.0
       }
+    },
+    {
+      "cr_film_id": 37253,
+      "cr_slug": "svedska-trojka",
+      "title": "Švédská trojka",
+      "year": 1994,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 60869,
+      "sdilej_url": "https://sdilej.cz/35305332/svedska-trojka-1994-.mp4",
+      "sdilej_name": "Švédská trojka (1994).mp4",
+      "uploaded_at": "2026-10-14T01:55:57Z",
+      "status": "uploaded",
+      "size_bytes": 612647660,
+      "worker_id": "worker-3-38469989172",
+      "timing": {
+        "cdn_resolve_sec": 7.7,
+        "download_sec": 55.2,
+        "upload_sec": 97.6,
+        "total_sec": 160.6
+      }
     }
   ],
   "failed_attempts": [
@@ -677637,23 +677658,6 @@
       }
     },
     {
-      "cr_film_id": 37253,
-      "cr_slug": "svedska-trojka",
-      "title": "Švédská trojka",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-14T01:22:51Z",
-      "first_failed_at": "2026-10-14T01:22:51Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 6.3,
-        "download_sec": 56.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678315,18 +678319,7 @@
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 37253,
-      "cr_slug": "svedska-trojka",
-      "title": "Švédská trojka",
-      "year": 1994,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-14T01:53:07Z"
-    }
-  ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
