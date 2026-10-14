@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T11:40:43Z",
+  "last_updated": "2026-10-14T11:40:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675201,19 +675201,25 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T11:39:07Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-14T11:40:54Z",
+      "first_failed_at": "2026-10-14T11:40:54Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 3.8,
+        "download_sec": 2.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
