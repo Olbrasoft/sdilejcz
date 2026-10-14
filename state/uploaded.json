@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T16:05:31Z",
+  "last_updated": "2026-10-14T16:05:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674478,6 +674478,21 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T16:05:57Z",
+      "first_failed_at": "2026-10-14T16:05:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.3
+      }
     }
   ],
   "in_progress": [
@@ -674500,16 +674515,6 @@
       "worker_id": "worker-1-38591348677",
       "run_id": "38591348677",
       "reserved_at": "2026-10-14T16:01:57Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38591348677",
-      "run_id": "38591348677",
-      "reserved_at": "2026-10-14T16:05:31Z"
     }
   ],
   "missing_on_account": [
