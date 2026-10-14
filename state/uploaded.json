@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T18:11:21Z",
+  "last_updated": "2026-10-14T18:11:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675900,6 +675900,27 @@
         "cdn_resolve_sec": 5.2,
         "download_sec": 2.3
       }
+    },
+    {
+      "cr_film_id": 25521,
+      "cr_slug": "another-gay-movie",
+      "title": "Another Gay Movie",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-14T18:11:37Z",
+      "first_failed_at": "2026-10-14T18:11:37Z",
+      "attempt_count": 1,
+      "upload_id": "5aa04af228f53",
+      "source_url": "https://prehraj.to/another-gay-movie-2006/5aa04af228f53",
+      "upload_title": "Another Gay Movie (2006)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 920.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675912,16 +675933,6 @@
       "worker_id": "worker-1-38591348677",
       "run_id": "38591348677",
       "reserved_at": "2026-10-14T17:32:44Z"
-    },
-    {
-      "cr_film_id": 25521,
-      "cr_slug": "another-gay-movie",
-      "title": "Another Gay Movie",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38591348677",
-      "run_id": "38591348677",
-      "reserved_at": "2026-10-14T17:52:24Z"
     },
     {
       "cr_film_id": 27319,
