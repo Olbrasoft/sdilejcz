@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T01:08:55Z",
+  "last_updated": "2026-10-14T01:09:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678065,6 +678065,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 36787,
+      "cr_slug": "dead-sexy",
+      "title": "Dead Sexy",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-14T01:09:06Z",
+      "first_failed_at": "2026-10-14T01:09:06Z",
+      "attempt_count": 1,
+      "upload_id": "2971f41e0ab53aad",
+      "source_url": "https://prehraj.to/dead-sexy-2018-cz-titulky-mp4/2971f41e0ab53aad",
+      "upload_title": "Dead Sexy (2018) CZ Titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 48.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -678077,16 +678098,6 @@
       "worker_id": "worker-4-38469989172",
       "run_id": "38469989172",
       "reserved_at": "2026-10-14T00:45:29Z"
-    },
-    {
-      "cr_film_id": 36787,
-      "cr_slug": "dead-sexy",
-      "title": "Dead Sexy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38469989172",
-      "run_id": "38469989172",
-      "reserved_at": "2026-10-14T01:03:02Z"
     },
     {
       "cr_film_id": 37128,
