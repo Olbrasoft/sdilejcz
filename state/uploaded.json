@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T17:37:08Z",
+  "last_updated": "2026-10-14T17:37:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674955,22 +674955,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-14T16:58:19Z",
-      "first_failed_at": "2026-10-14T16:25:22Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 6.2,
-        "download_sec": 2.7
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -675608,6 +675592,22 @@
       "timing": {
         "cdn_resolve_sec": 19.4
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-14T17:37:30Z",
+      "first_failed_at": "2026-10-14T16:25:22Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 5.2,
+        "download_sec": 2.9
+      }
     }
   ],
   "in_progress": [
@@ -675640,16 +675640,6 @@
       "worker_id": "worker-1-38591348677",
       "run_id": "38591348677",
       "reserved_at": "2026-10-14T17:32:44Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38591348677",
-      "run_id": "38591348677",
-      "reserved_at": "2026-10-14T17:37:08Z"
     }
   ],
   "missing_on_account": [
