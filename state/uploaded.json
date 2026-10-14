@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T09:49:51Z",
+  "last_updated": "2026-10-14T09:50:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677099,21 +677099,6 @@
       }
     },
     {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T09:18:45Z",
-      "first_failed_at": "2026-10-14T09:18:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.2
-      }
-    },
-    {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
@@ -677861,6 +677846,21 @@
       "timing": {
         "cdn_resolve_sec": 14.9
       }
+    },
+    {
+      "cr_film_id": 34815,
+      "cr_slug": "kaja-oliva",
+      "title": "Kája + Oliva",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T09:50:17Z",
+      "first_failed_at": "2026-10-14T09:18:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.9
+      }
     }
   ],
   "in_progress": [
@@ -677893,16 +677893,6 @@
       "worker_id": "worker-4-38520720240",
       "run_id": "38520720240",
       "reserved_at": "2026-10-14T09:48:43Z"
-    },
-    {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T09:49:51Z"
     }
   ],
   "missing_on_account": [
