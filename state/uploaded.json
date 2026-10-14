@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T10:06:44Z",
+  "last_updated": "2026-10-14T10:06:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677171,21 +677171,6 @@
       }
     },
     {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T09:19:51Z",
-      "first_failed_at": "2026-10-14T09:19:51Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
@@ -678045,19 +678030,24 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T09:53:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T10:06:57Z",
+      "first_failed_at": "2026-10-14T09:19:51Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
