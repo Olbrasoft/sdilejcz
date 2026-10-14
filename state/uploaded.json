@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T21:51:48Z",
+  "last_updated": "2026-10-14T21:52:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674315,19 +674315,30 @@
         "download_sec": 35.9,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11649,
       "cr_slug": "peggy-sue-se-vdava",
       "title": "Peggy Sue se vdává",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-14T21:49:42Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-14T21:52:02Z",
+      "first_failed_at": "2026-10-14T21:52:02Z",
+      "attempt_count": 1,
+      "upload_id": "5acc510781190",
+      "source_url": "https://prehraj.to/peggy-sue-se-vdava-1986/5acc510781190",
+      "upload_title": "Peggy Sue se vdává (1986)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 58.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
