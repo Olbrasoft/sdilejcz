@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T17:11:55Z",
+  "last_updated": "2026-10-14T17:12:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674860,21 +674860,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T16:39:40Z",
-      "first_failed_at": "2026-10-14T16:07:21Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
@@ -675536,6 +675521,21 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T17:12:19Z",
+      "first_failed_at": "2026-10-14T16:07:21Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -675558,16 +675558,6 @@
       "worker_id": "worker-1-38591348677",
       "run_id": "38591348677",
       "reserved_at": "2026-10-14T17:09:54Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38591348677",
-      "run_id": "38591348677",
-      "reserved_at": "2026-10-14T17:11:55Z"
     }
   ],
   "missing_on_account": [
