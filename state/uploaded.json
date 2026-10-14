@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T07:32:26Z",
+  "last_updated": "2026-10-14T07:32:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674815,21 +674815,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T07:02:22Z",
-      "first_failed_at": "2026-10-14T07:02:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.8
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675729,6 +675714,21 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T07:32:51Z",
+      "first_failed_at": "2026-10-14T07:02:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -675761,16 +675761,6 @@
       "worker_id": "worker-4-38520720240",
       "run_id": "38520720240",
       "reserved_at": "2026-10-14T07:31:10Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T07:32:26Z"
     }
   ],
   "missing_on_account": [
