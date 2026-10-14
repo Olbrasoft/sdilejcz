@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T19:01:49Z",
+  "last_updated": "2026-10-14T19:03:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675893,27 +675893,6 @@
       }
     },
     {
-      "cr_film_id": 25521,
-      "cr_slug": "another-gay-movie",
-      "title": "Another Gay Movie",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-14T18:11:37Z",
-      "first_failed_at": "2026-10-14T18:11:37Z",
-      "attempt_count": 1,
-      "upload_id": "5aa04af228f53",
-      "source_url": "https://prehraj.to/another-gay-movie-2006/5aa04af228f53",
-      "upload_title": "Another Gay Movie (2006)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 920.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -676508,6 +676487,27 @@
         "cdn_resolve_sec": 0.9,
         "download_sec": 3.2
       }
+    },
+    {
+      "cr_film_id": 25521,
+      "cr_slug": "another-gay-movie",
+      "title": "Another Gay Movie",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-14T19:03:22Z",
+      "first_failed_at": "2026-10-14T18:11:37Z",
+      "attempt_count": 2,
+      "upload_id": "5aa04af228f53",
+      "source_url": "https://prehraj.to/another-gay-movie-2006/5aa04af228f53",
+      "upload_title": "Another Gay Movie (2006)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 919.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676520,16 +676520,6 @@
       "worker_id": "worker-3-38591348677",
       "run_id": "38591348677",
       "reserved_at": "2026-10-14T18:41:19Z"
-    },
-    {
-      "cr_film_id": 25521,
-      "cr_slug": "another-gay-movie",
-      "title": "Another Gay Movie",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38591348677",
-      "run_id": "38591348677",
-      "reserved_at": "2026-10-14T18:43:56Z"
     },
     {
       "cr_film_id": 31135,
