@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T07:52:25Z",
+  "last_updated": "2026-10-14T07:52:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676073,6 +676073,25 @@
       "attempt_count": 2,
       "timing": {
         "cdn_resolve_sec": 13.9
+      }
+    },
+    {
+      "cr_film_id": 20754,
+      "cr_slug": "wind-river",
+      "title": "Wind River",
+      "year": 2017,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/wind-river-2018-cz-dab/5a73d9ab51b095d9",
+      "failed_at": "2026-10-14T07:52:41Z",
+      "first_failed_at": "2026-10-14T07:52:41Z",
+      "attempt_count": 1,
+      "upload_id": "5a73d9ab51b095d9",
+      "source_url": "https://prehraj.to/wind-river-2018-cz-dab/5a73d9ab51b095d9",
+      "upload_title": "Wind River 2018 cz. dab",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.9
       }
     }
   ],
