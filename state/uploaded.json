@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T14:32:20Z",
+  "last_updated": "2026-10-14T14:32:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677237,21 +677237,6 @@
       }
     },
     {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T14:02:06Z",
-      "first_failed_at": "2026-10-14T14:02:06Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.4
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -677990,6 +677975,21 @@
       "timing": {
         "cdn_resolve_sec": 10.3
       }
+    },
+    {
+      "cr_film_id": 34898,
+      "cr_slug": "sisters-2006",
+      "title": "Sisters",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T14:32:41Z",
+      "first_failed_at": "2026-10-14T14:02:06Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
   "in_progress": [
@@ -678012,16 +678012,6 @@
       "worker_id": "worker-4-38552785596",
       "run_id": "38552785596",
       "reserved_at": "2026-10-14T14:30:40Z"
-    },
-    {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T14:32:20Z"
     }
   ],
   "missing_on_account": [
