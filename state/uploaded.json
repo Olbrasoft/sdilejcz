@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T07:44:26Z",
+  "last_updated": "2026-10-14T07:44:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675114,21 +675114,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T07:14:07Z",
-      "first_failed_at": "2026-10-14T07:14:07Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -675930,6 +675915,21 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
+    },
+    {
+      "cr_film_id": 14786,
+      "cr_slug": "krakonos-a-sklinkar-matej",
+      "title": "Krakonos a sklínkar Matej",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T07:44:52Z",
+      "first_failed_at": "2026-10-14T07:14:07Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
     }
   ],
   "in_progress": [
@@ -675962,16 +675962,6 @@
       "worker_id": "worker-3-38520720240",
       "run_id": "38520720240",
       "reserved_at": "2026-10-14T07:43:22Z"
-    },
-    {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T07:44:26Z"
     }
   ],
   "missing_on_account": [
