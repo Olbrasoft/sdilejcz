@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T07:17:26Z",
+  "last_updated": "2026-10-14T07:17:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675619,19 +675619,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
       "year": 1982,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T07:09:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T07:17:51Z",
+      "first_failed_at": "2026-10-14T07:17:51Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
