@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T22:26:27Z",
+  "last_updated": "2026-10-14T22:26:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675188,19 +675188,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-14T22:17:47Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T22:26:49Z",
+      "first_failed_at": "2026-10-14T22:26:49Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
