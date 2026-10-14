@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T06:30:02Z",
+  "last_updated": "2026-10-14T06:30:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674167,6 +674167,27 @@
         "upload_sec": 279.6,
         "total_sec": 356.9
       }
+    },
+    {
+      "cr_film_id": 3685,
+      "cr_slug": "black-panther-wakanda-necht-zije",
+      "title": "Black Panther: Wakanda nechť žije",
+      "year": 2022,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 27898,
+      "sdilej_url": "https://sdilej.cz/35306886/black-panther-wakanda-necht-zije-2022-cz-dabing.mp4",
+      "sdilej_name": "Black Panther: Wakanda nechť žije (2022) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-14T06:29:53Z",
+      "status": "uploaded",
+      "size_bytes": 1021800935,
+      "worker_id": "worker-2-38520720240",
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 99.6,
+        "upload_sec": 176.1,
+        "total_sec": 277.1
+      }
     }
   ],
   "failed_attempts": [
@@ -674459,84 +674480,6 @@
       }
     },
     {
-      "cr_film_id": 3685,
-      "cr_slug": "black-panther-wakanda-necht-zije",
-      "title": "Black Panther: Wakanda nechť žije",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-14T06:22:33Z",
-      "first_failed_at": "2026-10-14T06:22:33Z",
-      "attempt_count": 1,
-      "upload_id": "6758259ba1bd9",
-      "source_url": "https://prehraj.to/cerny-panter-2-wakanda-2023-cz-dab-tit-partner-5704894/6758259ba1bd9",
-      "upload_title": "Černý panter 2 Wakanda (2023 CZ dab tit)_ partner=5704894",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 113.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 3685,
-      "cr_slug": "black-panther-wakanda-necht-zije",
-      "title": "Black Panther: Wakanda nechť žije",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-wakanda-necht-zije-2022-cz-dabing-1080p-fhd/532a4a81dabccdd1",
-      "failed_at": "2026-10-14T06:24:41Z",
-      "first_failed_at": "2026-10-14T06:24:41Z",
-      "attempt_count": 1,
-      "upload_id": "532a4a81dabccdd1",
-      "source_url": "https://prehraj.to/black-panther-wakanda-necht-zije-2022-cz-dabing-1080p-fhd/532a4a81dabccdd1",
-      "upload_title": "Black Panther - Wakanda nechť žije 2022 CZ dabing 1080p FHD",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.1
-      }
-    },
-    {
-      "cr_film_id": 3685,
-      "cr_slug": "black-panther-wakanda-necht-zije",
-      "title": "Black Panther: Wakanda nechť žije",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panter-wakanda-necht-zije-2022-cz-dabing-sub/724117543a018506",
-      "failed_at": "2026-10-14T06:24:53Z",
-      "first_failed_at": "2026-10-14T06:24:53Z",
-      "attempt_count": 1,
-      "upload_id": "724117543a018506",
-      "source_url": "https://prehraj.to/black-panter-wakanda-necht-zije-2022-cz-dabing-sub/724117543a018506",
-      "upload_title": "Black panter-Wakanda necht zije (2022) CZ Dabing ▶(SuB)",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.1
-      }
-    },
-    {
-      "cr_film_id": 3685,
-      "cr_slug": "black-panther-wakanda-necht-zije",
-      "title": "Black Panther: Wakanda nechť žije",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panter-wakanda-necht-zije-2022-cz-dab/647d1af514a8e",
-      "failed_at": "2026-10-14T06:25:06Z",
-      "first_failed_at": "2026-10-14T06:25:06Z",
-      "attempt_count": 1,
-      "upload_id": "647d1af514a8e",
-      "source_url": "https://prehraj.to/black-panter-wakanda-necht-zije-2022-cz-dab/647d1af514a8e",
-      "upload_title": "Black panter-Wakanda necht zije - 2022 - cz dab.",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.1
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -674581,16 +674524,6 @@
       "worker_id": "worker-1-38520720240",
       "run_id": "38520720240",
       "reserved_at": "2026-10-14T06:20:37Z"
-    },
-    {
-      "cr_film_id": 3685,
-      "cr_slug": "black-panther-wakanda-necht-zije",
-      "title": "Black Panther: Wakanda nechť žije",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38520720240",
-      "run_id": "38520720240",
-      "reserved_at": "2026-10-14T06:24:28Z"
     },
     {
       "cr_film_id": 6718,
