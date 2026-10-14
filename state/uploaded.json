@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T13:19:43Z",
+  "last_updated": "2026-10-14T13:20:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676214,6 +676214,23 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 29921,
+      "cr_slug": "prachy-zbrane-jedno-porno",
+      "title": "Prachy, zbraně, jedno porno",
+      "year": 1999,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-14T13:20:45Z",
+      "first_failed_at": "2026-10-14T13:20:45Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 20.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676246,16 +676263,6 @@
       "worker_id": "worker-4-38552785596",
       "run_id": "38552785596",
       "reserved_at": "2026-10-14T13:19:16Z"
-    },
-    {
-      "cr_film_id": 29921,
-      "cr_slug": "prachy-zbrane-jedno-porno",
-      "title": "Prachy, zbraně, jedno porno",
-      "year": 1999,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T13:19:43Z"
     }
   ],
   "missing_on_account": [
