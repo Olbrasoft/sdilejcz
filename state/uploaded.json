@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T11:43:03Z",
+  "last_updated": "2026-10-14T11:43:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674303,21 +674303,6 @@
       }
     },
     {
-      "cr_film_id": 12878,
-      "cr_slug": "pornograficky-vztah",
-      "title": "Pornografický vztah",
-      "year": 1999,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-14T11:08:39Z",
-      "first_failed_at": "2026-10-14T11:08:39Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.1
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -675217,19 +675202,24 @@
       "timing": {
         "cdn_resolve_sec": 9.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
       "year": 1999,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38552785596",
-      "run_id": "38552785596",
-      "reserved_at": "2026-10-14T11:41:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-14T11:43:28Z",
+      "first_failed_at": "2026-10-14T11:08:39Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
