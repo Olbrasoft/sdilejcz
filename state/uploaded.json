@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-14T21:56:02Z",
+  "last_updated": "2026-10-14T21:56:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673886,6 +673886,27 @@
         "upload_sec": 736.5,
         "total_sec": 923.3
       }
+    },
+    {
+      "cr_film_id": 11325,
+      "cr_slug": "black-cat-gatto-nero",
+      "title": "Black Cat: Gatto nero",
+      "year": 1981,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 39428,
+      "sdilej_url": "https://sdilej.cz/35310303/black-cat-gatto-nero-1981-cz-dabing.mp4",
+      "sdilej_name": "Black Cat: Gatto nero (1981) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-14T21:55:27Z",
+      "status": "uploaded",
+      "size_bytes": 544818178,
+      "worker_id": "worker-2-38638554022",
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 84.8,
+        "upload_sec": 90.6,
+        "total_sec": 182.6
+      }
     }
   ],
   "failed_attempts": [
@@ -674251,27 +674272,6 @@
       }
     },
     {
-      "cr_film_id": 11325,
-      "cr_slug": "black-cat-gatto-nero",
-      "title": "Black Cat: Gatto nero",
-      "year": 1981,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-14T21:51:02Z",
-      "first_failed_at": "2026-10-14T21:51:02Z",
-      "attempt_count": 1,
-      "upload_id": "09c735bad640ba2a",
-      "source_url": "https://prehraj.to/black-cat-gatto-nero-1981-cz-dabing/09c735bad640ba2a",
-      "upload_title": "Black Cat: Gatto nero (1981) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 35.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 11649,
       "cr_slug": "peggy-sue-se-vdava",
       "title": "Peggy Sue se vdává",
@@ -674408,16 +674408,6 @@
       "worker_id": "worker-1-38638554022",
       "run_id": "38638554022",
       "reserved_at": "2026-10-14T21:51:13Z"
-    },
-    {
-      "cr_film_id": 11325,
-      "cr_slug": "black-cat-gatto-nero",
-      "title": "Black Cat: Gatto nero",
-      "year": 1981,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-14T21:52:15Z"
     },
     {
       "cr_film_id": 12255,
