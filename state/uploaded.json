@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T03:05:09Z",
+  "last_updated": "2026-10-15T03:05:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673767,25 +673767,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fkouzelna-beruska-a-cerny-kocour-ve-filmu-2023-cz-dabing%2F576a8052f94530f6 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f9f8d875d00>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/kouzelna-beruska-a-cerny-kocour-ve-filmu-2023-cz-dabing/576a8052f94530f6",
-      "failed_at": "2026-10-15T02:59:33Z",
-      "first_failed_at": "2026-10-15T02:44:48Z",
-      "attempt_count": 3,
-      "upload_id": "576a8052f94530f6",
-      "source_url": "https://prehraj.to/kouzelna-beruska-a-cerny-kocour-ve-filmu-2023-cz-dabing/576a8052f94530f6",
-      "upload_title": "Kouzelna Beruska a Cerny kocour ve filmu 2023 CZ DABING",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 253.9
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -673860,19 +673841,28 @@
       "timing": {
         "resolve_sec": 254.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T03:00:22Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fkouzelna-beruska-a-cerny-kocour-ve-filmu-2023-cz-dabing%2F576a8052f94530f6 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f1766ae5b20>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/kouzelna-beruska-a-cerny-kocour-ve-filmu-2023-cz-dabing/576a8052f94530f6",
+      "failed_at": "2026-10-15T03:05:19Z",
+      "first_failed_at": "2026-10-15T02:44:48Z",
+      "attempt_count": 4,
+      "upload_id": "576a8052f94530f6",
+      "source_url": "https://prehraj.to/kouzelna-beruska-a-cerny-kocour-ve-filmu-2023-cz-dabing/576a8052f94530f6",
+      "upload_title": "Kouzelna Beruska a Cerny kocour ve filmu 2023 CZ DABING",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
