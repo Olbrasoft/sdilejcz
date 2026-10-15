@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T14:17:39Z",
+  "last_updated": "2026-10-15T14:17:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675583,21 +675583,6 @@
       }
     },
     {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T13:20:56Z",
-      "first_failed_at": "2026-10-15T12:09:13Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.4
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -676988,19 +676973,24 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
       "year": 1974,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T14:13:25Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T14:17:53Z",
+      "first_failed_at": "2026-10-15T12:09:13Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 16.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
