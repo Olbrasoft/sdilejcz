@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T17:01:29Z",
+  "last_updated": "2026-10-15T17:01:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674426,21 +674426,6 @@
       }
     },
     {
-      "cr_film_id": 12039,
-      "cr_slug": "ritorno-dalla-morte",
-      "title": "Ritorno dalla morte",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T16:24:10Z",
-      "first_failed_at": "2026-10-15T16:24:10Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -674998,19 +674983,24 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38767050739",
-      "run_id": "38767050739",
-      "reserved_at": "2026-10-15T16:59:19Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T17:01:53Z",
+      "first_failed_at": "2026-10-15T16:24:10Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
