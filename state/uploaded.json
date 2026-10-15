@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T15:20:14Z",
+  "last_updated": "2026-10-15T15:20:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677203,21 +677203,6 @@
       }
     },
     {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T14:48:57Z",
-      "first_failed_at": "2026-10-15T14:48:57Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.1
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -678009,6 +677994,21 @@
       "timing": {
         "cdn_resolve_sec": 10.2
       }
+    },
+    {
+      "cr_film_id": 34902,
+      "cr_slug": "duch-boure",
+      "title": "Duch bouře",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T15:20:41Z",
+      "first_failed_at": "2026-10-15T14:48:57Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
   "in_progress": [
@@ -678031,16 +678031,6 @@
       "worker_id": "worker-4-38727405840",
       "run_id": "38727405840",
       "reserved_at": "2026-10-15T15:19:43Z"
-    },
-    {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T15:20:14Z"
     }
   ],
   "missing_on_account": [
