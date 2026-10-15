@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T03:04:06Z",
+  "last_updated": "2026-10-15T03:04:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673767,25 +673767,6 @@
       }
     },
     {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fmonster-trucks-2016-cz-dabing-1080p-fhd%2Ff4d30d82e5917608 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f5c65b66480>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/monster-trucks-2016-cz-dabing-1080p-fhd/f4d30d82e5917608",
-      "failed_at": "2026-10-15T02:58:36Z",
-      "first_failed_at": "2026-10-15T02:50:34Z",
-      "attempt_count": 2,
-      "upload_id": "f4d30d82e5917608",
-      "source_url": "https://prehraj.to/monster-trucks-2016-cz-dabing-1080p-fhd/f4d30d82e5917608",
-      "upload_title": "Monster Trucks 2016 CZ dabing 1080p FHD",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.3
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -673860,19 +673841,28 @@
       "timing": {
         "resolve_sec": 253.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T02:59:54Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fmonster-trucks-2016-cz-dabing-1080p-fhd%2Ff4d30d82e5917608 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f9f928fde80>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/monster-trucks-2016-cz-dabing-1080p-fhd/f4d30d82e5917608",
+      "failed_at": "2026-10-15T03:04:48Z",
+      "first_failed_at": "2026-10-15T02:50:34Z",
+      "attempt_count": 3,
+      "upload_id": "f4d30d82e5917608",
+      "source_url": "https://prehraj.to/monster-trucks-2016-cz-dabing-1080p-fhd/f4d30d82e5917608",
+      "upload_title": "Monster Trucks 2016 CZ dabing 1080p FHD",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
