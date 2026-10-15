@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T16:08:32Z",
+  "last_updated": "2026-10-15T16:08:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677644,21 +677644,6 @@
       }
     },
     {
-      "cr_film_id": 35044,
-      "cr_slug": "tezka-barbora",
-      "title": "Těžká Barbora",
-      "year": 1960,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T15:31:42Z",
-      "first_failed_at": "2026-10-15T14:57:53Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 16.7
-      }
-    },
-    {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
@@ -678313,20 +678298,24 @@
       "timing": {
         "cdn_resolve_sec": 9.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35044,
       "cr_slug": "tezka-barbora",
       "title": "Těžká Barbora",
       "year": 1960,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T16:08:32Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T16:08:52Z",
+      "first_failed_at": "2026-10-15T14:57:53Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
