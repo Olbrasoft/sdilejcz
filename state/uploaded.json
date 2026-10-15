@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T16:07:02Z",
+  "last_updated": "2026-10-15T16:07:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677402,21 +677402,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T15:13:07Z",
-      "first_failed_at": "2026-10-15T14:07:37Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.7
-      }
-    },
-    {
       "cr_film_id": 35413,
       "cr_slug": "film-2026",
       "title": "스트레이 키즈 : 더 도미네이트 익스피리언스",
@@ -678313,20 +678298,24 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T16:07:02Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T16:07:21Z",
+      "first_failed_at": "2026-10-15T14:07:37Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
