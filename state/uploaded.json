@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T06:42:19Z",
+  "last_updated": "2026-10-15T06:42:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676933,21 +676933,6 @@
       }
     },
     {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T05:56:44Z",
-      "first_failed_at": "2026-10-15T05:56:44Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
@@ -677849,19 +677834,24 @@
       "timing": {
         "cdn_resolve_sec": 10.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
       "title": "Vzala jsem si mrtvého muže",
       "year": 1996,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T06:27:25Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T06:42:32Z",
+      "first_failed_at": "2026-10-15T05:56:44Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36762,
       "cr_slug": "granny-of-the-dead",
