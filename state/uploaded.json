@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T20:32:20Z",
+  "last_updated": "2026-10-15T20:32:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677177,21 +677177,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T19:58:30Z",
-      "first_failed_at": "2026-10-15T18:49:08Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 19.0
-      }
-    },
-    {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
@@ -678063,6 +678048,21 @@
         "resolve_sec": 0.9,
         "download_sec": 1.7
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T20:32:46Z",
+      "first_failed_at": "2026-10-15T18:49:08Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
     }
   ],
   "in_progress": [
@@ -678095,16 +678095,6 @@
       "worker_id": "worker-2-38767050739",
       "run_id": "38767050739",
       "reserved_at": "2026-10-15T20:31:23Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38767050739",
-      "run_id": "38767050739",
-      "reserved_at": "2026-10-15T20:32:20Z"
     }
   ],
   "missing_on_account": [
