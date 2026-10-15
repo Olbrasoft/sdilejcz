@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T02:54:42Z",
+  "last_updated": "2026-10-15T02:54:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673748,25 +673748,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Flilo-stitch-2002-cz-dabing%2F779e8779711fb8ed (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f9f8b861970>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/lilo-stitch-2002-cz-dabing/779e8779711fb8ed",
-      "failed_at": "2026-10-15T02:49:11Z",
-      "first_failed_at": "2026-10-15T02:42:52Z",
-      "attempt_count": 2,
-      "upload_id": "779e8779711fb8ed",
-      "source_url": "https://prehraj.to/lilo-stitch-2002-cz-dabing/779e8779711fb8ed",
-      "upload_title": "Lilo & Stitch (2002) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.4
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -673841,19 +673822,28 @@
       "timing": {
         "resolve_sec": 257.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T02:50:11Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Flilo-stitch-2002-cz-dabing%2F779e8779711fb8ed (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f17658e1700>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/lilo-stitch-2002-cz-dabing/779e8779711fb8ed",
+      "failed_at": "2026-10-15T02:54:56Z",
+      "first_failed_at": "2026-10-15T02:42:52Z",
+      "attempt_count": 3,
+      "upload_id": "779e8779711fb8ed",
+      "source_url": "https://prehraj.to/lilo-stitch-2002-cz-dabing/779e8779711fb8ed",
+      "upload_title": "Lilo & Stitch (2002) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 253.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
