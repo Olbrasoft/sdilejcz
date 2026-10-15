@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T08:20:55Z",
+  "last_updated": "2026-10-15T08:21:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675651,19 +675651,30 @@
       "timing": {
         "cdn_resolve_sec": 10.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 21663,
       "cr_slug": "lolita-1962",
       "title": "Lolita",
       "year": 1962,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38697784122",
-      "run_id": "38697784122",
-      "reserved_at": "2026-10-15T08:15:04Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-15T08:21:15Z",
+      "first_failed_at": "2026-10-15T08:21:15Z",
+      "attempt_count": 1,
+      "upload_id": "5891c9a9df449",
+      "source_url": "https://prehraj.to/lolita-1962-cz-titulky/5891c9a9df449",
+      "upload_title": "Lolita-1962-cz-titulky--",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 38.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
