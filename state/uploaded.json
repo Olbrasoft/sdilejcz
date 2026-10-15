@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T09:12:19Z",
+  "last_updated": "2026-10-15T09:12:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676017,19 +676017,30 @@
       "timing": {
         "cdn_resolve_sec": 19.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23711,
       "cr_slug": "sex-po-telefonu",
       "title": "Sex po telefonu",
       "year": 1996,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38697784122",
-      "run_id": "38697784122",
-      "reserved_at": "2026-10-15T09:06:40Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-15T09:12:53Z",
+      "first_failed_at": "2026-10-15T09:12:53Z",
+      "attempt_count": 1,
+      "upload_id": "55e6b07c047e6",
+      "source_url": "https://prehraj.to/sex-po-telefonu-1996-czdab/55e6b07c047e6",
+      "upload_title": "Sex po telefonu (1996)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.2,
+        "download_sec": 33.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
