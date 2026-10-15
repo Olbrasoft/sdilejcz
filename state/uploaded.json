@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T02:27:22Z",
+  "last_updated": "2026-10-15T02:35:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674813,6 +674813,28 @@
         "upload_sec": 108.5,
         "total_sec": 177.3
       }
+    },
+    {
+      "cr_film_id": 36850,
+      "cr_slug": "smolny-pich-aneb-pitomy-porno",
+      "title": "Smolný pich aneb Pitomý porno",
+      "year": 2021,
+      "source": "sledujteto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_file_id": 44807,
+      "source_cdn": "www",
+      "sdilej_url": "https://sdilej.cz/35311249/smolny-pich-aneb-pitomy-porno-2021-sk-titulky.mp4",
+      "sdilej_name": "Smolný pich aneb Pitomý porno (2021) SK titulky.mp4",
+      "uploaded_at": "2026-10-15T02:35:15Z",
+      "status": "uploaded",
+      "size_bytes": 2373777373,
+      "worker_id": "worker-4-38638554022",
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 96.4,
+        "upload_sec": 366.3,
+        "total_sec": 464.3
+      }
     }
   ],
   "failed_attempts": [
@@ -677537,23 +677559,6 @@
       }
     },
     {
-      "cr_film_id": 36850,
-      "cr_slug": "smolny-pich-aneb-pitomy-porno",
-      "title": "Smolný pich aneb Pitomý porno",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-15T01:46:32Z",
-      "first_failed_at": "2026-10-15T01:46:32Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 72.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 37128,
       "cr_slug": "surf-plaz-a-kocky",
       "title": "Surf, pláž a kočky",
@@ -678317,18 +678322,7 @@
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 36850,
-      "cr_slug": "smolny-pich-aneb-pitomy-porno",
-      "title": "Smolný pich aneb Pitomý porno",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-15T02:27:22Z"
-    }
-  ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
