@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T16:09:33Z",
+  "last_updated": "2026-10-15T16:09:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677659,21 +677659,6 @@
       }
     },
     {
-      "cr_film_id": 35060,
-      "cr_slug": "malcolm-x",
-      "title": "Malcolm X",
-      "year": 1992,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T15:33:32Z",
-      "first_failed_at": "2026-10-15T14:59:01Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 35063,
       "cr_slug": "the-silent-thief",
       "title": "The Silent Thief",
@@ -678313,20 +678298,24 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35060,
       "cr_slug": "malcolm-x",
       "title": "Malcolm X",
       "year": 1992,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T16:09:33Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T16:09:52Z",
+      "first_failed_at": "2026-10-15T14:59:01Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
