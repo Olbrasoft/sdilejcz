@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T00:18:45Z",
+  "last_updated": "2026-10-15T00:18:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675479,22 +675479,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-14T23:36:32Z",
-      "first_failed_at": "2026-10-14T22:40:19Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 6.1,
-        "download_sec": 2.7
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -676530,19 +676514,25 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-15T00:08:26Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-15T00:18:58Z",
+      "first_failed_at": "2026-10-14T22:40:19Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 2.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23841,
       "cr_slug": "operace-delta-force",
