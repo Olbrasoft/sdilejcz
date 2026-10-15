@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T13:42:42Z",
+  "last_updated": "2026-10-15T13:43:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675101,27 +675101,6 @@
       }
     },
     {
-      "cr_film_id": 17521,
-      "cr_slug": "wet-red-rose",
-      "title": "Wet Red Rose",
-      "year": 1972,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-15T12:49:38Z",
-      "first_failed_at": "2026-10-15T12:49:38Z",
-      "attempt_count": 1,
-      "upload_id": "4463bb0982cda98c",
-      "source_url": "https://prehraj.to/wet-red-rose-1972-cz-dabing/4463bb0982cda98c",
-      "upload_title": "Wet Red Rose (1972) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 35.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -676488,19 +676467,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17521,
       "cr_slug": "wet-red-rose",
       "title": "Wet Red Rose",
       "year": 1972,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T13:20:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-15T13:43:06Z",
+      "first_failed_at": "2026-10-15T12:49:38Z",
+      "attempt_count": 2,
+      "upload_id": "4463bb0982cda98c",
+      "source_url": "https://prehraj.to/wet-red-rose-1972-cz-dabing/4463bb0982cda98c",
+      "upload_title": "Wet Red Rose (1972) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 34.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
