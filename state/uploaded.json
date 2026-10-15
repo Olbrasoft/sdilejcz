@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T01:26:02Z",
+  "last_updated": "2026-10-15T01:26:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677083,21 +677083,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T00:55:52Z",
-      "first_failed_at": "2026-10-15T00:55:52Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
@@ -677874,6 +677859,21 @@
         "resolve_sec": 2.2,
         "download_sec": 2.3
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T01:26:28Z",
+      "first_failed_at": "2026-10-15T00:55:52Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
     }
   ],
   "in_progress": [
@@ -677896,16 +677896,6 @@
       "worker_id": "worker-4-38638554022",
       "run_id": "38638554022",
       "reserved_at": "2026-10-15T01:22:45Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-15T01:26:02Z"
     }
   ],
   "missing_on_account": [
