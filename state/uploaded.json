@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T01:18:37Z",
+  "last_updated": "2026-10-15T01:19:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676698,22 +676698,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-15T00:18:58Z",
-      "first_failed_at": "2026-10-14T22:40:19Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 7.1,
-        "download_sec": 2.7
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677749,19 +677733,25 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-15T01:14:26Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-15T01:19:01Z",
+      "first_failed_at": "2026-10-14T22:40:19Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 6.7,
+        "download_sec": 2.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 33414,
       "cr_slug": "on-the-basis-of-sex",
