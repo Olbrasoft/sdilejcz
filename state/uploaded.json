@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T02:49:32Z",
+  "last_updated": "2026-10-15T02:49:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673748,25 +673748,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fpo-cem-zeny-touzi-2000-cz-dabing-1080p-mkv-php%2F81d9da29526f2e2b (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f9f8f7612e0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/po-cem-zeny-touzi-2000-cz-dabing-1080p-mkv-php/81d9da29526f2e2b",
-      "failed_at": "2026-10-15T02:44:09Z",
-      "first_failed_at": "2026-10-15T02:44:09Z",
-      "attempt_count": 1,
-      "upload_id": "81d9da29526f2e2b",
-      "source_url": "https://prehraj.to/po-cem-zeny-touzi-2000-cz-dabing-1080p-mkv-php/81d9da29526f2e2b",
-      "upload_title": "Po cem zeny touzi 2000 CZ dabing 1080p mkv.php",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.5
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -673822,19 +673803,28 @@
       "timing": {
         "resolve_sec": 254.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T02:45:08Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fpo-cem-zeny-touzi-2000-cz-dabing-1080p-mkv-php%2F81d9da29526f2e2b (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f17608d14f0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/po-cem-zeny-touzi-2000-cz-dabing-1080p-mkv-php/81d9da29526f2e2b",
+      "failed_at": "2026-10-15T02:49:52Z",
+      "first_failed_at": "2026-10-15T02:44:09Z",
+      "attempt_count": 2,
+      "upload_id": "81d9da29526f2e2b",
+      "source_url": "https://prehraj.to/po-cem-zeny-touzi-2000-cz-dabing-1080p-mkv-php/81d9da29526f2e2b",
+      "upload_title": "Po cem zeny touzi 2000 CZ dabing 1080p mkv.php",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
