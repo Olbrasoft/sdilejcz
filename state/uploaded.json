@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T20:38:36Z",
+  "last_updated": "2026-10-15T20:39:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677245,21 +677245,6 @@
       }
     },
     {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T20:06:54Z",
-      "first_failed_at": "2026-10-15T20:06:54Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.3
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -678063,6 +678048,21 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
+    },
+    {
+      "cr_film_id": 34902,
+      "cr_slug": "duch-boure",
+      "title": "Duch bouře",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T20:39:03Z",
+      "first_failed_at": "2026-10-15T20:06:54Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 16.4
+      }
     }
   ],
   "in_progress": [
@@ -678095,16 +678095,6 @@
       "worker_id": "worker-4-38767050739",
       "run_id": "38767050739",
       "reserved_at": "2026-10-15T20:36:36Z"
-    },
-    {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38767050739",
-      "run_id": "38767050739",
-      "reserved_at": "2026-10-15T20:38:36Z"
     }
   ],
   "missing_on_account": [
