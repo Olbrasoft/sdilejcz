@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T15:03:48Z",
+  "last_updated": "2026-10-15T15:04:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677775,19 +677775,24 @@
       "timing": {
         "cdn_resolve_sec": 9.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34919,
       "cr_slug": "milovany-joshua",
       "title": "Milovaný Joshua",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T14:49:08Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T15:04:05Z",
+      "first_failed_at": "2026-10-15T15:04:05Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
