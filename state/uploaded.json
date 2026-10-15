@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T08:54:50Z",
+  "last_updated": "2026-10-15T08:55:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675142,21 +675142,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T08:18:38Z",
-      "first_failed_at": "2026-10-15T07:46:44Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -675810,6 +675795,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play",
+      "title": "Cold Play",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T08:55:10Z",
+      "first_failed_at": "2026-10-15T07:46:44Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.3
+      }
     }
   ],
   "in_progress": [
@@ -675842,16 +675842,6 @@
       "worker_id": "worker-3-38697784122",
       "run_id": "38697784122",
       "reserved_at": "2026-10-15T08:54:23Z"
-    },
-    {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38697784122",
-      "run_id": "38697784122",
-      "reserved_at": "2026-10-15T08:54:50Z"
     }
   ],
   "missing_on_account": [
