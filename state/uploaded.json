@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T16:22:13Z",
+  "last_updated": "2026-10-15T16:22:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674313,19 +674313,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38767050739",
-      "run_id": "38767050739",
-      "reserved_at": "2026-10-15T16:18:33Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T16:22:34Z",
+      "first_failed_at": "2026-10-15T16:22:34Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
