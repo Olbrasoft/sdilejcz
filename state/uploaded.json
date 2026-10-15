@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T02:53:48Z",
+  "last_updated": "2026-10-15T02:54:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673748,25 +673748,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fcukrkandl-sugar-candy-2025-1080p-web-dl-cz-mp4%2F1ebaed2fdf25bda3 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f5c64652150>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/cukrkandl-sugar-candy-2025-1080p-web-dl-cz-mp4/1ebaed2fdf25bda3",
-      "failed_at": "2026-10-15T02:48:28Z",
-      "first_failed_at": "2026-10-15T02:43:23Z",
-      "attempt_count": 2,
-      "upload_id": "1ebaed2fdf25bda3",
-      "source_url": "https://prehraj.to/cukrkandl-sugar-candy-2025-1080p-web-dl-cz-mp4/1ebaed2fdf25bda3",
-      "upload_title": "Cukrkandl.Sugar.Candy.2025.1080p.WEB-DL.CZ",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.1
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -673841,19 +673822,28 @@
       "timing": {
         "resolve_sec": 253.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T02:49:32Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fcukrkandl-sugar-candy-2025-1080p-web-dl-cz-mp4%2F1ebaed2fdf25bda3 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f9f9126db20>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/cukrkandl-sugar-candy-2025-1080p-web-dl-cz-mp4/1ebaed2fdf25bda3",
+      "failed_at": "2026-10-15T02:54:20Z",
+      "first_failed_at": "2026-10-15T02:43:23Z",
+      "attempt_count": 3,
+      "upload_id": "1ebaed2fdf25bda3",
+      "source_url": "https://prehraj.to/cukrkandl-sugar-candy-2025-1080p-web-dl-cz-mp4/1ebaed2fdf25bda3",
+      "upload_title": "Cukrkandl.Sugar.Candy.2025.1080p.WEB-DL.CZ",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 257.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
