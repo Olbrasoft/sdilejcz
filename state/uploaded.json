@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T04:42:53Z",
+  "last_updated": "2026-10-15T04:43:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674633,21 +674633,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T04:10:27Z",
-      "first_failed_at": "2026-10-15T03:07:05Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -675412,6 +675397,21 @@
         "cdn_resolve_sec": 5.0,
         "download_sec": 2.2
       }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T04:43:15Z",
+      "first_failed_at": "2026-10-15T03:07:05Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
     }
   ],
   "in_progress": [
@@ -675444,16 +675444,6 @@
       "worker_id": "worker-2-38671961856",
       "run_id": "38671961856",
       "reserved_at": "2026-10-15T04:42:22Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T04:42:53Z"
     }
   ],
   "missing_on_account": [
