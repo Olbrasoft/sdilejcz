@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T03:53:49Z",
+  "last_updated": "2026-10-15T03:54:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673807,6 +673807,30 @@
         "upload_sec": 38.7,
         "total_sec": 189.5
       }
+    },
+    {
+      "cr_film_id": 14498,
+      "cr_slug": "mariah-carey-a-kouzelne-vanoce",
+      "title": "Mariah Carey a kouzelné Vánoce",
+      "year": 2020,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "b806ee11745bde85",
+      "source_url": "https://prehraj.to/mariah-carey-a-kouzelne-vanoce-2020-cz-titulky/b806ee11745bde85",
+      "source_title": "Mariah Carey a kouzelné Vánoce (2020) CZ titulky",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35311405/mariah-carey-a-kouzelne-vanoce-2020-cz-titulky.mp4",
+      "sdilej_name": "Mariah Carey a kouzelné Vánoce (2020) CZ titulky.mp4",
+      "uploaded_at": "2026-10-15T03:52:40Z",
+      "status": "uploaded",
+      "size_bytes": 586735457,
+      "worker_id": "worker-2-38671961856",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 24.8,
+        "upload_sec": 86.6,
+        "total_sec": 113.0
+      }
     }
   ],
   "failed_attempts": [
@@ -674031,25 +674055,6 @@
       "attempt_count": 1,
       "timing": {
         "cdn_resolve_sec": 12.3
-      }
-    },
-    {
-      "cr_film_id": 14498,
-      "cr_slug": "mariah-carey-a-kouzelne-vanoce",
-      "title": "Mariah Carey a kouzelné Vánoce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fmariah-carey-a-kouzelne-vanoce-2020-cz-titulky%2Fb806ee11745bde85 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f1763a8c890>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/mariah-carey-a-kouzelne-vanoce-2020-cz-titulky/b806ee11745bde85",
-      "failed_at": "2026-10-15T03:38:25Z",
-      "first_failed_at": "2026-10-15T03:31:20Z",
-      "attempt_count": 2,
-      "upload_id": "b806ee11745bde85",
-      "source_url": "https://prehraj.to/mariah-carey-a-kouzelne-vanoce-2020-cz-titulky/b806ee11745bde85",
-      "upload_title": "Mariah Carey a kouzelné Vánoce (2020) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.8
       }
     },
     {
@@ -674501,16 +674506,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 14498,
-      "cr_slug": "mariah-carey-a-kouzelne-vanoce",
-      "title": "Mariah Carey a kouzelné Vánoce",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T03:50:38Z"
-    },
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
