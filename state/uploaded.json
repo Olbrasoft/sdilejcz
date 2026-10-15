@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T03:39:45Z",
+  "last_updated": "2026-10-15T03:40:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674355,25 +674355,6 @@
       }
     },
     {
-      "cr_film_id": 14790,
-      "cr_slug": "rio-sex-comedy",
-      "title": "Rio Sex Comedy",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Frio-sex-comedy-2010-cz-dabing%2F9f6ada6c36d0dc9e (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f1762bac680>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/rio-sex-comedy-2010-cz-dabing/9f6ada6c36d0dc9e",
-      "failed_at": "2026-10-15T03:32:43Z",
-      "first_failed_at": "2026-10-15T03:32:43Z",
-      "attempt_count": 1,
-      "upload_id": "9f6ada6c36d0dc9e",
-      "source_url": "https://prehraj.to/rio-sex-comedy-2010-cz-dabing/9f6ada6c36d0dc9e",
-      "upload_title": "Rio Sex Comedy (2010) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 255.0
-      }
-    },
-    {
       "cr_film_id": 14343,
       "cr_slug": "skupinovy-sex",
       "title": "Skupinový sex",
@@ -674478,19 +674459,28 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14790,
       "cr_slug": "rio-sex-comedy",
       "title": "Rio Sex Comedy",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T03:34:37Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Frio-sex-comedy-2010-cz-dabing%2F9f6ada6c36d0dc9e (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f9f8e6abd40>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/rio-sex-comedy-2010-cz-dabing/9f6ada6c36d0dc9e",
+      "failed_at": "2026-10-15T03:40:10Z",
+      "first_failed_at": "2026-10-15T03:32:43Z",
+      "attempt_count": 2,
+      "upload_id": "9f6ada6c36d0dc9e",
+      "source_url": "https://prehraj.to/rio-sex-comedy-2010-cz-dabing/9f6ada6c36d0dc9e",
+      "upload_title": "Rio Sex Comedy (2010) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14343,
       "cr_slug": "skupinovy-sex",
