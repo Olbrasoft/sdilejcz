@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T03:29:36Z",
+  "last_updated": "2026-10-15T03:31:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674406,19 +674406,28 @@
       "timing": {
         "cdn_resolve_sec": 12.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14498,
       "cr_slug": "mariah-carey-a-kouzelne-vanoce",
       "title": "Mariah Carey a kouzelné Vánoce",
       "year": 2020,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T03:25:59Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fmariah-carey-a-kouzelne-vanoce-2020-cz-titulky%2Fb806ee11745bde85 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f5170628410>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/mariah-carey-a-kouzelne-vanoce-2020-cz-titulky/b806ee11745bde85",
+      "failed_at": "2026-10-15T03:31:20Z",
+      "first_failed_at": "2026-10-15T03:31:20Z",
+      "attempt_count": 1,
+      "upload_id": "b806ee11745bde85",
+      "source_url": "https://prehraj.to/mariah-carey-a-kouzelne-vanoce-2020-cz-titulky/b806ee11745bde85",
+      "upload_title": "Mariah Carey a kouzelné Vánoce (2020) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14790,
       "cr_slug": "rio-sex-comedy",
