@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T12:34:44Z",
+  "last_updated": "2026-10-15T12:35:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674735,21 +674735,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T12:03:41Z",
-      "first_failed_at": "2026-10-15T11:33:15Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -675554,6 +675539,21 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T12:35:06Z",
+      "first_failed_at": "2026-10-15T11:33:15Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -675566,16 +675566,6 @@
       "worker_id": "worker-4-38727405840",
       "run_id": "38727405840",
       "reserved_at": "2026-10-15T12:34:02Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T12:34:44Z"
     }
   ],
   "missing_on_account": [
