@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T12:25:46Z",
+  "last_updated": "2026-10-15T12:26:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674441,6 +674441,27 @@
         "upload_sec": 279.8,
         "total_sec": 354.5
       }
+    },
+    {
+      "cr_film_id": 6718,
+      "cr_slug": "xxx",
+      "title": "xXx",
+      "year": 2002,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 1934,
+      "sdilej_url": "https://sdilej.cz/35313278/xxx-2002-cz-dabing.mp4",
+      "sdilej_name": "xXx (2002) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-15T12:24:58Z",
+      "status": "uploaded",
+      "size_bytes": 620031103,
+      "worker_id": "worker-3-38727405840",
+      "timing": {
+        "cdn_resolve_sec": 2.2,
+        "download_sec": 116.7,
+        "upload_sec": 77.2,
+        "total_sec": 196.2
+      }
     }
   ],
   "failed_attempts": [
@@ -674632,23 +674653,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.8
-      }
-    },
-    {
-      "cr_film_id": 6718,
-      "cr_slug": "xxx",
-      "title": "xXx",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-15T11:50:00Z",
-      "first_failed_at": "2026-10-15T11:50:00Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 3.1,
-        "download_sec": 127.9,
-        "upload_sec": 30.0
       }
     },
     {
@@ -675208,16 +675212,6 @@
       "worker_id": "worker-2-38727405840",
       "run_id": "38727405840",
       "reserved_at": "2026-10-15T12:16:29Z"
-    },
-    {
-      "cr_film_id": 6718,
-      "cr_slug": "xxx",
-      "title": "xXx",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T12:21:33Z"
     },
     {
       "cr_film_id": 14382,
