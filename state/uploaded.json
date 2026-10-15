@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T14:08:21Z",
+  "last_updated": "2026-10-15T14:09:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676825,19 +676825,24 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T14:05:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T14:09:51Z",
+      "first_failed_at": "2026-10-15T14:09:51Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31756,
       "cr_slug": "sex-after-kids",
