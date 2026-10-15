@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T05:15:48Z",
+  "last_updated": "2026-10-15T05:16:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675029,21 +675029,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T04:38:29Z",
-      "first_failed_at": "2026-10-15T04:07:55Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 20710,
       "cr_slug": "az-odejdu",
       "title": "Až odejdu",
@@ -675936,6 +675921,21 @@
         "cdn_resolve_sec": 6.0,
         "download_sec": 2.3
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T05:16:12Z",
+      "first_failed_at": "2026-10-15T04:07:55Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.8
+      }
     }
   ],
   "in_progress": [
@@ -675968,16 +675968,6 @@
       "worker_id": "worker-3-38671961856",
       "run_id": "38671961856",
       "reserved_at": "2026-10-15T05:15:19Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T05:15:48Z"
     }
   ],
   "missing_on_account": [
