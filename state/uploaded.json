@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T05:53:42Z",
+  "last_updated": "2026-10-15T05:54:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676062,21 +676062,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T05:22:11Z",
-      "first_failed_at": "2026-10-15T04:12:00Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -677018,6 +677003,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T05:54:06Z",
+      "first_failed_at": "2026-10-15T04:12:00Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -677050,16 +677050,6 @@
       "worker_id": "worker-2-38671961856",
       "run_id": "38671961856",
       "reserved_at": "2026-10-15T05:53:03Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T05:53:42Z"
     }
   ],
   "missing_on_account": [
