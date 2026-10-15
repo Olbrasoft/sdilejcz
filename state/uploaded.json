@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T22:27:58Z",
+  "last_updated": "2026-10-15T22:29:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674333,22 +674333,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-15T21:53:00Z",
-      "first_failed_at": "2026-10-15T21:53:00Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 6.0,
-        "download_sec": 3.6
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675111,19 +675095,25 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38808266210",
-      "run_id": "38808266210",
-      "reserved_at": "2026-10-15T22:23:35Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-15T22:29:10Z",
+      "first_failed_at": "2026-10-15T21:53:00Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 3.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19583,
       "cr_slug": "sex-ve-meste",
