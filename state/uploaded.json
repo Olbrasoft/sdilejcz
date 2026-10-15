@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T19:44:17Z",
+  "last_updated": "2026-10-15T19:44:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676693,21 +676693,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T19:13:44Z",
-      "first_failed_at": "2026-10-15T18:00:53Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 22.4
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -677003,6 +676988,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T19:44:50Z",
+      "first_failed_at": "2026-10-15T18:00:53Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.8
+      }
     }
   ],
   "in_progress": [
@@ -677035,16 +677035,6 @@
       "worker_id": "worker-3-38767050739",
       "run_id": "38767050739",
       "reserved_at": "2026-10-15T19:35:30Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38767050739",
-      "run_id": "38767050739",
-      "reserved_at": "2026-10-15T19:44:17Z"
     }
   ],
   "missing_on_account": [
