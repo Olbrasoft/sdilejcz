@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T14:39:36Z",
+  "last_updated": "2026-10-15T14:40:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676537,21 +676537,6 @@
       }
     },
     {
-      "cr_film_id": 31669,
-      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
-      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T14:05:42Z",
-      "first_failed_at": "2026-10-15T14:05:42Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 16.0
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -677310,6 +677295,21 @@
       "timing": {
         "cdn_resolve_sec": 14.9
       }
+    },
+    {
+      "cr_film_id": 31669,
+      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
+      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
+      "year": 1988,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T14:40:02Z",
+      "first_failed_at": "2026-10-15T14:05:42Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -677342,16 +677342,6 @@
       "worker_id": "worker-2-38727405840",
       "run_id": "38727405840",
       "reserved_at": "2026-10-15T14:37:41Z"
-    },
-    {
-      "cr_film_id": 31669,
-      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
-      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T14:39:36Z"
     }
   ],
   "missing_on_account": [
