@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T03:48:31Z",
+  "last_updated": "2026-10-15T03:48:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674169,25 +674169,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fkrakonos-a-pytlak-06-csr-1981-loutkovy-kratkometrazni-pohadka%2F5d4d4f0087ac9 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f5177264560>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/krakonos-a-pytlak-06-csr-1981-loutkovy-kratkometrazni-pohadka/5d4d4f0087ac9",
-      "failed_at": "2026-10-15T03:37:41Z",
-      "first_failed_at": "2026-10-15T03:37:41Z",
-      "attempt_count": 1,
-      "upload_id": "5d4d4f0087ac9",
-      "source_url": "https://prehraj.to/krakonos-a-pytlak-06-csr-1981-loutkovy-kratkometrazni-pohadka/5d4d4f0087ac9",
-      "upload_title": "Krakonoš a pytlák 06 ČSR (1981) Loutkový / Krátkometrážní /…",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.9
-      }
-    },
-    {
       "cr_film_id": 14498,
       "cr_slug": "mariah-carey-a-kouzelne-vanoce",
       "title": "Mariah Carey a kouzelné Vánoce",
@@ -674482,6 +674463,25 @@
       "attempt_count": 2,
       "timing": {
         "cdn_resolve_sec": 12.6
+      }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/krakonos-a-pytlak-06-csr-1981-loutkovy-kratkometrazni-pohadka/5d4d4f0087ac9",
+      "failed_at": "2026-10-15T03:48:41Z",
+      "first_failed_at": "2026-10-15T03:37:41Z",
+      "attempt_count": 2,
+      "upload_id": "5d4d4f0087ac9",
+      "source_url": "https://prehraj.to/krakonos-a-pytlak-06-csr-1981-loutkovy-kratkometrazni-pohadka/5d4d4f0087ac9",
+      "upload_title": "Krakonoš a pytlák 06 ČSR (1981) Loutkový / Krátkometrážní /…",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.6
       }
     }
   ],
