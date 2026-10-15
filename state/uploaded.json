@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T16:09:03Z",
+  "last_updated": "2026-10-15T16:09:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677659,21 +677659,6 @@
       }
     },
     {
-      "cr_film_id": 35058,
-      "cr_slug": "mollo-tutto",
-      "title": "Mollo tutto",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T15:32:56Z",
-      "first_failed_at": "2026-10-15T14:58:27Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 35060,
       "cr_slug": "malcolm-x",
       "title": "Malcolm X",
@@ -678313,20 +678298,24 @@
       "timing": {
         "cdn_resolve_sec": 9.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35058,
       "cr_slug": "mollo-tutto",
       "title": "Mollo tutto",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T16:09:03Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T16:09:22Z",
+      "first_failed_at": "2026-10-15T14:58:27Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.8
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
