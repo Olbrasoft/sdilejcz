@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T00:21:33Z",
+  "last_updated": "2026-10-15T00:22:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674408,6 +674408,30 @@
         "upload_sec": 53.0,
         "total_sec": 72.8
       }
+    },
+    {
+      "cr_film_id": 23841,
+      "cr_slug": "operace-delta-force",
+      "title": "Operace Delta Force",
+      "year": 1997,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5aac6c7a0e5f7",
+      "source_url": "https://prehraj.to/operace-delta-force-1997/5aac6c7a0e5f7",
+      "source_title": "Operace Delta Force (1997)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35310774/operace-delta-force-1997-.mp4",
+      "sdilej_name": "Operace Delta Force (1997).mp4",
+      "uploaded_at": "2026-10-15T00:12:00Z",
+      "status": "uploaded",
+      "size_bytes": 548869595,
+      "worker_id": "worker-3-38638554022",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 18.5,
+        "upload_sec": 74.4,
+        "total_sec": 94.4
+      }
     }
   ],
   "failed_attempts": [
@@ -675554,27 +675578,6 @@
       }
     },
     {
-      "cr_film_id": 23841,
-      "cr_slug": "operace-delta-force",
-      "title": "Operace Delta Force",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-14T23:39:59Z",
-      "first_failed_at": "2026-10-14T23:39:59Z",
-      "attempt_count": 1,
-      "upload_id": "5aac6c7a0e5f7",
-      "source_url": "https://prehraj.to/operace-delta-force-1997/5aac6c7a0e5f7",
-      "upload_title": "Operace Delta Force (1997)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 4.3,
-        "download_sec": 27.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -676593,16 +676596,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 23841,
-      "cr_slug": "operace-delta-force",
-      "title": "Operace Delta Force",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-15T00:10:17Z"
-    },
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
