@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T12:31:52Z",
+  "last_updated": "2026-10-15T12:32:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675520,19 +675520,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
       "year": 2011,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T12:27:22Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T12:32:23Z",
+      "first_failed_at": "2026-10-15T12:32:23Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
