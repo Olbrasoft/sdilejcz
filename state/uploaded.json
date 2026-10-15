@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T03:08:18Z",
+  "last_updated": "2026-10-15T03:08:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673748,25 +673748,6 @@
       }
     },
     {
-      "cr_film_id": 7654,
-      "cr_slug": "sammyho-dobrodruzstvi-2",
-      "title": "Sammyho dobrodružství 2",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fsammyho-dobrodruzstvi-2-2012%2Fa8c1f344b5bf8a04 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f17627e1910>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/sammyho-dobrodruzstvi-2-2012/a8c1f344b5bf8a04",
-      "failed_at": "2026-10-15T03:00:03Z",
-      "first_failed_at": "2026-10-15T03:00:03Z",
-      "attempt_count": 1,
-      "upload_id": "a8c1f344b5bf8a04",
-      "source_url": "https://prehraj.to/sammyho-dobrodruzstvi-2-2012/a8c1f344b5bf8a04",
-      "upload_title": "Sammyho dobrodruzstvi 2 (2012)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.4
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -673904,6 +673885,25 @@
       "attempt_count": 1,
       "timing": {
         "cdn_resolve_sec": 10.1
+      }
+    },
+    {
+      "cr_film_id": 7654,
+      "cr_slug": "sammyho-dobrodruzstvi-2",
+      "title": "Sammyho dobrodružství 2",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/sammyho-dobrodruzstvi-2-2012/a8c1f344b5bf8a04",
+      "failed_at": "2026-10-15T03:08:35Z",
+      "first_failed_at": "2026-10-15T03:00:03Z",
+      "attempt_count": 2,
+      "upload_id": "a8c1f344b5bf8a04",
+      "source_url": "https://prehraj.to/sammyho-dobrodruzstvi-2-2012/a8c1f344b5bf8a04",
+      "upload_title": "Sammyho dobrodruzstvi 2 (2012)",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 227.5
       }
     }
   ],
