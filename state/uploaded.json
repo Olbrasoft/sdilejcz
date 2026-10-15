@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T13:50:02Z",
+  "last_updated": "2026-10-15T13:50:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675357,21 +675357,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T13:03:48Z",
-      "first_failed_at": "2026-10-15T11:55:13Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 15.5
-      }
-    },
-    {
       "cr_film_id": 17521,
       "cr_slug": "wet-red-rose",
       "title": "Wet Red Rose",
@@ -676562,6 +676547,21 @@
       "first_failed_at": "2026-10-15T13:48:51Z",
       "attempt_count": 1,
       "permanent": true
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T13:50:29Z",
+      "first_failed_at": "2026-10-15T11:55:13Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.9
+      }
     }
   ],
   "in_progress": [
@@ -676594,16 +676594,6 @@
       "worker_id": "worker-3-38727405840",
       "run_id": "38727405840",
       "reserved_at": "2026-10-15T13:49:34Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T13:50:02Z"
     }
   ],
   "missing_on_account": [
