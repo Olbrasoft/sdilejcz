@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T02:02:30Z",
+  "last_updated": "2026-10-15T02:07:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677176,21 +677176,6 @@
       }
     },
     {
-      "cr_film_id": 34957,
-      "cr_slug": "strasidelne-libanky",
-      "title": "Strašidelné líbánky",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T01:15:48Z",
-      "first_failed_at": "2026-10-15T01:15:48Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -678313,19 +678298,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
       "title": "Strašidelné líbánky",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-15T01:46:15Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T02:07:25Z",
+      "first_failed_at": "2026-10-15T01:15:48Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37182,
       "cr_slug": "muz-zbaveny-tize",
