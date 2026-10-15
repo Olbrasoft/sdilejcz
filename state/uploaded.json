@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T09:25:39Z",
+  "last_updated": "2026-10-15T09:26:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676096,19 +676096,30 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23711,
       "cr_slug": "sex-po-telefonu",
       "title": "Sex po telefonu",
       "year": 1996,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38697784122",
-      "run_id": "38697784122",
-      "reserved_at": "2026-10-15T09:17:24Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-15T09:26:34Z",
+      "first_failed_at": "2026-10-15T09:26:34Z",
+      "attempt_count": 1,
+      "upload_id": "57db5c4d11b6d",
+      "source_url": "https://prehraj.to/sex-po-telefonu-1996-czdab/57db5c4d11b6d",
+      "upload_title": "Sex po telefonu (1996)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.8,
+        "download_sec": 21.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 26852,
       "cr_slug": "make-the-yuletide-gay",
