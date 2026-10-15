@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T23:06:06Z",
+  "last_updated": "2026-10-15T23:07:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674650,21 +674650,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T22:24:01Z",
-      "first_failed_at": "2026-10-15T21:16:06Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 10.0
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -675508,19 +675493,24 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38808266210",
-      "run_id": "38808266210",
-      "reserved_at": "2026-10-15T22:59:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T23:07:59Z",
+      "first_failed_at": "2026-10-15T21:16:06Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22814,
       "cr_slug": "pee-weeho-velke-dobrodruzstvi",
