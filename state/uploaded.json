@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T05:05:18Z",
+  "last_updated": "2026-10-15T05:05:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674865,21 +674865,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T04:25:00Z",
-      "first_failed_at": "2026-10-15T03:49:03Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -675762,19 +675747,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
       "year": 1982,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T04:59:21Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T05:05:41Z",
+      "first_failed_at": "2026-10-15T03:49:03Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 25480,
       "cr_slug": "sexy-botky",
