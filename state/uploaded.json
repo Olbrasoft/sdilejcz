@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T03:40:31Z",
+  "last_updated": "2026-10-15T03:40:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674355,25 +674355,6 @@
       }
     },
     {
-      "cr_film_id": 14343,
-      "cr_slug": "skupinovy-sex",
-      "title": "Skupinový sex",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fskupinovy-sex-group-sex-2010-bdrip-cz-dabing%2F678b741881ef9 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f9f8bfefce0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/skupinovy-sex-group-sex-2010-bdrip-cz-dabing/678b741881ef9",
-      "failed_at": "2026-10-15T03:34:15Z",
-      "first_failed_at": "2026-10-15T03:27:10Z",
-      "attempt_count": 2,
-      "upload_id": "678b741881ef9",
-      "source_url": "https://prehraj.to/skupinovy-sex-group-sex-2010-bdrip-cz-dabing/678b741881ef9",
-      "upload_title": "Skupinovy sex - Group Sex (2010) BDRip CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.9
-      }
-    },
-    {
       "cr_film_id": 14364,
       "cr_slug": "one-piece-episode-of-chopper-plus-bloom-in-the-winter-miracle-cherry-blossom",
       "title": "One Piece: Episode of Chopper Plus: Bloom in the Winter, Miracle Cherry Blossom",
@@ -674478,19 +674459,28 @@
       "timing": {
         "resolve_sec": 254.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14343,
       "cr_slug": "skupinovy-sex",
       "title": "Skupinový sex",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T03:35:19Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: HTTPConnectionPool(host='chobotnice.aspfree.cz', port=80): Max retries exceeded with url: /Proxy.ashx?key=sUIMHufRtGEFnDJeKcVQsPYSZEqtcZoutpFfi3bs&url=https%3A%2F%2Fprehraj.to%2Fskupinovy-sex-group-sex-2010-bdrip-cz-dabing%2F678b741881ef9 (Caused by ConnectTimeoutError(<HTTPConnection(host='chobotnice.aspfree.cz', port=80) at 0x7f5c62e146b0>, 'Connection to chobotnice.aspfree.cz timed out. (connect timeout=30.0)')) after 5 attempts: https://prehraj.to/skupinovy-sex-group-sex-2010-bdrip-cz-dabing/678b741881ef9",
+      "failed_at": "2026-10-15T03:40:47Z",
+      "first_failed_at": "2026-10-15T03:27:10Z",
+      "attempt_count": 3,
+      "upload_id": "678b741881ef9",
+      "source_url": "https://prehraj.to/skupinovy-sex-group-sex-2010-bdrip-cz-dabing/678b741881ef9",
+      "upload_title": "Skupinovy sex - Group Sex (2010) BDRip CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14364,
       "cr_slug": "one-piece-episode-of-chopper-plus-bloom-in-the-winter-miracle-cherry-blossom",
