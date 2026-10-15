@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T11:37:23Z",
+  "last_updated": "2026-10-15T11:37:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674284,19 +674284,30 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2636,
       "cr_slug": "climax",
       "title": "Climax",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T11:33:26Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-15T11:37:53Z",
+      "first_failed_at": "2026-10-15T11:37:53Z",
+      "attempt_count": 1,
+      "upload_id": "61fb7a5a4b931",
+      "source_url": "https://prehraj.to/climax-2018-1080p-bluray-cz-dabing/61fb7a5a4b931",
+      "upload_title": "Climax.2018.1080p.BluRay.CZ.dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 82.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3685,
       "cr_slug": "black-panther-wakanda-necht-zije",
