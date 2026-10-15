@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T14:54:35Z",
+  "last_updated": "2026-10-15T14:54:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676770,22 +676770,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-15T14:23:17Z",
-      "first_failed_at": "2026-10-15T13:52:35Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.2,
-        "download_sec": 2.8
-      }
-    },
-    {
       "cr_film_id": 33718,
       "cr_slug": "prosim-zadny-sex-jsme-britove",
       "title": "Prosím žádný sex - jsme Britové",
@@ -677618,6 +677602,22 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-15T14:54:48Z",
+      "first_failed_at": "2026-10-15T13:52:35Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 2.0
+      }
     }
   ],
   "in_progress": [
@@ -677650,16 +677650,6 @@
       "worker_id": "worker-2-38727405840",
       "run_id": "38727405840",
       "reserved_at": "2026-10-15T14:53:38Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38727405840",
-      "run_id": "38727405840",
-      "reserved_at": "2026-10-15T14:54:35Z"
     }
   ],
   "missing_on_account": [
