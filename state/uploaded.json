@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T03:45:17Z",
+  "last_updated": "2026-10-15T03:45:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673974,21 +673974,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-15T03:13:53Z",
-      "first_failed_at": "2026-10-15T03:13:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -674483,6 +674468,21 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-15T03:45:40Z",
+      "first_failed_at": "2026-10-15T03:13:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
     }
   ],
   "in_progress": [
@@ -674505,16 +674505,6 @@
       "worker_id": "worker-2-38671961856",
       "run_id": "38671961856",
       "reserved_at": "2026-10-15T03:44:52Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38671961856",
-      "run_id": "38671961856",
-      "reserved_at": "2026-10-15T03:45:17Z"
     }
   ],
   "missing_on_account": [
