@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-15T01:46:15Z",
+  "last_updated": "2026-10-15T01:46:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678009,19 +678009,26 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 36850,
       "cr_slug": "smolny-pich-aneb-pitomy-porno",
       "title": "Smolný pich aneb Pitomý porno",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38638554022",
-      "run_id": "38638554022",
-      "reserved_at": "2026-10-15T01:30:37Z"
-    },
+      "source": "sledujteto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-15T01:46:32Z",
+      "first_failed_at": "2026-10-15T01:46:32Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 72.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36905,
       "cr_slug": "zivot-kotete",
