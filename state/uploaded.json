@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T04:40:04Z",
+  "last_updated": "2026-10-16T04:41:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676679,6 +676679,27 @@
         "cdn_resolve_sec": 0.9,
         "download_sec": 2.0
       }
+    },
+    {
+      "cr_film_id": 31135,
+      "cr_slug": "co-by-udelala-sophia-loren",
+      "title": "Co by udělala Sophia Loren?",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-16T04:41:08Z",
+      "first_failed_at": "2026-10-16T04:41:08Z",
+      "attempt_count": 1,
+      "upload_id": "f8760b63f0e5df74",
+      "source_url": "https://prehraj.to/co-by-udelala-sophia-loren-2021-cz-titulky/f8760b63f0e5df74",
+      "upload_title": "Co by udělala Sophia Loren? (2021) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 23.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676711,16 +676732,6 @@
       "worker_id": "worker-2-38837436314",
       "run_id": "38837436314",
       "reserved_at": "2026-10-16T04:38:49Z"
-    },
-    {
-      "cr_film_id": 31135,
-      "cr_slug": "co-by-udelala-sophia-loren",
-      "title": "Co by udělala Sophia Loren?",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T04:40:04Z"
     }
   ],
   "missing_on_account": [
