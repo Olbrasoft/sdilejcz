@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T08:21:21Z",
+  "last_updated": "2026-10-16T08:22:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676078,21 +676078,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T07:40:30Z",
-      "first_failed_at": "2026-10-16T06:27:53Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 30405,
       "cr_slug": "bratri-ve-zbrani",
       "title": "Bratři ve zbrani",
@@ -677044,19 +677029,24 @@
         "resolve_sec": 1.0,
         "download_sec": 2.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
       "year": 1982,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T08:13:55Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T08:22:10Z",
+      "first_failed_at": "2026-10-16T06:27:53Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
