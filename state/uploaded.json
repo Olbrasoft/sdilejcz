@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T08:36:51Z",
+  "last_updated": "2026-10-16T08:37:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676479,21 +676479,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T08:02:26Z",
-      "first_failed_at": "2026-10-16T08:02:26Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.1
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -677341,6 +677326,21 @@
       "timing": {
         "cdn_resolve_sec": 10.4
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T08:37:16Z",
+      "first_failed_at": "2026-10-16T08:02:26Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
     }
   ],
   "in_progress": [
@@ -677373,16 +677373,6 @@
       "worker_id": "worker-4-38858746812",
       "run_id": "38858746812",
       "reserved_at": "2026-10-16T08:36:09Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T08:36:51Z"
     }
   ],
   "missing_on_account": [
