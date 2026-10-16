@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T18:45:09Z",
+  "last_updated": "2026-10-16T18:45:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677086,21 +677086,6 @@
       }
     },
     {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T18:14:25Z",
-      "first_failed_at": "2026-10-16T18:14:25Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 21.0
-      }
-    },
-    {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
@@ -677818,6 +677803,21 @@
       "timing": {
         "cdn_resolve_sec": 27.1
       }
+    },
+    {
+      "cr_film_id": 34815,
+      "cr_slug": "kaja-oliva",
+      "title": "Kája + Oliva",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T18:45:45Z",
+      "first_failed_at": "2026-10-16T18:14:25Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 26.0
+      }
     }
   ],
   "in_progress": [
@@ -677850,16 +677850,6 @@
       "worker_id": "worker-1-38917755709",
       "run_id": "38917755709",
       "reserved_at": "2026-10-16T18:43:20Z"
-    },
-    {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T18:45:09Z"
     }
   ],
   "missing_on_account": [
