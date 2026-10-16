@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T19:56:08Z",
+  "last_updated": "2026-10-16T19:56:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677459,22 +677459,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-16T18:53:34Z",
-      "first_failed_at": "2026-10-16T17:52:13Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 2.5,
-        "download_sec": 2.9
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -678300,6 +678284,22 @@
       "timing": {
         "cdn_resolve_sec": 10.2
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-16T19:56:25Z",
+      "first_failed_at": "2026-10-16T17:52:13Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 3.9
+      }
     }
   ],
   "in_progress": [
@@ -678312,16 +678312,6 @@
       "worker_id": "worker-2-38917755709",
       "run_id": "38917755709",
       "reserved_at": "2026-10-16T19:48:37Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T19:56:08Z"
     }
   ],
   "missing_on_account": [
