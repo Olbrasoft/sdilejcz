@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T03:44:19Z",
+  "last_updated": "2026-10-16T03:44:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675240,21 +675240,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T03:14:14Z",
-      "first_failed_at": "2026-10-16T02:12:15Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -676041,6 +676026,21 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T03:44:42Z",
+      "first_failed_at": "2026-10-16T02:12:15Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
   "in_progress": [
@@ -676063,16 +676063,6 @@
       "worker_id": "worker-3-38837436314",
       "run_id": "38837436314",
       "reserved_at": "2026-10-16T03:42:39Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T03:44:19Z"
     }
   ],
   "missing_on_account": [
