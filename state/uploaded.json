@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T06:21:19Z",
+  "last_updated": "2026-10-16T06:21:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675102,6 +675102,27 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
+    },
+    {
+      "cr_film_id": 13271,
+      "cr_slug": "lara-croft-tomb-raider-kolebka-zivota",
+      "title": "Lara Croft – Tomb Raider: Kolébka života",
+      "year": 2003,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-16T06:21:31Z",
+      "first_failed_at": "2026-10-16T06:21:31Z",
+      "attempt_count": 1,
+      "upload_id": "5b70bf68d6241",
+      "source_url": "https://prehraj.to/tomb-raider-kolebka-zivota-2003-cz-dabing/5b70bf68d6241",
+      "upload_title": "Tomb Raider - Kolébka Života (2003) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 34.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675114,16 +675135,6 @@
       "worker_id": "worker-3-38858746812",
       "run_id": "38858746812",
       "reserved_at": "2026-10-16T06:11:09Z"
-    },
-    {
-      "cr_film_id": 13271,
-      "cr_slug": "lara-croft-tomb-raider-kolebka-zivota",
-      "title": "Lara Croft – Tomb Raider: Kolébka života",
-      "year": 2003,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T06:17:53Z"
     },
     {
       "cr_film_id": 14343,
