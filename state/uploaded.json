@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T03:54:24Z",
+  "last_updated": "2026-10-16T03:56:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675234,21 +675234,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T03:15:58Z",
-      "first_failed_at": "2026-10-16T02:44:14Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
@@ -676105,19 +676090,24 @@
       "timing": {
         "cdn_resolve_sec": 13.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
       "year": 2011,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T03:50:33Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T03:56:16Z",
+      "first_failed_at": "2026-10-16T02:44:14Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 26757,
       "cr_slug": "sex-ve-meste-2",
