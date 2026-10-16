@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T16:12:15Z",
+  "last_updated": "2026-10-16T16:12:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674479,21 +674479,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T15:41:33Z",
-      "first_failed_at": "2026-10-16T15:08:56Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675349,6 +675334,21 @@
         "cdn_resolve_sec": 3.9,
         "download_sec": 22.1
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T16:12:35Z",
+      "first_failed_at": "2026-10-16T15:08:56Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
     }
   ],
   "in_progress": [
@@ -675381,16 +675381,6 @@
       "worker_id": "worker-1-38917755709",
       "run_id": "38917755709",
       "reserved_at": "2026-10-16T16:10:38Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T16:12:15Z"
     }
   ],
   "missing_on_account": [
