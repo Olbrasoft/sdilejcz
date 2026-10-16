@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T08:03:44Z",
+  "last_updated": "2026-10-16T08:04:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676857,6 +676857,27 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
+    },
+    {
+      "cr_film_id": 31756,
+      "cr_slug": "sex-after-kids",
+      "title": "Sex After Kids",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-16T08:04:47Z",
+      "first_failed_at": "2026-10-16T08:04:47Z",
+      "attempt_count": 1,
+      "upload_id": "585b1c0e0f695",
+      "source_url": "https://prehraj.to/sex-after-kids-2013-cztit-v-obraze/585b1c0e0f695",
+      "upload_title": "Sex After Kids (2013)CZtit V OBRAZE",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 20.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676869,16 +676890,6 @@
       "worker_id": "worker-2-38858746812",
       "run_id": "38858746812",
       "reserved_at": "2026-10-16T07:50:04Z"
-    },
-    {
-      "cr_film_id": 31756,
-      "cr_slug": "sex-after-kids",
-      "title": "Sex After Kids",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T08:03:44Z"
     }
   ],
   "missing_on_account": [
