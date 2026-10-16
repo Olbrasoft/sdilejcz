@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T01:34:07Z",
+  "last_updated": "2026-10-16T01:36:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677227,21 +677227,6 @@
       }
     },
     {
-      "cr_film_id": 34969,
-      "cr_slug": "snehurka-pribeh-hruzy",
-      "title": "Sněhurka - Příběh hrůzy",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T00:44:10Z",
-      "first_failed_at": "2026-10-16T00:44:10Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.0
-      }
-    },
-    {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
       "title": "Ostrov příšer",
@@ -678207,19 +678192,24 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38808266210",
-      "run_id": "38808266210",
-      "reserved_at": "2026-10-16T01:15:03Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T01:36:21Z",
+      "first_failed_at": "2026-10-16T00:44:10Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
