@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T07:25:04Z",
+  "last_updated": "2026-10-16T07:25:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675142,21 +675142,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T06:48:20Z",
-      "first_failed_at": "2026-10-16T06:10:59Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -676280,19 +676265,24 @@
       "timing": {
         "resolve_sec": 0.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T07:18:24Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T07:25:19Z",
+      "first_failed_at": "2026-10-16T06:10:59Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30184,
       "cr_slug": "cas-dluhu",
