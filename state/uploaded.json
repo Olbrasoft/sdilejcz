@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T16:09:24Z",
+  "last_updated": "2026-10-16T16:09:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674460,21 +674460,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T15:38:58Z",
-      "first_failed_at": "2026-10-16T15:06:43Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 15.0
-      }
-    },
-    {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
@@ -675349,6 +675334,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T16:09:50Z",
+      "first_failed_at": "2026-10-16T15:06:43Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
     }
   ],
   "in_progress": [
@@ -675371,16 +675371,6 @@
       "worker_id": "worker-4-38917755709",
       "run_id": "38917755709",
       "reserved_at": "2026-10-16T16:00:03Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T16:09:24Z"
     }
   ],
   "missing_on_account": [
