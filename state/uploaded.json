@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T03:27:22Z",
+  "last_updated": "2026-10-16T03:27:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675840,6 +675840,27 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 23751,
+      "cr_slug": "sex-and-zen-ii",
+      "title": "Sex and Zen II",
+      "year": 1996,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-16T03:27:39Z",
+      "first_failed_at": "2026-10-16T03:27:39Z",
+      "attempt_count": 1,
+      "upload_id": "6771309a3b9c3",
+      "source_url": "https://prehraj.to/sex-and-zen-ii-1996-720p-bluray-x264-aac-yts-mx-cz-tit/6771309a3b9c3",
+      "upload_title": "Sex.And.Zen.II.1996.720p.BluRay.x264.AAC-[YTS.MX]-cz tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 36.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675852,16 +675873,6 @@
       "worker_id": "worker-2-38837436314",
       "run_id": "38837436314",
       "reserved_at": "2026-10-16T03:20:44Z"
-    },
-    {
-      "cr_film_id": 23751,
-      "cr_slug": "sex-and-zen-ii",
-      "title": "Sex and Zen II",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T03:24:04Z"
     },
     {
       "cr_film_id": 12039,
