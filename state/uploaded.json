@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T14:47:50Z",
+  "last_updated": "2026-10-16T14:48:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673385,180 +673385,30 @@
         "upload_sec": 228.3,
         "total_sec": 282.2
       }
+    },
+    {
+      "cr_film_id": 1408,
+      "cr_slug": "black-panther",
+      "title": "Black Panther",
+      "year": 2018,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 1063,
+      "sdilej_url": "https://sdilej.cz/35318934/black-panther-2018-cz-dabing.mp4",
+      "sdilej_name": "Black Panther (2018) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-16T14:47:39Z",
+      "status": "uploaded",
+      "size_bytes": 661571740,
+      "worker_id": "worker-1-38917755709",
+      "timing": {
+        "cdn_resolve_sec": 13.9,
+        "download_sec": 41.0,
+        "upload_sec": 109.6,
+        "total_sec": 164.6
+      }
     }
   ],
   "failed_attempts": [
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-2018-cz-dabing-2160p-ultra-hd-4k/68de3236bcafd",
-      "failed_at": "2026-10-16T14:43:03Z",
-      "first_failed_at": "2026-10-16T14:43:03Z",
-      "attempt_count": 1,
-      "upload_id": "68de3236bcafd",
-      "source_url": "https://prehraj.to/black-panther-2018-cz-dabing-2160p-ultra-hd-4k/68de3236bcafd",
-      "upload_title": "Black Panther 2018 CZ Dabing 2160p Ultra HD 4k",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.8
-      }
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/cierny-panter-black-panther-2018-fullhd-1080p-h264-cz-en-dabing-ac3-dts-audio-tw1nky/688558fbd7367",
-      "failed_at": "2026-10-16T14:43:15Z",
-      "first_failed_at": "2026-10-16T14:43:15Z",
-      "attempt_count": 1,
-      "upload_id": "688558fbd7367",
-      "source_url": "https://prehraj.to/cierny-panter-black-panther-2018-fullhd-1080p-h264-cz-en-dabing-ac3-dts-audio-tw1nky/688558fbd7367",
-      "upload_title": "Čierny panter - Black Panther (2018) FullHD 1080p (H264) CZ EN dabing (AC3+DTS audio) - TW1NKY",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-2018-full-hd-cz-dabing/66f0ce71b8b5a",
-      "failed_at": "2026-10-16T14:43:28Z",
-      "first_failed_at": "2026-10-16T14:43:28Z",
-      "attempt_count": 1,
-      "upload_id": "66f0ce71b8b5a",
-      "source_url": "https://prehraj.to/black-panther-2018-full-hd-cz-dabing/66f0ce71b8b5a",
-      "upload_title": "Black+Panther+2018+Full+HD+CZ+dabing",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.8
-      }
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-2018-4k-bydejv/682ddf45efc47",
-      "failed_at": "2026-10-16T14:43:40Z",
-      "first_failed_at": "2026-10-16T14:43:40Z",
-      "attempt_count": 1,
-      "upload_id": "682ddf45efc47",
-      "source_url": "https://prehraj.to/black-panther-2018-4k-bydejv/682ddf45efc47",
-      "upload_title": "Black Panther 2018 4K byDejv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-2018/685ad7e9a93d4",
-      "failed_at": "2026-10-16T14:43:53Z",
-      "first_failed_at": "2026-10-16T14:43:53Z",
-      "attempt_count": 1,
-      "upload_id": "685ad7e9a93d4",
-      "source_url": "https://prehraj.to/black-panther-2018/685ad7e9a93d4",
-      "upload_title": "Black Panther 2018",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.9
-      }
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-2018-uhdrdv-cz-en/681ee37bdb521",
-      "failed_at": "2026-10-16T14:44:05Z",
-      "first_failed_at": "2026-10-16T14:44:05Z",
-      "attempt_count": 1,
-      "upload_id": "681ee37bdb521",
-      "source_url": "https://prehraj.to/black-panther-2018-uhdrdv-cz-en/681ee37bdb521",
-      "upload_title": "Black Panther (2018) UHDRDV cz en",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.4
-      }
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-r-2018-1920x800/67191d8e0245f",
-      "failed_at": "2026-10-16T14:44:18Z",
-      "first_failed_at": "2026-10-16T14:44:18Z",
-      "attempt_count": 1,
-      "upload_id": "67191d8e0245f",
-      "source_url": "https://prehraj.to/black-panther-r-2018-1920x800/67191d8e0245f",
-      "upload_title": "Black Panther (r.2018 - 1920x800)  ()",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.7
-      }
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-2018-full-hd-cz-dabing/66fa48a9ccb61",
-      "failed_at": "2026-10-16T14:44:31Z",
-      "first_failed_at": "2026-10-16T14:44:31Z",
-      "attempt_count": 1,
-      "upload_id": "66fa48a9ccb61",
-      "source_url": "https://prehraj.to/black-panther-2018-full-hd-cz-dabing/66fa48a9ccb61",
-      "upload_title": "Black+Panther+2018+Full+HD+CZ+dabing",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.8
-      }
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-2018-full-hd-cz-dabing/66f8ea3536bfb",
-      "failed_at": "2026-10-16T14:44:45Z",
-      "first_failed_at": "2026-10-16T14:44:45Z",
-      "attempt_count": 1,
-      "upload_id": "66f8ea3536bfb",
-      "source_url": "https://prehraj.to/black-panther-2018-full-hd-cz-dabing/66f8ea3536bfb",
-      "upload_title": "Black+Panther+2018+Full+HD+CZ+dabing",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.8
-      }
-    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
@@ -673714,16 +673564,6 @@
       "worker_id": "worker-4-38917755709",
       "run_id": "38917755709",
       "reserved_at": "2026-10-16T14:42:10Z"
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T14:42:50Z"
     },
     {
       "cr_film_id": 2636,
