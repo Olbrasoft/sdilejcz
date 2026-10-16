@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T08:41:48Z",
+  "last_updated": "2026-10-16T08:42:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675701,21 +675701,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T07:24:19Z",
-      "first_failed_at": "2026-10-16T06:18:24Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.1
-      }
-    },
-    {
       "cr_film_id": 28649,
       "cr_slug": "scary-movie",
       "title": "Scary Movie",
@@ -677429,6 +677414,21 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T08:42:12Z",
+      "first_failed_at": "2026-10-16T06:18:24Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -677461,16 +677461,6 @@
       "worker_id": "worker-1-38858746812",
       "run_id": "38858746812",
       "reserved_at": "2026-10-16T08:40:48Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T08:41:48Z"
     }
   ],
   "missing_on_account": [
