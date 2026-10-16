@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T03:05:59Z",
+  "last_updated": "2026-10-16T03:06:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674337,6 +674337,27 @@
         "upload_sec": 113.7,
         "total_sec": 195.5
       }
+    },
+    {
+      "cr_film_id": 17521,
+      "cr_slug": "wet-red-rose",
+      "title": "Wet Red Rose",
+      "year": 1972,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 48484,
+      "sdilej_url": "https://sdilej.cz/35316350/wet-red-rose-1972-cz-dabing.mp4",
+      "sdilej_name": "Wet Red Rose (1972) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-16T03:04:40Z",
+      "status": "uploaded",
+      "size_bytes": 576466360,
+      "worker_id": "worker-1-38837436314",
+      "timing": {
+        "cdn_resolve_sec": 9.0,
+        "download_sec": 90.8,
+        "upload_sec": 81.4,
+        "total_sec": 181.3
+      }
     }
   ],
   "failed_attempts": [
@@ -675346,27 +675367,6 @@
       }
     },
     {
-      "cr_film_id": 17521,
-      "cr_slug": "wet-red-rose",
-      "title": "Wet Red Rose",
-      "year": 1972,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-16T03:00:38Z",
-      "first_failed_at": "2026-10-16T03:00:38Z",
-      "attempt_count": 1,
-      "upload_id": "4463bb0982cda98c",
-      "source_url": "https://prehraj.to/wet-red-rose-1972-cz-dabing/4463bb0982cda98c",
-      "upload_title": "Wet Red Rose (1972) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 26.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -675512,16 +675512,6 @@
       "worker_id": "worker-3-38837436314",
       "run_id": "38837436314",
       "reserved_at": "2026-10-16T02:59:50Z"
-    },
-    {
-      "cr_film_id": 17521,
-      "cr_slug": "wet-red-rose",
-      "title": "Wet Red Rose",
-      "year": 1972,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T03:01:30Z"
     },
     {
       "cr_film_id": 18355,
