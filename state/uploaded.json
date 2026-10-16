@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T19:22:48Z",
+  "last_updated": "2026-10-16T19:23:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677405,21 +677405,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T18:52:35Z",
-      "first_failed_at": "2026-10-16T18:52:35Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -678054,6 +678039,21 @@
       "timing": {
         "resolve_sec": 0.4
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T19:23:31Z",
+      "first_failed_at": "2026-10-16T18:52:35Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.2
+      }
     }
   ],
   "in_progress": [
@@ -678086,16 +678086,6 @@
       "worker_id": "worker-2-38917755709",
       "run_id": "38917755709",
       "reserved_at": "2026-10-16T19:18:52Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T19:22:48Z"
     }
   ],
   "missing_on_account": [
