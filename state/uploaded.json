@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T02:28:15Z",
+  "last_updated": "2026-10-16T02:28:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674702,19 +674702,24 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T02:26:11Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T02:28:27Z",
+      "first_failed_at": "2026-10-16T02:28:27Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11864,
       "cr_slug": "sex-lzi-a-video",
