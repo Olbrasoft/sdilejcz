@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T08:54:30Z",
+  "last_updated": "2026-10-16T08:54:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676585,22 +676585,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-16T08:08:00Z",
-      "first_failed_at": "2026-10-16T06:59:15Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 4.3,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -677773,19 +677757,25 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T08:40:48Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-16T08:54:47Z",
+      "first_failed_at": "2026-10-16T06:59:15Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 5.1,
+        "download_sec": 2.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
