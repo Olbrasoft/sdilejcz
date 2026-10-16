@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T13:51:41Z",
+  "last_updated": "2026-10-16T13:52:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677715,6 +677715,21 @@
         "cdn_resolve_sec": 0.9,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 35058,
+      "cr_slug": "mollo-tutto",
+      "title": "Mollo tutto",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T13:52:03Z",
+      "first_failed_at": "2026-10-16T13:52:03Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.5
+      }
     }
   ],
   "in_progress": [
@@ -677747,16 +677762,6 @@
       "worker_id": "worker-3-38885865484",
       "run_id": "38885865484",
       "reserved_at": "2026-10-16T13:50:44Z"
-    },
-    {
-      "cr_film_id": 35058,
-      "cr_slug": "mollo-tutto",
-      "title": "Mollo tutto",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38885865484",
-      "run_id": "38885865484",
-      "reserved_at": "2026-10-16T13:51:41Z"
     }
   ],
   "missing_on_account": [
