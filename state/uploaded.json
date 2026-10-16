@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T15:48:50Z",
+  "last_updated": "2026-10-16T15:49:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675091,19 +675091,24 @@
       "timing": {
         "cdn_resolve_sec": 9.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T15:41:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T15:49:10Z",
+      "first_failed_at": "2026-10-16T15:49:10Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19583,
       "cr_slug": "sex-ve-meste",
