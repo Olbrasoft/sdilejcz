@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T23:53:20Z",
+  "last_updated": "2026-10-16T23:53:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677067,21 +677067,6 @@
       }
     },
     {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T23:23:04Z",
-      "first_failed_at": "2026-10-16T23:23:04Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -678074,6 +678059,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 34731,
+      "cr_slug": "vzala-jsem-si-mrtveho-muze",
+      "title": "Vzala jsem si mrtvého muže",
+      "year": 1996,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T23:53:42Z",
+      "first_failed_at": "2026-10-16T23:23:04Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
   "in_progress": [
@@ -678096,16 +678096,6 @@
       "worker_id": "worker-4-38959725259",
       "run_id": "38959725259",
       "reserved_at": "2026-10-16T23:50:34Z"
-    },
-    {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38959725259",
-      "run_id": "38959725259",
-      "reserved_at": "2026-10-16T23:53:20Z"
     }
   ],
   "missing_on_account": [
