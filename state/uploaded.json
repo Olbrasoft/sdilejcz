@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T20:23:55Z",
+  "last_updated": "2026-10-16T20:24:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674598,6 +674598,21 @@
       "timing": {
         "cdn_resolve_sec": 19.7
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T20:24:24Z",
+      "first_failed_at": "2026-10-16T20:24:24Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 19.2
+      }
     }
   ],
   "in_progress": [
@@ -674620,16 +674635,6 @@
       "worker_id": "worker-2-38959725259",
       "run_id": "38959725259",
       "reserved_at": "2026-10-16T20:21:34Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38959725259",
-      "run_id": "38959725259",
-      "reserved_at": "2026-10-16T20:23:55Z"
     }
   ],
   "missing_on_account": [
