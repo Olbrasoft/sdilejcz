@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T03:00:48Z",
+  "last_updated": "2026-10-16T03:01:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674595,21 +674595,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T02:30:45Z",
-      "first_failed_at": "2026-10-16T02:00:21Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
@@ -675500,6 +675485,21 @@
         "download_sec": 26.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 4297,
+      "cr_slug": "po-cem-zeny-touzi",
+      "title": "Po čem ženy touží",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T03:01:09Z",
+      "first_failed_at": "2026-10-16T02:00:21Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.9
+      }
     }
   ],
   "in_progress": [
@@ -675532,16 +675532,6 @@
       "worker_id": "worker-2-38837436314",
       "run_id": "38837436314",
       "reserved_at": "2026-10-16T03:00:21Z"
-    },
-    {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T03:00:48Z"
     }
   ],
   "missing_on_account": [
