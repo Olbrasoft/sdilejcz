@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T03:50:33Z",
+  "last_updated": "2026-10-16T03:50:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676060,19 +676060,30 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 26757,
       "cr_slug": "sex-ve-meste-2",
       "title": "Sex ve městě 2",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T03:41:37Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-16T03:50:44Z",
+      "first_failed_at": "2026-10-16T03:50:44Z",
+      "attempt_count": 1,
+      "upload_id": "5ad8a2bd025c3",
+      "source_url": "https://prehraj.to/sex-v-meste-2-cz-dabing-2010/5ad8a2bd025c3",
+      "upload_title": "Sex v meste 2 [CZ dabing, 2010]",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 24.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 26852,
       "cr_slug": "make-the-yuletide-gay",
