@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T08:57:37Z",
+  "last_updated": "2026-10-16T08:58:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675817,21 +675817,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T07:31:55Z",
-      "first_failed_at": "2026-10-16T06:24:08Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 30301,
       "cr_slug": "mate-doma-lva",
       "title": "Máte doma lva?",
@@ -677792,6 +677777,21 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play",
+      "title": "Cold Play",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T08:58:02Z",
+      "first_failed_at": "2026-10-16T06:24:08Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -677804,16 +677804,6 @@
       "worker_id": "worker-3-38858746812",
       "run_id": "38858746812",
       "reserved_at": "2026-10-16T08:52:03Z"
-    },
-    {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T08:57:37Z"
     }
   ],
   "missing_on_account": [
