@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T15:24:31Z",
+  "last_updated": "2026-10-16T15:25:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674430,19 +674430,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
       "year": 1936,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T15:21:40Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T15:25:30Z",
+      "first_failed_at": "2026-10-16T15:25:30Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13418,
       "cr_slug": "sex-a-svobodna-matka",
