@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T11:30:25Z",
+  "last_updated": "2026-10-16T11:30:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674753,22 +674753,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-16T10:54:54Z",
-      "first_failed_at": "2026-10-16T10:54:54Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 4.1,
-        "download_sec": 1.9
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -675669,19 +675653,25 @@
         "resolve_sec": 0.8,
         "download_sec": 1.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38885865484",
-      "run_id": "38885865484",
-      "reserved_at": "2026-10-16T11:26:17Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-16T11:30:38Z",
+      "first_failed_at": "2026-10-16T10:54:54Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 6.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
