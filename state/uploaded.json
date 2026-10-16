@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T17:46:09Z",
+  "last_updated": "2026-10-16T17:46:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675839,21 +675839,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T17:14:42Z",
-      "first_failed_at": "2026-10-16T15:37:24Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.8
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -676165,6 +676150,21 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T17:46:35Z",
+      "first_failed_at": "2026-10-16T15:37:24Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
     }
   ],
   "in_progress": [
@@ -676197,16 +676197,6 @@
       "worker_id": "worker-4-38917755709",
       "run_id": "38917755709",
       "reserved_at": "2026-10-16T17:41:34Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T17:46:09Z"
     }
   ],
   "missing_on_account": [
