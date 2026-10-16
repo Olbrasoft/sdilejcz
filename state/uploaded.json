@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T10:45:45Z",
+  "last_updated": "2026-10-16T10:46:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674859,19 +674859,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38885865484",
-      "run_id": "38885865484",
-      "reserved_at": "2026-10-16T10:43:09Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T10:46:15Z",
+      "first_failed_at": "2026-10-16T10:46:15Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
