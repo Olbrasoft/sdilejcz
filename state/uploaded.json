@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T05:53:40Z",
+  "last_updated": "2026-10-16T05:54:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677211,21 +677211,6 @@
       }
     },
     {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T05:05:10Z",
-      "first_failed_at": "2026-10-16T05:05:10Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 34172,
       "cr_slug": "az-na-konec-sveta",
       "title": "Až na konec světa",
@@ -678304,19 +678289,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
       "title": "Brouk v hlavě",
       "year": 1968,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T05:35:33Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T05:54:01Z",
+      "first_failed_at": "2026-10-16T05:05:10Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37536,
       "cr_slug": "a-very-unlucky-leprechaun",
