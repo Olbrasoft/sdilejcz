@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T03:00:21Z",
+  "last_updated": "2026-10-16T03:00:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675479,19 +675479,30 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17521,
       "cr_slug": "wet-red-rose",
       "title": "Wet Red Rose",
       "year": 1972,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T02:57:53Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-16T03:00:38Z",
+      "first_failed_at": "2026-10-16T03:00:38Z",
+      "attempt_count": 1,
+      "upload_id": "4463bb0982cda98c",
+      "source_url": "https://prehraj.to/wet-red-rose-1972-cz-dabing/4463bb0982cda98c",
+      "upload_title": "Wet Red Rose (1972) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 26.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
