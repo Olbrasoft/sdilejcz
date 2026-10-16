@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T15:43:44Z",
+  "last_updated": "2026-10-16T15:44:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675032,19 +675032,24 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38917755709",
-      "run_id": "38917755709",
-      "reserved_at": "2026-10-16T15:38:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T15:44:05Z",
+      "first_failed_at": "2026-10-16T15:44:05Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
