@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T05:40:51Z",
+  "last_updated": "2026-10-16T05:41:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677286,22 +677286,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-16T05:10:05Z",
-      "first_failed_at": "2026-10-16T04:39:52Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 2.4
-      }
-    },
-    {
       "cr_film_id": 34172,
       "cr_slug": "az-na-konec-sveta",
       "title": "Až na konec světa",
@@ -678274,6 +678258,22 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-16T05:41:05Z",
+      "first_failed_at": "2026-10-16T04:39:52Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 2.7
+      }
     }
   ],
   "in_progress": [
@@ -678306,16 +678306,6 @@
       "worker_id": "worker-2-38837436314",
       "run_id": "38837436314",
       "reserved_at": "2026-10-16T05:40:02Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38837436314",
-      "run_id": "38837436314",
-      "reserved_at": "2026-10-16T05:40:51Z"
     }
   ],
   "missing_on_account": [
