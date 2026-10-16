@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T06:50:48Z",
+  "last_updated": "2026-10-16T06:51:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674867,21 +674867,6 @@
       }
     },
     {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T06:17:06Z",
-      "first_failed_at": "2026-10-16T06:17:06Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -675686,6 +675671,21 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
+    },
+    {
+      "cr_film_id": 13280,
+      "cr_slug": "tvoje-srdce-inkognito",
+      "title": "Tvoje srdce inkognito",
+      "year": 1936,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T06:51:10Z",
+      "first_failed_at": "2026-10-16T06:17:06Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
     }
   ],
   "in_progress": [
@@ -675698,16 +675698,6 @@
       "worker_id": "worker-2-38858746812",
       "run_id": "38858746812",
       "reserved_at": "2026-10-16T06:47:52Z"
-    },
-    {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T06:50:48Z"
     }
   ],
   "missing_on_account": [
