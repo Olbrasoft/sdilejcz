@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T07:11:31Z",
+  "last_updated": "2026-10-16T07:11:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676183,19 +676183,30 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23841,
       "cr_slug": "operace-delta-force",
       "title": "Operace Delta Force",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T07:08:47Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-16T07:11:53Z",
+      "first_failed_at": "2026-10-16T07:11:53Z",
+      "attempt_count": 1,
+      "upload_id": "5aac6c7a0e5f7",
+      "source_url": "https://prehraj.to/operace-delta-force-1997/5aac6c7a0e5f7",
+      "upload_title": "Operace Delta Force (1997)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 22.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
