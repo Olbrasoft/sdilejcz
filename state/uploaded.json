@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T09:25:51Z",
+  "last_updated": "2026-10-16T09:26:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676904,21 +676904,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T08:32:39Z",
-      "first_failed_at": "2026-10-16T08:32:39Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 34591,
       "cr_slug": "modrou-stezkou",
       "title": "Modrou stezkou",
@@ -678310,6 +678295,21 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T09:26:14Z",
+      "first_failed_at": "2026-10-16T08:32:39Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
     }
   ],
   "in_progress": [
@@ -678332,16 +678332,6 @@
       "worker_id": "worker-3-38858746812",
       "run_id": "38858746812",
       "reserved_at": "2026-10-16T09:22:11Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T09:25:51Z"
     }
   ],
   "missing_on_account": [
