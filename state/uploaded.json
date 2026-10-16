@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T21:49:07Z",
+  "last_updated": "2026-10-16T21:49:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674598,21 +674598,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T21:18:33Z",
-      "first_failed_at": "2026-10-16T20:11:25Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.4
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -675454,6 +675439,21 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T21:49:32Z",
+      "first_failed_at": "2026-10-16T20:11:25Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -675486,16 +675486,6 @@
       "worker_id": "worker-3-38959725259",
       "run_id": "38959725259",
       "reserved_at": "2026-10-16T21:47:02Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38959725259",
-      "run_id": "38959725259",
-      "reserved_at": "2026-10-16T21:49:07Z"
     }
   ],
   "missing_on_account": [
