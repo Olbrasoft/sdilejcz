@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-16T07:49:26Z",
+  "last_updated": "2026-10-16T07:49:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675390,21 +675390,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T07:05:52Z",
-      "first_failed_at": "2026-10-16T06:03:15Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.8
-      }
-    },
-    {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
@@ -676689,19 +676674,24 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38858746812",
-      "run_id": "38858746812",
-      "reserved_at": "2026-10-16T07:38:34Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-16T07:49:49Z",
+      "first_failed_at": "2026-10-16T06:03:15Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23841,
       "cr_slug": "operace-delta-force",
