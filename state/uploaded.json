@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T15:51:34Z",
+  "last_updated": "2026-10-17T15:51:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676807,20 +676807,24 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39035361678",
-      "run_id": "39035361678",
-      "reserved_at": "2026-10-17T15:51:34Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T15:51:57Z",
+      "first_failed_at": "2026-10-17T15:51:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
