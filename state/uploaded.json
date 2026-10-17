@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T16:10:27Z",
+  "last_updated": "2026-10-17T16:10:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677432,6 +677432,25 @@
       "attempt_count": 1,
       "timing": {
         "cdn_resolve_sec": 14.4
+      }
+    },
+    {
+      "cr_film_id": 34882,
+      "cr_slug": "brouk-v-hlave-1968",
+      "title": "Brouk v hlavě",
+      "year": 1968,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/2002-brouk-v-hlave/68bcbda36c80e",
+      "failed_at": "2026-10-17T16:10:38Z",
+      "first_failed_at": "2026-10-17T16:10:38Z",
+      "attempt_count": 1,
+      "upload_id": "68bcbda36c80e",
+      "source_url": "https://prehraj.to/2002-brouk-v-hlave/68bcbda36c80e",
+      "upload_title": "2002_Brouk v hlavě",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.6
       }
     }
   ],
