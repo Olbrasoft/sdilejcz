@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T02:35:30Z",
+  "last_updated": "2026-10-17T02:35:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676672,19 +676672,30 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31371,
       "cr_slug": "playboy-inside-the-sexy-girls-next-door-house",
       "title": "Playboy: Inside the Sexy Girls Next Door House",
       "year": 2003,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T02:28:46Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-17T02:35:43Z",
+      "first_failed_at": "2026-10-17T02:35:43Z",
+      "attempt_count": 1,
+      "upload_id": "2b7ba78d3a433c25",
+      "source_url": "https://prehraj.to/playboy-inside-the-sexy-girls-next-door-house-2003-en-mp4/2b7ba78d3a433c25",
+      "upload_title": "Playboy: Inside the Sexy Girls Next Door House (2003) EN",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 33.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31545,
       "cr_slug": "jidelni-vuz-divadelni-zaznam",
