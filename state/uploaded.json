@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T09:52:32Z",
+  "last_updated": "2026-10-17T09:52:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674378,21 +674378,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T09:21:22Z",
-      "first_failed_at": "2026-10-17T09:21:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675484,6 +675469,21 @@
       "timing": {
         "cdn_resolve_sec": 13.3
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T09:52:55Z",
+      "first_failed_at": "2026-10-17T09:21:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -675516,16 +675516,6 @@
       "worker_id": "worker-2-39019111635",
       "run_id": "39019111635",
       "reserved_at": "2026-10-17T09:51:32Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T09:52:32Z"
     }
   ],
   "missing_on_account": [
