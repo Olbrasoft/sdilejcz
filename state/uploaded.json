@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T20:44:58Z",
+  "last_updated": "2026-10-17T20:45:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675501,21 +675501,6 @@
       }
     },
     {
-      "cr_film_id": 13328,
-      "cr_slug": "vrana-4-pekelny-knez",
-      "title": "Vrána 4: Pekelný kněz",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T20:09:35Z",
-      "first_failed_at": "2026-10-17T19:00:03Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.6
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -676278,6 +676263,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 13328,
+      "cr_slug": "vrana-4-pekelny-knez",
+      "title": "Vrána 4: Pekelný kněz",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T20:45:30Z",
+      "first_failed_at": "2026-10-17T19:00:03Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.9
+      }
     }
   ],
   "in_progress": [
@@ -676310,16 +676310,6 @@
       "worker_id": "worker-2-39054045551",
       "run_id": "39054045551",
       "reserved_at": "2026-10-17T20:43:28Z"
-    },
-    {
-      "cr_film_id": 13328,
-      "cr_slug": "vrana-4-pekelny-knez",
-      "title": "Vrána 4: Pekelný kněz",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39054045551",
-      "run_id": "39054045551",
-      "reserved_at": "2026-10-17T20:44:58Z"
     }
   ],
   "missing_on_account": [
