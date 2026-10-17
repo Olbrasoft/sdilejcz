@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T16:11:56Z",
+  "last_updated": "2026-10-17T16:12:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676589,22 +676589,6 @@
       "permanent": true
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-17T15:41:47Z",
-      "first_failed_at": "2026-10-17T15:41:47Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.2,
-        "download_sec": 2.5
-      }
-    },
-    {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
@@ -677497,6 +677481,22 @@
       "timing": {
         "cdn_resolve_sec": 14.9
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-17T16:12:11Z",
+      "first_failed_at": "2026-10-17T15:41:47Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 3.1
+      }
     }
   ],
   "in_progress": [
@@ -677509,16 +677509,6 @@
       "worker_id": "worker-1-39035361678",
       "run_id": "39035361678",
       "reserved_at": "2026-10-17T16:06:35Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39035361678",
-      "run_id": "39035361678",
-      "reserved_at": "2026-10-17T16:11:56Z"
     }
   ],
   "missing_on_account": [
