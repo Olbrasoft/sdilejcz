@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T17:31:57Z",
+  "last_updated": "2026-10-17T17:32:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673724,7 +673724,27 @@
       }
     }
   ],
-  "failed_attempts": [],
+  "failed_attempts": [
+    {
+      "cr_film_id": 1408,
+      "cr_slug": "black-panther",
+      "title": "Black Panther",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/black-panther-2018-cz-dabing-2160p-ultra-hd-4k/68de3236bcafd",
+      "failed_at": "2026-10-17T17:32:08Z",
+      "first_failed_at": "2026-10-17T17:32:08Z",
+      "attempt_count": 1,
+      "upload_id": "68de3236bcafd",
+      "source_url": "https://prehraj.to/black-panther-2018-cz-dabing-2160p-ultra-hd-4k/68de3236bcafd",
+      "upload_title": "Black Panther 2018 CZ Dabing 2160p Ultra HD 4k",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.6
+      }
+    }
+  ],
   "in_progress": [
     {
       "cr_film_id": 494,
