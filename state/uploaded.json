@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T03:06:54Z",
+  "last_updated": "2026-10-17T03:07:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674742,6 +674742,30 @@
         "upload_sec": 53.0,
         "total_sec": 69.0
       }
+    },
+    {
+      "cr_film_id": 31756,
+      "cr_slug": "sex-after-kids",
+      "title": "Sex After Kids",
+      "year": 2013,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "58ad4f6bd7dcb",
+      "source_url": "https://prehraj.to/sex-after-kids-2013-cztit-v-obraze/58ad4f6bd7dcb",
+      "source_title": "Sex After Kids (2013)CZtit V OBRAZE",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35321399/sex-after-kids-2013-cz-titulky.mp4",
+      "sdilej_name": "Sex After Kids (2013) CZ titulky.mp4",
+      "uploaded_at": "2026-10-17T03:03:27Z",
+      "status": "uploaded",
+      "size_bytes": 516572402,
+      "worker_id": "worker-2-38987032924",
+      "timing": {
+        "resolve_sec": 0.7,
+        "download_sec": 17.9,
+        "upload_sec": 66.3,
+        "total_sec": 85.4
+      }
     }
   ],
   "failed_attempts": [
@@ -676935,27 +676959,6 @@
       }
     },
     {
-      "cr_film_id": 31756,
-      "cr_slug": "sex-after-kids",
-      "title": "Sex After Kids",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-17T02:58:19Z",
-      "first_failed_at": "2026-10-17T02:58:19Z",
-      "attempt_count": 1,
-      "upload_id": "585b1c0e0f695",
-      "source_url": "https://prehraj.to/sex-after-kids-2013-cztit-v-obraze/585b1c0e0f695",
-      "upload_title": "Sex After Kids (2013)CZtit V OBRAZE",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 17.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 33246,
       "cr_slug": "appropriate-behavior",
       "title": "Appropriate Behavior",
@@ -677186,16 +677189,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 31756,
-      "cr_slug": "sex-after-kids",
-      "title": "Sex After Kids",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T03:01:53Z"
-    },
     {
       "cr_film_id": 33953,
       "cr_slug": "they-live-in-the-grey",
