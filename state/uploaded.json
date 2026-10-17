@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T16:10:38Z",
+  "last_updated": "2026-10-17T16:11:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677452,19 +677452,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39035361678",
-      "run_id": "39035361678",
-      "reserved_at": "2026-10-17T15:56:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T16:11:04Z",
+      "first_failed_at": "2026-10-17T16:11:04Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
