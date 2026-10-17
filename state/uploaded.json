@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T03:44:02Z",
+  "last_updated": "2026-10-17T03:44:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677101,21 +677101,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T03:12:57Z",
-      "first_failed_at": "2026-10-17T02:42:36Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.8
-      }
-    },
-    {
       "cr_film_id": 34593,
       "cr_slug": "fichtelberg",
       "title": "Fichtelberg",
@@ -678085,6 +678070,21 @@
       "timing": {
         "cdn_resolve_sec": 10.8
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T03:44:21Z",
+      "first_failed_at": "2026-10-17T02:42:36Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.5
+      }
     }
   ],
   "in_progress": [
@@ -678117,16 +678117,6 @@
       "worker_id": "worker-3-38987032924",
       "run_id": "38987032924",
       "reserved_at": "2026-10-17T03:42:50Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T03:44:02Z"
     }
   ],
   "missing_on_account": [
