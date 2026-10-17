@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T01:34:01Z",
+  "last_updated": "2026-10-17T01:34:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674749,21 +674749,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T01:02:34Z",
-      "first_failed_at": "2026-10-17T01:02:34Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -675740,6 +675725,21 @@
       "timing": {
         "cdn_resolve_sec": 9.8
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T01:34:21Z",
+      "first_failed_at": "2026-10-17T01:02:34Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -675762,16 +675762,6 @@
       "worker_id": "worker-4-38987032924",
       "run_id": "38987032924",
       "reserved_at": "2026-10-17T01:33:04Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T01:34:01Z"
     }
   ],
   "missing_on_account": [
