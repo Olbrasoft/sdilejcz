@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T09:07:45Z",
+  "last_updated": "2026-10-17T09:08:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674470,19 +674470,24 @@
       "timing": {
         "cdn_resolve_sec": 9.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
       "year": 1999,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T09:07:05Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T09:08:00Z",
+      "first_failed_at": "2026-10-17T09:08:00Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
