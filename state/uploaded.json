@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T10:19:04Z",
+  "last_updated": "2026-10-17T10:19:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675120,21 +675120,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T09:47:52Z",
-      "first_failed_at": "2026-10-17T09:09:28Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.2
-      }
-    },
-    {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
@@ -675749,6 +675734,21 @@
       "timing": {
         "cdn_resolve_sec": 15.7
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T10:19:28Z",
+      "first_failed_at": "2026-10-17T09:09:28Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
   "in_progress": [
@@ -675781,16 +675781,6 @@
       "worker_id": "worker-2-39019111635",
       "run_id": "39019111635",
       "reserved_at": "2026-10-17T10:17:34Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T10:19:04Z"
     }
   ],
   "missing_on_account": [
