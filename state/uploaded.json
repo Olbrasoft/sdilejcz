@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T12:56:39Z",
+  "last_updated": "2026-10-17T12:56:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678293,19 +678293,26 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37253,
       "cr_slug": "svedska-trojka",
       "title": "Švédská trojka",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T12:49:35Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-17T12:56:55Z",
+      "first_failed_at": "2026-10-17T12:56:55Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 7.1,
+        "download_sec": 68.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
