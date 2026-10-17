@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T04:42:55Z",
+  "last_updated": "2026-10-17T04:43:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674297,19 +674297,24 @@
       "timing": {
         "cdn_resolve_sec": 12.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39002375383",
-      "run_id": "39002375383",
-      "reserved_at": "2026-10-17T04:39:40Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T04:43:18Z",
+      "first_failed_at": "2026-10-17T04:43:18Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7548,
       "cr_slug": "teen-wolf-the-movie",
