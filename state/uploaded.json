@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T23:56:32Z",
+  "last_updated": "2026-10-17T23:56:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675697,6 +675697,25 @@
       "attempt_count": 3,
       "timing": {
         "cdn_resolve_sec": 11.3
+      }
+    },
+    {
+      "cr_film_id": 23780,
+      "cr_slug": "anna-karenina-1997",
+      "title": "Anna Karenina",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/anna-kareninova-2f-anna-karenina-1997-cz/5855238cd746e",
+      "failed_at": "2026-10-17T23:56:44Z",
+      "first_failed_at": "2026-10-17T23:56:44Z",
+      "attempt_count": 1,
+      "upload_id": "5855238cd746e",
+      "source_url": "https://prehraj.to/anna-kareninova-2f-anna-karenina-1997-cz/5855238cd746e",
+      "upload_title": "Anna-Kareninová-%2F-Anna-Karenina-1997,-CZ",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.7
       }
     }
   ],
