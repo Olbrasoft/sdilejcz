@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T10:48:57Z",
+  "last_updated": "2026-10-17T10:49:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675233,21 +675233,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T10:15:59Z",
-      "first_failed_at": "2026-10-17T09:09:47Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -676045,19 +676030,24 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T10:46:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T10:49:18Z",
+      "first_failed_at": "2026-10-17T09:09:47Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
