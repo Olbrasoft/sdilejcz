@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T12:49:35Z",
+  "last_updated": "2026-10-17T12:50:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678182,19 +678182,30 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 36855,
       "cr_slug": "dick-whittington",
       "title": "Dick Whittington",
       "year": 1993,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T12:30:57Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-17T12:50:15Z",
+      "first_failed_at": "2026-10-17T12:50:15Z",
+      "attempt_count": 1,
+      "upload_id": "65914d83b52ae",
+      "source_url": "https://prehraj.to/dick-whittington-1993/65914d83b52ae",
+      "upload_title": "Dick Whittington-1993",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 171.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35060,
       "cr_slug": "malcolm-x",
