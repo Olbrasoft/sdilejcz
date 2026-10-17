@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T06:56:09Z",
+  "last_updated": "2026-10-17T06:56:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675737,21 +675737,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T06:18:05Z",
-      "first_failed_at": "2026-10-17T04:50:58Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -676766,6 +676751,21 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T06:56:32Z",
+      "first_failed_at": "2026-10-17T04:50:58Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -676798,16 +676798,6 @@
       "worker_id": "worker-3-39002375383",
       "run_id": "39002375383",
       "reserved_at": "2026-10-17T06:52:42Z"
-    },
-    {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39002375383",
-      "run_id": "39002375383",
-      "reserved_at": "2026-10-17T06:56:09Z"
     }
   ],
   "missing_on_account": [
