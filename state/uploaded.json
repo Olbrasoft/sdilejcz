@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T00:00:01Z",
+  "last_updated": "2026-10-17T00:00:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677214,21 +677214,6 @@
       }
     },
     {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-16T23:29:33Z",
-      "first_failed_at": "2026-10-16T23:29:33Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -678218,6 +678203,21 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
+    },
+    {
+      "cr_film_id": 34842,
+      "cr_slug": "mstitel-s-pistalou",
+      "title": "Mstitel s píšťalou",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T00:00:25Z",
+      "first_failed_at": "2026-10-16T23:29:33Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -678230,16 +678230,6 @@
       "worker_id": "worker-1-38959725259",
       "run_id": "38959725259",
       "reserved_at": "2026-10-16T23:48:04Z"
-    },
-    {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-38959725259",
-      "run_id": "38959725259",
-      "reserved_at": "2026-10-17T00:00:01Z"
     }
   ],
   "missing_on_account": [
