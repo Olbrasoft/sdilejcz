@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T00:54:52Z",
+  "last_updated": "2026-10-17T00:55:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674842,19 +674842,24 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-4-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T00:54:02Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T00:55:00Z",
+      "first_failed_at": "2026-10-17T00:55:00Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
