@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T01:57:02Z",
+  "last_updated": "2026-10-17T01:57:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675183,21 +675183,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T01:26:27Z",
-      "first_failed_at": "2026-10-17T00:53:06Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.9
-      }
-    },
-    {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
@@ -676100,6 +676085,21 @@
       "timing": {
         "cdn_resolve_sec": 10.6
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T01:57:20Z",
+      "first_failed_at": "2026-10-17T00:53:06Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
     }
   ],
   "in_progress": [
@@ -676122,16 +676122,6 @@
       "worker_id": "worker-4-38987032924",
       "run_id": "38987032924",
       "reserved_at": "2026-10-17T01:55:24Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T01:57:02Z"
     }
   ],
   "missing_on_account": [
