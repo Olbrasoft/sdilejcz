@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T16:42:32Z",
+  "last_updated": "2026-10-17T16:42:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678133,19 +678133,24 @@
       "timing": {
         "cdn_resolve_sec": 19.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
       "title": "Kvílení vlkodlaků 6",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39035361678",
-      "run_id": "39035361678",
-      "reserved_at": "2026-10-17T16:14:47Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T16:42:50Z",
+      "first_failed_at": "2026-10-17T16:42:50Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36855,
       "cr_slug": "dick-whittington",
