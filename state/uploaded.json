@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T11:02:02Z",
+  "last_updated": "2026-10-17T11:02:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676069,19 +676069,30 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29190,
       "cr_slug": "cosmic-sex",
       "title": "Cosmic Sex",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T10:54:21Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-17T11:02:30Z",
+      "first_failed_at": "2026-10-17T11:02:30Z",
+      "attempt_count": 1,
+      "upload_id": "5a9cb8c1c563b",
+      "source_url": "https://prehraj.to/cosmic-sex-2015/5a9cb8c1c563b",
+      "upload_title": "Cosmic Sex (2015)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.7,
+        "download_sec": 66.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29406,
       "cr_slug": "rocco",
