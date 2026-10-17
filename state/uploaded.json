@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T06:58:18Z",
+  "last_updated": "2026-10-17T06:58:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675750,22 +675750,6 @@
       "permanent": true
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-17T06:20:41Z",
-      "first_failed_at": "2026-10-17T06:20:41Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 3.1
-      }
-    },
-    {
       "cr_film_id": 30368,
       "cr_slug": "lepsi-ted-nez-nikdy",
       "title": "Lepší teď než nikdy",
@@ -676766,6 +676750,22 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-17T06:58:32Z",
+      "first_failed_at": "2026-10-17T06:20:41Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 2.3
+      }
     }
   ],
   "in_progress": [
@@ -676798,16 +676798,6 @@
       "worker_id": "worker-3-39002375383",
       "run_id": "39002375383",
       "reserved_at": "2026-10-17T06:52:42Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39002375383",
-      "run_id": "39002375383",
-      "reserved_at": "2026-10-17T06:58:18Z"
     }
   ],
   "missing_on_account": [
