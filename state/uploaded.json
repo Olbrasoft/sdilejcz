@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T03:00:59Z",
+  "last_updated": "2026-10-17T03:01:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676174,21 +676174,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T02:28:36Z",
-      "first_failed_at": "2026-10-17T01:58:16Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.1
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -677021,6 +677006,21 @@
         "resolve_sec": 0.8,
         "download_sec": 1.5
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T03:01:20Z",
+      "first_failed_at": "2026-10-17T01:58:16Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.6
+      }
     }
   ],
   "in_progress": [
@@ -677053,16 +677053,6 @@
       "worker_id": "worker-1-38987032924",
       "run_id": "38987032924",
       "reserved_at": "2026-10-17T02:59:34Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T03:00:59Z"
     }
   ],
   "missing_on_account": [
