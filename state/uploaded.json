@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T09:34:32Z",
+  "last_updated": "2026-10-17T09:34:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675430,19 +675430,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T09:18:33Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T09:34:56Z",
+      "first_failed_at": "2026-10-17T09:34:56Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
