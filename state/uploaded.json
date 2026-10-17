@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T11:15:09Z",
+  "last_updated": "2026-10-17T11:17:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676222,6 +676222,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 29963,
+      "cr_slug": "rocco-a-jeho-bratri",
+      "title": "Rocco a jeho bratři",
+      "year": 1960,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-17T11:17:19Z",
+      "first_failed_at": "2026-10-17T11:17:19Z",
+      "attempt_count": 1,
+      "upload_id": "091c9e223fd9a0a7",
+      "source_url": "https://prehraj.to/rocco-a-jeho-bratri-rocco-e-i-suoi-fratelli-1960-ita-cz-tit-mkv/091c9e223fd9a0a7",
+      "upload_title": "Rocco a jeho bratři / Rocco e i suoi fratelli / Rocco and His Brothers 1960, ITA - CZ tit.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 88.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676254,16 +676275,6 @@
       "worker_id": "worker-1-39019111635",
       "run_id": "39019111635",
       "reserved_at": "2026-10-17T11:14:25Z"
-    },
-    {
-      "cr_film_id": 29963,
-      "cr_slug": "rocco-a-jeho-bratri",
-      "title": "Rocco a jeho bratři",
-      "year": 1960,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T11:15:09Z"
     }
   ],
   "missing_on_account": [
