@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T12:58:31Z",
+  "last_updated": "2026-10-17T12:58:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677461,21 +677461,6 @@
       }
     },
     {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T12:25:22Z",
-      "first_failed_at": "2026-10-17T11:54:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
       "title": "Ostrov příšer",
@@ -678310,6 +678295,21 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
+    },
+    {
+      "cr_film_id": 34902,
+      "cr_slug": "duch-boure",
+      "title": "Duch bouře",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T12:58:50Z",
+      "first_failed_at": "2026-10-17T11:54:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -678332,16 +678332,6 @@
       "worker_id": "worker-1-39019111635",
       "run_id": "39019111635",
       "reserved_at": "2026-10-17T12:54:01Z"
-    },
-    {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T12:58:31Z"
     }
   ],
   "missing_on_account": [
