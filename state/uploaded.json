@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T18:58:55Z",
+  "last_updated": "2026-10-17T18:59:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674926,19 +674926,24 @@
       "timing": {
         "cdn_resolve_sec": 29.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39054045551",
-      "run_id": "39054045551",
-      "reserved_at": "2026-10-17T18:54:36Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T18:59:32Z",
+      "first_failed_at": "2026-10-17T18:59:32Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 29.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
