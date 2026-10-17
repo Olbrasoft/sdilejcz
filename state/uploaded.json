@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T06:17:40Z",
+  "last_updated": "2026-10-17T06:18:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675014,21 +675014,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T05:22:03Z",
-      "first_failed_at": "2026-10-17T04:50:58Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.7
-      }
-    },
-    {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
@@ -676282,19 +676267,24 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39002375383",
-      "run_id": "39002375383",
-      "reserved_at": "2026-10-17T05:54:15Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T06:18:05Z",
+      "first_failed_at": "2026-10-17T04:50:58Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30368,
       "cr_slug": "lepsi-ted-nez-nikdy",
