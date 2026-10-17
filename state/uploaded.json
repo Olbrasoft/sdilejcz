@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T10:32:54Z",
+  "last_updated": "2026-10-17T10:33:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675850,19 +675850,30 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 25217,
       "cr_slug": "vera-drake-zena-dvou-tvari",
       "title": "Vera Drake – Žena dvou tváří",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T10:30:02Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-17T10:33:29Z",
+      "first_failed_at": "2026-10-17T10:33:29Z",
+      "attempt_count": 1,
+      "upload_id": "58878da5400b8",
+      "source_url": "https://prehraj.to/vera-drake-zena-dvou-tvari-vera-drake-2004-cz-tit/58878da5400b8",
+      "upload_title": "Vera-Drake---Žena-dvou-tváří-_-Vera-Drake-2004,-CZ-tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.7,
+        "download_sec": 21.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 25480,
       "cr_slug": "sexy-botky",
