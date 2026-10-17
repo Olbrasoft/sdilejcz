@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T13:52:51Z",
+  "last_updated": "2026-10-17T13:53:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674324,21 +674324,6 @@
       }
     },
     {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T13:18:44Z",
-      "first_failed_at": "2026-10-17T13:18:44Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675215,6 +675200,21 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
+    },
+    {
+      "cr_film_id": 7319,
+      "cr_slug": "lego-dc-super-hrdinove-aquaman",
+      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T13:53:13Z",
+      "first_failed_at": "2026-10-17T13:18:44Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -675247,16 +675247,6 @@
       "worker_id": "worker-2-39035361678",
       "run_id": "39035361678",
       "reserved_at": "2026-10-17T13:51:14Z"
-    },
-    {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39035361678",
-      "run_id": "39035361678",
-      "reserved_at": "2026-10-17T13:52:51Z"
     }
   ],
   "missing_on_account": [
