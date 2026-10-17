@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T04:11:42Z",
+  "last_updated": "2026-10-17T04:14:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674790,6 +674790,27 @@
         "upload_sec": 141.3,
         "total_sec": 175.4
       }
+    },
+    {
+      "cr_film_id": 34739,
+      "cr_slug": "pikova-trojka",
+      "title": "Piková trojka",
+      "year": 2003,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 27882,
+      "sdilej_url": "https://sdilej.cz/35321479/pikova-trojka-2003-cz-dabing.mp4",
+      "sdilej_name": "Piková trojka (2003) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-17T03:50:23Z",
+      "status": "uploaded",
+      "size_bytes": 669535430,
+      "worker_id": "worker-2-38987032924",
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 72.8,
+        "upload_sec": 85.5,
+        "total_sec": 164.5
+      }
     }
   ],
   "failed_attempts": [
@@ -677129,23 +677150,6 @@
       }
     },
     {
-      "cr_film_id": 34739,
-      "cr_slug": "pikova-trojka",
-      "title": "Piková trojka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-17T03:17:08Z",
-      "first_failed_at": "2026-10-17T03:17:08Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 6.2,
-        "download_sec": 61.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34396,
       "cr_slug": "swiped",
       "title": "Swiped",
@@ -678316,16 +678320,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 34739,
-      "cr_slug": "pikova-trojka",
-      "title": "Piková trojka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T03:47:30Z"
-    },
     {
       "cr_film_id": 36787,
       "cr_slug": "dead-sexy",
