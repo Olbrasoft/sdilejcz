@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T22:15:48Z",
+  "last_updated": "2026-10-17T22:16:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677452,21 +677452,6 @@
       }
     },
     {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T21:45:13Z",
-      "first_failed_at": "2026-10-17T21:45:13Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 16.3
-      }
-    },
-    {
       "cr_film_id": 34850,
       "cr_slug": "duch-zraloka",
       "title": "Duch žraloka",
@@ -678376,6 +678361,21 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
+    },
+    {
+      "cr_film_id": 34839,
+      "cr_slug": "lekce-zivota",
+      "title": "Lekce života",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T22:16:11Z",
+      "first_failed_at": "2026-10-17T21:45:13Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
     }
   ],
   "in_progress": [
@@ -678398,16 +678398,6 @@
       "worker_id": "worker-2-39054045551",
       "run_id": "39054045551",
       "reserved_at": "2026-10-17T22:12:12Z"
-    },
-    {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39054045551",
-      "run_id": "39054045551",
-      "reserved_at": "2026-10-17T22:15:48Z"
     }
   ],
   "missing_on_account": [
