@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T22:21:30Z",
+  "last_updated": "2026-10-17T22:21:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677501,21 +677501,6 @@
       }
     },
     {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T21:51:23Z",
-      "first_failed_at": "2026-10-17T21:51:23Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
       "title": "Strašidelné líbánky",
@@ -678395,6 +678380,21 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
+    },
+    {
+      "cr_film_id": 34885,
+      "cr_slug": "tata",
+      "title": "Táta",
+      "year": 1989,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T22:21:54Z",
+      "first_failed_at": "2026-10-17T21:51:23Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -678427,16 +678427,6 @@
       "worker_id": "worker-1-39054045551",
       "run_id": "39054045551",
       "reserved_at": "2026-10-17T22:19:53Z"
-    },
-    {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39054045551",
-      "run_id": "39054045551",
-      "reserved_at": "2026-10-17T22:21:30Z"
     }
   ],
   "missing_on_account": [
