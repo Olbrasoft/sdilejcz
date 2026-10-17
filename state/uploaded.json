@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T21:37:28Z",
+  "last_updated": "2026-10-17T21:37:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676658,21 +676658,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T21:03:45Z",
-      "first_failed_at": "2026-10-17T20:30:08Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 18.3
-      }
-    },
-    {
       "cr_film_id": 31235,
       "cr_slug": "mladi-titani-a-dc-super-hero-girls-chaos-v-mnohovesmiru",
       "title": "Mladí Titáni a DC Super Hero Girls: Chaos v mnohovesmíru",
@@ -677513,6 +677498,21 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T21:37:53Z",
+      "first_failed_at": "2026-10-17T20:30:08Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
     }
   ],
   "in_progress": [
@@ -677535,16 +677535,6 @@
       "worker_id": "worker-4-39054045551",
       "run_id": "39054045551",
       "reserved_at": "2026-10-17T21:35:50Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39054045551",
-      "run_id": "39054045551",
-      "reserved_at": "2026-10-17T21:37:28Z"
     }
   ],
   "missing_on_account": [
