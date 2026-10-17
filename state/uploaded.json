@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T11:37:01Z",
+  "last_updated": "2026-10-17T11:38:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676889,6 +676889,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 32877,
+      "cr_slug": "sex-is-comedy",
+      "title": "Sex is Comedy",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-17T11:38:07Z",
+      "first_failed_at": "2026-10-17T11:38:07Z",
+      "attempt_count": 1,
+      "upload_id": "5881e4934c5ac",
+      "source_url": "https://prehraj.to/sex-is-comedy-breillat-2002/5881e4934c5ac",
+      "upload_title": "Sex-is-Comedy.Breillat.2002",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.6,
+        "download_sec": 24.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676921,16 +676942,6 @@
       "worker_id": "worker-1-39019111635",
       "run_id": "39019111635",
       "reserved_at": "2026-10-17T11:35:08Z"
-    },
-    {
-      "cr_film_id": 32877,
-      "cr_slug": "sex-is-comedy",
-      "title": "Sex is Comedy",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T11:37:01Z"
     }
   ],
   "missing_on_account": [
