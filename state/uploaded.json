@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T02:24:38Z",
+  "last_updated": "2026-10-17T02:24:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675522,21 +675522,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T01:51:49Z",
-      "first_failed_at": "2026-10-17T00:45:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -676453,19 +676438,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T02:21:50Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T02:24:56Z",
+      "first_failed_at": "2026-10-17T00:45:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
