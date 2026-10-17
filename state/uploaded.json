@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T03:12:37Z",
+  "last_updated": "2026-10-17T03:12:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676462,21 +676462,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T02:42:36Z",
-      "first_failed_at": "2026-10-17T02:42:36Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -677277,6 +677262,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T03:12:57Z",
+      "first_failed_at": "2026-10-17T02:42:36Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.8
+      }
     }
   ],
   "in_progress": [
@@ -677309,16 +677309,6 @@
       "worker_id": "worker-2-38987032924",
       "run_id": "38987032924",
       "reserved_at": "2026-10-17T03:07:24Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T03:12:37Z"
     }
   ],
   "missing_on_account": [
