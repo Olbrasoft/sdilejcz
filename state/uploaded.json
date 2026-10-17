@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T05:51:03Z",
+  "last_updated": "2026-10-17T05:51:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674976,21 +674976,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T05:20:40Z",
-      "first_failed_at": "2026-10-17T04:49:39Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
@@ -675820,6 +675805,21 @@
         "resolve_sec": 1.0,
         "download_sec": 1.9
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T05:51:23Z",
+      "first_failed_at": "2026-10-17T04:49:39Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
     }
   ],
   "in_progress": [
@@ -675852,16 +675852,6 @@
       "worker_id": "worker-2-39002375383",
       "run_id": "39002375383",
       "reserved_at": "2026-10-17T05:49:50Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39002375383",
-      "run_id": "39002375383",
-      "reserved_at": "2026-10-17T05:51:03Z"
     }
   ],
   "missing_on_account": [
