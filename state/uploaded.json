@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T01:12:40Z",
+  "last_updated": "2026-10-17T01:13:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675503,19 +675503,30 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16922,
       "cr_slug": "wet-woman-in-the-wind",
       "title": "Wet Woman in the Wind",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T01:10:33Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-17T01:13:28Z",
+      "first_failed_at": "2026-10-17T01:13:28Z",
+      "attempt_count": 1,
+      "upload_id": "f2216c45797ca65f",
+      "source_url": "https://prehraj.to/wet-woman-in-the-wind-2016-cz-dabing/f2216c45797ca65f",
+      "upload_title": "Wet Woman in the Wind (2016) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 31.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17244,
       "cr_slug": "rocco-chinnici",
