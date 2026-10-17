@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T17:27:46Z",
+  "last_updated": "2026-10-17T17:28:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677703,21 +677703,6 @@
       }
     },
     {
-      "cr_film_id": 37289,
-      "cr_slug": "led",
-      "title": "Led",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T16:54:20Z",
-      "first_failed_at": "2026-10-17T16:54:20Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 19.2
-      }
-    },
-    {
       "cr_film_id": 34973,
       "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
       "title": "Děvčátko, které bydlí na konci ulice",
@@ -678317,20 +678302,24 @@
       "timing": {
         "cdn_resolve_sec": 28.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37289,
       "cr_slug": "led",
       "title": "Led",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39035361678",
-      "run_id": "39035361678",
-      "reserved_at": "2026-10-17T17:27:46Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T17:28:23Z",
+      "first_failed_at": "2026-10-17T16:54:20Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 26.5
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
