@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T02:53:47Z",
+  "last_updated": "2026-10-17T02:54:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676846,19 +676846,24 @@
       "timing": {
         "cdn_resolve_sec": 10.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-2-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T02:50:31Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T02:54:20Z",
+      "first_failed_at": "2026-10-17T02:54:20Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
