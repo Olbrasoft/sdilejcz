@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T22:40:09Z",
+  "last_updated": "2026-10-17T22:40:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677610,22 +677610,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-17T22:05:16Z",
-      "first_failed_at": "2026-10-17T21:00:56Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.2,
-        "download_sec": 2.5
-      }
-    },
-    {
       "cr_film_id": 36849,
       "cr_slug": "svatebni-prsten",
       "title": "Svatební prsten",
@@ -678485,20 +678469,25 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39054045551",
-      "run_id": "39054045551",
-      "reserved_at": "2026-10-17T22:40:09Z"
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-17T22:40:24Z",
+      "first_failed_at": "2026-10-17T21:00:56Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 3.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
