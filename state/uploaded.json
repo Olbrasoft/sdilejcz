@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T22:37:36Z",
+  "last_updated": "2026-10-17T22:39:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677396,21 +677396,6 @@
       }
     },
     {
-      "cr_film_id": 34933,
-      "cr_slug": "ostrov-priser",
-      "title": "Ostrov příšer",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T21:50:19Z",
-      "first_failed_at": "2026-10-17T21:50:19Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678470,19 +678455,24 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
       "title": "Ostrov příšer",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39054045551",
-      "run_id": "39054045551",
-      "reserved_at": "2026-10-17T22:23:03Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T22:39:49Z",
+      "first_failed_at": "2026-10-17T21:50:19Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37347,
       "cr_slug": "recept-na-lasku",
