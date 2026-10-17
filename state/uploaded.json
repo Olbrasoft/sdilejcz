@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T01:09:38Z",
+  "last_updated": "2026-10-17T01:09:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675488,19 +675488,24 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-38987032924",
-      "run_id": "38987032924",
-      "reserved_at": "2026-10-17T01:03:26Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T01:09:56Z",
+      "first_failed_at": "2026-10-17T01:09:56Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
