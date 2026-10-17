@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T20:16:41Z",
+  "last_updated": "2026-10-17T20:16:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675099,21 +675099,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T19:42:43Z",
-      "first_failed_at": "2026-10-17T19:06:14Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 24.2
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675752,19 +675737,24 @@
       "timing": {
         "cdn_resolve_sec": 28.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
       "year": 1979,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39054045551",
-      "run_id": "39054045551",
-      "reserved_at": "2026-10-17T20:14:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T20:16:52Z",
+      "first_failed_at": "2026-10-17T19:06:14Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19546,
       "cr_slug": "sexy-party-2",
