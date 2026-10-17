@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T11:43:42Z",
+  "last_updated": "2026-10-17T11:45:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674595,6 +674595,30 @@
         "upload_sec": 172.1,
         "total_sec": 218.7
       }
+    },
+    {
+      "cr_film_id": 29190,
+      "cr_slug": "cosmic-sex",
+      "title": "Cosmic Sex",
+      "year": 2015,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5a9cb8c1c563b",
+      "source_url": "https://prehraj.to/cosmic-sex-2015/5a9cb8c1c563b",
+      "source_title": "Cosmic Sex (2015)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35323365/cosmic-sex-2015-.mp4",
+      "sdilej_name": "Cosmic Sex (2015).mp4",
+      "uploaded_at": "2026-10-17T11:35:27Z",
+      "status": "uploaded",
+      "size_bytes": 570188132,
+      "worker_id": "worker-4-39019111635",
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 60.8,
+        "upload_sec": 92.6,
+        "total_sec": 154.5
+      }
     }
   ],
   "failed_attempts": [
@@ -676057,27 +676081,6 @@
       }
     },
     {
-      "cr_film_id": 29190,
-      "cr_slug": "cosmic-sex",
-      "title": "Cosmic Sex",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-17T11:02:30Z",
-      "first_failed_at": "2026-10-17T11:02:30Z",
-      "attempt_count": 1,
-      "upload_id": "5a9cb8c1c563b",
-      "source_url": "https://prehraj.to/cosmic-sex-2015/5a9cb8c1c563b",
-      "upload_title": "Cosmic Sex (2015)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.7,
-        "download_sec": 66.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -677104,16 +677107,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 29190,
-      "cr_slug": "cosmic-sex",
-      "title": "Cosmic Sex",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T11:32:44Z"
-    },
     {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
