@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T14:13:40Z",
+  "last_updated": "2026-10-17T14:14:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674562,21 +674562,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T13:43:33Z",
-      "first_failed_at": "2026-10-17T13:12:18Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 15.0
-      }
-    },
-    {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
@@ -675427,6 +675412,21 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T14:14:05Z",
+      "first_failed_at": "2026-10-17T13:12:18Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
     }
   ],
   "in_progress": [
@@ -675459,16 +675459,6 @@
       "worker_id": "worker-2-39035361678",
       "run_id": "39035361678",
       "reserved_at": "2026-10-17T14:12:33Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39035361678",
-      "run_id": "39035361678",
-      "reserved_at": "2026-10-17T14:13:40Z"
     }
   ],
   "missing_on_account": [
