@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T09:02:40Z",
+  "last_updated": "2026-10-17T09:02:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674303,19 +674303,26 @@
       "timing": {
         "cdn_resolve_sec": 10.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9237,
       "cr_slug": "milf",
       "title": "MILF",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T09:00:03Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-17T09:02:52Z",
+      "first_failed_at": "2026-10-17T09:02:52Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 3.3,
+        "download_sec": 85.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
