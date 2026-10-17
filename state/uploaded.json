@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T21:57:53Z",
+  "last_updated": "2026-10-17T21:58:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676817,21 +676817,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T21:14:40Z",
-      "first_failed_at": "2026-10-17T21:14:40Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -677930,19 +677915,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39054045551",
-      "run_id": "39054045551",
-      "reserved_at": "2026-10-17T21:44:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T21:58:07Z",
+      "first_failed_at": "2026-10-17T21:14:40Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 16.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34902,
       "cr_slug": "duch-boure",
