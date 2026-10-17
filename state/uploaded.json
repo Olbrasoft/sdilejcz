@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T09:09:47Z",
+  "last_updated": "2026-10-17T09:09:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674545,19 +674545,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
       "year": 1936,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39019111635",
-      "run_id": "39019111635",
-      "reserved_at": "2026-10-17T09:07:45Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T09:09:59Z",
+      "first_failed_at": "2026-10-17T09:09:59Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13510,
       "cr_slug": "sexy-pistols",
