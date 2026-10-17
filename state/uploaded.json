@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-17T06:34:56Z",
+  "last_updated": "2026-10-17T06:35:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675216,21 +675216,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T05:47:36Z",
-      "first_failed_at": "2026-10-17T04:44:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.9
-      }
-    },
-    {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
@@ -676572,19 +676557,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39002375383",
-      "run_id": "39002375383",
-      "reserved_at": "2026-10-17T06:17:40Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-17T06:35:13Z",
+      "first_failed_at": "2026-10-17T04:44:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
