@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T07:57:57Z",
+  "last_updated": "2026-10-18T07:58:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674722,22 +674722,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-18T07:24:48Z",
-      "first_failed_at": "2026-10-18T07:24:48Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 5.0,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675934,19 +675918,25 @@
       "timing": {
         "cdn_resolve_sec": 9.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T07:56:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-18T07:58:10Z",
+      "first_failed_at": "2026-10-18T07:24:48Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 6.4,
+        "download_sec": 2.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 25521,
       "cr_slug": "another-gay-movie",
