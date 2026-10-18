@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T05:19:42Z",
+  "last_updated": "2026-10-18T05:19:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677054,6 +677054,25 @@
       "attempt_count": 4,
       "timing": {
         "cdn_resolve_sec": 11.7
+      }
+    },
+    {
+      "cr_film_id": 34336,
+      "cr_slug": "the-making-of-band-of-brothers",
+      "title": "The Making of 'Band of Brothers'",
+      "year": 2001,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/bratrstvo-neohrozenych-10-body-2001-valecny-czdab/68ca280ea35cb",
+      "failed_at": "2026-10-18T05:19:53Z",
+      "first_failed_at": "2026-10-18T05:19:53Z",
+      "attempt_count": 1,
+      "upload_id": "68ca280ea35cb",
+      "source_url": "https://prehraj.to/bratrstvo-neohrozenych-10-body-2001-valecny-czdab/68ca280ea35cb",
+      "upload_title": "Bratrstvo neohrožených 10 - Body (2001) válečný czdab",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.8
       }
     }
   ],
