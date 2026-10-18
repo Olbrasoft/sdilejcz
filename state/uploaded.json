@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T07:15:18Z",
+  "last_updated": "2026-10-18T07:15:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674937,19 +674937,24 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T07:13:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T07:15:32Z",
+      "first_failed_at": "2026-10-18T07:15:32Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
