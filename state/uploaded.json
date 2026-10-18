@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T18:07:13Z",
+  "last_updated": "2026-10-18T18:09:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676276,6 +676276,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 26529,
+      "cr_slug": "tajny-denik-brazilske-studentky",
+      "title": "Tajný deník brazilské studentky",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T18:09:33Z",
+      "first_failed_at": "2026-10-18T18:09:33Z",
+      "attempt_count": 1,
+      "upload_id": "611eea6b6df1a",
+      "source_url": "https://prehraj.to/tajny-denik-brazilske-studentky-2021-cztitulky/611eea6b6df1a",
+      "upload_title": "Tajný deník brazilské studentky (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 93.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676308,16 +676329,6 @@
       "worker_id": "worker-4-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T18:06:28Z"
-    },
-    {
-      "cr_film_id": 26529,
-      "cr_slug": "tajny-denik-brazilske-studentky",
-      "title": "Tajný deník brazilské studentky",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T18:07:13Z"
     }
   ],
   "missing_on_account": [
