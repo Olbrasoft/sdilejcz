@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T06:21:36Z",
+  "last_updated": "2026-10-18T06:21:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677353,21 +677353,6 @@
       }
     },
     {
-      "cr_film_id": 31669,
-      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
-      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T05:51:08Z",
-      "first_failed_at": "2026-10-18T05:10:10Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 35561,
       "cr_slug": "slayer-the-repentless-killogy",
       "title": "Slayer: The Repentless Killogy",
@@ -678150,6 +678135,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 31669,
+      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
+      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
+      "year": 1988,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T06:21:54Z",
+      "first_failed_at": "2026-10-18T05:10:10Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
     }
   ],
   "in_progress": [
@@ -678172,16 +678172,6 @@
       "worker_id": "worker-2-39090868262",
       "run_id": "39090868262",
       "reserved_at": "2026-10-18T06:19:36Z"
-    },
-    {
-      "cr_film_id": 31669,
-      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
-      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T06:21:36Z"
     }
   ],
   "missing_on_account": [
