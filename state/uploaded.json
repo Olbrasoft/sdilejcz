@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T08:46:06Z",
+  "last_updated": "2026-10-18T08:46:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675588,21 +675588,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T07:59:16Z",
-      "first_failed_at": "2026-10-18T06:57:11Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676540,19 +676525,24 @@
       "timing": {
         "cdn_resolve_sec": 16.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T08:32:02Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T08:46:32Z",
+      "first_failed_at": "2026-10-18T06:57:11Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
