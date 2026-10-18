@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T07:41:44Z",
+  "last_updated": "2026-10-18T07:42:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675892,6 +675892,21 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T07:42:04Z",
+      "first_failed_at": "2026-10-18T07:42:04Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.5
+      }
     }
   ],
   "in_progress": [
@@ -675914,16 +675929,6 @@
       "worker_id": "worker-1-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T07:39:54Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T07:41:33Z"
     }
   ],
   "missing_on_account": [
