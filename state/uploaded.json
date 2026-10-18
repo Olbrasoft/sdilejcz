@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T11:46:50Z",
+  "last_updated": "2026-10-18T11:47:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674979,21 +674979,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T11:07:32Z",
-      "first_failed_at": "2026-10-18T10:34:37Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -675928,19 +675913,24 @@
       "timing": {
         "cdn_resolve_sec": 16.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T11:39:42Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T11:47:07Z",
+      "first_failed_at": "2026-10-18T10:34:37Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23796,
       "cr_slug": "operace-delta-force-3",
