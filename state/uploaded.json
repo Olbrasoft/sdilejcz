@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T16:22:13Z",
+  "last_updated": "2026-10-18T16:22:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674601,22 +674601,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-18T15:51:47Z",
-      "first_failed_at": "2026-10-18T15:51:47Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 6.3,
-        "download_sec": 2.7
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675488,6 +675472,22 @@
       "timing": {
         "cdn_resolve_sec": 10.6
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-18T16:22:32Z",
+      "first_failed_at": "2026-10-18T15:51:47Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 5.0,
+        "download_sec": 3.1
+      }
     }
   ],
   "in_progress": [
@@ -675520,16 +675520,6 @@
       "worker_id": "worker-4-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T16:20:06Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T16:22:13Z"
     }
   ],
   "missing_on_account": [
