@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T03:47:26Z",
+  "last_updated": "2026-10-18T03:47:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675605,19 +675605,26 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17521,
       "cr_slug": "wet-red-rose",
       "title": "Wet Red Rose",
       "year": 1972,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T03:42:52Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T03:47:41Z",
+      "first_failed_at": "2026-10-18T03:47:41Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 6.9,
+        "download_sec": 51.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18355,
       "cr_slug": "blue-caprice",
