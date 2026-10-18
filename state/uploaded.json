@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T00:58:27Z",
+  "last_updated": "2026-10-18T00:59:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675386,21 +675386,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T00:17:39Z",
-      "first_failed_at": "2026-10-17T23:11:57Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -676635,19 +676620,24 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39076223804",
-      "run_id": "39076223804",
-      "reserved_at": "2026-10-18T00:54:59Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T00:59:09Z",
+      "first_failed_at": "2026-10-17T23:11:57Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
