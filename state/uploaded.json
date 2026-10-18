@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T04:47:29Z",
+  "last_updated": "2026-10-18T04:47:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675479,21 +675479,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T04:09:48Z",
-      "first_failed_at": "2026-10-18T03:07:15Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -676241,6 +676226,21 @@
       "timing": {
         "cdn_resolve_sec": 13.3
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T04:47:49Z",
+      "first_failed_at": "2026-10-18T03:07:15Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -676253,16 +676253,6 @@
       "worker_id": "worker-3-39090868262",
       "run_id": "39090868262",
       "reserved_at": "2026-10-18T04:37:18Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T04:47:29Z"
     }
   ],
   "missing_on_account": [
