@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T14:01:13Z",
+  "last_updated": "2026-10-18T14:01:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677461,22 +677461,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-18T13:31:11Z",
-      "first_failed_at": "2026-10-18T12:26:46Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.7,
-        "download_sec": 2.9
-      }
-    },
-    {
       "cr_film_id": 35759,
       "cr_slug": "putin",
       "title": "Putin",
@@ -678170,6 +678154,22 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-18T14:01:27Z",
+      "first_failed_at": "2026-10-18T12:26:46Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 2.9
+      }
     }
   ],
   "in_progress": [
@@ -678202,16 +678202,6 @@
       "worker_id": "worker-2-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T13:59:34Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T14:01:13Z"
     }
   ],
   "missing_on_account": [
