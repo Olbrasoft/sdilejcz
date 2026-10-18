@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T07:21:56Z",
+  "last_updated": "2026-10-18T07:22:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675163,19 +675163,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T07:20:00Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T07:22:07Z",
+      "first_failed_at": "2026-10-18T07:22:07Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
