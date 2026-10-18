@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T23:56:15Z",
+  "last_updated": "2026-10-18T23:56:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676434,22 +676434,6 @@
       "permanent": true
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-18T23:26:03Z",
-      "first_failed_at": "2026-10-18T23:26:03Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 0.8,
-        "download_sec": 2.3
-      }
-    },
-    {
       "cr_film_id": 30301,
       "cr_slug": "mate-doma-lva",
       "title": "Máte doma lva?",
@@ -677425,6 +677409,22 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-18T23:56:30Z",
+      "first_failed_at": "2026-10-18T23:26:03Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 2.6
+      }
     }
   ],
   "in_progress": [
@@ -677457,16 +677457,6 @@
       "worker_id": "worker-2-39162708616",
       "run_id": "39162708616",
       "reserved_at": "2026-10-18T23:54:15Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-18T23:56:15Z"
     }
   ],
   "missing_on_account": [
