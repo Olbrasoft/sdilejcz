@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T08:37:52Z",
+  "last_updated": "2026-10-18T08:38:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675491,21 +675491,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T07:48:59Z",
-      "first_failed_at": "2026-10-18T06:47:48Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.4
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -676475,19 +676460,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T08:24:09Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T08:38:08Z",
+      "first_failed_at": "2026-10-18T06:47:48Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
