@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T09:04:22Z",
+  "last_updated": "2026-10-18T09:04:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676003,21 +676003,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T08:34:01Z",
-      "first_failed_at": "2026-10-18T07:18:58Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 30368,
       "cr_slug": "lepsi-ted-nez-nikdy",
       "title": "Lepší teď než nikdy",
@@ -676746,6 +676731,21 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play",
+      "title": "Cold Play",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T09:04:43Z",
+      "first_failed_at": "2026-10-18T07:18:58Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
     }
   ],
   "in_progress": [
@@ -676778,16 +676778,6 @@
       "worker_id": "worker-1-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T08:55:09Z"
-    },
-    {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T09:04:22Z"
     }
   ],
   "missing_on_account": [
