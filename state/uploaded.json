@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T13:55:48Z",
+  "last_updated": "2026-10-18T13:56:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677301,21 +677301,6 @@
       }
     },
     {
-      "cr_film_id": 35044,
-      "cr_slug": "tezka-barbora",
-      "title": "Těžká Barbora",
-      "year": 1960,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T13:25:29Z",
-      "first_failed_at": "2026-10-18T13:25:29Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 34850,
       "cr_slug": "duch-zraloka",
       "title": "Duch žraloka",
@@ -678146,6 +678131,21 @@
       "timing": {
         "cdn_resolve_sec": 9.4
       }
+    },
+    {
+      "cr_film_id": 35044,
+      "cr_slug": "tezka-barbora",
+      "title": "Těžká Barbora",
+      "year": 1960,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T13:56:07Z",
+      "first_failed_at": "2026-10-18T13:25:29Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
     }
   ],
   "in_progress": [
@@ -678178,16 +678178,6 @@
       "worker_id": "worker-2-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T13:39:49Z"
-    },
-    {
-      "cr_film_id": 35044,
-      "cr_slug": "tezka-barbora",
-      "title": "Těžká Barbora",
-      "year": 1960,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T13:55:48Z"
     }
   ],
   "missing_on_account": [
