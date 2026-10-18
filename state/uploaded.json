@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T05:01:38Z",
+  "last_updated": "2026-10-18T05:01:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675685,27 +675685,6 @@
       }
     },
     {
-      "cr_film_id": 29067,
-      "cr_slug": "amateur-teens",
-      "title": "Amateur Teens",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-18T04:23:21Z",
-      "first_failed_at": "2026-10-18T04:23:21Z",
-      "attempt_count": 1,
-      "upload_id": "5f43ec0722482",
-      "source_url": "https://prehraj.to/amateur-teens-2015-cztitulky/5f43ec0722482",
-      "upload_title": "Amateur Teens (2015) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 35.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -676642,19 +676621,30 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29067,
       "cr_slug": "amateur-teens",
       "title": "Amateur Teens",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T04:53:38Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T05:01:55Z",
+      "first_failed_at": "2026-10-18T04:23:21Z",
+      "attempt_count": 2,
+      "upload_id": "5f43ec0722482",
+      "source_url": "https://prehraj.to/amateur-teens-2015-cztitulky/5f43ec0722482",
+      "upload_title": "Amateur Teens (2015) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 49.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
