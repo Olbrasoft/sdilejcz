@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T03:58:20Z",
+  "last_updated": "2026-10-18T03:58:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674892,21 +674892,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T03:25:17Z",
-      "first_failed_at": "2026-10-18T03:25:17Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -675861,19 +675846,24 @@
         "cdn_resolve_sec": 7.0,
         "download_sec": 2.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T03:56:22Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T03:58:30Z",
+      "first_failed_at": "2026-10-18T03:25:17Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23711,
       "cr_slug": "sex-po-telefonu",
