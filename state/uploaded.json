@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T00:31:32Z",
+  "last_updated": "2026-10-18T00:31:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675383,21 +675383,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-17T23:59:35Z",
-      "first_failed_at": "2026-10-17T22:54:16Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -676323,6 +676308,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T00:31:53Z",
+      "first_failed_at": "2026-10-17T22:54:16Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -676345,16 +676345,6 @@
       "worker_id": "worker-3-39076223804",
       "run_id": "39076223804",
       "reserved_at": "2026-10-18T00:21:30Z"
-    },
-    {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39076223804",
-      "run_id": "39076223804",
-      "reserved_at": "2026-10-18T00:31:32Z"
     }
   ],
   "missing_on_account": [
