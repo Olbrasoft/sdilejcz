@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T02:43:13Z",
+  "last_updated": "2026-10-18T02:43:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674055,19 +674055,24 @@
       "timing": {
         "cdn_resolve_sec": 13.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T02:40:50Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T02:43:25Z",
+      "first_failed_at": "2026-10-18T02:43:25Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2515,
       "cr_slug": "my-old-ass",
