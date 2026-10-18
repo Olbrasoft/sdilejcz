@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T13:35:59Z",
+  "last_updated": "2026-10-18T13:36:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677074,21 +677074,6 @@
       }
     },
     {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T13:05:54Z",
-      "first_failed_at": "2026-10-18T13:05:54Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.5
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -677948,6 +677933,21 @@
       "timing": {
         "cdn_resolve_sec": 18.7
       }
+    },
+    {
+      "cr_film_id": 34731,
+      "cr_slug": "vzala-jsem-si-mrtveho-muze",
+      "title": "Vzala jsem si mrtvého muže",
+      "year": 1996,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T13:36:20Z",
+      "first_failed_at": "2026-10-18T13:05:54Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -677970,16 +677970,6 @@
       "worker_id": "worker-1-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T13:32:42Z"
-    },
-    {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T13:35:59Z"
     }
   ],
   "missing_on_account": [
