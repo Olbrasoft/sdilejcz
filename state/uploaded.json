@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T04:34:08Z",
+  "last_updated": "2026-10-18T04:34:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675463,21 +675463,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T04:03:43Z",
-      "first_failed_at": "2026-10-18T04:03:43Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -676174,6 +676159,21 @@
         "cdn_resolve_sec": 3.8,
         "download_sec": 1.7
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T04:34:28Z",
+      "first_failed_at": "2026-10-18T04:03:43Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.1
+      }
     }
   ],
   "in_progress": [
@@ -676196,16 +676196,6 @@
       "worker_id": "worker-3-39090868262",
       "run_id": "39090868262",
       "reserved_at": "2026-10-18T04:31:16Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T04:34:08Z"
     }
   ],
   "missing_on_account": [
