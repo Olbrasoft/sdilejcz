@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T05:34:16Z",
+  "last_updated": "2026-10-18T05:34:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675859,21 +675859,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T04:34:41Z",
-      "first_failed_at": "2026-10-18T03:24:17Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -677548,19 +677533,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T05:05:23Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T05:34:45Z",
+      "first_failed_at": "2026-10-18T03:24:17Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
