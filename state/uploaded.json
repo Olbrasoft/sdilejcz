@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T11:59:34Z",
+  "last_updated": "2026-10-18T11:59:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675102,21 +675102,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T11:29:15Z",
-      "first_failed_at": "2026-10-18T10:53:27Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.0
-      }
-    },
-    {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
@@ -676031,6 +676016,21 @@
         "download_sec": 208.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 14786,
+      "cr_slug": "krakonos-a-sklinkar-matej",
+      "title": "Krakonos a sklínkar Matej",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T11:59:55Z",
+      "first_failed_at": "2026-10-18T10:53:27Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
     }
   ],
   "in_progress": [
@@ -676063,16 +676063,6 @@
       "worker_id": "worker-1-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T11:58:01Z"
-    },
-    {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T11:59:34Z"
     }
   ],
   "missing_on_account": [
