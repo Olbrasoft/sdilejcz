@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T22:34:21Z",
+  "last_updated": "2026-10-18T22:34:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674740,21 +674740,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T21:50:05Z",
-      "first_failed_at": "2026-10-18T20:48:31Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.4
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675762,6 +675747,21 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T22:34:46Z",
+      "first_failed_at": "2026-10-18T20:48:31Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
   "in_progress": [
@@ -675794,16 +675794,6 @@
       "worker_id": "worker-3-39162708616",
       "run_id": "39162708616",
       "reserved_at": "2026-10-18T22:33:26Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-18T22:34:21Z"
     }
   ],
   "missing_on_account": [
