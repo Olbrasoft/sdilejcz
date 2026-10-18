@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T01:07:36Z",
+  "last_updated": "2026-10-18T01:07:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675423,21 +675423,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T00:20:49Z",
-      "first_failed_at": "2026-10-17T23:12:44Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676793,6 +676778,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T01:07:59Z",
+      "first_failed_at": "2026-10-17T23:12:44Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -676825,16 +676825,6 @@
       "worker_id": "worker-2-39076223804",
       "run_id": "39076223804",
       "reserved_at": "2026-10-18T01:07:01Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39076223804",
-      "run_id": "39076223804",
-      "reserved_at": "2026-10-18T01:07:36Z"
     }
   ],
   "missing_on_account": [
