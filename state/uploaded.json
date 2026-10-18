@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T19:14:33Z",
+  "last_updated": "2026-10-18T19:14:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676784,22 +676784,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-18T18:43:56Z",
-      "first_failed_at": "2026-10-18T18:10:54Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 2.0
-      }
-    },
-    {
       "cr_film_id": 33576,
       "cr_slug": "reznik-kurva-a-jednooky-muz",
       "title": "Řezník, kurva a jednooký muž",
@@ -677208,6 +677192,22 @@
       "timing": {
         "cdn_resolve_sec": 27.8
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-18T19:14:50Z",
+      "first_failed_at": "2026-10-18T18:10:54Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 4.0,
+        "download_sec": 2.3
+      }
     }
   ],
   "in_progress": [
@@ -677240,16 +677240,6 @@
       "worker_id": "worker-2-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T19:12:30Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T19:14:33Z"
     }
   ],
   "missing_on_account": [
