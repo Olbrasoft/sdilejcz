@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T02:10:32Z",
+  "last_updated": "2026-10-18T02:10:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677235,21 +677235,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T01:40:10Z",
-      "first_failed_at": "2026-10-18T00:57:14Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -678147,6 +678132,21 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T02:10:54Z",
+      "first_failed_at": "2026-10-18T00:57:14Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
     }
   ],
   "in_progress": [
@@ -678179,16 +678179,6 @@
       "worker_id": "worker-1-39076223804",
       "run_id": "39076223804",
       "reserved_at": "2026-10-18T02:04:03Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39076223804",
-      "run_id": "39076223804",
-      "reserved_at": "2026-10-18T02:10:32Z"
     }
   ],
   "missing_on_account": [
