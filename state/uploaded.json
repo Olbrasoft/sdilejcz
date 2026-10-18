@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T22:13:32Z",
+  "last_updated": "2026-10-18T22:13:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674683,22 +674683,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-18T21:40:42Z",
-      "first_failed_at": "2026-10-18T21:40:42Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 6.1,
-        "download_sec": 4.2
-      }
-    },
-    {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
@@ -675560,6 +675544,22 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-18T22:13:52Z",
+      "first_failed_at": "2026-10-18T21:40:42Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 4.9,
+        "download_sec": 2.2
+      }
     }
   ],
   "in_progress": [
@@ -675582,16 +675582,6 @@
       "worker_id": "worker-4-39162708616",
       "run_id": "39162708616",
       "reserved_at": "2026-10-18T22:10:09Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-18T22:13:32Z"
     }
   ],
   "missing_on_account": [
