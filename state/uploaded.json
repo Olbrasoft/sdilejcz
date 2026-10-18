@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T07:19:08Z",
+  "last_updated": "2026-10-18T07:19:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675057,19 +675057,24 @@
       "timing": {
         "cdn_resolve_sec": 9.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T07:17:20Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T07:19:20Z",
+      "first_failed_at": "2026-10-18T07:19:20Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
