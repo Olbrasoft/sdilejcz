@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T05:48:50Z",
+  "last_updated": "2026-10-18T05:49:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676699,21 +676699,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T05:11:56Z",
-      "first_failed_at": "2026-10-18T05:11:56Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677772,6 +677757,21 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T05:49:09Z",
+      "first_failed_at": "2026-10-18T05:11:56Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
   "in_progress": [
@@ -677804,16 +677804,6 @@
       "worker_id": "worker-1-39090868262",
       "run_id": "39090868262",
       "reserved_at": "2026-10-18T05:47:50Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T05:48:50Z"
     }
   ],
   "missing_on_account": [
