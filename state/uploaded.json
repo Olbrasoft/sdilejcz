@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T15:37:26Z",
+  "last_updated": "2026-10-18T15:37:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674279,21 +674279,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T15:05:00Z",
-      "first_failed_at": "2026-10-18T15:05:00Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -674872,6 +674857,21 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T15:37:52Z",
+      "first_failed_at": "2026-10-18T15:05:00Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
     }
   ],
   "in_progress": [
@@ -674894,16 +674894,6 @@
       "worker_id": "worker-1-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T15:31:36Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T15:35:12Z"
     },
     {
       "cr_film_id": 12698,
