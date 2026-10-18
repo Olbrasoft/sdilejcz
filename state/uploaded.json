@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T08:24:09Z",
+  "last_updated": "2026-10-18T08:24:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675467,21 +675467,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T07:42:38Z",
-      "first_failed_at": "2026-10-18T07:11:36Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.9
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -676318,19 +676303,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T08:14:58Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T08:24:37Z",
+      "first_failed_at": "2026-10-18T07:11:36Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 28657,
       "cr_slug": "lone-star-shark-2",
