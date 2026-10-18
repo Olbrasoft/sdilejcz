@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T23:45:54Z",
+  "last_updated": "2026-10-18T23:46:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677093,19 +677093,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
       "year": 1932,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-18T23:37:56Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T23:46:07Z",
+      "first_failed_at": "2026-10-18T23:46:07Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 33580,
       "cr_slug": "prenom-carmen",
