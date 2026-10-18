@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T14:55:30Z",
+  "last_updated": "2026-10-18T14:55:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674147,19 +674147,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1408,
       "cr_slug": "black-panther",
       "title": "Black Panther",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T14:50:51Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T14:55:52Z",
+      "first_failed_at": "2026-10-18T14:55:52Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 23.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2515,
       "cr_slug": "my-old-ass",
