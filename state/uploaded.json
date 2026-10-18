@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T18:52:04Z",
+  "last_updated": "2026-10-18T18:52:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676514,21 +676514,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T18:15:58Z",
-      "first_failed_at": "2026-10-18T18:15:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 31.0
-      }
-    },
-    {
       "cr_film_id": 30381,
       "cr_slug": "atrakce-svedskeho-zajezdu",
       "title": "Atrakce švédského zájezdu",
@@ -676943,6 +676928,21 @@
       "timing": {
         "cdn_resolve_sec": 17.4
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T18:52:26Z",
+      "first_failed_at": "2026-10-18T18:15:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -676975,16 +676975,6 @@
       "worker_id": "worker-3-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T18:50:01Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T18:52:04Z"
     }
   ],
   "missing_on_account": [
