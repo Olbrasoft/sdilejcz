@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T18:26:01Z",
+  "last_updated": "2026-10-18T18:28:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676725,6 +676725,27 @@
       "timing": {
         "cdn_resolve_sec": 26.6
       }
+    },
+    {
+      "cr_film_id": 33228,
+      "cr_slug": "sex-drugs-rock-roll",
+      "title": "Sex & Drugs & Rock & Roll",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T18:28:06Z",
+      "first_failed_at": "2026-10-18T18:28:06Z",
+      "attempt_count": 1,
+      "upload_id": "5abe017835f66",
+      "source_url": "https://prehraj.to/sex-drugs-rock-roll-2010/5abe017835f66",
+      "upload_title": "Sex & Drugs & Rock & Roll (2010)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 83.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676757,16 +676778,6 @@
       "worker_id": "worker-3-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T18:25:04Z"
-    },
-    {
-      "cr_film_id": 33228,
-      "cr_slug": "sex-drugs-rock-roll",
-      "title": "Sex & Drugs & Rock & Roll",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T18:26:01Z"
     }
   ],
   "missing_on_account": [
