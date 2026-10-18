@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T11:27:57Z",
+  "last_updated": "2026-10-18T11:28:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674712,21 +674712,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T10:56:50Z",
-      "first_failed_at": "2026-10-18T10:56:50Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.5
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675572,6 +675557,21 @@
       "timing": {
         "cdn_resolve_sec": 10.5
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T11:28:16Z",
+      "first_failed_at": "2026-10-18T10:56:50Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -675604,16 +675604,6 @@
       "worker_id": "worker-3-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T11:27:29Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T11:27:57Z"
     }
   ],
   "missing_on_account": [
