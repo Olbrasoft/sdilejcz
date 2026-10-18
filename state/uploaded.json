@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T00:50:11Z",
+  "last_updated": "2026-10-18T00:50:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675356,21 +675356,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T00:10:57Z",
-      "first_failed_at": "2026-10-17T23:00:50Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
@@ -676500,19 +676485,24 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39076223804",
-      "run_id": "39076223804",
-      "reserved_at": "2026-10-18T00:41:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T00:50:31Z",
+      "first_failed_at": "2026-10-17T23:00:50Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
