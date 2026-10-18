@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T08:13:15Z",
+  "last_updated": "2026-10-18T08:13:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675400,21 +675400,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T07:40:23Z",
-      "first_failed_at": "2026-10-18T07:08:27Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.3
-      }
-    },
-    {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
@@ -676137,6 +676122,21 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T08:13:39Z",
+      "first_failed_at": "2026-10-18T07:08:27Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -676159,16 +676159,6 @@
       "worker_id": "worker-4-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T08:11:09Z"
-    },
-    {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T08:13:15Z"
     }
   ],
   "missing_on_account": [
