@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T15:54:38Z",
+  "last_updated": "2026-10-18T15:54:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675276,19 +675276,24 @@
       "timing": {
         "resolve_sec": 0.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T15:31:36Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T15:54:50Z",
+      "first_failed_at": "2026-10-18T15:54:50Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
