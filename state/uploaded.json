@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T09:50:03Z",
+  "last_updated": "2026-10-18T09:51:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676703,21 +676703,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T09:16:20Z",
-      "first_failed_at": "2026-10-18T09:16:20Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.6
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677832,19 +677817,24 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
       "year": 1932,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T09:46:20Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T09:51:05Z",
+      "first_failed_at": "2026-10-18T09:16:20Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
