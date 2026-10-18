@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T14:28:55Z",
+  "last_updated": "2026-10-18T14:29:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677772,21 +677772,6 @@
       }
     },
     {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T13:58:45Z",
-      "first_failed_at": "2026-10-18T13:09:09Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 34827,
       "cr_slug": "ohnivy-ring",
       "title": "Ohnivý ring",
@@ -678326,6 +678311,21 @@
       "timing": {
         "cdn_resolve_sec": 21.7
       }
+    },
+    {
+      "cr_film_id": 34815,
+      "cr_slug": "kaja-oliva",
+      "title": "Kája + Oliva",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T14:29:28Z",
+      "first_failed_at": "2026-10-18T13:09:09Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.9
+      }
     }
   ],
   "in_progress": [
@@ -678338,16 +678338,6 @@
       "worker_id": "worker-2-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T14:18:41Z"
-    },
-    {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T14:28:55Z"
     }
   ],
   "missing_on_account": [
