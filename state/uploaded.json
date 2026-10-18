@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T10:15:40Z",
+  "last_updated": "2026-10-18T10:15:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677241,21 +677241,6 @@
       }
     },
     {
-      "cr_film_id": 35060,
-      "cr_slug": "malcolm-x",
-      "title": "Malcolm X",
-      "year": 1992,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T09:44:34Z",
-      "first_failed_at": "2026-10-18T09:44:34Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
@@ -678197,6 +678182,21 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
+    },
+    {
+      "cr_film_id": 35060,
+      "cr_slug": "malcolm-x",
+      "title": "Malcolm X",
+      "year": 1992,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T10:15:59Z",
+      "first_failed_at": "2026-10-18T09:44:34Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -678229,16 +678229,6 @@
       "worker_id": "worker-3-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T10:12:50Z"
-    },
-    {
-      "cr_film_id": 35060,
-      "cr_slug": "malcolm-x",
-      "title": "Malcolm X",
-      "year": 1992,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T10:15:40Z"
     }
   ],
   "missing_on_account": [
