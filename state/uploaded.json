@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T06:29:38Z",
+  "last_updated": "2026-10-18T06:30:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677398,27 +677398,6 @@
       }
     },
     {
-      "cr_film_id": 35543,
-      "cr_slug": "love-sick-secrets-of-a-sex-addict",
-      "title": "Love Sick: Secrets of a Sex Addict",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-18T05:56:00Z",
-      "first_failed_at": "2026-10-18T05:56:00Z",
-      "attempt_count": 1,
-      "upload_id": "5acc63ad02213",
-      "source_url": "https://prehraj.to/nemocna-laskou-2008/5acc63ad02213",
-      "upload_title": "Nemocná láskou (2008)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 12.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34850,
       "cr_slug": "duch-zraloka",
       "title": "Duch žraloka",
@@ -678308,6 +678287,27 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
+    },
+    {
+      "cr_film_id": 35543,
+      "cr_slug": "love-sick-secrets-of-a-sex-addict",
+      "title": "Love Sick: Secrets of a Sex Addict",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T06:30:40Z",
+      "first_failed_at": "2026-10-18T05:56:00Z",
+      "attempt_count": 2,
+      "upload_id": "5acc63ad02213",
+      "source_url": "https://prehraj.to/nemocna-laskou-2008/5acc63ad02213",
+      "upload_title": "Nemocná láskou (2008)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 19.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -678330,16 +678330,6 @@
       "worker_id": "worker-4-39090868262",
       "run_id": "39090868262",
       "reserved_at": "2026-10-18T06:27:26Z"
-    },
-    {
-      "cr_film_id": 35543,
-      "cr_slug": "love-sick-secrets-of-a-sex-addict",
-      "title": "Love Sick: Secrets of a Sex Addict",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T06:29:38Z"
     }
   ],
   "missing_on_account": [
