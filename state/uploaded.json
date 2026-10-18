@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T15:50:04Z",
+  "last_updated": "2026-10-18T15:50:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674051,6 +674051,27 @@
         "upload_sec": 95.0,
         "total_sec": 1089.3
       }
+    },
+    {
+      "cr_film_id": 13512,
+      "cr_slug": "sex-surrogate",
+      "title": "Sex Surrogate",
+      "year": 2004,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 39129,
+      "sdilej_url": "https://sdilej.cz/35330085/sex-surrogate-2004-cz-dabing.mp4",
+      "sdilej_name": "Sex Surrogate (2004) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-18T15:45:50Z",
+      "status": "uploaded",
+      "size_bytes": 293944036,
+      "worker_id": "worker-2-39137718187",
+      "timing": {
+        "cdn_resolve_sec": 9.9,
+        "download_sec": 53.3,
+        "upload_sec": 38.2,
+        "total_sec": 101.5
+      }
     }
   ],
   "failed_attempts": [
@@ -674261,23 +674282,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 13512,
-      "cr_slug": "sex-surrogate",
-      "title": "Sex Surrogate",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-18T15:13:44Z",
-      "first_failed_at": "2026-10-18T15:13:44Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.9,
-        "download_sec": 51.9,
-        "upload_sec": 30.0
       }
     },
     {
@@ -675119,16 +675123,6 @@
       "worker_id": "worker-1-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T15:31:36Z"
-    },
-    {
-      "cr_film_id": 13512,
-      "cr_slug": "sex-surrogate",
-      "title": "Sex Surrogate",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T15:44:00Z"
     },
     {
       "cr_film_id": 16595,
