@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T19:41:46Z",
+  "last_updated": "2026-10-18T19:44:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677517,6 +677517,23 @@
       "timing": {
         "cdn_resolve_sec": 30.3
       }
+    },
+    {
+      "cr_film_id": 34750,
+      "cr_slug": "same-stesti",
+      "title": "Samé štěstí",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T19:44:28Z",
+      "first_failed_at": "2026-10-18T19:44:28Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 7.9,
+        "download_sec": 112.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -677549,16 +677566,6 @@
       "worker_id": "worker-3-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T19:40:16Z"
-    },
-    {
-      "cr_film_id": 34750,
-      "cr_slug": "same-stesti",
-      "title": "Samé štěstí",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T19:41:46Z"
     }
   ],
   "missing_on_account": [
