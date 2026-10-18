@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T14:40:18Z",
+  "last_updated": "2026-10-18T14:40:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677758,21 +677758,6 @@
       }
     },
     {
-      "cr_film_id": 35060,
-      "cr_slug": "malcolm-x",
-      "title": "Malcolm X",
-      "year": 1992,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T14:10:00Z",
-      "first_failed_at": "2026-10-18T13:26:41Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 20.6
-      }
-    },
-    {
       "cr_film_id": 37536,
       "cr_slug": "a-very-unlucky-leprechaun",
       "title": "A Very Unlucky Leprechaun",
@@ -678326,6 +678311,21 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
+    },
+    {
+      "cr_film_id": 35060,
+      "cr_slug": "malcolm-x",
+      "title": "Malcolm X",
+      "year": 1992,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T14:40:42Z",
+      "first_failed_at": "2026-10-18T13:26:41Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
   "in_progress": [
@@ -678338,16 +678338,6 @@
       "worker_id": "worker-2-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T14:18:41Z"
-    },
-    {
-      "cr_film_id": 35060,
-      "cr_slug": "malcolm-x",
-      "title": "Malcolm X",
-      "year": 1992,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T14:40:18Z"
     }
   ],
   "missing_on_account": [
