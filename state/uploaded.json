@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T01:36:15Z",
+  "last_updated": "2026-10-18T01:38:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677330,6 +677330,25 @@
       "attempt_count": 1,
       "timing": {
         "cdn_resolve_sec": 11.5
+      }
+    },
+    {
+      "cr_film_id": 34593,
+      "cr_slug": "fichtelberg",
+      "title": "Fichtelberg",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/fichtelberg-2025-cz/415034bb303009e2",
+      "failed_at": "2026-10-18T01:38:40Z",
+      "first_failed_at": "2026-10-18T01:38:40Z",
+      "attempt_count": 1,
+      "upload_id": "415034bb303009e2",
+      "source_url": "https://prehraj.to/fichtelberg-2025-cz/415034bb303009e2",
+      "upload_title": "Fichtelberg 2025 Cz",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.6
       }
     }
   ],
