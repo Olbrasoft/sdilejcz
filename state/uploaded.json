@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T12:20:47Z",
+  "last_updated": "2026-10-18T12:21:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676469,19 +676469,22 @@
       "timing": {
         "cdn_resolve_sec": 12.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30794,
       "cr_slug": "ufc-229-khabib-vs-mcgregor",
       "title": "UFC 229: Khabib vs. McGregor",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T12:17:55Z"
-    },
+      "source": "sledujteto",
+      "reason": "download_failed: file exceeds max size: 12272869048 B",
+      "failed_at": "2026-10-18T12:21:07Z",
+      "first_failed_at": "2026-10-18T12:21:07Z",
+      "attempt_count": 1,
+      "permanent": true
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
