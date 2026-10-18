@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T13:22:07Z",
+  "last_updated": "2026-10-18T13:22:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675688,22 +675688,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-18T12:09:23Z",
-      "first_failed_at": "2026-10-18T11:00:01Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 5.7,
-        "download_sec": 3.3
-      }
-    },
-    {
       "cr_film_id": 30184,
       "cr_slug": "cas-dluhu",
       "title": "Čas dluhů",
@@ -677630,19 +677614,25 @@
       "timing": {
         "cdn_resolve_sec": 13.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T12:48:07Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-18T13:22:29Z",
+      "first_failed_at": "2026-10-18T11:00:01Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 5.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34850,
       "cr_slug": "duch-zraloka",
