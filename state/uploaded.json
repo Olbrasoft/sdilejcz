@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T08:16:37Z",
+  "last_updated": "2026-10-18T08:16:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675503,21 +675503,6 @@
       }
     },
     {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T07:46:19Z",
-      "first_failed_at": "2026-10-18T07:15:07Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -676180,6 +676165,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 13280,
+      "cr_slug": "tvoje-srdce-inkognito",
+      "title": "Tvoje srdce inkognito",
+      "year": 1936,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T08:16:56Z",
+      "first_failed_at": "2026-10-18T07:15:07Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
     }
   ],
   "in_progress": [
@@ -676212,16 +676212,6 @@
       "worker_id": "worker-4-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T08:14:58Z"
-    },
-    {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T08:16:37Z"
     }
   ],
   "missing_on_account": [
