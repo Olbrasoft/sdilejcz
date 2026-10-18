@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T09:39:13Z",
+  "last_updated": "2026-10-18T09:39:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677557,19 +677557,24 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34919,
       "cr_slug": "milovany-joshua",
       "title": "Milovaný Joshua",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T09:34:45Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T09:39:26Z",
+      "first_failed_at": "2026-10-18T09:39:26Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
