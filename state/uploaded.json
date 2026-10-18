@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T07:07:00Z",
+  "last_updated": "2026-10-18T07:07:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674634,6 +674634,21 @@
       "timing": {
         "cdn_resolve_sec": 9.3
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T07:07:21Z",
+      "first_failed_at": "2026-10-18T07:07:21Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
     }
   ],
   "in_progress": [
@@ -674666,16 +674681,6 @@
       "worker_id": "worker-3-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T07:06:23Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T07:07:00Z"
     }
   ],
   "missing_on_account": [
