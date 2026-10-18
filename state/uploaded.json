@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T11:19:11Z",
+  "last_updated": "2026-10-18T11:19:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674565,21 +674565,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T10:49:02Z",
-      "first_failed_at": "2026-10-18T10:49:02Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.8
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -675503,6 +675488,21 @@
       "timing": {
         "cdn_resolve_sec": 21.2
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T11:19:32Z",
+      "first_failed_at": "2026-10-18T10:49:02Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.5
+      }
     }
   ],
   "in_progress": [
@@ -675535,16 +675535,6 @@
       "worker_id": "worker-1-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T11:18:43Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T11:19:11Z"
     }
   ],
   "missing_on_account": [
