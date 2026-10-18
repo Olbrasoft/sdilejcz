@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T03:23:51Z",
+  "last_updated": "2026-10-18T03:24:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675325,19 +675325,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T03:16:47Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T03:24:17Z",
+      "first_failed_at": "2026-10-18T03:24:17Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16484,
       "cr_slug": "don-t-fuck-in-the-woods",
