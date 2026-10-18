@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T19:36:33Z",
+  "last_updated": "2026-10-18T19:36:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676932,21 +676932,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T19:05:54Z",
-      "first_failed_at": "2026-10-18T18:23:21Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.6
-      }
-    },
-    {
       "cr_film_id": 34329,
       "cr_slug": "pola-x",
       "title": "Pola X",
@@ -677481,6 +677466,21 @@
       "timing": {
         "cdn_resolve_sec": 16.4
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T19:36:52Z",
+      "first_failed_at": "2026-10-18T18:23:21Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.0
+      }
     }
   ],
   "in_progress": [
@@ -677513,16 +677513,6 @@
       "worker_id": "worker-4-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T19:35:08Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T19:36:33Z"
     }
   ],
   "missing_on_account": [
