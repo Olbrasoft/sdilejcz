@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T09:15:27Z",
+  "last_updated": "2026-10-18T09:15:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676867,6 +676867,21 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
+    },
+    {
+      "cr_film_id": 31671,
+      "cr_slug": "e11",
+      "title": "E11",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T09:15:48Z",
+      "first_failed_at": "2026-10-18T09:15:48Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
     }
   ],
   "in_progress": [
@@ -676899,16 +676914,6 @@
       "worker_id": "worker-3-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T09:14:48Z"
-    },
-    {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T09:15:27Z"
     }
   ],
   "missing_on_account": [
