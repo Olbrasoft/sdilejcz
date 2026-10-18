@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T04:52:29Z",
+  "last_updated": "2026-10-18T04:52:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675488,21 +675488,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T04:15:36Z",
-      "first_failed_at": "2026-10-18T03:08:36Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -676265,6 +676250,21 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play",
+      "title": "Cold Play",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T04:52:54Z",
+      "first_failed_at": "2026-10-18T03:08:36Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
   "in_progress": [
@@ -676287,16 +676287,6 @@
       "worker_id": "worker-4-39090868262",
       "run_id": "39090868262",
       "reserved_at": "2026-10-18T04:50:08Z"
-    },
-    {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T04:52:29Z"
     }
   ],
   "missing_on_account": [
