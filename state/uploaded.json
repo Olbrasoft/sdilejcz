@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T18:59:12Z",
+  "last_updated": "2026-10-18T18:59:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676678,21 +676678,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T18:25:51Z",
-      "first_failed_at": "2026-10-18T18:25:51Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 26.6
-      }
-    },
-    {
       "cr_film_id": 33228,
       "cr_slug": "sex-drugs-rock-roll",
       "title": "Sex & Drugs & Rock & Roll",
@@ -677024,6 +677009,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T18:59:44Z",
+      "first_failed_at": "2026-10-18T18:25:51Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 21.3
+      }
     }
   ],
   "in_progress": [
@@ -677056,16 +677056,6 @@
       "worker_id": "worker-3-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T18:50:01Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T18:59:12Z"
     }
   ],
   "missing_on_account": [
