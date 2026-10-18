@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T12:24:40Z",
+  "last_updated": "2026-10-18T12:25:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675567,21 +675567,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T11:52:37Z",
-      "first_failed_at": "2026-10-18T10:41:56Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.5
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -676482,6 +676467,21 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T12:25:01Z",
+      "first_failed_at": "2026-10-18T10:41:56Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
     }
   ],
   "in_progress": [
@@ -676504,16 +676504,6 @@
       "worker_id": "worker-3-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T12:24:07Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T12:24:40Z"
     }
   ],
   "missing_on_account": [
