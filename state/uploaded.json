@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T17:31:42Z",
+  "last_updated": "2026-10-18T17:32:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675692,6 +675692,27 @@
       "timing": {
         "cdn_resolve_sec": 17.9
       }
+    },
+    {
+      "cr_film_id": 23687,
+      "cr_slug": "studentka-na-telefon",
+      "title": "Studentka na telefon",
+      "year": 1996,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T17:32:45Z",
+      "first_failed_at": "2026-10-18T17:32:45Z",
+      "attempt_count": 1,
+      "upload_id": "5f7cbb1fcdecd",
+      "source_url": "https://prehraj.to/studentka-na-telefon-1996-czdab/5f7cbb1fcdecd",
+      "upload_title": "Studentka na telefon (1996) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.0,
+        "download_sec": 21.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675724,16 +675745,6 @@
       "worker_id": "worker-4-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T17:22:14Z"
-    },
-    {
-      "cr_film_id": 23687,
-      "cr_slug": "studentka-na-telefon",
-      "title": "Studentka na telefon",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T17:31:42Z"
     }
   ],
   "missing_on_account": [
