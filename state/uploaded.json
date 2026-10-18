@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T19:12:30Z",
+  "last_updated": "2026-10-18T19:12:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674648,6 +674648,30 @@
         "upload_sec": 171.6,
         "total_sec": 1440.7
       }
+    },
+    {
+      "cr_film_id": 33228,
+      "cr_slug": "sex-drugs-rock-roll",
+      "title": "Sex & Drugs & Rock & Roll",
+      "year": 2010,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5abe017835f66",
+      "source_url": "https://prehraj.to/sex-drugs-rock-roll-2010/5abe017835f66",
+      "source_title": "Sex & Drugs & Rock & Roll (2010)",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35330942/sex-drugs-rock-roll-2010-.mp4",
+      "sdilej_name": "Sex & Drugs & Rock & Roll (2010).mp4",
+      "uploaded_at": "2026-10-18T19:08:31Z",
+      "status": "uploaded",
+      "size_bytes": 2995062057,
+      "worker_id": "worker-1-39137718187",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 90.3,
+        "upload_sec": 415.5,
+        "total_sec": 507.6
+      }
     }
   ],
   "failed_attempts": [
@@ -676681,27 +676705,6 @@
       }
     },
     {
-      "cr_film_id": 33228,
-      "cr_slug": "sex-drugs-rock-roll",
-      "title": "Sex & Drugs & Rock & Roll",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-18T18:28:06Z",
-      "first_failed_at": "2026-10-18T18:28:06Z",
-      "attempt_count": 1,
-      "upload_id": "5abe017835f66",
-      "source_url": "https://prehraj.to/sex-drugs-rock-roll-2010/5abe017835f66",
-      "upload_title": "Sex & Drugs & Rock & Roll (2010)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 83.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677155,16 +677158,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 33228,
-      "cr_slug": "sex-drugs-rock-roll",
-      "title": "Sex & Drugs & Rock & Roll",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T18:59:54Z"
-    },
     {
       "cr_film_id": 33579,
       "cr_slug": "the-penthouse",
