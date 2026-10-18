@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T13:06:42Z",
+  "last_updated": "2026-10-18T13:07:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676193,21 +676193,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T12:25:59Z",
-      "first_failed_at": "2026-10-18T11:50:19Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.4
-      }
-    },
-    {
       "cr_film_id": 31196,
       "cr_slug": "phil-wang-philly-philly-wang-wang",
       "title": "Phil Wang: Philly Philly Wang Wang",
@@ -677290,6 +677275,21 @@
       "timing": {
         "cdn_resolve_sec": 9.5
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T13:07:05Z",
+      "first_failed_at": "2026-10-18T11:50:19Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
     }
   ],
   "in_progress": [
@@ -677322,16 +677322,6 @@
       "worker_id": "worker-2-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T13:06:04Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T13:06:42Z"
     }
   ],
   "missing_on_account": [
