@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T10:28:05Z",
+  "last_updated": "2026-10-18T10:28:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678302,20 +678302,26 @@
       "timing": {
         "cdn_resolve_sec": 13.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37253,
       "cr_slug": "svedska-trojka",
       "title": "Švédská trojka",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T10:12:50Z"
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T10:28:27Z",
+      "first_failed_at": "2026-10-18T10:28:27Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.4,
+        "download_sec": 264.9,
+        "upload_sec": 30.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
