@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T22:48:05Z",
+  "last_updated": "2026-10-18T22:48:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675213,21 +675213,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T22:14:53Z",
-      "first_failed_at": "2026-10-18T21:39:58Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
@@ -675941,19 +675926,24 @@
         "cdn_resolve_sec": 4.8,
         "download_sec": 2.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
       "title": "Moje máma Jayne",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-18T22:45:23Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T22:48:31Z",
+      "first_failed_at": "2026-10-18T21:39:58Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
