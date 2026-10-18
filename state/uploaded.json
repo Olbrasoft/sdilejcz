@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T20:26:40Z",
+  "last_updated": "2026-10-18T20:27:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673572,19 +673572,30 @@
       "timing": {
         "cdn_resolve_sec": 21.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 812,
       "cr_slug": "kick-ass",
       "title": "Kick-Ass",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-18T20:19:42Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T20:27:04Z",
+      "first_failed_at": "2026-10-18T20:27:04Z",
+      "attempt_count": 1,
+      "upload_id": "5ca8459ba46d0",
+      "source_url": "https://prehraj.to/kick-ass-1-aaron-taylor-2010-cz-dabing/5ca8459ba46d0",
+      "upload_title": "Kick-Ass-1-(Aaron-Taylor)-(2010)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 376.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2636,
       "cr_slug": "climax",
