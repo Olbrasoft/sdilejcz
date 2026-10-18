@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T19:44:38Z",
+  "last_updated": "2026-10-18T19:45:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677029,21 +677029,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T19:14:23Z",
-      "first_failed_at": "2026-10-18T19:14:23Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 27.8
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -677534,6 +677519,21 @@
         "download_sec": 112.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T19:45:12Z",
+      "first_failed_at": "2026-10-18T19:14:23Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 23.3
+      }
     }
   ],
   "in_progress": [
@@ -677566,16 +677566,6 @@
       "worker_id": "worker-3-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T19:40:16Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T19:44:38Z"
     }
   ],
   "missing_on_account": [
