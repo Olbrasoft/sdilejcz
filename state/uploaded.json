@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T14:17:34Z",
+  "last_updated": "2026-10-18T14:17:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674799,6 +674799,27 @@
         "upload_sec": 202.4,
         "total_sec": 2068.1
       }
+    },
+    {
+      "cr_film_id": 37363,
+      "cr_slug": "barvy-casu",
+      "title": "Barvy času",
+      "year": 2025,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 61750,
+      "sdilej_url": "https://sdilej.cz/35329716/barvy-casu-2025-.mp4",
+      "sdilej_name": "Barvy času (2025).mp4",
+      "uploaded_at": "2026-10-18T14:12:41Z",
+      "status": "uploaded",
+      "size_bytes": 653733115,
+      "worker_id": "worker-2-39119543271",
+      "timing": {
+        "cdn_resolve_sec": 4.6,
+        "download_sec": 144.0,
+        "upload_sec": 84.5,
+        "total_sec": 233.2
+      }
     }
   ],
   "failed_attempts": [
@@ -678136,25 +678157,6 @@
       }
     },
     {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "failed_at": "2026-10-18T14:08:39Z",
-      "first_failed_at": "2026-10-18T14:08:39Z",
-      "attempt_count": 1,
-      "upload_id": "4564c9462ce70ed7",
-      "source_url": "https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "upload_title": "Barvy času",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.6
-      }
-    },
-    {
       "cr_film_id": 35060,
       "cr_slug": "malcolm-x",
       "title": "Malcolm X",
@@ -678315,16 +678317,6 @@
       "worker_id": "worker-4-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T13:56:17Z"
-    },
-    {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T14:08:28Z"
     },
     {
       "cr_film_id": 34902,
