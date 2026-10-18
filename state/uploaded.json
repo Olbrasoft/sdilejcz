@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T17:13:36Z",
+  "last_updated": "2026-10-18T17:14:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675665,6 +675665,27 @@
       "timing": {
         "cdn_resolve_sec": 29.5
       }
+    },
+    {
+      "cr_film_id": 22457,
+      "cr_slug": "orli-pero",
+      "title": "Orlí pero",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T17:14:19Z",
+      "first_failed_at": "2026-10-18T17:14:19Z",
+      "attempt_count": 1,
+      "upload_id": "5c531ff05b217",
+      "source_url": "https://prehraj.to/orli-pero-1979-cz-dabing/5c531ff05b217",
+      "upload_title": "Orlí Pero (1979) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 692.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675677,16 +675698,6 @@
       "worker_id": "worker-2-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T16:28:50Z"
-    },
-    {
-      "cr_film_id": 22457,
-      "cr_slug": "orli-pero",
-      "title": "Orlí pero",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T16:59:23Z"
     },
     {
       "cr_film_id": 23109,
