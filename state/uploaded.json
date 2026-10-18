@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T12:58:05Z",
+  "last_updated": "2026-10-18T12:58:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676203,22 +676203,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-18T12:26:46Z",
-      "first_failed_at": "2026-10-18T12:26:46Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.0,
-        "download_sec": 2.5
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -676967,6 +676951,22 @@
         "resolve_sec": 0.9,
         "download_sec": 1.6
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-18T12:58:19Z",
+      "first_failed_at": "2026-10-18T12:26:46Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 2.1
+      }
     }
   ],
   "in_progress": [
@@ -676999,16 +676999,6 @@
       "worker_id": "worker-3-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T12:54:07Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T12:58:05Z"
     }
   ],
   "missing_on_account": [
