@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T02:13:39Z",
+  "last_updated": "2026-10-18T02:13:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677131,21 +677131,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T01:33:27Z",
-      "first_failed_at": "2026-10-18T00:58:17Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.5
-      }
-    },
-    {
       "cr_film_id": 34623,
       "cr_slug": "temne-slunce",
       "title": "Temné slunce",
@@ -678181,6 +678166,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T02:13:52Z",
+      "first_failed_at": "2026-10-18T00:58:17Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -678203,16 +678203,6 @@
       "worker_id": "worker-3-39076223804",
       "run_id": "39076223804",
       "reserved_at": "2026-10-18T02:03:08Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39076223804",
-      "run_id": "39076223804",
-      "reserved_at": "2026-10-18T02:04:03Z"
     }
   ],
   "missing_on_account": [
