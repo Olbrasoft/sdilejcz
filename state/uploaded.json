@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T07:41:33Z",
+  "last_updated": "2026-10-18T07:41:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675872,6 +675872,25 @@
       "attempt_count": 2,
       "timing": {
         "cdn_resolve_sec": 9.9
+      }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/ziznive-mladi-1943-cz-cucina-rc-pres-multiload-cz/588ed52a7629f",
+      "failed_at": "2026-10-18T07:41:44Z",
+      "first_failed_at": "2026-10-18T07:41:44Z",
+      "attempt_count": 1,
+      "upload_id": "588ed52a7629f",
+      "source_url": "https://prehraj.to/ziznive-mladi-1943-cz-cucina-rc-pres-multiload-cz/588ed52a7629f",
+      "upload_title": "ziznive-mladi-1943-cz-cucina_rc-pres-MultiLoad.cz",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.5
       }
     }
   ],
