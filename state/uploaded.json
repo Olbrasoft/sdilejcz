@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T05:50:33Z",
+  "last_updated": "2026-10-18T05:51:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676669,21 +676669,6 @@
       }
     },
     {
-      "cr_film_id": 31669,
-      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
-      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T05:10:10Z",
-      "first_failed_at": "2026-10-18T05:10:10Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
@@ -677829,19 +677814,24 @@
       "timing": {
         "resolve_sec": 0.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
       "year": 1988,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T05:46:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T05:51:08Z",
+      "first_failed_at": "2026-10-18T05:10:10Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
