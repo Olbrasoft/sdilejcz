@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T14:40:53Z",
+  "last_updated": "2026-10-18T14:41:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677622,21 +677622,6 @@
       }
     },
     {
-      "cr_film_id": 34933,
-      "cr_slug": "ostrov-priser",
-      "title": "Ostrov příšer",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T13:47:19Z",
-      "first_failed_at": "2026-10-18T13:16:43Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.4
-      }
-    },
-    {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
@@ -678326,19 +678311,24 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
       "title": "Ostrov příšer",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T14:18:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T14:41:21Z",
+      "first_failed_at": "2026-10-18T13:16:43Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 17.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37352,
       "cr_slug": "terra-incognita-making-the-andromeda-strain",
