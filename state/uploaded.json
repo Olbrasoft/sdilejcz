@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T09:29:36Z",
+  "last_updated": "2026-10-18T09:30:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677339,6 +677339,21 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
+    },
+    {
+      "cr_film_id": 34815,
+      "cr_slug": "kaja-oliva",
+      "title": "Kája + Oliva",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T09:30:01Z",
+      "first_failed_at": "2026-10-18T09:30:01Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
     }
   ],
   "in_progress": [
@@ -677371,16 +677386,6 @@
       "worker_id": "worker-2-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T09:18:45Z"
-    },
-    {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T09:29:36Z"
     }
   ],
   "missing_on_account": [
