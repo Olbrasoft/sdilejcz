@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T00:51:36Z",
+  "last_updated": "2026-10-18T00:51:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676500,6 +676500,21 @@
         "cdn_resolve_sec": 4.9,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 31592,
+      "cr_slug": "atomic-shark",
+      "title": "Atomic Shark",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T00:51:57Z",
+      "first_failed_at": "2026-10-18T00:51:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
     }
   ],
   "in_progress": [
@@ -676532,16 +676547,6 @@
       "worker_id": "worker-4-39076223804",
       "run_id": "39076223804",
       "reserved_at": "2026-10-18T00:50:11Z"
-    },
-    {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39076223804",
-      "run_id": "39076223804",
-      "reserved_at": "2026-10-18T00:51:36Z"
     }
   ],
   "missing_on_account": [
