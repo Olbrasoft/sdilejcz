@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T15:15:17Z",
+  "last_updated": "2026-10-18T15:16:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674795,19 +674795,24 @@
         "download_sec": 970.3,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T15:13:21Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T15:16:08Z",
+      "first_failed_at": "2026-10-18T15:16:08Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 22.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13510,
       "cr_slug": "sexy-pistols",
