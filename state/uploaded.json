@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T08:10:11Z",
+  "last_updated": "2026-10-18T08:10:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675238,21 +675238,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T07:35:24Z",
-      "first_failed_at": "2026-10-18T07:04:36Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.4
-      }
-    },
-    {
       "cr_film_id": 22008,
       "cr_slug": "klarino-koleno",
       "title": "Klářino koleno",
@@ -676089,6 +676074,21 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T08:10:30Z",
+      "first_failed_at": "2026-10-18T07:04:36Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.3
+      }
     }
   ],
   "in_progress": [
@@ -676121,16 +676121,6 @@
       "worker_id": "worker-1-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T08:08:53Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T08:10:11Z"
     }
   ],
   "missing_on_account": [
