@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T04:14:39Z",
+  "last_updated": "2026-10-18T04:15:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674935,21 +674935,6 @@
       }
     },
     {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T03:38:40Z",
-      "first_failed_at": "2026-10-18T03:03:10Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 17521,
       "cr_slug": "wet-red-rose",
       "title": "Wet Red Rose",
@@ -675995,19 +675980,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
       "year": 1936,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39090868262",
-      "run_id": "39090868262",
-      "reserved_at": "2026-10-18T04:10:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T04:15:22Z",
+      "first_failed_at": "2026-10-18T03:03:10Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
