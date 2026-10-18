@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T10:00:59Z",
+  "last_updated": "2026-10-18T10:01:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678108,19 +678108,30 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 36855,
       "cr_slug": "dick-whittington",
       "title": "Dick Whittington",
       "year": 1993,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T09:55:16Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T10:01:18Z",
+      "first_failed_at": "2026-10-18T10:01:18Z",
+      "attempt_count": 1,
+      "upload_id": "65914d83b52ae",
+      "source_url": "https://prehraj.to/dick-whittington-1993/65914d83b52ae",
+      "upload_title": "Dick Whittington-1993",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.6,
+        "download_sec": 42.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37144,
       "cr_slug": "korsicti-bratri",
