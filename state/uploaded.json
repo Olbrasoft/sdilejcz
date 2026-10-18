@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T08:01:15Z",
+  "last_updated": "2026-10-18T08:02:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675972,6 +675972,27 @@
       "timing": {
         "cdn_resolve_sec": 9.4
       }
+    },
+    {
+      "cr_film_id": 26852,
+      "cr_slug": "make-the-yuletide-gay",
+      "title": "Make the Yuletide Gay",
+      "year": 2009,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-18T08:02:10Z",
+      "first_failed_at": "2026-10-18T08:02:10Z",
+      "attempt_count": 1,
+      "upload_id": "5869a8ab8ea0b",
+      "source_url": "https://prehraj.to/make-the-yuletide-gay-2009/5869a8ab8ea0b",
+      "upload_title": "Make-The-Yuletide-Gay-2009",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 13.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675994,16 +676015,6 @@
       "worker_id": "worker-2-39105126474",
       "run_id": "39105126474",
       "reserved_at": "2026-10-18T07:59:27Z"
-    },
-    {
-      "cr_film_id": 26852,
-      "cr_slug": "make-the-yuletide-gay",
-      "title": "Make the Yuletide Gay",
-      "year": 2009,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39105126474",
-      "run_id": "39105126474",
-      "reserved_at": "2026-10-18T08:01:15Z"
     }
   ],
   "missing_on_account": [
