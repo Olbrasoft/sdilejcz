@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T16:57:36Z",
+  "last_updated": "2026-10-18T16:57:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675298,21 +675298,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T16:23:42Z",
-      "first_failed_at": "2026-10-18T15:38:25Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.7
-      }
-    },
-    {
       "cr_film_id": 21094,
       "cr_slug": "sex-a-lucia",
       "title": "Sex a Lucía",
@@ -675638,6 +675623,21 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T16:57:57Z",
+      "first_failed_at": "2026-10-18T15:38:25Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
     }
   ],
   "in_progress": [
@@ -675670,16 +675670,6 @@
       "worker_id": "worker-3-39137718187",
       "run_id": "39137718187",
       "reserved_at": "2026-10-18T16:51:12Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39137718187",
-      "run_id": "39137718187",
-      "reserved_at": "2026-10-18T16:57:36Z"
     }
   ],
   "missing_on_account": [
