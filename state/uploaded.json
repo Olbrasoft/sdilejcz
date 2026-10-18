@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T14:39:43Z",
+  "last_updated": "2026-10-18T14:40:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677743,21 +677743,6 @@
       }
     },
     {
-      "cr_film_id": 37347,
-      "cr_slug": "recept-na-lasku",
-      "title": "Recept na lásku",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T14:07:45Z",
-      "first_failed_at": "2026-10-18T14:07:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.1
-      }
-    },
-    {
       "cr_film_id": 37352,
       "cr_slug": "terra-incognita-making-the-andromeda-strain",
       "title": "Terra Incognita: Making the Andromeda Strain",
@@ -678326,6 +678311,21 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
+    },
+    {
+      "cr_film_id": 37347,
+      "cr_slug": "recept-na-lasku",
+      "title": "Recept na lásku",
+      "year": 2001,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T14:40:08Z",
+      "first_failed_at": "2026-10-18T14:07:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -678338,16 +678338,6 @@
       "worker_id": "worker-2-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T14:18:41Z"
-    },
-    {
-      "cr_film_id": 37347,
-      "cr_slug": "recept-na-lasku",
-      "title": "Recept na lásku",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T14:39:43Z"
     }
   ],
   "missing_on_account": [
