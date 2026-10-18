@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T23:19:58Z",
+  "last_updated": "2026-10-18T23:20:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675696,21 +675696,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T22:44:40Z",
-      "first_failed_at": "2026-10-18T21:36:53Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -676236,6 +676221,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T23:20:23Z",
+      "first_failed_at": "2026-10-18T21:36:53Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -676268,16 +676268,6 @@
       "worker_id": "worker-3-39162708616",
       "run_id": "39162708616",
       "reserved_at": "2026-10-18T23:16:52Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-18T23:19:58Z"
     }
   ],
   "missing_on_account": [
