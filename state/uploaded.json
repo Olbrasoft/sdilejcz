@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-18T12:14:28Z",
+  "last_updated": "2026-10-18T12:14:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675470,21 +675470,6 @@
       }
     },
     {
-      "cr_film_id": 7654,
-      "cr_slug": "sammyho-dobrodruzstvi-2",
-      "title": "Sammyho dobrodružství 2",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T11:43:58Z",
-      "first_failed_at": "2026-10-18T10:36:21Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 18.9
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -676345,6 +676330,21 @@
       "timing": {
         "resolve_sec": 0.3
       }
+    },
+    {
+      "cr_film_id": 7654,
+      "cr_slug": "sammyho-dobrodruzstvi-2",
+      "title": "Sammyho dobrodružství 2",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-18T12:14:54Z",
+      "first_failed_at": "2026-10-18T10:36:21Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -676377,16 +676377,6 @@
       "worker_id": "worker-3-39119543271",
       "run_id": "39119543271",
       "reserved_at": "2026-10-18T12:13:49Z"
-    },
-    {
-      "cr_film_id": 7654,
-      "cr_slug": "sammyho-dobrodruzstvi-2",
-      "title": "Sammyho dobrodružství 2",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39119543271",
-      "run_id": "39119543271",
-      "reserved_at": "2026-10-18T12:14:28Z"
     }
   ],
   "missing_on_account": [
