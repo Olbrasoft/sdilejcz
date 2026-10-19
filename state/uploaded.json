@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T15:26:24Z",
+  "last_updated": "2026-10-19T15:26:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674249,6 +674249,27 @@
       "timing": {
         "cdn_resolve_sec": 10.6
       }
+    },
+    {
+      "cr_film_id": 13506,
+      "cr_slug": "nezkrotna-dee-dee",
+      "title": "Nezkrotná Dee Dee",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-19T15:26:39Z",
+      "first_failed_at": "2026-10-19T15:26:39Z",
+      "attempt_count": 1,
+      "upload_id": "60e251d0a762a",
+      "source_url": "https://prehraj.to/nezkrotna-dee-dee-cz-dabing/60e251d0a762a",
+      "upload_title": "Nezkrotna Dee Dee - CZ DABING",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 100.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674261,16 +674282,6 @@
       "worker_id": "worker-1-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T15:22:50Z"
-    },
-    {
-      "cr_film_id": 13506,
-      "cr_slug": "nezkrotna-dee-dee",
-      "title": "Nezkrotná Dee Dee",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T15:23:37Z"
     },
     {
       "cr_film_id": 13668,
