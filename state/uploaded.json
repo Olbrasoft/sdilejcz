@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T08:47:33Z",
+  "last_updated": "2026-10-19T08:47:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677243,21 +677243,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T08:13:36Z",
-      "first_failed_at": "2026-10-19T07:41:41Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -678212,6 +678197,21 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
+    },
+    {
+      "cr_film_id": 31671,
+      "cr_slug": "e11",
+      "title": "E11",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T08:47:57Z",
+      "first_failed_at": "2026-10-19T07:41:41Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.8
+      }
     }
   ],
   "in_progress": [
@@ -678244,16 +678244,6 @@
       "worker_id": "worker-1-39204247455",
       "run_id": "39204247455",
       "reserved_at": "2026-10-19T08:46:17Z"
-    },
-    {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39204247455",
-      "run_id": "39204247455",
-      "reserved_at": "2026-10-19T08:47:33Z"
     }
   ],
   "missing_on_account": [
