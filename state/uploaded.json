@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T21:45:48Z",
+  "last_updated": "2026-10-19T21:45:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675353,19 +675353,25 @@
       "timing": {
         "cdn_resolve_sec": 9.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-19T21:43:42Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-19T21:45:57Z",
+      "first_failed_at": "2026-10-19T21:45:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 7.0,
+        "download_sec": 4.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13512,
       "cr_slug": "sex-surrogate",
