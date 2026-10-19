@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T12:07:32Z",
+  "last_updated": "2026-10-19T12:07:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675477,21 +675477,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T11:36:30Z",
-      "first_failed_at": "2026-10-19T10:24:05Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.5
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -676016,6 +676001,21 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T12:07:57Z",
+      "first_failed_at": "2026-10-19T10:24:05Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -676048,16 +676048,6 @@
       "worker_id": "worker-2-39230877538",
       "run_id": "39230877538",
       "reserved_at": "2026-10-19T12:05:37Z"
-    },
-    {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39230877538",
-      "run_id": "39230877538",
-      "reserved_at": "2026-10-19T12:07:32Z"
     }
   ],
   "missing_on_account": [
