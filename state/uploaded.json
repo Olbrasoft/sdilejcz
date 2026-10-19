@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T20:15:06Z",
+  "last_updated": "2026-10-19T20:16:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677238,21 +677238,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T19:32:20Z",
-      "first_failed_at": "2026-10-19T18:55:08Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 30.4
-      }
-    },
-    {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
       "title": "Vzala jsem si mrtvého muže",
@@ -677991,6 +677976,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T20:16:08Z",
+      "first_failed_at": "2026-10-19T18:55:08Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.4
+      }
     }
   ],
   "in_progress": [
@@ -678003,16 +678003,6 @@
       "worker_id": "worker-1-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T20:06:31Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T20:08:49Z"
     },
     {
       "cr_film_id": 31669,
