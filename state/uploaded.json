@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T00:10:50Z",
+  "last_updated": "2026-10-19T00:11:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676714,21 +676714,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T23:37:46Z",
-      "first_failed_at": "2026-10-18T23:37:46Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 30363,
       "cr_slug": "otec-mrazik",
       "title": "Otec Mrazík",
@@ -677732,6 +677717,21 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
+    },
+    {
+      "cr_film_id": 31671,
+      "cr_slug": "e11",
+      "title": "E11",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T00:11:10Z",
+      "first_failed_at": "2026-10-18T23:37:46Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.5
+      }
     }
   ],
   "in_progress": [
@@ -677764,16 +677764,6 @@
       "worker_id": "worker-1-39162708616",
       "run_id": "39162708616",
       "reserved_at": "2026-10-19T00:09:57Z"
-    },
-    {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-19T00:10:50Z"
     }
   ],
   "missing_on_account": [
