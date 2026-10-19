@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T09:18:13Z",
+  "last_updated": "2026-10-19T09:18:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677733,21 +677733,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T08:46:46Z",
-      "first_failed_at": "2026-10-19T07:39:06Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
@@ -678319,20 +678304,24 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
       "year": null,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39204247455",
-      "run_id": "39204247455",
-      "reserved_at": "2026-10-19T09:18:13Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T09:18:38Z",
+      "first_failed_at": "2026-10-19T07:39:06Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
