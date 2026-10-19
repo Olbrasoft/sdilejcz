@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T23:10:27Z",
+  "last_updated": "2026-10-19T23:10:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675552,21 +675552,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T22:40:13Z",
-      "first_failed_at": "2026-10-19T21:30:54Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -676422,6 +676407,21 @@
         "cdn_resolve_sec": 1.3,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T23:10:49Z",
+      "first_failed_at": "2026-10-19T21:30:54Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
     }
   ],
   "in_progress": [
@@ -676454,16 +676454,6 @@
       "worker_id": "worker-2-39321449612",
       "run_id": "39321449612",
       "reserved_at": "2026-10-19T23:09:07Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-19T23:10:27Z"
     }
   ],
   "missing_on_account": [
