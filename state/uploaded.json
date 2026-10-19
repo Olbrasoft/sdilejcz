@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T19:37:46Z",
+  "last_updated": "2026-10-19T19:38:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676721,21 +676721,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T18:49:56Z",
-      "first_failed_at": "2026-10-19T18:49:56Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 29.7
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677690,19 +677675,24 @@
       "timing": {
         "cdn_resolve_sec": 29.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
       "year": null,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T19:20:40Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T19:38:09Z",
+      "first_failed_at": "2026-10-19T18:49:56Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 25.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 32877,
       "cr_slug": "sex-is-comedy",
