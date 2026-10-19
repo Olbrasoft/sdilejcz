@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T03:17:44Z",
+  "last_updated": "2026-10-19T03:18:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675367,21 +675367,6 @@
       }
     },
     {
-      "cr_film_id": 14227,
-      "cr_slug": "zeme-lednich-medvedu",
-      "title": "Země ledních medvědů",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T02:44:41Z",
-      "first_failed_at": "2026-10-19T01:39:34Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -676118,19 +676103,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T03:15:00Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T03:18:03Z",
+      "first_failed_at": "2026-10-19T01:39:34Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
