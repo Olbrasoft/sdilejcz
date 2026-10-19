@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T12:47:02Z",
+  "last_updated": "2026-10-19T12:47:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675858,21 +675858,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T12:13:22Z",
-      "first_failed_at": "2026-10-19T11:42:34Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676793,6 +676778,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T12:47:29Z",
+      "first_failed_at": "2026-10-19T11:42:34Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 15.5
+      }
     }
   ],
   "in_progress": [
@@ -676825,16 +676825,6 @@
       "worker_id": "worker-1-39230877538",
       "run_id": "39230877538",
       "reserved_at": "2026-10-19T12:45:20Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39230877538",
-      "run_id": "39230877538",
-      "reserved_at": "2026-10-19T12:47:02Z"
     }
   ],
   "missing_on_account": [
