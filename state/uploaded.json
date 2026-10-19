@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T04:32:12Z",
+  "last_updated": "2026-10-19T04:32:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676781,21 +676781,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T03:56:45Z",
-      "first_failed_at": "2026-10-19T03:56:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -677656,19 +677641,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T04:27:17Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T04:32:29Z",
+      "first_failed_at": "2026-10-19T03:56:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
