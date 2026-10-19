@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T08:34:11Z",
+  "last_updated": "2026-10-19T08:34:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677146,21 +677146,6 @@
       }
     },
     {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T08:03:42Z",
-      "first_failed_at": "2026-10-19T08:03:42Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.5
-      }
-    },
-    {
       "cr_film_id": 34408,
       "cr_slug": "velbloud-uchem-jehly",
       "title": "Velbloud uchem jehly",
@@ -678005,6 +677990,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34882,
+      "cr_slug": "brouk-v-hlave-1968",
+      "title": "Brouk v hlavě",
+      "year": 1968,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T08:34:36Z",
+      "first_failed_at": "2026-10-19T08:03:42Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.1
+      }
     }
   ],
   "in_progress": [
@@ -678037,16 +678037,6 @@
       "worker_id": "worker-3-39204247455",
       "run_id": "39204247455",
       "reserved_at": "2026-10-19T08:28:44Z"
-    },
-    {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39204247455",
-      "run_id": "39204247455",
-      "reserved_at": "2026-10-19T08:34:11Z"
     }
   ],
   "missing_on_account": [
