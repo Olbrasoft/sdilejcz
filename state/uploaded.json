@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T19:45:19Z",
+  "last_updated": "2026-10-19T19:45:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677206,21 +677206,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T19:12:40Z",
-      "first_failed_at": "2026-10-19T18:42:03Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 22.0
-      }
-    },
-    {
       "cr_film_id": 34850,
       "cr_slug": "duch-zraloka",
       "title": "Duch žraloka",
@@ -677753,6 +677738,21 @@
         "cdn_resolve_sec": 1.3,
         "download_sec": 2.9
       }
+    },
+    {
+      "cr_film_id": 31550,
+      "cr_slug": "passion-in-the-desert",
+      "title": "Passion in the Desert",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T19:45:53Z",
+      "first_failed_at": "2026-10-19T18:42:03Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 23.8
+      }
     }
   ],
   "in_progress": [
@@ -677785,16 +677785,6 @@
       "worker_id": "worker-2-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T19:44:23Z"
-    },
-    {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T19:45:19Z"
     }
   ],
   "missing_on_account": [
