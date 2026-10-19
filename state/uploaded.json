@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T04:04:48Z",
+  "last_updated": "2026-10-19T04:05:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677016,6 +677016,27 @@
         "resolve_sec": 1.1,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 31910,
+      "cr_slug": "2010-moby-dick",
+      "title": "2010: Moby Dick",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-19T04:05:29Z",
+      "first_failed_at": "2026-10-19T04:05:29Z",
+      "attempt_count": 1,
+      "upload_id": "66bf555d5bec0",
+      "source_url": "https://prehraj.to/moby-dick-2010-akcni-horor-cz/66bf555d5bec0",
+      "upload_title": "Moby-Dick-(2010)-Akční.Horor-CZ",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 34.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -677028,16 +677049,6 @@
       "worker_id": "worker-4-39184842447",
       "run_id": "39184842447",
       "reserved_at": "2026-10-19T03:56:55Z"
-    },
-    {
-      "cr_film_id": 31910,
-      "cr_slug": "2010-moby-dick",
-      "title": "2010: Moby Dick",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T04:00:14Z"
     },
     {
       "cr_film_id": 32058,
