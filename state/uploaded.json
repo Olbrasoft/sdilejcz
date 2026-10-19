@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T19:02:59Z",
+  "last_updated": "2026-10-19T19:03:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674649,6 +674649,30 @@
         "upload_sec": 97.2,
         "total_sec": 126.1
       }
+    },
+    {
+      "cr_film_id": 28039,
+      "cr_slug": "sex-drogy-a-dane",
+      "title": "Sex, drogy a daně",
+      "year": 2013,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5aa7b6821c95b",
+      "source_url": "https://prehraj.to/sex-drogy-a-dane-2013/5aa7b6821c95b",
+      "source_title": "Sex, drogy a daně (2013)",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35336476/sex-drogy-a-dane-2013-cz.mp4",
+      "sdilej_name": "Sex, drogy a daně (2013) CZ.mp4",
+      "uploaded_at": "2026-10-19T18:58:31Z",
+      "status": "uploaded",
+      "size_bytes": 1091984906,
+      "worker_id": "worker-4-39274422466",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 253.0,
+        "upload_sec": 472.0,
+        "total_sec": 726.5
+      }
     }
   ],
   "failed_attempts": [
@@ -676163,27 +676187,6 @@
       }
     },
     {
-      "cr_film_id": 28039,
-      "cr_slug": "sex-drogy-a-dane",
-      "title": "Sex, drogy a daně",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-19T18:01:51Z",
-      "first_failed_at": "2026-10-19T18:01:51Z",
-      "attempt_count": 1,
-      "upload_id": "5aa7b6821c95b",
-      "source_url": "https://prehraj.to/sex-drogy-a-dane-2013/5aa7b6821c95b",
-      "upload_title": "Sex, drogy a daně (2013)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 190.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -677165,16 +677168,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 28039,
-      "cr_slug": "sex-drogy-a-dane",
-      "title": "Sex, drogy a daně",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T18:46:16Z"
-    },
     {
       "cr_film_id": 33580,
       "cr_slug": "prenom-carmen",
