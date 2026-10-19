@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T20:01:40Z",
+  "last_updated": "2026-10-19T20:02:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677204,21 +677204,6 @@
       }
     },
     {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T19:18:05Z",
-      "first_failed_at": "2026-10-19T19:18:05Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 17.8
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -677834,6 +677819,21 @@
       "timing": {
         "cdn_resolve_sec": 18.2
       }
+    },
+    {
+      "cr_film_id": 34898,
+      "cr_slug": "sisters-2006",
+      "title": "Sisters",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T20:02:16Z",
+      "first_failed_at": "2026-10-19T19:18:05Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 22.4
+      }
     }
   ],
   "in_progress": [
@@ -677866,16 +677866,6 @@
       "worker_id": "worker-3-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T20:01:07Z"
-    },
-    {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T20:01:40Z"
     }
   ],
   "missing_on_account": [
