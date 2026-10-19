@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T03:33:12Z",
+  "last_updated": "2026-10-19T03:34:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676408,6 +676408,27 @@
       "timing": {
         "cdn_resolve_sec": 9.6
       }
+    },
+    {
+      "cr_film_id": 30561,
+      "cr_slug": "suck-it-up",
+      "title": "Suck It Up",
+      "year": 2017,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-19T03:34:15Z",
+      "first_failed_at": "2026-10-19T03:34:15Z",
+      "attempt_count": 1,
+      "upload_id": "80e811fb5cc054f6",
+      "source_url": "https://prehraj.to/suck-it-up-2017-en-sk-tit/80e811fb5cc054f6",
+      "upload_title": "Suck It Up (2017) EN SK tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 22.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676440,16 +676461,6 @@
       "worker_id": "worker-3-39184842447",
       "run_id": "39184842447",
       "reserved_at": "2026-10-19T03:31:46Z"
-    },
-    {
-      "cr_film_id": 30561,
-      "cr_slug": "suck-it-up",
-      "title": "Suck It Up",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T03:33:12Z"
     }
   ],
   "missing_on_account": [
