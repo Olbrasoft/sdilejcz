@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T10:50:12Z",
+  "last_updated": "2026-10-19T10:50:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674456,21 +674456,6 @@
       }
     },
     {
-      "cr_film_id": 12878,
-      "cr_slug": "pornograficky-vztah",
-      "title": "Pornografický vztah",
-      "year": 1999,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T10:17:33Z",
-      "first_failed_at": "2026-10-19T10:17:33Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -675441,19 +675426,24 @@
       "timing": {
         "cdn_resolve_sec": 15.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
       "year": 1999,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39230877538",
-      "run_id": "39230877538",
-      "reserved_at": "2026-10-19T10:48:29Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T10:50:37Z",
+      "first_failed_at": "2026-10-19T10:17:33Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
