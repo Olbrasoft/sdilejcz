@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T00:16:27Z",
+  "last_updated": "2026-10-19T00:18:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676699,21 +676699,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-18T23:37:16Z",
-      "first_failed_at": "2026-10-18T23:37:16Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 30363,
       "cr_slug": "otec-mrazik",
       "title": "Otec Mrazík",
@@ -677904,19 +677889,24 @@
         "resolve_sec": 1.1,
         "download_sec": 1.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-19T00:07:42Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T00:18:05Z",
+      "first_failed_at": "2026-10-18T23:37:16Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 32877,
       "cr_slug": "sex-is-comedy",
