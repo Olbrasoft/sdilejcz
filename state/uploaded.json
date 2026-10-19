@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T11:22:33Z",
+  "last_updated": "2026-10-19T11:23:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674781,21 +674781,6 @@
       }
     },
     {
-      "cr_film_id": 12286,
-      "cr_slug": "vrana-mesto-andelu",
-      "title": "Vrána: Město andělů",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T10:47:12Z",
-      "first_failed_at": "2026-10-19T10:14:47Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.0
-      }
-    },
-    {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
@@ -675695,19 +675680,24 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
       "year": 1996,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39230877538",
-      "run_id": "39230877538",
-      "reserved_at": "2026-10-19T11:17:34Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T11:23:13Z",
+      "first_failed_at": "2026-10-19T10:14:47Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22457,
       "cr_slug": "orli-pero",
