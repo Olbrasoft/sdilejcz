@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T08:54:23Z",
+  "last_updated": "2026-10-19T08:57:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678302,19 +678302,26 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37253,
       "cr_slug": "svedska-trojka",
       "title": "Švédská trojka",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39204247455",
-      "run_id": "39204247455",
-      "reserved_at": "2026-10-19T08:44:13Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-19T08:57:09Z",
+      "first_failed_at": "2026-10-19T08:57:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 5.9,
+        "download_sec": 75.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
