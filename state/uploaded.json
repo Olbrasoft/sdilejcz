@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T06:34:04Z",
+  "last_updated": "2026-10-19T06:34:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676083,19 +676083,30 @@
         "cdn_resolve_sec": 5.1,
         "download_sec": 1.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 22814,
       "cr_slug": "pee-weeho-velke-dobrodruzstvi",
       "title": "Pee-Weeho velké dobrodružství",
       "year": 1985,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39204247455",
-      "run_id": "39204247455",
-      "reserved_at": "2026-10-19T06:29:41Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-19T06:34:47Z",
+      "first_failed_at": "2026-10-19T06:34:47Z",
+      "attempt_count": 1,
+      "upload_id": "5ac0144be8f9b",
+      "source_url": "https://prehraj.to/herkulova-dobrodruzstvi-1985/5ac0144be8f9b",
+      "upload_title": "Herkulova dobrodružství (1985)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 42.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
