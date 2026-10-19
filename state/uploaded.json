@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T09:52:27Z",
+  "last_updated": "2026-10-19T09:52:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674106,19 +674106,26 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 6718,
       "cr_slug": "xxx",
       "title": "xXx",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39230877538",
-      "run_id": "39230877538",
-      "reserved_at": "2026-10-19T09:50:21Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-19T09:52:38Z",
+      "first_failed_at": "2026-10-19T09:52:38Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 2.9,
+        "download_sec": 68.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
