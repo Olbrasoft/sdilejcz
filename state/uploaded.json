@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T23:40:46Z",
+  "last_updated": "2026-10-19T23:41:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676447,22 +676447,6 @@
       "permanent": true
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-19T23:10:17Z",
-      "first_failed_at": "2026-10-19T23:10:17Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.3,
-        "download_sec": 2.1
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -676961,6 +676945,22 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-19T23:41:01Z",
+      "first_failed_at": "2026-10-19T23:10:17Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 2.6
+      }
     }
   ],
   "in_progress": [
@@ -676993,16 +676993,6 @@
       "worker_id": "worker-1-39321449612",
       "run_id": "39321449612",
       "reserved_at": "2026-10-19T23:30:25Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-19T23:40:46Z"
     }
   ],
   "missing_on_account": [
