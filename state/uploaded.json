@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T21:47:54Z",
+  "last_updated": "2026-10-19T21:48:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674225,6 +674225,27 @@
         "upload_sec": 158.7,
         "total_sec": 663.8
       }
+    },
+    {
+      "cr_film_id": 13512,
+      "cr_slug": "sex-surrogate",
+      "title": "Sex Surrogate",
+      "year": 2004,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 39129,
+      "sdilej_url": "https://sdilej.cz/35336963/sex-surrogate-2004-cz-dabing.mp4",
+      "sdilej_name": "Sex Surrogate (2004) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-19T21:46:41Z",
+      "status": "uploaded",
+      "size_bytes": 293944036,
+      "worker_id": "worker-1-39321449612",
+      "timing": {
+        "cdn_resolve_sec": 11.7,
+        "download_sec": 33.9,
+        "upload_sec": 51.1,
+        "total_sec": 96.8
+      }
     }
   ],
   "failed_attempts": [
@@ -674435,23 +674456,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 13512,
-      "cr_slug": "sex-surrogate",
-      "title": "Sex Surrogate",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-19T21:14:29Z",
-      "first_failed_at": "2026-10-19T21:14:29Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.1,
-        "download_sec": 55.5,
-        "upload_sec": 30.0
       }
     },
     {
@@ -675372,16 +675376,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 13512,
-      "cr_slug": "sex-surrogate",
-      "title": "Sex Surrogate",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-19T21:44:55Z"
-    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
