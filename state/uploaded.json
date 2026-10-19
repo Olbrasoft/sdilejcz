@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T11:46:51Z",
+  "last_updated": "2026-10-19T11:47:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675044,21 +675044,6 @@
       }
     },
     {
-      "cr_film_id": 14227,
-      "cr_slug": "zeme-lednich-medvedu",
-      "title": "Země ledních medvědů",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T11:05:06Z",
-      "first_failed_at": "2026-10-19T10:34:32Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 15.2
-      }
-    },
-    {
       "cr_film_id": 20985,
       "cr_slug": "the-king-of-kings",
       "title": "The King of Kings",
@@ -675877,19 +675862,24 @@
         "cdn_resolve_sec": 6.2,
         "download_sec": 2.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39230877538",
-      "run_id": "39230877538",
-      "reserved_at": "2026-10-19T11:35:11Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T11:47:29Z",
+      "first_failed_at": "2026-10-19T10:34:32Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23109,
       "cr_slug": "delta-force-2-kolumbijska-spojka",
