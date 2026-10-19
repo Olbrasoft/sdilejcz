@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T07:54:06Z",
+  "last_updated": "2026-10-19T07:54:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676185,21 +676185,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T07:20:07Z",
-      "first_failed_at": "2026-10-19T06:08:20Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.9
-      }
-    },
-    {
       "cr_film_id": 31235,
       "cr_slug": "mladi-titani-a-dc-super-hero-girls-chaos-v-mnohovesmiru",
       "title": "Mladí Titáni a DC Super Hero Girls: Chaos v mnohovesmíru",
@@ -677240,6 +677225,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T07:54:31Z",
+      "first_failed_at": "2026-10-19T06:08:20Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.4
+      }
     }
   ],
   "in_progress": [
@@ -677272,16 +677272,6 @@
       "worker_id": "worker-1-39204247455",
       "run_id": "39204247455",
       "reserved_at": "2026-10-19T07:53:36Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39204247455",
-      "run_id": "39204247455",
-      "reserved_at": "2026-10-19T07:54:06Z"
     }
   ],
   "missing_on_account": [
