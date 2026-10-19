@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T01:08:45Z",
+  "last_updated": "2026-10-19T01:09:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677633,21 +677633,6 @@
       }
     },
     {
-      "cr_film_id": 34957,
-      "cr_slug": "strasidelne-libanky",
-      "title": "Strašidelné líbánky",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T00:35:10Z",
-      "first_failed_at": "2026-10-19T00:04:46Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
       "title": "Strašidelné líbánky",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39162708616",
-      "run_id": "39162708616",
-      "reserved_at": "2026-10-19T01:08:45Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T01:09:11Z",
+      "first_failed_at": "2026-10-19T00:04:46Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
