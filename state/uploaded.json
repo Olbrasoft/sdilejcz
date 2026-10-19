@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T22:19:51Z",
+  "last_updated": "2026-10-19T22:20:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674901,21 +674901,6 @@
       }
     },
     {
-      "cr_film_id": 14227,
-      "cr_slug": "zeme-lednich-medvedu",
-      "title": "Země ledních medvědů",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T21:46:35Z",
-      "first_failed_at": "2026-10-19T21:16:09Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675752,19 +675737,24 @@
       "timing": {
         "cdn_resolve_sec": 16.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-19T22:17:23Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T22:20:06Z",
+      "first_failed_at": "2026-10-19T21:16:09Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
