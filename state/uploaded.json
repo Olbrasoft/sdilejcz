@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T17:24:23Z",
+  "last_updated": "2026-10-19T17:25:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675563,6 +675563,27 @@
       "timing": {
         "cdn_resolve_sec": 17.3
       }
+    },
+    {
+      "cr_film_id": 23841,
+      "cr_slug": "operace-delta-force",
+      "title": "Operace Delta Force",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-19T17:25:37Z",
+      "first_failed_at": "2026-10-19T17:25:37Z",
+      "attempt_count": 1,
+      "upload_id": "5aac6c7a0e5f7",
+      "source_url": "https://prehraj.to/operace-delta-force-1997/5aac6c7a0e5f7",
+      "upload_title": "Operace Delta Force (1997)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 30.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675595,16 +675616,6 @@
       "worker_id": "worker-4-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T17:23:49Z"
-    },
-    {
-      "cr_film_id": 23841,
-      "cr_slug": "operace-delta-force",
-      "title": "Operace Delta Force",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T17:24:23Z"
     }
   ],
   "missing_on_account": [
