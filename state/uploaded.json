@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T04:06:42Z",
+  "last_updated": "2026-10-19T04:08:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674718,6 +674718,30 @@
         "upload_sec": 67.3,
         "total_sec": 86.0
       }
+    },
+    {
+      "cr_film_id": 31910,
+      "cr_slug": "2010-moby-dick",
+      "title": "2010: Moby Dick",
+      "year": 2010,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5a1a60751916a",
+      "source_url": "https://prehraj.to/moby-dick-2010/5a1a60751916a",
+      "source_title": "Moby+Dick-2010",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35332646/2010-moby-dick-2010-cz.mp4",
+      "sdilej_name": "2010: Moby Dick (2010) CZ.mp4",
+      "uploaded_at": "2026-10-19T04:08:17Z",
+      "status": "uploaded",
+      "size_bytes": 522888637,
+      "worker_id": "worker-2-39184842447",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 17.3,
+        "upload_sec": 67.4,
+        "total_sec": 86.3
+      }
     }
   ],
   "failed_attempts": [
@@ -677042,27 +677066,6 @@
       }
     },
     {
-      "cr_film_id": 31910,
-      "cr_slug": "2010-moby-dick",
-      "title": "2010: Moby Dick",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-19T04:05:29Z",
-      "first_failed_at": "2026-10-19T04:05:29Z",
-      "attempt_count": 1,
-      "upload_id": "66bf555d5bec0",
-      "source_url": "https://prehraj.to/moby-dick-2010-akcni-horor-cz/66bf555d5bec0",
-      "upload_title": "Moby-Dick-(2010)-Akční.Horor-CZ",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 34.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 33953,
       "cr_slug": "they-live-in-the-grey",
       "title": "They Live in the Grey",
@@ -677112,16 +677115,6 @@
       "worker_id": "worker-1-39184842447",
       "run_id": "39184842447",
       "reserved_at": "2026-10-19T04:06:16Z"
-    },
-    {
-      "cr_film_id": 31910,
-      "cr_slug": "2010-moby-dick",
-      "title": "2010: Moby Dick",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T04:06:42Z"
     }
   ],
   "missing_on_account": [
