@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T09:27:37Z",
+  "last_updated": "2026-10-19T09:30:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674817,6 +674817,27 @@
         "upload_sec": 206.3,
         "total_sec": 264.2
       }
+    },
+    {
+      "cr_film_id": 37253,
+      "cr_slug": "svedska-trojka",
+      "title": "Švédská trojka",
+      "year": 1994,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 60869,
+      "sdilej_url": "https://sdilej.cz/35333821/svedska-trojka-1994-.mp4",
+      "sdilej_name": "Švédská trojka (1994).mp4",
+      "uploaded_at": "2026-10-19T09:30:38Z",
+      "status": "uploaded",
+      "size_bytes": 612647660,
+      "worker_id": "worker-1-39204247455",
+      "timing": {
+        "cdn_resolve_sec": 9.2,
+        "download_sec": 67.6,
+        "upload_sec": 94.4,
+        "total_sec": 171.3
+      }
     }
   ],
   "failed_attempts": [
@@ -677718,23 +677739,6 @@
       }
     },
     {
-      "cr_film_id": 37253,
-      "cr_slug": "svedska-trojka",
-      "title": "Švédská trojka",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-19T08:57:09Z",
-      "first_failed_at": "2026-10-19T08:57:09Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 5.9,
-        "download_sec": 75.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -678321,18 +678325,7 @@
       }
     }
   ],
-  "in_progress": [
-    {
-      "cr_film_id": 37253,
-      "cr_slug": "svedska-trojka",
-      "title": "Švédská trojka",
-      "year": 1994,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39204247455",
-      "run_id": "39204247455",
-      "reserved_at": "2026-10-19T09:27:37Z"
-    }
-  ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
