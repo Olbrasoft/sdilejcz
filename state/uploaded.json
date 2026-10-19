@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T06:56:49Z",
+  "last_updated": "2026-10-19T06:57:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675320,21 +675320,6 @@
       }
     },
     {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T06:14:44Z",
-      "first_failed_at": "2026-10-19T05:41:02Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
@@ -676176,19 +676161,24 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39204247455",
-      "run_id": "39204247455",
-      "reserved_at": "2026-10-19T06:54:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T06:57:01Z",
+      "first_failed_at": "2026-10-19T05:41:02Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
