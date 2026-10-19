@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T02:27:01Z",
+  "last_updated": "2026-10-19T02:27:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674762,21 +674762,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T01:50:49Z",
-      "first_failed_at": "2026-10-19T01:50:49Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -675483,19 +675468,24 @@
       "timing": {
         "cdn_resolve_sec": 9.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T02:22:47Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T02:27:35Z",
+      "first_failed_at": "2026-10-19T01:50:49Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19583,
       "cr_slug": "sex-ve-meste",
