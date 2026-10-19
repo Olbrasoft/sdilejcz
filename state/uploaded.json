@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T16:18:24Z",
+  "last_updated": "2026-10-19T16:18:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674322,21 +674322,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T15:46:14Z",
-      "first_failed_at": "2026-10-19T15:14:44Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -674955,6 +674940,21 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T16:18:49Z",
+      "first_failed_at": "2026-10-19T15:14:44Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -674987,16 +674987,6 @@
       "worker_id": "worker-3-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T16:16:02Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T16:18:24Z"
     }
   ],
   "missing_on_account": [
