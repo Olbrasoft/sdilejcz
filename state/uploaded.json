@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T17:04:52Z",
+  "last_updated": "2026-10-19T17:05:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674738,21 +674738,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T16:33:35Z",
-      "first_failed_at": "2026-10-19T15:31:24Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 17.0
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675381,6 +675366,21 @@
       "timing": {
         "resolve_sec": 0.4
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T17:05:18Z",
+      "first_failed_at": "2026-10-19T15:31:24Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -675413,16 +675413,6 @@
       "worker_id": "worker-4-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T17:00:52Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T17:04:52Z"
     }
   ],
   "missing_on_account": [
