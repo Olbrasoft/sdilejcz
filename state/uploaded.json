@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T17:18:24Z",
+  "last_updated": "2026-10-19T17:19:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674566,21 +674566,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T16:29:26Z",
-      "first_failed_at": "2026-10-19T15:21:22Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 15.2
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -675463,19 +675448,24 @@
       "timing": {
         "cdn_resolve_sec": 21.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T17:10:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T17:19:33Z",
+      "first_failed_at": "2026-10-19T15:21:22Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23711,
       "cr_slug": "sex-po-telefonu",
