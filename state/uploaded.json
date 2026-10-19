@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T01:24:28Z",
+  "last_updated": "2026-10-19T01:24:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674222,19 +674222,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T01:21:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T01:24:44Z",
+      "first_failed_at": "2026-10-19T01:24:44Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
