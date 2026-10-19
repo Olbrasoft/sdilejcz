@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T02:17:32Z",
+  "last_updated": "2026-10-19T02:17:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675373,6 +675373,27 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
+    },
+    {
+      "cr_film_id": 19427,
+      "cr_slug": "lolita",
+      "title": "Lolita",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-19T02:17:57Z",
+      "first_failed_at": "2026-10-19T02:17:57Z",
+      "attempt_count": 1,
+      "upload_id": "7546d19c5ebefa2c",
+      "source_url": "https://prehraj.to/lolita-1997-czdab-mp4/7546d19c5ebefa2c",
+      "upload_title": "Lolita,(1997),CZdab.mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 91.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675385,16 +675406,6 @@
       "worker_id": "worker-4-39184842447",
       "run_id": "39184842447",
       "reserved_at": "2026-10-19T02:05:56Z"
-    },
-    {
-      "cr_film_id": 19427,
-      "cr_slug": "lolita",
-      "title": "Lolita",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T02:14:19Z"
     },
     {
       "cr_film_id": 16492,
