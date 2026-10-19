@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T16:25:55Z",
+  "last_updated": "2026-10-19T16:26:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674372,21 +674372,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T15:54:51Z",
-      "first_failed_at": "2026-10-19T15:23:28Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
@@ -674955,6 +674940,21 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T16:26:17Z",
+      "first_failed_at": "2026-10-19T15:23:28Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
     }
   ],
   "in_progress": [
@@ -674987,16 +674987,6 @@
       "worker_id": "worker-1-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T16:24:57Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T16:25:55Z"
     }
   ],
   "missing_on_account": [
