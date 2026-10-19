@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T02:24:32Z",
+  "last_updated": "2026-10-19T02:25:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674240,6 +674240,30 @@
         "upload_sec": 79.7,
         "total_sec": 106.3
       }
+    },
+    {
+      "cr_film_id": 19427,
+      "cr_slug": "lolita",
+      "title": "Lolita",
+      "year": 1997,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "1c036f071f1a588c",
+      "source_url": "https://prehraj.to/lolita-1997-cz-dab-1080p/1c036f071f1a588c",
+      "source_title": "Lolita 1997 CZ dab 1080p",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35332363/lolita-1997-cz-dabing.mp4",
+      "sdilej_name": "Lolita (1997) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-19T02:23:32Z",
+      "status": "uploaded",
+      "size_bytes": 1907741365,
+      "worker_id": "worker-2-39184842447",
+      "timing": {
+        "resolve_sec": 0.7,
+        "download_sec": 53.3,
+        "upload_sec": 243.2,
+        "total_sec": 297.9
+      }
     }
   ],
   "failed_attempts": [
@@ -675332,27 +675356,6 @@
       }
     },
     {
-      "cr_film_id": 19427,
-      "cr_slug": "lolita",
-      "title": "Lolita",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-19T02:17:57Z",
-      "first_failed_at": "2026-10-19T02:17:57Z",
-      "attempt_count": 1,
-      "upload_id": "7546d19c5ebefa2c",
-      "source_url": "https://prehraj.to/lolita-1997-czdab-mp4/7546d19c5ebefa2c",
-      "upload_title": "Lolita,(1997),CZdab.mp4",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 91.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -675445,16 +675448,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 19427,
-      "cr_slug": "lolita",
-      "title": "Lolita",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T02:18:26Z"
-    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
