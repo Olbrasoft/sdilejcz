@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T17:49:39Z",
+  "last_updated": "2026-10-19T17:50:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675446,21 +675446,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T17:12:32Z",
-      "first_failed_at": "2026-10-19T15:44:14Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 19.2
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -675845,6 +675830,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T17:50:18Z",
+      "first_failed_at": "2026-10-19T15:44:14Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 27.8
+      }
     }
   ],
   "in_progress": [
@@ -675877,16 +675877,6 @@
       "worker_id": "worker-1-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T17:48:22Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T17:49:39Z"
     }
   ],
   "missing_on_account": [
