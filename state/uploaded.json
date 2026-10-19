@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T04:58:30Z",
+  "last_updated": "2026-10-19T04:58:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674814,6 +674814,27 @@
         "upload_sec": 56.6,
         "total_sec": 78.2
       }
+    },
+    {
+      "cr_film_id": 34739,
+      "cr_slug": "pikova-trojka",
+      "title": "Piková trojka",
+      "year": 2003,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 27882,
+      "sdilej_url": "https://sdilej.cz/35332761/pikova-trojka-2003-cz-dabing.mp4",
+      "sdilej_name": "Piková trojka (2003) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-19T04:53:12Z",
+      "status": "uploaded",
+      "size_bytes": 669535430,
+      "worker_id": "worker-1-39184842447",
+      "timing": {
+        "cdn_resolve_sec": 10.9,
+        "download_sec": 64.5,
+        "upload_sec": 109.7,
+        "total_sec": 185.3
+      }
     }
   ],
   "failed_attempts": [
@@ -677134,23 +677155,6 @@
       }
     },
     {
-      "cr_film_id": 34739,
-      "cr_slug": "pikova-trojka",
-      "title": "Piková trojka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-19T04:17:19Z",
-      "first_failed_at": "2026-10-19T04:17:19Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.1,
-        "download_sec": 62.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
@@ -678208,16 +678212,6 @@
       "worker_id": "worker-2-39184842447",
       "run_id": "39184842447",
       "reserved_at": "2026-10-19T04:49:28Z"
-    },
-    {
-      "cr_film_id": 34739,
-      "cr_slug": "pikova-trojka",
-      "title": "Piková trojka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T04:49:58Z"
     },
     {
       "cr_film_id": 31669,
