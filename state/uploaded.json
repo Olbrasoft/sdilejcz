@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T20:20:09Z",
+  "last_updated": "2026-10-19T20:20:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677283,21 +677283,6 @@
       }
     },
     {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T19:50:08Z",
-      "first_failed_at": "2026-10-19T19:11:55Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.5
-      }
-    },
-    {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
@@ -678029,6 +678014,21 @@
       "timing": {
         "resolve_sec": 0.4
       }
+    },
+    {
+      "cr_film_id": 34842,
+      "cr_slug": "mstitel-s-pistalou",
+      "title": "Mstitel s píšťalou",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T20:20:32Z",
+      "first_failed_at": "2026-10-19T19:11:55Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.8
+      }
     }
   ],
   "in_progress": [
@@ -678061,16 +678061,6 @@
       "worker_id": "worker-4-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T20:15:06Z"
-    },
-    {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T20:20:09Z"
     }
   ],
   "missing_on_account": [
