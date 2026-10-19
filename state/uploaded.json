@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T04:40:45Z",
+  "last_updated": "2026-10-19T04:40:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676766,21 +676766,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T03:56:22Z",
-      "first_failed_at": "2026-10-19T03:56:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -677892,19 +677877,24 @@
         "resolve_sec": 0.8,
         "download_sec": 1.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39184842447",
-      "run_id": "39184842447",
-      "reserved_at": "2026-10-19T04:27:47Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T04:40:57Z",
+      "first_failed_at": "2026-10-19T03:56:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
