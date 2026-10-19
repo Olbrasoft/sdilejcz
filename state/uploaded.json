@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T20:02:28Z",
+  "last_updated": "2026-10-19T20:02:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677268,21 +677268,6 @@
       }
     },
     {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T19:31:25Z",
-      "first_failed_at": "2026-10-19T19:31:25Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 29.7
-      }
-    },
-    {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
@@ -677834,6 +677819,21 @@
       "timing": {
         "cdn_resolve_sec": 22.4
       }
+    },
+    {
+      "cr_film_id": 34949,
+      "cr_slug": "duch-ohne",
+      "title": "Duch ohně",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T20:02:53Z",
+      "first_failed_at": "2026-10-19T19:31:25Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -677866,16 +677866,6 @@
       "worker_id": "worker-3-39274422466",
       "run_id": "39274422466",
       "reserved_at": "2026-10-19T20:01:07Z"
-    },
-    {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T20:02:28Z"
     }
   ],
   "missing_on_account": [
