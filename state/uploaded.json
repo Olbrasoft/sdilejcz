@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T19:38:22Z",
+  "last_updated": "2026-10-19T19:38:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674745,6 +674745,30 @@
         "upload_sec": 97.4,
         "total_sec": 131.1
       }
+    },
+    {
+      "cr_film_id": 32877,
+      "cr_slug": "sex-is-comedy",
+      "title": "Sex is Comedy",
+      "year": 2002,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5881e4934c5ac",
+      "source_url": "https://prehraj.to/sex-is-comedy-breillat-2002/5881e4934c5ac",
+      "source_title": "Sex-is-Comedy.Breillat.2002",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35336623/sex-is-comedy-2002-.mp4",
+      "sdilej_name": "Sex is Comedy (2002).mp4",
+      "uploaded_at": "2026-10-19T19:32:34Z",
+      "status": "uploaded",
+      "size_bytes": 570978624,
+      "worker_id": "worker-1-39274422466",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 36.0,
+        "upload_sec": 83.6,
+        "total_sec": 121.0
+      }
     }
   ],
   "failed_attempts": [
@@ -676912,27 +676936,6 @@
       }
     },
     {
-      "cr_film_id": 32877,
-      "cr_slug": "sex-is-comedy",
-      "title": "Sex is Comedy",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-19T18:59:20Z",
-      "first_failed_at": "2026-10-19T18:59:20Z",
-      "attempt_count": 1,
-      "upload_id": "5881e4934c5ac",
-      "source_url": "https://prehraj.to/sex-is-comedy-breillat-2002/5881e4934c5ac",
-      "upload_title": "Sex-is-Comedy.Breillat.2002",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 47.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34329,
       "cr_slug": "pola-x",
       "title": "Pola X",
@@ -677693,16 +677696,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 32877,
-      "cr_slug": "sex-is-comedy",
-      "title": "Sex is Comedy",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39274422466",
-      "run_id": "39274422466",
-      "reserved_at": "2026-10-19T19:30:22Z"
-    },
     {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
