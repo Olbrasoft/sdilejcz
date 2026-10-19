@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T07:16:58Z",
+  "last_updated": "2026-10-19T07:17:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676663,19 +676663,25 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39204247455",
-      "run_id": "39204247455",
-      "reserved_at": "2026-10-19T07:13:55Z"
-    },
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-19T07:17:14Z",
+      "first_failed_at": "2026-10-19T07:17:14Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 3.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
