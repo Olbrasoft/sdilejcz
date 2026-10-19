@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-19T22:39:48Z",
+  "last_updated": "2026-10-19T22:40:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675300,21 +675300,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T22:09:35Z",
-      "first_failed_at": "2026-10-19T21:30:54Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -676034,6 +676019,21 @@
       "timing": {
         "cdn_resolve_sec": 15.5
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-19T22:40:13Z",
+      "first_failed_at": "2026-10-19T21:30:54Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -676066,16 +676066,6 @@
       "worker_id": "worker-2-39321449612",
       "run_id": "39321449612",
       "reserved_at": "2026-10-19T22:38:42Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-19T22:39:48Z"
     }
   ],
   "missing_on_account": [
