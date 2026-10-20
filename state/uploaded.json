@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T10:56:04Z",
+  "last_updated": "2026-10-20T10:56:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674360,21 +674360,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T10:21:57Z",
-      "first_failed_at": "2026-10-20T10:21:57Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675498,19 +675483,24 @@
       "timing": {
         "resolve_sec": 0.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
       "year": 1982,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T10:52:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T10:56:17Z",
+      "first_failed_at": "2026-10-20T10:21:57Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
