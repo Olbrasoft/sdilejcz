@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T03:02:19Z",
+  "last_updated": "2026-10-20T03:02:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676380,6 +676380,25 @@
       "attempt_count": 3,
       "timing": {
         "cdn_resolve_sec": 9.9
+      }
+    },
+    {
+      "cr_film_id": 30381,
+      "cr_slug": "atrakce-svedskeho-zajezdu",
+      "title": "Atrakce švédského zájezdu",
+      "year": 1989,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/atrakce-svedskeho-zajezdu-1989-cz/910c8d48ecd8007e",
+      "failed_at": "2026-10-20T03:02:30Z",
+      "first_failed_at": "2026-10-20T03:02:30Z",
+      "attempt_count": 1,
+      "upload_id": "910c8d48ecd8007e",
+      "source_url": "https://prehraj.to/atrakce-svedskeho-zajezdu-1989-cz/910c8d48ecd8007e",
+      "upload_title": "Atrakce švédského zájezdu (1989) CZ",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.6
       }
     }
   ],
