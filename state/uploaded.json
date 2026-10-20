@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T06:06:41Z",
+  "last_updated": "2026-10-20T06:06:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674147,6 +674147,30 @@
         "upload_sec": 299.9,
         "total_sec": 371.3
       }
+    },
+    {
+      "cr_film_id": 13506,
+      "cr_slug": "nezkrotna-dee-dee",
+      "title": "Nezkrotná Dee Dee",
+      "year": 2005,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5ac38573d80ec",
+      "source_url": "https://prehraj.to/nezkrotna-dee-dee-2006/5ac38573d80ec",
+      "source_title": "Nezkrotná Dee Dee (2006)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35338230/nezkrotna-dee-dee-2005-cz-dabing.mp4",
+      "sdilej_name": "Nezkrotná Dee Dee (2005) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-20T06:06:12Z",
+      "status": "uploaded",
+      "size_bytes": 621860347,
+      "worker_id": "worker-2-39376123091",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 23.9,
+        "upload_sec": 109.0,
+        "total_sec": 134.5
+      }
     }
   ],
   "failed_attempts": [
@@ -674810,27 +674834,6 @@
       }
     },
     {
-      "cr_film_id": 13506,
-      "cr_slug": "nezkrotna-dee-dee",
-      "title": "Nezkrotná Dee Dee",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-20T06:02:41Z",
-      "first_failed_at": "2026-10-20T06:02:41Z",
-      "attempt_count": 1,
-      "upload_id": "60e251d0a762a",
-      "source_url": "https://prehraj.to/nezkrotna-dee-dee-cz-dabing/60e251d0a762a",
-      "upload_title": "Nezkrotna Dee Dee - CZ DABING",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 65.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -674956,16 +674959,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 13506,
-      "cr_slug": "nezkrotna-dee-dee",
-      "title": "Nezkrotná Dee Dee",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39376123091",
-      "run_id": "39376123091",
-      "reserved_at": "2026-10-20T06:03:49Z"
-    },
     {
       "cr_film_id": 16379,
       "cr_slug": "blazing-fists",
