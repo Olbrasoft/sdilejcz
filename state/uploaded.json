@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T10:27:30Z",
+  "last_updated": "2026-10-20T10:27:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675127,6 +675127,22 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-20T10:27:50Z",
+      "first_failed_at": "2026-10-20T10:27:50Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 2.7
+      }
     }
   ],
   "in_progress": [
@@ -675159,16 +675175,6 @@
       "worker_id": "worker-1-39403322869",
       "run_id": "39403322869",
       "reserved_at": "2026-10-20T10:26:03Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T10:27:17Z"
     }
   ],
   "missing_on_account": [
