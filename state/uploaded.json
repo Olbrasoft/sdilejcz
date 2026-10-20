@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T07:24:32Z",
+  "last_updated": "2026-10-20T07:24:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675077,21 +675077,6 @@
       }
     },
     {
-      "cr_film_id": 14390,
-      "cr_slug": "ztraceny-poklad-azteku",
-      "title": "Ztracený poklad Aztéků",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T06:37:18Z",
-      "first_failed_at": "2026-10-20T06:03:12Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675934,19 +675919,24 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39376123091",
-      "run_id": "39376123091",
-      "reserved_at": "2026-10-20T07:10:24Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T07:24:46Z",
+      "first_failed_at": "2026-10-20T06:03:12Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
