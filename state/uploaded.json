@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T05:03:13Z",
+  "last_updated": "2026-10-20T05:03:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676680,22 +676680,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-20T03:43:13Z",
-      "first_failed_at": "2026-10-20T02:07:31Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 3.8,
-        "download_sec": 1.7
-      }
-    },
-    {
       "cr_film_id": 33580,
       "cr_slug": "prenom-carmen",
       "title": "Prénom Carmen",
@@ -678322,20 +678306,25 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39351659518",
-      "run_id": "39351659518",
-      "reserved_at": "2026-10-20T05:03:13Z"
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-20T05:03:31Z",
+      "first_failed_at": "2026-10-20T02:07:31Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 5.4,
+        "download_sec": 2.3
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
