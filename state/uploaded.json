@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T11:27:12Z",
+  "last_updated": "2026-10-20T11:27:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674878,21 +674878,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T10:54:18Z",
-      "first_failed_at": "2026-10-20T10:13:43Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
@@ -675738,19 +675723,24 @@
         "download_sec": 58.0,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
       "year": 1933,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T11:24:20Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T11:27:29Z",
+      "first_failed_at": "2026-10-20T10:13:43Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
