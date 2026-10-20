@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T00:08:42Z",
+  "last_updated": "2026-10-20T00:09:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677594,6 +677594,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34969,
+      "cr_slug": "snehurka-pribeh-hruzy",
+      "title": "Sněhurka - Příběh hrůzy",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T00:09:02Z",
+      "first_failed_at": "2026-10-20T00:09:02Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -677616,16 +677631,6 @@
       "worker_id": "worker-2-39321449612",
       "run_id": "39321449612",
       "reserved_at": "2026-10-20T00:05:03Z"
-    },
-    {
-      "cr_film_id": 34969,
-      "cr_slug": "snehurka-pribeh-hruzy",
-      "title": "Sněhurka - Příběh hrůzy",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-20T00:08:32Z"
     }
   ],
   "missing_on_account": [
