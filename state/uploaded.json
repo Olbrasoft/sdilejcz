@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T10:12:19Z",
+  "last_updated": "2026-10-20T10:12:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674605,19 +674605,24 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T09:59:37Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T10:12:34Z",
+      "first_failed_at": "2026-10-20T10:12:34Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 17.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
