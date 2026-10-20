@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T00:17:41Z",
+  "last_updated": "2026-10-20T00:17:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676860,22 +676860,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-19T23:41:01Z",
-      "first_failed_at": "2026-10-19T23:10:17Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 2.0,
-        "download_sec": 2.6
-      }
-    },
-    {
       "cr_film_id": 33953,
       "cr_slug": "they-live-in-the-grey",
       "title": "They Live in the Grey",
@@ -677814,6 +677798,22 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-20T00:17:57Z",
+      "first_failed_at": "2026-10-19T23:10:17Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 2.4
+      }
     }
   ],
   "in_progress": [
@@ -677836,16 +677836,6 @@
       "worker_id": "worker-3-39321449612",
       "run_id": "39321449612",
       "reserved_at": "2026-10-20T00:15:57Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-20T00:17:41Z"
     }
   ],
   "missing_on_account": [
