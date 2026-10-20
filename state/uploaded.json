@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T11:24:56Z",
+  "last_updated": "2026-10-20T11:25:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674173,6 +674173,30 @@
         "upload_sec": 112.5,
         "total_sec": 204.8
       }
+    },
+    {
+      "cr_film_id": 24529,
+      "cr_slug": "sex-instruktor",
+      "title": "Sex instruktor",
+      "year": 2001,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5c05c0e770aa5",
+      "source_url": "https://prehraj.to/sex-instruktor-2001-cz-dabing/5c05c0e770aa5",
+      "source_title": "Sex Instruktor (2001) CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35339411/sex-instruktor-2001-cz-dabing.mp4",
+      "sdilej_name": "Sex instruktor (2001) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-20T11:22:46Z",
+      "status": "uploaded",
+      "size_bytes": 473969239,
+      "worker_id": "worker-1-39403322869",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 26.2,
+        "upload_sec": 89.7,
+        "total_sec": 117.8
+      }
     }
   ],
   "failed_attempts": [
@@ -675350,27 +675374,6 @@
       }
     },
     {
-      "cr_film_id": 24529,
-      "cr_slug": "sex-instruktor",
-      "title": "Sex instruktor",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-20T11:09:31Z",
-      "first_failed_at": "2026-10-20T11:09:31Z",
-      "attempt_count": 1,
-      "upload_id": "5b4f66ebd2e44",
-      "source_url": "https://prehraj.to/sex-instruktor-2001-cz-dabing/5b4f66ebd2e44",
-      "upload_title": "Sex Instruktor (2001) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 16.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
       "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
@@ -675717,16 +675720,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 24529,
-      "cr_slug": "sex-instruktor",
-      "title": "Sex instruktor",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T11:20:39Z"
-    },
     {
       "cr_film_id": 24545,
       "cr_slug": "amores-perros-laska-je-kurva",
