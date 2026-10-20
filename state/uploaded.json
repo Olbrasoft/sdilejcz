@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T00:05:03Z",
+  "last_updated": "2026-10-20T00:05:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677479,19 +677479,30 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31756,
       "cr_slug": "sex-after-kids",
       "title": "Sex After Kids",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-19T23:27:36Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-20T00:05:24Z",
+      "first_failed_at": "2026-10-20T00:05:24Z",
+      "attempt_count": 1,
+      "upload_id": "585b1c0e0f695",
+      "source_url": "https://prehraj.to/sex-after-kids-2013-cztit-v-obraze/585b1c0e0f695",
+      "upload_title": "Sex After Kids (2013)CZtit V OBRAZE",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 17.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34739,
       "cr_slug": "pikova-trojka",
