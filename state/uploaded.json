@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T04:58:37Z",
+  "last_updated": "2026-10-20T05:02:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676139,21 +676139,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T03:13:38Z",
-      "first_failed_at": "2026-10-20T02:05:39Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.5
-      }
-    },
-    {
       "cr_film_id": 30405,
       "cr_slug": "bratri-ve-zbrani",
       "title": "Bratři ve zbrani",
@@ -678322,20 +678307,24 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
       "title": "Moje máma Jayne",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39351659518",
-      "run_id": "39351659518",
-      "reserved_at": "2026-10-20T04:08:15Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T05:02:26Z",
+      "first_failed_at": "2026-10-20T02:05:39Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
