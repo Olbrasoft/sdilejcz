@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T09:15:23Z",
+  "last_updated": "2026-10-20T09:15:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677138,21 +677138,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T08:31:47Z",
-      "first_failed_at": "2026-10-20T08:00:57Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
@@ -678199,6 +678184,21 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
+    },
+    {
+      "cr_film_id": 31592,
+      "cr_slug": "atomic-shark",
+      "title": "Atomic Shark",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T09:15:49Z",
+      "first_failed_at": "2026-10-20T08:00:57Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
     }
   ],
   "in_progress": [
@@ -678221,16 +678221,6 @@
       "worker_id": "worker-3-39376123091",
       "run_id": "39376123091",
       "reserved_at": "2026-10-20T09:14:07Z"
-    },
-    {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39376123091",
-      "run_id": "39376123091",
-      "reserved_at": "2026-10-20T09:15:23Z"
     }
   ],
   "missing_on_account": [
