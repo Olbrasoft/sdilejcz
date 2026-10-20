@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T00:30:44Z",
+  "last_updated": "2026-10-20T00:31:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677142,21 +677142,6 @@
       }
     },
     {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-19T23:57:27Z",
-      "first_failed_at": "2026-10-19T23:21:47Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
       "title": "12:01 PM",
@@ -677986,6 +677971,21 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
+    },
+    {
+      "cr_film_id": 31648,
+      "cr_slug": "n-io-e-napoleone",
+      "title": "N - Io e Napoleone",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T00:31:10Z",
+      "first_failed_at": "2026-10-19T23:21:47Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -678018,16 +678018,6 @@
       "worker_id": "worker-4-39321449612",
       "run_id": "39321449612",
       "reserved_at": "2026-10-20T00:29:10Z"
-    },
-    {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39321449612",
-      "run_id": "39321449612",
-      "reserved_at": "2026-10-20T00:30:44Z"
     }
   ],
   "missing_on_account": [
