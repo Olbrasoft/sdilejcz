@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T05:23:55Z",
+  "last_updated": "2026-10-20T05:24:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677666,21 +677666,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T04:53:41Z",
-      "first_failed_at": "2026-10-20T03:28:38Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 34898,
       "cr_slug": "sisters-2006",
       "title": "Sisters",
@@ -678326,20 +678311,24 @@
       "timing": {
         "cdn_resolve_sec": 12.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
       "year": 1932,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39351659518",
-      "run_id": "39351659518",
-      "reserved_at": "2026-10-20T05:23:55Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T05:24:17Z",
+      "first_failed_at": "2026-10-20T03:28:38Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
