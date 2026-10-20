@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T13:47:32Z",
+  "last_updated": "2026-10-20T13:49:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674721,6 +674721,30 @@
         "upload_sec": 114.7,
         "total_sec": 147.8
       }
+    },
+    {
+      "cr_film_id": 29406,
+      "cr_slug": "rocco",
+      "title": "Rocco",
+      "year": 2016,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5cd9e262c91b4",
+      "source_url": "https://prehraj.to/rocco-2016-cz-titulky/5cd9e262c91b4",
+      "source_title": "Rocco 2016 - CZ TITULKY",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35339807/rocco-2016-cz-titulky.mp4",
+      "sdilej_name": "Rocco (2016) CZ titulky.mp4",
+      "uploaded_at": "2026-10-20T13:13:33Z",
+      "status": "uploaded",
+      "size_bytes": 460830412,
+      "worker_id": "worker-2-39403322869",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 22.0,
+        "upload_sec": 84.0,
+        "total_sec": 107.7
+      }
     }
   ],
   "failed_attempts": [
@@ -676301,69 +676325,6 @@
       "attempt_count": 4,
       "timing": {
         "cdn_resolve_sec": 12.9
-      }
-    },
-    {
-      "cr_film_id": 29406,
-      "cr_slug": "rocco",
-      "title": "Rocco",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-20T12:28:21Z",
-      "first_failed_at": "2026-10-20T12:28:21Z",
-      "attempt_count": 1,
-      "upload_id": "5cd9e262c91b4",
-      "source_url": "https://prehraj.to/rocco-2016-cz-titulky/5cd9e262c91b4",
-      "upload_title": "Rocco 2016 - CZ TITULKY",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 25.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 29406,
-      "cr_slug": "rocco",
-      "title": "Rocco",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-20T12:30:27Z",
-      "first_failed_at": "2026-10-20T12:30:27Z",
-      "attempt_count": 1,
-      "upload_id": "5cde8d3b5b055",
-      "source_url": "https://prehraj.to/rocco-2016-cztit/5cde8d3b5b055",
-      "upload_title": "Rocco (2016) CZtit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 26.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 29406,
-      "cr_slug": "rocco",
-      "title": "Rocco",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-20T12:32:19Z",
-      "first_failed_at": "2026-10-20T12:32:19Z",
-      "attempt_count": 1,
-      "upload_id": "61aeaf7da66a5",
-      "source_url": "https://prehraj.to/rocco-rocco-2016-dokumentarni-cz-titulky/61aeaf7da66a5",
-      "upload_title": "Rocco [Rocco] (2016) dokumentární CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 24.4,
-        "upload_sec": 30.0
       }
     },
     {
@@ -677949,16 +677910,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 29406,
-      "cr_slug": "rocco",
-      "title": "Rocco",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T13:11:35Z"
-    },
     {
       "cr_film_id": 29067,
       "cr_slug": "amateur-teens",
