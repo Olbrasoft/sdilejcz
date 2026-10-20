@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T11:09:12Z",
+  "last_updated": "2026-10-20T11:09:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675689,19 +675689,30 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 24529,
       "cr_slug": "sex-instruktor",
       "title": "Sex instruktor",
       "year": 2001,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T11:06:29Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-20T11:09:31Z",
+      "first_failed_at": "2026-10-20T11:09:31Z",
+      "attempt_count": 1,
+      "upload_id": "5b4f66ebd2e44",
+      "source_url": "https://prehraj.to/sex-instruktor-2001-cz-dabing/5b4f66ebd2e44",
+      "upload_title": "Sex Instruktor (2001) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 16.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
