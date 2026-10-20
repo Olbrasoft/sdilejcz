@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T22:12:35Z",
+  "last_updated": "2026-10-20T22:13:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674573,21 +674573,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T21:41:03Z",
-      "first_failed_at": "2026-10-20T21:04:18Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 15.6
-      }
-    },
-    {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
@@ -675236,6 +675221,21 @@
       "timing": {
         "cdn_resolve_sec": 15.7
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T22:13:03Z",
+      "first_failed_at": "2026-10-20T21:04:18Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 15.6
+      }
     }
   ],
   "in_progress": [
@@ -675268,16 +675268,6 @@
       "worker_id": "worker-2-39495527857",
       "run_id": "39495527857",
       "reserved_at": "2026-10-20T22:11:47Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-20T22:12:35Z"
     }
   ],
   "missing_on_account": [
