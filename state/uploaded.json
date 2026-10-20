@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T15:49:49Z",
+  "last_updated": "2026-10-20T15:50:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673886,6 +673886,23 @@
       "timing": {
         "cdn_resolve_sec": 13.3
       }
+    },
+    {
+      "cr_film_id": 6718,
+      "cr_slug": "xxx",
+      "title": "xXx",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-20T15:50:04Z",
+      "first_failed_at": "2026-10-20T15:50:04Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.9,
+        "download_sec": 108.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -673898,16 +673915,6 @@
       "worker_id": "worker-2-39448101179",
       "run_id": "39448101179",
       "reserved_at": "2026-10-20T15:43:13Z"
-    },
-    {
-      "cr_film_id": 6718,
-      "cr_slug": "xxx",
-      "title": "xXx",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39448101179",
-      "run_id": "39448101179",
-      "reserved_at": "2026-10-20T15:46:19Z"
     },
     {
       "cr_film_id": 7548,
