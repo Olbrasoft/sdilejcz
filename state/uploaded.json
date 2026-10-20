@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T02:45:12Z",
+  "last_updated": "2026-10-20T02:45:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675337,21 +675337,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T02:14:29Z",
-      "first_failed_at": "2026-10-20T01:11:01Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.0
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -676116,6 +676101,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T02:45:35Z",
+      "first_failed_at": "2026-10-20T01:11:01Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.3
+      }
     }
   ],
   "in_progress": [
@@ -676148,16 +676148,6 @@
       "worker_id": "worker-2-39351659518",
       "run_id": "39351659518",
       "reserved_at": "2026-10-20T02:43:25Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39351659518",
-      "run_id": "39351659518",
-      "reserved_at": "2026-10-20T02:45:12Z"
     }
   ],
   "missing_on_account": [
