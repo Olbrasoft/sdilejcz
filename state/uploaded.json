@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T21:41:15Z",
+  "last_updated": "2026-10-20T21:41:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673950,6 +673950,30 @@
         "upload_sec": 271.0,
         "total_sec": 556.0
       }
+    },
+    {
+      "cr_film_id": 11649,
+      "cr_slug": "peggy-sue-se-vdava",
+      "title": "Peggy Sue se vdává",
+      "year": 1986,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5acc510781190",
+      "source_url": "https://prehraj.to/peggy-sue-se-vdava-1986/5acc510781190",
+      "source_title": "Peggy Sue se vdává (1986)",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35341306/peggy-sue-se-vdava-1986-cz.mp4",
+      "sdilej_name": "Peggy Sue se vdává (1986) CZ.mp4",
+      "uploaded_at": "2026-10-20T21:40:14Z",
+      "status": "uploaded",
+      "size_bytes": 1234160852,
+      "worker_id": "worker-3-39495527857",
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 45.0,
+        "upload_sec": 233.3,
+        "total_sec": 279.7
+      }
     }
   ],
   "failed_attempts": [
@@ -674160,42 +674184,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 11649,
-      "cr_slug": "peggy-sue-se-vdava",
-      "title": "Peggy Sue se vdává",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-20T21:02:44Z",
-      "first_failed_at": "2026-10-20T21:02:44Z",
-      "attempt_count": 1,
-      "upload_id": "5acc510781190",
-      "source_url": "https://prehraj.to/peggy-sue-se-vdava-1986/5acc510781190",
-      "upload_title": "Peggy Sue se vdává (1986)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 55.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 11649,
-      "cr_slug": "peggy-sue-se-vdava",
-      "title": "Peggy Sue se vdává",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T21:03:43Z",
-      "first_failed_at": "2026-10-20T21:03:43Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.4
       }
     },
     {
@@ -675087,16 +675075,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 11649,
-      "cr_slug": "peggy-sue-se-vdava",
-      "title": "Peggy Sue se vdává",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-20T21:35:25Z"
-    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
