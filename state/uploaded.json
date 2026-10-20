@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T18:54:52Z",
+  "last_updated": "2026-10-20T18:55:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675513,22 +675513,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-20T18:15:41Z",
-      "first_failed_at": "2026-10-20T16:53:55Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.8,
-        "download_sec": 2.4
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -675893,6 +675877,22 @@
       "timing": {
         "cdn_resolve_sec": 27.9
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-20T18:55:21Z",
+      "first_failed_at": "2026-10-20T16:53:55Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.7,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -675925,16 +675925,6 @@
       "worker_id": "worker-4-39448101179",
       "run_id": "39448101179",
       "reserved_at": "2026-10-20T18:50:15Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39448101179",
-      "run_id": "39448101179",
-      "reserved_at": "2026-10-20T18:54:52Z"
     }
   ],
   "missing_on_account": [
