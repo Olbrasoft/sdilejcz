@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T22:10:37Z",
+  "last_updated": "2026-10-20T22:10:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674492,21 +674492,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T21:27:58Z",
-      "first_failed_at": "2026-10-20T21:27:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675212,19 +675197,24 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-20T22:02:07Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T22:10:57Z",
+      "first_failed_at": "2026-10-20T21:27:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17521,
       "cr_slug": "wet-red-rose",
