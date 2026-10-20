@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T03:38:48Z",
+  "last_updated": "2026-10-20T03:41:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675537,21 +675537,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T02:38:52Z",
-      "first_failed_at": "2026-10-20T02:08:12Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.5
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -676941,19 +676926,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39351659518",
-      "run_id": "39351659518",
-      "reserved_at": "2026-10-20T03:09:42Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T03:41:47Z",
+      "first_failed_at": "2026-10-20T02:08:12Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 33228,
       "cr_slug": "sex-drugs-rock-roll",
