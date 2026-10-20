@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T21:12:43Z",
+  "last_updated": "2026-10-20T21:13:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674482,19 +674482,24 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-20T21:10:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T21:13:19Z",
+      "first_failed_at": "2026-10-20T21:13:19Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13418,
       "cr_slug": "sex-a-svobodna-matka",
