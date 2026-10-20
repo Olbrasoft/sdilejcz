@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T02:46:38Z",
+  "last_updated": "2026-10-20T02:47:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675059,21 +675059,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T02:05:59Z",
-      "first_failed_at": "2026-10-20T01:33:25Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -676119,19 +676104,24 @@
       "timing": {
         "cdn_resolve_sec": 10.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39351659518",
-      "run_id": "39351659518",
-      "reserved_at": "2026-10-20T02:37:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T02:47:16Z",
+      "first_failed_at": "2026-10-20T01:33:25Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 25676,
       "cr_slug": "maturitni-sex",
