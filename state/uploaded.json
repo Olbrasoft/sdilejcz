@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T21:11:59Z",
+  "last_updated": "2026-10-20T21:12:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674467,19 +674467,24 @@
       "timing": {
         "cdn_resolve_sec": 13.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
       "year": 1936,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-20T21:09:20Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T21:12:32Z",
+      "first_failed_at": "2026-10-20T21:12:32Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
