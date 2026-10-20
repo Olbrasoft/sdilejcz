@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T14:43:38Z",
+  "last_updated": "2026-10-20T14:43:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677700,21 +677700,6 @@
       }
     },
     {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T14:13:34Z",
-      "first_failed_at": "2026-10-20T13:31:10Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 15.7
-      }
-    },
-    {
       "cr_film_id": 36673,
       "cr_slug": "ma-me-rad-nema-me-rad-1956",
       "title": "Má mě rád, nemá mě rád",
@@ -678323,6 +678308,21 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
+    },
+    {
+      "cr_film_id": 34991,
+      "cr_slug": "po-cem-muzi-touzi",
+      "title": "Po čem muži touží",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T14:43:59Z",
+      "first_failed_at": "2026-10-20T13:31:10Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
     }
   ],
   "in_progress": [
@@ -678345,16 +678345,6 @@
       "worker_id": "worker-3-39403322869",
       "run_id": "39403322869",
       "reserved_at": "2026-10-20T14:09:46Z"
-    },
-    {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T14:43:38Z"
     }
   ],
   "missing_on_account": [
