@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T11:26:38Z",
+  "last_updated": "2026-10-20T11:27:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675717,19 +675717,30 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 24545,
       "cr_slug": "amores-perros-laska-je-kurva",
       "title": "Amores perros – Láska je kurva",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T11:22:52Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-20T11:27:12Z",
+      "first_failed_at": "2026-10-20T11:27:12Z",
+      "attempt_count": 1,
+      "upload_id": "5be5eee3a0811",
+      "source_url": "https://prehraj.to/amores-perros-laska-je-kurva-2000-cz-dabing/5be5eee3a0811",
+      "upload_title": "Amores Perros - Láska Je Kurva (2000) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 58.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
