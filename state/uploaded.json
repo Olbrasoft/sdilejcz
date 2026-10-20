@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T13:56:21Z",
+  "last_updated": "2026-10-20T13:56:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677173,21 +677173,6 @@
       }
     },
     {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T13:18:14Z",
-      "first_failed_at": "2026-10-20T13:18:14Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 34172,
       "cr_slug": "az-na-konec-sveta",
       "title": "Až na konec světa",
@@ -677907,6 +677892,21 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
+    },
+    {
+      "cr_film_id": 34885,
+      "cr_slug": "tata",
+      "title": "Táta",
+      "year": 1989,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T13:56:46Z",
+      "first_failed_at": "2026-10-20T13:18:14Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -677939,16 +677939,6 @@
       "worker_id": "worker-3-39403322869",
       "run_id": "39403322869",
       "reserved_at": "2026-10-20T13:47:32Z"
-    },
-    {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T13:56:21Z"
     }
   ],
   "missing_on_account": [
