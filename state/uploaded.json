@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T03:28:48Z",
+  "last_updated": "2026-10-20T03:29:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676822,6 +676822,27 @@
       "timing": {
         "cdn_resolve_sec": 9.1
       }
+    },
+    {
+      "cr_film_id": 31745,
+      "cr_slug": "fuck-the-prom",
+      "title": "Fuck the Prom",
+      "year": 2017,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-20T03:29:50Z",
+      "first_failed_at": "2026-10-20T03:29:50Z",
+      "attempt_count": 1,
+      "upload_id": "5f3c4d68201f0",
+      "source_url": "https://prehraj.to/f-the-prom-2017-cz-titulky-v-obraze/5f3c4d68201f0",
+      "upload_title": "F the Prom (2017) CZ titulky v OBRAZE",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 19.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676854,16 +676875,6 @@
       "worker_id": "worker-1-39351659518",
       "run_id": "39351659518",
       "reserved_at": "2026-10-20T03:26:29Z"
-    },
-    {
-      "cr_film_id": 31745,
-      "cr_slug": "fuck-the-prom",
-      "title": "Fuck the Prom",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39351659518",
-      "run_id": "39351659518",
-      "reserved_at": "2026-10-20T03:28:48Z"
     }
   ],
   "missing_on_account": [
