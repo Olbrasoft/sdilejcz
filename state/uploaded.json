@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T06:34:24Z",
+  "last_updated": "2026-10-20T06:34:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674528,21 +674528,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T06:00:05Z",
-      "first_failed_at": "2026-10-20T06:00:05Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -675457,19 +675442,24 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39376123091",
-      "run_id": "39376123091",
-      "reserved_at": "2026-10-20T06:30:26Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T06:34:38Z",
+      "first_failed_at": "2026-10-20T06:00:05Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17521,
       "cr_slug": "wet-red-rose",
