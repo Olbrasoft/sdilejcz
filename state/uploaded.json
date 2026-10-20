@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T21:37:34Z",
+  "last_updated": "2026-10-20T21:37:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674163,21 +674163,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T21:01:25Z",
-      "first_failed_at": "2026-10-20T21:01:25Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 11649,
       "cr_slug": "peggy-sue-se-vdava",
       "title": "Peggy Sue se vdává",
@@ -675084,19 +675069,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-20T21:32:25Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T21:37:52Z",
+      "first_failed_at": "2026-10-20T21:01:25Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11649,
       "cr_slug": "peggy-sue-se-vdava",
