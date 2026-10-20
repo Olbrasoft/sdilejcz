@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T14:49:58Z",
+  "last_updated": "2026-10-20T14:50:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677468,21 +677468,6 @@
       }
     },
     {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T13:58:45Z",
-      "first_failed_at": "2026-10-20T13:24:14Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 34919,
       "cr_slug": "milovany-joshua",
       "title": "Milovaný Joshua",
@@ -678326,6 +678311,21 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
+    },
+    {
+      "cr_film_id": 34902,
+      "cr_slug": "duch-boure",
+      "title": "Duch bouře",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T14:50:24Z",
+      "first_failed_at": "2026-10-20T13:24:14Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -678338,16 +678338,6 @@
       "worker_id": "worker-2-39403322869",
       "run_id": "39403322869",
       "reserved_at": "2026-10-20T13:59:37Z"
-    },
-    {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T14:49:58Z"
     }
   ],
   "missing_on_account": [
