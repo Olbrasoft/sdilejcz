@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T11:28:17Z",
+  "last_updated": "2026-10-20T11:28:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675008,21 +675008,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T10:58:12Z",
-      "first_failed_at": "2026-10-20T09:53:52Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -675738,6 +675723,21 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T11:28:42Z",
+      "first_failed_at": "2026-10-20T09:53:52Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -675760,16 +675760,6 @@
       "worker_id": "worker-1-39403322869",
       "run_id": "39403322869",
       "reserved_at": "2026-10-20T11:26:38Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T11:28:17Z"
     }
   ],
   "missing_on_account": [
