@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T12:01:00Z",
+  "last_updated": "2026-10-20T12:02:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675893,6 +675893,27 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 27889,
+      "cr_slug": "sex-nebo-zivot",
+      "title": "Sex nebo život!",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-20T12:02:06Z",
+      "first_failed_at": "2026-10-20T12:02:06Z",
+      "attempt_count": 1,
+      "upload_id": "5a0a522b24902",
+      "source_url": "https://prehraj.to/sex-nebo-zivot-2012-cz-dabing/5a0a522b24902",
+      "upload_title": "Sex Nebo Život! (2012) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 22.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675925,16 +675946,6 @@
       "worker_id": "worker-1-39403322869",
       "run_id": "39403322869",
       "reserved_at": "2026-10-20T11:55:55Z"
-    },
-    {
-      "cr_film_id": 27889,
-      "cr_slug": "sex-nebo-zivot",
-      "title": "Sex nebo život!",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T12:01:00Z"
     }
   ],
   "missing_on_account": [
