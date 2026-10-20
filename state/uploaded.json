@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T12:13:19Z",
+  "last_updated": "2026-10-20T12:13:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676007,19 +676007,30 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 26757,
       "cr_slug": "sex-ve-meste-2",
       "title": "Sex ve městě 2",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T12:05:36Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-20T12:13:45Z",
+      "first_failed_at": "2026-10-20T12:13:45Z",
+      "attempt_count": 1,
+      "upload_id": "1251f9f2bb1b9aa1",
+      "source_url": "https://prehraj.to/sex-ve-meste-2-2010-cs/1251f9f2bb1b9aa1",
+      "upload_title": "Sex ve městě 2 - 2010 CS",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 39.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 25217,
       "cr_slug": "vera-drake-zena-dvou-tvari",
