@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T06:12:11Z",
+  "last_updated": "2026-10-20T06:12:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675257,6 +675257,21 @@
       "timing": {
         "cdn_resolve_sec": 10.4
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T06:12:31Z",
+      "first_failed_at": "2026-10-20T06:12:31Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.9
+      }
     }
   ],
   "in_progress": [
@@ -675289,16 +675304,6 @@
       "worker_id": "worker-1-39376123091",
       "run_id": "39376123091",
       "reserved_at": "2026-10-20T06:10:22Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39376123091",
-      "run_id": "39376123091",
-      "reserved_at": "2026-10-20T06:12:11Z"
     }
   ],
   "missing_on_account": [
