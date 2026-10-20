@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T21:52:04Z",
+  "last_updated": "2026-10-20T21:52:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674187,21 +674187,6 @@
       }
     },
     {
-      "cr_film_id": 14852,
-      "cr_slug": "sci-fi-high-the-movie-musical",
-      "title": "Sci-Fi High: The Movie Musical",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T21:17:22Z",
-      "first_failed_at": "2026-10-20T21:17:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675122,19 +675107,24 @@
         "cdn_resolve_sec": 6.1,
         "download_sec": 5.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-20T21:48:52Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T21:52:16Z",
+      "first_failed_at": "2026-10-20T21:17:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16388,
       "cr_slug": "asian-school-girls",
