@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T14:56:02Z",
+  "last_updated": "2026-10-20T14:56:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677453,21 +677453,6 @@
       }
     },
     {
-      "cr_film_id": 34969,
-      "cr_slug": "snehurka-pribeh-hruzy",
-      "title": "Sněhurka - Příběh hrůzy",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T14:01:50Z",
-      "first_failed_at": "2026-10-20T13:29:16Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.8
-      }
-    },
-    {
       "cr_film_id": 35736,
       "cr_slug": "oasis-second-night-live-at-knebworth-park",
       "title": "Oasis: Second Night Live at Knebworth Park",
@@ -678326,6 +678311,21 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
+    },
+    {
+      "cr_film_id": 34969,
+      "cr_slug": "snehurka-pribeh-hruzy",
+      "title": "Sněhurka - Příběh hrůzy",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T14:56:30Z",
+      "first_failed_at": "2026-10-20T13:29:16Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -678338,16 +678338,6 @@
       "worker_id": "worker-2-39403322869",
       "run_id": "39403322869",
       "reserved_at": "2026-10-20T13:59:37Z"
-    },
-    {
-      "cr_film_id": 34969,
-      "cr_slug": "snehurka-pribeh-hruzy",
-      "title": "Sněhurka - Příběh hrůzy",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T14:56:02Z"
     }
   ],
   "missing_on_account": [
