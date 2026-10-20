@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T05:48:50Z",
+  "last_updated": "2026-10-20T05:49:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674394,19 +674394,24 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39376123091",
-      "run_id": "39376123091",
-      "reserved_at": "2026-10-20T05:46:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T05:49:10Z",
+      "first_failed_at": "2026-10-20T05:49:10Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
