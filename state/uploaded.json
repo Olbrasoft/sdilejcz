@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T12:40:22Z",
+  "last_updated": "2026-10-20T12:40:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676551,6 +676551,22 @@
       "first_failed_at": "2026-10-20T12:40:12Z",
       "attempt_count": 1,
       "permanent": true
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-20T12:40:35Z",
+      "first_failed_at": "2026-10-20T12:40:35Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 2.3
+      }
     }
   ],
   "in_progress": [
@@ -676583,16 +676599,6 @@
       "worker_id": "worker-3-39403322869",
       "run_id": "39403322869",
       "reserved_at": "2026-10-20T12:30:39Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T12:40:22Z"
     }
   ],
   "missing_on_account": [
