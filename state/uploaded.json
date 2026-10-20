@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-20T12:07:43Z",
+  "last_updated": "2026-10-20T12:08:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675352,21 +675352,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T11:29:18Z",
-      "first_failed_at": "2026-10-20T10:21:15Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.4
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -675983,6 +675968,21 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-20T12:08:03Z",
+      "first_failed_at": "2026-10-20T10:21:15Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
     }
   ],
   "in_progress": [
@@ -676015,16 +676015,6 @@
       "worker_id": "worker-2-39403322869",
       "run_id": "39403322869",
       "reserved_at": "2026-10-20T12:06:32Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39403322869",
-      "run_id": "39403322869",
-      "reserved_at": "2026-10-20T12:07:43Z"
     }
   ],
   "missing_on_account": [
