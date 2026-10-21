@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T23:32:16Z",
+  "last_updated": "2026-10-21T23:32:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674667,21 +674667,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T22:57:28Z",
-      "first_failed_at": "2026-10-21T22:57:28Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -675692,6 +675677,21 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
+    },
+    {
+      "cr_film_id": 12879,
+      "cr_slug": "gogs-gogwana",
+      "title": "Gogs: Gogwana",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T23:32:43Z",
+      "first_failed_at": "2026-10-21T22:57:28Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
   "in_progress": [
@@ -675724,16 +675724,6 @@
       "worker_id": "worker-4-39684190923",
       "run_id": "39684190923",
       "reserved_at": "2026-10-21T23:31:51Z"
-    },
-    {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-21T23:32:16Z"
     }
   ],
   "missing_on_account": [
