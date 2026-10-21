@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T00:07:08Z",
+  "last_updated": "2026-10-21T00:07:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676581,21 +676581,6 @@
       }
     },
     {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T23:30:22Z",
-      "first_failed_at": "2026-10-20T23:30:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 31235,
       "cr_slug": "mladi-titani-a-dc-super-hero-girls-chaos-v-mnohovesmiru",
       "title": "Mladí Titáni a DC Super Hero Girls: Chaos v mnohovesmíru",
@@ -677147,6 +677132,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 31665,
+      "cr_slug": "12-01-pm",
+      "title": "12:01 PM",
+      "year": 1990,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T00:07:33Z",
+      "first_failed_at": "2026-10-20T23:30:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
     }
   ],
   "in_progress": [
@@ -677179,16 +677179,6 @@
       "worker_id": "worker-3-39495527857",
       "run_id": "39495527857",
       "reserved_at": "2026-10-21T00:06:32Z"
-    },
-    {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-21T00:07:08Z"
     }
   ],
   "missing_on_account": [
