@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T11:46:43Z",
+  "last_updated": "2026-10-21T11:46:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674334,19 +674334,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T11:43:55Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T11:46:57Z",
+      "first_failed_at": "2026-10-21T11:46:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13454,
       "cr_slug": "sexy-mrtvola",
