@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T18:31:01Z",
+  "last_updated": "2026-10-21T18:31:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674786,21 +674786,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T17:53:22Z",
-      "first_failed_at": "2026-10-21T16:45:08Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 18.3
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675502,6 +675487,21 @@
         "cdn_resolve_sec": 14.4,
         "download_sec": 2.9
       }
+    },
+    {
+      "cr_film_id": 4297,
+      "cr_slug": "po-cem-zeny-touzi",
+      "title": "Po čem ženy touží",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T18:31:37Z",
+      "first_failed_at": "2026-10-21T16:45:08Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 22.8
+      }
     }
   ],
   "in_progress": [
@@ -675534,16 +675534,6 @@
       "worker_id": "worker-1-39636471276",
       "run_id": "39636471276",
       "reserved_at": "2026-10-21T18:29:55Z"
-    },
-    {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T18:31:01Z"
     }
   ],
   "missing_on_account": [
