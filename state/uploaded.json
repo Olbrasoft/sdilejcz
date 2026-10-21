@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T15:50:56Z",
+  "last_updated": "2026-10-21T15:51:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677286,21 +677286,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T15:20:27Z",
-      "first_failed_at": "2026-10-21T14:34:43Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
@@ -678150,6 +678135,21 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
+    },
+    {
+      "cr_film_id": 31658,
+      "cr_slug": "tararua-s-k",
+      "title": "Tararua S-K",
+      "year": null,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T15:51:19Z",
+      "first_failed_at": "2026-10-21T14:34:43Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -678172,16 +678172,6 @@
       "worker_id": "worker-3-39591726220",
       "run_id": "39591726220",
       "reserved_at": "2026-10-21T15:32:31Z"
-    },
-    {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T15:50:56Z"
     }
   ],
   "missing_on_account": [
