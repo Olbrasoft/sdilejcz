@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T21:02:40Z",
+  "last_updated": "2026-10-21T21:03:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677598,6 +677598,21 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
+    },
+    {
+      "cr_film_id": 34971,
+      "cr_slug": "krvava-amazonka",
+      "title": "Krvavá Amazonka",
+      "year": 1985,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T21:03:03Z",
+      "first_failed_at": "2026-10-21T21:03:03Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
   "in_progress": [
@@ -677630,16 +677645,6 @@
       "worker_id": "worker-3-39636471276",
       "run_id": "39636471276",
       "reserved_at": "2026-10-21T21:00:22Z"
-    },
-    {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T21:02:40Z"
     }
   ],
   "missing_on_account": [
