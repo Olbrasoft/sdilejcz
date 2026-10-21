@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T23:13:53Z",
+  "last_updated": "2026-10-21T23:14:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675477,19 +675477,24 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-21T23:09:35Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T23:14:07Z",
+      "first_failed_at": "2026-10-21T23:14:07Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
