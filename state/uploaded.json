@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T10:05:38Z",
+  "last_updated": "2026-10-21T10:06:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676973,21 +676973,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T09:35:16Z",
-      "first_failed_at": "2026-10-21T09:04:19Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.5
-      }
-    },
-    {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
       "title": "Kája + Oliva",
@@ -677769,6 +677754,21 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T10:06:01Z",
+      "first_failed_at": "2026-10-21T09:04:19Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -677801,16 +677801,6 @@
       "worker_id": "worker-2-39556400537",
       "run_id": "39556400537",
       "reserved_at": "2026-10-21T10:04:36Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39556400537",
-      "run_id": "39556400537",
-      "reserved_at": "2026-10-21T10:05:38Z"
     }
   ],
   "missing_on_account": [
