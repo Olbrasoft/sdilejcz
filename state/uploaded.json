@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T21:42:43Z",
+  "last_updated": "2026-10-21T21:43:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677353,21 +677353,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T21:05:13Z",
-      "first_failed_at": "2026-10-21T20:34:45Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 35364,
       "cr_slug": "sketch",
       "title": "Sketch",
@@ -678168,19 +678153,24 @@
       "timing": {
         "resolve_sec": 0.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T21:35:19Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T21:43:03Z",
+      "first_failed_at": "2026-10-21T20:34:45Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
