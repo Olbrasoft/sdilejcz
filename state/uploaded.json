@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T19:27:47Z",
+  "last_updated": "2026-10-21T19:30:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675380,21 +675380,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T18:41:20Z",
-      "first_failed_at": "2026-10-21T18:05:55Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 29.5
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -675911,19 +675896,24 @@
         "download_sec": 25.0,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
       "year": 1943,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T19:15:52Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T19:30:19Z",
+      "first_failed_at": "2026-10-21T18:05:55Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29067,
       "cr_slug": "amateur-teens",
