@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T15:58:55Z",
+  "last_updated": "2026-10-21T16:02:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674815,6 +674815,27 @@
         "upload_sec": 88.0,
         "total_sec": 111.1
       }
+    },
+    {
+      "cr_film_id": 37363,
+      "cr_slug": "barvy-casu",
+      "title": "Barvy času",
+      "year": 2025,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 61750,
+      "sdilej_url": "https://sdilej.cz/35345428/barvy-casu-2025-.mp4",
+      "sdilej_name": "Barvy času (2025).mp4",
+      "uploaded_at": "2026-10-21T16:02:26Z",
+      "status": "uploaded",
+      "size_bytes": 653733115,
+      "worker_id": "worker-1-39591726220",
+      "timing": {
+        "cdn_resolve_sec": 5.9,
+        "download_sec": 81.8,
+        "upload_sec": 112.4,
+        "total_sec": 200.2
+      }
     }
   ],
   "failed_attempts": [
@@ -678270,25 +678291,6 @@
       "timing": {
         "cdn_resolve_sec": 11.9
       }
-    },
-    {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "failed_at": "2026-10-21T15:58:55Z",
-      "first_failed_at": "2026-10-21T15:58:55Z",
-      "attempt_count": 1,
-      "upload_id": "4564c9462ce70ed7",
-      "source_url": "https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "upload_title": "Barvy času",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.0
-      }
     }
   ],
   "in_progress": [
@@ -678311,16 +678313,6 @@
       "worker_id": "worker-3-39591726220",
       "run_id": "39591726220",
       "reserved_at": "2026-10-21T15:32:31Z"
-    },
-    {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T15:58:37Z"
     }
   ],
   "missing_on_account": [
