@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T07:55:30Z",
+  "last_updated": "2026-10-21T07:55:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674763,21 +674763,6 @@
       }
     },
     {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T07:19:52Z",
-      "first_failed_at": "2026-10-21T07:19:52Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -675902,19 +675887,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39556400537",
-      "run_id": "39556400537",
-      "reserved_at": "2026-10-21T07:50:16Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T07:55:53Z",
+      "first_failed_at": "2026-10-21T07:19:52Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
