@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T02:40:28Z",
+  "last_updated": "2026-10-21T02:40:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674418,21 +674418,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T02:07:00Z",
-      "first_failed_at": "2026-10-21T02:07:00Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -675351,6 +675336,21 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T02:40:50Z",
+      "first_failed_at": "2026-10-21T02:07:00Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -675373,16 +675373,6 @@
       "worker_id": "worker-2-39529409403",
       "run_id": "39529409403",
       "reserved_at": "2026-10-21T02:39:16Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T02:40:28Z"
     }
   ],
   "missing_on_account": [
