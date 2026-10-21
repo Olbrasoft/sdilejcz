@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T14:56:54Z",
+  "last_updated": "2026-10-21T14:59:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677349,19 +677349,30 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 32058,
       "cr_slug": "sex-a-lzi-mesta-hrichu-skandal-teda-biniona",
       "title": "Sex a lži města hříchu: Skandál Teda Biniona",
       "year": 2009,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T14:38:06Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-21T14:59:18Z",
+      "first_failed_at": "2026-10-21T14:59:18Z",
+      "attempt_count": 1,
+      "upload_id": "5b88b215b6d86",
+      "source_url": "https://prehraj.to/sex-a-lzi-mesta-hrichu-skandal-teda-biniona-2008/5b88b215b6d86",
+      "upload_title": "Sex a lži města hříchu: Skandál Teda Biniona (2008)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 22.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34739,
       "cr_slug": "pikova-trojka",
