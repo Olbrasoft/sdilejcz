@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T00:15:54Z",
+  "last_updated": "2026-10-21T00:16:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676590,21 +676590,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-20T23:29:49Z",
-      "first_failed_at": "2026-10-20T23:29:49Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.3
-      }
-    },
-    {
       "cr_film_id": 31235,
       "cr_slug": "mladi-titani-a-dc-super-hero-girls-chaos-v-mnohovesmiru",
       "title": "Mladí Titáni a DC Super Hero Girls: Chaos v mnohovesmíru",
@@ -677342,19 +677327,24 @@
       "timing": {
         "cdn_resolve_sec": 13.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
       "year": null,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-21T00:02:48Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T00:16:11Z",
+      "first_failed_at": "2026-10-20T23:29:49Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34754,
       "cr_slug": "studentka",
