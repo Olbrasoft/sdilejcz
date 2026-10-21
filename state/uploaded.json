@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T00:43:44Z",
+  "last_updated": "2026-10-21T00:43:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677043,21 +677043,6 @@
       }
     },
     {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T00:08:07Z",
-      "first_failed_at": "2026-10-20T23:37:22Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 34435,
       "cr_slug": "transformers-jedna",
       "title": "Transformers Jedna",
@@ -677983,19 +677968,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-21T00:38:36Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T00:43:59Z",
+      "first_failed_at": "2026-10-20T23:37:22Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
