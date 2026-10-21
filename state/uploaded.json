@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T20:08:43Z",
+  "last_updated": "2026-10-21T20:11:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674484,6 +674484,28 @@
         "upload_sec": 66.3,
         "total_sec": 137.8
       }
+    },
+    {
+      "cr_film_id": 30166,
+      "cr_slug": "trojka-z-mravu",
+      "title": "Trojka z mravů",
+      "year": 1933,
+      "source": "sledujteto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_file_id": 45705,
+      "source_cdn": null,
+      "sdilej_url": "https://sdilej.cz/35346357/trojka-z-mravu-1933-.mp4",
+      "sdilej_name": "Trojka z mravů (1933).mp4",
+      "uploaded_at": "2026-10-21T20:11:26Z",
+      "status": "uploaded",
+      "size_bytes": 717942828,
+      "worker_id": "worker-2-39636471276",
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 24.2,
+        "upload_sec": 127.3,
+        "total_sec": 153.2
+      }
     }
   ],
   "failed_attempts": [
@@ -676067,23 +676089,6 @@
       }
     },
     {
-      "cr_film_id": 30166,
-      "cr_slug": "trojka-z-mravu",
-      "title": "Trojka z mravů",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-21T19:38:21Z",
-      "first_failed_at": "2026-10-21T19:38:21Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.9,
-        "download_sec": 32.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30184,
       "cr_slug": "cas-dluhu",
       "title": "Čas dluhů",
@@ -676819,16 +676824,6 @@
       "worker_id": "worker-1-39636471276",
       "run_id": "39636471276",
       "reserved_at": "2026-10-21T20:04:54Z"
-    },
-    {
-      "cr_film_id": 30166,
-      "cr_slug": "trojka-z-mravu",
-      "title": "Trojka z mravů",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T20:08:43Z"
     }
   ],
   "missing_on_account": [
