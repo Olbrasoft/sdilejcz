@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T19:12:46Z",
+  "last_updated": "2026-10-21T19:13:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675065,21 +675065,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T18:23:27Z",
-      "first_failed_at": "2026-10-21T17:16:31Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 24.3
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -675732,6 +675717,21 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T19:13:21Z",
+      "first_failed_at": "2026-10-21T17:16:31Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 24.3
+      }
     }
   ],
   "in_progress": [
@@ -675764,16 +675764,6 @@
       "worker_id": "worker-2-39636471276",
       "run_id": "39636471276",
       "reserved_at": "2026-10-21T19:12:06Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T19:12:46Z"
     }
   ],
   "missing_on_account": [
