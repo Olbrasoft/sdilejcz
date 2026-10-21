@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T21:20:43Z",
+  "last_updated": "2026-10-21T21:20:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677247,22 +677247,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-21T20:48:53Z",
-      "first_failed_at": "2026-10-21T19:44:32Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.5,
-        "download_sec": 2.7
-      }
-    },
-    {
       "cr_film_id": 34885,
       "cr_slug": "tata",
       "title": "Táta",
@@ -677944,6 +677928,22 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-21T21:20:57Z",
+      "first_failed_at": "2026-10-21T19:44:32Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 1.7
+      }
     }
   ],
   "in_progress": [
@@ -677966,16 +677966,6 @@
       "worker_id": "worker-4-39636471276",
       "run_id": "39636471276",
       "reserved_at": "2026-10-21T21:14:42Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T21:20:43Z"
     }
   ],
   "missing_on_account": [
