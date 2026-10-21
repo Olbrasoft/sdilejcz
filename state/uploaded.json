@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T17:03:41Z",
+  "last_updated": "2026-10-21T17:03:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674433,19 +674433,24 @@
       "timing": {
         "cdn_resolve_sec": 10.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T17:02:49Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T17:03:54Z",
+      "first_failed_at": "2026-10-21T17:03:54Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13510,
       "cr_slug": "sexy-pistols",
