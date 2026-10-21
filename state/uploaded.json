@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T23:50:07Z",
+  "last_updated": "2026-10-21T23:50:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675060,22 +675060,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-21T23:18:34Z",
-      "first_failed_at": "2026-10-21T23:18:34Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 4.4,
-        "download_sec": 2.0
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675912,6 +675896,22 @@
       "timing": {
         "cdn_resolve_sec": 10.5
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-21T23:50:25Z",
+      "first_failed_at": "2026-10-21T23:18:34Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 4.3,
+        "download_sec": 2.0
+      }
     }
   ],
   "in_progress": [
@@ -675944,16 +675944,6 @@
       "worker_id": "worker-3-39684190923",
       "run_id": "39684190923",
       "reserved_at": "2026-10-21T23:47:59Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-21T23:50:07Z"
     }
   ],
   "missing_on_account": [
