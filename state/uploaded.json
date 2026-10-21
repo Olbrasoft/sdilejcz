@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T06:27:09Z",
+  "last_updated": "2026-10-21T06:27:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677718,21 +677718,6 @@
       }
     },
     {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T05:56:58Z",
-      "first_failed_at": "2026-10-21T05:24:05Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 37343,
       "cr_slug": "marguerite",
       "title": "Marguerite",
@@ -678317,20 +678302,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
       "title": "Po čem muži touží",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T06:27:09Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T06:27:34Z",
+      "first_failed_at": "2026-10-21T05:24:05Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
