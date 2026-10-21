@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T04:31:15Z",
+  "last_updated": "2026-10-21T04:31:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676703,19 +676703,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29963,
       "cr_slug": "rocco-a-jeho-bratri",
       "title": "Rocco a jeho bratři",
       "year": 1960,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T04:19:46Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-21T04:31:36Z",
+      "first_failed_at": "2026-10-21T04:31:36Z",
+      "attempt_count": 1,
+      "upload_id": "091c9e223fd9a0a7",
+      "source_url": "https://prehraj.to/rocco-a-jeho-bratri-rocco-e-i-suoi-fratelli-1960-ita-cz-tit-mkv/091c9e223fd9a0a7",
+      "upload_title": "Rocco a jeho bratři / Rocco e i suoi fratelli / Rocco and His Brothers 1960, ITA - CZ tit.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 52.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30794,
       "cr_slug": "ufc-229-khabib-vs-mcgregor",
