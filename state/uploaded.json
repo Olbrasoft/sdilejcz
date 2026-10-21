@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T22:18:17Z",
+  "last_updated": "2026-10-21T22:18:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674122,6 +674122,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 4297,
+      "cr_slug": "po-cem-zeny-touzi",
+      "title": "Po čem ženy touží",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T22:18:40Z",
+      "first_failed_at": "2026-10-21T22:18:40Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.8
+      }
     }
   ],
   "in_progress": [
@@ -674154,16 +674169,6 @@
       "worker_id": "worker-4-39684190923",
       "run_id": "39684190923",
       "reserved_at": "2026-10-21T22:16:21Z"
-    },
-    {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-21T22:18:05Z"
     }
   ],
   "missing_on_account": [
