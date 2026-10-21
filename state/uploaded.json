@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T15:15:02Z",
+  "last_updated": "2026-10-21T15:15:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677525,6 +677525,21 @@
       "timing": {
         "cdn_resolve_sec": 13.2
       }
+    },
+    {
+      "cr_film_id": 34902,
+      "cr_slug": "duch-boure",
+      "title": "Duch bouře",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T15:15:29Z",
+      "first_failed_at": "2026-10-21T15:15:29Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -677557,16 +677572,6 @@
       "worker_id": "worker-2-39591726220",
       "run_id": "39591726220",
       "reserved_at": "2026-10-21T15:13:32Z"
-    },
-    {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T15:15:02Z"
     }
   ],
   "missing_on_account": [
