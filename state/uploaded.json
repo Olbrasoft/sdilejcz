@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T09:49:07Z",
+  "last_updated": "2026-10-21T09:49:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675822,22 +675822,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-21T08:51:49Z",
-      "first_failed_at": "2026-10-21T07:40:07Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 4.9,
-        "download_sec": 2.1
-      }
-    },
-    {
       "cr_film_id": 25633,
       "cr_slug": "michael-clayton",
       "title": "Michael Clayton",
@@ -677521,19 +677505,25 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39556400537",
-      "run_id": "39556400537",
-      "reserved_at": "2026-10-21T09:39:45Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-21T09:49:31Z",
+      "first_failed_at": "2026-10-21T07:40:07Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 6.8,
+        "download_sec": 2.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
