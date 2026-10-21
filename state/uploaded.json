@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T10:47:59Z",
+  "last_updated": "2026-10-21T10:48:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677474,21 +677474,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T10:16:42Z",
-      "first_failed_at": "2026-10-21T09:22:54Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 34885,
       "cr_slug": "tata",
       "title": "Táta",
@@ -678285,6 +678270,21 @@
       "timing": {
         "cdn_resolve_sec": 13.4
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T10:48:23Z",
+      "first_failed_at": "2026-10-21T09:22:54Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.3
+      }
     }
   ],
   "in_progress": [
@@ -678307,16 +678307,6 @@
       "worker_id": "worker-3-39556400537",
       "run_id": "39556400537",
       "reserved_at": "2026-10-21T10:36:10Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39556400537",
-      "run_id": "39556400537",
-      "reserved_at": "2026-10-21T10:47:59Z"
     }
   ],
   "missing_on_account": [
