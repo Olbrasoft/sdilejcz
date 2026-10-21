@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T03:14:15Z",
+  "last_updated": "2026-10-21T03:14:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674712,21 +674712,6 @@
       }
     },
     {
-      "cr_film_id": 11952,
-      "cr_slug": "delta-force-commando-ii-priority-red-one",
-      "title": "Delta Force Commando II: Priority Red One",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T02:38:07Z",
-      "first_failed_at": "2026-10-21T02:05:47Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675734,19 +675719,24 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T03:10:01Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T03:14:31Z",
+      "first_failed_at": "2026-10-21T02:05:47Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
