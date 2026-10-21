@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T18:12:50Z",
+  "last_updated": "2026-10-21T18:13:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674404,21 +674404,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T17:23:43Z",
-      "first_failed_at": "2026-10-21T17:23:43Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.5
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -675502,19 +675487,24 @@
       "timing": {
         "cdn_resolve_sec": 27.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T18:00:58Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T18:13:18Z",
+      "first_failed_at": "2026-10-21T17:23:43Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
