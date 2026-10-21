@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T04:10:10Z",
+  "last_updated": "2026-10-21T04:10:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676098,19 +676098,30 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 28590,
       "cr_slug": "domina",
       "title": "Domina",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T03:57:23Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-21T04:10:46Z",
+      "first_failed_at": "2026-10-21T04:10:46Z",
+      "attempt_count": 1,
+      "upload_id": "56768eb20d6ae",
+      "source_url": "https://prehraj.to/domina-cesky-tv-film-2010/56768eb20d6ae",
+      "upload_title": "Domina-(český-Tv-film)-2010-",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 22.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29067,
       "cr_slug": "amateur-teens",
