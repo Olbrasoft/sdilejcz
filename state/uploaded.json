@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T21:31:04Z",
+  "last_updated": "2026-10-21T21:31:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677316,21 +677316,6 @@
       }
     },
     {
-      "cr_film_id": 34933,
-      "cr_slug": "ostrov-priser",
-      "title": "Ostrov příšer",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T21:00:36Z",
-      "first_failed_at": "2026-10-21T21:00:36Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
@@ -678025,6 +678010,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34933,
+      "cr_slug": "ostrov-priser",
+      "title": "Ostrov příšer",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T21:31:26Z",
+      "first_failed_at": "2026-10-21T21:00:36Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.8
+      }
     }
   ],
   "in_progress": [
@@ -678047,16 +678047,6 @@
       "worker_id": "worker-4-39636471276",
       "run_id": "39636471276",
       "reserved_at": "2026-10-21T21:14:42Z"
-    },
-    {
-      "cr_film_id": 34933,
-      "cr_slug": "ostrov-priser",
-      "title": "Ostrov příšer",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39636471276",
-      "run_id": "39636471276",
-      "reserved_at": "2026-10-21T21:31:04Z"
     }
   ],
   "missing_on_account": [
