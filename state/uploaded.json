@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T02:38:00Z",
+  "last_updated": "2026-10-21T02:38:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674433,21 +674433,6 @@
       }
     },
     {
-      "cr_film_id": 11952,
-      "cr_slug": "delta-force-commando-ii-priority-red-one",
-      "title": "Delta Force Commando II: Priority Red One",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T02:05:47Z",
-      "first_failed_at": "2026-10-21T02:05:47Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -675332,6 +675317,21 @@
         "cdn_resolve_sec": 6.6,
         "download_sec": 2.5
       }
+    },
+    {
+      "cr_film_id": 11952,
+      "cr_slug": "delta-force-commando-ii-priority-red-one",
+      "title": "Delta Force Commando II: Priority Red One",
+      "year": 1990,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T02:38:07Z",
+      "first_failed_at": "2026-10-21T02:05:47Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -675354,16 +675354,6 @@
       "worker_id": "worker-1-39529409403",
       "run_id": "39529409403",
       "reserved_at": "2026-10-21T02:36:11Z"
-    },
-    {
-      "cr_film_id": 11952,
-      "cr_slug": "delta-force-commando-ii-priority-red-one",
-      "title": "Delta Force Commando II: Priority Red One",
-      "year": 1990,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T02:37:44Z"
     }
   ],
   "missing_on_account": [
