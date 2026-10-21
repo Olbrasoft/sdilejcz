@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T12:29:56Z",
+  "last_updated": "2026-10-21T12:30:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674495,22 +674495,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-21T11:59:50Z",
-      "first_failed_at": "2026-10-21T11:59:50Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 4.0,
-        "download_sec": 1.7
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -675143,6 +675127,22 @@
       "timing": {
         "cdn_resolve_sec": 13.3
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-21T12:30:15Z",
+      "first_failed_at": "2026-10-21T11:59:50Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 4.9,
+        "download_sec": 1.8
+      }
     }
   ],
   "in_progress": [
@@ -675165,16 +675165,6 @@
       "worker_id": "worker-2-39591726220",
       "run_id": "39591726220",
       "reserved_at": "2026-10-21T12:26:29Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T12:29:56Z"
     }
   ],
   "missing_on_account": [
