@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T12:09:57Z",
+  "last_updated": "2026-10-21T12:10:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674075,21 +674075,6 @@
       }
     },
     {
-      "cr_film_id": 11952,
-      "cr_slug": "delta-force-commando-ii-priority-red-one",
-      "title": "Delta Force Commando II: Priority Red One",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T11:35:52Z",
-      "first_failed_at": "2026-10-21T11:35:52Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -675004,19 +674989,24 @@
       "timing": {
         "cdn_resolve_sec": 11.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T12:07:13Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T12:10:08Z",
+      "first_failed_at": "2026-10-21T11:35:52Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17244,
       "cr_slug": "rocco-chinnici",
