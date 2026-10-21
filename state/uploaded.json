@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T11:16:50Z",
+  "last_updated": "2026-10-21T11:17:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677626,21 +677626,6 @@
       }
     },
     {
-      "cr_film_id": 37328,
-      "cr_slug": "pomsta-skrticu",
-      "title": "Pomsta škrtičů",
-      "year": 1954,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T10:44:03Z",
-      "first_failed_at": "2026-10-21T10:44:03Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 37343,
       "cr_slug": "marguerite",
       "title": "Marguerite",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37328,
       "cr_slug": "pomsta-skrticu",
       "title": "Pomsta škrtičů",
       "year": 1954,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39556400537",
-      "run_id": "39556400537",
-      "reserved_at": "2026-10-21T11:16:50Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T11:17:16Z",
+      "first_failed_at": "2026-10-21T10:44:03Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
