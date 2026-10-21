@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T06:09:36Z",
+  "last_updated": "2026-10-21T06:09:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677438,21 +677438,6 @@
       }
     },
     {
-      "cr_film_id": 34943,
-      "cr_slug": "kvileni-vlkodlaku-6",
-      "title": "Kvílení vlkodlaků 6",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T05:31:35Z",
-      "first_failed_at": "2026-10-21T05:00:33Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
       "title": "Strašidelné líbánky",
@@ -678317,19 +678302,24 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
       "title": "Kvílení vlkodlaků 6",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T06:03:19Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T06:09:59Z",
+      "first_failed_at": "2026-10-21T05:00:33Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
