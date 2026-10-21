@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T09:03:20Z",
+  "last_updated": "2026-10-21T09:03:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675652,21 +675652,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T08:27:09Z",
-      "first_failed_at": "2026-10-21T07:18:49Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
@@ -676699,6 +676684,21 @@
       "timing": {
         "cdn_resolve_sec": 15.6
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T09:03:46Z",
+      "first_failed_at": "2026-10-21T07:18:49Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -676721,16 +676721,6 @@
       "worker_id": "worker-3-39556400537",
       "run_id": "39556400537",
       "reserved_at": "2026-10-21T09:01:58Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39556400537",
-      "run_id": "39556400537",
-      "reserved_at": "2026-10-21T09:03:20Z"
     }
   ],
   "missing_on_account": [
