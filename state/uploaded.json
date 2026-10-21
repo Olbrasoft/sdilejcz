@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T16:17:24Z",
+  "last_updated": "2026-10-21T16:17:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677518,21 +677518,6 @@
       }
     },
     {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T15:40:22Z",
-      "first_failed_at": "2026-10-21T15:09:58Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 37128,
       "cr_slug": "surf-plaz-a-kocky",
       "title": "Surf, pláž a kočky",
@@ -678321,19 +678306,24 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34827,
       "cr_slug": "ohnivy-ring",
       "title": "Ohnivý ring",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T16:10:35Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T16:17:56Z",
+      "first_failed_at": "2026-10-21T15:09:58Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
