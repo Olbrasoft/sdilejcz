@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T03:57:23Z",
+  "last_updated": "2026-10-21T03:58:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675384,21 +675384,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T03:19:34Z",
-      "first_failed_at": "2026-10-21T02:12:05Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -676057,19 +676042,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T03:55:09Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T03:58:25Z",
+      "first_failed_at": "2026-10-21T02:12:05Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 28590,
       "cr_slug": "domina",
