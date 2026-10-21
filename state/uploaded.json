@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T10:08:22Z",
+  "last_updated": "2026-10-21T10:08:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677007,21 +677007,6 @@
       }
     },
     {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T09:37:54Z",
-      "first_failed_at": "2026-10-21T09:37:54Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 34850,
       "cr_slug": "duch-zraloka",
       "title": "Duch žraloka",
@@ -677788,6 +677773,21 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 34842,
+      "cr_slug": "mstitel-s-pistalou",
+      "title": "Mstitel s píšťalou",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T10:08:44Z",
+      "first_failed_at": "2026-10-21T09:37:54Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -677820,16 +677820,6 @@
       "worker_id": "worker-2-39556400537",
       "run_id": "39556400537",
       "reserved_at": "2026-10-21T10:04:36Z"
-    },
-    {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39556400537",
-      "run_id": "39556400537",
-      "reserved_at": "2026-10-21T10:08:22Z"
     }
   ],
   "missing_on_account": [
