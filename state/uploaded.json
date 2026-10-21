@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T00:25:05Z",
+  "last_updated": "2026-10-21T00:25:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676849,22 +676849,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-20T23:55:03Z",
-      "first_failed_at": "2026-10-20T23:22:45Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.2,
-        "download_sec": 2.7
-      }
-    },
-    {
       "cr_film_id": 34077,
       "cr_slug": "rukojmi-v-bella-vista",
       "title": "Rukojmí v Bella Vista",
@@ -677599,6 +677583,22 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-21T00:25:19Z",
+      "first_failed_at": "2026-10-20T23:22:45Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -677631,16 +677631,6 @@
       "worker_id": "worker-2-39495527857",
       "run_id": "39495527857",
       "reserved_at": "2026-10-21T00:20:43Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39495527857",
-      "run_id": "39495527857",
-      "reserved_at": "2026-10-21T00:25:05Z"
     }
   ],
   "missing_on_account": [
