@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T13:39:34Z",
+  "last_updated": "2026-10-21T13:40:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674831,21 +674831,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T12:50:20Z",
-      "first_failed_at": "2026-10-21T11:47:30Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -675780,19 +675765,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T13:33:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T13:40:29Z",
+      "first_failed_at": "2026-10-21T11:47:30Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
