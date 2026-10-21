@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T03:05:40Z",
+  "last_updated": "2026-10-21T03:05:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674403,21 +674403,6 @@
       }
     },
     {
-      "cr_film_id": 12558,
-      "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
-      "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T02:15:39Z",
-      "first_failed_at": "2026-10-21T02:15:39Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675676,19 +675661,24 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
       "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T02:45:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T03:05:56Z",
+      "first_failed_at": "2026-10-21T02:15:39Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23841,
       "cr_slug": "operace-delta-force",
