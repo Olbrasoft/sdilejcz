@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T14:40:53Z",
+  "last_updated": "2026-10-21T14:42:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676980,19 +676980,30 @@
         "resolve_sec": 1.2,
         "download_sec": 1.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31756,
       "cr_slug": "sex-after-kids",
       "title": "Sex After Kids",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39591726220",
-      "run_id": "39591726220",
-      "reserved_at": "2026-10-21T14:35:36Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-21T14:42:20Z",
+      "first_failed_at": "2026-10-21T14:42:20Z",
+      "attempt_count": 1,
+      "upload_id": "585b1c0e0f695",
+      "source_url": "https://prehraj.to/sex-after-kids-2013-cztit-v-obraze/585b1c0e0f695",
+      "upload_title": "Sex After Kids (2013)CZtit V OBRAZE",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 72.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31910,
       "cr_slug": "2010-moby-dick",
