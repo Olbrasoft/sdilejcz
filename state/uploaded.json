@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T08:32:24Z",
+  "last_updated": "2026-10-21T08:32:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675414,21 +675414,6 @@
       }
     },
     {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T08:01:27Z",
-      "first_failed_at": "2026-10-21T07:26:32Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -676056,6 +676041,21 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 13280,
+      "cr_slug": "tvoje-srdce-inkognito",
+      "title": "Tvoje srdce inkognito",
+      "year": 1936,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T08:32:50Z",
+      "first_failed_at": "2026-10-21T07:26:32Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -676088,16 +676088,6 @@
       "worker_id": "worker-3-39556400537",
       "run_id": "39556400537",
       "reserved_at": "2026-10-21T08:30:08Z"
-    },
-    {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39556400537",
-      "run_id": "39556400537",
-      "reserved_at": "2026-10-21T08:32:24Z"
     }
   ],
   "missing_on_account": [
