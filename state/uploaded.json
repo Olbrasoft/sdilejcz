@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-21T04:49:29Z",
+  "last_updated": "2026-10-21T04:51:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677299,19 +677299,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31550,
       "cr_slug": "passion-in-the-desert",
       "title": "Passion in the Desert",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39529409403",
-      "run_id": "39529409403",
-      "reserved_at": "2026-10-21T04:31:15Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-21T04:51:52Z",
+      "first_failed_at": "2026-10-21T04:51:52Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 32877,
       "cr_slug": "sex-is-comedy",
