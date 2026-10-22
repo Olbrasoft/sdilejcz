@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T00:55:19Z",
+  "last_updated": "2026-10-22T00:55:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675520,21 +675520,6 @@
       }
     },
     {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T23:56:34Z",
-      "first_failed_at": "2026-10-21T22:52:06Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
       "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
@@ -676940,19 +676925,24 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-22T00:47:28Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T00:55:31Z",
+      "first_failed_at": "2026-10-21T22:52:06Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 32877,
       "cr_slug": "sex-is-comedy",
