@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T13:45:10Z",
+  "last_updated": "2026-10-22T13:45:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675100,21 +675100,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T13:09:30Z",
-      "first_failed_at": "2026-10-22T12:33:03Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 22008,
       "cr_slug": "klarino-koleno",
       "title": "Klářino koleno",
@@ -675955,6 +675940,21 @@
       "timing": {
         "cdn_resolve_sec": 9.3
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T13:45:32Z",
+      "first_failed_at": "2026-10-22T12:33:03Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
     }
   ],
   "in_progress": [
@@ -675987,16 +675987,6 @@
       "worker_id": "worker-2-39771388890",
       "run_id": "39771388890",
       "reserved_at": "2026-10-22T13:42:55Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39771388890",
-      "run_id": "39771388890",
-      "reserved_at": "2026-10-22T13:45:10Z"
     }
   ],
   "missing_on_account": [
