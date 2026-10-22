@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T21:33:31Z",
+  "last_updated": "2026-10-22T21:33:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676552,19 +676552,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29963,
       "cr_slug": "rocco-a-jeho-bratri",
       "title": "Rocco a jeho bratři",
       "year": 1960,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39818925916",
-      "run_id": "39818925916",
-      "reserved_at": "2026-10-22T21:20:55Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-22T21:33:51Z",
+      "first_failed_at": "2026-10-22T21:33:51Z",
+      "attempt_count": 1,
+      "upload_id": "4a97dff655875b3c",
+      "source_url": "https://prehraj.to/rocco-a-jeho-bratri-1960-cz-titulky-mp4/4a97dff655875b3c",
+      "upload_title": "Rocco a jeho bratři (1960) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 126.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23687,
       "cr_slug": "studentka-na-telefon",
