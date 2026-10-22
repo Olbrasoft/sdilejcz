@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T21:35:22Z",
+  "last_updated": "2026-10-22T21:35:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674600,6 +674600,30 @@
         "upload_sec": 234.6,
         "total_sec": 1206.4
       }
+    },
+    {
+      "cr_film_id": 23687,
+      "cr_slug": "studentka-na-telefon",
+      "title": "Studentka na telefon",
+      "year": 1996,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5f7cbb1fcdecd",
+      "source_url": "https://prehraj.to/studentka-na-telefon-1996-czdab/5f7cbb1fcdecd",
+      "source_title": "Studentka na telefon (1996) CZdab",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35356846/studentka-na-telefon-1996-cz-dabing.mp4",
+      "sdilej_name": "Studentka na telefon (1996) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-22T21:31:29Z",
+      "status": "uploaded",
+      "size_bytes": 658252875,
+      "worker_id": "worker-1-39818925916",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 26.2,
+        "upload_sec": 123.2,
+        "total_sec": 151.0
+      }
     }
   ],
   "failed_attempts": [
@@ -675967,27 +675991,6 @@
       }
     },
     {
-      "cr_film_id": 23687,
-      "cr_slug": "studentka-na-telefon",
-      "title": "Studentka na telefon",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-22T20:58:10Z",
-      "first_failed_at": "2026-10-22T20:58:10Z",
-      "attempt_count": 1,
-      "upload_id": "5f7cbb1fcdecd",
-      "source_url": "https://prehraj.to/studentka-na-telefon-1996-czdab/5f7cbb1fcdecd",
-      "upload_title": "Studentka na telefon (1996) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 30.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
@@ -676595,16 +676598,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 23687,
-      "cr_slug": "studentka-na-telefon",
-      "title": "Studentka na telefon",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39818925916",
-      "run_id": "39818925916",
-      "reserved_at": "2026-10-22T21:28:49Z"
-    },
     {
       "cr_film_id": 31235,
       "cr_slug": "mladi-titani-a-dc-super-hero-girls-chaos-v-mnohovesmiru",
