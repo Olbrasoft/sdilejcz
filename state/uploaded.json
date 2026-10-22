@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T03:38:58Z",
+  "last_updated": "2026-10-22T03:39:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674256,21 +674256,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T03:05:58Z",
-      "first_failed_at": "2026-10-22T03:05:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675166,6 +675151,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T03:39:22Z",
+      "first_failed_at": "2026-10-22T03:05:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.4
+      }
     }
   ],
   "in_progress": [
@@ -675198,16 +675198,6 @@
       "worker_id": "worker-2-39712645208",
       "run_id": "39712645208",
       "reserved_at": "2026-10-22T03:38:24Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39712645208",
-      "run_id": "39712645208",
-      "reserved_at": "2026-10-22T03:38:58Z"
     }
   ],
   "missing_on_account": [
