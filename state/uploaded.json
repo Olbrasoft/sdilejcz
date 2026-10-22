@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T07:48:04Z",
+  "last_updated": "2026-10-22T07:48:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675108,19 +675108,30 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13510,
       "cr_slug": "sexy-pistols",
       "title": "Sexy Pistols",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39739966186",
-      "run_id": "39739966186",
-      "reserved_at": "2026-10-22T07:44:14Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-22T07:48:49Z",
+      "first_failed_at": "2026-10-22T07:48:49Z",
+      "attempt_count": 1,
+      "upload_id": "68f20fb910e19",
+      "source_url": "https://prehraj.to/bandidas-sexy-pistols-2006-bandidas-dualdub-cz-gb-bluray-1-32-45-fsx-mkw/68f20fb910e19",
+      "upload_title": "Sexy Pistols (2006) CZ dab Bandidas (Dual)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.7,
+        "download_sec": 67.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14343,
       "cr_slug": "skupinovy-sex",
