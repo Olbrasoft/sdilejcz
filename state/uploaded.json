@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T19:25:07Z",
+  "last_updated": "2026-10-22T19:25:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675022,19 +675022,30 @@
       "timing": {
         "cdn_resolve_sec": 26.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17521,
       "cr_slug": "wet-red-rose",
       "title": "Wet Red Rose",
       "year": 1972,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39818925916",
-      "run_id": "39818925916",
-      "reserved_at": "2026-10-22T19:13:19Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-22T19:25:47Z",
+      "first_failed_at": "2026-10-22T19:25:47Z",
+      "attempt_count": 1,
+      "upload_id": "4463bb0982cda98c",
+      "source_url": "https://prehraj.to/wet-red-rose-1972-cz-dabing/4463bb0982cda98c",
+      "upload_title": "Wet Red Rose (1972) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 162.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
