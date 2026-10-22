@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T07:17:42Z",
+  "last_updated": "2026-10-22T07:18:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677784,21 +677784,6 @@
       }
     },
     {
-      "cr_film_id": 34961,
-      "cr_slug": "jackass-volume-one",
-      "title": "Jackass Volume One",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T06:47:34Z",
-      "first_failed_at": "2026-10-22T06:17:05Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34961,
       "cr_slug": "jackass-volume-one",
       "title": "Jackass Volume One",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39712645208",
-      "run_id": "39712645208",
-      "reserved_at": "2026-10-22T07:17:42Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T07:18:08Z",
+      "first_failed_at": "2026-10-22T06:17:05Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
