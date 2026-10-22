@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T03:54:25Z",
+  "last_updated": "2026-10-22T03:54:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674633,21 +674633,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T03:21:02Z",
-      "first_failed_at": "2026-10-22T02:47:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -675301,6 +675286,21 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T03:54:49Z",
+      "first_failed_at": "2026-10-22T02:47:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.6
+      }
     }
   ],
   "in_progress": [
@@ -675333,16 +675333,6 @@
       "worker_id": "worker-4-39712645208",
       "run_id": "39712645208",
       "reserved_at": "2026-10-22T03:54:05Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39712645208",
-      "run_id": "39712645208",
-      "reserved_at": "2026-10-22T03:54:25Z"
     }
   ],
   "missing_on_account": [
