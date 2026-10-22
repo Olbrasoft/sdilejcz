@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T06:02:08Z",
+  "last_updated": "2026-10-22T06:02:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676841,21 +676841,6 @@
       }
     },
     {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T05:31:58Z",
-      "first_failed_at": "2026-10-22T05:31:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
@@ -677759,6 +677744,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 31667,
+      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
+      "title": "One Piece: Baron Omatsuri and the Secret Island",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T06:02:31Z",
+      "first_failed_at": "2026-10-22T05:31:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -677781,16 +677781,6 @@
       "worker_id": "worker-4-39712645208",
       "run_id": "39712645208",
       "reserved_at": "2026-10-22T05:56:01Z"
-    },
-    {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39712645208",
-      "run_id": "39712645208",
-      "reserved_at": "2026-10-22T06:02:08Z"
     }
   ],
   "missing_on_account": [
