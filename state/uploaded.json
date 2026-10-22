@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T07:45:53Z",
+  "last_updated": "2026-10-22T07:46:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675042,19 +675042,24 @@
       "timing": {
         "cdn_resolve_sec": 12.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39739966186",
-      "run_id": "39739966186",
-      "reserved_at": "2026-10-22T07:43:12Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T07:46:06Z",
+      "first_failed_at": "2026-10-22T07:46:06Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13510,
       "cr_slug": "sexy-pistols",
