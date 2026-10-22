@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T15:31:04Z",
+  "last_updated": "2026-10-22T15:31:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676860,21 +676860,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T15:00:19Z",
-      "first_failed_at": "2026-10-22T14:29:36Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 33576,
       "cr_slug": "reznik-kurva-a-jednooky-muz",
       "title": "Řezník, kurva a jednooký muž",
@@ -677410,6 +677395,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T15:31:29Z",
+      "first_failed_at": "2026-10-22T14:29:36Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -677442,16 +677442,6 @@
       "worker_id": "worker-4-39771388890",
       "run_id": "39771388890",
       "reserved_at": "2026-10-22T15:26:50Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39771388890",
-      "run_id": "39771388890",
-      "reserved_at": "2026-10-22T15:31:04Z"
     }
   ],
   "missing_on_account": [
