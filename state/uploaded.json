@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T00:38:06Z",
+  "last_updated": "2026-10-22T00:38:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675742,21 +675742,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T00:07:50Z",
-      "first_failed_at": "2026-10-21T23:28:44Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -676613,6 +676598,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T00:38:27Z",
+      "first_failed_at": "2026-10-21T23:28:44Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -676645,16 +676645,6 @@
       "worker_id": "worker-3-39684190923",
       "run_id": "39684190923",
       "reserved_at": "2026-10-22T00:27:51Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-22T00:38:06Z"
     }
   ],
   "missing_on_account": [
