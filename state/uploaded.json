@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T00:02:43Z",
+  "last_updated": "2026-10-22T00:03:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675174,21 +675174,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T23:30:03Z",
-      "first_failed_at": "2026-10-21T22:59:36Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -675960,6 +675945,21 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T00:03:08Z",
+      "first_failed_at": "2026-10-21T22:59:36Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
   "in_progress": [
@@ -675982,16 +675982,6 @@
       "worker_id": "worker-2-39684190923",
       "run_id": "39684190923",
       "reserved_at": "2026-10-21T23:59:40Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-22T00:02:43Z"
     }
   ],
   "missing_on_account": [
