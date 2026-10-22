@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T13:13:28Z",
+  "last_updated": "2026-10-22T13:13:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674769,21 +674769,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T12:38:38Z",
-      "first_failed_at": "2026-10-22T11:36:28Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 10.4
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -675829,19 +675814,24 @@
       "timing": {
         "resolve_sec": 0.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39771388890",
-      "run_id": "39771388890",
-      "reserved_at": "2026-10-22T13:09:06Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T13:13:51Z",
+      "first_failed_at": "2026-10-22T11:36:28Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22008,
       "cr_slug": "klarino-koleno",
