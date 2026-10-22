@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T04:05:46Z",
+  "last_updated": "2026-10-22T04:06:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674696,21 +674696,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T03:34:35Z",
-      "first_failed_at": "2026-10-22T03:03:02Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
@@ -675349,6 +675334,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play",
+      "title": "Cold Play",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T04:06:08Z",
+      "first_failed_at": "2026-10-22T03:03:02Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -675381,16 +675381,6 @@
       "worker_id": "worker-3-39712645208",
       "run_id": "39712645208",
       "reserved_at": "2026-10-22T04:04:25Z"
-    },
-    {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39712645208",
-      "run_id": "39712645208",
-      "reserved_at": "2026-10-22T04:05:46Z"
     }
   ],
   "missing_on_account": [
