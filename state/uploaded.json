@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T00:24:25Z",
+  "last_updated": "2026-10-22T00:24:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675427,22 +675427,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-21T23:50:25Z",
-      "first_failed_at": "2026-10-21T23:18:34Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 4.3,
-        "download_sec": 2.0
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -676166,19 +676150,25 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-22T00:21:17Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-22T00:24:38Z",
+      "first_failed_at": "2026-10-21T23:18:34Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 6.8,
+        "download_sec": 2.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24495,
       "cr_slug": "sex-pistols-des-a-bes",
