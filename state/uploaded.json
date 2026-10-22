@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T05:01:14Z",
+  "last_updated": "2026-10-22T05:01:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675176,21 +675176,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T04:15:23Z",
-      "first_failed_at": "2026-10-22T03:12:43Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
       "title": "Wind River",
@@ -676091,19 +676076,24 @@
       "timing": {
         "cdn_resolve_sec": 13.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39712645208",
-      "run_id": "39712645208",
-      "reserved_at": "2026-10-22T04:51:55Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T05:01:30Z",
+      "first_failed_at": "2026-10-22T03:12:43Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
