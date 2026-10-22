@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T07:29:42Z",
+  "last_updated": "2026-10-22T07:30:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674496,19 +674496,26 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1408,
       "cr_slug": "black-panther",
       "title": "Black Panther",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39739966186",
-      "run_id": "39739966186",
-      "reserved_at": "2026-10-22T07:23:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-22T07:30:38Z",
+      "first_failed_at": "2026-10-22T07:30:38Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.5,
+        "download_sec": 28.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3591,
       "cr_slug": "sex",
