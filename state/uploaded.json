@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T12:51:48Z",
+  "last_updated": "2026-10-22T12:52:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674494,21 +674494,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T12:19:38Z",
-      "first_failed_at": "2026-10-22T12:19:38Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.3
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -675447,6 +675432,21 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
+    },
+    {
+      "cr_film_id": 12879,
+      "cr_slug": "gogs-gogwana",
+      "title": "Gogs: Gogwana",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T12:52:08Z",
+      "first_failed_at": "2026-10-22T12:19:38Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
   "in_progress": [
@@ -675469,16 +675469,6 @@
       "worker_id": "worker-2-39771388890",
       "run_id": "39771388890",
       "reserved_at": "2026-10-22T12:51:23Z"
-    },
-    {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39771388890",
-      "run_id": "39771388890",
-      "reserved_at": "2026-10-22T12:51:48Z"
     }
   ],
   "missing_on_account": [
