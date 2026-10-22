@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T12:19:49Z",
+  "last_updated": "2026-10-22T12:20:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674741,19 +674741,30 @@
       "timing": {
         "cdn_resolve_sec": 13.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12552,
       "cr_slug": "lara-croft-tomb-raider",
       "title": "Lara Croft – Tomb Raider",
       "year": 2001,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39771388890",
-      "run_id": "39771388890",
-      "reserved_at": "2026-10-22T12:14:50Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-22T12:20:06Z",
+      "first_failed_at": "2026-10-22T12:20:06Z",
+      "attempt_count": 1,
+      "upload_id": "5ade0790878a74d8",
+      "source_url": "https://prehraj.to/tomb-raider-lara-croft-2001-en-cz-dabing-uhdrdv-mkv/5ade0790878a74d8",
+      "upload_title": "Tomb raider - Lara Croft (2001) EN+CZ DABING UHDRDV.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 204.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
