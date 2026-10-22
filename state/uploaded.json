@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T13:06:05Z",
+  "last_updated": "2026-10-22T13:06:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674503,21 +674503,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T12:30:58Z",
-      "first_failed_at": "2026-10-22T12:00:19Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -675642,6 +675627,21 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T13:06:32Z",
+      "first_failed_at": "2026-10-22T12:00:19Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.2
+      }
     }
   ],
   "in_progress": [
@@ -675654,16 +675654,6 @@
       "worker_id": "worker-4-39771388890",
       "run_id": "39771388890",
       "reserved_at": "2026-10-22T12:52:21Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39771388890",
-      "run_id": "39771388890",
-      "reserved_at": "2026-10-22T13:06:05Z"
     }
   ],
   "missing_on_account": [
