@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T00:06:53Z",
+  "last_updated": "2026-10-22T00:07:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675159,21 +675159,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T23:33:57Z",
-      "first_failed_at": "2026-10-21T22:58:02Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
       "title": "Wind River",
@@ -675960,6 +675945,21 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T00:07:17Z",
+      "first_failed_at": "2026-10-21T22:58:02Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -675992,16 +675992,6 @@
       "worker_id": "worker-3-39684190923",
       "run_id": "39684190923",
       "reserved_at": "2026-10-22T00:03:18Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-22T00:06:53Z"
     }
   ],
   "missing_on_account": [
