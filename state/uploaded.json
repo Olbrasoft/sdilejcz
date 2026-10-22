@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T17:34:36Z",
+  "last_updated": "2026-10-22T17:42:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674449,19 +674449,30 @@
       "timing": {
         "cdn_resolve_sec": 21.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8199,
       "cr_slug": "sexappeal",
       "title": "Sex Appeal",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39818925916",
-      "run_id": "39818925916",
-      "reserved_at": "2026-10-22T17:08:19Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-22T17:42:13Z",
+      "first_failed_at": "2026-10-22T17:42:13Z",
+      "attempt_count": 1,
+      "upload_id": "6310588b315a5",
+      "source_url": "https://prehraj.to/sex-appeal-2022-cz-dabing/6310588b315a5",
+      "upload_title": "Sex appeal (2022) CZ dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 1954.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13454,
       "cr_slug": "sexy-mrtvola",
