@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T21:14:31Z",
+  "last_updated": "2026-10-22T21:16:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674456,6 +674456,30 @@
         "upload_sec": 184.0,
         "total_sec": 230.5
       }
+    },
+    {
+      "cr_film_id": 24711,
+      "cr_slug": "sexy-ptaci",
+      "title": "Sexy ptáci",
+      "year": 2001,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5be60b78f2237",
+      "source_url": "https://prehraj.to/sexy-ptaci-2001-cz-dabing/5be60b78f2237",
+      "source_title": "Sexy Ptáci (2001) CZ Dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35356762/sexy-ptaci-2001-cz-dabing.mp4",
+      "sdilej_name": "Sexy ptáci (2001) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-22T21:16:40Z",
+      "status": "uploaded",
+      "size_bytes": 480544028,
+      "worker_id": "worker-2-39818925916",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 24.4,
+        "upload_sec": 92.6,
+        "total_sec": 119.0
+      }
     }
   ],
   "failed_attempts": [
@@ -676018,27 +676042,6 @@
         "download_sec": 18.7,
         "upload_sec": 30.0
       }
-    },
-    {
-      "cr_film_id": 24711,
-      "cr_slug": "sexy-ptaci",
-      "title": "Sexy ptáci",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-22T21:09:45Z",
-      "first_failed_at": "2026-10-22T21:09:45Z",
-      "attempt_count": 1,
-      "upload_id": "5b70aa37adf1b",
-      "source_url": "https://prehraj.to/sexy-ptaci-2001-cz-dabing/5b70aa37adf1b",
-      "upload_title": "Sexy Ptáci (2001) CZ Dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 29.2,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -676071,16 +676074,6 @@
       "worker_id": "worker-3-39818925916",
       "run_id": "39818925916",
       "reserved_at": "2026-10-22T21:09:57Z"
-    },
-    {
-      "cr_film_id": 24711,
-      "cr_slug": "sexy-ptaci",
-      "title": "Sexy ptáci",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39818925916",
-      "run_id": "39818925916",
-      "reserved_at": "2026-10-22T21:14:31Z"
     }
   ],
   "missing_on_account": [
