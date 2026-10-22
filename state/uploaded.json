@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T06:56:50Z",
+  "last_updated": "2026-10-22T06:57:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677539,21 +677539,6 @@
       }
     },
     {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T06:22:02Z",
-      "first_failed_at": "2026-10-22T05:51:11Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 34898,
       "cr_slug": "sisters-2006",
       "title": "Sisters",
@@ -678323,6 +678308,21 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
+    },
+    {
+      "cr_film_id": 34885,
+      "cr_slug": "tata",
+      "title": "Táta",
+      "year": 1989,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T06:57:17Z",
+      "first_failed_at": "2026-10-22T05:51:11Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -678335,16 +678335,6 @@
       "worker_id": "worker-4-39712645208",
       "run_id": "39712645208",
       "reserved_at": "2026-10-22T06:51:49Z"
-    },
-    {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39712645208",
-      "run_id": "39712645208",
-      "reserved_at": "2026-10-22T06:56:50Z"
     }
   ],
   "missing_on_account": [
