@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T23:35:41Z",
+  "last_updated": "2026-10-22T23:36:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674267,21 +674267,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T23:04:40Z",
-      "first_failed_at": "2026-10-22T23:04:40Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.7
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -675338,6 +675323,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T23:36:02Z",
+      "first_failed_at": "2026-10-22T23:04:40Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -675360,16 +675360,6 @@
       "worker_id": "worker-1-39865151790",
       "run_id": "39865151790",
       "reserved_at": "2026-10-22T23:32:56Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-22T23:35:41Z"
     }
   ],
   "missing_on_account": [
