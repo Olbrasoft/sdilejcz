@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T02:08:49Z",
+  "last_updated": "2026-10-22T02:09:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677161,21 +677161,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T01:26:40Z",
-      "first_failed_at": "2026-10-22T00:48:56Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
@@ -678145,19 +678130,24 @@
       "timing": {
         "cdn_resolve_sec": 10.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-22T01:56:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T02:09:09Z",
+      "first_failed_at": "2026-10-22T00:48:56Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36850,
       "cr_slug": "smolny-pich-aneb-pitomy-porno",
