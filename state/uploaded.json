@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T00:13:50Z",
+  "last_updated": "2026-10-22T00:14:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675327,21 +675327,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-21T23:41:02Z",
-      "first_failed_at": "2026-10-21T23:08:03Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.6
-      }
-    },
-    {
       "cr_film_id": 20985,
       "cr_slug": "the-king-of-kings",
       "title": "The King of Kings",
@@ -675984,6 +675969,21 @@
       "timing": {
         "cdn_resolve_sec": 12.6
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T00:14:13Z",
+      "first_failed_at": "2026-10-21T23:08:03Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.6
+      }
     }
   ],
   "in_progress": [
@@ -676016,16 +676016,6 @@
       "worker_id": "worker-1-39684190923",
       "run_id": "39684190923",
       "reserved_at": "2026-10-22T00:10:37Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39684190923",
-      "run_id": "39684190923",
-      "reserved_at": "2026-10-22T00:13:50Z"
     }
   ],
   "missing_on_account": [
