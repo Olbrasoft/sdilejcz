@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T08:05:00Z",
+  "last_updated": "2026-10-22T08:05:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675531,19 +675531,24 @@
       "timing": {
         "cdn_resolve_sec": 9.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39739966186",
-      "run_id": "39739966186",
-      "reserved_at": "2026-10-22T07:53:49Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-22T08:05:13Z",
+      "first_failed_at": "2026-10-22T08:05:13Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
