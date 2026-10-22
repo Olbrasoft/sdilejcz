@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-22T06:42:58Z",
+  "last_updated": "2026-10-22T06:43:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677416,22 +677416,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-22T06:06:53Z",
-      "first_failed_at": "2026-10-22T05:36:26Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.4,
-        "download_sec": 2.1
-      }
-    },
-    {
       "cr_film_id": 35726,
       "cr_slug": "taylor-swift-the-eras-tour",
       "title": "TAYLOR SWIFT | THE ERAS TOUR",
@@ -678299,6 +678283,22 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-22T06:43:13Z",
+      "first_failed_at": "2026-10-22T05:36:26Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 2.2
+      }
     }
   ],
   "in_progress": [
@@ -678321,16 +678321,6 @@
       "worker_id": "worker-2-39712645208",
       "run_id": "39712645208",
       "reserved_at": "2026-10-22T06:33:07Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39712645208",
-      "run_id": "39712645208",
-      "reserved_at": "2026-10-22T06:42:58Z"
     }
   ],
   "missing_on_account": [
