@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T11:57:33Z",
+  "last_updated": "2026-10-23T11:58:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677332,19 +677332,24 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
       "year": 1988,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T11:40:33Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T11:58:10Z",
+      "first_failed_at": "2026-10-23T11:58:10Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
