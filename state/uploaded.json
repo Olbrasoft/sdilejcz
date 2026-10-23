@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T20:31:35Z",
+  "last_updated": "2026-10-23T20:32:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674152,21 +674152,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T20:00:06Z",
-      "first_failed_at": "2026-10-23T19:29:18Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 29.5
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -674299,6 +674284,21 @@
         "download_sec": 1418.8,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T20:32:06Z",
+      "first_failed_at": "2026-10-23T19:29:18Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 18.5
+      }
     }
   ],
   "in_progress": [
@@ -674331,16 +674331,6 @@
       "worker_id": "worker-3-40011296457",
       "run_id": "40011296457",
       "reserved_at": "2026-10-23T20:31:02Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40011296457",
-      "run_id": "40011296457",
-      "reserved_at": "2026-10-23T20:31:35Z"
     }
   ],
   "missing_on_account": [
