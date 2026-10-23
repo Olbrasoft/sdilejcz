@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T00:46:42Z",
+  "last_updated": "2026-10-23T00:47:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675343,21 +675343,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T00:12:00Z",
-      "first_failed_at": "2026-10-22T22:52:59Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.5
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -675875,6 +675860,21 @@
       "timing": {
         "cdn_resolve_sec": 14.8
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T00:47:05Z",
+      "first_failed_at": "2026-10-22T22:52:59Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
     }
   ],
   "in_progress": [
@@ -675897,16 +675897,6 @@
       "worker_id": "worker-4-39865151790",
       "run_id": "39865151790",
       "reserved_at": "2026-10-23T00:43:19Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T00:46:42Z"
     }
   ],
   "missing_on_account": [
