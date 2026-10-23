@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T10:11:34Z",
+  "last_updated": "2026-10-23T10:12:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674352,6 +674352,30 @@
         "upload_sec": 196.5,
         "total_sec": 250.2
       }
+    },
+    {
+      "cr_film_id": 17244,
+      "cr_slug": "rocco-chinnici",
+      "title": "Rocco Chinnici",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5e43daf2c38cd",
+      "source_url": "https://prehraj.to/rocco-chinnici-drama-2018-sk-dabing/5e43daf2c38cd",
+      "source_title": "Rocco-Chinnici-(drama)-(2018)--sk-dabing",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35372201/rocco-chinnici-2018-cz.mp4",
+      "sdilej_name": "Rocco Chinnici (2018) CZ.mp4",
+      "uploaded_at": "2026-10-23T10:04:36Z",
+      "status": "uploaded",
+      "size_bytes": 1987208682,
+      "worker_id": "worker-1-39926918757",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 104.0,
+        "upload_sec": 391.0,
+        "total_sec": 497.5
+      }
     }
   ],
   "failed_attempts": [
@@ -675127,27 +675151,6 @@
       }
     },
     {
-      "cr_film_id": 17244,
-      "cr_slug": "rocco-chinnici",
-      "title": "Rocco Chinnici",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-23T09:50:45Z",
-      "first_failed_at": "2026-10-23T09:50:45Z",
-      "attempt_count": 1,
-      "upload_id": "5e3f44f006838",
-      "source_url": "https://prehraj.to/rocco-chinnici-zivotopisny-2018-480p-tvrip-sk-81-sten-ok/5e3f44f006838",
-      "upload_title": "Rocco Chinnici životopisný 2018.480p.TvRip.SK.81%.STEN.ok",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.3,
-        "download_sec": 25.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -675554,16 +675557,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 17244,
-      "cr_slug": "rocco-chinnici",
-      "title": "Rocco Chinnici",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T09:56:09Z"
-    },
     {
       "cr_film_id": 18355,
       "cr_slug": "blue-caprice",
