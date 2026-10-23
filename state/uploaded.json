@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T01:41:30Z",
+  "last_updated": "2026-10-23T01:43:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676861,6 +676861,23 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
+    },
+    {
+      "cr_film_id": 30672,
+      "cr_slug": "spravna-coura",
+      "title": "Správná coura",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-23T01:43:21Z",
+      "first_failed_at": "2026-10-23T01:43:21Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 65.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676893,16 +676910,6 @@
       "worker_id": "worker-3-39865151790",
       "run_id": "39865151790",
       "reserved_at": "2026-10-23T01:38:30Z"
-    },
-    {
-      "cr_film_id": 30672,
-      "cr_slug": "spravna-coura",
-      "title": "Správná coura",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T01:41:30Z"
     }
   ],
   "missing_on_account": [
