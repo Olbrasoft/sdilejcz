@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T10:35:57Z",
+  "last_updated": "2026-10-23T10:36:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675030,21 +675030,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T09:53:22Z",
-      "first_failed_at": "2026-10-23T08:48:34Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.8
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -675755,6 +675740,21 @@
         "download_sec": 39.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 4297,
+      "cr_slug": "po-cem-zeny-touzi",
+      "title": "Po čem ženy touží",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T10:36:20Z",
+      "first_failed_at": "2026-10-23T08:48:34Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
     }
   ],
   "in_progress": [
@@ -675787,16 +675787,6 @@
       "worker_id": "worker-1-39926918757",
       "run_id": "39926918757",
       "reserved_at": "2026-10-23T10:35:35Z"
-    },
-    {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T10:35:57Z"
     }
   ],
   "missing_on_account": [
