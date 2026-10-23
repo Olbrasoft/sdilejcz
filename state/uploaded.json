@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T06:57:43Z",
+  "last_updated": "2026-10-23T06:59:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676967,6 +676967,27 @@
         "resolve_sec": 0.8,
         "download_sec": 1.6
       }
+    },
+    {
+      "cr_film_id": 33713,
+      "cr_slug": "sex-guaranteed",
+      "title": "Sex Guaranteed",
+      "year": 2017,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-23T06:59:04Z",
+      "first_failed_at": "2026-10-23T06:59:04Z",
+      "attempt_count": 1,
+      "upload_id": "60745c5c6ebf3",
+      "source_url": "https://prehraj.to/sex-guaranteed-2017-1080p-amzn-web-dl-ddp5-1-h-264-paai/60745c5c6ebf3",
+      "upload_title": "Sex.Guaranteed.2017.1080p.AMZN.WEB-DL.DDP5.1.H.264-PAAI",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 37.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676999,16 +677020,6 @@
       "worker_id": "worker-4-39896736727",
       "run_id": "39896736727",
       "reserved_at": "2026-10-23T06:56:52Z"
-    },
-    {
-      "cr_film_id": 33713,
-      "cr_slug": "sex-guaranteed",
-      "title": "Sex Guaranteed",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T06:57:43Z"
     }
   ],
   "missing_on_account": [
