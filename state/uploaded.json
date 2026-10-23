@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T19:01:44Z",
+  "last_updated": "2026-10-23T19:02:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677370,21 +677370,6 @@
       }
     },
     {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T18:31:40Z",
-      "first_failed_at": "2026-10-23T18:31:40Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 26.8
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -678041,6 +678026,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34971,
+      "cr_slug": "krvava-amazonka",
+      "title": "Krvavá Amazonka",
+      "year": 1985,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T19:02:25Z",
+      "first_failed_at": "2026-10-23T18:31:40Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 27.8
+      }
     }
   ],
   "in_progress": [
@@ -678073,16 +678073,6 @@
       "worker_id": "worker-1-39965459690",
       "run_id": "39965459690",
       "reserved_at": "2026-10-23T18:59:36Z"
-    },
-    {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T19:01:44Z"
     }
   ],
   "missing_on_account": [
