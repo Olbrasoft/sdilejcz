@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T00:43:19Z",
+  "last_updated": "2026-10-23T00:45:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675169,21 +675169,6 @@
       }
     },
     {
-      "cr_film_id": 12558,
-      "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
-      "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-22T23:56:22Z",
-      "first_failed_at": "2026-10-22T22:52:30Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
@@ -675851,19 +675836,24 @@
       "timing": {
         "cdn_resolve_sec": 10.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
       "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-1-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T00:30:00Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T00:45:37Z",
+      "first_failed_at": "2026-10-22T22:52:30Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 28039,
       "cr_slug": "sex-drogy-a-dane",
