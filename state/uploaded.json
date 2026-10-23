@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T14:19:46Z",
+  "last_updated": "2026-10-23T14:20:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674103,20 +674103,24 @@
       "timing": {
         "cdn_resolve_sec": 13.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
       "year": 1999,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T14:19:46Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T14:20:08Z",
+      "first_failed_at": "2026-10-23T14:20:08Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
