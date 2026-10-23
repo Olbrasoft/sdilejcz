@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T10:59:19Z",
+  "last_updated": "2026-10-23T11:00:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675999,6 +675999,27 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
+    },
+    {
+      "cr_film_id": 21663,
+      "cr_slug": "lolita-1962",
+      "title": "Lolita",
+      "year": 1962,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-23T11:00:28Z",
+      "first_failed_at": "2026-10-23T11:00:28Z",
+      "attempt_count": 1,
+      "upload_id": "5891c9a9df449",
+      "source_url": "https://prehraj.to/lolita-1962-cz-titulky/5891c9a9df449",
+      "upload_title": "Lolita-1962-cz-titulky--",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 25.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676021,16 +676042,6 @@
       "worker_id": "worker-4-39926918757",
       "run_id": "39926918757",
       "reserved_at": "2026-10-23T10:58:28Z"
-    },
-    {
-      "cr_film_id": 21663,
-      "cr_slug": "lolita-1962",
-      "title": "Lolita",
-      "year": 1962,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T10:59:19Z"
     }
   ],
   "missing_on_account": [
