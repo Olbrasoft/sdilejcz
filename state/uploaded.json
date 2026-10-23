@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T10:31:35Z",
+  "last_updated": "2026-10-23T10:32:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675713,19 +675713,30 @@
       "timing": {
         "cdn_resolve_sec": 14.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19427,
       "cr_slug": "lolita",
       "title": "Lolita",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T10:20:10Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-23T10:32:29Z",
+      "first_failed_at": "2026-10-23T10:32:29Z",
+      "attempt_count": 1,
+      "upload_id": "7546d19c5ebefa2c",
+      "source_url": "https://prehraj.to/lolita-1997-czdab-mp4/7546d19c5ebefa2c",
+      "upload_title": "Lolita,(1997),CZdab.mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 70.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
