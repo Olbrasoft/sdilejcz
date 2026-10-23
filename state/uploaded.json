@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T12:26:36Z",
+  "last_updated": "2026-10-23T12:27:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677027,21 +677027,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T11:52:10Z",
-      "first_failed_at": "2026-10-23T11:21:05Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 34435,
       "cr_slug": "transformers-jedna",
       "title": "Transformers Jedna",
@@ -677992,6 +677977,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T12:27:04Z",
+      "first_failed_at": "2026-10-23T11:21:05Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 15.5
+      }
     }
   ],
   "in_progress": [
@@ -678024,16 +678024,6 @@
       "worker_id": "worker-1-39926918757",
       "run_id": "39926918757",
       "reserved_at": "2026-10-23T12:25:41Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T12:26:36Z"
     }
   ],
   "missing_on_account": [
