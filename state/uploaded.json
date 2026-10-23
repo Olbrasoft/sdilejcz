@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T15:41:02Z",
+  "last_updated": "2026-10-23T15:41:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674431,21 +674431,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T15:05:10Z",
-      "first_failed_at": "2026-10-23T14:03:12Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.3
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -675209,19 +675194,24 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T15:35:16Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T15:41:25Z",
+      "first_failed_at": "2026-10-23T14:03:12Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23687,
       "cr_slug": "studentka-na-telefon",
