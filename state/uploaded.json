@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T03:35:09Z",
+  "last_updated": "2026-10-23T03:35:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677554,21 +677554,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T02:45:21Z",
-      "first_failed_at": "2026-10-23T01:32:44Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
@@ -678376,20 +678361,24 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T03:35:09Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T03:35:30Z",
+      "first_failed_at": "2026-10-23T01:32:44Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
