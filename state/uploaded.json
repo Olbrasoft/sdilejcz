@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T06:26:12Z",
+  "last_updated": "2026-10-23T06:26:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675547,21 +675547,6 @@
       }
     },
     {
-      "cr_film_id": 13328,
-      "cr_slug": "vrana-4-pekelny-knez",
-      "title": "Vrána 4: Pekelný kněz",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T05:50:11Z",
-      "first_failed_at": "2026-10-23T04:37:55Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -676506,6 +676491,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 13328,
+      "cr_slug": "vrana-4-pekelny-knez",
+      "title": "Vrána 4: Pekelný kněz",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T06:26:35Z",
+      "first_failed_at": "2026-10-23T04:37:55Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
     }
   ],
   "in_progress": [
@@ -676538,16 +676538,6 @@
       "worker_id": "worker-3-39896736727",
       "run_id": "39896736727",
       "reserved_at": "2026-10-23T06:25:24Z"
-    },
-    {
-      "cr_film_id": 13328,
-      "cr_slug": "vrana-4-pekelny-knez",
-      "title": "Vrána 4: Pekelný kněz",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T06:26:12Z"
     }
   ],
   "missing_on_account": [
