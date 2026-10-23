@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T21:05:58Z",
+  "last_updated": "2026-10-23T21:06:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674382,21 +674382,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T20:35:51Z",
-      "first_failed_at": "2026-10-23T20:35:51Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.8
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -674641,6 +674626,21 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T21:06:25Z",
+      "first_failed_at": "2026-10-23T20:35:51Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -674673,16 +674673,6 @@
       "worker_id": "worker-2-40011296457",
       "run_id": "40011296457",
       "reserved_at": "2026-10-23T21:04:44Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40011296457",
-      "run_id": "40011296457",
-      "reserved_at": "2026-10-23T21:05:58Z"
     }
   ],
   "missing_on_account": [
