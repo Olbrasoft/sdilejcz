@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T11:27:06Z",
+  "last_updated": "2026-10-23T11:27:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675621,21 +675621,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T10:49:17Z",
-      "first_failed_at": "2026-10-23T09:43:40Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
@@ -676474,6 +676459,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T11:27:32Z",
+      "first_failed_at": "2026-10-23T09:43:40Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
     }
   ],
   "in_progress": [
@@ -676506,16 +676506,6 @@
       "worker_id": "worker-3-39926918757",
       "run_id": "39926918757",
       "reserved_at": "2026-10-23T11:26:20Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T11:27:06Z"
     }
   ],
   "missing_on_account": [
