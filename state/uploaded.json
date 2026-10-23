@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T05:24:26Z",
+  "last_updated": "2026-10-23T05:24:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674884,21 +674884,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T04:54:22Z",
-      "first_failed_at": "2026-10-23T03:49:42Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675766,6 +675751,21 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T05:24:49Z",
+      "first_failed_at": "2026-10-23T03:49:42Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.9
+      }
     }
   ],
   "in_progress": [
@@ -675788,16 +675788,6 @@
       "worker_id": "worker-3-39896736727",
       "run_id": "39896736727",
       "reserved_at": "2026-10-23T05:24:07Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T05:24:26Z"
     }
   ],
   "missing_on_account": [
