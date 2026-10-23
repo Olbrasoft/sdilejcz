@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T04:58:33Z",
+  "last_updated": "2026-10-23T04:58:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674311,6 +674311,27 @@
         "upload_sec": 81.5,
         "total_sec": 130.2
       }
+    },
+    {
+      "cr_film_id": 10308,
+      "cr_slug": "casting-na-lasku",
+      "title": "Casting na lásku",
+      "year": 2020,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 14490,
+      "sdilej_url": "https://sdilej.cz/35370985/casting-na-lasku-2020-cz-dabing.mp4",
+      "sdilej_name": "Casting na lásku (2020) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-23T04:54:42Z",
+      "status": "uploaded",
+      "size_bytes": 664297098,
+      "worker_id": "worker-1-39896736727",
+      "timing": {
+        "cdn_resolve_sec": 3.9,
+        "download_sec": 71.2,
+        "upload_sec": 105.9,
+        "total_sec": 181.2
+      }
     }
   ],
   "failed_attempts": [
@@ -674521,23 +674542,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 10308,
-      "cr_slug": "casting-na-lasku",
-      "title": "Casting na lásku",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-23T04:20:45Z",
-      "first_failed_at": "2026-10-23T04:20:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 6.2,
-        "download_sec": 63.7,
-        "upload_sec": 30.0
       }
     },
     {
@@ -675544,16 +675548,6 @@
       "worker_id": "worker-4-39896736727",
       "run_id": "39896736727",
       "reserved_at": "2026-10-23T04:50:33Z"
-    },
-    {
-      "cr_film_id": 10308,
-      "cr_slug": "casting-na-lasku",
-      "title": "Casting na lásku",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T04:51:30Z"
     },
     {
       "cr_film_id": 12039,
