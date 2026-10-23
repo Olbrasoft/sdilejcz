@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T03:16:44Z",
+  "last_updated": "2026-10-23T03:17:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677705,21 +677705,6 @@
       }
     },
     {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T02:46:38Z",
-      "first_failed_at": "2026-10-23T02:15:43Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.3
-      }
-    },
-    {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
@@ -678346,6 +678331,21 @@
       "timing": {
         "cdn_resolve_sec": 9.8
       }
+    },
+    {
+      "cr_film_id": 34882,
+      "cr_slug": "brouk-v-hlave-1968",
+      "title": "Brouk v hlavě",
+      "year": 1968,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T03:17:08Z",
+      "first_failed_at": "2026-10-23T02:15:43Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
     }
   ],
   "in_progress": [
@@ -678378,16 +678378,6 @@
       "worker_id": "worker-1-39865151790",
       "run_id": "39865151790",
       "reserved_at": "2026-10-23T03:16:10Z"
-    },
-    {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T03:16:44Z"
     }
   ],
   "missing_on_account": [
