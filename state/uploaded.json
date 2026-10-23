@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T01:23:23Z",
+  "last_updated": "2026-10-23T01:24:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676475,6 +676475,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 30672,
+      "cr_slug": "spravna-coura",
+      "title": "Správná coura",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-23T01:24:48Z",
+      "first_failed_at": "2026-10-23T01:24:48Z",
+      "attempt_count": 1,
+      "upload_id": "5cedec0fb12f3",
+      "source_url": "https://prehraj.to/spravna-coura-komedie-kanada-2018-1080p-h264-s-cztitulky-47-sten-ok/5cedec0fb12f3",
+      "upload_title": "Správná coura komedie KANADA 2018.1080p.H264.s.Cztitulky.47…",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 40.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676497,16 +676518,6 @@
       "worker_id": "worker-4-39865151790",
       "run_id": "39865151790",
       "reserved_at": "2026-10-23T01:21:35Z"
-    },
-    {
-      "cr_film_id": 30672,
-      "cr_slug": "spravna-coura",
-      "title": "Správná coura",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T01:23:23Z"
     }
   ],
   "missing_on_account": [
