@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T01:19:28Z",
+  "last_updated": "2026-10-23T01:20:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676413,6 +676413,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 30672,
+      "cr_slug": "spravna-coura",
+      "title": "Správná coura",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-23T01:20:50Z",
+      "first_failed_at": "2026-10-23T01:20:50Z",
+      "attempt_count": 1,
+      "upload_id": "5ce88cf1f0f5e",
+      "source_url": "https://prehraj.to/spravna-coura-charlotte-a-du-fun-2018-hc-titulky-cz-1080p-hd-mp4/5ce88cf1f0f5e",
+      "upload_title": "Správná coura_Charlotte a du fun_2018_HC.titulky.CZ_1080p.HD",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 38.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676435,16 +676456,6 @@
       "worker_id": "worker-2-39865151790",
       "run_id": "39865151790",
       "reserved_at": "2026-10-23T01:16:15Z"
-    },
-    {
-      "cr_film_id": 30672,
-      "cr_slug": "spravna-coura",
-      "title": "Správná coura",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T01:19:28Z"
     }
   ],
   "missing_on_account": [
