@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T08:12:39Z",
+  "last_updated": "2026-10-23T08:13:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677300,21 +677300,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T07:36:35Z",
-      "first_failed_at": "2026-10-23T06:35:07Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
       "title": "Kvílení vlkodlaků 6",
@@ -678269,6 +678254,21 @@
       "timing": {
         "cdn_resolve_sec": 14.8
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T08:13:06Z",
+      "first_failed_at": "2026-10-23T06:35:07Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
     }
   ],
   "in_progress": [
@@ -678301,16 +678301,6 @@
       "worker_id": "worker-1-39896736727",
       "run_id": "39896736727",
       "reserved_at": "2026-10-23T08:11:20Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T08:12:39Z"
     }
   ],
   "missing_on_account": [
