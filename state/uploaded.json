@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T10:33:03Z",
+  "last_updated": "2026-10-23T10:33:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675105,21 +675105,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T09:59:40Z",
-      "first_failed_at": "2026-10-23T08:54:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.7
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -675734,19 +675719,24 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T10:30:26Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T10:33:17Z",
+      "first_failed_at": "2026-10-23T08:54:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19583,
       "cr_slug": "sex-ve-meste",
