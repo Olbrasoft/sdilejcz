@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T14:19:10Z",
+  "last_updated": "2026-10-23T14:19:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674088,20 +674088,24 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
       "year": 1974,
       "sktorrent_id": null,
-      "worker_id": "worker-2-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T14:19:10Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T14:19:34Z",
+      "first_failed_at": "2026-10-23T14:19:34Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
