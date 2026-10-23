@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T04:25:43Z",
+  "last_updated": "2026-10-23T04:26:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674288,21 +674288,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T03:49:22Z",
-      "first_failed_at": "2026-10-23T03:49:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.8
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -674599,19 +674584,24 @@
         "download_sec": 34.4,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T04:20:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T04:26:09Z",
+      "first_failed_at": "2026-10-23T03:49:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11325,
       "cr_slug": "black-cat-gatto-nero",
