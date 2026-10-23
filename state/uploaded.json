@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T06:52:02Z",
+  "last_updated": "2026-10-23T06:53:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676878,6 +676878,27 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
+    },
+    {
+      "cr_film_id": 33414,
+      "cr_slug": "on-the-basis-of-sex",
+      "title": "On the Basis of Sex",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-23T06:53:21Z",
+      "first_failed_at": "2026-10-23T06:53:21Z",
+      "attempt_count": 1,
+      "upload_id": "5cd0f380c1471",
+      "source_url": "https://prehraj.to/on-the-basis-of-sex-zivotopisny-2018-720p-x264-s-cztitulky-59-sten-ok/5cd0f380c1471",
+      "upload_title": "On the Basis of Sex životopisný 2018.720p.x264.s.Cztitulky.59%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 34.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676910,16 +676931,6 @@
       "worker_id": "worker-1-39896736727",
       "run_id": "39896736727",
       "reserved_at": "2026-10-23T06:51:25Z"
-    },
-    {
-      "cr_film_id": 33414,
-      "cr_slug": "on-the-basis-of-sex",
-      "title": "On the Basis of Sex",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T06:52:02Z"
     }
   ],
   "missing_on_account": [
