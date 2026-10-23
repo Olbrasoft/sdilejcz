@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T13:49:58Z",
+  "last_updated": "2026-10-23T13:52:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677427,21 +677427,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T12:24:50Z",
-      "first_failed_at": "2026-10-23T11:42:28Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 36849,
       "cr_slug": "svatebni-prsten",
       "title": "Svatební prsten",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 29.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T13:20:24Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T13:52:16Z",
+      "first_failed_at": "2026-10-23T11:42:28Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
