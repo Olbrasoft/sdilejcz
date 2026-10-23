@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T21:37:59Z",
+  "last_updated": "2026-10-23T21:38:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674196,6 +674196,30 @@
         "upload_sec": 203.8,
         "total_sec": 313.1
       }
+    },
+    {
+      "cr_film_id": 8929,
+      "cr_slug": "leo-da-vinci-mise-mona-lisa",
+      "title": "Leo Da Vinci: Mise Mona Lisa",
+      "year": 2018,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "611cf42d4a5fc",
+      "source_url": "https://prehraj.to/leo-da-vinci-mise-mona-lisa-2018-cz-dabing/611cf42d4a5fc",
+      "source_title": "Leo Da Vinci-Mise Mona Lisa 2018 CZ dabing",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35375437/leo-da-vinci-mise-mona-lisa-2018-cz-dabing.mp4",
+      "sdilej_name": "Leo Da Vinci: Mise Mona Lisa (2018) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-23T21:34:59Z",
+      "status": "uploaded",
+      "size_bytes": 1433187117,
+      "worker_id": "worker-3-40011296457",
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 1761.7,
+        "upload_sec": 242.6,
+        "total_sec": 2006.7
+      }
     }
   ],
   "failed_attempts": [
@@ -674421,27 +674445,6 @@
       "attempt_count": 3,
       "timing": {
         "cdn_resolve_sec": 14.5
-      }
-    },
-    {
-      "cr_film_id": 8929,
-      "cr_slug": "leo-da-vinci-mise-mona-lisa",
-      "title": "Leo Da Vinci: Mise Mona Lisa",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-23T21:00:04Z",
-      "first_failed_at": "2026-10-23T21:00:04Z",
-      "attempt_count": 1,
-      "upload_id": "600d6eeb507a3",
-      "source_url": "https://prehraj.to/leo-da-vinci-cz-dabing-2018-animovany/600d6eeb507a3",
-      "upload_title": "Leo Da Vinci [CZ dabing, 2018, animovany]",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.7,
-        "download_sec": 1383.2,
-        "upload_sec": 30.0
       }
     },
     {
@@ -675178,16 +675181,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 8929,
-      "cr_slug": "leo-da-vinci-mise-mona-lisa",
-      "title": "Leo Da Vinci: Mise Mona Lisa",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40011296457",
-      "run_id": "40011296457",
-      "reserved_at": "2026-10-23T21:01:21Z"
-    },
     {
       "cr_film_id": 12552,
       "cr_slug": "lara-croft-tomb-raider",
