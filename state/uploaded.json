@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T03:40:23Z",
+  "last_updated": "2026-10-23T03:40:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677668,21 +677668,6 @@
       }
     },
     {
-      "cr_film_id": 37212,
-      "cr_slug": "hvezdna-brana-pravdivy-pribeh",
-      "title": "Hvězdná brána: Pravdivý příběh",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T03:01:44Z",
-      "first_failed_at": "2026-10-23T03:01:44Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 37224,
       "cr_slug": "los-angeles-streetfighter",
       "title": "Los Angeles Streetfighter",
@@ -678376,20 +678361,24 @@
       "timing": {
         "cdn_resolve_sec": 8.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37212,
       "cr_slug": "hvezdna-brana-pravdivy-pribeh",
       "title": "Hvězdná brána: Pravdivý příběh",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T03:40:23Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T03:40:44Z",
+      "first_failed_at": "2026-10-23T03:01:44Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
