@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T05:19:48Z",
+  "last_updated": "2026-10-23T05:20:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674569,21 +674569,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T04:38:58Z",
-      "first_failed_at": "2026-10-23T04:38:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675727,19 +675712,24 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T05:15:39Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T05:20:06Z",
+      "first_failed_at": "2026-10-23T04:38:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
