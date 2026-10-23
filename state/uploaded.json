@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T05:45:16Z",
+  "last_updated": "2026-10-23T05:45:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675284,21 +675284,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T05:13:21Z",
-      "first_failed_at": "2026-10-23T04:29:25Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.9
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -676048,6 +676033,21 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T05:45:37Z",
+      "first_failed_at": "2026-10-23T04:29:25Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
     }
   ],
   "in_progress": [
@@ -676080,16 +676080,6 @@
       "worker_id": "worker-4-39896736727",
       "run_id": "39896736727",
       "reserved_at": "2026-10-23T05:44:06Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T05:45:16Z"
     }
   ],
   "missing_on_account": [
