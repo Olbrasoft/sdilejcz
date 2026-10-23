@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T20:13:28Z",
+  "last_updated": "2026-10-23T20:14:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674221,6 +674221,27 @@
       "timing": {
         "cdn_resolve_sec": 22.0
       }
+    },
+    {
+      "cr_film_id": 8677,
+      "cr_slug": "proste-sexy",
+      "title": "Prostě sexy",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-23T20:14:47Z",
+      "first_failed_at": "2026-10-23T20:14:47Z",
+      "attempt_count": 1,
+      "upload_id": "582119fa97533",
+      "source_url": "https://prehraj.to/proste-sexy-cz-dabing-2002/582119fa97533",
+      "upload_title": "Proste sexy, CZ dabing (2002)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 33.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674253,16 +674274,6 @@
       "worker_id": "worker-3-40011296457",
       "run_id": "40011296457",
       "reserved_at": "2026-10-23T20:12:41Z"
-    },
-    {
-      "cr_film_id": 8677,
-      "cr_slug": "proste-sexy",
-      "title": "Prostě sexy",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40011296457",
-      "run_id": "40011296457",
-      "reserved_at": "2026-10-23T20:13:28Z"
     }
   ],
   "missing_on_account": [
