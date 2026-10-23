@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T13:31:11Z",
+  "last_updated": "2026-10-23T13:31:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677575,21 +677575,6 @@
       }
     },
     {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T12:39:57Z",
-      "first_failed_at": "2026-10-23T12:09:31Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 34973,
       "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
       "title": "Děvčátko, které bydlí na konci ulice",
@@ -678323,6 +678308,21 @@
       "timing": {
         "cdn_resolve_sec": 21.4
       }
+    },
+    {
+      "cr_film_id": 34971,
+      "cr_slug": "krvava-amazonka",
+      "title": "Krvavá Amazonka",
+      "year": 1985,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T13:31:46Z",
+      "first_failed_at": "2026-10-23T12:09:31Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.7
+      }
     }
   ],
   "in_progress": [
@@ -678335,16 +678335,6 @@
       "worker_id": "worker-4-39926918757",
       "run_id": "39926918757",
       "reserved_at": "2026-10-23T13:20:24Z"
-    },
-    {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T13:31:11Z"
     }
   ],
   "missing_on_account": [
