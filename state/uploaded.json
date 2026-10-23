@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T03:43:00Z",
+  "last_updated": "2026-10-23T03:43:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677698,21 +677698,6 @@
       }
     },
     {
-      "cr_film_id": 37343,
-      "cr_slug": "marguerite",
-      "title": "Marguerite",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T03:08:53Z",
-      "first_failed_at": "2026-10-23T03:08:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.8
-      }
-    },
-    {
       "cr_film_id": 37128,
       "cr_slug": "surf-plaz-a-kocky",
       "title": "Surf, pláž a kočky",
@@ -678376,20 +678361,24 @@
       "timing": {
         "cdn_resolve_sec": 8.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37343,
       "cr_slug": "marguerite",
       "title": "Marguerite",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T03:43:00Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T03:43:20Z",
+      "first_failed_at": "2026-10-23T03:08:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
