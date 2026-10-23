@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T09:29:11Z",
+  "last_updated": "2026-10-23T09:29:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674469,21 +674469,6 @@
       }
     },
     {
-      "cr_film_id": 7654,
-      "cr_slug": "sammyho-dobrodruzstvi-2",
-      "title": "Sammyho dobrodružství 2",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T08:55:01Z",
-      "first_failed_at": "2026-10-23T08:55:01Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -675339,19 +675324,24 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T09:25:33Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T09:29:28Z",
+      "first_failed_at": "2026-10-23T08:55:01Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
