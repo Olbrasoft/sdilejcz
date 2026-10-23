@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T05:36:16Z",
+  "last_updated": "2026-10-23T05:36:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675069,21 +675069,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T05:04:28Z",
-      "first_failed_at": "2026-10-23T04:33:09Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 20710,
       "cr_slug": "az-odejdu",
       "title": "Až odejdu",
@@ -676000,6 +675985,21 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
+    },
+    {
+      "cr_film_id": 12879,
+      "cr_slug": "gogs-gogwana",
+      "title": "Gogs: Gogwana",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T05:36:41Z",
+      "first_failed_at": "2026-10-23T04:33:09Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -676032,16 +676032,6 @@
       "worker_id": "worker-1-39896736727",
       "run_id": "39896736727",
       "reserved_at": "2026-10-23T05:34:18Z"
-    },
-    {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T05:36:16Z"
     }
   ],
   "missing_on_account": [
