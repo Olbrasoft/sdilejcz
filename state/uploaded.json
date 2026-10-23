@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T15:02:53Z",
+  "last_updated": "2026-10-23T15:03:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673916,21 +673916,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T14:32:13Z",
-      "first_failed_at": "2026-10-23T14:32:13Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
@@ -674960,6 +674945,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 14786,
+      "cr_slug": "krakonos-a-sklinkar-matej",
+      "title": "Krakonos a sklínkar Matej",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T15:03:29Z",
+      "first_failed_at": "2026-10-23T14:32:13Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 23.1
+      }
     }
   ],
   "in_progress": [
@@ -674982,16 +674982,6 @@
       "worker_id": "worker-3-39965459690",
       "run_id": "39965459690",
       "reserved_at": "2026-10-23T15:01:47Z"
-    },
-    {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T15:02:53Z"
     }
   ],
   "missing_on_account": [
