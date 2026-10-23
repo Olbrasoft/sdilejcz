@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T16:10:05Z",
+  "last_updated": "2026-10-23T16:10:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674800,21 +674800,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T15:34:31Z",
-      "first_failed_at": "2026-10-23T14:24:47Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.4
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -675484,19 +675469,24 @@
       "timing": {
         "cdn_resolve_sec": 9.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-4-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T16:06:01Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T16:10:25Z",
+      "first_failed_at": "2026-10-23T14:24:47Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24495,
       "cr_slug": "sex-pistols-des-a-bes",
