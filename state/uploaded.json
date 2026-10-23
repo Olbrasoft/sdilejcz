@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T16:45:53Z",
+  "last_updated": "2026-10-23T16:46:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675308,21 +675308,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T15:59:59Z",
-      "first_failed_at": "2026-10-23T14:43:36Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -675767,6 +675752,21 @@
         "cdn_resolve_sec": 4.0,
         "download_sec": 1.7
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T16:46:21Z",
+      "first_failed_at": "2026-10-23T14:43:36Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -675799,16 +675799,6 @@
       "worker_id": "worker-1-39965459690",
       "run_id": "39965459690",
       "reserved_at": "2026-10-23T16:44:09Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T16:45:53Z"
     }
   ],
   "missing_on_account": [
