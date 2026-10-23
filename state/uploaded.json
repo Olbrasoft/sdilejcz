@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T20:36:39Z",
+  "last_updated": "2026-10-23T20:38:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673941,6 +673941,27 @@
         "upload_sec": 331.8,
         "total_sec": 938.9
       }
+    },
+    {
+      "cr_film_id": 6718,
+      "cr_slug": "xxx",
+      "title": "xXx",
+      "year": 2002,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 1934,
+      "sdilej_url": "https://sdilej.cz/35375240/xxx-2002-cz-dabing.mp4",
+      "sdilej_name": "xXx (2002) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-23T20:37:11Z",
+      "status": "uploaded",
+      "size_bytes": 620031103,
+      "worker_id": "worker-3-40011296457",
+      "timing": {
+        "cdn_resolve_sec": 2.3,
+        "download_sec": 162.6,
+        "upload_sec": 104.7,
+        "total_sec": 269.7
+      }
     }
   ],
   "failed_attempts": [
@@ -674094,21 +674115,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.8
-      }
-    },
-    {
-      "cr_film_id": 6718,
-      "cr_slug": "xxx",
-      "title": "xXx",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T19:57:07Z",
-      "first_failed_at": "2026-10-23T19:57:07Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 29.3
       }
     },
     {
@@ -674329,16 +674335,6 @@
       "worker_id": "worker-4-40011296457",
       "run_id": "40011296457",
       "reserved_at": "2026-10-23T20:14:59Z"
-    },
-    {
-      "cr_film_id": 6718,
-      "cr_slug": "xxx",
-      "title": "xXx",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40011296457",
-      "run_id": "40011296457",
-      "reserved_at": "2026-10-23T20:32:31Z"
     },
     {
       "cr_film_id": 8929,
