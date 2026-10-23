@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T20:23:06Z",
+  "last_updated": "2026-10-23T20:25:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673845,6 +673845,30 @@
         "upload_sec": 473.6,
         "total_sec": 565.2
       }
+    },
+    {
+      "cr_film_id": 8677,
+      "cr_slug": "proste-sexy",
+      "title": "Prostě sexy",
+      "year": 2002,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "580446f58b2db",
+      "source_url": "https://prehraj.to/proste-sexy-cz-dabing-2002/580446f58b2db",
+      "source_title": "Proste sexy, CZ dabing (2002)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35375117/proste-sexy-2002-cz-dabing.mp4",
+      "sdilej_name": "Prostě sexy (2002) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-23T20:25:48Z",
+      "status": "uploaded",
+      "size_bytes": 701744839,
+      "worker_id": "worker-3-40011296457",
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 25.3,
+        "upload_sec": 123.7,
+        "total_sec": 151.5
+      }
     }
   ],
   "failed_attempts": [
@@ -674229,27 +674253,6 @@
       }
     },
     {
-      "cr_film_id": 8677,
-      "cr_slug": "proste-sexy",
-      "title": "Prostě sexy",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-23T20:14:47Z",
-      "first_failed_at": "2026-10-23T20:14:47Z",
-      "attempt_count": 1,
-      "upload_id": "582119fa97533",
-      "source_url": "https://prehraj.to/proste-sexy-cz-dabing-2002/582119fa97533",
-      "upload_title": "Proste sexy, CZ dabing (2002)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 33.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 5478,
       "cr_slug": "echo",
       "title": "Echo Valley",
@@ -674301,16 +674304,6 @@
       "worker_id": "worker-1-40011296457",
       "run_id": "40011296457",
       "reserved_at": "2026-10-23T20:18:49Z"
-    },
-    {
-      "cr_film_id": 8677,
-      "cr_slug": "proste-sexy",
-      "title": "Prostě sexy",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40011296457",
-      "run_id": "40011296457",
-      "reserved_at": "2026-10-23T20:23:06Z"
     }
   ],
   "missing_on_account": [
