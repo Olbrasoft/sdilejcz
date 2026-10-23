@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T18:47:13Z",
+  "last_updated": "2026-10-23T18:47:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677078,21 +677078,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T18:05:50Z",
-      "first_failed_at": "2026-10-23T17:33:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 29.6
-      }
-    },
-    {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
@@ -677910,6 +677895,21 @@
       "timing": {
         "cdn_resolve_sec": 29.0
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T18:47:52Z",
+      "first_failed_at": "2026-10-23T17:33:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 26.9
+      }
     }
   ],
   "in_progress": [
@@ -677942,16 +677942,6 @@
       "worker_id": "worker-4-39965459690",
       "run_id": "39965459690",
       "reserved_at": "2026-10-23T18:45:42Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T18:47:13Z"
     }
   ],
   "missing_on_account": [
