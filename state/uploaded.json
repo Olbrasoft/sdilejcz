@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T17:35:27Z",
+  "last_updated": "2026-10-23T17:35:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676738,19 +676738,30 @@
       "timing": {
         "cdn_resolve_sec": 27.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31135,
       "cr_slug": "co-by-udelala-sophia-loren",
       "title": "Co by udělala Sophia Loren?",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T17:19:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-23T17:35:46Z",
+      "first_failed_at": "2026-10-23T17:35:46Z",
+      "attempt_count": 1,
+      "upload_id": "f8760b63f0e5df74",
+      "source_url": "https://prehraj.to/co-by-udelala-sophia-loren-2021-cz-titulky/f8760b63f0e5df74",
+      "upload_title": "Co by udělala Sophia Loren? (2021) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 641.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31371,
       "cr_slug": "playboy-inside-the-sexy-girls-next-door-house",
