@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T18:31:51Z",
+  "last_updated": "2026-10-23T18:32:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677054,22 +677054,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-23T18:01:22Z",
-      "first_failed_at": "2026-10-23T17:19:33Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.3,
-        "download_sec": 2.6
-      }
-    },
-    {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
@@ -677660,6 +677644,22 @@
       "timing": {
         "cdn_resolve_sec": 26.8
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-23T18:32:05Z",
+      "first_failed_at": "2026-10-23T17:19:33Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -677692,16 +677692,6 @@
       "worker_id": "worker-4-39965459690",
       "run_id": "39965459690",
       "reserved_at": "2026-10-23T18:26:57Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T18:31:51Z"
     }
   ],
   "missing_on_account": [
