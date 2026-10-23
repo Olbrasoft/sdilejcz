@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T21:30:35Z",
+  "last_updated": "2026-10-23T21:30:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674400,21 +674400,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T20:56:17Z",
-      "first_failed_at": "2026-10-23T20:13:16Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
@@ -674999,6 +674984,21 @@
       "timing": {
         "cdn_resolve_sec": 9.3
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T21:30:58Z",
+      "first_failed_at": "2026-10-23T20:13:16Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
     }
   ],
   "in_progress": [
@@ -675031,16 +675031,6 @@
       "worker_id": "worker-1-40011296457",
       "run_id": "40011296457",
       "reserved_at": "2026-10-23T21:24:45Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40011296457",
-      "run_id": "40011296457",
-      "reserved_at": "2026-10-23T21:30:35Z"
     }
   ],
   "missing_on_account": [
