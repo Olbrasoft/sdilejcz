@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T05:06:13Z",
+  "last_updated": "2026-10-23T05:06:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674659,21 +674659,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T04:35:51Z",
-      "first_failed_at": "2026-10-23T04:04:08Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.0
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -675632,6 +675617,21 @@
       "timing": {
         "cdn_resolve_sec": 8.9
       }
+    },
+    {
+      "cr_film_id": 5808,
+      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
+      "title": "Kouzelná Beruška a Černý kocour ve filmu",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T05:06:34Z",
+      "first_failed_at": "2026-10-23T04:04:08Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.3
+      }
     }
   ],
   "in_progress": [
@@ -675664,16 +675664,6 @@
       "worker_id": "worker-1-39896736727",
       "run_id": "39896736727",
       "reserved_at": "2026-10-23T05:05:14Z"
-    },
-    {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39896736727",
-      "run_id": "39896736727",
-      "reserved_at": "2026-10-23T05:06:13Z"
     }
   ],
   "missing_on_account": [
