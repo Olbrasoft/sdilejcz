@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T19:04:59Z",
+  "last_updated": "2026-10-23T19:05:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677385,21 +677385,6 @@
       }
     },
     {
-      "cr_film_id": 34973,
-      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
-      "title": "Děvčátko, které bydlí na konci ulice",
-      "year": 1976,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T18:34:22Z",
-      "first_failed_at": "2026-10-23T18:34:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 30.4
-      }
-    },
-    {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
       "title": "Po čem muži touží",
@@ -678098,6 +678083,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 34973,
+      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
+      "title": "Děvčátko, které bydlí na konci ulice",
+      "year": 1976,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T19:05:32Z",
+      "first_failed_at": "2026-10-23T18:34:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 20.7
+      }
     }
   ],
   "in_progress": [
@@ -678130,16 +678130,6 @@
       "worker_id": "worker-1-39965459690",
       "run_id": "39965459690",
       "reserved_at": "2026-10-23T18:59:36Z"
-    },
-    {
-      "cr_film_id": 34973,
-      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
-      "title": "Děvčátko, které bydlí na konci ulice",
-      "year": 1976,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-39965459690",
-      "run_id": "39965459690",
-      "reserved_at": "2026-10-23T19:04:59Z"
     }
   ],
   "missing_on_account": [
