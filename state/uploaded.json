@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T13:41:40Z",
+  "last_updated": "2026-10-23T13:42:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677634,21 +677634,6 @@
       }
     },
     {
-      "cr_film_id": 35063,
-      "cr_slug": "the-silent-thief",
-      "title": "The Silent Thief",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T12:45:21Z",
-      "first_failed_at": "2026-10-23T12:14:17Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.1
-      }
-    },
-    {
       "cr_film_id": 37212,
       "cr_slug": "hvezdna-brana-pravdivy-pribeh",
       "title": "Hvězdná brána: Pravdivý příběh",
@@ -678323,6 +678308,21 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
+    },
+    {
+      "cr_film_id": 35063,
+      "cr_slug": "the-silent-thief",
+      "title": "The Silent Thief",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T13:42:14Z",
+      "first_failed_at": "2026-10-23T12:14:17Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.5
+      }
     }
   ],
   "in_progress": [
@@ -678335,16 +678335,6 @@
       "worker_id": "worker-4-39926918757",
       "run_id": "39926918757",
       "reserved_at": "2026-10-23T13:20:24Z"
-    },
-    {
-      "cr_film_id": 35063,
-      "cr_slug": "the-silent-thief",
-      "title": "The Silent Thief",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T13:41:40Z"
     }
   ],
   "missing_on_account": [
