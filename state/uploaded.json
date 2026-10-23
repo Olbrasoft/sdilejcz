@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T02:58:47Z",
+  "last_updated": "2026-10-23T02:59:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677425,21 +677425,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T02:28:18Z",
-      "first_failed_at": "2026-10-23T01:53:18Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
       "title": "Vzala jsem si mrtvého muže",
@@ -678141,6 +678126,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T02:59:15Z",
+      "first_failed_at": "2026-10-23T01:53:18Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 15.6
+      }
     }
   ],
   "in_progress": [
@@ -678173,16 +678173,6 @@
       "worker_id": "worker-2-39865151790",
       "run_id": "39865151790",
       "reserved_at": "2026-10-23T02:56:27Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-39865151790",
-      "run_id": "39865151790",
-      "reserved_at": "2026-10-23T02:58:47Z"
     }
   ],
   "missing_on_account": [
