@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T10:32:40Z",
+  "last_updated": "2026-10-23T10:33:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675060,21 +675060,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-23T09:54:41Z",
-      "first_failed_at": "2026-10-23T08:50:25Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.5
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -675734,6 +675719,21 @@
         "download_sec": 70.8,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 3019,
+      "cr_slug": "legenda-o-drakovi",
+      "title": "Legenda o drakovi",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T10:33:03Z",
+      "first_failed_at": "2026-10-23T08:50:25Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
     }
   ],
   "in_progress": [
@@ -675756,16 +675756,6 @@
       "worker_id": "worker-1-39926918757",
       "run_id": "39926918757",
       "reserved_at": "2026-10-23T10:31:35Z"
-    },
-    {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T10:32:40Z"
     }
   ],
   "missing_on_account": [
