@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-23T12:30:31Z",
+  "last_updated": "2026-10-23T12:31:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677992,19 +677992,24 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
       "title": "Kvílení vlkodlaků 6",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-3-39926918757",
-      "run_id": "39926918757",
-      "reserved_at": "2026-10-23T12:03:56Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-23T12:31:03Z",
+      "first_failed_at": "2026-10-23T12:31:03Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36787,
       "cr_slug": "dead-sexy",
