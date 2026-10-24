@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T08:33:07Z",
+  "last_updated": "2026-10-24T08:33:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676763,21 +676763,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T08:02:49Z",
-      "first_failed_at": "2026-10-24T08:02:49Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
@@ -677756,6 +677741,21 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T08:33:29Z",
+      "first_failed_at": "2026-10-24T08:02:49Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
     }
   ],
   "in_progress": [
@@ -677788,16 +677788,6 @@
       "worker_id": "worker-3-40065397556",
       "run_id": "40065397556",
       "reserved_at": "2026-10-24T08:32:41Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40065397556",
-      "run_id": "40065397556",
-      "reserved_at": "2026-10-24T08:33:07Z"
     }
   ],
   "missing_on_account": [
