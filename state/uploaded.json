@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T15:44:56Z",
+  "last_updated": "2026-10-24T15:45:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674509,21 +674509,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T15:09:25Z",
-      "first_failed_at": "2026-10-24T15:09:25Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.0
-      }
-    },
-    {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
@@ -675309,6 +675294,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T15:45:23Z",
+      "first_failed_at": "2026-10-24T15:09:25Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
     }
   ],
   "in_progress": [
@@ -675341,16 +675341,6 @@
       "worker_id": "worker-1-40101562994",
       "run_id": "40101562994",
       "reserved_at": "2026-10-24T15:44:21Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T15:44:56Z"
     }
   ],
   "missing_on_account": [
