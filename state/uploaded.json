@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T07:46:11Z",
+  "last_updated": "2026-10-24T07:46:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675597,21 +675597,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T06:43:06Z",
-      "first_failed_at": "2026-10-24T05:37:16Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -676294,6 +676279,21 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T07:46:33Z",
+      "first_failed_at": "2026-10-24T05:37:16Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
     }
   ],
   "in_progress": [
@@ -676326,16 +676326,6 @@
       "worker_id": "worker-2-40065397556",
       "run_id": "40065397556",
       "reserved_at": "2026-10-24T07:43:54Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40065397556",
-      "run_id": "40065397556",
-      "reserved_at": "2026-10-24T07:46:11Z"
     }
   ],
   "missing_on_account": [
