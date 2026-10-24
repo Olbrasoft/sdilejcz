@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T06:27:31Z",
+  "last_updated": "2026-10-24T06:27:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674888,21 +674888,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T05:57:12Z",
-      "first_failed_at": "2026-10-24T05:26:09Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
       "title": "Wind River",
@@ -675670,6 +675655,21 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 5808,
+      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
+      "title": "Kouzelná Beruška a Černý kocour ve filmu",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T06:27:54Z",
+      "first_failed_at": "2026-10-24T05:26:09Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.6
+      }
     }
   ],
   "in_progress": [
@@ -675702,16 +675702,6 @@
       "worker_id": "worker-4-40065397556",
       "run_id": "40065397556",
       "reserved_at": "2026-10-24T06:25:51Z"
-    },
-    {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40065397556",
-      "run_id": "40065397556",
-      "reserved_at": "2026-10-24T06:27:31Z"
     }
   ],
   "missing_on_account": [
