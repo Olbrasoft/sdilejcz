@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T12:43:37Z",
+  "last_updated": "2026-10-24T12:44:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677360,6 +677360,21 @@
         "cdn_resolve_sec": 1.9,
         "download_sec": 2.6
       }
+    },
+    {
+      "cr_film_id": 34827,
+      "cr_slug": "ohnivy-ring",
+      "title": "Ohnivý ring",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T12:44:10Z",
+      "first_failed_at": "2026-10-24T12:44:10Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 21.3
+      }
     }
   ],
   "in_progress": [
@@ -677382,16 +677397,6 @@
       "worker_id": "worker-1-40081577355",
       "run_id": "40081577355",
       "reserved_at": "2026-10-24T12:41:18Z"
-    },
-    {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T12:43:37Z"
     }
   ],
   "missing_on_account": [
