@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T16:38:07Z",
+  "last_updated": "2026-10-24T16:38:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674860,21 +674860,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T15:54:27Z",
-      "first_failed_at": "2026-10-24T14:44:10Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.4
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -675834,6 +675819,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T16:38:34Z",
+      "first_failed_at": "2026-10-24T14:44:10Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
     }
   ],
   "in_progress": [
@@ -675866,16 +675866,6 @@
       "worker_id": "worker-2-40101562994",
       "run_id": "40101562994",
       "reserved_at": "2026-10-24T16:37:00Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T16:38:07Z"
     }
   ],
   "missing_on_account": [
