@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T16:18:32Z",
+  "last_updated": "2026-10-24T16:19:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675503,19 +675503,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18448,
       "cr_slug": "orgasmus-sro-pribeh-jmenem-onetaste",
       "title": "Orgasmus s.r.o.: Příběh jménem OneTaste",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T16:12:00Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T16:19:23Z",
+      "first_failed_at": "2026-10-24T16:19:23Z",
+      "attempt_count": 1,
+      "upload_id": "6369ef5142e69",
+      "source_url": "https://prehraj.to/orgasmus-sro-pribeh-jmenem-onetaste-2022-cz-dabing-spk/6369ef5142e69",
+      "upload_title": "Orgasmus sro Pribeh jmenem OneTaste 2022 CZ dabing spk",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 92.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
