@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T10:03:25Z",
+  "last_updated": "2026-10-24T10:03:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674826,19 +674826,24 @@
       "timing": {
         "cdn_resolve_sec": 12.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T10:02:37Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T10:03:47Z",
+      "first_failed_at": "2026-10-24T10:03:47Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
