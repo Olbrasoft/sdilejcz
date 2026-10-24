@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T03:06:44Z",
+  "last_updated": "2026-10-24T03:07:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675134,21 +675134,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T02:25:56Z",
-      "first_failed_at": "2026-10-24T01:19:16Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.0
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -676028,6 +676013,21 @@
       "timing": {
         "cdn_resolve_sec": 14.9
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T03:07:10Z",
+      "first_failed_at": "2026-10-24T01:19:16Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -676060,16 +676060,6 @@
       "worker_id": "worker-1-40047211669",
       "run_id": "40047211669",
       "reserved_at": "2026-10-24T03:04:10Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T03:06:44Z"
     }
   ],
   "missing_on_account": [
