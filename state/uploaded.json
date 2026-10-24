@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T16:11:31Z",
+  "last_updated": "2026-10-24T16:11:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674782,21 +674782,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T15:31:20Z",
-      "first_failed_at": "2026-10-24T14:27:53Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -675441,6 +675426,21 @@
         "resolve_sec": 1.0,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T16:11:49Z",
+      "first_failed_at": "2026-10-24T14:27:53Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.3
+      }
     }
   ],
   "in_progress": [
@@ -675463,16 +675463,6 @@
       "worker_id": "worker-1-40101562994",
       "run_id": "40101562994",
       "reserved_at": "2026-10-24T16:01:20Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T16:06:35Z"
     },
     {
       "cr_film_id": 19156,
