@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T18:36:14Z",
+  "last_updated": "2026-10-24T18:36:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677118,21 +677118,6 @@
       }
     },
     {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T18:01:01Z",
-      "first_failed_at": "2026-10-24T18:01:01Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 21.4
-      }
-    },
-    {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
@@ -677744,19 +677729,24 @@
       "timing": {
         "cdn_resolve_sec": 28.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
       "title": "Kája + Oliva",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T18:31:36Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T18:36:27Z",
+      "first_failed_at": "2026-10-24T18:01:01Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 21.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35152,
       "cr_slug": "vanessa-mae-the-red-hot-tour-live-at-the-royal-albert-hall",
