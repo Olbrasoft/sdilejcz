@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T09:45:53Z",
+  "last_updated": "2026-10-24T09:47:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674493,6 +674493,27 @@
       "timing": {
         "cdn_resolve_sec": 9.5
       }
+    },
+    {
+      "cr_film_id": 8792,
+      "cr_slug": "xxx-navrat-xandera-cage",
+      "title": "xXx: Návrat Xandera Cage",
+      "year": 2017,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T09:47:03Z",
+      "first_failed_at": "2026-10-24T09:47:03Z",
+      "attempt_count": 1,
+      "upload_id": "690438aee3b1d",
+      "source_url": "https://prehraj.to/navrat-xandera-cage-2017-the-return-of-xander-cage-usa-vin-diesel-samuel-l-jackson-cz-dabing/690438aee3b1d",
+      "upload_title": "Návrat Xandera Cage 2017 The Return of Xander Cage USA Vin Diesel + Samuel L. Jackson CZ dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 25.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674525,16 +674546,6 @@
       "worker_id": "worker-4-40081577355",
       "run_id": "40081577355",
       "reserved_at": "2026-10-24T09:45:28Z"
-    },
-    {
-      "cr_film_id": 8792,
-      "cr_slug": "xxx-navrat-xandera-cage",
-      "title": "xXx: Návrat Xandera Cage",
-      "year": 2017,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T09:45:53Z"
     }
   ],
   "missing_on_account": [
