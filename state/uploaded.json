@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T13:43:56Z",
+  "last_updated": "2026-10-24T13:48:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674811,6 +674811,27 @@
         "upload_sec": 122.3,
         "total_sec": 234.8
       }
+    },
+    {
+      "cr_film_id": 37363,
+      "cr_slug": "barvy-casu",
+      "title": "Barvy času",
+      "year": 2025,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 61750,
+      "sdilej_url": "https://sdilej.cz/35377663/barvy-casu-2025-.mp4",
+      "sdilej_name": "Barvy času (2025).mp4",
+      "uploaded_at": "2026-10-24T13:36:31Z",
+      "status": "uploaded",
+      "size_bytes": 653733115,
+      "worker_id": "worker-1-40081577355",
+      "timing": {
+        "cdn_resolve_sec": 6.1,
+        "download_sec": 77.5,
+        "upload_sec": 121.6,
+        "total_sec": 205.2
+      }
     }
   ],
   "failed_attempts": [
@@ -678068,25 +678089,6 @@
       }
     },
     {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "failed_at": "2026-10-24T13:32:56Z",
-      "first_failed_at": "2026-10-24T13:32:56Z",
-      "attempt_count": 1,
-      "upload_id": "4564c9462ce70ed7",
-      "source_url": "https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "upload_title": "Barvy času",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 1.0
-      }
-    },
-    {
       "cr_film_id": 34898,
       "cr_slug": "sisters-2006",
       "title": "Sisters",
@@ -678318,16 +678320,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T13:32:44Z"
-    },
     {
       "cr_film_id": 34973,
       "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
