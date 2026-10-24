@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T11:08:07Z",
+  "last_updated": "2026-10-24T11:08:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675270,21 +675270,6 @@
       }
     },
     {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T10:37:57Z",
-      "first_failed_at": "2026-10-24T10:07:14Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
@@ -676049,6 +676034,21 @@
       "timing": {
         "cdn_resolve_sec": 12.4
       }
+    },
+    {
+      "cr_film_id": 12836,
+      "cr_slug": "meng-hu-dou-kuang-long",
+      "title": "Meng hu dou kuang long",
+      "year": 1974,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T11:08:31Z",
+      "first_failed_at": "2026-10-24T10:07:14Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -676081,16 +676081,6 @@
       "worker_id": "worker-1-40081577355",
       "run_id": "40081577355",
       "reserved_at": "2026-10-24T11:06:06Z"
-    },
-    {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T11:08:07Z"
     }
   ],
   "missing_on_account": [
