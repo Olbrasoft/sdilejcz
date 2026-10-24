@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T17:27:51Z",
+  "last_updated": "2026-10-24T17:28:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674503,6 +674503,28 @@
         "upload_sec": 176.0,
         "total_sec": 1648.0
       }
+    },
+    {
+      "cr_film_id": 30166,
+      "cr_slug": "trojka-z-mravu",
+      "title": "Trojka z mravů",
+      "year": 1933,
+      "source": "sledujteto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_file_id": 45705,
+      "source_cdn": null,
+      "sdilej_url": "https://sdilej.cz/35378840/trojka-z-mravu-1933-.mp4",
+      "sdilej_name": "Trojka z mravů (1933).mp4",
+      "uploaded_at": "2026-10-24T17:25:11Z",
+      "status": "uploaded",
+      "size_bytes": 717942828,
+      "worker_id": "worker-4-40101562994",
+      "timing": {
+        "cdn_resolve_sec": 2.1,
+        "download_sec": 27.6,
+        "upload_sec": 131.5,
+        "total_sec": 161.3
+      }
     }
   ],
   "failed_attempts": [
@@ -676010,23 +676032,6 @@
       }
     },
     {
-      "cr_film_id": 30166,
-      "cr_slug": "trojka-z-mravu",
-      "title": "Trojka z mravů",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-24T16:51:22Z",
-      "first_failed_at": "2026-10-24T16:51:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 2.1,
-        "download_sec": 31.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30184,
       "cr_slug": "cas-dluhu",
       "title": "Čas dluhů",
@@ -676814,16 +676819,6 @@
       "worker_id": "worker-3-40101562994",
       "run_id": "40101562994",
       "reserved_at": "2026-10-24T17:20:18Z"
-    },
-    {
-      "cr_film_id": 30166,
-      "cr_slug": "trojka-z-mravu",
-      "title": "Trojka z mravů",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T17:22:19Z"
     },
     {
       "cr_film_id": 33493,
