@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T20:35:03Z",
+  "last_updated": "2026-10-24T20:35:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674043,19 +674043,30 @@
       "timing": {
         "cdn_resolve_sec": 15.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4484,
       "cr_slug": "jak-mit-sex",
       "title": "Jak mít sex",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T20:13:26Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T20:35:30Z",
+      "first_failed_at": "2026-10-24T20:35:30Z",
+      "attempt_count": 1,
+      "upload_id": "65a8cf5a16d25",
+      "source_url": "https://prehraj.to/jak-mit-sex-how-to-have-sex-2023-hd-1080p-cz-titulky/65a8cf5a16d25",
+      "upload_title": "Jak mit sex How to Have Sex 2023 HD 1080p cz titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 1203.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
