@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T16:50:06Z",
+  "last_updated": "2026-10-24T16:51:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675979,6 +675979,23 @@
       "timing": {
         "cdn_resolve_sec": 29.7
       }
+    },
+    {
+      "cr_film_id": 30166,
+      "cr_slug": "trojka-z-mravu",
+      "title": "Trojka z mravů",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T16:51:22Z",
+      "first_failed_at": "2026-10-24T16:51:22Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 2.1,
+        "download_sec": 31.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676011,16 +676028,6 @@
       "worker_id": "worker-1-40101562994",
       "run_id": "40101562994",
       "reserved_at": "2026-10-24T16:49:24Z"
-    },
-    {
-      "cr_film_id": 30166,
-      "cr_slug": "trojka-z-mravu",
-      "title": "Trojka z mravů",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T16:50:06Z"
     }
   ],
   "missing_on_account": [
