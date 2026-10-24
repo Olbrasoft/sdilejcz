@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T03:15:07Z",
+  "last_updated": "2026-10-24T03:15:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674597,6 +674597,30 @@
         "upload_sec": 119.9,
         "total_sec": 148.1
       }
+    },
+    {
+      "cr_film_id": 22852,
+      "cr_slug": "delta-force",
+      "title": "Delta Force",
+      "year": 1986,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5c0d3648123e0",
+      "source_url": "https://prehraj.to/delta-force-1986-cz-dabing/5c0d3648123e0",
+      "source_title": "Delta Force (1986) CZ Dabing",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/35375950/delta-force-1986-cz-dabing.mp4",
+      "sdilej_name": "Delta Force (1986) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-24T03:12:23Z",
+      "status": "uploaded",
+      "size_bytes": 2755325151,
+      "worker_id": "worker-3-40047211669",
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 132.6,
+        "upload_sec": 504.5,
+        "total_sec": 639.3
+      }
     }
   ],
   "failed_attempts": [
@@ -675859,27 +675883,6 @@
       }
     },
     {
-      "cr_film_id": 22852,
-      "cr_slug": "delta-force",
-      "title": "Delta Force",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-24T03:00:05Z",
-      "first_failed_at": "2026-10-24T03:00:05Z",
-      "attempt_count": 1,
-      "upload_id": "60f6fcbe1801d",
-      "source_url": "https://prehraj.to/delta-force-1986-czdab/60f6fcbe1801d",
-      "upload_title": "Delta Force (1986) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 88.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -676388,16 +676391,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 22852,
-      "cr_slug": "delta-force",
-      "title": "Delta Force",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T03:01:34Z"
-    },
     {
       "cr_film_id": 22870,
       "cr_slug": "mona-lisa",
