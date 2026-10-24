@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T14:36:16Z",
+  "last_updated": "2026-10-24T14:38:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674513,6 +674513,27 @@
       "timing": {
         "cdn_resolve_sec": 14.9
       }
+    },
+    {
+      "cr_film_id": 13454,
+      "cr_slug": "sexy-mrtvola",
+      "title": "Sexy mrtvola",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T14:38:51Z",
+      "first_failed_at": "2026-10-24T14:38:51Z",
+      "attempt_count": 1,
+      "upload_id": "926c7dccd9cc6ee7",
+      "source_url": "https://prehraj.to/smrtelne-sexy-2001-cz-mp4/926c7dccd9cc6ee7",
+      "upload_title": "Sexy mrtvola (2005)(CZ).mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 115.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674535,16 +674556,6 @@
       "worker_id": "worker-1-40101562994",
       "run_id": "40101562994",
       "reserved_at": "2026-10-24T14:31:25Z"
-    },
-    {
-      "cr_film_id": 13454,
-      "cr_slug": "sexy-mrtvola",
-      "title": "Sexy mrtvola",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T14:35:24Z"
     },
     {
       "cr_film_id": 13506,
