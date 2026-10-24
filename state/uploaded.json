@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T10:49:47Z",
+  "last_updated": "2026-10-24T10:50:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674618,21 +674618,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T10:14:55Z",
-      "first_failed_at": "2026-10-24T10:14:55Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -675815,19 +675800,24 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
       "year": 1979,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T10:46:24Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T10:50:40Z",
+      "first_failed_at": "2026-10-24T10:14:55Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
