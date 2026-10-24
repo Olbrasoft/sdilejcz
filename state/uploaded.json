@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T08:20:49Z",
+  "last_updated": "2026-10-24T08:21:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677488,6 +677488,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 34882,
+      "cr_slug": "brouk-v-hlave-1968",
+      "title": "Brouk v hlavě",
+      "year": 1968,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T08:21:11Z",
+      "first_failed_at": "2026-10-24T08:21:11Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -677520,16 +677535,6 @@
       "worker_id": "worker-2-40065397556",
       "run_id": "40065397556",
       "reserved_at": "2026-10-24T08:04:06Z"
-    },
-    {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40065397556",
-      "run_id": "40065397556",
-      "reserved_at": "2026-10-24T08:20:38Z"
     }
   ],
   "missing_on_account": [
