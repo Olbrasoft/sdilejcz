@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T09:14:57Z",
+  "last_updated": "2026-10-24T09:17:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677228,21 +677228,6 @@
       }
     },
     {
-      "cr_film_id": 34919,
-      "cr_slug": "milovany-joshua",
-      "title": "Milovaný Joshua",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T08:23:22Z",
-      "first_failed_at": "2026-10-24T08:23:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678317,20 +678302,24 @@
       "timing": {
         "cdn_resolve_sec": 10.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34919,
       "cr_slug": "milovany-joshua",
       "title": "Milovaný Joshua",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40065397556",
-      "run_id": "40065397556",
-      "reserved_at": "2026-10-24T08:57:35Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T09:17:24Z",
+      "first_failed_at": "2026-10-24T08:23:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
