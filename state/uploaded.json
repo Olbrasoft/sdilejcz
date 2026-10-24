@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T13:15:36Z",
+  "last_updated": "2026-10-24T13:15:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677130,22 +677130,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-24T12:43:25Z",
-      "first_failed_at": "2026-10-24T11:40:49Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.9,
-        "download_sec": 2.6
-      }
-    },
-    {
       "cr_film_id": 34827,
       "cr_slug": "ohnivy-ring",
       "title": "Ohnivý ring",
@@ -677984,6 +677968,22 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-24T13:15:50Z",
+      "first_failed_at": "2026-10-24T11:40:49Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -678006,16 +678006,6 @@
       "worker_id": "worker-1-40081577355",
       "run_id": "40081577355",
       "reserved_at": "2026-10-24T13:10:33Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T13:15:36Z"
     }
   ],
   "missing_on_account": [
