@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T04:23:56Z",
+  "last_updated": "2026-10-24T04:24:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677200,22 +677200,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-24T03:50:14Z",
-      "first_failed_at": "2026-10-24T03:19:47Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.0,
-        "download_sec": 1.6
-      }
-    },
-    {
       "cr_film_id": 34949,
       "cr_slug": "duch-ohne",
       "title": "Duch ohně",
@@ -678006,6 +677990,22 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-24T04:24:10Z",
+      "first_failed_at": "2026-10-24T03:19:47Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 2.0
+      }
     }
   ],
   "in_progress": [
@@ -678028,16 +678028,6 @@
       "worker_id": "worker-4-40047211669",
       "run_id": "40047211669",
       "reserved_at": "2026-10-24T04:23:17Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T04:23:56Z"
     }
   ],
   "missing_on_account": [
