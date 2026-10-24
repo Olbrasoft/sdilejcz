@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T10:03:58Z",
+  "last_updated": "2026-10-24T10:04:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674841,19 +674841,24 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T10:03:02Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T10:04:19Z",
+      "first_failed_at": "2026-10-24T10:04:19Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
