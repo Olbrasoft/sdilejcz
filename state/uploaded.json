@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T11:34:37Z",
+  "last_updated": "2026-10-24T11:35:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675426,21 +675426,6 @@
       }
     },
     {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T10:55:09Z",
-      "first_failed_at": "2026-10-24T09:42:50Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.2
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676363,19 +676348,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T11:29:44Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T11:35:42Z",
+      "first_failed_at": "2026-10-24T09:42:50Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
