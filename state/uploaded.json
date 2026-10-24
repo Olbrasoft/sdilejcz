@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T03:57:52Z",
+  "last_updated": "2026-10-24T03:58:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676678,21 +676678,6 @@
       }
     },
     {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T03:26:47Z",
-      "first_failed_at": "2026-10-24T03:26:47Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -677581,6 +677566,21 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
+    },
+    {
+      "cr_film_id": 31665,
+      "cr_slug": "12-01-pm",
+      "title": "12:01 PM",
+      "year": 1990,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T03:58:15Z",
+      "first_failed_at": "2026-10-24T03:26:47Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -677613,16 +677613,6 @@
       "worker_id": "worker-3-40047211669",
       "run_id": "40047211669",
       "reserved_at": "2026-10-24T03:56:29Z"
-    },
-    {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T03:57:52Z"
     }
   ],
   "missing_on_account": [
