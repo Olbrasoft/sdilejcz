@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T07:10:39Z",
+  "last_updated": "2026-10-24T07:11:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675383,21 +675383,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T06:35:36Z",
-      "first_failed_at": "2026-10-24T05:26:54Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
@@ -676035,6 +676020,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T07:11:02Z",
+      "first_failed_at": "2026-10-24T05:26:54Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -676067,16 +676067,6 @@
       "worker_id": "worker-1-40065397556",
       "run_id": "40065397556",
       "reserved_at": "2026-10-24T07:08:52Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40065397556",
-      "run_id": "40065397556",
-      "reserved_at": "2026-10-24T07:10:39Z"
     }
   ],
   "missing_on_account": [
