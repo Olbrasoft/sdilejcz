@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T03:01:34Z",
+  "last_updated": "2026-10-24T03:02:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675134,21 +675134,6 @@
       }
     },
     {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T02:10:07Z",
-      "first_failed_at": "2026-10-24T01:05:03Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -676028,19 +676013,24 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T02:58:32Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T03:02:21Z",
+      "first_failed_at": "2026-10-24T01:05:03Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
