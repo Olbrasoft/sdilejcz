@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T13:13:26Z",
+  "last_updated": "2026-10-24T13:13:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676867,21 +676867,6 @@
       }
     },
     {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T12:27:46Z",
-      "first_failed_at": "2026-10-24T11:57:05Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 34077,
       "cr_slug": "rukojmi-v-bella-vista",
       "title": "Rukojmí v Bella Vista",
@@ -677984,6 +677969,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 31667,
+      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
+      "title": "One Piece: Baron Omatsuri and the Secret Island",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T13:13:53Z",
+      "first_failed_at": "2026-10-24T11:57:05Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
     }
   ],
   "in_progress": [
@@ -678016,16 +678016,6 @@
       "worker_id": "worker-1-40081577355",
       "run_id": "40081577355",
       "reserved_at": "2026-10-24T13:10:33Z"
-    },
-    {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T13:13:26Z"
     }
   ],
   "missing_on_account": [
