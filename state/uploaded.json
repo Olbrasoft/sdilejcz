@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T23:11:10Z",
+  "last_updated": "2026-10-24T23:11:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675772,6 +675772,27 @@
       "timing": {
         "cdn_resolve_sec": 15.5
       }
+    },
+    {
+      "cr_film_id": 24711,
+      "cr_slug": "sexy-ptaci",
+      "title": "Sexy ptáci",
+      "year": 2001,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T23:11:21Z",
+      "first_failed_at": "2026-10-24T23:11:21Z",
+      "attempt_count": 1,
+      "upload_id": "5b70aa37adf1b",
+      "source_url": "https://prehraj.to/sexy-ptaci-2001-cz-dabing/5b70aa37adf1b",
+      "upload_title": "Sexy Ptáci (2001) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 15.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675784,16 +675805,6 @@
       "worker_id": "worker-4-40128236235",
       "run_id": "40128236235",
       "reserved_at": "2026-10-24T23:02:24Z"
-    },
-    {
-      "cr_film_id": 24711,
-      "cr_slug": "sexy-ptaci",
-      "title": "Sexy ptáci",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T23:06:52Z"
     },
     {
       "cr_film_id": 25480,
