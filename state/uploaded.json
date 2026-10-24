@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T22:26:43Z",
+  "last_updated": "2026-10-24T22:27:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674390,21 +674390,6 @@
       }
     },
     {
-      "cr_film_id": 14852,
-      "cr_slug": "sci-fi-high-the-movie-musical",
-      "title": "Sci-Fi High: The Movie Musical",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T21:30:59Z",
-      "first_failed_at": "2026-10-24T20:57:24Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -675263,19 +675248,24 @@
       "timing": {
         "cdn_resolve_sec": 9.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T22:13:16Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T22:27:30Z",
+      "first_failed_at": "2026-10-24T20:57:24Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 17.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22814,
       "cr_slug": "pee-weeho-velke-dobrodruzstvi",
