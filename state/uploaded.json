@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T22:53:32Z",
+  "last_updated": "2026-10-24T22:53:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675222,21 +675222,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T22:21:40Z",
-      "first_failed_at": "2026-10-24T21:01:36Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -675594,6 +675579,21 @@
         "cdn_resolve_sec": 6.2,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T22:53:53Z",
+      "first_failed_at": "2026-10-24T21:01:36Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.4
+      }
     }
   ],
   "in_progress": [
@@ -675626,16 +675626,6 @@
       "worker_id": "worker-1-40128236235",
       "run_id": "40128236235",
       "reserved_at": "2026-10-24T22:52:49Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T22:53:32Z"
     }
   ],
   "missing_on_account": [
