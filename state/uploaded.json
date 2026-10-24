@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T12:35:41Z",
+  "last_updated": "2026-10-24T12:36:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676540,21 +676540,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T12:05:30Z",
-      "first_failed_at": "2026-10-24T12:05:30Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.1
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -677152,6 +677137,21 @@
       "timing": {
         "cdn_resolve_sec": 12.8
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T12:36:06Z",
+      "first_failed_at": "2026-10-24T12:05:30Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
     }
   ],
   "in_progress": [
@@ -677184,16 +677184,6 @@
       "worker_id": "worker-4-40081577355",
       "run_id": "40081577355",
       "reserved_at": "2026-10-24T12:29:21Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T12:35:41Z"
     }
   ],
   "missing_on_account": [
