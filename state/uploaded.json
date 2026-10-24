@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T22:17:09Z",
+  "last_updated": "2026-10-24T22:17:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674531,22 +674531,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-24T21:46:41Z",
-      "first_failed_at": "2026-10-24T21:13:12Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 3.9,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
@@ -675220,6 +675204,22 @@
       "timing": {
         "cdn_resolve_sec": 9.1
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-24T22:17:34Z",
+      "first_failed_at": "2026-10-24T21:13:12Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.5,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -675242,16 +675242,6 @@
       "worker_id": "worker-1-40128236235",
       "run_id": "40128236235",
       "reserved_at": "2026-10-24T22:15:24Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T22:17:09Z"
     }
   ],
   "missing_on_account": [
