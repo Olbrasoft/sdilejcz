@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T06:19:27Z",
+  "last_updated": "2026-10-24T06:19:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674420,21 +674420,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T05:47:23Z",
-      "first_failed_at": "2026-10-24T05:47:23Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -675522,6 +675507,21 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T06:19:38Z",
+      "first_failed_at": "2026-10-24T05:47:23Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.8
+      }
     }
   ],
   "in_progress": [
@@ -675534,16 +675534,6 @@
       "worker_id": "worker-2-40065397556",
       "run_id": "40065397556",
       "reserved_at": "2026-10-24T06:16:06Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40065397556",
-      "run_id": "40065397556",
-      "reserved_at": "2026-10-24T06:17:35Z"
     }
   ],
   "missing_on_account": [
