@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T22:54:17Z",
+  "last_updated": "2026-10-24T22:54:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675613,19 +675613,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23796,
       "cr_slug": "operace-delta-force-3",
       "title": "Operace Delta Force 3",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T22:50:16Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T22:54:32Z",
+      "first_failed_at": "2026-10-24T22:54:32Z",
+      "attempt_count": 1,
+      "upload_id": "5a984dc29981f",
+      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
+      "upload_title": "Operace Delta Force 3 (1998)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 18.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23211,
       "cr_slug": "erotic-ghost-story-ii",
