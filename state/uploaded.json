@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T01:37:37Z",
+  "last_updated": "2026-10-24T01:37:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674420,21 +674420,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T01:05:35Z",
-      "first_failed_at": "2026-10-24T01:05:35Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
@@ -675334,6 +675319,21 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T01:37:47Z",
+      "first_failed_at": "2026-10-24T01:05:35Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
     }
   ],
   "in_progress": [
@@ -675346,16 +675346,6 @@
       "worker_id": "worker-2-40047211669",
       "run_id": "40047211669",
       "reserved_at": "2026-10-24T01:34:05Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T01:36:14Z"
     },
     {
       "cr_film_id": 12286,
