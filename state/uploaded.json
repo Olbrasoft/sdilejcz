@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T04:02:59Z",
+  "last_updated": "2026-10-24T04:03:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676773,21 +676773,6 @@
       }
     },
     {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T03:32:53Z",
-      "first_failed_at": "2026-10-24T03:32:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 33580,
       "cr_slug": "prenom-carmen",
       "title": "Prénom Carmen",
@@ -677626,6 +677611,21 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
+    },
+    {
+      "cr_film_id": 31648,
+      "cr_slug": "n-io-e-napoleone",
+      "title": "N - Io e Napoleone",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T04:03:22Z",
+      "first_failed_at": "2026-10-24T03:32:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -677658,16 +677658,6 @@
       "worker_id": "worker-3-40047211669",
       "run_id": "40047211669",
       "reserved_at": "2026-10-24T03:56:29Z"
-    },
-    {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T04:02:59Z"
     }
   ],
   "missing_on_account": [
