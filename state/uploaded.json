@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T17:06:01Z",
+  "last_updated": "2026-10-24T17:06:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676474,19 +676474,26 @@
       "timing": {
         "cdn_resolve_sec": 18.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29921,
       "cr_slug": "prachy-zbrane-jedno-porno",
       "title": "Prachy, zbraně, jedno porno",
       "year": 1999,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T16:48:16Z"
-    },
+      "source": "sledujteto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T17:06:19Z",
+      "first_failed_at": "2026-10-24T17:06:19Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 78.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29989,
       "cr_slug": "sexy-bestie",
