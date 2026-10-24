@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T13:29:59Z",
+  "last_updated": "2026-10-24T13:30:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678216,6 +678216,21 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
+    },
+    {
+      "cr_film_id": 37343,
+      "cr_slug": "marguerite",
+      "title": "Marguerite",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T13:30:22Z",
+      "first_failed_at": "2026-10-24T13:30:22Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
     }
   ],
   "in_progress": [
@@ -678238,16 +678253,6 @@
       "worker_id": "worker-3-40081577355",
       "run_id": "40081577355",
       "reserved_at": "2026-10-24T13:19:25Z"
-    },
-    {
-      "cr_film_id": 37343,
-      "cr_slug": "marguerite",
-      "title": "Marguerite",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T13:29:59Z"
     }
   ],
   "missing_on_account": [
