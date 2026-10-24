@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T22:55:36Z",
+  "last_updated": "2026-10-24T22:55:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675634,19 +675634,30 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23211,
       "cr_slug": "erotic-ghost-story-ii",
       "title": "Erotic Ghost Story II",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T22:51:02Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T22:55:52Z",
+      "first_failed_at": "2026-10-24T22:55:52Z",
+      "attempt_count": 1,
+      "upload_id": "67e3ebd21c0b7",
+      "source_url": "https://prehraj.to/erotic-ghost-story-1990-720p-bluray-yts-mx/67e3ebd21c0b7",
+      "upload_title": "Erotic Ghost Story (1990) [720p] [BluRay] [YTS.MX]",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 35.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23841,
       "cr_slug": "operace-delta-force",
