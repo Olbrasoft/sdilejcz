@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T13:15:08Z",
+  "last_updated": "2026-10-24T13:15:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676852,21 +676852,6 @@
       }
     },
     {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T12:27:10Z",
-      "first_failed_at": "2026-10-24T11:56:31Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 34077,
       "cr_slug": "rukojmi-v-bella-vista",
       "title": "Rukojmí v Bella Vista",
@@ -677984,19 +677969,24 @@
       "timing": {
         "cdn_resolve_sec": 13.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
       "title": "12:01 PM",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40081577355",
-      "run_id": "40081577355",
-      "reserved_at": "2026-10-24T12:59:43Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T13:15:22Z",
+      "first_failed_at": "2026-10-24T11:56:31Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35726,
       "cr_slug": "taylor-swift-the-eras-tour",
