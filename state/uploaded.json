@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T06:51:33Z",
+  "last_updated": "2026-10-24T06:51:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675175,22 +675175,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-24T06:21:05Z",
-      "first_failed_at": "2026-10-24T05:50:25Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 5.2,
-        "download_sec": 1.8
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -675824,6 +675808,22 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-24T06:51:51Z",
+      "first_failed_at": "2026-10-24T05:50:25Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 4.9,
+        "download_sec": 2.2
+      }
     }
   ],
   "in_progress": [
@@ -675856,16 +675856,6 @@
       "worker_id": "worker-3-40065397556",
       "run_id": "40065397556",
       "reserved_at": "2026-10-24T06:49:51Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40065397556",
-      "run_id": "40065397556",
-      "reserved_at": "2026-10-24T06:51:33Z"
     }
   ],
   "missing_on_account": [
