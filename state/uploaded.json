@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T01:51:37Z",
+  "last_updated": "2026-10-24T01:51:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674474,21 +674474,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T01:17:23Z",
-      "first_failed_at": "2026-10-24T01:17:23Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.4
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675403,19 +675388,24 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
       "year": 1979,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T01:50:05Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T01:51:47Z",
+      "first_failed_at": "2026-10-24T01:17:23Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
