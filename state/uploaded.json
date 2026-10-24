@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T18:02:42Z",
+  "last_updated": "2026-10-24T18:03:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676619,21 +676619,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T17:17:03Z",
-      "first_failed_at": "2026-10-24T16:41:16Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.2
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677331,19 +677316,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
       "year": 1943,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T17:50:13Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T18:03:04Z",
+      "first_failed_at": "2026-10-24T16:41:16Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34739,
       "cr_slug": "pikova-trojka",
