@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T21:59:20Z",
+  "last_updated": "2026-10-24T21:59:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675191,6 +675191,27 @@
       "timing": {
         "cdn_resolve_sec": 18.1
       }
+    },
+    {
+      "cr_film_id": 21094,
+      "cr_slug": "sex-a-lucia",
+      "title": "Sex a Lucía",
+      "year": 2001,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T21:59:43Z",
+      "first_failed_at": "2026-10-24T21:59:43Z",
+      "attempt_count": 1,
+      "upload_id": "68c1e438c34ac",
+      "source_url": "https://prehraj.to/sex-a-lucia-2001-romanticky-czdab/68c1e438c34ac",
+      "upload_title": "Sex a Lucía (2001) romantický czdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 36.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675203,16 +675224,6 @@
       "worker_id": "worker-1-40128236235",
       "run_id": "40128236235",
       "reserved_at": "2026-10-24T21:49:41Z"
-    },
-    {
-      "cr_film_id": 21094,
-      "cr_slug": "sex-a-lucia",
-      "title": "Sex a Lucía",
-      "year": 2001,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T21:56:04Z"
     },
     {
       "cr_film_id": 21663,
