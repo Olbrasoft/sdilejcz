@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T03:02:32Z",
+  "last_updated": "2026-10-24T03:02:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675134,21 +675134,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T02:12:24Z",
-      "first_failed_at": "2026-10-24T01:05:35Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -676028,6 +676013,21 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T03:02:59Z",
+      "first_failed_at": "2026-10-24T01:05:35Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -676060,16 +676060,6 @@
       "worker_id": "worker-3-40047211669",
       "run_id": "40047211669",
       "reserved_at": "2026-10-24T03:01:34Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T03:02:32Z"
     }
   ],
   "missing_on_account": [
