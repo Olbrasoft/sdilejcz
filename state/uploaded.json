@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T04:20:51Z",
+  "last_updated": "2026-10-24T04:21:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677967,19 +677967,24 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40047211669",
-      "run_id": "40047211669",
-      "reserved_at": "2026-10-24T03:55:40Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T04:21:14Z",
+      "first_failed_at": "2026-10-24T04:21:14Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36787,
       "cr_slug": "dead-sexy",
