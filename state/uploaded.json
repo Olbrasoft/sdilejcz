@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T09:12:28Z",
+  "last_updated": "2026-10-24T09:12:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677262,21 +677262,6 @@
       }
     },
     {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T08:30:52Z",
-      "first_failed_at": "2026-10-24T08:00:03Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.7
-      }
-    },
-    {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
@@ -678317,6 +678302,21 @@
       "timing": {
         "cdn_resolve_sec": 9.9
       }
+    },
+    {
+      "cr_film_id": 31648,
+      "cr_slug": "n-io-e-napoleone",
+      "title": "N - Io e Napoleone",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T09:12:50Z",
+      "first_failed_at": "2026-10-24T08:00:03Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
     }
   ],
   "in_progress": [
@@ -678329,16 +678329,6 @@
       "worker_id": "worker-2-40065397556",
       "run_id": "40065397556",
       "reserved_at": "2026-10-24T08:57:35Z"
-    },
-    {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40065397556",
-      "run_id": "40065397556",
-      "reserved_at": "2026-10-24T09:12:28Z"
     }
   ],
   "missing_on_account": [
