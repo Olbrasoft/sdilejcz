@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T18:04:56Z",
+  "last_updated": "2026-10-24T18:05:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676756,22 +676756,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-24T17:31:00Z",
-      "first_failed_at": "2026-10-24T17:00:33Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 2.8
-      }
-    },
-    {
       "cr_film_id": 33580,
       "cr_slug": "prenom-carmen",
       "title": "Prénom Carmen",
@@ -677352,6 +677336,22 @@
       "timing": {
         "cdn_resolve_sec": 21.2
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-24T18:05:13Z",
+      "first_failed_at": "2026-10-24T17:00:33Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.8,
+        "download_sec": 2.6
+      }
     }
   ],
   "in_progress": [
@@ -677384,16 +677384,6 @@
       "worker_id": "worker-3-40101562994",
       "run_id": "40101562994",
       "reserved_at": "2026-10-24T18:03:15Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40101562994",
-      "run_id": "40101562994",
-      "reserved_at": "2026-10-24T18:04:56Z"
     }
   ],
   "missing_on_account": [
