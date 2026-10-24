@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T21:02:10Z",
+  "last_updated": "2026-10-24T21:02:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673865,21 +673865,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-24T20:31:08Z",
-      "first_failed_at": "2026-10-24T20:31:08Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 17.4
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
@@ -674407,6 +674392,21 @@
       "timing": {
         "cdn_resolve_sec": 17.5
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-24T21:02:39Z",
+      "first_failed_at": "2026-10-24T20:31:08Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 16.6
+      }
     }
   ],
   "in_progress": [
@@ -674439,16 +674439,6 @@
       "worker_id": "worker-3-40128236235",
       "run_id": "40128236235",
       "reserved_at": "2026-10-24T21:01:47Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T21:02:10Z"
     }
   ],
   "missing_on_account": [
