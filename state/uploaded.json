@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-24T21:31:42Z",
+  "last_updated": "2026-10-24T21:33:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674884,19 +674884,30 @@
       "timing": {
         "cdn_resolve_sec": 9.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19427,
       "cr_slug": "lolita",
       "title": "Lolita",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-24T21:27:21Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-24T21:33:05Z",
+      "first_failed_at": "2026-10-24T21:33:05Z",
+      "attempt_count": 1,
+      "upload_id": "1c036f071f1a588c",
+      "source_url": "https://prehraj.to/lolita-1997-cz-dab-1080p/1c036f071f1a588c",
+      "upload_title": "Lolita 1997 CZ dab 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 52.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19583,
       "cr_slug": "sex-ve-meste",
