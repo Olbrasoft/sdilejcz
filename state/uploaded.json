@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T15:33:16Z",
+  "last_updated": "2026-10-25T15:33:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677084,21 +677084,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T14:55:09Z",
-      "first_failed_at": "2026-10-25T14:18:08Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.3
-      }
-    },
-    {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
       "title": "Brouk v hlavě",
@@ -677707,6 +677692,21 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T15:33:42Z",
+      "first_failed_at": "2026-10-25T14:18:08Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 15.2
+      }
     }
   ],
   "in_progress": [
@@ -677739,16 +677739,6 @@
       "worker_id": "worker-4-40186091444",
       "run_id": "40186091444",
       "reserved_at": "2026-10-25T15:30:30Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T15:33:16Z"
     }
   ],
   "missing_on_account": [
