@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T22:29:50Z",
+  "last_updated": "2026-10-25T22:30:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674164,6 +674164,21 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T22:30:02Z",
+      "first_failed_at": "2026-10-25T22:30:02Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -674186,16 +674201,6 @@
       "worker_id": "worker-4-40239406415",
       "run_id": "40239406415",
       "reserved_at": "2026-10-25T22:28:19Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-25T22:29:06Z"
     }
   ],
   "missing_on_account": [
