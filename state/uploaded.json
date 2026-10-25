@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T11:14:12Z",
+  "last_updated": "2026-10-25T11:14:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674659,6 +674659,27 @@
       "timing": {
         "cdn_resolve_sec": 16.6
       }
+    },
+    {
+      "cr_film_id": 11649,
+      "cr_slug": "peggy-sue-se-vdava",
+      "title": "Peggy Sue se vdává",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-25T11:14:25Z",
+      "first_failed_at": "2026-10-25T11:14:25Z",
+      "attempt_count": 1,
+      "upload_id": "5acc510781190",
+      "source_url": "https://prehraj.to/peggy-sue-se-vdava-1986/5acc510781190",
+      "upload_title": "Peggy Sue se vdává (1986)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 54.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674671,16 +674692,6 @@
       "worker_id": "worker-2-40186091444",
       "run_id": "40186091444",
       "reserved_at": "2026-10-25T11:09:32Z"
-    },
-    {
-      "cr_film_id": 11649,
-      "cr_slug": "peggy-sue-se-vdava",
-      "title": "Peggy Sue se vdává",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T11:12:09Z"
     },
     {
       "cr_film_id": 12039,
