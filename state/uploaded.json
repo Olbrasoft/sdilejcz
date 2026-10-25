@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T12:12:16Z",
+  "last_updated": "2026-10-25T12:12:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674439,21 +674439,6 @@
       }
     },
     {
-      "cr_film_id": 14390,
-      "cr_slug": "ztraceny-poklad-azteku",
-      "title": "Ztracený poklad Aztéků",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T11:34:29Z",
-      "first_failed_at": "2026-10-25T11:34:29Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 21.6
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675220,19 +675205,24 @@
       "timing": {
         "cdn_resolve_sec": 21.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T12:04:46Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T12:12:30Z",
+      "first_failed_at": "2026-10-25T11:34:29Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 19.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
