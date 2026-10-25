@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T03:57:46Z",
+  "last_updated": "2026-10-25T03:58:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675474,21 +675474,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T03:05:40Z",
-      "first_failed_at": "2026-10-25T02:01:59Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676781,19 +676766,24 @@
       "timing": {
         "cdn_resolve_sec": 10.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T03:43:42Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T03:58:14Z",
+      "first_failed_at": "2026-10-25T02:01:59Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31371,
       "cr_slug": "playboy-inside-the-sexy-girls-next-door-house",
