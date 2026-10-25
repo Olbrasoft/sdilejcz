@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T18:26:45Z",
+  "last_updated": "2026-10-25T18:27:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674261,19 +674261,24 @@
       "timing": {
         "cdn_resolve_sec": 21.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
       "year": 1933,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40212687243",
-      "run_id": "40212687243",
-      "reserved_at": "2026-10-25T18:23:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T18:27:20Z",
+      "first_failed_at": "2026-10-25T18:27:20Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 25.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
