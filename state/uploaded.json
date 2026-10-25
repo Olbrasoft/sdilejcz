@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T23:57:45Z",
+  "last_updated": "2026-10-25T23:58:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674694,21 +674694,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T23:27:21Z",
-      "first_failed_at": "2026-10-25T22:21:56Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.8
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675303,6 +675288,21 @@
         "cdn_resolve_sec": 5.1,
         "download_sec": 1.7
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T23:58:09Z",
+      "first_failed_at": "2026-10-25T22:21:56Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -675335,16 +675335,6 @@
       "worker_id": "worker-4-40239406415",
       "run_id": "40239406415",
       "reserved_at": "2026-10-25T23:53:52Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-25T23:57:45Z"
     }
   ],
   "missing_on_account": [
