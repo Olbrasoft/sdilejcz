@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T07:46:28Z",
+  "last_updated": "2026-10-25T07:46:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675052,21 +675052,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T07:09:07Z",
-      "first_failed_at": "2026-10-25T06:03:37Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675827,6 +675812,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T07:46:53Z",
+      "first_failed_at": "2026-10-25T06:03:37Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
     }
   ],
   "in_progress": [
@@ -675859,16 +675859,6 @@
       "worker_id": "worker-4-40166940059",
       "run_id": "40166940059",
       "reserved_at": "2026-10-25T07:45:46Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40166940059",
-      "run_id": "40166940059",
-      "reserved_at": "2026-10-25T07:46:28Z"
     }
   ],
   "missing_on_account": [
