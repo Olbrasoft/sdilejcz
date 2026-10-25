@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T10:01:57Z",
+  "last_updated": "2026-10-25T10:02:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677184,21 +677184,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T09:08:20Z",
-      "first_failed_at": "2026-10-25T08:37:46Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.7
-      }
-    },
-    {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
@@ -678251,19 +678236,24 @@
       "timing": {
         "cdn_resolve_sec": 18.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40166940059",
-      "run_id": "40166940059",
-      "reserved_at": "2026-10-25T09:41:24Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T10:02:17Z",
+      "first_failed_at": "2026-10-25T08:37:46Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
