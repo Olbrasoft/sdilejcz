@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T18:09:11Z",
+  "last_updated": "2026-10-25T18:09:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673465,6 +673465,30 @@
         "upload_sec": 104.7,
         "total_sec": 300.9
       }
+    },
+    {
+      "cr_film_id": 5478,
+      "cr_slug": "echo",
+      "title": "Echo Valley",
+      "year": 2025,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "6148ca77d2677da4",
+      "source_url": "https://prehraj.to/echo-valley-2025-cz-titulky-1080p-fhd/6148ca77d2677da4",
+      "source_title": "Echo Valley 2025 CZ titulky 1080p FHD",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35383454/echo-valley-2025-cz-titulky.mp4",
+      "sdilej_name": "Echo Valley (2025) CZ titulky.mp4",
+      "uploaded_at": "2026-10-25T18:09:09Z",
+      "status": "uploaded",
+      "size_bytes": 1565195371,
+      "worker_id": "worker-4-40212687243",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 1834.4,
+        "upload_sec": 281.0,
+        "total_sec": 2117.0
+      }
     }
   ],
   "failed_attempts": [
@@ -673659,27 +673683,6 @@
       }
     },
     {
-      "cr_film_id": 5478,
-      "cr_slug": "echo",
-      "title": "Echo Valley",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-25T17:32:39Z",
-      "first_failed_at": "2026-10-25T17:32:39Z",
-      "attempt_count": 1,
-      "upload_id": "7eba42b52a6a3285",
-      "source_url": "https://prehraj.to/echo-valley-2025-cz-tit-1080p/7eba42b52a6a3285",
-      "upload_title": "Echo Valley 2025 CZ tit 1080p",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.7,
-        "download_sec": 1662.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -673865,16 +673868,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 5478,
-      "cr_slug": "echo",
-      "title": "Echo Valley",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40212687243",
-      "run_id": "40212687243",
-      "reserved_at": "2026-10-25T17:33:42Z"
-    },
     {
       "cr_film_id": 10256,
       "cr_slug": "dont-fuck-in-the-woods-2",
