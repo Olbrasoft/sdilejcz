@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T18:53:40Z",
+  "last_updated": "2026-10-25T18:53:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673798,21 +673798,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T18:16:51Z",
-      "first_failed_at": "2026-10-25T18:16:51Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 24.7
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -674766,19 +674751,24 @@
       "timing": {
         "cdn_resolve_sec": 25.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40212687243",
-      "run_id": "40212687243",
-      "reserved_at": "2026-10-25T18:48:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T18:53:56Z",
+      "first_failed_at": "2026-10-25T18:16:51Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 26.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
