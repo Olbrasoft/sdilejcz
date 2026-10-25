@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T23:01:24Z",
+  "last_updated": "2026-10-25T23:01:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674118,21 +674118,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T22:24:53Z",
-      "first_failed_at": "2026-10-25T22:24:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -674711,19 +674696,24 @@
       "timing": {
         "cdn_resolve_sec": 9.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-25T22:56:11Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T23:01:58Z",
+      "first_failed_at": "2026-10-25T22:24:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
