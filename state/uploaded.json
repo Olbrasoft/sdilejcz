@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T12:46:20Z",
+  "last_updated": "2026-10-25T12:46:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674774,21 +674774,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T12:15:20Z",
-      "first_failed_at": "2026-10-25T12:15:20Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 19.1
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675452,6 +675437,21 @@
         "download_sec": 24.1,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T12:46:55Z",
+      "first_failed_at": "2026-10-25T12:15:20Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 21.8
+      }
     }
   ],
   "in_progress": [
@@ -675484,16 +675484,6 @@
       "worker_id": "worker-2-40186091444",
       "run_id": "40186091444",
       "reserved_at": "2026-10-25T12:44:50Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T12:46:20Z"
     }
   ],
   "missing_on_account": [
