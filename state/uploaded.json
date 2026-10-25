@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T12:26:31Z",
+  "last_updated": "2026-10-25T12:27:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674484,21 +674484,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T11:53:21Z",
-      "first_failed_at": "2026-10-25T11:18:50Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.1
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -675333,6 +675318,21 @@
       "timing": {
         "cdn_resolve_sec": 19.1
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T12:27:06Z",
+      "first_failed_at": "2026-10-25T11:18:50Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 20.4
+      }
     }
   ],
   "in_progress": [
@@ -675355,16 +675355,6 @@
       "worker_id": "worker-4-40186091444",
       "run_id": "40186091444",
       "reserved_at": "2026-10-25T12:24:50Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T12:26:31Z"
     }
   ],
   "missing_on_account": [
