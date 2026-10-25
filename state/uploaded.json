@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T11:27:09Z",
+  "last_updated": "2026-10-25T11:27:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674377,21 +674377,6 @@
       }
     },
     {
-      "cr_film_id": 2835,
-      "cr_slug": "andel-pane",
-      "title": "Anděl Páně",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T10:56:04Z",
-      "first_failed_at": "2026-10-25T10:56:04Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 17.0
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -674958,6 +674943,21 @@
         "download_sec": 34.3,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 2835,
+      "cr_slug": "andel-pane",
+      "title": "Anděl Páně",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T11:27:40Z",
+      "first_failed_at": "2026-10-25T10:56:04Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 18.7
+      }
     }
   ],
   "in_progress": [
@@ -674990,16 +674990,6 @@
       "worker_id": "worker-4-40186091444",
       "run_id": "40186091444",
       "reserved_at": "2026-10-25T11:23:49Z"
-    },
-    {
-      "cr_film_id": 2835,
-      "cr_slug": "andel-pane",
-      "title": "Anděl Páně",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T11:27:09Z"
     }
   ],
   "missing_on_account": [
