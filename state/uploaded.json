@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T10:24:42Z",
+  "last_updated": "2026-10-25T10:25:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677652,21 +677652,6 @@
       }
     },
     {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T09:50:06Z",
-      "first_failed_at": "2026-10-25T08:35:15Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 18.8
-      }
-    },
-    {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
@@ -678311,20 +678296,24 @@
       "timing": {
         "cdn_resolve_sec": 21.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
       "title": "12:01 PM",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40166940059",
-      "run_id": "40166940059",
-      "reserved_at": "2026-10-25T10:24:42Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T10:25:07Z",
+      "first_failed_at": "2026-10-25T08:35:15Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
