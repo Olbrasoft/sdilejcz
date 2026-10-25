@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T19:08:35Z",
+  "last_updated": "2026-10-25T19:09:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674159,21 +674159,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T18:38:14Z",
-      "first_failed_at": "2026-10-25T18:38:14Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 18.5
-      }
-    },
-    {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
@@ -674956,6 +674941,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T19:09:15Z",
+      "first_failed_at": "2026-10-25T18:38:14Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 28.7
+      }
     }
   ],
   "in_progress": [
@@ -674978,16 +674978,6 @@
       "worker_id": "worker-4-40212687243",
       "run_id": "40212687243",
       "reserved_at": "2026-10-25T19:07:39Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40212687243",
-      "run_id": "40212687243",
-      "reserved_at": "2026-10-25T19:08:35Z"
     }
   ],
   "missing_on_account": [
