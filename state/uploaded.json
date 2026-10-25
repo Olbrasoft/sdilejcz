@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T10:28:37Z",
+  "last_updated": "2026-10-25T10:29:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677742,21 +677742,6 @@
       }
     },
     {
-      "cr_film_id": 31669,
-      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
-      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T09:58:37Z",
-      "first_failed_at": "2026-10-25T08:36:32Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 19.7
-      }
-    },
-    {
       "cr_film_id": 37224,
       "cr_slug": "los-angeles-streetfighter",
       "title": "Los Angeles Streetfighter",
@@ -678311,20 +678296,24 @@
       "timing": {
         "cdn_resolve_sec": 21.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
       "year": 1988,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40166940059",
-      "run_id": "40166940059",
-      "reserved_at": "2026-10-25T10:28:37Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T10:29:11Z",
+      "first_failed_at": "2026-10-25T08:36:32Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
