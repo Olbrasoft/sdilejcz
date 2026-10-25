@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T19:25:02Z",
+  "last_updated": "2026-10-25T19:25:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674281,21 +674281,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T18:53:56Z",
-      "first_failed_at": "2026-10-25T18:16:51Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 26.6
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -675019,6 +675004,21 @@
       "timing": {
         "cdn_resolve_sec": 28.6
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T19:25:40Z",
+      "first_failed_at": "2026-10-25T18:16:51Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 27.5
+      }
     }
   ],
   "in_progress": [
@@ -675051,16 +675051,6 @@
       "worker_id": "worker-2-40212687243",
       "run_id": "40212687243",
       "reserved_at": "2026-10-25T19:24:31Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40212687243",
-      "run_id": "40212687243",
-      "reserved_at": "2026-10-25T19:25:02Z"
     }
   ],
   "missing_on_account": [
