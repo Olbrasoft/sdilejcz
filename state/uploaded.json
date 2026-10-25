@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T05:58:29Z",
+  "last_updated": "2026-10-25T05:58:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674324,19 +674324,24 @@
         "download_sec": 58.5,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40166940059",
-      "run_id": "40166940059",
-      "reserved_at": "2026-10-25T05:56:16Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T05:58:44Z",
+      "first_failed_at": "2026-10-25T05:58:44Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8929,
       "cr_slug": "leo-da-vinci-mise-mona-lisa",
