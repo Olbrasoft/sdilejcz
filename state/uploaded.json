@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T11:58:43Z",
+  "last_updated": "2026-10-25T11:59:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674430,21 +674430,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T11:25:14Z",
-      "first_failed_at": "2026-10-25T10:54:43Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 17.9
-      }
-    },
-    {
       "cr_film_id": 13512,
       "cr_slug": "sex-surrogate",
       "title": "Sex Surrogate",
@@ -674955,20 +674940,24 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T11:58:43Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T11:59:10Z",
+      "first_failed_at": "2026-10-25T10:54:43Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
