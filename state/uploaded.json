@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T02:42:32Z",
+  "last_updated": "2026-10-25T02:42:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674429,6 +674429,27 @@
         "upload_sec": 910.5,
         "total_sec": 1073.9
       }
+    },
+    {
+      "cr_film_id": 10308,
+      "cr_slug": "casting-na-lasku",
+      "title": "Casting na lásku",
+      "year": 2020,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 14490,
+      "sdilej_url": "https://sdilej.cz/35380167/casting-na-lasku-2020-cz-dabing.mp4",
+      "sdilej_name": "Casting na lásku (2020) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-25T02:39:28Z",
+      "status": "uploaded",
+      "size_bytes": 664297098,
+      "worker_id": "worker-3-40151099599",
+      "timing": {
+        "cdn_resolve_sec": 4.1,
+        "download_sec": 61.3,
+        "upload_sec": 106.4,
+        "total_sec": 171.9
+      }
     }
   ],
   "failed_attempts": [
@@ -674639,23 +674660,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 10308,
-      "cr_slug": "casting-na-lasku",
-      "title": "Casting na lásku",
-      "year": 2020,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-25T02:06:13Z",
-      "first_failed_at": "2026-10-25T02:06:13Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 4.3,
-        "download_sec": 65.7,
-        "upload_sec": 30.0
       }
     },
     {
@@ -675782,16 +675786,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 10308,
-      "cr_slug": "casting-na-lasku",
-      "title": "Casting na lásku",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T02:36:26Z"
-    },
     {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
