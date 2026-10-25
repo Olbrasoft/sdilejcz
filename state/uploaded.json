@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T05:00:54Z",
+  "last_updated": "2026-10-25T05:01:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674784,6 +674784,27 @@
         "upload_sec": 233.4,
         "total_sec": 288.6
       }
+    },
+    {
+      "cr_film_id": 34750,
+      "cr_slug": "same-stesti",
+      "title": "Samé štěstí",
+      "year": 1991,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 25941,
+      "sdilej_url": "https://sdilej.cz/35380340/same-stesti-1991-.mp4",
+      "sdilej_name": "Samé štěstí (1991).mp4",
+      "uploaded_at": "2026-10-25T04:56:41Z",
+      "status": "uploaded",
+      "size_bytes": 695263312,
+      "worker_id": "worker-4-40151099599",
+      "timing": {
+        "cdn_resolve_sec": 6.3,
+        "download_sec": 85.0,
+        "upload_sec": 141.1,
+        "total_sec": 232.5
+      }
     }
   ],
   "failed_attempts": [
@@ -677537,27 +677558,6 @@
       }
     },
     {
-      "cr_film_id": 34750,
-      "cr_slug": "same-stesti",
-      "title": "Samé štěstí",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-25T04:50:56Z",
-      "first_failed_at": "2026-10-25T04:50:56Z",
-      "attempt_count": 1,
-      "upload_id": "65b816ee6a764",
-      "source_url": "https://prehraj.to/same-stesti-1991-dvdrip-xvid-cz-sagittario/65b816ee6a764",
-      "upload_title": "Same.stesti.1991.DVDRip.XviD.CZ-SAGiTTARiO",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 21.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
       "title": "Strašidelné líbánky",
@@ -677819,16 +677819,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 34750,
-      "cr_slug": "same-stesti",
-      "title": "Samé štěstí",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T04:52:40Z"
-    },
     {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
