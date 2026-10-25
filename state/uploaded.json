@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T05:42:37Z",
+  "last_updated": "2026-10-25T05:42:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677473,21 +677473,6 @@
       }
     },
     {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T05:05:38Z",
-      "first_failed_at": "2026-10-25T05:05:38Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
       "title": "Vzala jsem si mrtvého muže",
@@ -678295,6 +678280,21 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
+    },
+    {
+      "cr_film_id": 34971,
+      "cr_slug": "krvava-amazonka",
+      "title": "Krvavá Amazonka",
+      "year": 1985,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T05:42:57Z",
+      "first_failed_at": "2026-10-25T05:05:38Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -678307,16 +678307,6 @@
       "worker_id": "worker-2-40151099599",
       "run_id": "40151099599",
       "reserved_at": "2026-10-25T05:00:54Z"
-    },
-    {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T05:42:37Z"
     }
   ],
   "missing_on_account": [
