@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T10:03:12Z",
+  "last_updated": "2026-10-25T10:03:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677241,21 +677241,6 @@
       }
     },
     {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T09:20:55Z",
-      "first_failed_at": "2026-10-25T09:20:55Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 35044,
       "cr_slug": "tezka-barbora",
       "title": "Těžká Barbora",
@@ -678251,19 +678236,24 @@
       "timing": {
         "cdn_resolve_sec": 22.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
       "title": "Po čem muži touží",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40166940059",
-      "run_id": "40166940059",
-      "reserved_at": "2026-10-25T09:57:34Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T10:03:33Z",
+      "first_failed_at": "2026-10-25T09:20:55Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 24.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37343,
       "cr_slug": "marguerite",
