@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T22:59:23Z",
+  "last_updated": "2026-10-25T22:59:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673884,6 +673884,27 @@
         "upload_sec": 133.7,
         "total_sec": 161.1
       }
+    },
+    {
+      "cr_film_id": 15084,
+      "cr_slug": "sex-jak-to-rozbalit",
+      "title": "Sex: Jak to rozbalit",
+      "year": 2021,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 19754,
+      "sdilej_url": "https://sdilej.cz/35384471/sex-jak-to-rozbalit-2021-cz-titulky.mp4",
+      "sdilej_name": "Sex: Jak to rozbalit (2021) CZ titulky.mp4",
+      "uploaded_at": "2026-10-25T22:56:55Z",
+      "status": "uploaded",
+      "size_bytes": 409886123,
+      "worker_id": "worker-4-40239406415",
+      "timing": {
+        "cdn_resolve_sec": 5.4,
+        "download_sec": 50.9,
+        "upload_sec": 76.1,
+        "total_sec": 132.5
+      }
     }
   ],
   "failed_attempts": [
@@ -674506,27 +674527,6 @@
       }
     },
     {
-      "cr_film_id": 15084,
-      "cr_slug": "sex-jak-to-rozbalit",
-      "title": "Sex: Jak to rozbalit",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-25T22:51:31Z",
-      "first_failed_at": "2026-10-25T22:51:31Z",
-      "attempt_count": 1,
-      "upload_id": "6178987a93cb6",
-      "source_url": "https://prehraj.to/sex-jak-to-rozbalit-2021-cztitulky/6178987a93cb6",
-      "upload_title": "Sex - Jak to rozbalit (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 43.1,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -674714,16 +674714,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 15084,
-      "cr_slug": "sex-jak-to-rozbalit",
-      "title": "Sex: Jak to rozbalit",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-25T22:54:33Z"
-    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
