@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T12:38:23Z",
+  "last_updated": "2026-10-25T12:39:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675391,19 +675391,25 @@
       "timing": {
         "cdn_resolve_sec": 17.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T12:18:25Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-25T12:39:09Z",
+      "first_failed_at": "2026-10-25T12:39:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.8,
+        "download_sec": 1.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
