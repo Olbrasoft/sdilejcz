@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T13:25:59Z",
+  "last_updated": "2026-10-25T13:26:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675804,19 +675804,30 @@
       "timing": {
         "cdn_resolve_sec": 20.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 21663,
       "cr_slug": "lolita-1962",
       "title": "Lolita",
       "year": 1962,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T13:06:10Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-25T13:26:28Z",
+      "first_failed_at": "2026-10-25T13:26:28Z",
+      "attempt_count": 1,
+      "upload_id": "5891c9a9df449",
+      "source_url": "https://prehraj.to/lolita-1962-cz-titulky/5891c9a9df449",
+      "upload_title": "Lolita-1962-cz-titulky--",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 996.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22457,
       "cr_slug": "orli-pero",
