@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T18:37:42Z",
+  "last_updated": "2026-10-25T18:38:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674697,19 +674697,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40212687243",
-      "run_id": "40212687243",
-      "reserved_at": "2026-10-25T18:28:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T18:38:14Z",
+      "first_failed_at": "2026-10-25T18:38:14Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 18.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
