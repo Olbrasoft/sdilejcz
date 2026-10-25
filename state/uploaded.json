@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T23:12:16Z",
+  "last_updated": "2026-10-25T23:12:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674985,19 +674985,24 @@
       "timing": {
         "resolve_sec": 1.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-25T23:04:38Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T23:12:40Z",
+      "first_failed_at": "2026-10-25T23:12:40Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
