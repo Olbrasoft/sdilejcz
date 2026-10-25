@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T00:39:51Z",
+  "last_updated": "2026-10-25T00:40:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677937,19 +677937,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-25T00:18:33Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T00:40:14Z",
+      "first_failed_at": "2026-10-25T00:40:14Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35543,
       "cr_slug": "love-sick-secrets-of-a-sex-addict",
