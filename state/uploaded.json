@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T02:05:28Z",
+  "last_updated": "2026-10-25T02:06:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674706,6 +674706,23 @@
       "timing": {
         "cdn_resolve_sec": 9.8
       }
+    },
+    {
+      "cr_film_id": 10308,
+      "cr_slug": "casting-na-lasku",
+      "title": "Casting na lásku",
+      "year": 2020,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-25T02:06:13Z",
+      "first_failed_at": "2026-10-25T02:06:13Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 4.3,
+        "download_sec": 65.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674718,16 +674735,6 @@
       "worker_id": "worker-4-40151099599",
       "run_id": "40151099599",
       "reserved_at": "2026-10-25T01:53:51Z"
-    },
-    {
-      "cr_film_id": 10308,
-      "cr_slug": "casting-na-lasku",
-      "title": "Casting na lásku",
-      "year": 2020,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T02:03:38Z"
     },
     {
       "cr_film_id": 10695,
