@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T12:04:46Z",
+  "last_updated": "2026-10-25T12:05:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674160,6 +674160,27 @@
         "upload_sec": 187.6,
         "total_sec": 1077.3
       }
+    },
+    {
+      "cr_film_id": 2835,
+      "cr_slug": "andel-pane",
+      "title": "Anděl Páně",
+      "year": 2005,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 2067,
+      "sdilej_url": "https://sdilej.cz/35381529/andel-pane-2005-cz-dabing.mp4",
+      "sdilej_name": "Anděl Páně (2005) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-25T12:02:04Z",
+      "status": "uploaded",
+      "size_bytes": 375572000,
+      "worker_id": "worker-4-40186091444",
+      "timing": {
+        "cdn_resolve_sec": 3.2,
+        "download_sec": 72.7,
+        "upload_sec": 73.5,
+        "total_sec": 149.5
+      }
     }
   ],
   "failed_attempts": [
@@ -674278,63 +674299,6 @@
       }
     },
     {
-      "cr_film_id": 2835,
-      "cr_slug": "andel-pane",
-      "title": "Anděl Páně",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/andel-pane-2005-cz-dab-1080p/10b405f3bf21dc1f",
-      "failed_at": "2026-10-25T10:55:07Z",
-      "first_failed_at": "2026-10-25T10:55:07Z",
-      "attempt_count": 1,
-      "upload_id": "10b405f3bf21dc1f",
-      "source_url": "https://prehraj.to/andel-pane-2005-cz-dab-1080p/10b405f3bf21dc1f",
-      "upload_title": "Anděl Páně 2005 CZ dab 1080p",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.9
-      }
-    },
-    {
-      "cr_film_id": 2835,
-      "cr_slug": "andel-pane",
-      "title": "Anděl Páně",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/andel-pane-1-pohadka-2005-cz-film/859e2a6942c85cc2",
-      "failed_at": "2026-10-25T10:55:21Z",
-      "first_failed_at": "2026-10-25T10:55:21Z",
-      "attempt_count": 1,
-      "upload_id": "859e2a6942c85cc2",
-      "source_url": "https://prehraj.to/andel-pane-1-pohadka-2005-cz-film/859e2a6942c85cc2",
-      "upload_title": "Anděl Páně 1 - Pohádka 2005 Cz Film",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.8
-      }
-    },
-    {
-      "cr_film_id": 2835,
-      "cr_slug": "andel-pane",
-      "title": "Anděl Páně",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/andel-pane-1-2005-up-uhd-cz-mkv/e58066e4b9864628",
-      "failed_at": "2026-10-25T10:55:35Z",
-      "first_failed_at": "2026-10-25T10:55:35Z",
-      "attempt_count": 1,
-      "upload_id": "e58066e4b9864628",
-      "source_url": "https://prehraj.to/andel-pane-1-2005-up-uhd-cz-mkv/e58066e4b9864628",
-      "upload_title": "Anděl Páně 1 (2005) UP UHD cz.mkv",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.9
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -674444,21 +674408,6 @@
         "cdn_resolve_sec": 16.4,
         "download_sec": 34.3,
         "upload_sec": 30.0
-      }
-    },
-    {
-      "cr_film_id": 2835,
-      "cr_slug": "andel-pane",
-      "title": "Anděl Páně",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T11:27:40Z",
-      "first_failed_at": "2026-10-25T10:56:04Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 18.7
       }
     },
     {
@@ -674973,16 +674922,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 2835,
-      "cr_slug": "andel-pane",
-      "title": "Anděl Páně",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T11:59:24Z"
-    },
     {
       "cr_film_id": 13512,
       "cr_slug": "sex-surrogate",
