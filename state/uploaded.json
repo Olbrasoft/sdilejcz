@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T21:33:52Z",
+  "last_updated": "2026-10-25T21:34:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675893,21 +675893,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T21:03:32Z",
-      "first_failed_at": "2026-10-25T19:48:39Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 28.4
-      }
-    },
-    {
       "cr_film_id": 28601,
       "cr_slug": "stans",
       "title": "Stans",
@@ -676258,6 +676243,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T21:34:20Z",
+      "first_failed_at": "2026-10-25T19:48:39Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.6
+      }
     }
   ],
   "in_progress": [
@@ -676290,16 +676290,6 @@
       "worker_id": "worker-3-40212687243",
       "run_id": "40212687243",
       "reserved_at": "2026-10-25T21:32:42Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40212687243",
-      "run_id": "40212687243",
-      "reserved_at": "2026-10-25T21:33:52Z"
     }
   ],
   "missing_on_account": [
