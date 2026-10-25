@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T01:26:26Z",
+  "last_updated": "2026-10-25T01:31:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677477,21 +677477,6 @@
       }
     },
     {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T00:44:28Z",
-      "first_failed_at": "2026-10-25T00:13:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.4
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -678314,20 +678299,24 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34885,
       "cr_slug": "tata",
       "title": "Táta",
       "year": 1989,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40128236235",
-      "run_id": "40128236235",
-      "reserved_at": "2026-10-25T01:24:46Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T01:31:08Z",
+      "first_failed_at": "2026-10-25T00:13:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.9
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
