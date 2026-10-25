@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T03:58:24Z",
+  "last_updated": "2026-10-25T03:58:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675531,21 +675531,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T03:10:26Z",
-      "first_failed_at": "2026-10-25T02:05:16Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 30184,
       "cr_slug": "cas-dluhu",
       "title": "Čas dluhů",
@@ -676781,6 +676766,21 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T03:58:47Z",
+      "first_failed_at": "2026-10-25T02:05:16Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.6
+      }
     }
   ],
   "in_progress": [
@@ -676813,16 +676813,6 @@
       "worker_id": "worker-3-40151099599",
       "run_id": "40151099599",
       "reserved_at": "2026-10-25T03:57:46Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T03:58:24Z"
     }
   ],
   "missing_on_account": [
