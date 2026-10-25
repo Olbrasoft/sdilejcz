@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T15:50:01Z",
+  "last_updated": "2026-10-25T15:50:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677235,22 +677235,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-25T15:16:22Z",
-      "first_failed_at": "2026-10-25T14:13:06Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.3,
-        "download_sec": 1.7
-      }
-    },
-    {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
       "title": "Vzala jsem si mrtvého muže",
@@ -677867,6 +677851,22 @@
       "timing": {
         "cdn_resolve_sec": 27.2
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-25T15:50:16Z",
+      "first_failed_at": "2026-10-25T14:13:06Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 1.8
+      }
     }
   ],
   "in_progress": [
@@ -677899,16 +677899,6 @@
       "worker_id": "worker-1-40186091444",
       "run_id": "40186091444",
       "reserved_at": "2026-10-25T15:49:30Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T15:50:01Z"
     }
   ],
   "missing_on_account": [
