@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T05:05:02Z",
+  "last_updated": "2026-10-25T05:05:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677973,19 +677973,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
       "title": "Krvavá Amazonka",
       "year": 1985,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T04:55:50Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T05:05:38Z",
+      "first_failed_at": "2026-10-25T05:05:38Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
