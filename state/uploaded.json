@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T13:59:07Z",
+  "last_updated": "2026-10-25T13:59:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675969,19 +675969,30 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23109,
       "cr_slug": "delta-force-2-kolumbijska-spojka",
       "title": "Delta Force 2: Kolumbijská spojka",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T13:44:11Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-25T13:59:27Z",
+      "first_failed_at": "2026-10-25T13:59:27Z",
+      "attempt_count": 1,
+      "upload_id": "5c32576fd3c4e",
+      "source_url": "https://prehraj.to/delta-force-2-kolumbijska-spojka-1990-cz-dabing/5c32576fd3c4e",
+      "upload_title": "Delta Force 2 - Kolumbijská Spojka (1990) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 663.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23110,
       "cr_slug": "dick-tracy",
