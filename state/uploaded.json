@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T03:38:42Z",
+  "last_updated": "2026-10-25T03:39:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675604,21 +675604,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T03:08:32Z",
-      "first_failed_at": "2026-10-25T01:56:30Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 28601,
       "cr_slug": "stans",
       "title": "Stans",
@@ -676449,6 +676434,21 @@
       "timing": {
         "cdn_resolve_sec": 15.5
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T03:39:09Z",
+      "first_failed_at": "2026-10-25T01:56:30Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -676481,16 +676481,6 @@
       "worker_id": "worker-4-40151099599",
       "run_id": "40151099599",
       "reserved_at": "2026-10-25T03:37:23Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T03:38:42Z"
     }
   ],
   "missing_on_account": [
