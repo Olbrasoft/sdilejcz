@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T02:20:45Z",
+  "last_updated": "2026-10-25T02:20:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675047,19 +675047,24 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T02:17:34Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T02:20:58Z",
+      "first_failed_at": "2026-10-25T02:20:58Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
