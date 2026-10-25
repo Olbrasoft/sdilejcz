@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T12:39:21Z",
+  "last_updated": "2026-10-25T12:39:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674469,21 +674469,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T12:05:43Z",
-      "first_failed_at": "2026-10-25T11:29:04Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
@@ -675407,6 +675392,21 @@
         "cdn_resolve_sec": 12.8,
         "download_sec": 1.6
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T12:39:49Z",
+      "first_failed_at": "2026-10-25T11:29:04Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 17.3
+      }
     }
   ],
   "in_progress": [
@@ -675439,16 +675439,6 @@
       "worker_id": "worker-3-40186091444",
       "run_id": "40186091444",
       "reserved_at": "2026-10-25T12:38:23Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T12:39:21Z"
     }
   ],
   "missing_on_account": [
