@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T04:52:40Z",
+  "last_updated": "2026-10-25T04:54:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677605,19 +677605,24 @@
       "timing": {
         "cdn_resolve_sec": 12.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T04:43:38Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T04:54:47Z",
+      "first_failed_at": "2026-10-25T04:54:47Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34949,
       "cr_slug": "duch-ohne",
