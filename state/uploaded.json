@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T23:02:44Z",
+  "last_updated": "2026-10-25T23:03:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674118,21 +674118,6 @@
       }
     },
     {
-      "cr_film_id": 12170,
-      "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
-      "title": "MacGyver: Ztracený poklad Atlantidy",
-      "year": 1994,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T22:28:54Z",
-      "first_failed_at": "2026-10-25T22:28:54Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -674711,19 +674696,24 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-25T22:59:23Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T23:03:07Z",
+      "first_failed_at": "2026-10-25T22:28:54Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15981,
       "cr_slug": "sazim-na-sex-vitez-bere-vse",
