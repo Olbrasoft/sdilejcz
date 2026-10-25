@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T22:54:33Z",
+  "last_updated": "2026-10-25T22:55:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674666,19 +674666,30 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15981,
       "cr_slug": "sazim-na-sex-vitez-bere-vse",
       "title": "Sázím na sex: Vítěz bere vše",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-25T22:50:30Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-25T22:55:25Z",
+      "first_failed_at": "2026-10-25T22:55:25Z",
+      "attempt_count": 1,
+      "upload_id": "1628a9bcd3ad9533",
+      "source_url": "https://prehraj.to/sazim-na-sex-vitez-bere-vse-2015-cz-dabing-mp4/1628a9bcd3ad9533",
+      "upload_title": "Sázím na sex: Vítěz bere vše (2015) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 31.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16379,
       "cr_slug": "blazing-fists",
