@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T16:10:03Z",
+  "last_updated": "2026-10-25T16:36:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677867,19 +677867,29 @@
       "timing": {
         "cdn_resolve_sec": 28.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35166,
       "cr_slug": "corti-circuiti-erotici-vol-1",
       "title": "Corti circuiti erotici Vol.1",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T15:30:30Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3600042 milliseconds with 2279112266 out of 2408823527 bytes received",
+      "failed_at": "2026-10-25T16:36:09Z",
+      "first_failed_at": "2026-10-25T16:36:09Z",
+      "attempt_count": 1,
+      "upload_id": "680f4ddac27f7",
+      "source_url": "https://prehraj.to/tinto-brass-corti-circuiti-erotici-vol-1-1999/680f4ddac27f7",
+      "upload_title": "Tinto Brass Corti Circuiti Erotici Vol.1 (1999)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 3602.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35727,
       "cr_slug": "tinto-brass-presents-erotic-short-stories-part-3-hold-my-wrists-tight",
