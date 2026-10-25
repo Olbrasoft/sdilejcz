@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T03:01:04Z",
+  "last_updated": "2026-10-25T03:01:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674663,21 +674663,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T02:18:51Z",
-      "first_failed_at": "2026-10-25T01:45:28Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -675936,19 +675921,24 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T02:49:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T03:01:18Z",
+      "first_failed_at": "2026-10-25T01:45:28Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
