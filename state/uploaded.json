@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T20:35:11Z",
+  "last_updated": "2026-10-25T20:35:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675387,19 +675387,30 @@
       "timing": {
         "cdn_resolve_sec": 28.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 24529,
       "cr_slug": "sex-instruktor",
       "title": "Sex instruktor",
       "year": 2001,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40212687243",
-      "run_id": "40212687243",
-      "reserved_at": "2026-10-25T20:15:27Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-25T20:35:40Z",
+      "first_failed_at": "2026-10-25T20:35:40Z",
+      "attempt_count": 1,
+      "upload_id": "5c05c0e770aa5",
+      "source_url": "https://prehraj.to/sex-instruktor-2001-cz-dabing/5c05c0e770aa5",
+      "upload_title": "Sex Instruktor (2001) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 533.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24545,
       "cr_slug": "amores-perros-laska-je-kurva",
