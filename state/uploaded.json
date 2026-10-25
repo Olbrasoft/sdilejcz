@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T11:39:02Z",
+  "last_updated": "2026-10-25T11:39:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674025,43 +674025,30 @@
         "upload_sec": 391.9,
         "total_sec": 464.2
       }
+    },
+    {
+      "cr_film_id": 594,
+      "cr_slug": "obecna-skola",
+      "title": "Obecná škola",
+      "year": 1991,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 5912,
+      "sdilej_url": "https://sdilej.cz/35381449/obecna-skola-1991-cz.mp4",
+      "sdilej_name": "Obecná škola (1991) CZ.mp4",
+      "uploaded_at": "2026-10-25T11:38:23Z",
+      "status": "uploaded",
+      "size_bytes": 2867273117,
+      "worker_id": "worker-2-40186091444",
+      "timing": {
+        "cdn_resolve_sec": 4.6,
+        "download_sec": 725.5,
+        "upload_sec": 499.4,
+        "total_sec": 1229.5
+      }
     }
   ],
   "failed_attempts": [
-    {
-      "cr_film_id": 594,
-      "cr_slug": "obecna-skola",
-      "title": "Obecná škola",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/obecna-skola-1991-remux-dts-5-1/65d2e20543c81",
-      "failed_at": "2026-10-25T10:46:51Z",
-      "first_failed_at": "2026-10-25T10:46:51Z",
-      "attempt_count": 1,
-      "upload_id": "65d2e20543c81",
-      "source_url": "https://prehraj.to/obecna-skola-1991-remux-dts-5-1/65d2e20543c81",
-      "upload_title": "Obecná škola (1991) REMUX DTS 5.1",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.9
-      }
-    },
-    {
-      "cr_film_id": 594,
-      "cr_slug": "obecna-skola",
-      "title": "Obecná škola",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T10:47:27Z",
-      "first_failed_at": "2026-10-25T10:47:27Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 17.8
-      }
-    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
@@ -674935,16 +674922,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 594,
-      "cr_slug": "obecna-skola",
-      "title": "Obecná škola",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T11:17:44Z"
-    },
     {
       "cr_film_id": 14343,
       "cr_slug": "skupinovy-sex",
