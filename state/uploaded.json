@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T15:39:41Z",
+  "last_updated": "2026-10-25T15:40:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677091,23 +677091,6 @@
       }
     },
     {
-      "cr_film_id": 34739,
-      "cr_slug": "pikova-trojka",
-      "title": "Piková trojka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-25T14:53:38Z",
-      "first_failed_at": "2026-10-25T14:53:38Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 17.6,
-        "download_sec": 117.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
       "title": "Brouk v hlavě",
@@ -677788,19 +677771,26 @@
       "timing": {
         "cdn_resolve_sec": 26.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34739,
       "cr_slug": "pikova-trojka",
       "title": "Piková trojka",
       "year": 2003,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T15:24:01Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-25T15:40:00Z",
+      "first_failed_at": "2026-10-25T14:53:38Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 15.2,
+        "download_sec": 265.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35166,
       "cr_slug": "corti-circuiti-erotici-vol-1",
