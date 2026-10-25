@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T11:38:40Z",
+  "last_updated": "2026-10-25T11:39:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674272,21 +674272,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T11:06:16Z",
-      "first_failed_at": "2026-10-25T11:06:16Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.8
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -674932,6 +674917,21 @@
         "download_sec": 237.7,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 5808,
+      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
+      "title": "Kouzelná Beruška a Černý kocour ve filmu",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-25T11:39:02Z",
+      "first_failed_at": "2026-10-25T11:06:16Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.3
+      }
     }
   ],
   "in_progress": [
@@ -674964,16 +674964,6 @@
       "worker_id": "worker-4-40186091444",
       "run_id": "40186091444",
       "reserved_at": "2026-10-25T11:36:04Z"
-    },
-    {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T11:38:40Z"
     }
   ],
   "missing_on_account": [
