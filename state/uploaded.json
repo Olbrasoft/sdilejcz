@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T04:16:13Z",
+  "last_updated": "2026-10-25T04:16:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676109,22 +676109,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-25T03:42:02Z",
-      "first_failed_at": "2026-10-25T03:42:02Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.3,
-        "download_sec": 1.9
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -676929,6 +676913,22 @@
       "timing": {
         "cdn_resolve_sec": 8.6
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-25T04:16:27Z",
+      "first_failed_at": "2026-10-25T03:42:02Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 1.7
+      }
     }
   ],
   "in_progress": [
@@ -676961,16 +676961,6 @@
       "worker_id": "worker-4-40151099599",
       "run_id": "40151099599",
       "reserved_at": "2026-10-25T04:13:20Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40151099599",
-      "run_id": "40151099599",
-      "reserved_at": "2026-10-25T04:16:13Z"
     }
   ],
   "missing_on_account": [
