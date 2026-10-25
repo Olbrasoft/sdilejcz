@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-25T13:48:35Z",
+  "last_updated": "2026-10-25T13:49:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675918,6 +675918,27 @@
       "timing": {
         "cdn_resolve_sec": 18.5
       }
+    },
+    {
+      "cr_film_id": 23110,
+      "cr_slug": "dick-tracy",
+      "title": "Dick Tracy",
+      "year": 1990,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-25T13:49:40Z",
+      "first_failed_at": "2026-10-25T13:49:40Z",
+      "attempt_count": 1,
+      "upload_id": "5ad6c79de5eeb",
+      "source_url": "https://prehraj.to/dick-tracy-1990/5ad6c79de5eeb",
+      "upload_title": "Dick Tracy (1990)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.7,
+        "download_sec": 22.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675950,16 +675971,6 @@
       "worker_id": "worker-3-40186091444",
       "run_id": "40186091444",
       "reserved_at": "2026-10-25T13:44:11Z"
-    },
-    {
-      "cr_film_id": 23110,
-      "cr_slug": "dick-tracy",
-      "title": "Dick Tracy",
-      "year": 1990,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40186091444",
-      "run_id": "40186091444",
-      "reserved_at": "2026-10-25T13:48:35Z"
     }
   ],
   "missing_on_account": [
