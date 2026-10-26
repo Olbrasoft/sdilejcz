@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T02:12:09Z",
+  "last_updated": "2026-10-26T02:12:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676824,21 +676824,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T01:35:02Z",
-      "first_failed_at": "2026-10-26T01:04:31Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 34329,
       "cr_slug": "pola-x",
       "title": "Pola X",
@@ -677626,6 +677611,21 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T02:12:31Z",
+      "first_failed_at": "2026-10-26T01:04:31Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -677658,16 +677658,6 @@
       "worker_id": "worker-3-40239406415",
       "run_id": "40239406415",
       "reserved_at": "2026-10-26T02:10:13Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-26T02:12:09Z"
     }
   ],
   "missing_on_account": [
