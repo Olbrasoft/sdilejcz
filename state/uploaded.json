@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T04:50:17Z",
+  "last_updated": "2026-10-26T04:50:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675061,21 +675061,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T04:17:36Z",
-      "first_failed_at": "2026-10-26T03:45:58Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -675846,6 +675831,21 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T04:50:39Z",
+      "first_failed_at": "2026-10-26T03:45:58Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.3
+      }
     }
   ],
   "in_progress": [
@@ -675868,16 +675868,6 @@
       "worker_id": "worker-3-40264002118",
       "run_id": "40264002118",
       "reserved_at": "2026-10-26T04:49:52Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40264002118",
-      "run_id": "40264002118",
-      "reserved_at": "2026-10-26T04:50:17Z"
     }
   ],
   "missing_on_account": [
