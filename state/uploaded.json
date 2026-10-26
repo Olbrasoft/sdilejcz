@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T21:26:21Z",
+  "last_updated": "2026-10-26T21:28:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674266,6 +674266,30 @@
         "upload_sec": 249.3,
         "total_sec": 299.5
       }
+    },
+    {
+      "cr_film_id": 29406,
+      "cr_slug": "rocco",
+      "title": "Rocco",
+      "year": 2016,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5cde8d3b5b055",
+      "source_url": "https://prehraj.to/rocco-2016-cztit/5cde8d3b5b055",
+      "source_title": "Rocco (2016) CZtit",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35388398/rocco-2016-cz-titulky.mp4",
+      "sdilej_name": "Rocco (2016) CZ titulky.mp4",
+      "uploaded_at": "2026-10-26T21:28:23Z",
+      "status": "uploaded",
+      "size_bytes": 460830412,
+      "worker_id": "worker-4-40373548611",
+      "timing": {
+        "resolve_sec": 1.9,
+        "download_sec": 19.9,
+        "upload_sec": 90.6,
+        "total_sec": 112.8
+      }
     }
   ],
   "failed_attempts": [
@@ -675862,27 +675886,6 @@
       "timing": {
         "cdn_resolve_sec": 17.6
       }
-    },
-    {
-      "cr_film_id": 29406,
-      "cr_slug": "rocco",
-      "title": "Rocco",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-26T21:21:01Z",
-      "first_failed_at": "2026-10-26T21:21:01Z",
-      "attempt_count": 1,
-      "upload_id": "5cd9e262c91b4",
-      "source_url": "https://prehraj.to/rocco-2016-cz-titulky/5cd9e262c91b4",
-      "upload_title": "Rocco 2016 - CZ TITULKY",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 2.8,
-        "download_sec": 18.0,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -675915,16 +675918,6 @@
       "worker_id": "worker-2-40373548611",
       "run_id": "40373548611",
       "reserved_at": "2026-10-26T21:23:25Z"
-    },
-    {
-      "cr_film_id": 29406,
-      "cr_slug": "rocco",
-      "title": "Rocco",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T21:26:21Z"
     }
   ],
   "missing_on_account": [
