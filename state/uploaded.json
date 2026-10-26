@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T23:46:31Z",
+  "last_updated": "2026-10-26T23:46:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674435,6 +674435,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 5808,
+      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
+      "title": "Kouzelná Beruška a Černý kocour ve filmu",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T23:46:56Z",
+      "first_failed_at": "2026-10-26T23:46:56Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
     }
   ],
   "in_progress": [
@@ -674467,16 +674482,6 @@
       "worker_id": "worker-3-40419185032",
       "run_id": "40419185032",
       "reserved_at": "2026-10-26T23:41:15Z"
-    },
-    {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-26T23:46:20Z"
     }
   ],
   "missing_on_account": [
