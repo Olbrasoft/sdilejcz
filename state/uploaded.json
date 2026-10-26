@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T23:49:50Z",
+  "last_updated": "2026-10-26T23:50:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674566,6 +674566,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 7654,
+      "cr_slug": "sammyho-dobrodruzstvi-2",
+      "title": "Sammyho dobrodružství 2",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T23:50:17Z",
+      "first_failed_at": "2026-10-26T23:50:17Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
   "in_progress": [
@@ -674598,16 +674613,6 @@
       "worker_id": "worker-3-40419185032",
       "run_id": "40419185032",
       "reserved_at": "2026-10-26T23:48:48Z"
-    },
-    {
-      "cr_film_id": 7654,
-      "cr_slug": "sammyho-dobrodruzstvi-2",
-      "title": "Sammyho dobrodružství 2",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-26T23:49:37Z"
     }
   ],
   "missing_on_account": [
