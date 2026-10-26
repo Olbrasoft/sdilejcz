@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T20:07:44Z",
+  "last_updated": "2026-10-26T20:08:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674566,21 +674566,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T19:34:16Z",
-      "first_failed_at": "2026-10-26T18:24:19Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 26.8
-      }
-    },
-    {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
@@ -675113,6 +675098,21 @@
       "timing": {
         "cdn_resolve_sec": 20.0
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T20:08:14Z",
+      "first_failed_at": "2026-10-26T18:24:19Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 18.4
+      }
     }
   ],
   "in_progress": [
@@ -675145,16 +675145,6 @@
       "worker_id": "worker-2-40373548611",
       "run_id": "40373548611",
       "reserved_at": "2026-10-26T20:05:40Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T20:07:44Z"
     }
   ],
   "missing_on_account": [
