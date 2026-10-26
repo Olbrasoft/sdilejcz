@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T11:59:29Z",
+  "last_updated": "2026-10-26T11:59:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678237,6 +678237,21 @@
       "timing": {
         "cdn_resolve_sec": 18.3
       }
+    },
+    {
+      "cr_film_id": 37328,
+      "cr_slug": "pomsta-skrticu",
+      "title": "Pomsta škrtičů",
+      "year": 1954,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T11:59:51Z",
+      "first_failed_at": "2026-10-26T11:59:51Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
     }
   ],
   "in_progress": [
@@ -678269,16 +678284,6 @@
       "worker_id": "worker-1-40290120447",
       "run_id": "40290120447",
       "reserved_at": "2026-10-26T11:54:37Z"
-    },
-    {
-      "cr_film_id": 37328,
-      "cr_slug": "pomsta-skrticu",
-      "title": "Pomsta škrtičů",
-      "year": 1954,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40290120447",
-      "run_id": "40290120447",
-      "reserved_at": "2026-10-26T11:59:29Z"
     }
   ],
   "missing_on_account": [
