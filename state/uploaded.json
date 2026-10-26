@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T20:32:25Z",
+  "last_updated": "2026-10-26T20:32:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674557,21 +674557,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T19:45:15Z",
-      "first_failed_at": "2026-10-26T19:13:24Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 26.8
-      }
-    },
-    {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
@@ -675411,6 +675396,21 @@
       "timing": {
         "cdn_resolve_sec": 18.7
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T20:32:57Z",
+      "first_failed_at": "2026-10-26T19:13:24Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 17.8
+      }
     }
   ],
   "in_progress": [
@@ -675443,16 +675443,6 @@
       "worker_id": "worker-1-40373548611",
       "run_id": "40373548611",
       "reserved_at": "2026-10-26T20:30:00Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T20:32:25Z"
     }
   ],
   "missing_on_account": [
