@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T13:26:14Z",
+  "last_updated": "2026-10-26T13:26:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674799,6 +674799,21 @@
       "timing": {
         "cdn_resolve_sec": 9.2
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T13:26:36Z",
+      "first_failed_at": "2026-10-26T13:26:36Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -674821,16 +674836,6 @@
       "worker_id": "worker-4-40322157692",
       "run_id": "40322157692",
       "reserved_at": "2026-10-26T13:24:45Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T13:26:14Z"
     }
   ],
   "missing_on_account": [
