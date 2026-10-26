@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T11:11:59Z",
+  "last_updated": "2026-10-26T11:12:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676026,21 +676026,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T10:21:14Z",
-      "first_failed_at": "2026-10-26T09:04:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 30381,
       "cr_slug": "atrakce-svedskeho-zajezdu",
       "title": "Atrakce švédského zájezdu",
@@ -677346,6 +677331,21 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T11:12:22Z",
+      "first_failed_at": "2026-10-26T09:04:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.7
+      }
     }
   ],
   "in_progress": [
@@ -677378,16 +677378,6 @@
       "worker_id": "worker-2-40290120447",
       "run_id": "40290120447",
       "reserved_at": "2026-10-26T11:10:40Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40290120447",
-      "run_id": "40290120447",
-      "reserved_at": "2026-10-26T11:11:59Z"
     }
   ],
   "missing_on_account": [
