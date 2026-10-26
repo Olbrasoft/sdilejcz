@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T19:35:57Z",
+  "last_updated": "2026-10-26T19:36:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674068,21 +674068,6 @@
       }
     },
     {
-      "cr_film_id": 12825,
-      "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
-      "title": "Dobrodružství Toma Palečka a Malenky",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T18:59:40Z",
-      "first_failed_at": "2026-10-26T18:25:06Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 27.9
-      }
-    },
-    {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
@@ -674963,19 +674948,24 @@
       "timing": {
         "cdn_resolve_sec": 26.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T19:31:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T19:36:12Z",
+      "first_failed_at": "2026-10-26T18:25:06Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 25.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
