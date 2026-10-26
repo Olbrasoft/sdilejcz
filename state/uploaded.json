@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T06:09:01Z",
+  "last_updated": "2026-10-26T06:09:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676844,19 +676844,24 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
       "year": null,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40264002118",
-      "run_id": "40264002118",
-      "reserved_at": "2026-10-26T06:05:17Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T06:09:26Z",
+      "first_failed_at": "2026-10-26T06:09:26Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
