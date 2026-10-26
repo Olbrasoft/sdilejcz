@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T19:11:45Z",
+  "last_updated": "2026-10-26T19:12:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674199,21 +674199,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T18:30:40Z",
-      "first_failed_at": "2026-10-26T18:30:40Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 27.0
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -674957,19 +674942,24 @@
       "timing": {
         "cdn_resolve_sec": 27.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T19:02:17Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T19:12:25Z",
+      "first_failed_at": "2026-10-26T18:30:40Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 17.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
