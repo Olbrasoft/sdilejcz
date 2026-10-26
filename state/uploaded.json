@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T00:13:31Z",
+  "last_updated": "2026-10-26T00:13:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674742,21 +674742,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-25T23:43:14Z",
-      "first_failed_at": "2026-10-25T23:12:40Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -675467,6 +675452,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T00:13:54Z",
+      "first_failed_at": "2026-10-25T23:12:40Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
   "in_progress": [
@@ -675499,16 +675499,6 @@
       "worker_id": "worker-2-40239406415",
       "run_id": "40239406415",
       "reserved_at": "2026-10-26T00:09:49Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-26T00:13:31Z"
     }
   ],
   "missing_on_account": [
