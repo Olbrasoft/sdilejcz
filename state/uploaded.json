@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T01:48:36Z",
+  "last_updated": "2026-10-26T01:49:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676519,21 +676519,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T01:08:58Z",
-      "first_failed_at": "2026-10-26T01:08:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677176,19 +677161,24 @@
       "timing": {
         "cdn_resolve_sec": 12.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-26T01:39:45Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T01:49:08Z",
+      "first_failed_at": "2026-10-26T01:08:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34739,
       "cr_slug": "pikova-trojka",
