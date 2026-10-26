@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T08:13:11Z",
+  "last_updated": "2026-10-26T08:15:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674383,6 +674383,23 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 3685,
+      "cr_slug": "black-panther-wakanda-necht-zije",
+      "title": "Black Panther: Wakanda nechť žije",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-26T08:15:51Z",
+      "first_failed_at": "2026-10-26T08:15:51Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 116.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674415,16 +674432,6 @@
       "worker_id": "worker-1-40290120447",
       "run_id": "40290120447",
       "reserved_at": "2026-10-26T08:11:23Z"
-    },
-    {
-      "cr_film_id": 3685,
-      "cr_slug": "black-panther-wakanda-necht-zije",
-      "title": "Black Panther: Wakanda nechť žije",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40290120447",
-      "run_id": "40290120447",
-      "reserved_at": "2026-10-26T08:12:17Z"
     }
   ],
   "missing_on_account": [
