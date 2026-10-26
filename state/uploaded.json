@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T16:59:53Z",
+  "last_updated": "2026-10-26T17:00:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677371,6 +677371,21 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 34731,
+      "cr_slug": "vzala-jsem-si-mrtveho-muze",
+      "title": "Vzala jsem si mrtvého muže",
+      "year": 1996,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T17:00:36Z",
+      "first_failed_at": "2026-10-26T17:00:36Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 30.5
+      }
     }
   ],
   "in_progress": [
@@ -677403,16 +677418,6 @@
       "worker_id": "worker-1-40322157692",
       "run_id": "40322157692",
       "reserved_at": "2026-10-26T16:59:15Z"
-    },
-    {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T16:59:53Z"
     }
   ],
   "missing_on_account": [
