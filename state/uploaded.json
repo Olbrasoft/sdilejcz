@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T04:34:19Z",
+  "last_updated": "2026-10-26T04:34:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675662,19 +675662,30 @@
       "timing": {
         "resolve_sec": 1.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19546,
       "cr_slug": "sexy-party-2",
       "title": "Sexy párty 2",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40264002118",
-      "run_id": "40264002118",
-      "reserved_at": "2026-10-26T04:30:01Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-26T04:34:33Z",
+      "first_failed_at": "2026-10-26T04:34:33Z",
+      "attempt_count": 1,
+      "upload_id": "55e6d13a71f28",
+      "source_url": "https://prehraj.to/sexy-party-2-2006-czdab/55e6d13a71f28",
+      "upload_title": "Sexy party 2 (2006)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 14.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19583,
       "cr_slug": "sex-ve-meste",
