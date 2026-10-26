@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T10:00:56Z",
+  "last_updated": "2026-10-26T10:01:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676266,19 +676266,30 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23796,
       "cr_slug": "operace-delta-force-3",
       "title": "Operace Delta Force 3",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40290120447",
-      "run_id": "40290120447",
-      "reserved_at": "2026-10-26T09:45:42Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-26T10:01:21Z",
+      "first_failed_at": "2026-10-26T10:01:21Z",
+      "attempt_count": 1,
+      "upload_id": "5a984dc29981f",
+      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
+      "upload_title": "Operace Delta Force 3 (1998)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 18.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24495,
       "cr_slug": "sex-pistols-des-a-bes",
