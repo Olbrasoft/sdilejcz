@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T14:09:07Z",
+  "last_updated": "2026-10-26T14:09:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675083,19 +675083,30 @@
       "timing": {
         "cdn_resolve_sec": 21.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18448,
       "cr_slug": "orgasmus-sro-pribeh-jmenem-onetaste",
       "title": "Orgasmus s.r.o.: Příběh jménem OneTaste",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T14:04:56Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-26T14:09:25Z",
+      "first_failed_at": "2026-10-26T14:09:25Z",
+      "attempt_count": 1,
+      "upload_id": "636826601d16e",
+      "source_url": "https://prehraj.to/orgasmus-s-r-o-pribeh-jmenem-onetaste-2022-czdab/636826601d16e",
+      "upload_title": "Orgasmus s.r.o. - Příběh jménem OneTaste (2022) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 56.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
