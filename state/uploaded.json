@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T02:10:39Z",
+  "last_updated": "2026-10-26T02:10:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676824,22 +676824,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-26T01:32:52Z",
-      "first_failed_at": "2026-10-26T01:02:10Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 1.6
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -677626,6 +677610,22 @@
       "timing": {
         "cdn_resolve_sec": 11.9
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-26T02:10:53Z",
+      "first_failed_at": "2026-10-26T01:02:10Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 2.0
+      }
     }
   ],
   "in_progress": [
@@ -677658,16 +677658,6 @@
       "worker_id": "worker-3-40239406415",
       "run_id": "40239406415",
       "reserved_at": "2026-10-26T02:10:13Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-26T02:10:39Z"
     }
   ],
   "missing_on_account": [
