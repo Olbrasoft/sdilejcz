@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T07:52:23Z",
+  "last_updated": "2026-10-26T07:52:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677858,21 +677858,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T07:22:07Z",
-      "first_failed_at": "2026-10-26T06:21:05Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 37343,
       "cr_slug": "marguerite",
       "title": "Marguerite",
@@ -678312,20 +678297,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40264002118",
-      "run_id": "40264002118",
-      "reserved_at": "2026-10-26T07:52:23Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T07:52:50Z",
+      "first_failed_at": "2026-10-26T06:21:05Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
