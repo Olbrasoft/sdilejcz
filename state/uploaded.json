@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T14:47:05Z",
+  "last_updated": "2026-10-26T14:47:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674737,21 +674737,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T14:10:36Z",
-      "first_failed_at": "2026-10-26T13:03:19Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.8
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675533,6 +675518,21 @@
       "timing": {
         "cdn_resolve_sec": 16.1
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T14:47:39Z",
+      "first_failed_at": "2026-10-26T13:03:19Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 19.8
+      }
     }
   ],
   "in_progress": [
@@ -675565,16 +675565,6 @@
       "worker_id": "worker-2-40322157692",
       "run_id": "40322157692",
       "reserved_at": "2026-10-26T14:45:44Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T14:47:05Z"
     }
   ],
   "missing_on_account": [
