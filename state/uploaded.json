@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T07:25:29Z",
+  "last_updated": "2026-10-26T07:28:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676858,27 +676858,6 @@
       }
     },
     {
-      "cr_film_id": 33579,
-      "cr_slug": "the-penthouse",
-      "title": "The Penthouse",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-26T06:13:06Z",
-      "first_failed_at": "2026-10-26T06:13:06Z",
-      "attempt_count": 1,
-      "upload_id": "5fda728a8d152",
-      "source_url": "https://prehraj.to/penthouse-2010-czdab/5fda728a8d152",
-      "upload_title": "Penthouse (2010) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 32.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34077,
       "cr_slug": "rukojmi-v-bella-vista",
       "title": "Rukojmí v Bella Vista",
@@ -678297,19 +678276,30 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 33579,
       "cr_slug": "the-penthouse",
       "title": "The Penthouse",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40264002118",
-      "run_id": "40264002118",
-      "reserved_at": "2026-10-26T06:46:06Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-26T07:28:08Z",
+      "first_failed_at": "2026-10-26T06:13:06Z",
+      "attempt_count": 2,
+      "upload_id": "5fda728a8d152",
+      "source_url": "https://prehraj.to/penthouse-2010-czdab/5fda728a8d152",
+      "upload_title": "Penthouse (2010) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 49.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34919,
       "cr_slug": "milovany-joshua",
