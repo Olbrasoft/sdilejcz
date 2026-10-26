@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T16:11:47Z",
+  "last_updated": "2026-10-26T16:12:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676710,6 +676710,21 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
+    },
+    {
+      "cr_film_id": 31665,
+      "cr_slug": "12-01-pm",
+      "title": "12:01 PM",
+      "year": 1990,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T16:12:18Z",
+      "first_failed_at": "2026-10-26T16:12:18Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 19.0
+      }
     }
   ],
   "in_progress": [
@@ -676732,16 +676747,6 @@
       "worker_id": "worker-1-40322157692",
       "run_id": "40322157692",
       "reserved_at": "2026-10-26T16:03:02Z"
-    },
-    {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T16:11:47Z"
     }
   ],
   "missing_on_account": [
