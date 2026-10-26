@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T14:00:14Z",
+  "last_updated": "2026-10-26T14:00:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674348,21 +674348,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T13:27:50Z",
-      "first_failed_at": "2026-10-26T12:49:59Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.8
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -675011,6 +674996,21 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T14:00:37Z",
+      "first_failed_at": "2026-10-26T12:49:59Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -675033,16 +675033,6 @@
       "worker_id": "worker-3-40322157692",
       "run_id": "40322157692",
       "reserved_at": "2026-10-26T13:58:47Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T14:00:14Z"
     }
   ],
   "missing_on_account": [
