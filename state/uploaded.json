@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T19:06:19Z",
+  "last_updated": "2026-10-26T19:06:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674244,21 +674244,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T18:35:46Z",
-      "first_failed_at": "2026-10-26T18:04:25Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 18.6
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -674824,6 +674809,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 3019,
+      "cr_slug": "legenda-o-drakovi",
+      "title": "Legenda o drakovi",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T19:06:52Z",
+      "first_failed_at": "2026-10-26T18:04:25Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 20.3
+      }
     }
   ],
   "in_progress": [
@@ -674856,16 +674856,6 @@
       "worker_id": "worker-1-40373548611",
       "run_id": "40373548611",
       "reserved_at": "2026-10-26T19:05:50Z"
-    },
-    {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T19:06:19Z"
     }
   ],
   "missing_on_account": [
