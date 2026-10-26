@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T04:30:40Z",
+  "last_updated": "2026-10-26T04:31:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674630,21 +674630,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T03:58:48Z",
-      "first_failed_at": "2026-10-26T03:58:48Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675600,19 +675585,24 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
       "year": 2011,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40264002118",
-      "run_id": "40264002118",
-      "reserved_at": "2026-10-26T04:29:35Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T04:31:47Z",
+      "first_failed_at": "2026-10-26T03:58:48Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19546,
       "cr_slug": "sexy-party-2",
