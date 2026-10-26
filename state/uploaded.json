@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T13:33:35Z",
+  "last_updated": "2026-10-26T13:33:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673989,21 +673989,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T13:02:09Z",
-      "first_failed_at": "2026-10-26T13:02:09Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -674903,6 +674888,21 @@
         "cdn_resolve_sec": 5.0,
         "download_sec": 1.9
       }
+    },
+    {
+      "cr_film_id": 14786,
+      "cr_slug": "krakonos-a-sklinkar-matej",
+      "title": "Krakonos a sklínkar Matej",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T13:33:59Z",
+      "first_failed_at": "2026-10-26T13:02:09Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -674915,16 +674915,6 @@
       "worker_id": "worker-3-40322157692",
       "run_id": "40322157692",
       "reserved_at": "2026-10-26T13:32:55Z"
-    },
-    {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T13:33:35Z"
     }
   ],
   "missing_on_account": [
