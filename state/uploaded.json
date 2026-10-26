@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T20:05:40Z",
+  "last_updated": "2026-10-26T20:06:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674411,21 +674411,6 @@
       }
     },
     {
-      "cr_film_id": 7654,
-      "cr_slug": "sammyho-dobrodruzstvi-2",
-      "title": "Sammyho dobrodružství 2",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T19:19:56Z",
-      "first_failed_at": "2026-10-26T18:14:11Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 22.1
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -675113,19 +675098,24 @@
       "timing": {
         "cdn_resolve_sec": 10.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T19:58:06Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T20:06:05Z",
+      "first_failed_at": "2026-10-26T18:14:11Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 25.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
