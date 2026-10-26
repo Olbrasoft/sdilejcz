@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T02:30:08Z",
+  "last_updated": "2026-10-26T02:30:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677116,21 +677116,6 @@
       }
     },
     {
-      "cr_film_id": 34933,
-      "cr_slug": "ostrov-priser",
-      "title": "Ostrov příšer",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T01:59:21Z",
-      "first_failed_at": "2026-10-26T01:59:21Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
       "title": "Kvílení vlkodlaků 6",
@@ -677909,6 +677894,21 @@
       "timing": {
         "cdn_resolve_sec": 9.2
       }
+    },
+    {
+      "cr_film_id": 34933,
+      "cr_slug": "ostrov-priser",
+      "title": "Ostrov příšer",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T02:30:28Z",
+      "first_failed_at": "2026-10-26T01:59:21Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
   "in_progress": [
@@ -677931,16 +677931,6 @@
       "worker_id": "worker-4-40239406415",
       "run_id": "40239406415",
       "reserved_at": "2026-10-26T02:18:51Z"
-    },
-    {
-      "cr_film_id": 34933,
-      "cr_slug": "ostrov-priser",
-      "title": "Ostrov příšer",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40239406415",
-      "run_id": "40239406415",
-      "reserved_at": "2026-10-26T02:30:08Z"
     }
   ],
   "missing_on_account": [
