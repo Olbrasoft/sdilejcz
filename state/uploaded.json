@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T20:25:58Z",
+  "last_updated": "2026-10-26T20:26:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674697,21 +674697,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T19:52:19Z",
-      "first_failed_at": "2026-10-26T18:41:21Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 27.0
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -675351,6 +675336,21 @@
       "timing": {
         "cdn_resolve_sec": 18.1
       }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play",
+      "title": "Cold Play",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T20:26:29Z",
+      "first_failed_at": "2026-10-26T18:41:21Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 17.7
+      }
     }
   ],
   "in_progress": [
@@ -675383,16 +675383,6 @@
       "worker_id": "worker-1-40373548611",
       "run_id": "40373548611",
       "reserved_at": "2026-10-26T20:23:24Z"
-    },
-    {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T20:25:58Z"
     }
   ],
   "missing_on_account": [
