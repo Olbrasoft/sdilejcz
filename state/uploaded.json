@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T10:12:24Z",
+  "last_updated": "2026-10-26T10:12:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675654,21 +675654,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T09:42:13Z",
-      "first_failed_at": "2026-10-26T08:37:53Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
@@ -676326,6 +676311,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T10:12:46Z",
+      "first_failed_at": "2026-10-26T08:37:53Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.8
+      }
     }
   ],
   "in_progress": [
@@ -676358,16 +676358,6 @@
       "worker_id": "worker-1-40290120447",
       "run_id": "40290120447",
       "reserved_at": "2026-10-26T10:11:42Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40290120447",
-      "run_id": "40290120447",
-      "reserved_at": "2026-10-26T10:12:24Z"
     }
   ],
   "missing_on_account": [
