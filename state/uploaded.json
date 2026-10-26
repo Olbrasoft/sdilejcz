@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T17:42:42Z",
+  "last_updated": "2026-10-26T17:42:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678033,6 +678033,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 35060,
+      "cr_slug": "malcolm-x",
+      "title": "Malcolm X",
+      "year": 1992,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T17:42:56Z",
+      "first_failed_at": "2026-10-26T17:42:56Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 32.3
+      }
     }
   ],
   "in_progress": [
@@ -678045,16 +678060,6 @@
       "worker_id": "worker-3-40322157692",
       "run_id": "40322157692",
       "reserved_at": "2026-10-26T17:22:59Z"
-    },
-    {
-      "cr_film_id": 35060,
-      "cr_slug": "malcolm-x",
-      "title": "Malcolm X",
-      "year": 1992,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T17:28:46Z"
     },
     {
       "cr_film_id": 31672,
