@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T20:26:43Z",
+  "last_updated": "2026-10-26T20:27:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675351,19 +675351,30 @@
       "timing": {
         "cdn_resolve_sec": 17.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 21094,
       "cr_slug": "sex-a-lucia",
       "title": "Sex a Lucía",
       "year": 2001,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T20:18:41Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-26T20:27:01Z",
+      "first_failed_at": "2026-10-26T20:27:01Z",
+      "attempt_count": 1,
+      "upload_id": "68c1e438c34ac",
+      "source_url": "https://prehraj.to/sex-a-lucia-2001-romanticky-czdab/68c1e438c34ac",
+      "upload_title": "Sex a Lucía (2001) romantický czdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 56.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 21663,
       "cr_slug": "lolita-1962",
