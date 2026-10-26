@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T14:14:21Z",
+  "last_updated": "2026-10-26T14:14:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674454,21 +674454,6 @@
       }
     },
     {
-      "cr_film_id": 14390,
-      "cr_slug": "ztraceny-poklad-azteku",
-      "title": "Ztracený poklad Aztéků",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T13:36:52Z",
-      "first_failed_at": "2026-10-26T13:02:33Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.8
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -675104,6 +675089,21 @@
       "timing": {
         "cdn_resolve_sec": 12.8
       }
+    },
+    {
+      "cr_film_id": 14390,
+      "cr_slug": "ztraceny-poklad-azteku",
+      "title": "Ztracený poklad Aztéků",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T14:14:46Z",
+      "first_failed_at": "2026-10-26T13:02:33Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -675126,16 +675126,6 @@
       "worker_id": "worker-4-40322157692",
       "run_id": "40322157692",
       "reserved_at": "2026-10-26T14:12:03Z"
-    },
-    {
-      "cr_film_id": 14390,
-      "cr_slug": "ztraceny-poklad-azteku",
-      "title": "Ztracený poklad Aztéků",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T14:14:21Z"
     }
   ],
   "missing_on_account": [
