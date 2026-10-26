@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T19:36:27Z",
+  "last_updated": "2026-10-26T19:36:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674113,21 +674113,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T19:03:29Z",
-      "first_failed_at": "2026-10-26T18:27:27Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 18.1
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -674963,19 +674948,24 @@
       "timing": {
         "cdn_resolve_sec": 25.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T19:34:02Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T19:36:50Z",
+      "first_failed_at": "2026-10-26T18:27:27Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 25.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
