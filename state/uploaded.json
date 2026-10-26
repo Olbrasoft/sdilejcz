@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T19:41:04Z",
+  "last_updated": "2026-10-26T19:41:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674068,21 +674068,6 @@
       }
     },
     {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T19:02:30Z",
-      "first_failed_at": "2026-10-26T18:29:55Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 19.3
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -674982,19 +674967,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
       "year": 1974,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T19:36:27Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T19:41:18Z",
+      "first_failed_at": "2026-10-26T18:29:55Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 26.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
