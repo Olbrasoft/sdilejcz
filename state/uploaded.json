@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T06:51:08Z",
+  "last_updated": "2026-10-26T06:51:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677051,21 +677051,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T06:21:05Z",
-      "first_failed_at": "2026-10-26T06:21:05Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.4
-      }
-    },
-    {
       "cr_film_id": 34435,
       "cr_slug": "transformers-jedna",
       "title": "Transformers Jedna",
@@ -677781,6 +677766,21 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T06:51:31Z",
+      "first_failed_at": "2026-10-26T06:21:05Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -677813,16 +677813,6 @@
       "worker_id": "worker-4-40264002118",
       "run_id": "40264002118",
       "reserved_at": "2026-10-26T06:49:38Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40264002118",
-      "run_id": "40264002118",
-      "reserved_at": "2026-10-26T06:51:08Z"
     }
   ],
   "missing_on_account": [
