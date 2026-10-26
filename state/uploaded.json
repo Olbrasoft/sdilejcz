@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T14:05:28Z",
+  "last_updated": "2026-10-26T14:05:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674496,21 +674496,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T13:34:56Z",
-      "first_failed_at": "2026-10-26T12:33:33Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675035,6 +675020,21 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
+    },
+    {
+      "cr_film_id": 3019,
+      "cr_slug": "legenda-o-drakovi",
+      "title": "Legenda o drakovi",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T14:05:57Z",
+      "first_failed_at": "2026-10-26T12:33:33Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.1
+      }
     }
   ],
   "in_progress": [
@@ -675067,16 +675067,6 @@
       "worker_id": "worker-3-40322157692",
       "run_id": "40322157692",
       "reserved_at": "2026-10-26T14:04:56Z"
-    },
-    {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40322157692",
-      "run_id": "40322157692",
-      "reserved_at": "2026-10-26T14:05:28Z"
     }
   ],
   "missing_on_account": [
