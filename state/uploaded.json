@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T21:53:47Z",
+  "last_updated": "2026-10-26T21:54:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676582,19 +676582,24 @@
       "timing": {
         "resolve_sec": 1.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
       "title": "12:01 PM",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40373548611",
-      "run_id": "40373548611",
-      "reserved_at": "2026-10-26T21:49:11Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T21:54:04Z",
+      "first_failed_at": "2026-10-26T21:54:04Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31745,
       "cr_slug": "fuck-the-prom",
