@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T07:28:20Z",
+  "last_updated": "2026-10-26T07:28:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677236,21 +677236,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-26T06:50:26Z",
-      "first_failed_at": "2026-10-26T05:48:31Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.5
-      }
-    },
-    {
       "cr_film_id": 35364,
       "cr_slug": "sketch",
       "title": "Sketch",
@@ -678297,6 +678282,21 @@
         "download_sec": 49.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T07:28:47Z",
+      "first_failed_at": "2026-10-26T05:48:31Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
     }
   ],
   "in_progress": [
@@ -678319,16 +678319,6 @@
       "worker_id": "worker-2-40264002118",
       "run_id": "40264002118",
       "reserved_at": "2026-10-26T07:22:49Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40264002118",
-      "run_id": "40264002118",
-      "reserved_at": "2026-10-26T07:28:20Z"
     }
   ],
   "missing_on_account": [
