@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T11:10:40Z",
+  "last_updated": "2026-10-26T11:11:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677331,19 +677331,24 @@
         "resolve_sec": 1.3,
         "download_sec": 2.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
       "year": 1988,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40290120447",
-      "run_id": "40290120447",
-      "reserved_at": "2026-10-26T10:46:07Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-26T11:11:09Z",
+      "first_failed_at": "2026-10-26T11:11:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 33579,
       "cr_slug": "the-penthouse",
