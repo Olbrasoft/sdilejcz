@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T10:26:14Z",
+  "last_updated": "2026-10-26T10:27:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674707,6 +674707,30 @@
         "upload_sec": 266.0,
         "total_sec": 343.8
       }
+    },
+    {
+      "cr_film_id": 24487,
+      "cr_slug": "laska-a-sex",
+      "title": "Láska a sex",
+      "year": 2000,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5ac1a16e726cd",
+      "source_url": "https://prehraj.to/laska-a-sex-2000/5ac1a16e726cd",
+      "source_title": "Láska a sex (2000)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35386098/laska-a-sex-2000-cz.mp4",
+      "sdilej_name": "Láska a sex (2000) CZ.mp4",
+      "uploaded_at": "2026-10-26T10:27:31Z",
+      "status": "uploaded",
+      "size_bytes": 331092289,
+      "worker_id": "worker-3-40290120447",
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 11.9,
+        "upload_sec": 53.3,
+        "total_sec": 66.7
+      }
     }
   ],
   "failed_attempts": [
@@ -675749,27 +675773,6 @@
       }
     },
     {
-      "cr_film_id": 24487,
-      "cr_slug": "laska-a-sex",
-      "title": "Láska a sex",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-26T09:55:59Z",
-      "first_failed_at": "2026-10-26T09:55:59Z",
-      "attempt_count": 1,
-      "upload_id": "5ac1a16e726cd",
-      "source_url": "https://prehraj.to/laska-a-sex-2000/5ac1a16e726cd",
-      "upload_title": "Láska a sex (2000)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 18.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -676691,16 +676694,6 @@
       "worker_id": "worker-1-40290120447",
       "run_id": "40290120447",
       "reserved_at": "2026-10-26T10:24:57Z"
-    },
-    {
-      "cr_film_id": 24487,
-      "cr_slug": "laska-a-sex",
-      "title": "Láska a sex",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40290120447",
-      "run_id": "40290120447",
-      "reserved_at": "2026-10-26T10:26:14Z"
     }
   ],
   "missing_on_account": [
