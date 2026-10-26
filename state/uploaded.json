@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-26T09:46:39Z",
+  "last_updated": "2026-10-26T09:46:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676166,19 +676166,30 @@
       "timing": {
         "cdn_resolve_sec": 10.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23211,
       "cr_slug": "erotic-ghost-story-ii",
       "title": "Erotic Ghost Story II",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40290120447",
-      "run_id": "40290120447",
-      "reserved_at": "2026-10-26T09:42:25Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-26T09:46:54Z",
+      "first_failed_at": "2026-10-26T09:46:54Z",
+      "attempt_count": 1,
+      "upload_id": "23762e49876e2c1a",
+      "source_url": "https://prehraj.to/erotic-ghost-story-ii-1991-sk-titulky-mp4/23762e49876e2c1a",
+      "upload_title": "Erotic Ghost Story II (1991) SK Titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 58.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
