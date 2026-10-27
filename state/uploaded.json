@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T15:53:17Z",
+  "last_updated": "2026-10-27T15:53:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674917,21 +674917,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T15:19:35Z",
-      "first_failed_at": "2026-10-27T14:13:34Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
@@ -675649,6 +675634,21 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T15:53:46Z",
+      "first_failed_at": "2026-10-27T14:13:34Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
     }
   ],
   "in_progress": [
@@ -675681,16 +675681,6 @@
       "worker_id": "worker-3-40514752753",
       "run_id": "40514752753",
       "reserved_at": "2026-10-27T15:52:29Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T15:53:17Z"
     }
   ],
   "missing_on_account": [
