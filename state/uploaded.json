@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T00:23:25Z",
+  "last_updated": "2026-10-27T00:23:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675220,19 +675220,24 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T00:19:12Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T00:23:44Z",
+      "first_failed_at": "2026-10-27T00:23:44Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
