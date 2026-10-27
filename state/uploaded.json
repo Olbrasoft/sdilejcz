@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T07:08:09Z",
+  "last_updated": "2026-10-27T07:08:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675825,21 +675825,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T06:23:06Z",
-      "first_failed_at": "2026-10-27T06:23:06Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
@@ -676153,19 +676138,24 @@
         "download_sec": 19.9,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
       "year": 1943,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40448814219",
-      "run_id": "40448814219",
-      "reserved_at": "2026-10-27T06:56:50Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T07:08:20Z",
+      "first_failed_at": "2026-10-27T06:23:06Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 28080,
       "cr_slug": "pee-wee-zima-ktera-zmenila-muj-zivot",
