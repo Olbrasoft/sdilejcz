@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T03:08:47Z",
+  "last_updated": "2026-10-27T03:09:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677078,21 +677078,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T02:38:35Z",
-      "first_failed_at": "2026-10-27T02:07:53Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
@@ -677899,6 +677884,21 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
+    },
+    {
+      "cr_film_id": 31671,
+      "cr_slug": "e11",
+      "title": "E11",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T03:09:11Z",
+      "first_failed_at": "2026-10-27T02:07:53Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
     }
   ],
   "in_progress": [
@@ -677931,16 +677931,6 @@
       "worker_id": "worker-3-40419185032",
       "run_id": "40419185032",
       "reserved_at": "2026-10-27T03:05:45Z"
-    },
-    {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T03:08:47Z"
     }
   ],
   "missing_on_account": [
