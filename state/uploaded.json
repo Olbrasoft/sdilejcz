@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T19:06:12Z",
+  "last_updated": "2026-10-27T19:07:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677878,19 +677878,24 @@
         "resolve_sec": 1.3,
         "download_sec": 2.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34961,
       "cr_slug": "jackass-volume-one",
       "title": "Jackass Volume One",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T18:24:23Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T19:07:31Z",
+      "first_failed_at": "2026-10-27T19:07:31Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 24.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 33638,
       "cr_slug": "a-guide-to-second-date-sex",
