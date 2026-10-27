@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T22:39:04Z",
+  "last_updated": "2026-10-27T22:39:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674966,21 +674966,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T22:02:29Z",
-      "first_failed_at": "2026-10-27T20:54:54Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 16.6
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -675613,6 +675598,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T22:39:27Z",
+      "first_failed_at": "2026-10-27T20:54:54Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
     }
   ],
   "in_progress": [
@@ -675645,16 +675645,6 @@
       "worker_id": "worker-2-40567308170",
       "run_id": "40567308170",
       "reserved_at": "2026-10-27T22:38:20Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40567308170",
-      "run_id": "40567308170",
-      "reserved_at": "2026-10-27T22:39:04Z"
     }
   ],
   "missing_on_account": [
