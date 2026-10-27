@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T03:04:02Z",
+  "last_updated": "2026-10-27T03:04:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676745,21 +676745,6 @@
       }
     },
     {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T02:19:38Z",
-      "first_failed_at": "2026-10-27T01:41:59Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 34396,
       "cr_slug": "swiped",
       "title": "Swiped",
@@ -677899,6 +677884,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 31648,
+      "cr_slug": "n-io-e-napoleone",
+      "title": "N - Io e Napoleone",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T03:04:26Z",
+      "first_failed_at": "2026-10-27T01:41:59Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.6
+      }
     }
   ],
   "in_progress": [
@@ -677931,16 +677931,6 @@
       "worker_id": "worker-4-40419185032",
       "run_id": "40419185032",
       "reserved_at": "2026-10-27T03:01:53Z"
-    },
-    {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T03:04:02Z"
     }
   ],
   "missing_on_account": [
