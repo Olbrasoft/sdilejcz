@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T11:45:23Z",
+  "last_updated": "2026-10-27T11:45:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675283,21 +675283,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T10:53:24Z",
-      "first_failed_at": "2026-10-27T09:46:21Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 15.1
-      }
-    },
-    {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
@@ -676229,6 +676214,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T11:45:30Z",
+      "first_failed_at": "2026-10-27T09:46:21Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.8
+      }
     }
   ],
   "in_progress": [
@@ -676251,16 +676251,6 @@
       "worker_id": "worker-2-40480099233",
       "run_id": "40480099233",
       "reserved_at": "2026-10-27T11:42:28Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40480099233",
-      "run_id": "40480099233",
-      "reserved_at": "2026-10-27T11:45:05Z"
     }
   ],
   "missing_on_account": [
