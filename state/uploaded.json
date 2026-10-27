@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T17:48:32Z",
+  "last_updated": "2026-10-27T17:49:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676746,27 +676746,6 @@
       }
     },
     {
-      "cr_film_id": 32196,
-      "cr_slug": "mad-couple",
-      "title": "Mad Couple",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-27T17:18:27Z",
-      "first_failed_at": "2026-10-27T17:18:27Z",
-      "attempt_count": 1,
-      "upload_id": "558bd23705189",
-      "source_url": "https://prehraj.to/sialeny-parik-sk-dabing-komedie-romanticky-usa-2009/558bd23705189",
-      "upload_title": "Šialený-párik-SK-Dabing,Komedie,Romantický,-USA,-2009",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 26.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -677172,6 +677151,27 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 32196,
+      "cr_slug": "mad-couple",
+      "title": "Mad Couple",
+      "year": null,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-27T17:49:37Z",
+      "first_failed_at": "2026-10-27T17:18:27Z",
+      "attempt_count": 2,
+      "upload_id": "558bd23705189",
+      "source_url": "https://prehraj.to/sialeny-parik-sk-dabing-komedie-romanticky-usa-2009/558bd23705189",
+      "upload_title": "Šialený-párik-SK-Dabing,Komedie,Romantický,-USA,-2009",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 17.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -677204,16 +677204,6 @@
       "worker_id": "worker-2-40514752753",
       "run_id": "40514752753",
       "reserved_at": "2026-10-27T17:41:51Z"
-    },
-    {
-      "cr_film_id": 32196,
-      "cr_slug": "mad-couple",
-      "title": "Mad Couple",
-      "year": null,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T17:48:32Z"
     }
   ],
   "missing_on_account": [
