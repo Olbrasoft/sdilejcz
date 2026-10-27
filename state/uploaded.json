@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T08:11:33Z",
+  "last_updated": "2026-10-27T08:12:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677765,19 +677765,24 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40448814219",
-      "run_id": "40448814219",
-      "reserved_at": "2026-10-27T07:51:35Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T08:12:18Z",
+      "first_failed_at": "2026-10-27T08:12:18Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
