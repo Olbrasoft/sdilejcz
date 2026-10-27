@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T03:16:28Z",
+  "last_updated": "2026-10-27T03:16:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677140,22 +677140,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-27T02:46:17Z",
-      "first_failed_at": "2026-10-27T01:34:52Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.5,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 34961,
       "cr_slug": "jackass-volume-one",
       "title": "Jackass Volume One",
@@ -677923,6 +677907,22 @@
       "timing": {
         "cdn_resolve_sec": 12.8
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-27T03:16:43Z",
+      "first_failed_at": "2026-10-27T01:34:52Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 2.1
+      }
     }
   ],
   "in_progress": [
@@ -677955,16 +677955,6 @@
       "worker_id": "worker-4-40419185032",
       "run_id": "40419185032",
       "reserved_at": "2026-10-27T03:15:15Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T03:16:28Z"
     }
   ],
   "missing_on_account": [
