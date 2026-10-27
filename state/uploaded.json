@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T14:02:48Z",
+  "last_updated": "2026-10-27T14:03:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674226,6 +674226,27 @@
       "timing": {
         "cdn_resolve_sec": 10.8
       }
+    },
+    {
+      "cr_film_id": 5478,
+      "cr_slug": "echo",
+      "title": "Echo Valley",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-27T14:03:00Z",
+      "first_failed_at": "2026-10-27T14:03:00Z",
+      "attempt_count": 1,
+      "upload_id": "7eba42b52a6a3285",
+      "source_url": "https://prehraj.to/echo-valley-2025-cz-tit-1080p/7eba42b52a6a3285",
+      "upload_title": "Echo Valley 2025 CZ tit 1080p",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 72.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674248,16 +674269,6 @@
       "worker_id": "worker-4-40514752753",
       "run_id": "40514752753",
       "reserved_at": "2026-10-27T13:55:34Z"
-    },
-    {
-      "cr_film_id": 5478,
-      "cr_slug": "echo",
-      "title": "Echo Valley",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T13:58:04Z"
     },
     {
       "cr_film_id": 5808,
