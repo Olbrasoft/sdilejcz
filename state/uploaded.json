@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T06:02:13Z",
+  "last_updated": "2026-10-27T06:02:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674676,21 +674676,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T05:30:37Z",
-      "first_failed_at": "2026-10-27T04:25:59Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
@@ -675337,6 +675322,21 @@
       "timing": {
         "cdn_resolve_sec": 11.9
       }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T06:02:36Z",
+      "first_failed_at": "2026-10-27T04:25:59Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.8
+      }
     }
   ],
   "in_progress": [
@@ -675369,16 +675369,6 @@
       "worker_id": "worker-2-40448814219",
       "run_id": "40448814219",
       "reserved_at": "2026-10-27T06:01:02Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40448814219",
-      "run_id": "40448814219",
-      "reserved_at": "2026-10-27T06:02:13Z"
     }
   ],
   "missing_on_account": [
