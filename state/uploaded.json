@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T13:15:32Z",
+  "last_updated": "2026-10-27T13:16:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677145,21 +677145,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T12:38:32Z",
-      "first_failed_at": "2026-10-27T12:02:40Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
@@ -678188,6 +678173,21 @@
         "cdn_resolve_sec": 1.6,
         "download_sec": 2.3
       }
+    },
+    {
+      "cr_film_id": 31550,
+      "cr_slug": "passion-in-the-desert",
+      "title": "Passion in the Desert",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T13:16:01Z",
+      "first_failed_at": "2026-10-27T12:02:40Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
     }
   ],
   "in_progress": [
@@ -678220,16 +678220,6 @@
       "worker_id": "worker-3-40480099233",
       "run_id": "40480099233",
       "reserved_at": "2026-10-27T13:14:32Z"
-    },
-    {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40480099233",
-      "run_id": "40480099233",
-      "reserved_at": "2026-10-27T13:15:32Z"
     }
   ],
   "missing_on_account": [
