@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T20:40:48Z",
+  "last_updated": "2026-10-27T20:41:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673970,21 +673970,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T20:04:59Z",
-      "first_failed_at": "2026-10-27T19:25:50Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 26.2
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -674363,6 +674348,21 @@
       "timing": {
         "cdn_resolve_sec": 30.3
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T20:41:23Z",
+      "first_failed_at": "2026-10-27T19:25:50Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 22.4
+      }
     }
   ],
   "in_progress": [
@@ -674395,16 +674395,6 @@
       "worker_id": "worker-3-40567308170",
       "run_id": "40567308170",
       "reserved_at": "2026-10-27T20:40:12Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40567308170",
-      "run_id": "40567308170",
-      "reserved_at": "2026-10-27T20:40:48Z"
     }
   ],
   "missing_on_account": [
