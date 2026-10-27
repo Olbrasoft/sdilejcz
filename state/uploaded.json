@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T16:26:13Z",
+  "last_updated": "2026-10-27T16:28:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675934,6 +675934,27 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
+    },
+    {
+      "cr_film_id": 29777,
+      "cr_slug": "gay-chorus-deep-south",
+      "title": "Gay Chorus Deep South",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-27T16:28:06Z",
+      "first_failed_at": "2026-10-27T16:28:06Z",
+      "attempt_count": 1,
+      "upload_id": "60db04ea5047d",
+      "source_url": "https://prehraj.to/gay-chorus-deep-south-2019-1080p-webrip-x264-aac5-1-yts-mx/60db04ea5047d",
+      "upload_title": "Gay.Chorus.Deep.South.2019.1080p.WEBRip.x264.AAC5.1-[YTS.MX]",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 62.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675966,16 +675987,6 @@
       "worker_id": "worker-4-40514752753",
       "run_id": "40514752753",
       "reserved_at": "2026-10-27T16:22:49Z"
-    },
-    {
-      "cr_film_id": 29777,
-      "cr_slug": "gay-chorus-deep-south",
-      "title": "Gay Chorus Deep South",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T16:26:13Z"
     }
   ],
   "missing_on_account": [
