@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T09:15:56Z",
+  "last_updated": "2026-10-27T09:16:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677769,21 +677769,6 @@
       }
     },
     {
-      "cr_film_id": 37343,
-      "cr_slug": "marguerite",
-      "title": "Marguerite",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T08:45:12Z",
-      "first_failed_at": "2026-10-27T08:45:12Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 37347,
       "cr_slug": "recept-na-lasku",
       "title": "Recept na lásku",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37343,
       "cr_slug": "marguerite",
       "title": "Marguerite",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40448814219",
-      "run_id": "40448814219",
-      "reserved_at": "2026-10-27T09:15:56Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T09:16:20Z",
+      "first_failed_at": "2026-10-27T08:45:12Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
