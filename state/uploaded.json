@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T00:20:48Z",
+  "last_updated": "2026-10-27T00:21:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675171,19 +675171,24 @@
       "timing": {
         "cdn_resolve_sec": 10.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T00:12:03Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T00:21:00Z",
+      "first_failed_at": "2026-10-27T00:21:00Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
