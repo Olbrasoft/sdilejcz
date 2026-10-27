@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T16:48:11Z",
+  "last_updated": "2026-10-27T16:48:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675583,21 +675583,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T16:13:52Z",
-      "first_failed_at": "2026-10-27T16:13:52Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -676065,6 +676050,21 @@
       "timing": {
         "cdn_resolve_sec": 9.5
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T16:48:36Z",
+      "first_failed_at": "2026-10-27T16:13:52Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
     }
   ],
   "in_progress": [
@@ -676097,16 +676097,6 @@
       "worker_id": "worker-2-40514752753",
       "run_id": "40514752753",
       "reserved_at": "2026-10-27T16:44:21Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T16:48:11Z"
     }
   ],
   "missing_on_account": [
