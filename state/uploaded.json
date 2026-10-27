@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T03:26:01Z",
+  "last_updated": "2026-10-27T03:26:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677080,21 +677080,6 @@
       }
     },
     {
-      "cr_film_id": 34933,
-      "cr_slug": "ostrov-priser",
-      "title": "Ostrov příšer",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T02:44:10Z",
-      "first_failed_at": "2026-10-27T02:44:10Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -677961,19 +677946,24 @@
       "timing": {
         "cdn_resolve_sec": 9.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
       "title": "Ostrov příšer",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T03:15:15Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T03:26:22Z",
+      "first_failed_at": "2026-10-27T02:44:10Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36787,
       "cr_slug": "dead-sexy",
