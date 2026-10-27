@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T02:49:33Z",
+  "last_updated": "2026-10-27T02:50:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676221,21 +676221,6 @@
       }
     },
     {
-      "cr_film_id": 14390,
-      "cr_slug": "ztraceny-poklad-azteku",
-      "title": "Ztracený poklad Aztéků",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T01:54:57Z",
-      "first_failed_at": "2026-10-27T00:23:44Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -677590,19 +677575,24 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T02:28:12Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T02:50:22Z",
+      "first_failed_at": "2026-10-27T00:23:44Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
