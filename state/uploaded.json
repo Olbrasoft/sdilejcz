@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T10:36:14Z",
+  "last_updated": "2026-10-27T10:36:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674893,21 +674893,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T10:05:32Z",
-      "first_failed_at": "2026-10-27T10:05:32Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -675579,6 +675564,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T10:36:42Z",
+      "first_failed_at": "2026-10-27T10:05:32Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
   "in_progress": [
@@ -675611,16 +675611,6 @@
       "worker_id": "worker-4-40480099233",
       "run_id": "40480099233",
       "reserved_at": "2026-10-27T10:34:30Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40480099233",
-      "run_id": "40480099233",
-      "reserved_at": "2026-10-27T10:36:14Z"
     }
   ],
   "missing_on_account": [
