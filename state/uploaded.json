@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T14:19:01Z",
+  "last_updated": "2026-10-27T14:19:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674441,6 +674441,27 @@
       "timing": {
         "cdn_resolve_sec": 16.5
       }
+    },
+    {
+      "cr_film_id": 8855,
+      "cr_slug": "flintstoneovi",
+      "title": "Lara Croft – Tomb Raider: Kolébka života",
+      "year": 1994,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-27T14:19:15Z",
+      "first_failed_at": "2026-10-27T14:19:15Z",
+      "attempt_count": 1,
+      "upload_id": "588767430c8b3",
+      "source_url": "https://prehraj.to/zo-zivota-dona-juana-1994-720p-hdtv-x264-skby-marecek/588767430c8b3",
+      "upload_title": "Zo.zivota.dona.Juana.1994.720p.HDTV.x264.SKby.Marecek",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 59.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674453,16 +674474,6 @@
       "worker_id": "worker-4-40514752753",
       "run_id": "40514752753",
       "reserved_at": "2026-10-27T14:07:55Z"
-    },
-    {
-      "cr_film_id": 8855,
-      "cr_slug": "flintstoneovi",
-      "title": "Lara Croft – Tomb Raider: Kolébka života",
-      "year": 1994,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T14:16:25Z"
     },
     {
       "cr_film_id": 9822,
