@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T21:03:17Z",
+  "last_updated": "2026-10-27T21:03:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673949,21 +673949,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T20:32:59Z",
-      "first_failed_at": "2026-10-27T19:17:42Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 24.0
-      }
-    },
-    {
       "cr_film_id": 12552,
       "cr_slug": "lara-croft-tomb-raider",
       "title": "Lara Croft – Tomb Raider",
@@ -674541,6 +674526,21 @@
       "timing": {
         "cdn_resolve_sec": 22.6
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T21:03:52Z",
+      "first_failed_at": "2026-10-27T19:17:42Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.6
+      }
     }
   ],
   "in_progress": [
@@ -674573,16 +674573,6 @@
       "worker_id": "worker-1-40567308170",
       "run_id": "40567308170",
       "reserved_at": "2026-10-27T21:02:36Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40567308170",
-      "run_id": "40567308170",
-      "reserved_at": "2026-10-27T21:03:17Z"
     }
   ],
   "missing_on_account": [
