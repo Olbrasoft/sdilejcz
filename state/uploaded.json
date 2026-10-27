@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T16:10:22Z",
+  "last_updated": "2026-10-27T16:10:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675062,21 +675062,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T15:34:27Z",
-      "first_failed_at": "2026-10-27T14:59:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
@@ -675773,19 +675758,24 @@
         "cdn_resolve_sec": 6.2,
         "download_sec": 2.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T16:06:29Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T16:10:40Z",
+      "first_failed_at": "2026-10-27T14:59:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23109,
       "cr_slug": "delta-force-2-kolumbijska-spojka",
