@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T09:17:46Z",
+  "last_updated": "2026-10-27T09:18:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677784,21 +677784,6 @@
       }
     },
     {
-      "cr_film_id": 34969,
-      "cr_slug": "snehurka-pribeh-hruzy",
-      "title": "Sněhurka - Příběh hrůzy",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T08:47:21Z",
-      "first_failed_at": "2026-10-27T08:00:22Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40448814219",
-      "run_id": "40448814219",
-      "reserved_at": "2026-10-27T09:17:46Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T09:18:10Z",
+      "first_failed_at": "2026-10-27T08:00:22Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
