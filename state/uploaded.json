@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T23:07:00Z",
+  "last_updated": "2026-10-27T23:07:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675577,21 +675577,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T22:35:16Z",
-      "first_failed_at": "2026-10-27T22:35:16Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.5
-      }
-    },
-    {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
@@ -675896,6 +675881,21 @@
       "timing": {
         "cdn_resolve_sec": 9.9
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T23:07:23Z",
+      "first_failed_at": "2026-10-27T22:35:16Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
     }
   ],
   "in_progress": [
@@ -675928,16 +675928,6 @@
       "worker_id": "worker-2-40567308170",
       "run_id": "40567308170",
       "reserved_at": "2026-10-27T23:05:13Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40567308170",
-      "run_id": "40567308170",
-      "reserved_at": "2026-10-27T23:07:00Z"
     }
   ],
   "missing_on_account": [
