@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T04:08:07Z",
+  "last_updated": "2026-10-27T04:08:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677529,21 +677529,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T03:24:41Z",
-      "first_failed_at": "2026-10-27T01:57:29Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678320,20 +678305,24 @@
       "timing": {
         "cdn_resolve_sec": 9.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
       "year": 1932,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T04:08:07Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T04:08:34Z",
+      "first_failed_at": "2026-10-27T01:57:29Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
