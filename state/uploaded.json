@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T02:46:28Z",
+  "last_updated": "2026-10-27T02:46:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677487,6 +677487,21 @@
         "cdn_resolve_sec": 1.5,
         "download_sec": 2.2
       }
+    },
+    {
+      "cr_film_id": 34961,
+      "cr_slug": "jackass-volume-one",
+      "title": "Jackass Volume One",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T02:46:54Z",
+      "first_failed_at": "2026-10-27T02:46:54Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -677519,16 +677534,6 @@
       "worker_id": "worker-3-40419185032",
       "run_id": "40419185032",
       "reserved_at": "2026-10-27T02:45:26Z"
-    },
-    {
-      "cr_film_id": 34961,
-      "cr_slug": "jackass-volume-one",
-      "title": "Jackass Volume One",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T02:46:28Z"
     }
   ],
   "missing_on_account": [
