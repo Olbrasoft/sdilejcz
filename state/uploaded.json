@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T00:47:19Z",
+  "last_updated": "2026-10-27T00:47:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674723,21 +674723,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T00:15:53Z",
-      "first_failed_at": "2026-10-27T00:15:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -675890,6 +675875,21 @@
       "timing": {
         "cdn_resolve_sec": 10.5
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T00:47:41Z",
+      "first_failed_at": "2026-10-27T00:15:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
     }
   ],
   "in_progress": [
@@ -675912,16 +675912,6 @@
       "worker_id": "worker-4-40419185032",
       "run_id": "40419185032",
       "reserved_at": "2026-10-27T00:46:21Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T00:47:19Z"
     }
   ],
   "missing_on_account": [
