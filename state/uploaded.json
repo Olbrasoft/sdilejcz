@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T06:24:33Z",
+  "last_updated": "2026-10-27T06:24:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674762,22 +674762,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-27T05:51:57Z",
-      "first_failed_at": "2026-10-27T05:16:54Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 6.0,
-        "download_sec": 2.1
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -675662,6 +675646,22 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-27T06:24:55Z",
+      "first_failed_at": "2026-10-27T05:16:54Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 4.7,
+        "download_sec": 4.5
+      }
     }
   ],
   "in_progress": [
@@ -675694,16 +675694,6 @@
       "worker_id": "worker-3-40448814219",
       "run_id": "40448814219",
       "reserved_at": "2026-10-27T06:23:22Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40448814219",
-      "run_id": "40448814219",
-      "reserved_at": "2026-10-27T06:24:33Z"
     }
   ],
   "missing_on_account": [
