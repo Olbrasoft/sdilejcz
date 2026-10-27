@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T03:04:37Z",
+  "last_updated": "2026-10-27T03:05:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677009,21 +677009,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T02:30:47Z",
-      "first_failed_at": "2026-10-27T01:51:50Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -677899,6 +677884,21 @@
       "timing": {
         "cdn_resolve_sec": 10.6
       }
+    },
+    {
+      "cr_film_id": 31658,
+      "cr_slug": "tararua-s-k",
+      "title": "Tararua S-K",
+      "year": null,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T03:05:00Z",
+      "first_failed_at": "2026-10-27T01:51:50Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.9
+      }
     }
   ],
   "in_progress": [
@@ -677931,16 +677931,6 @@
       "worker_id": "worker-4-40419185032",
       "run_id": "40419185032",
       "reserved_at": "2026-10-27T03:01:53Z"
-    },
-    {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40419185032",
-      "run_id": "40419185032",
-      "reserved_at": "2026-10-27T03:04:37Z"
     }
   ],
   "missing_on_account": [
