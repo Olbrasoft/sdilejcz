@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T07:07:05Z",
+  "last_updated": "2026-10-27T07:08:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676132,6 +676132,27 @@
       "timing": {
         "cdn_resolve_sec": 22.0
       }
+    },
+    {
+      "cr_film_id": 28590,
+      "cr_slug": "domina",
+      "title": "Domina",
+      "year": 2010,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-27T07:08:09Z",
+      "first_failed_at": "2026-10-27T07:08:09Z",
+      "attempt_count": 1,
+      "upload_id": "56768eb20d6ae",
+      "source_url": "https://prehraj.to/domina-cesky-tv-film-2010/56768eb20d6ae",
+      "upload_title": "Domina-(český-Tv-film)-2010-",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 19.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676164,16 +676185,6 @@
       "worker_id": "worker-3-40448814219",
       "run_id": "40448814219",
       "reserved_at": "2026-10-27T07:05:16Z"
-    },
-    {
-      "cr_film_id": 28590,
-      "cr_slug": "domina",
-      "title": "Domina",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40448814219",
-      "run_id": "40448814219",
-      "reserved_at": "2026-10-27T07:07:05Z"
     }
   ],
   "missing_on_account": [
