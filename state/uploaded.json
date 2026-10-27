@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T14:59:17Z",
+  "last_updated": "2026-10-27T14:59:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675253,19 +675253,24 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T14:51:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T14:59:30Z",
+      "first_failed_at": "2026-10-27T14:59:30Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
