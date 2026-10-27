@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T21:41:21Z",
+  "last_updated": "2026-10-27T21:41:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674045,21 +674045,6 @@
       }
     },
     {
-      "cr_film_id": 12825,
-      "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
-      "title": "Dobrodružství Toma Palečka a Malenky",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T20:50:01Z",
-      "first_failed_at": "2026-10-27T19:36:49Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -674617,19 +674602,24 @@
       "timing": {
         "cdn_resolve_sec": 16.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40567308170",
-      "run_id": "40567308170",
-      "reserved_at": "2026-10-27T21:38:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T21:41:35Z",
+      "first_failed_at": "2026-10-27T19:36:49Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 18.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
