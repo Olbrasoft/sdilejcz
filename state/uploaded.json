@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T09:09:13Z",
+  "last_updated": "2026-10-27T09:09:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677690,21 +677690,6 @@
       }
     },
     {
-      "cr_film_id": 34961,
-      "cr_slug": "jackass-volume-one",
-      "title": "Jackass Volume One",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T08:33:55Z",
-      "first_failed_at": "2026-10-27T07:59:32Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.0
-      }
-    },
-    {
       "cr_film_id": 31550,
       "cr_slug": "passion-in-the-desert",
       "title": "Passion in the Desert",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34961,
       "cr_slug": "jackass-volume-one",
       "title": "Jackass Volume One",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40448814219",
-      "run_id": "40448814219",
-      "reserved_at": "2026-10-27T09:09:13Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T09:09:39Z",
+      "first_failed_at": "2026-10-27T07:59:32Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.6
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
