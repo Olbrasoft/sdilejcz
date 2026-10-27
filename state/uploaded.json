@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T08:26:44Z",
+  "last_updated": "2026-10-27T08:26:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677351,22 +677351,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-27T07:56:40Z",
-      "first_failed_at": "2026-10-27T07:25:58Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.3,
-        "download_sec": 1.8
-      }
-    },
-    {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
       "title": "Ostrov příšer",
@@ -678151,6 +678135,22 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-27T08:26:59Z",
+      "first_failed_at": "2026-10-27T07:25:58Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -678183,16 +678183,6 @@
       "worker_id": "worker-1-40448814219",
       "run_id": "40448814219",
       "reserved_at": "2026-10-27T08:24:17Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40448814219",
-      "run_id": "40448814219",
-      "reserved_at": "2026-10-27T08:26:44Z"
     }
   ],
   "missing_on_account": [
