@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-27T18:06:18Z",
+  "last_updated": "2026-10-27T18:06:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676667,21 +676667,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T17:10:47Z",
-      "first_failed_at": "2026-10-27T17:10:47Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677336,19 +677321,24 @@
         "cdn_resolve_sec": 1.8,
         "download_sec": 2.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40514752753",
-      "run_id": "40514752753",
-      "reserved_at": "2026-10-27T17:41:51Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-27T18:06:37Z",
+      "first_failed_at": "2026-10-27T17:10:47Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 22.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34750,
       "cr_slug": "same-stesti",
