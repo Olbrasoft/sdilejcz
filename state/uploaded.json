@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T21:24:37Z",
+  "last_updated": "2026-10-28T21:24:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673568,19 +673568,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 494,
       "cr_slug": "straight-outta-compton",
       "title": "Rapeři z Comptonu",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40771125699",
-      "run_id": "40771125699",
-      "reserved_at": "2026-10-28T21:21:26Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "failed_at": "2026-10-28T21:24:57Z",
+      "first_failed_at": "2026-10-28T21:24:57Z",
+      "attempt_count": 1,
+      "upload_id": "66f1f394bd74a",
+      "source_url": "https://prehraj.to/raperi-z-comptonu-2015-czdab/66f1f394bd74a",
+      "upload_title": "Rapeři z Comptonu (2015) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 86.1,
+        "upload_sec": 0.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 812,
       "cr_slug": "kick-ass",
