@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T18:20:54Z",
+  "last_updated": "2026-10-28T18:21:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674276,21 +674276,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T17:38:50Z",
-      "first_failed_at": "2026-10-28T16:54:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 27.0
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -674898,6 +674883,21 @@
       "timing": {
         "cdn_resolve_sec": 17.8
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T18:21:02Z",
+      "first_failed_at": "2026-10-28T16:54:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 17.9
+      }
     }
   ],
   "in_progress": [
@@ -674910,16 +674910,6 @@
       "worker_id": "worker-2-40719009500",
       "run_id": "40719009500",
       "reserved_at": "2026-10-28T18:17:18Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T18:20:18Z"
     }
   ],
   "missing_on_account": [
