@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T16:48:38Z",
+  "last_updated": "2026-10-28T16:49:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673748,21 +673748,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T16:10:50Z",
-      "first_failed_at": "2026-10-28T16:10:50Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -674271,19 +674256,24 @@
       "timing": {
         "cdn_resolve_sec": 23.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T16:44:34Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T16:49:15Z",
+      "first_failed_at": "2026-10-28T16:10:50Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
