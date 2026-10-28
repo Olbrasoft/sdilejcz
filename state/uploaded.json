@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T17:19:41Z",
+  "last_updated": "2026-10-28T17:19:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673763,21 +673763,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T16:43:03Z",
-      "first_failed_at": "2026-10-28T16:04:51Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 19.1
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -674677,19 +674662,24 @@
       "timing": {
         "cdn_resolve_sec": 23.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T17:15:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T17:19:56Z",
+      "first_failed_at": "2026-10-28T16:04:51Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 27.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
