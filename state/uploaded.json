@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T08:23:09Z",
+  "last_updated": "2026-10-28T08:24:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674591,6 +674591,30 @@
         "upload_sec": 87.4,
         "total_sec": 114.3
       }
+    },
+    {
+      "cr_film_id": 23796,
+      "cr_slug": "operace-delta-force-3",
+      "title": "Operace Delta Force 3",
+      "year": 1998,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5a984dc29981f",
+      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
+      "source_title": "Operace Delta Force 3 (1998)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35395106/operace-delta-force-3-1998-.mp4",
+      "sdilej_name": "Operace Delta Force 3 (1998).mp4",
+      "uploaded_at": "2026-10-28T08:20:38Z",
+      "status": "uploaded",
+      "size_bytes": 575321339,
+      "worker_id": "worker-4-40639625412",
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 29.1,
+        "upload_sec": 107.3,
+        "total_sec": 137.9
+      }
     }
   ],
   "failed_attempts": [
@@ -675527,27 +675551,6 @@
       }
     },
     {
-      "cr_film_id": 23796,
-      "cr_slug": "operace-delta-force-3",
-      "title": "Operace Delta Force 3",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-28T07:40:13Z",
-      "first_failed_at": "2026-10-28T07:40:13Z",
-      "attempt_count": 1,
-      "upload_id": "5a984dc29981f",
-      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
-      "upload_title": "Operace Delta Force 3 (1998)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.7,
-        "download_sec": 29.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -676211,16 +676214,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 23796,
-      "cr_slug": "operace-delta-force-3",
-      "title": "Operace Delta Force 3",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40639625412",
-      "run_id": "40639625412",
-      "reserved_at": "2026-10-28T08:18:10Z"
-    },
     {
       "cr_film_id": 29989,
       "cr_slug": "sexy-bestie",
