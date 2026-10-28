@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T07:07:45Z",
+  "last_updated": "2026-10-28T07:08:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674680,21 +674680,6 @@
       }
     },
     {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T06:37:43Z",
-      "first_failed_at": "2026-10-28T06:05:02Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.7
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -675729,6 +675714,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 7365,
+      "cr_slug": "monster-trucks",
+      "title": "Monster Trucks",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T07:08:13Z",
+      "first_failed_at": "2026-10-28T06:05:02Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
     }
   ],
   "in_progress": [
@@ -675741,16 +675741,6 @@
       "worker_id": "worker-4-40639625412",
       "run_id": "40639625412",
       "reserved_at": "2026-10-28T07:05:25Z"
-    },
-    {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40639625412",
-      "run_id": "40639625412",
-      "reserved_at": "2026-10-28T07:07:45Z"
     }
   ],
   "missing_on_account": [
