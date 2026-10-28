@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T19:57:51Z",
+  "last_updated": "2026-10-28T19:58:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675626,6 +675626,27 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 25805,
+      "cr_slug": "sex-100-1",
+      "title": "Sex 100+1",
+      "year": 2007,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-28T19:58:57Z",
+      "first_failed_at": "2026-10-28T19:58:57Z",
+      "attempt_count": 1,
+      "upload_id": "55f585ca65585",
+      "source_url": "https://prehraj.to/sex-and-death-101-2007-cz-dabing-hit/55f585ca65585",
+      "upload_title": "Sex and Death 101 (2007) CZ DABING HIT",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 21.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675658,16 +675679,6 @@
       "worker_id": "worker-4-40719009500",
       "run_id": "40719009500",
       "reserved_at": "2026-10-28T19:55:13Z"
-    },
-    {
-      "cr_film_id": 25805,
-      "cr_slug": "sex-100-1",
-      "title": "Sex 100+1",
-      "year": 2007,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T19:57:51Z"
     }
   ],
   "missing_on_account": [
