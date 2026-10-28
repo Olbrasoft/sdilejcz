@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T13:47:05Z",
+  "last_updated": "2026-10-28T13:47:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676555,21 +676555,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T13:16:09Z",
-      "first_failed_at": "2026-10-28T13:16:09Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -677300,6 +677285,21 @@
       "timing": {
         "cdn_resolve_sec": 15.7
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T13:47:39Z",
+      "first_failed_at": "2026-10-28T13:16:09Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 21.9
+      }
     }
   ],
   "in_progress": [
@@ -677332,16 +677332,6 @@
       "worker_id": "worker-3-40673197386",
       "run_id": "40673197386",
       "reserved_at": "2026-10-28T13:45:04Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T13:47:05Z"
     }
   ],
   "missing_on_account": [
