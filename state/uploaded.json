@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T14:23:23Z",
+  "last_updated": "2026-10-28T14:23:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674781,6 +674781,27 @@
         "upload_sec": 61.2,
         "total_sec": 80.8
       }
+    },
+    {
+      "cr_film_id": 34750,
+      "cr_slug": "same-stesti",
+      "title": "Samé štěstí",
+      "year": 1991,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 25941,
+      "sdilej_url": "https://sdilej.cz/35396444/same-stesti-1991-.mp4",
+      "sdilej_name": "Samé štěstí (1991).mp4",
+      "uploaded_at": "2026-10-28T14:01:47Z",
+      "status": "uploaded",
+      "size_bytes": 695263312,
+      "worker_id": "worker-3-40673197386",
+      "timing": {
+        "cdn_resolve_sec": 8.1,
+        "download_sec": 113.5,
+        "upload_sec": 134.8,
+        "total_sec": 256.6
+      }
     }
   ],
   "failed_attempts": [
@@ -677190,27 +677211,6 @@
       }
     },
     {
-      "cr_film_id": 34750,
-      "cr_slug": "same-stesti",
-      "title": "Samé štěstí",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-28T13:51:01Z",
-      "first_failed_at": "2026-10-28T13:51:01Z",
-      "attempt_count": 1,
-      "upload_id": "65b816ee6a764",
-      "source_url": "https://prehraj.to/same-stesti-1991-dvdrip-xvid-cz-sagittario/65b816ee6a764",
-      "upload_title": "Same.stesti.1991.DVDRip.XviD.CZ-SAGiTTARiO",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 26.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
@@ -677926,16 +677926,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 34750,
-      "cr_slug": "same-stesti",
-      "title": "Samé štěstí",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T13:57:19Z"
-    },
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
