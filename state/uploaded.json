@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T23:10:38Z",
+  "last_updated": "2026-10-28T23:11:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674523,21 +674523,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T22:39:20Z",
-      "first_failed_at": "2026-10-28T22:08:23Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -675339,6 +675324,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T23:11:03Z",
+      "first_failed_at": "2026-10-28T22:08:23Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -675361,16 +675361,6 @@
       "worker_id": "worker-2-40771125699",
       "run_id": "40771125699",
       "reserved_at": "2026-10-28T23:07:28Z"
-    },
-    {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40771125699",
-      "run_id": "40771125699",
-      "reserved_at": "2026-10-28T23:10:38Z"
     }
   ],
   "missing_on_account": [
