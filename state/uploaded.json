@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T10:40:05Z",
+  "last_updated": "2026-10-28T10:40:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674362,19 +674362,24 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T10:36:20Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T10:40:18Z",
+      "first_failed_at": "2026-10-28T10:40:18Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
