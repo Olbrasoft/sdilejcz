@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T00:29:27Z",
+  "last_updated": "2026-10-28T00:29:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677003,21 +677003,6 @@
       }
     },
     {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-27T23:58:24Z",
-      "first_failed_at": "2026-10-27T23:58:24Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 33579,
       "cr_slug": "the-penthouse",
       "title": "The Penthouse",
@@ -677771,6 +677756,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 34731,
+      "cr_slug": "vzala-jsem-si-mrtveho-muze",
+      "title": "Vzala jsem si mrtvého muže",
+      "year": 1996,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T00:29:50Z",
+      "first_failed_at": "2026-10-27T23:58:24Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.8
+      }
     }
   ],
   "in_progress": [
@@ -677803,16 +677803,6 @@
       "worker_id": "worker-2-40567308170",
       "run_id": "40567308170",
       "reserved_at": "2026-10-28T00:27:03Z"
-    },
-    {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40567308170",
-      "run_id": "40567308170",
-      "reserved_at": "2026-10-28T00:29:27Z"
     }
   ],
   "missing_on_account": [
