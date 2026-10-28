@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T17:30:18Z",
+  "last_updated": "2026-10-28T17:31:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673842,21 +673842,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T16:53:44Z",
-      "first_failed_at": "2026-10-28T16:15:51Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.7
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -674716,6 +674701,21 @@
       "timing": {
         "cdn_resolve_sec": 19.2
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T17:31:00Z",
+      "first_failed_at": "2026-10-28T16:15:51Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 26.7
+      }
     }
   ],
   "in_progress": [
@@ -674748,16 +674748,6 @@
       "worker_id": "worker-1-40719009500",
       "run_id": "40719009500",
       "reserved_at": "2026-10-28T17:27:45Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T17:30:18Z"
     }
   ],
   "missing_on_account": [
