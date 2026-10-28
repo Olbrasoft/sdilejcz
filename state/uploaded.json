@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T00:03:32Z",
+  "last_updated": "2026-10-28T00:03:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677264,6 +677264,21 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 34850,
+      "cr_slug": "duch-zraloka",
+      "title": "Duch žraloka",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T00:03:56Z",
+      "first_failed_at": "2026-10-28T00:03:56Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -677296,16 +677311,6 @@
       "worker_id": "worker-4-40567308170",
       "run_id": "40567308170",
       "reserved_at": "2026-10-28T00:03:02Z"
-    },
-    {
-      "cr_film_id": 34850,
-      "cr_slug": "duch-zraloka",
-      "title": "Duch žraloka",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40567308170",
-      "run_id": "40567308170",
-      "reserved_at": "2026-10-28T00:03:32Z"
     }
   ],
   "missing_on_account": [
