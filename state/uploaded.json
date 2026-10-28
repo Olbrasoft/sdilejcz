@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T11:18:10Z",
+  "last_updated": "2026-10-28T11:18:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675140,19 +675140,30 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15084,
       "cr_slug": "sex-jak-to-rozbalit",
       "title": "Sex: Jak to rozbalit",
       "year": 2021,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T11:11:59Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-28T11:18:35Z",
+      "first_failed_at": "2026-10-28T11:18:35Z",
+      "attempt_count": 1,
+      "upload_id": "6178987a93cb6",
+      "source_url": "https://prehraj.to/sex-jak-to-rozbalit-2021-cztitulky/6178987a93cb6",
+      "upload_title": "Sex - Jak to rozbalit (2021) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 292.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
