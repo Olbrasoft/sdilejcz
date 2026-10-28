@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T05:34:48Z",
+  "last_updated": "2026-10-28T05:35:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677530,21 +677530,6 @@
       }
     },
     {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T04:57:32Z",
-      "first_failed_at": "2026-10-28T04:26:45Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 37144,
       "cr_slug": "korsicti-bratri",
       "title": "Korsičtí bratři",
@@ -678314,20 +678299,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34898,
       "cr_slug": "sisters-2006",
       "title": "Sisters",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40610487853",
-      "run_id": "40610487853",
-      "reserved_at": "2026-10-28T05:34:48Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T05:35:15Z",
+      "first_failed_at": "2026-10-28T04:26:45Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
