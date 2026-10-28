@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T22:34:05Z",
+  "last_updated": "2026-10-28T22:34:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675026,19 +675026,24 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40771125699",
-      "run_id": "40771125699",
-      "reserved_at": "2026-10-28T22:26:31Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T22:34:30Z",
+      "first_failed_at": "2026-10-28T22:34:30Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
