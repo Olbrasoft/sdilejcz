@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T10:01:37Z",
+  "last_updated": "2026-10-28T10:02:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678194,19 +678194,24 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35044,
       "cr_slug": "tezka-barbora",
       "title": "Těžká Barbora",
       "year": 1960,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40639625412",
-      "run_id": "40639625412",
-      "reserved_at": "2026-10-28T09:40:08Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T10:02:06Z",
+      "first_failed_at": "2026-10-28T10:02:06Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
