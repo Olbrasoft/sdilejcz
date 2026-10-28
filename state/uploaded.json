@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T15:09:25Z",
+  "last_updated": "2026-10-28T15:09:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677286,21 +677286,6 @@
       }
     },
     {
-      "cr_film_id": 35063,
-      "cr_slug": "the-silent-thief",
-      "title": "The Silent Thief",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T14:12:38Z",
-      "first_failed_at": "2026-10-28T14:12:38Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 35364,
       "cr_slug": "sketch",
       "title": "Sketch",
@@ -678311,19 +678296,24 @@
       "timing": {
         "cdn_resolve_sec": 11.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35063,
       "cr_slug": "the-silent-thief",
       "title": "The Silent Thief",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T15:02:17Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T15:09:55Z",
+      "first_failed_at": "2026-10-28T14:12:38Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 21.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
