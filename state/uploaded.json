@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T09:55:51Z",
+  "last_updated": "2026-10-28T09:56:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677329,21 +677329,6 @@
       }
     },
     {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T09:25:17Z",
-      "first_failed_at": "2026-10-28T09:25:17Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 34077,
       "cr_slug": "rukojmi-v-bella-vista",
       "title": "Rukojmí v Bella Vista",
@@ -678149,6 +678134,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 34839,
+      "cr_slug": "lekce-zivota",
+      "title": "Lekce života",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T09:56:19Z",
+      "first_failed_at": "2026-10-28T09:25:17Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 15.2
+      }
     }
   ],
   "in_progress": [
@@ -678181,16 +678181,6 @@
       "worker_id": "worker-1-40639625412",
       "run_id": "40639625412",
       "reserved_at": "2026-10-28T09:42:30Z"
-    },
-    {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40639625412",
-      "run_id": "40639625412",
-      "reserved_at": "2026-10-28T09:55:51Z"
     }
   ],
   "missing_on_account": [
