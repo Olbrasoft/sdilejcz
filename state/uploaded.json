@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T05:25:32Z",
+  "last_updated": "2026-10-28T05:25:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677420,21 +677420,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T04:26:53Z",
-      "first_failed_at": "2026-10-28T03:55:53Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.1
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -678314,6 +678299,21 @@
         "cdn_resolve_sec": 1.1,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T05:25:56Z",
+      "first_failed_at": "2026-10-28T03:55:53Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -678326,16 +678326,6 @@
       "worker_id": "worker-3-40610487853",
       "run_id": "40610487853",
       "reserved_at": "2026-10-28T05:19:04Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40610487853",
-      "run_id": "40610487853",
-      "reserved_at": "2026-10-28T05:25:32Z"
     }
   ],
   "missing_on_account": [
