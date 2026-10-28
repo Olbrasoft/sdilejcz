@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T00:58:23Z",
+  "last_updated": "2026-10-28T00:58:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674180,19 +674180,24 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40610487853",
-      "run_id": "40610487853",
-      "reserved_at": "2026-10-28T00:54:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T00:58:52Z",
+      "first_failed_at": "2026-10-28T00:58:52Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9237,
       "cr_slug": "milf",
