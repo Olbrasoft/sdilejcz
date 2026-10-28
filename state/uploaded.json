@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T12:23:29Z",
+  "last_updated": "2026-10-28T12:23:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675798,19 +675798,30 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17393,
       "cr_slug": "swallow",
       "title": "Swallow",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T12:17:14Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-28T12:23:45Z",
+      "first_failed_at": "2026-10-28T12:23:45Z",
+      "attempt_count": 1,
+      "upload_id": "5e77271a48701",
+      "source_url": "https://prehraj.to/swallow-drama-2019-1080p-5-1-h-264-s-sktitulky-63-sten-ok/5e77271a48701",
+      "upload_title": "Swallow drama 2019.1080p.5.1.H.264.s.Sktitulky.63%.STEN.ok",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 50.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18448,
       "cr_slug": "orgasmus-sro-pribeh-jmenem-onetaste",
