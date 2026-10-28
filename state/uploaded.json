@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T01:29:08Z",
+  "last_updated": "2026-10-28T01:29:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675137,19 +675137,24 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40610487853",
-      "run_id": "40610487853",
-      "reserved_at": "2026-10-28T01:15:55Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T01:29:14Z",
+      "first_failed_at": "2026-10-28T01:29:14Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19427,
       "cr_slug": "lolita",
