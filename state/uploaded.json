@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T12:05:33Z",
+  "last_updated": "2026-10-28T12:05:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674752,21 +674752,6 @@
       }
     },
     {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T11:26:12Z",
-      "first_failed_at": "2026-10-28T10:53:10Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 16.3
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675662,19 +675647,24 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
       "year": 1974,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T12:03:22Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T12:05:59Z",
+      "first_failed_at": "2026-10-28T10:53:10Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17393,
       "cr_slug": "swallow",
