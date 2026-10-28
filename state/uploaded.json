@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T06:08:56Z",
+  "last_updated": "2026-10-28T06:10:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674465,19 +674465,30 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7548,
       "cr_slug": "teen-wolf-the-movie",
       "title": "Teen Wolf: The Movie",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40639625412",
-      "run_id": "40639625412",
-      "reserved_at": "2026-10-28T06:05:25Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-28T06:10:12Z",
+      "first_failed_at": "2026-10-28T06:10:12Z",
+      "attempt_count": 1,
+      "upload_id": "63d3dd2d67fb8",
+      "source_url": "https://prehraj.to/teen-wolf-the-movie-2023-1080p-cz-titulky/63d3dd2d67fb8",
+      "upload_title": "Teen Wolf The Movie 2023 1080p CZ Titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 210.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8436,
       "cr_slug": "slunce-seno-erotika",
