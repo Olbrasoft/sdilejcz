@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T23:05:40Z",
+  "last_updated": "2026-10-28T23:06:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674218,21 +674218,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T22:30:46Z",
-      "first_failed_at": "2026-10-28T21:23:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.1
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -675339,6 +675324,21 @@
       "timing": {
         "cdn_resolve_sec": 12.5
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T23:06:06Z",
+      "first_failed_at": "2026-10-28T21:23:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -675361,16 +675361,6 @@
       "worker_id": "worker-3-40771125699",
       "run_id": "40771125699",
       "reserved_at": "2026-10-28T23:04:58Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40771125699",
-      "run_id": "40771125699",
-      "reserved_at": "2026-10-28T23:05:40Z"
     }
   ],
   "missing_on_account": [
