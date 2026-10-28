@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T20:24:20Z",
+  "last_updated": "2026-10-28T20:25:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675786,21 +675786,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T19:52:49Z",
-      "first_failed_at": "2026-10-28T19:20:56Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 20.4
-      }
-    },
-    {
       "cr_film_id": 25633,
       "cr_slug": "michael-clayton",
       "title": "Michael Clayton",
@@ -675858,6 +675843,21 @@
         "download_sec": 763.0,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T20:25:03Z",
+      "first_failed_at": "2026-10-28T19:20:56Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 27.5
+      }
     }
   ],
   "in_progress": [
@@ -675890,16 +675890,6 @@
       "worker_id": "worker-1-40719009500",
       "run_id": "40719009500",
       "reserved_at": "2026-10-28T20:20:51Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T20:24:20Z"
     }
   ],
   "missing_on_account": [
