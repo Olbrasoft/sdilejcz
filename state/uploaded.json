@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T10:45:10Z",
+  "last_updated": "2026-10-28T10:45:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674539,6 +674539,27 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
+    },
+    {
+      "cr_film_id": 8929,
+      "cr_slug": "leo-da-vinci-mise-mona-lisa",
+      "title": "Leo Da Vinci: Mise Mona Lisa",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-28T10:45:33Z",
+      "first_failed_at": "2026-10-28T10:45:33Z",
+      "attempt_count": 1,
+      "upload_id": "600d6eeb507a3",
+      "source_url": "https://prehraj.to/leo-da-vinci-cz-dabing-2018-animovany/600d6eeb507a3",
+      "upload_title": "Leo Da Vinci [CZ dabing, 2018, animovany]",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 74.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674551,16 +674572,6 @@
       "worker_id": "worker-4-40673197386",
       "run_id": "40673197386",
       "reserved_at": "2026-10-28T10:40:56Z"
-    },
-    {
-      "cr_film_id": 8929,
-      "cr_slug": "leo-da-vinci-mise-mona-lisa",
-      "title": "Leo Da Vinci: Mise Mona Lisa",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T10:42:32Z"
     },
     {
       "cr_film_id": 10679,
