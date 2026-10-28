@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T02:40:32Z",
+  "last_updated": "2026-10-28T02:40:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674958,21 +674958,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T01:57:44Z",
-      "first_failed_at": "2026-10-28T00:44:28Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675761,6 +675746,21 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T02:40:57Z",
+      "first_failed_at": "2026-10-28T00:44:28Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.8
+      }
     }
   ],
   "in_progress": [
@@ -675783,16 +675783,6 @@
       "worker_id": "worker-2-40610487853",
       "run_id": "40610487853",
       "reserved_at": "2026-10-28T02:37:49Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40610487853",
-      "run_id": "40610487853",
-      "reserved_at": "2026-10-28T02:40:32Z"
     }
   ],
   "missing_on_account": [
