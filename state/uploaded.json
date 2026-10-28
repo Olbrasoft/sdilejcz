@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T02:23:49Z",
+  "last_updated": "2026-10-28T02:24:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674743,21 +674743,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T01:47:03Z",
-      "first_failed_at": "2026-10-28T01:14:59Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
@@ -675601,6 +675586,21 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T02:24:12Z",
+      "first_failed_at": "2026-10-28T01:14:59Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -675633,16 +675633,6 @@
       "worker_id": "worker-3-40610487853",
       "run_id": "40610487853",
       "reserved_at": "2026-10-28T02:22:55Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40610487853",
-      "run_id": "40610487853",
-      "reserved_at": "2026-10-28T02:23:49Z"
     }
   ],
   "missing_on_account": [
