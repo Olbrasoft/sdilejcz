@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T10:04:58Z",
+  "last_updated": "2026-10-28T10:05:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677015,21 +677015,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T09:12:29Z",
-      "first_failed_at": "2026-10-28T08:42:00Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 34408,
       "cr_slug": "velbloud-uchem-jehly",
       "title": "Velbloud uchem jehly",
@@ -678209,19 +678194,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40639625412",
-      "run_id": "40639625412",
-      "reserved_at": "2026-10-28T09:42:30Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T10:05:26Z",
+      "first_failed_at": "2026-10-28T08:42:00Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
