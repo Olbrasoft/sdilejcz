@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T13:22:00Z",
+  "last_updated": "2026-10-28T13:22:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675905,22 +675905,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-28T12:51:08Z",
-      "first_failed_at": "2026-10-28T11:47:47Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 6.9,
-        "download_sec": 2.7
-      }
-    },
-    {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
@@ -676843,6 +676827,22 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-28T13:22:20Z",
+      "first_failed_at": "2026-10-28T11:47:47Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 5.0,
+        "download_sec": 2.0
+      }
     }
   ],
   "in_progress": [
@@ -676875,16 +676875,6 @@
       "worker_id": "worker-2-40673197386",
       "run_id": "40673197386",
       "reserved_at": "2026-10-28T13:20:02Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T13:22:00Z"
     }
   ],
   "missing_on_account": [
