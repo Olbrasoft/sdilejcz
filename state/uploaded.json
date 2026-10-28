@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T19:47:05Z",
+  "last_updated": "2026-10-28T19:51:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674015,6 +674015,30 @@
         "upload_sec": 66.0,
         "total_sec": 93.0
       }
+    },
+    {
+      "cr_film_id": 23110,
+      "cr_slug": "dick-tracy",
+      "title": "Dick Tracy",
+      "year": 1990,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5ad6c79de5eeb",
+      "source_url": "https://prehraj.to/dick-tracy-1990/5ad6c79de5eeb",
+      "source_title": "Dick Tracy (1990)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35397804/dick-tracy-1990-.mp4",
+      "sdilej_name": "Dick Tracy (1990).mp4",
+      "uploaded_at": "2026-10-28T19:47:54Z",
+      "status": "uploaded",
+      "size_bytes": 733042478,
+      "worker_id": "worker-1-40719009500",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 27.7,
+        "upload_sec": 85.5,
+        "total_sec": 114.7
+      }
     }
   ],
   "failed_attempts": [
@@ -675306,27 +675330,6 @@
       }
     },
     {
-      "cr_film_id": 23110,
-      "cr_slug": "dick-tracy",
-      "title": "Dick Tracy",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-28T19:01:00Z",
-      "first_failed_at": "2026-10-28T19:01:00Z",
-      "attempt_count": 1,
-      "upload_id": "5ad6c79de5eeb",
-      "source_url": "https://prehraj.to/dick-tracy-1990/5ad6c79de5eeb",
-      "upload_title": "Dick Tracy (1990)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 36.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675556,27 +675559,6 @@
       "timing": {
         "cdn_resolve_sec": 31.8
       }
-    },
-    {
-      "cr_film_id": 23110,
-      "cr_slug": "dick-tracy",
-      "title": "Dick Tracy",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-28T19:42:35Z",
-      "first_failed_at": "2026-10-28T19:42:35Z",
-      "attempt_count": 1,
-      "upload_id": "68ade10f04744",
-      "source_url": "https://prehraj.to/dick-tracy-1990-fhd-1080p-cz-2015/68ade10f04744",
-      "upload_title": "Dick Tracy 1990 FHD 1080p CZ {2015}",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 1769.9,
-        "upload_sec": 30.0
-      }
     }
   ],
   "in_progress": [
@@ -675599,16 +675581,6 @@
       "worker_id": "worker-2-40719009500",
       "run_id": "40719009500",
       "reserved_at": "2026-10-28T19:42:48Z"
-    },
-    {
-      "cr_film_id": 23110,
-      "cr_slug": "dick-tracy",
-      "title": "Dick Tracy",
-      "year": 1990,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T19:45:48Z"
     },
     {
       "cr_film_id": 25521,
