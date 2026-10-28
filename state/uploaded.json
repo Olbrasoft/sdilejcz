@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T15:20:27Z",
+  "last_updated": "2026-10-28T15:20:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677652,21 +677652,6 @@
       }
     },
     {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T14:45:54Z",
-      "first_failed_at": "2026-10-28T14:15:04Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 19.6
-      }
-    },
-    {
       "cr_film_id": 37212,
       "cr_slug": "hvezdna-brana-pravdivy-pribeh",
       "title": "Hvězdná brána: Pravdivý příběh",
@@ -678311,6 +678296,21 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
+    },
+    {
+      "cr_film_id": 34991,
+      "cr_slug": "po-cem-muzi-touzi",
+      "title": "Po čem muži touží",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T15:20:55Z",
+      "first_failed_at": "2026-10-28T14:15:04Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
     }
   ],
   "in_progress": [
@@ -678323,16 +678323,6 @@
       "worker_id": "worker-1-40673197386",
       "run_id": "40673197386",
       "reserved_at": "2026-10-28T15:03:08Z"
-    },
-    {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T15:20:27Z"
     }
   ],
   "missing_on_account": [
