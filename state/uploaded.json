@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T20:12:50Z",
+  "last_updated": "2026-10-28T20:13:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675762,19 +675762,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 25795,
       "cr_slug": "jen-na-sex",
       "title": "Jen na sex",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T19:55:13Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-28T20:13:09Z",
+      "first_failed_at": "2026-10-28T20:13:09Z",
+      "attempt_count": 1,
+      "upload_id": "56fb0e3dab998",
+      "source_url": "https://prehraj.to/jen-na-sex-2008-cz-dabing-komedie/56fb0e3dab998",
+      "upload_title": "Jen na sex 2008 CZ dabing komedie",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 763.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 26171,
       "cr_slug": "sex-zabiji",
