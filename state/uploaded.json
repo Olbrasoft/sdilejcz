@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T08:32:00Z",
+  "last_updated": "2026-10-28T08:32:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675620,21 +675620,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T07:52:28Z",
-      "first_failed_at": "2026-10-28T06:46:54Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 25633,
       "cr_slug": "michael-clayton",
       "title": "Michael Clayton",
@@ -676482,6 +676467,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T08:32:27Z",
+      "first_failed_at": "2026-10-28T06:46:54Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
   "in_progress": [
@@ -676494,16 +676494,6 @@
       "worker_id": "worker-2-40639625412",
       "run_id": "40639625412",
       "reserved_at": "2026-10-28T08:23:09Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40639625412",
-      "run_id": "40639625412",
-      "reserved_at": "2026-10-28T08:32:00Z"
     }
   ],
   "missing_on_account": [
