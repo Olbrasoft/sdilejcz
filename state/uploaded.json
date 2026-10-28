@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T19:10:43Z",
+  "last_updated": "2026-10-28T19:14:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675099,22 +675099,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-28T18:34:45Z",
-      "first_failed_at": "2026-10-28T17:15:52Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.7,
-        "download_sec": 2.5
-      }
-    },
-    {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
@@ -675299,19 +675283,25 @@
         "download_sec": 1312.5,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T19:07:34Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-28T19:14:17Z",
+      "first_failed_at": "2026-10-28T17:15:52Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.9,
+        "download_sec": 2.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23110,
       "cr_slug": "dick-tracy",
