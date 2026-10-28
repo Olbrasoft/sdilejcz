@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T12:06:48Z",
+  "last_updated": "2026-10-28T12:07:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675662,19 +675662,30 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 17393,
       "cr_slug": "swallow",
       "title": "Swallow",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T12:03:47Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-28T12:07:44Z",
+      "first_failed_at": "2026-10-28T12:07:44Z",
+      "attempt_count": 1,
+      "upload_id": "5f661299531ec",
+      "source_url": "https://prehraj.to/swallow-drama-2019-cz-titulky/5f661299531ec",
+      "upload_title": "Swallow-(drama)-(2019)--cz-titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 54.1,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 17521,
       "cr_slug": "wet-red-rose",
