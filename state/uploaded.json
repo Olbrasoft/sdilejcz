@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T02:27:22Z",
+  "last_updated": "2026-10-28T02:27:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674785,21 +674785,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T01:53:43Z",
-      "first_failed_at": "2026-10-28T01:20:17Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
@@ -675601,6 +675586,21 @@
         "cdn_resolve_sec": 3.8,
         "download_sec": 1.6
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T02:27:45Z",
+      "first_failed_at": "2026-10-28T01:20:17Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -675633,16 +675633,6 @@
       "worker_id": "worker-1-40610487853",
       "run_id": "40610487853",
       "reserved_at": "2026-10-28T02:25:38Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40610487853",
-      "run_id": "40610487853",
-      "reserved_at": "2026-10-28T02:27:22Z"
     }
   ],
   "missing_on_account": [
