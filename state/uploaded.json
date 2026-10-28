@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T17:38:07Z",
+  "last_updated": "2026-10-28T17:38:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673821,21 +673821,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T16:54:30Z",
-      "first_failed_at": "2026-10-28T16:54:30Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.8
-      }
-    },
-    {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
@@ -674740,6 +674725,21 @@
       "timing": {
         "cdn_resolve_sec": 27.9
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T17:38:50Z",
+      "first_failed_at": "2026-10-28T16:54:30Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 27.0
+      }
     }
   ],
   "in_progress": [
@@ -674772,16 +674772,6 @@
       "worker_id": "worker-4-40719009500",
       "run_id": "40719009500",
       "reserved_at": "2026-10-28T17:36:07Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T17:38:07Z"
     }
   ],
   "missing_on_account": [
