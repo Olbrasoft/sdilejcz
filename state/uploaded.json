@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T11:27:53Z",
+  "last_updated": "2026-10-28T11:28:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674379,6 +674379,27 @@
         "upload_sec": 166.3,
         "total_sec": 287.8
       }
+    },
+    {
+      "cr_film_id": 15084,
+      "cr_slug": "sex-jak-to-rozbalit",
+      "title": "Sex: Jak to rozbalit",
+      "year": 2021,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 19754,
+      "sdilej_url": "https://sdilej.cz/35395718/sex-jak-to-rozbalit-2021-cz-titulky.mp4",
+      "sdilej_name": "Sex: Jak to rozbalit (2021) CZ titulky.mp4",
+      "uploaded_at": "2026-10-28T11:24:38Z",
+      "status": "uploaded",
+      "size_bytes": 409886123,
+      "worker_id": "worker-4-40673197386",
+      "timing": {
+        "cdn_resolve_sec": 5.9,
+        "download_sec": 133.0,
+        "upload_sec": 68.9,
+        "total_sec": 207.9
+      }
     }
   ],
   "failed_attempts": [
@@ -675001,27 +675022,6 @@
       }
     },
     {
-      "cr_film_id": 15084,
-      "cr_slug": "sex-jak-to-rozbalit",
-      "title": "Sex: Jak to rozbalit",
-      "year": 2021,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-28T11:18:35Z",
-      "first_failed_at": "2026-10-28T11:18:35Z",
-      "attempt_count": 1,
-      "upload_id": "6178987a93cb6",
-      "source_url": "https://prehraj.to/sex-jak-to-rozbalit-2021-cztitulky/6178987a93cb6",
-      "upload_title": "Sex - Jak to rozbalit (2021) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 292.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
@@ -675188,16 +675188,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 15084,
-      "cr_slug": "sex-jak-to-rozbalit",
-      "title": "Sex: Jak to rozbalit",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40673197386",
-      "run_id": "40673197386",
-      "reserved_at": "2026-10-28T11:21:00Z"
-    },
     {
       "cr_film_id": 16379,
       "cr_slug": "blazing-fists",
