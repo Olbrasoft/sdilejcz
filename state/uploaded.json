@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T18:12:02Z",
+  "last_updated": "2026-10-28T18:12:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674198,21 +674198,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T17:29:16Z",
-      "first_failed_at": "2026-10-28T16:17:41Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 27.8
-      }
-    },
-    {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
@@ -674850,19 +674835,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40719009500",
-      "run_id": "40719009500",
-      "reserved_at": "2026-10-28T17:59:22Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T18:12:55Z",
+      "first_failed_at": "2026-10-28T16:17:41Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 19.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19662,
       "cr_slug": "pubertaci-miluji-sex",
