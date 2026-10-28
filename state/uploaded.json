@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-28T22:16:06Z",
+  "last_updated": "2026-10-28T22:16:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674461,6 +674461,21 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-28T22:16:29Z",
+      "first_failed_at": "2026-10-28T22:16:29Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -674493,16 +674508,6 @@
       "worker_id": "worker-4-40771125699",
       "run_id": "40771125699",
       "reserved_at": "2026-10-28T22:15:41Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40771125699",
-      "run_id": "40771125699",
-      "reserved_at": "2026-10-28T22:16:06Z"
     }
   ],
   "missing_on_account": [
