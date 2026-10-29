@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T19:13:07Z",
+  "last_updated": "2026-10-29T19:13:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674098,21 +674098,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T18:38:51Z",
-      "first_failed_at": "2026-10-29T17:46:39Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.8
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -674675,6 +674660,21 @@
       "timing": {
         "cdn_resolve_sec": 30.4
       }
+    },
+    {
+      "cr_film_id": 5808,
+      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
+      "title": "Kouzelná Beruška a Černý kocour ve filmu",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T19:13:51Z",
+      "first_failed_at": "2026-10-29T17:46:39Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 30.1
+      }
     }
   ],
   "in_progress": [
@@ -674707,16 +674707,6 @@
       "worker_id": "worker-4-40923614046",
       "run_id": "40923614046",
       "reserved_at": "2026-10-29T19:09:43Z"
-    },
-    {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T19:13:07Z"
     }
   ],
   "missing_on_account": [
