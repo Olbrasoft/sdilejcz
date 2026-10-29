@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T21:23:29Z",
+  "last_updated": "2026-10-29T21:23:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674752,21 +674752,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T20:22:44Z",
-      "first_failed_at": "2026-10-29T19:00:07Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 29.7
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -675391,6 +675376,21 @@
         "resolve_sec": 1.8,
         "download_sec": 3602.7
       }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T21:23:58Z",
+      "first_failed_at": "2026-10-29T19:00:07Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.3
+      }
     }
   ],
   "in_progress": [
@@ -675423,16 +675423,6 @@
       "worker_id": "worker-1-40923614046",
       "run_id": "40923614046",
       "reserved_at": "2026-10-29T21:22:30Z"
-    },
-    {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T21:23:29Z"
     }
   ],
   "missing_on_account": [
