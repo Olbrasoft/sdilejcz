@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T23:55:35Z",
+  "last_updated": "2026-10-29T23:55:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675273,19 +675273,24 @@
       "timing": {
         "cdn_resolve_sec": 12.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40971174285",
-      "run_id": "40971174285",
-      "reserved_at": "2026-10-29T23:52:58Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T23:55:46Z",
+      "first_failed_at": "2026-10-29T23:55:46Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
