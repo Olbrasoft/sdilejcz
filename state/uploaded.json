@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T14:45:38Z",
+  "last_updated": "2026-10-29T14:46:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673878,6 +673878,30 @@
         "upload_sec": 200.0,
         "total_sec": 326.9
       }
+    },
+    {
+      "cr_film_id": 23110,
+      "cr_slug": "dick-tracy",
+      "title": "Dick Tracy",
+      "year": 1990,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "68ade10f04744",
+      "source_url": "https://prehraj.to/dick-tracy-1990-fhd-1080p-cz-2015/68ade10f04744",
+      "source_title": "Dick Tracy 1990 FHD 1080p CZ {2015}",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35401297/dick-tracy-1990-.mp4",
+      "sdilej_name": "Dick Tracy (1990).mp4",
+      "uploaded_at": "2026-10-29T14:39:22Z",
+      "status": "uploaded",
+      "size_bytes": 1179251888,
+      "worker_id": "worker-4-40871158499",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 93.1,
+        "upload_sec": 178.5,
+        "total_sec": 274.0
+      }
     }
   ],
   "failed_attempts": [
@@ -675209,27 +675233,6 @@
       }
     },
     {
-      "cr_film_id": 23110,
-      "cr_slug": "dick-tracy",
-      "title": "Dick Tracy",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-29T14:33:36Z",
-      "first_failed_at": "2026-10-29T14:33:36Z",
-      "attempt_count": 1,
-      "upload_id": "5ad6c79de5eeb",
-      "source_url": "https://prehraj.to/dick-tracy-1990/5ad6c79de5eeb",
-      "upload_title": "Dick Tracy (1990)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.6,
-        "download_sec": 37.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -675487,16 +675490,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 23110,
-      "cr_slug": "dick-tracy",
-      "title": "Dick Tracy",
-      "year": 1990,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T14:34:37Z"
-    },
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
