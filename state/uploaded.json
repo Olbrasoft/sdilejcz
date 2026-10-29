@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T07:27:54Z",
+  "last_updated": "2026-10-29T07:28:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677571,21 +677571,6 @@
       }
     },
     {
-      "cr_film_id": 35063,
-      "cr_slug": "the-silent-thief",
-      "title": "The Silent Thief",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T06:54:38Z",
-      "first_failed_at": "2026-10-29T06:23:53Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 37171,
       "cr_slug": "romance-na-vinicich",
       "title": "Romance na vinicích",
@@ -678320,20 +678305,24 @@
       "timing": {
         "cdn_resolve_sec": 18.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35063,
       "cr_slug": "the-silent-thief",
       "title": "The Silent Thief",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T07:27:54Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T07:28:19Z",
+      "first_failed_at": "2026-10-29T06:23:53Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
