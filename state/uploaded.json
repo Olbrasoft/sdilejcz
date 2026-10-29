@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T20:53:27Z",
+  "last_updated": "2026-10-29T20:54:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674700,21 +674700,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T20:19:53Z",
-      "first_failed_at": "2026-10-29T19:43:34Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
@@ -675277,6 +675262,21 @@
         "download_sec": 269.6,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T20:54:12Z",
+      "first_failed_at": "2026-10-29T19:43:34Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 31.4
+      }
     }
   ],
   "in_progress": [
@@ -675309,16 +675309,6 @@
       "worker_id": "worker-1-40923614046",
       "run_id": "40923614046",
       "reserved_at": "2026-10-29T20:51:28Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T20:53:27Z"
     }
   ],
   "missing_on_account": [
