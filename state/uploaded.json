@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T03:25:44Z",
+  "last_updated": "2026-10-29T03:26:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674601,21 +674601,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T02:54:45Z",
-      "first_failed_at": "2026-10-29T02:54:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -675128,6 +675113,21 @@
       "timing": {
         "cdn_resolve_sec": 9.7
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T03:26:05Z",
+      "first_failed_at": "2026-10-29T02:54:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -675150,16 +675150,6 @@
       "worker_id": "worker-1-40808070367",
       "run_id": "40808070367",
       "reserved_at": "2026-10-29T03:24:44Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T03:25:44Z"
     }
   ],
   "missing_on_account": [
