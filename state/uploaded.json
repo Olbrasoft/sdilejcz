@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T22:55:27Z",
+  "last_updated": "2026-10-29T22:55:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676591,22 +676591,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-29T22:25:19Z",
-      "first_failed_at": "2026-10-29T21:54:57Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.7,
-        "download_sec": 2.4
-      }
-    },
-    {
       "cr_film_id": 33493,
       "cr_slug": "american-kamasutra",
       "title": "American Kamasutra",
@@ -677041,6 +677025,22 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-29T22:55:43Z",
+      "first_failed_at": "2026-10-29T21:54:57Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 2.2
+      }
     }
   ],
   "in_progress": [
@@ -677073,16 +677073,6 @@
       "worker_id": "worker-3-40923614046",
       "run_id": "40923614046",
       "reserved_at": "2026-10-29T22:54:18Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T22:55:27Z"
     }
   ],
   "missing_on_account": [
