@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T06:13:18Z",
+  "last_updated": "2026-10-29T06:13:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676642,21 +676642,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T05:29:40Z",
-      "first_failed_at": "2026-10-29T04:12:26Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 10.7
-      }
-    },
-    {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
@@ -677659,6 +677644,21 @@
         "cdn_resolve_sec": 1.5,
         "download_sec": 2.7
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T06:13:45Z",
+      "first_failed_at": "2026-10-29T04:12:26Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.0
+      }
     }
   ],
   "in_progress": [
@@ -677691,16 +677691,6 @@
       "worker_id": "worker-4-40808070367",
       "run_id": "40808070367",
       "reserved_at": "2026-10-29T06:12:35Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T06:13:18Z"
     }
   ],
   "missing_on_account": [
