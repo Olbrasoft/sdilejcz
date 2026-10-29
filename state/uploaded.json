@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T00:32:21Z",
+  "last_updated": "2026-10-29T00:32:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675309,21 +675309,6 @@
       }
     },
     {
-      "cr_film_id": 16810,
-      "cr_slug": "how-to-act-on-reality-tv",
-      "title": "How to Act on Reality TV",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-28T23:37:30Z",
-      "first_failed_at": "2026-10-28T22:35:06Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 10.8
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676434,19 +676419,24 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40771125699",
-      "run_id": "40771125699",
-      "reserved_at": "2026-10-29T00:23:28Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T00:32:38Z",
+      "first_failed_at": "2026-10-28T22:35:06Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
