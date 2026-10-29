@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T23:33:00Z",
+  "last_updated": "2026-10-29T23:33:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674497,19 +674497,24 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40971174285",
-      "run_id": "40971174285",
-      "reserved_at": "2026-10-29T23:28:39Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T23:33:15Z",
+      "first_failed_at": "2026-10-29T23:33:15Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
