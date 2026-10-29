@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T14:13:13Z",
+  "last_updated": "2026-10-29T14:13:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674194,21 +674194,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T13:32:25Z",
-      "first_failed_at": "2026-10-29T13:01:01Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675276,19 +675261,24 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T14:07:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T14:13:37Z",
+      "first_failed_at": "2026-10-29T13:01:01Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
