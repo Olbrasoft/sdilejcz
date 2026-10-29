@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T14:33:14Z",
+  "last_updated": "2026-10-29T14:33:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675339,19 +675339,30 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23110,
       "cr_slug": "dick-tracy",
       "title": "Dick Tracy",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T14:25:44Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-29T14:33:36Z",
+      "first_failed_at": "2026-10-29T14:33:36Z",
+      "attempt_count": 1,
+      "upload_id": "5ad6c79de5eeb",
+      "source_url": "https://prehraj.to/dick-tracy-1990/5ad6c79de5eeb",
+      "upload_title": "Dick Tracy (1990)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 37.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23211,
       "cr_slug": "erotic-ghost-story-ii",
