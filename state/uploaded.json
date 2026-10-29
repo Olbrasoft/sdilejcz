@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T04:30:45Z",
+  "last_updated": "2026-10-29T04:31:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674758,21 +674758,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T03:52:52Z",
-      "first_failed_at": "2026-10-29T02:48:26Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.7
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -675668,6 +675653,21 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T04:31:07Z",
+      "first_failed_at": "2026-10-29T02:48:26Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.0
+      }
     }
   ],
   "in_progress": [
@@ -675700,16 +675700,6 @@
       "worker_id": "worker-1-40808070367",
       "run_id": "40808070367",
       "reserved_at": "2026-10-29T04:29:32Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T04:30:45Z"
     }
   ],
   "missing_on_account": [
