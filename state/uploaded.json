@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T17:49:51Z",
+  "last_updated": "2026-10-29T17:50:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673983,19 +673983,24 @@
       "timing": {
         "cdn_resolve_sec": 29.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T17:46:03Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T17:50:07Z",
+      "first_failed_at": "2026-10-29T17:50:07Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 25.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
