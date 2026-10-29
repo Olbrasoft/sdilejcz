@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T06:29:35Z",
+  "last_updated": "2026-10-29T06:32:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674814,6 +674814,27 @@
         "upload_sec": 59.2,
         "total_sec": 83.0
       }
+    },
+    {
+      "cr_film_id": 34739,
+      "cr_slug": "pikova-trojka",
+      "title": "Piková trojka",
+      "year": 2003,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 27882,
+      "sdilej_url": "https://sdilej.cz/35399574/pikova-trojka-2003-cz-dabing.mp4",
+      "sdilej_name": "Piková trojka (2003) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-29T06:32:24Z",
+      "status": "uploaded",
+      "size_bytes": 669535430,
+      "worker_id": "worker-1-40808070367",
+      "timing": {
+        "cdn_resolve_sec": 9.7,
+        "download_sec": 66.2,
+        "upload_sec": 82.2,
+        "total_sec": 158.1
+      }
     }
   ],
   "failed_attempts": [
@@ -677141,23 +677162,6 @@
       }
     },
     {
-      "cr_film_id": 34739,
-      "cr_slug": "pikova-trojka",
-      "title": "Piková trojka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-29T05:59:00Z",
-      "first_failed_at": "2026-10-29T05:59:00Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.1,
-        "download_sec": 61.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
@@ -677908,16 +677912,6 @@
       "worker_id": "worker-3-40808070367",
       "run_id": "40808070367",
       "reserved_at": "2026-10-29T06:28:21Z"
-    },
-    {
-      "cr_film_id": 34739,
-      "cr_slug": "pikova-trojka",
-      "title": "Piková trojka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T06:29:35Z"
     }
   ],
   "missing_on_account": [
