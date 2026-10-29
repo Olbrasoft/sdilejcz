@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T12:49:56Z",
+  "last_updated": "2026-10-29T12:50:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673503,6 +673503,30 @@
         "upload_sec": 96.4,
         "total_sec": 204.3
       }
+    },
+    {
+      "cr_film_id": 4394,
+      "cr_slug": "sex-drive",
+      "title": "Sex Drive",
+      "year": 2008,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "e03c20d2caf0b1cb",
+      "source_url": "https://prehraj.to/sex-drive-2008-cz-dabing-1080p-mkv/e03c20d2caf0b1cb",
+      "source_title": "Sex Drive (2008) CZ Dabing 1080p.mkv",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/35400946/sex-drive-2008-cz-dabing.mp4",
+      "sdilej_name": "Sex Drive (2008) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-29T12:49:13Z",
+      "status": "uploaded",
+      "size_bytes": 2829544168,
+      "worker_id": "worker-4-40871158499",
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 151.6,
+        "upload_sec": 406.0,
+        "total_sec": 560.3
+      }
     }
   ],
   "failed_attempts": [
@@ -673837,27 +673861,6 @@
       }
     },
     {
-      "cr_film_id": 4394,
-      "cr_slug": "sex-drive",
-      "title": "Sex Drive",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-29T12:36:49Z",
-      "first_failed_at": "2026-10-29T12:36:49Z",
-      "attempt_count": 1,
-      "upload_id": "55e6a721e5b51",
-      "source_url": "https://prehraj.to/sex-drive-2008-czdab/55e6a721e5b51",
-      "upload_title": "Sex drive (2008)CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.5,
-        "download_sec": 28.5,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 4973,
       "cr_slug": "krakonosovo-tajemstvi",
       "title": "Krakonošovo tajemství",
@@ -674145,16 +674148,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 4394,
-      "cr_slug": "sex-drive",
-      "title": "Sex Drive",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T12:39:41Z"
-    },
     {
       "cr_film_id": 7548,
       "cr_slug": "teen-wolf-the-movie",
