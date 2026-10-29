@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T22:19:22Z",
+  "last_updated": "2026-10-29T22:20:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676596,19 +676596,24 @@
       "timing": {
         "cdn_resolve_sec": 15.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T22:00:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T22:20:39Z",
+      "first_failed_at": "2026-10-29T22:20:39Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 21.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31910,
       "cr_slug": "2010-moby-dick",
