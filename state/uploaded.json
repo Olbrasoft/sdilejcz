@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T06:20:49Z",
+  "last_updated": "2026-10-29T06:21:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677713,6 +677713,21 @@
       "timing": {
         "cdn_resolve_sec": 15.9
       }
+    },
+    {
+      "cr_film_id": 35044,
+      "cr_slug": "tezka-barbora",
+      "title": "Těžká Barbora",
+      "year": 1960,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T06:21:15Z",
+      "first_failed_at": "2026-10-29T06:21:15Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -677745,16 +677760,6 @@
       "worker_id": "worker-1-40808070367",
       "run_id": "40808070367",
       "reserved_at": "2026-10-29T06:17:04Z"
-    },
-    {
-      "cr_film_id": 35044,
-      "cr_slug": "tezka-barbora",
-      "title": "Těžká Barbora",
-      "year": 1960,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T06:20:49Z"
     }
   ],
   "missing_on_account": [
