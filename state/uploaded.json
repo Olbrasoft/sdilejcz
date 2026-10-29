@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T09:28:03Z",
+  "last_updated": "2026-10-29T09:28:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676050,19 +676050,30 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 21663,
       "cr_slug": "lolita-1962",
       "title": "Lolita",
       "year": 1962,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40836815058",
-      "run_id": "40836815058",
-      "reserved_at": "2026-10-29T09:22:33Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-29T09:28:28Z",
+      "first_failed_at": "2026-10-29T09:28:28Z",
+      "attempt_count": 1,
+      "upload_id": "63433cbf7decd",
+      "source_url": "https://prehraj.to/lolita-1962-1080p-bluray-x264-cinefile/63433cbf7decd",
+      "upload_title": "Lolita.1962.1080p.BluRay.x264-CiNEFiLE",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 119.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22457,
       "cr_slug": "orli-pero",
