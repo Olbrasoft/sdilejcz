@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T17:33:28Z",
+  "last_updated": "2026-10-29T17:34:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677805,19 +677805,24 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34973,
       "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
       "title": "Děvčátko, které bydlí na konci ulice",
       "year": 1976,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T17:26:24Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T17:34:18Z",
+      "first_failed_at": "2026-10-29T17:34:18Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 29.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
