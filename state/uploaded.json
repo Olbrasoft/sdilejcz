@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T12:39:41Z",
+  "last_updated": "2026-10-29T12:41:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673994,6 +673994,23 @@
       "timing": {
         "resolve_sec": 1.2
       }
+    },
+    {
+      "cr_film_id": 4973,
+      "cr_slug": "krakonosovo-tajemstvi",
+      "title": "Krakonošovo tajemství",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-29T12:41:36Z",
+      "first_failed_at": "2026-10-29T12:41:36Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.1,
+        "download_sec": 73.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674006,16 +674023,6 @@
       "worker_id": "worker-2-40871158499",
       "run_id": "40871158499",
       "reserved_at": "2026-10-29T12:32:55Z"
-    },
-    {
-      "cr_film_id": 4973,
-      "cr_slug": "krakonosovo-tajemstvi",
-      "title": "Krakonošovo tajemství",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T12:36:06Z"
     },
     {
       "cr_film_id": 5478,
