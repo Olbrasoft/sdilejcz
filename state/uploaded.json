@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T08:47:33Z",
+  "last_updated": "2026-10-29T08:47:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674752,21 +674752,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T08:17:15Z",
-      "first_failed_at": "2026-10-29T07:46:10Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.8
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675677,6 +675662,21 @@
         "download_sec": 60.6,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T08:47:55Z",
+      "first_failed_at": "2026-10-29T07:46:10Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.5
+      }
     }
   ],
   "in_progress": [
@@ -675709,16 +675709,6 @@
       "worker_id": "worker-2-40836815058",
       "run_id": "40836815058",
       "reserved_at": "2026-10-29T08:47:06Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40836815058",
-      "run_id": "40836815058",
-      "reserved_at": "2026-10-29T08:47:33Z"
     }
   ],
   "missing_on_account": [
