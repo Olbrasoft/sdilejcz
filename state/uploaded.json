@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T08:28:24Z",
+  "last_updated": "2026-10-29T08:28:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675503,6 +675503,25 @@
       "attempt_count": 2,
       "timing": {
         "cdn_resolve_sec": 11.9
+      }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/zivot-je-zivot-2015-cz-film/9b0caefa1d093445",
+      "failed_at": "2026-10-29T08:28:37Z",
+      "first_failed_at": "2026-10-29T08:28:37Z",
+      "attempt_count": 1,
+      "upload_id": "9b0caefa1d093445",
+      "source_url": "https://prehraj.to/zivot-je-zivot-2015-cz-film/9b0caefa1d093445",
+      "upload_title": "Život je život 2015 Cz Film",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 1.0
       }
     }
   ],
