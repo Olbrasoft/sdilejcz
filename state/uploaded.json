@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T21:26:26Z",
+  "last_updated": "2026-10-29T21:26:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674707,21 +674707,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T20:19:00Z",
-      "first_failed_at": "2026-10-29T19:06:26Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 29.1
-      }
-    },
-    {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
@@ -675391,6 +675376,21 @@
       "timing": {
         "cdn_resolve_sec": 25.4
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T21:26:57Z",
+      "first_failed_at": "2026-10-29T19:06:26Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 17.7
+      }
     }
   ],
   "in_progress": [
@@ -675423,16 +675423,6 @@
       "worker_id": "worker-1-40923614046",
       "run_id": "40923614046",
       "reserved_at": "2026-10-29T21:22:30Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T21:26:26Z"
     }
   ],
   "missing_on_account": [
