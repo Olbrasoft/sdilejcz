@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T01:07:52Z",
+  "last_updated": "2026-10-29T01:08:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676588,21 +676588,6 @@
       }
     },
     {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T00:35:43Z",
-      "first_failed_at": "2026-10-29T00:35:43Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677034,6 +677019,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 31665,
+      "cr_slug": "12-01-pm",
+      "title": "12:01 PM",
+      "year": 1990,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T01:08:16Z",
+      "first_failed_at": "2026-10-29T00:35:43Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
     }
   ],
   "in_progress": [
@@ -677066,16 +677066,6 @@
       "worker_id": "worker-4-40771125699",
       "run_id": "40771125699",
       "reserved_at": "2026-10-29T01:07:28Z"
-    },
-    {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40771125699",
-      "run_id": "40771125699",
-      "reserved_at": "2026-10-29T01:07:52Z"
     }
   ],
   "missing_on_account": [
