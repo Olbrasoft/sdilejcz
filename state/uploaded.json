@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T18:48:08Z",
+  "last_updated": "2026-10-29T18:48:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673995,21 +673995,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T17:49:05Z",
-      "first_failed_at": "2026-10-29T17:49:05Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 23.8
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -674492,6 +674477,21 @@
       "timing": {
         "cdn_resolve_sec": 21.3
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T18:48:41Z",
+      "first_failed_at": "2026-10-29T17:49:05Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 18.6
+      }
     }
   ],
   "in_progress": [
@@ -674524,16 +674524,6 @@
       "worker_id": "worker-2-40923614046",
       "run_id": "40923614046",
       "reserved_at": "2026-10-29T18:47:13Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T18:48:08Z"
     }
   ],
   "missing_on_account": [
