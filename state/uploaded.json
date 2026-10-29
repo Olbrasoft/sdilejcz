@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T12:32:16Z",
+  "last_updated": "2026-10-29T12:32:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673368,28 +673368,30 @@
         "upload_sec": 152.1,
         "total_sec": 310.3
       }
-    }
-  ],
-  "failed_attempts": [
+    },
     {
       "cr_film_id": 594,
       "cr_slug": "obecna-skola",
       "title": "Obecná škola",
       "year": 1991,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/obecna-skola-1991-remux-dts-5-1/65d2e20543c81",
-      "failed_at": "2026-10-29T12:12:31Z",
-      "first_failed_at": "2026-10-29T12:12:31Z",
-      "attempt_count": 1,
-      "upload_id": "65d2e20543c81",
-      "source_url": "https://prehraj.to/obecna-skola-1991-remux-dts-5-1/65d2e20543c81",
-      "upload_title": "Obecná škola (1991) REMUX DTS 5.1",
-      "permanent": true,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 5912,
+      "sdilej_url": "https://sdilej.cz/35400893/obecna-skola-1991-cz.mp4",
+      "sdilej_name": "Obecná škola (1991) CZ.mp4",
+      "uploaded_at": "2026-10-29T12:32:22Z",
+      "status": "uploaded",
+      "size_bytes": 2867273117,
+      "worker_id": "worker-1-40871158499",
       "timing": {
-        "resolve_sec": 1.4
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 732.9,
+        "upload_sec": 442.7,
+        "total_sec": 1180.5
       }
-    },
+    }
+  ],
+  "failed_attempts": [
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
@@ -673649,16 +673651,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 594,
-      "cr_slug": "obecna-skola",
-      "title": "Obecná škola",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T12:12:13Z"
-    },
     {
       "cr_film_id": 4234,
       "cr_slug": "zack-a-miri-toci-porno",
