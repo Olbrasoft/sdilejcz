@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T09:04:32Z",
+  "last_updated": "2026-10-29T09:04:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675123,22 +675123,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-29T08:28:56Z",
-      "first_failed_at": "2026-10-29T08:28:56Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 5.1,
-        "download_sec": 1.9
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
@@ -675814,6 +675798,22 @@
       "timing": {
         "cdn_resolve_sec": 9.1
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-29T09:04:51Z",
+      "first_failed_at": "2026-10-29T08:28:56Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 4.2,
+        "download_sec": 2.0
+      }
     }
   ],
   "in_progress": [
@@ -675846,16 +675846,6 @@
       "worker_id": "worker-1-40836815058",
       "run_id": "40836815058",
       "reserved_at": "2026-10-29T09:02:58Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40836815058",
-      "run_id": "40836815058",
-      "reserved_at": "2026-10-29T09:04:32Z"
     }
   ],
   "missing_on_account": [
