@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T07:36:28Z",
+  "last_updated": "2026-10-29T07:36:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677677,21 +677677,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T07:05:59Z",
-      "first_failed_at": "2026-10-29T05:28:13Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 37247,
       "cr_slug": "house-party-2-pyzamovy-mejdan",
       "title": "House party 2: Pyžamový mejdan",
@@ -678320,20 +678305,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T07:36:28Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T07:36:55Z",
+      "first_failed_at": "2026-10-29T05:28:13Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
