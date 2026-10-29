@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T21:22:30Z",
+  "last_updated": "2026-10-29T21:23:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674338,26 +674338,6 @@
       }
     },
     {
-      "cr_film_id": 12552,
-      "cr_slug": "lara-croft-tomb-raider",
-      "title": "Lara Croft – Tomb Raider",
-      "year": 2001,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3600065 milliseconds with 2187787850 out of 3609885888 bytes received",
-      "failed_at": "2026-10-29T19:04:02Z",
-      "first_failed_at": "2026-10-29T19:04:02Z",
-      "attempt_count": 1,
-      "upload_id": "5ade0790878a74d8",
-      "source_url": "https://prehraj.to/tomb-raider-lara-croft-2001-en-cz-dabing-uhdrdv-mkv/5ade0790878a74d8",
-      "upload_title": "Tomb raider - Lara Croft (2001) EN+CZ DABING UHDRDV.mkv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 3602.8
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675391,19 +675371,29 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12552,
       "cr_slug": "lara-croft-tomb-raider",
       "title": "Lara Croft – Tomb Raider",
       "year": 2001,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T20:13:55Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3600036 milliseconds with 2284437066 out of 3609885888 bytes received",
+      "failed_at": "2026-10-29T21:23:05Z",
+      "first_failed_at": "2026-10-29T19:04:02Z",
+      "attempt_count": 2,
+      "upload_id": "5ade0790878a74d8",
+      "source_url": "https://prehraj.to/tomb-raider-lara-croft-2001-en-cz-dabing-uhdrdv-mkv/5ade0790878a74d8",
+      "upload_title": "Tomb raider - Lara Croft (2001) EN+CZ DABING UHDRDV.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.8,
+        "download_sec": 3602.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16388,
       "cr_slug": "asian-school-girls",
