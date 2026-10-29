@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T17:48:48Z",
+  "last_updated": "2026-10-29T17:49:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673953,19 +673953,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40923614046",
-      "run_id": "40923614046",
-      "reserved_at": "2026-10-29T17:42:25Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T17:49:05Z",
+      "first_failed_at": "2026-10-29T17:49:05Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 23.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
