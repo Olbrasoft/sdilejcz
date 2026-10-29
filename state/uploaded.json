@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T05:16:01Z",
+  "last_updated": "2026-10-29T05:16:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675423,21 +675423,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T04:41:40Z",
-      "first_failed_at": "2026-10-29T03:15:35Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -676399,6 +676384,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 14786,
+      "cr_slug": "krakonos-a-sklinkar-matej",
+      "title": "Krakonos a sklínkar Matej",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T05:16:29Z",
+      "first_failed_at": "2026-10-29T03:15:35Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.4
+      }
     }
   ],
   "in_progress": [
@@ -676431,16 +676431,6 @@
       "worker_id": "worker-2-40808070367",
       "run_id": "40808070367",
       "reserved_at": "2026-10-29T05:14:55Z"
-    },
-    {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T05:16:01Z"
     }
   ],
   "missing_on_account": [
