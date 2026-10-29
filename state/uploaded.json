@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T01:54:11Z",
+  "last_updated": "2026-10-29T01:54:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677124,21 +677124,6 @@
       }
     },
     {
-      "cr_film_id": 34850,
-      "cr_slug": "duch-zraloka",
-      "title": "Duch žraloka",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T01:19:04Z",
-      "first_failed_at": "2026-10-29T01:19:04Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
       "title": "Brouk v hlavě",
@@ -677915,6 +677900,21 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 34850,
+      "cr_slug": "duch-zraloka",
+      "title": "Duch žraloka",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T01:54:39Z",
+      "first_failed_at": "2026-10-29T01:19:04Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
     }
   ],
   "in_progress": [
@@ -677947,16 +677947,6 @@
       "worker_id": "worker-1-40771125699",
       "run_id": "40771125699",
       "reserved_at": "2026-10-29T01:47:07Z"
-    },
-    {
-      "cr_film_id": 34850,
-      "cr_slug": "duch-zraloka",
-      "title": "Duch žraloka",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40771125699",
-      "run_id": "40771125699",
-      "reserved_at": "2026-10-29T01:54:11Z"
     }
   ],
   "missing_on_account": [
