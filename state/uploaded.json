@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T17:34:18Z",
+  "last_updated": "2026-10-29T17:38:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677158,21 +677158,6 @@
       }
     },
     {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T17:00:28Z",
-      "first_failed_at": "2026-10-29T17:00:28Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -677820,20 +677805,24 @@
       "timing": {
         "cdn_resolve_sec": 29.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T17:30:35Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T17:38:18Z",
+      "first_failed_at": "2026-10-29T17:00:28Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
