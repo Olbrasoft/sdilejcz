@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T13:15:17Z",
+  "last_updated": "2026-10-29T13:15:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673764,6 +673764,27 @@
         "upload_sec": 199.1,
         "total_sec": 249.1
       }
+    },
+    {
+      "cr_film_id": 9822,
+      "cr_slug": "xxx-nova-dimenze",
+      "title": "xXx: Nová dimenze",
+      "year": 2005,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 1933,
+      "sdilej_url": "https://sdilej.cz/35401049/xxx-nova-dimenze-2005-cz.mp4",
+      "sdilej_name": "xXx: Nová dimenze (2005) CZ.mp4",
+      "uploaded_at": "2026-10-29T13:12:45Z",
+      "status": "uploaded",
+      "size_bytes": 448777641,
+      "worker_id": "worker-2-40871158499",
+      "timing": {
+        "cdn_resolve_sec": 3.2,
+        "download_sec": 64.1,
+        "upload_sec": 67.3,
+        "total_sec": 134.6
+      }
     }
   ],
   "failed_attempts": [
@@ -674399,27 +674420,6 @@
       }
     },
     {
-      "cr_film_id": 9822,
-      "cr_slug": "xxx-nova-dimenze",
-      "title": "xXx: Nová dimenze",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-29T13:00:19Z",
-      "first_failed_at": "2026-10-29T13:00:19Z",
-      "attempt_count": 1,
-      "upload_id": "c6c33f4be7a326a3",
-      "source_url": "https://prehraj.to/trojite-x-xx-x-2-nova-dimenze-state-of-the-union-ice-cube-2005-sk-cz/c6c33f4be7a326a3",
-      "upload_title": "Trojité X - xX x 2 - Nová dimenze (State of the Union -Ice Cube 2005) Sk Cz",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 156.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -674447,27 +674447,6 @@
       "attempt_count": 2,
       "timing": {
         "cdn_resolve_sec": 14.5
-      }
-    },
-    {
-      "cr_film_id": 9822,
-      "cr_slug": "xxx-nova-dimenze",
-      "title": "xXx: Nová dimenze",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-29T13:07:10Z",
-      "first_failed_at": "2026-10-29T13:07:10Z",
-      "attempt_count": 1,
-      "upload_id": "2078f2f1236bb320",
-      "source_url": "https://prehraj.to/nova-dimenze-2005-cz-en/2078f2f1236bb320",
-      "upload_title": "Nová dimenze 2005 CZ EN",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 147.8,
-        "upload_sec": 30.0
       }
     },
     {
@@ -674622,16 +674601,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 9822,
-      "cr_slug": "xxx-nova-dimenze",
-      "title": "xXx: Nová dimenze",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T13:10:20Z"
-    },
     {
       "cr_film_id": 4973,
       "cr_slug": "krakonosovo-tajemstvi",
