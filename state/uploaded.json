@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T17:27:23Z",
+  "last_updated": "2026-10-29T17:28:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676887,21 +676887,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T16:47:43Z",
-      "first_failed_at": "2026-10-29T16:47:43Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 22.5
-      }
-    },
-    {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
@@ -677760,6 +677745,21 @@
       "timing": {
         "cdn_resolve_sec": 17.7
       }
+    },
+    {
+      "cr_film_id": 31671,
+      "cr_slug": "e11",
+      "title": "E11",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T17:28:06Z",
+      "first_failed_at": "2026-10-29T16:47:43Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.5
+      }
     }
   ],
   "in_progress": [
@@ -677792,16 +677792,6 @@
       "worker_id": "worker-1-40871158499",
       "run_id": "40871158499",
       "reserved_at": "2026-10-29T17:26:24Z"
-    },
-    {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T17:27:23Z"
     }
   ],
   "missing_on_account": [
