@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T07:07:15Z",
+  "last_updated": "2026-10-29T07:07:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677386,21 +677386,6 @@
       }
     },
     {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T06:33:42Z",
-      "first_failed_at": "2026-10-29T05:30:45Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
       "title": "Krvavá Amazonka",
@@ -678320,20 +678305,24 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
       "title": "12:01 PM",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T07:07:15Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T07:07:42Z",
+      "first_failed_at": "2026-10-29T05:30:45Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
