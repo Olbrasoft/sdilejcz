@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T14:13:37Z",
+  "last_updated": "2026-10-29T14:13:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674445,21 +674445,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T13:42:33Z",
-      "first_failed_at": "2026-10-29T13:10:49Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -675276,6 +675261,21 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T14:13:47Z",
+      "first_failed_at": "2026-10-29T13:10:49Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -675288,16 +675288,6 @@
       "worker_id": "worker-1-40871158499",
       "run_id": "40871158499",
       "reserved_at": "2026-10-29T14:10:28Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T14:13:13Z"
     }
   ],
   "missing_on_account": [
