@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T10:32:41Z",
+  "last_updated": "2026-10-29T10:33:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675964,22 +675964,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-10-29T09:47:39Z",
-      "first_failed_at": "2026-10-29T08:28:56Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 3.9,
-        "download_sec": 1.8
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -677232,6 +677216,22 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-10-29T10:33:02Z",
+      "first_failed_at": "2026-10-29T08:28:56Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 6.7,
+        "download_sec": 2.2
+      }
     }
   ],
   "in_progress": [
@@ -677264,16 +677264,6 @@
       "worker_id": "worker-1-40836815058",
       "run_id": "40836815058",
       "reserved_at": "2026-10-29T10:30:21Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40836815058",
-      "run_id": "40836815058",
-      "reserved_at": "2026-10-29T10:32:41Z"
     }
   ],
   "missing_on_account": [
