@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T08:38:22Z",
+  "last_updated": "2026-10-29T08:38:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674670,21 +674670,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T08:06:31Z",
-      "first_failed_at": "2026-10-29T08:06:31Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -675588,6 +675573,21 @@
       "timing": {
         "cdn_resolve_sec": 10.5
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T08:38:43Z",
+      "first_failed_at": "2026-10-29T08:06:31Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
   "in_progress": [
@@ -675620,16 +675620,6 @@
       "worker_id": "worker-1-40836815058",
       "run_id": "40836815058",
       "reserved_at": "2026-10-29T08:37:08Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-40836815058",
-      "run_id": "40836815058",
-      "reserved_at": "2026-10-29T08:38:22Z"
     }
   ],
   "missing_on_account": [
