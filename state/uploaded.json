@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T13:06:54Z",
+  "last_updated": "2026-10-29T13:07:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674400,19 +674400,30 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9822,
       "cr_slug": "xxx-nova-dimenze",
       "title": "xXx: Nová dimenze",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T13:02:57Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-29T13:07:10Z",
+      "first_failed_at": "2026-10-29T13:07:10Z",
+      "attempt_count": 1,
+      "upload_id": "2078f2f1236bb320",
+      "source_url": "https://prehraj.to/nova-dimenze-2005-cz-en/2078f2f1236bb320",
+      "upload_title": "Nová dimenze 2005 CZ EN",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 147.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11204,
       "cr_slug": "marecku-podejte-mi-pero",
