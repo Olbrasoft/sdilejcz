@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T07:37:08Z",
+  "last_updated": "2026-10-29T07:37:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677677,21 +677677,6 @@
       }
     },
     {
-      "cr_film_id": 37247,
-      "cr_slug": "house-party-2-pyzamovy-mejdan",
-      "title": "House party 2: Pyžamový mejdan",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T07:06:37Z",
-      "first_failed_at": "2026-10-29T07:06:37Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.8
-      }
-    },
-    {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
@@ -678320,20 +678305,24 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37247,
       "cr_slug": "house-party-2-pyzamovy-mejdan",
       "title": "House party 2: Pyžamový mejdan",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-1-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T07:37:08Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T07:37:34Z",
+      "first_failed_at": "2026-10-29T07:06:37Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
