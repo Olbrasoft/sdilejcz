@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T07:17:52Z",
+  "last_updated": "2026-10-29T07:18:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677535,21 +677535,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T06:47:19Z",
-      "first_failed_at": "2026-10-29T05:32:59Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 10.9
-      }
-    },
-    {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
@@ -678320,20 +678305,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-3-40808070367",
-      "run_id": "40808070367",
-      "reserved_at": "2026-10-29T07:17:52Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T07:18:19Z",
+      "first_failed_at": "2026-10-29T05:32:59Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
