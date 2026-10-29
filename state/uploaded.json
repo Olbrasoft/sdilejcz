@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T13:31:27Z",
+  "last_updated": "2026-10-29T13:31:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674702,19 +674702,24 @@
       "timing": {
         "resolve_sec": 1.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-4-40871158499",
-      "run_id": "40871158499",
-      "reserved_at": "2026-10-29T13:27:46Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-29T13:31:45Z",
+      "first_failed_at": "2026-10-29T13:31:45Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
