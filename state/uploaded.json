@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-29T09:59:24Z",
+  "last_updated": "2026-10-29T09:59:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676246,19 +676246,30 @@
       "timing": {
         "cdn_resolve_sec": 9.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23687,
       "cr_slug": "studentka-na-telefon",
       "title": "Studentka na telefon",
       "year": 1996,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40836815058",
-      "run_id": "40836815058",
-      "reserved_at": "2026-10-29T09:54:20Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-29T09:59:46Z",
+      "first_failed_at": "2026-10-29T09:59:46Z",
+      "attempt_count": 1,
+      "upload_id": "5f7cbb1fcdecd",
+      "source_url": "https://prehraj.to/studentka-na-telefon-1996-czdab/5f7cbb1fcdecd",
+      "upload_title": "Studentka na telefon (1996) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 31.9,
+        "download_sec": 21.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23751,
       "cr_slug": "sex-and-zen-ii",
