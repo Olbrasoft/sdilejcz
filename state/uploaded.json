@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T20:47:57Z",
+  "last_updated": "2026-10-30T20:48:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674110,27 +674110,6 @@
       }
     },
     {
-      "cr_film_id": 812,
-      "cr_slug": "kick-ass",
-      "title": "Kick-Ass",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-30T18:53:40Z",
-      "first_failed_at": "2026-10-30T18:53:40Z",
-      "attempt_count": 1,
-      "upload_id": "5ca8459ba46d0",
-      "source_url": "https://prehraj.to/kick-ass-1-aaron-taylor-2010-cz-dabing/5ca8459ba46d0",
-      "upload_title": "Kick-Ass-1-(Aaron-Taylor)-(2010)--cz-dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 2461.0,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 3890,
       "cr_slug": "ztracene-mesto-z",
       "title": "Ztracené město Z",
@@ -675158,19 +675137,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 812,
       "cr_slug": "kick-ass",
       "title": "Kick-Ass",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41104537540",
-      "run_id": "41104537540",
-      "reserved_at": "2026-10-30T20:00:33Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-30T20:48:34Z",
+      "first_failed_at": "2026-10-30T18:53:40Z",
+      "attempt_count": 2,
+      "upload_id": "5ca8459ba46d0",
+      "source_url": "https://prehraj.to/kick-ass-1-aaron-taylor-2010-cz-dabing/5ca8459ba46d0",
+      "upload_title": "Kick-Ass-1-(Aaron-Taylor)-(2010)--cz-dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 2578.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
