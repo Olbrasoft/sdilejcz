@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T12:32:31Z",
+  "last_updated": "2026-10-30T12:32:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677706,21 +677706,6 @@
       }
     },
     {
-      "cr_film_id": 37224,
-      "cr_slug": "los-angeles-streetfighter",
-      "title": "Los Angeles Streetfighter",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T11:50:40Z",
-      "first_failed_at": "2026-10-30T11:50:40Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.8
-      }
-    },
-    {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
       "title": "Kája + Oliva",
@@ -678395,20 +678380,24 @@
       "timing": {
         "cdn_resolve_sec": 8.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37224,
       "cr_slug": "los-angeles-streetfighter",
       "title": "Los Angeles Streetfighter",
       "year": 1985,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41025201382",
-      "run_id": "41025201382",
-      "reserved_at": "2026-10-30T12:32:31Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T12:32:52Z",
+      "first_failed_at": "2026-10-30T11:50:40Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.5
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
