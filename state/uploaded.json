@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T07:44:14Z",
+  "last_updated": "2026-10-30T07:44:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677483,22 +677483,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-30T07:13:41Z",
-      "first_failed_at": "2026-10-30T06:38:46Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 2.0
-      }
-    },
-    {
       "cr_film_id": 31550,
       "cr_slug": "passion-in-the-desert",
       "title": "Passion in the Desert",
@@ -678393,6 +678377,22 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-30T07:44:30Z",
+      "first_failed_at": "2026-10-30T06:38:46Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 2.3
+      }
     }
   ],
   "in_progress": [
@@ -678405,16 +678405,6 @@
       "worker_id": "worker-2-40999784816",
       "run_id": "40999784816",
       "reserved_at": "2026-10-30T07:30:02Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40999784816",
-      "run_id": "40999784816",
-      "reserved_at": "2026-10-30T07:44:14Z"
     }
   ],
   "missing_on_account": [
