@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T17:47:48Z",
+  "last_updated": "2026-10-30T17:48:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677306,21 +677306,6 @@
       }
     },
     {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T16:59:20Z",
-      "first_failed_at": "2026-10-30T16:59:20Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
@@ -678275,19 +678260,24 @@
       "timing": {
         "cdn_resolve_sec": 25.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
       "title": "Brouk v hlavě",
       "year": 1968,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41057579717",
-      "run_id": "41057579717",
-      "reserved_at": "2026-10-30T17:29:38Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T17:48:22Z",
+      "first_failed_at": "2026-10-30T16:59:20Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
