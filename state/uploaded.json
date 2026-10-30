@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T01:23:29Z",
+  "last_updated": "2026-10-30T01:23:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675262,21 +675262,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T00:37:30Z",
-      "first_failed_at": "2026-10-29T23:34:28Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
@@ -676226,6 +676211,21 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T01:23:52Z",
+      "first_failed_at": "2026-10-29T23:34:28Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
     }
   ],
   "in_progress": [
@@ -676258,16 +676258,6 @@
       "worker_id": "worker-2-40971174285",
       "run_id": "40971174285",
       "reserved_at": "2026-10-30T01:21:08Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40971174285",
-      "run_id": "40971174285",
-      "reserved_at": "2026-10-30T01:23:29Z"
     }
   ],
   "missing_on_account": [
