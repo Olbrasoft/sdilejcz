@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T12:04:55Z",
+  "last_updated": "2026-10-30T12:05:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677460,21 +677460,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T11:32:10Z",
-      "first_failed_at": "2026-10-30T11:00:29Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
       "title": "Krvavá Amazonka",
@@ -678395,6 +678380,21 @@
       "timing": {
         "cdn_resolve_sec": 9.1
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T12:05:18Z",
+      "first_failed_at": "2026-10-30T11:00:29Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
     }
   ],
   "in_progress": [
@@ -678417,16 +678417,6 @@
       "worker_id": "worker-4-41025201382",
       "run_id": "41025201382",
       "reserved_at": "2026-10-30T12:04:25Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41025201382",
-      "run_id": "41025201382",
-      "reserved_at": "2026-10-30T12:04:55Z"
     }
   ],
   "missing_on_account": [
