@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T23:02:03Z",
+  "last_updated": "2026-10-30T23:04:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676788,19 +676788,24 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41104537540",
-      "run_id": "41104537540",
-      "reserved_at": "2026-10-30T22:54:51Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T23:04:14Z",
+      "first_failed_at": "2026-10-30T23:04:14Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 33493,
       "cr_slug": "american-kamasutra",
