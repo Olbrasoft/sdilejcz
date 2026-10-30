@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T09:43:01Z",
+  "last_updated": "2026-10-30T09:43:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675169,21 +675169,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T09:12:02Z",
-      "first_failed_at": "2026-10-30T08:40:56Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.3
-      }
-    },
-    {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
@@ -676090,6 +676075,21 @@
       "timing": {
         "cdn_resolve_sec": 9.1
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T09:43:22Z",
+      "first_failed_at": "2026-10-30T08:40:56Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
   "in_progress": [
@@ -676122,16 +676122,6 @@
       "worker_id": "worker-2-41025201382",
       "run_id": "41025201382",
       "reserved_at": "2026-10-30T09:37:28Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41025201382",
-      "run_id": "41025201382",
-      "reserved_at": "2026-10-30T09:43:01Z"
     }
   ],
   "missing_on_account": [
