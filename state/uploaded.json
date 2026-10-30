@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T08:49:52Z",
+  "last_updated": "2026-10-30T08:50:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675323,6 +675323,23 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 16379,
+      "cr_slug": "blazing-fists",
+      "title": "Blazing Fists",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-30T08:50:07Z",
+      "first_failed_at": "2026-10-30T08:50:07Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 3.4,
+        "download_sec": 66.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675335,16 +675352,6 @@
       "worker_id": "worker-3-41025201382",
       "run_id": "41025201382",
       "reserved_at": "2026-10-30T08:44:57Z"
-    },
-    {
-      "cr_film_id": 16379,
-      "cr_slug": "blazing-fists",
-      "title": "Blazing Fists",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41025201382",
-      "run_id": "41025201382",
-      "reserved_at": "2026-10-30T08:47:19Z"
     },
     {
       "cr_film_id": 16401,
