@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T09:13:36Z",
+  "last_updated": "2026-10-30T09:13:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674697,21 +674697,6 @@
       }
     },
     {
-      "cr_film_id": 12039,
-      "cr_slug": "ritorno-dalla-morte",
-      "title": "Ritorno dalla morte",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T08:30:46Z",
-      "first_failed_at": "2026-10-30T08:30:46Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -675721,19 +675706,24 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41025201382",
-      "run_id": "41025201382",
-      "reserved_at": "2026-10-30T09:02:02Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T09:13:50Z",
+      "first_failed_at": "2026-10-30T08:30:46Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
