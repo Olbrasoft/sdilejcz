@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T03:18:09Z",
+  "last_updated": "2026-10-30T03:18:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677402,21 +677402,6 @@
       }
     },
     {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T02:38:33Z",
-      "first_failed_at": "2026-10-30T02:38:33Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 35736,
       "cr_slug": "oasis-second-night-live-at-knebworth-park",
       "title": "Oasis: Second Night Live at Knebworth Park",
@@ -678261,6 +678246,21 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
+    },
+    {
+      "cr_film_id": 34898,
+      "cr_slug": "sisters-2006",
+      "title": "Sisters",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T03:18:29Z",
+      "first_failed_at": "2026-10-30T02:38:33Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
     }
   ],
   "in_progress": [
@@ -678293,16 +678293,6 @@
       "worker_id": "worker-2-40971174285",
       "run_id": "40971174285",
       "reserved_at": "2026-10-30T03:16:59Z"
-    },
-    {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40971174285",
-      "run_id": "40971174285",
-      "reserved_at": "2026-10-30T03:18:09Z"
     }
   ],
   "missing_on_account": [
