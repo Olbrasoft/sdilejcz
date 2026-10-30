@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T19:57:51Z",
+  "last_updated": "2026-10-30T19:58:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674641,19 +674641,29 @@
       "timing": {
         "cdn_resolve_sec": 30.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 812,
       "cr_slug": "kick-ass",
       "title": "Kick-Ass",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41104537540",
-      "run_id": "41104537540",
-      "reserved_at": "2026-10-30T18:56:04Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3600058 milliseconds with 2724904522 out of 3996829658 bytes received",
+      "failed_at": "2026-10-30T19:58:42Z",
+      "first_failed_at": "2026-10-30T19:58:42Z",
+      "attempt_count": 1,
+      "upload_id": "d384b4c87c2ed920",
+      "source_url": "https://prehraj.to/kick-ass-1-2010-cz-dabing-2160p-ultra-hd-top-kvalita/d384b4c87c2ed920",
+      "upload_title": "Kick-Ass 1 (2010) CZ Dabing 2160p ULTRA HD - TOP KVALITA",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 3602.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9822,
       "cr_slug": "xxx-nova-dimenze",
