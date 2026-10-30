@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T06:04:51Z",
+  "last_updated": "2026-10-30T06:05:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675520,21 +675520,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T05:32:02Z",
-      "first_failed_at": "2026-10-30T04:30:00Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -676183,6 +676168,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T06:05:18Z",
+      "first_failed_at": "2026-10-30T04:30:00Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
     }
   ],
   "in_progress": [
@@ -676215,16 +676215,6 @@
       "worker_id": "worker-4-40999784816",
       "run_id": "40999784816",
       "reserved_at": "2026-10-30T06:03:56Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40999784816",
-      "run_id": "40999784816",
-      "reserved_at": "2026-10-30T06:04:51Z"
     }
   ],
   "missing_on_account": [
