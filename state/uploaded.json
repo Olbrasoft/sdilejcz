@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T20:25:06Z",
+  "last_updated": "2026-10-30T20:25:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675002,19 +675002,29 @@
       "timing": {
         "cdn_resolve_sec": 26.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9822,
       "cr_slug": "xxx-nova-dimenze",
       "title": "xXx: Nová dimenze",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41104537540",
-      "run_id": "41104537540",
-      "reserved_at": "2026-10-30T19:20:28Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3600117 milliseconds with 2759278154 out of 3033239529 bytes received",
+      "failed_at": "2026-10-30T20:25:45Z",
+      "first_failed_at": "2026-10-30T20:25:45Z",
+      "attempt_count": 1,
+      "upload_id": "2078f2f1236bb320",
+      "source_url": "https://prehraj.to/nova-dimenze-2005-cz-en/2078f2f1236bb320",
+      "upload_title": "Nová dimenze 2005 CZ EN",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 3601.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 812,
       "cr_slug": "kick-ass",
