@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T13:33:02Z",
+  "last_updated": "2026-10-30T13:33:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674768,19 +674768,24 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
       "year": 1982,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41057579717",
-      "run_id": "41057579717",
-      "reserved_at": "2026-10-30T13:28:32Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T13:33:18Z",
+      "first_failed_at": "2026-10-30T13:33:18Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15981,
       "cr_slug": "sazim-na-sex-vitez-bere-vse",
