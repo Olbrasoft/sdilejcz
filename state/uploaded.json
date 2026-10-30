@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T08:10:58Z",
+  "last_updated": "2026-10-30T08:11:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677694,26 +677694,6 @@
       }
     },
     {
-      "cr_film_id": 35726,
-      "cr_slug": "taylor-swift-the-eras-tour",
-      "title": "TAYLOR SWIFT | THE ERAS TOUR",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation too slow. Less than 10000 bytes/sec transferred the last 60 seconds",
-      "failed_at": "2026-10-30T07:40:41Z",
-      "first_failed_at": "2026-10-30T07:40:41Z",
-      "attempt_count": 1,
-      "upload_id": "67e2857f3a0b0",
-      "source_url": "https://prehraj.to/taylor-swift-the-eras-tour-2023-bydejv/67e2857f3a0b0",
-      "upload_title": "Taylor Swift The Eras Tour 2023 byDejv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 92.3
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -678392,6 +678372,26 @@
       "attempt_count": 2,
       "timing": {
         "cdn_resolve_sec": 13.9
+      }
+    },
+    {
+      "cr_film_id": 35726,
+      "cr_slug": "taylor-swift-the-eras-tour",
+      "title": "TAYLOR SWIFT | THE ERAS TOUR",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: file exceeds max size (6206873905 B > 6000000000 B)",
+      "failed_at": "2026-10-30T08:11:14Z",
+      "first_failed_at": "2026-10-30T07:40:41Z",
+      "attempt_count": 2,
+      "upload_id": "67e2857f3a0b0",
+      "source_url": "https://prehraj.to/taylor-swift-the-eras-tour-2023-bydejv/67e2857f3a0b0",
+      "upload_title": "Taylor Swift The Eras Tour 2023 byDejv",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 2.3
       }
     }
   ],
