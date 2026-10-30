@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T13:43:46Z",
+  "last_updated": "2026-10-30T13:44:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674313,21 +674313,6 @@
       }
     },
     {
-      "cr_film_id": 11952,
-      "cr_slug": "delta-force-commando-ii-priority-red-one",
-      "title": "Delta Force Commando II: Priority Red One",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T13:09:48Z",
-      "first_failed_at": "2026-10-30T13:09:48Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -675132,19 +675117,24 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41057579717",
-      "run_id": "41057579717",
-      "reserved_at": "2026-10-30T13:39:59Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T13:44:00Z",
+      "first_failed_at": "2026-10-30T13:09:48Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
