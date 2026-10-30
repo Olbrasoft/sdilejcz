@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T03:03:18Z",
+  "last_updated": "2026-10-30T03:03:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677446,22 +677446,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-30T02:32:43Z",
-      "first_failed_at": "2026-10-30T01:30:00Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.4,
-        "download_sec": 1.8
-      }
-    },
-    {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
@@ -678037,6 +678021,22 @@
       "timing": {
         "cdn_resolve_sec": 13.1
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-30T03:03:34Z",
+      "first_failed_at": "2026-10-30T01:30:00Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 1.8
+      }
     }
   ],
   "in_progress": [
@@ -678069,16 +678069,6 @@
       "worker_id": "worker-1-40971174285",
       "run_id": "40971174285",
       "reserved_at": "2026-10-30T02:59:42Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40971174285",
-      "run_id": "40971174285",
-      "reserved_at": "2026-10-30T03:03:18Z"
     }
   ],
   "missing_on_account": [
