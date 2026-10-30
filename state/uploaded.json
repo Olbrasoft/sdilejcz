@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T10:17:10Z",
+  "last_updated": "2026-10-30T10:18:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675556,21 +675556,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T09:31:56Z",
-      "first_failed_at": "2026-10-30T08:27:06Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.7
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676293,19 +676278,24 @@
       "timing": {
         "cdn_resolve_sec": 9.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41025201382",
-      "run_id": "41025201382",
-      "reserved_at": "2026-10-30T10:05:03Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T10:18:32Z",
+      "first_failed_at": "2026-10-30T08:27:06Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29921,
       "cr_slug": "prachy-zbrane-jedno-porno",
