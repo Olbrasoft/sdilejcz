@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T22:34:07Z",
+  "last_updated": "2026-10-30T22:36:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675981,19 +675981,30 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 25521,
       "cr_slug": "another-gay-movie",
       "title": "Another Gay Movie",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41104537540",
-      "run_id": "41104537540",
-      "reserved_at": "2026-10-30T22:18:11Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-30T22:36:43Z",
+      "first_failed_at": "2026-10-30T22:36:43Z",
+      "attempt_count": 1,
+      "upload_id": "5aa04af228f53",
+      "source_url": "https://prehraj.to/another-gay-movie-2006/5aa04af228f53",
+      "upload_title": "Another Gay Movie (2006)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 849.4,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 25795,
       "cr_slug": "jen-na-sex",
