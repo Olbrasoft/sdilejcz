@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T22:54:51Z",
+  "last_updated": "2026-10-30T22:55:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674414,6 +674414,30 @@
         "upload_sec": 136.4,
         "total_sec": 185.9
       }
+    },
+    {
+      "cr_film_id": 23796,
+      "cr_slug": "operace-delta-force-3",
+      "title": "Operace Delta Force 3",
+      "year": 1998,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5a984dc29981f",
+      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
+      "source_title": "Operace Delta Force 3 (1998)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35407883/operace-delta-force-3-1998-.mp4",
+      "sdilej_name": "Operace Delta Force 3 (1998).mp4",
+      "uploaded_at": "2026-10-30T22:51:42Z",
+      "status": "uploaded",
+      "size_bytes": 575321339,
+      "worker_id": "worker-2-41104537540",
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 359.2,
+        "upload_sec": 66.0,
+        "total_sec": 427.1
+      }
     }
   ],
   "failed_attempts": [
@@ -675864,27 +675888,6 @@
       }
     },
     {
-      "cr_film_id": 23796,
-      "cr_slug": "operace-delta-force-3",
-      "title": "Operace Delta Force 3",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-30T22:13:17Z",
-      "first_failed_at": "2026-10-30T22:13:17Z",
-      "attempt_count": 1,
-      "upload_id": "5a984dc29981f",
-      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
-      "upload_title": "Operace Delta Force 3 (1998)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.0,
-        "download_sec": 833.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -676663,16 +676666,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 23796,
-      "cr_slug": "operace-delta-force-3",
-      "title": "Operace Delta Force 3",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41104537540",
-      "run_id": "41104537540",
-      "reserved_at": "2026-10-30T22:44:26Z"
-    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
