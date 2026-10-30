@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T06:58:55Z",
+  "last_updated": "2026-10-30T06:59:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676233,21 +676233,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T06:25:50Z",
-      "first_failed_at": "2026-10-30T04:59:15Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -677393,6 +677378,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T06:59:19Z",
+      "first_failed_at": "2026-10-30T04:59:15Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
     }
   ],
   "in_progress": [
@@ -677425,16 +677425,6 @@
       "worker_id": "worker-2-40999784816",
       "run_id": "40999784816",
       "reserved_at": "2026-10-30T06:58:33Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40999784816",
-      "run_id": "40999784816",
-      "reserved_at": "2026-10-30T06:58:55Z"
     }
   ],
   "missing_on_account": [
