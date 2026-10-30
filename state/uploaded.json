@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T12:50:37Z",
+  "last_updated": "2026-10-30T12:50:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673838,6 +673838,25 @@
       "attempt_count": 1,
       "timing": {
         "cdn_resolve_sec": 13.3
+      }
+    },
+    {
+      "cr_film_id": 2835,
+      "cr_slug": "andel-pane",
+      "title": "Anděl Páně",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/andel-pane-2005-cz-dab-1080p/10b405f3bf21dc1f",
+      "failed_at": "2026-10-30T12:50:50Z",
+      "first_failed_at": "2026-10-30T12:50:50Z",
+      "attempt_count": 1,
+      "upload_id": "10b405f3bf21dc1f",
+      "source_url": "https://prehraj.to/andel-pane-2005-cz-dab-1080p/10b405f3bf21dc1f",
+      "upload_title": "Anděl Páně 2005 CZ dab 1080p",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 0.8
       }
     }
   ],
