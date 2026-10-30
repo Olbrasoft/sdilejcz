@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T14:56:34Z",
+  "last_updated": "2026-10-30T14:56:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674856,21 +674856,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T14:02:24Z",
-      "first_failed_at": "2026-10-30T12:53:00Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -675558,6 +675543,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 3019,
+      "cr_slug": "legenda-o-drakovi",
+      "title": "Legenda o drakovi",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T14:56:59Z",
+      "first_failed_at": "2026-10-30T12:53:00Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.8
+      }
     }
   ],
   "in_progress": [
@@ -675590,16 +675590,6 @@
       "worker_id": "worker-3-41057579717",
       "run_id": "41057579717",
       "reserved_at": "2026-10-30T14:55:57Z"
-    },
-    {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41057579717",
-      "run_id": "41057579717",
-      "reserved_at": "2026-10-30T14:56:34Z"
     }
   ],
   "missing_on_account": [
