@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T02:32:53Z",
+  "last_updated": "2026-10-30T02:33:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677082,21 +677082,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T02:01:17Z",
-      "first_failed_at": "2026-10-30T02:01:17Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
       "title": "Kája + Oliva",
@@ -677769,6 +677754,21 @@
         "cdn_resolve_sec": 1.4,
         "download_sec": 1.8
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T02:33:15Z",
+      "first_failed_at": "2026-10-30T02:01:17Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
     }
   ],
   "in_progress": [
@@ -677791,16 +677791,6 @@
       "worker_id": "worker-2-40971174285",
       "run_id": "40971174285",
       "reserved_at": "2026-10-30T02:31:43Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-40971174285",
-      "run_id": "40971174285",
-      "reserved_at": "2026-10-30T02:32:53Z"
     }
   ],
   "missing_on_account": [
