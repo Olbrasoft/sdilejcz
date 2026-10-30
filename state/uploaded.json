@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T17:51:29Z",
+  "last_updated": "2026-10-30T17:51:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677622,21 +677622,6 @@
       }
     },
     {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T17:19:40Z",
-      "first_failed_at": "2026-10-30T16:48:47Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.7
-      }
-    },
-    {
       "cr_film_id": 37128,
       "cr_slug": "surf-plaz-a-kocky",
       "title": "Surf, pláž a kočky",
@@ -678305,6 +678290,21 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
+    },
+    {
+      "cr_film_id": 34815,
+      "cr_slug": "kaja-oliva",
+      "title": "Kája + Oliva",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T17:51:53Z",
+      "first_failed_at": "2026-10-30T16:48:47Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
     }
   ],
   "in_progress": [
@@ -678337,16 +678337,6 @@
       "worker_id": "worker-4-41057579717",
       "run_id": "41057579717",
       "reserved_at": "2026-10-30T17:50:09Z"
-    },
-    {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41057579717",
-      "run_id": "41057579717",
-      "reserved_at": "2026-10-30T17:51:29Z"
     }
   ],
   "missing_on_account": [
