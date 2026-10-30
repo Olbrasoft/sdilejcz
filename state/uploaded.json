@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T00:20:12Z",
+  "last_updated": "2026-10-30T00:20:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674479,21 +674479,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-29T23:44:44Z",
-      "first_failed_at": "2026-10-29T23:44:44Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.9
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675466,19 +675451,24 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
       "year": 1982,
       "sktorrent_id": null,
-      "worker_id": "worker-2-40971174285",
-      "run_id": "40971174285",
-      "reserved_at": "2026-10-30T00:16:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T00:20:28Z",
+      "first_failed_at": "2026-10-29T23:44:44Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20041,
       "cr_slug": "sex-tape",
