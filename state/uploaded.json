@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T04:21:42Z",
+  "last_updated": "2026-10-30T04:22:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674570,6 +674570,27 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
+    },
+    {
+      "cr_film_id": 10695,
+      "cr_slug": "the-body-snatcher",
+      "title": "The Body Snatcher",
+      "year": 1945,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "failed_at": "2026-10-30T04:22:25Z",
+      "first_failed_at": "2026-10-30T04:22:25Z",
+      "attempt_count": 1,
+      "upload_id": "ebe6c99e542a7dc2",
+      "source_url": "https://prehraj.to/the-body-snatcher-1945-cz-dabing/ebe6c99e542a7dc2",
+      "upload_title": "The Body Snatcher (1945) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 28.5,
+        "upload_sec": 0.0
+      }
     }
   ],
   "in_progress": [
@@ -674602,16 +674623,6 @@
       "worker_id": "worker-1-40999784816",
       "run_id": "40999784816",
       "reserved_at": "2026-10-30T04:20:20Z"
-    },
-    {
-      "cr_film_id": 10695,
-      "cr_slug": "the-body-snatcher",
-      "title": "The Body Snatcher",
-      "year": 1945,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-40999784816",
-      "run_id": "40999784816",
-      "reserved_at": "2026-10-30T04:21:42Z"
     }
   ],
   "missing_on_account": [
