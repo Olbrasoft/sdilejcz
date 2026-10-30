@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T08:29:39Z",
+  "last_updated": "2026-10-30T08:30:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674711,19 +674711,29 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 3890,
       "cr_slug": "ztracene-mesto-z",
       "title": "Ztracené město Z",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41025201382",
-      "run_id": "41025201382",
-      "reserved_at": "2026-10-30T08:25:50Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 56: curl: (56) OpenSSL SSL_read: OpenSSL/3.5.5: error:0A000126:SSL routines::unexpected eof while reading, errno 0",
+      "failed_at": "2026-10-30T08:30:08Z",
+      "first_failed_at": "2026-10-30T08:30:08Z",
+      "attempt_count": 1,
+      "upload_id": "5b8ecb22a3ed5",
+      "source_url": "https://prehraj.to/ztracene-mesto-z-cz-dabing-2016/5b8ecb22a3ed5",
+      "upload_title": "Ztracené město Z [CZ dabing, 2016]",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 3.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11864,
       "cr_slug": "sex-lzi-a-video",
