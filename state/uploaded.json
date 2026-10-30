@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-30T04:52:44Z",
+  "last_updated": "2026-10-30T04:53:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674545,21 +674545,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-30T04:21:30Z",
-      "first_failed_at": "2026-10-30T04:21:30Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.5
-      }
-    },
-    {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
@@ -675559,6 +675544,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-30T04:53:12Z",
+      "first_failed_at": "2026-10-30T04:21:30Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -675591,16 +675591,6 @@
       "worker_id": "worker-1-40999784816",
       "run_id": "40999784816",
       "reserved_at": "2026-10-30T04:51:24Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-40999784816",
-      "run_id": "40999784816",
-      "reserved_at": "2026-10-30T04:52:44Z"
     }
   ],
   "missing_on_account": [
