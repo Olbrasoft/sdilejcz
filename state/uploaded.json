@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T18:23:49Z",
+  "last_updated": "2026-10-31T18:24:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676967,21 +676967,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T17:53:22Z",
-      "first_failed_at": "2026-10-31T17:53:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 29.0
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -677591,6 +677576,21 @@
       "timing": {
         "cdn_resolve_sec": 29.7
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T18:24:31Z",
+      "first_failed_at": "2026-10-31T17:53:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.4
+      }
     }
   ],
   "in_progress": [
@@ -677623,16 +677623,6 @@
       "worker_id": "worker-2-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T18:15:28Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T18:23:49Z"
     }
   ],
   "missing_on_account": [
