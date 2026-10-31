@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T09:42:46Z",
+  "last_updated": "2026-10-31T09:43:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674785,6 +674785,30 @@
         "upload_sec": 114.0,
         "total_sec": 150.4
       }
+    },
+    {
+      "cr_film_id": 33579,
+      "cr_slug": "the-penthouse",
+      "title": "The Penthouse",
+      "year": 2010,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5fda728a8d152",
+      "source_url": "https://prehraj.to/penthouse-2010-czdab/5fda728a8d152",
+      "source_title": "Penthouse (2010) CZdab",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35409695/the-penthouse-2010-cz-dabing.mp4",
+      "sdilej_name": "The Penthouse (2010) CZ Dabing.mp4",
+      "uploaded_at": "2026-10-31T09:10:02Z",
+      "status": "uploaded",
+      "size_bytes": 1057906522,
+      "worker_id": "worker-3-41170004770",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 43.2,
+        "upload_sec": 126.9,
+        "total_sec": 172.1
+      }
     }
   ],
   "failed_attempts": [
@@ -676975,27 +676999,6 @@
       }
     },
     {
-      "cr_film_id": 33579,
-      "cr_slug": "the-penthouse",
-      "title": "The Penthouse",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-31T08:22:33Z",
-      "first_failed_at": "2026-10-31T08:22:33Z",
-      "attempt_count": 1,
-      "upload_id": "5fda728a8d152",
-      "source_url": "https://prehraj.to/penthouse-2010-czdab/5fda728a8d152",
-      "upload_title": "Penthouse (2010) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 48.3,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 33953,
       "cr_slug": "they-live-in-the-grey",
       "title": "They Live in the Grey",
@@ -678378,16 +678381,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 33579,
-      "cr_slug": "the-penthouse",
-      "title": "The Penthouse",
-      "year": 2010,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T09:07:00Z"
-    },
     {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
