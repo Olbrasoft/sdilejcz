@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T14:49:50Z",
+  "last_updated": "2026-10-31T14:50:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674105,21 +674105,6 @@
       }
     },
     {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T14:19:39Z",
-      "first_failed_at": "2026-10-31T14:19:39Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.1
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -674741,6 +674726,21 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
+    },
+    {
+      "cr_film_id": 7365,
+      "cr_slug": "monster-trucks",
+      "title": "Monster Trucks",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T14:50:13Z",
+      "first_failed_at": "2026-10-31T14:19:39Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
     }
   ],
   "in_progress": [
@@ -674773,16 +674773,6 @@
       "worker_id": "worker-1-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T14:46:28Z"
-    },
-    {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T14:49:50Z"
     }
   ],
   "missing_on_account": [
