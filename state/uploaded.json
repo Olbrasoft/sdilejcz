@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T13:33:22Z",
+  "last_updated": "2026-10-31T13:33:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674785,6 +674785,30 @@
         "upload_sec": 359.6,
         "total_sec": 482.9
       }
+    },
+    {
+      "cr_film_id": 24397,
+      "cr_slug": "chilli-sex-a-samba",
+      "title": "Chilli, sex a samba",
+      "year": 2000,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5a8d60b952c75",
+      "source_url": "https://prehraj.to/chilli-sex-a-samba-2000/5a8d60b952c75",
+      "source_title": "Chilli, sex a samba (2000)",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35410469/chilli-sex-a-samba-2000-.mp4",
+      "sdilej_name": "Chilli, sex a samba (2000).mp4",
+      "uploaded_at": "2026-10-31T13:29:50Z",
+      "status": "uploaded",
+      "size_bytes": 949519443,
+      "worker_id": "worker-3-41191303843",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 300.8,
+        "upload_sec": 113.6,
+        "total_sec": 416.0
+      }
     }
   ],
   "failed_attempts": [
@@ -676803,27 +676827,6 @@
       }
     },
     {
-      "cr_film_id": 24397,
-      "cr_slug": "chilli-sex-a-samba",
-      "title": "Chilli, sex a samba",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-31T12:52:15Z",
-      "first_failed_at": "2026-10-31T12:52:15Z",
-      "attempt_count": 1,
-      "upload_id": "5a8d60b952c75",
-      "source_url": "https://prehraj.to/chilli-sex-a-samba-2000/5a8d60b952c75",
-      "upload_title": "Chilli, sex a samba (2000)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.5,
-        "download_sec": 213.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -677933,16 +677936,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 24397,
-      "cr_slug": "chilli-sex-a-samba",
-      "title": "Chilli, sex a samba",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41191303843",
-      "run_id": "41191303843",
-      "reserved_at": "2026-10-31T13:22:44Z"
-    },
     {
       "cr_film_id": 35063,
       "cr_slug": "the-silent-thief",
