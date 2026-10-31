@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T18:56:38Z",
+  "last_updated": "2026-10-31T18:57:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677394,21 +677394,6 @@
       }
     },
     {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T18:26:16Z",
-      "first_failed_at": "2026-10-31T18:26:16Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 21.8
-      }
-    },
-    {
       "cr_film_id": 34902,
       "cr_slug": "duch-boure",
       "title": "Duch bouře",
@@ -678018,6 +678003,21 @@
       "timing": {
         "cdn_resolve_sec": 29.3
       }
+    },
+    {
+      "cr_film_id": 34898,
+      "cr_slug": "sisters-2006",
+      "title": "Sisters",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T18:57:19Z",
+      "first_failed_at": "2026-10-31T18:26:16Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.2
+      }
     }
   ],
   "in_progress": [
@@ -678040,16 +678040,6 @@
       "worker_id": "worker-4-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T18:46:27Z"
-    },
-    {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T18:56:38Z"
     }
   ],
   "missing_on_account": [
