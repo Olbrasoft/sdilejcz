@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T15:42:38Z",
+  "last_updated": "2026-10-31T15:43:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674618,21 +674618,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T15:12:36Z",
-      "first_failed_at": "2026-10-31T15:12:36Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.1
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -675459,6 +675444,21 @@
       "timing": {
         "cdn_resolve_sec": 18.3
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T15:43:09Z",
+      "first_failed_at": "2026-10-31T15:12:36Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 18.0
+      }
     }
   ],
   "in_progress": [
@@ -675491,16 +675491,6 @@
       "worker_id": "worker-4-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T15:40:29Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T15:42:38Z"
     }
   ],
   "missing_on_account": [
