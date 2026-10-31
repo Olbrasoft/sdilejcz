@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T19:09:20Z",
+  "last_updated": "2026-10-31T19:10:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677394,21 +677394,6 @@
       }
     },
     {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T18:32:07Z",
-      "first_failed_at": "2026-10-31T18:32:07Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
       "title": "Strašidelné líbánky",
@@ -678167,6 +678152,21 @@
       "timing": {
         "cdn_resolve_sec": 29.5
       }
+    },
+    {
+      "cr_film_id": 34949,
+      "cr_slug": "duch-ohne",
+      "title": "Duch ohně",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T19:10:08Z",
+      "first_failed_at": "2026-10-31T18:32:07Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 34.8
+      }
     }
   ],
   "in_progress": [
@@ -678189,16 +678189,6 @@
       "worker_id": "worker-1-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T19:08:38Z"
-    },
-    {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T19:09:20Z"
     }
   ],
   "missing_on_account": [
