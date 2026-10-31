@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T05:53:26Z",
+  "last_updated": "2026-10-31T05:54:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674277,23 +674277,6 @@
       }
     },
     {
-      "cr_film_id": 13512,
-      "cr_slug": "sex-surrogate",
-      "title": "Sex Surrogate",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-31T05:21:38Z",
-      "first_failed_at": "2026-10-31T05:21:38Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.6,
-        "download_sec": 29.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -675113,6 +675096,23 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
+    },
+    {
+      "cr_film_id": 13512,
+      "cr_slug": "sex-surrogate",
+      "title": "Sex Surrogate",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T05:54:47Z",
+      "first_failed_at": "2026-10-31T05:21:38Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.6,
+        "download_sec": 28.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675125,16 +675125,6 @@
       "worker_id": "worker-4-41170004770",
       "run_id": "41170004770",
       "reserved_at": "2026-10-31T05:50:49Z"
-    },
-    {
-      "cr_film_id": 13512,
-      "cr_slug": "sex-surrogate",
-      "title": "Sex Surrogate",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T05:53:26Z"
     }
   ],
   "missing_on_account": [
