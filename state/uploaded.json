@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T18:34:05Z",
+  "last_updated": "2026-10-31T18:34:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677708,19 +677708,24 @@
       "timing": {
         "cdn_resolve_sec": 28.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
       "title": "Ostrov příšer",
       "year": 2004,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T18:28:16Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T18:34:21Z",
+      "first_failed_at": "2026-10-31T18:34:21Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 29.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
