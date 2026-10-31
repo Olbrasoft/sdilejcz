@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T12:51:55Z",
+  "last_updated": "2026-10-31T12:52:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677033,19 +677033,30 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 24397,
       "cr_slug": "chilli-sex-a-samba",
       "title": "Chilli, sex a samba",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41191303843",
-      "run_id": "41191303843",
-      "reserved_at": "2026-10-31T12:22:04Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T12:52:15Z",
+      "first_failed_at": "2026-10-31T12:52:15Z",
+      "attempt_count": 1,
+      "upload_id": "5a8d60b952c75",
+      "source_url": "https://prehraj.to/chilli-sex-a-samba-2000/5a8d60b952c75",
+      "upload_title": "Chilli, sex a samba (2000)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.5,
+        "download_sec": 213.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
