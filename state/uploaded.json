@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T04:04:47Z",
+  "last_updated": "2026-10-31T04:04:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674672,6 +674672,30 @@
         "upload_sec": 243.4,
         "total_sec": 327.7
       }
+    },
+    {
+      "cr_film_id": 34754,
+      "cr_slug": "studentka",
+      "title": "Studentka",
+      "year": 1988,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "4deb3748356500d8",
+      "source_url": "https://prehraj.to/studentka-1988-fhd-cz-fr/4deb3748356500d8",
+      "source_title": "Studentka (1988) FHD cz fr",
+      "source_resolution": "720p",
+      "sdilej_url": "https://sdilej.cz/35408721/studentka-1988-.mp4",
+      "sdilej_name": "Studentka (1988).mp4",
+      "uploaded_at": "2026-10-31T03:32:17Z",
+      "status": "uploaded",
+      "size_bytes": 1412218619,
+      "worker_id": "worker-4-41145729206",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 56.0,
+        "upload_sec": 165.6,
+        "total_sec": 223.3
+      }
     }
   ],
   "failed_attempts": [
@@ -677144,27 +677168,6 @@
       }
     },
     {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-31T02:57:27Z",
-      "first_failed_at": "2026-10-31T02:57:27Z",
-      "attempt_count": 1,
-      "upload_id": "4deb3748356500d8",
-      "source_url": "https://prehraj.to/studentka-1988-fhd-cz-fr/4deb3748356500d8",
-      "upload_title": "Studentka (1988) FHD cz fr",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 40.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34593,
       "cr_slug": "fichtelberg",
       "title": "Fichtelberg",
@@ -677181,23 +677184,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.5
-      }
-    },
-    {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-31T03:04:14Z",
-      "first_failed_at": "2026-10-31T03:04:14Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 2.1,
-        "download_sec": 61.8,
-        "upload_sec": 30.0
       }
     },
     {
@@ -678050,16 +678036,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T03:28:24Z"
-    },
     {
       "cr_film_id": 36787,
       "cr_slug": "dead-sexy",
