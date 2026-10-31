@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T02:57:07Z",
+  "last_updated": "2026-10-31T02:57:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677327,6 +677327,27 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
+    },
+    {
+      "cr_film_id": 34754,
+      "cr_slug": "studentka",
+      "title": "Studentka",
+      "year": 1988,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T02:57:27Z",
+      "first_failed_at": "2026-10-31T02:57:27Z",
+      "attempt_count": 1,
+      "upload_id": "4deb3748356500d8",
+      "source_url": "https://prehraj.to/studentka-1988-fhd-cz-fr/4deb3748356500d8",
+      "upload_title": "Studentka (1988) FHD cz fr",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 40.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -677339,16 +677360,6 @@
       "worker_id": "worker-3-41145729206",
       "run_id": "41145729206",
       "reserved_at": "2026-10-31T02:48:05Z"
-    },
-    {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T02:51:25Z"
     },
     {
       "cr_film_id": 30789,
