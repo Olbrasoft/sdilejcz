@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T16:39:30Z",
+  "last_updated": "2026-10-31T16:40:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675216,21 +675216,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T15:57:33Z",
-      "first_failed_at": "2026-10-31T15:57:33Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.1
-      }
-    },
-    {
       "cr_film_id": 24487,
       "cr_slug": "laska-a-sex",
       "title": "Láska a sex",
@@ -675825,6 +675810,21 @@
         "cdn_resolve_sec": 13.4,
         "download_sec": 2.4
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T16:40:03Z",
+      "first_failed_at": "2026-10-31T15:57:33Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 20.3
+      }
     }
   ],
   "in_progress": [
@@ -675857,16 +675857,6 @@
       "worker_id": "worker-4-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T16:35:12Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T16:39:30Z"
     }
   ],
   "missing_on_account": [
