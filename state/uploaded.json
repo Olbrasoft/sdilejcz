@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T19:33:20Z",
+  "last_updated": "2026-10-31T19:35:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677368,21 +677368,6 @@
       }
     },
     {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T18:46:15Z",
-      "first_failed_at": "2026-10-31T18:13:39Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 29.2
-      }
-    },
-    {
       "cr_film_id": 35364,
       "cr_slug": "sketch",
       "title": "Sketch",
@@ -678318,19 +678303,24 @@
       "timing": {
         "cdn_resolve_sec": 30.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34827,
       "cr_slug": "ohnivy-ring",
       "title": "Ohnivý ring",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T19:28:52Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T19:35:33Z",
+      "first_failed_at": "2026-10-31T18:13:39Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 29.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
