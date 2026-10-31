@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T19:04:27Z",
+  "last_updated": "2026-10-31T19:05:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677439,21 +677439,6 @@
       }
     },
     {
-      "cr_film_id": 34933,
-      "cr_slug": "ostrov-priser",
-      "title": "Ostrov příšer",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T18:34:21Z",
-      "first_failed_at": "2026-10-31T18:34:21Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 29.3
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678148,6 +678133,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34933,
+      "cr_slug": "ostrov-priser",
+      "title": "Ostrov příšer",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T19:05:09Z",
+      "first_failed_at": "2026-10-31T18:34:21Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.8
+      }
     }
   ],
   "in_progress": [
@@ -678160,16 +678160,6 @@
       "worker_id": "worker-3-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T18:38:45Z"
-    },
-    {
-      "cr_film_id": 34933,
-      "cr_slug": "ostrov-priser",
-      "title": "Ostrov příšer",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T19:04:27Z"
     }
   ],
   "missing_on_account": [
