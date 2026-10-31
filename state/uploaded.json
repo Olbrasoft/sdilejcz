@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T19:42:46Z",
+  "last_updated": "2026-10-31T19:42:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673807,19 +673807,24 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1408,
       "cr_slug": "black-panther",
       "title": "Black Panther",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T19:39:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T19:42:58Z",
+      "first_failed_at": "2026-10-31T19:42:58Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 28.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
