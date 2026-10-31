@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T19:10:20Z",
+  "last_updated": "2026-10-31T19:11:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677394,21 +677394,6 @@
       }
     },
     {
-      "cr_film_id": 34957,
-      "cr_slug": "strasidelne-libanky",
-      "title": "Strašidelné líbánky",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T18:33:00Z",
-      "first_failed_at": "2026-10-31T18:33:00Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 29.1
-      }
-    },
-    {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
@@ -678167,6 +678152,21 @@
       "timing": {
         "cdn_resolve_sec": 34.8
       }
+    },
+    {
+      "cr_film_id": 34957,
+      "cr_slug": "strasidelne-libanky",
+      "title": "Strašidelné líbánky",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T19:11:02Z",
+      "first_failed_at": "2026-10-31T18:33:00Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.5
+      }
     }
   ],
   "in_progress": [
@@ -678189,16 +678189,6 @@
       "worker_id": "worker-1-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T19:08:38Z"
-    },
-    {
-      "cr_film_id": 34957,
-      "cr_slug": "strasidelne-libanky",
-      "title": "Strašidelné líbánky",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T19:10:20Z"
     }
   ],
   "missing_on_account": [
