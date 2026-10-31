@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T23:49:00Z",
+  "last_updated": "2026-10-31T23:49:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674555,6 +674555,27 @@
         "upload_sec": 144.5,
         "total_sec": 217.7
       }
+    },
+    {
+      "cr_film_id": 34754,
+      "cr_slug": "studentka",
+      "title": "Studentka",
+      "year": 1988,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 59277,
+      "sdilej_url": "https://sdilej.cz/35413414/studentka-1988-.mp4",
+      "sdilej_name": "Studentka (1988).mp4",
+      "uploaded_at": "2026-10-31T23:44:16Z",
+      "status": "uploaded",
+      "size_bytes": 652093768,
+      "worker_id": "worker-4-41235161159",
+      "timing": {
+        "cdn_resolve_sec": 2.0,
+        "download_sec": 92.0,
+        "upload_sec": 78.4,
+        "total_sec": 172.4
+      }
     }
   ],
   "failed_attempts": [
@@ -677289,27 +677310,6 @@
       }
     },
     {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-31T23:37:27Z",
-      "first_failed_at": "2026-10-31T23:37:27Z",
-      "attempt_count": 1,
-      "upload_id": "4deb3748356500d8",
-      "source_url": "https://prehraj.to/studentka-1988-fhd-cz-fr/4deb3748356500d8",
-      "upload_title": "Studentka (1988) FHD cz fr",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.7,
-        "download_sec": 41.7,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
       "title": "Kája + Oliva",
@@ -677578,16 +677578,6 @@
       "worker_id": "worker-3-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-10-31T23:40:38Z"
-    },
-    {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T23:41:13Z"
     }
   ],
   "missing_on_account": [
