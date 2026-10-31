@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T09:33:17Z",
+  "last_updated": "2026-10-31T09:33:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678270,6 +678270,21 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
+    },
+    {
+      "cr_film_id": 37224,
+      "cr_slug": "los-angeles-streetfighter",
+      "title": "Los Angeles Streetfighter",
+      "year": 1985,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T09:33:43Z",
+      "first_failed_at": "2026-10-31T09:33:43Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -678302,16 +678317,6 @@
       "worker_id": "worker-1-41170004770",
       "run_id": "41170004770",
       "reserved_at": "2026-10-31T09:27:19Z"
-    },
-    {
-      "cr_film_id": 37224,
-      "cr_slug": "los-angeles-streetfighter",
-      "title": "Los Angeles Streetfighter",
-      "year": 1985,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T09:33:17Z"
     }
   ],
   "missing_on_account": [
