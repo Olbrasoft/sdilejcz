@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T20:50:31Z",
+  "last_updated": "2026-10-31T20:50:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674346,21 +674346,6 @@
       }
     },
     {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T20:16:02Z",
-      "first_failed_at": "2026-10-31T19:42:58Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 25.8
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -674884,6 +674869,23 @@
       "timing": {
         "cdn_resolve_sec": 17.6
       }
+    },
+    {
+      "cr_film_id": 1408,
+      "cr_slug": "black-panther",
+      "title": "Black Panther",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T20:50:46Z",
+      "first_failed_at": "2026-10-31T19:42:58Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.9,
+        "download_sec": 78.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674896,16 +674898,6 @@
       "worker_id": "worker-4-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-10-31T20:04:26Z"
-    },
-    {
-      "cr_film_id": 1408,
-      "cr_slug": "black-panther",
-      "title": "Black Panther",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T20:47:09Z"
     },
     {
       "cr_film_id": 14928,
