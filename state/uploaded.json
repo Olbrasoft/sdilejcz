@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T07:17:30Z",
+  "last_updated": "2026-10-31T07:17:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674904,21 +674904,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T06:26:27Z",
-      "first_failed_at": "2026-10-31T05:20:36Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -675762,6 +675747,21 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T07:17:50Z",
+      "first_failed_at": "2026-10-31T05:20:36Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 8.8
+      }
     }
   ],
   "in_progress": [
@@ -675794,16 +675794,6 @@
       "worker_id": "worker-4-41170004770",
       "run_id": "41170004770",
       "reserved_at": "2026-10-31T07:15:29Z"
-    },
-    {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T07:17:30Z"
     }
   ],
   "missing_on_account": [
