@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T20:05:45Z",
+  "last_updated": "2026-10-31T20:06:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674435,6 +674435,21 @@
       "timing": {
         "cdn_resolve_sec": 21.3
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T20:06:21Z",
+      "first_failed_at": "2026-10-31T20:06:21Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 25.0
+      }
     }
   ],
   "in_progress": [
@@ -674467,16 +674482,6 @@
       "worker_id": "worker-4-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-10-31T20:04:26Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T20:05:45Z"
     }
   ],
   "missing_on_account": [
