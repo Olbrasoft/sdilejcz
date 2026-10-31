@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T16:44:56Z",
+  "last_updated": "2026-10-31T16:46:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675876,6 +675876,27 @@
       "timing": {
         "cdn_resolve_sec": 22.2
       }
+    },
+    {
+      "cr_film_id": 26529,
+      "cr_slug": "tajny-denik-brazilske-studentky",
+      "title": "Tajný deník brazilské studentky",
+      "year": 2021,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T16:46:31Z",
+      "first_failed_at": "2026-10-31T16:46:31Z",
+      "attempt_count": 1,
+      "upload_id": "60ed819c04ba4",
+      "source_url": "https://prehraj.to/tajny-zivot-mojej-dcery-2021-sk/60ed819c04ba4",
+      "upload_title": "Tajný život mojej dcéry (2021) sk",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 50.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675908,16 +675929,6 @@
       "worker_id": "worker-3-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T16:43:36Z"
-    },
-    {
-      "cr_film_id": 26529,
-      "cr_slug": "tajny-denik-brazilske-studentky",
-      "title": "Tajný deník brazilské studentky",
-      "year": 2021,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T16:44:56Z"
     }
   ],
   "missing_on_account": [
