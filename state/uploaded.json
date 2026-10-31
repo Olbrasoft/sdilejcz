@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T03:02:28Z",
+  "last_updated": "2026-10-31T03:04:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677472,6 +677472,23 @@
       "timing": {
         "resolve_sec": 0.5
       }
+    },
+    {
+      "cr_film_id": 34754,
+      "cr_slug": "studentka",
+      "title": "Studentka",
+      "year": 1988,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T03:04:14Z",
+      "first_failed_at": "2026-10-31T03:04:14Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 2.1,
+        "download_sec": 61.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -677504,16 +677521,6 @@
       "worker_id": "worker-1-41145729206",
       "run_id": "41145729206",
       "reserved_at": "2026-10-31T03:01:52Z"
-    },
-    {
-      "cr_film_id": 34754,
-      "cr_slug": "studentka",
-      "title": "Studentka",
-      "year": 1988,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T03:02:28Z"
     }
   ],
   "missing_on_account": [
