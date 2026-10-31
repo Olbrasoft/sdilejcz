@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T22:45:20Z",
+  "last_updated": "2026-10-31T22:45:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676205,19 +676205,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 20358,
       "cr_slug": "sex-v-parizi",
       "title": "Sex v Paříži",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T22:27:36Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T22:45:40Z",
+      "first_failed_at": "2026-10-31T22:45:40Z",
+      "attempt_count": 1,
+      "upload_id": "561154a6498a8",
+      "source_url": "https://prehraj.to/sex-v-parizi-sous-les-jupes-des-filles-2014-bdrip-xvid-cz-dabing-novinka-hit/561154a6498a8",
+      "upload_title": "Sex v Paříži, Sous les jupes des filles (2014) BDRip.XviD.CZ DABING NOVINKA HIT",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 868.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22457,
       "cr_slug": "orli-pero",
