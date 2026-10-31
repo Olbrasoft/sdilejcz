@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T00:45:32Z",
+  "last_updated": "2026-10-31T00:45:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674484,21 +674484,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T00:14:27Z",
-      "first_failed_at": "2026-10-31T00:14:27Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.3
-      }
-    },
-    {
       "cr_film_id": 15084,
       "cr_slug": "sex-jak-to-rozbalit",
       "title": "Sex: Jak to rozbalit",
@@ -675556,6 +675541,21 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T00:45:57Z",
+      "first_failed_at": "2026-10-31T00:14:27Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -675588,16 +675588,6 @@
       "worker_id": "worker-2-41145729206",
       "run_id": "41145729206",
       "reserved_at": "2026-10-31T00:44:58Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T00:45:32Z"
     }
   ],
   "missing_on_account": [
