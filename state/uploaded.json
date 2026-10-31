@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T08:05:38Z",
+  "last_updated": "2026-10-31T08:06:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676851,19 +676851,24 @@
       "timing": {
         "cdn_resolve_sec": 11.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
       "year": 1932,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T07:57:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T08:06:57Z",
+      "first_failed_at": "2026-10-31T08:06:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31745,
       "cr_slug": "fuck-the-prom",
