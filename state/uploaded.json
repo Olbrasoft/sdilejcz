@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T06:27:00Z",
+  "last_updated": "2026-10-31T06:28:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675328,19 +675328,30 @@
       "timing": {
         "cdn_resolve_sec": 12.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18043,
       "cr_slug": "sexy-party-3-prvak",
       "title": "Sexy party 3: Prvák",
       "year": 2009,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T06:23:00Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T06:28:06Z",
+      "first_failed_at": "2026-10-31T06:28:06Z",
+      "attempt_count": 1,
+      "upload_id": "0e6255a9f93464ac",
+      "source_url": "https://prehraj.to/sexy-party-3-prvak-jonathan-bennett-kristin-cavallari-steve-talley-2009-komedie-bdrip-1080p-cz-dabing/0e6255a9f93464ac",
+      "upload_title": "Sexy party 3-Prvák (Jonathan Bennett, Kristin Cavallari, Steve Talley-2009 Komedie-Bdrip.-1080p.) Cz dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.6,
+        "download_sec": 124.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
