@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T01:21:37Z",
+  "last_updated": "2026-10-31T01:22:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674989,21 +674989,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T00:47:35Z",
-      "first_failed_at": "2026-10-30T23:42:05Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.0
-      }
-    },
-    {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
@@ -675781,6 +675766,21 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T01:22:03Z",
+      "first_failed_at": "2026-10-30T23:42:05Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
     }
   ],
   "in_progress": [
@@ -675813,16 +675813,6 @@
       "worker_id": "worker-4-41145729206",
       "run_id": "41145729206",
       "reserved_at": "2026-10-31T01:19:33Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T01:21:37Z"
     }
   ],
   "missing_on_account": [
