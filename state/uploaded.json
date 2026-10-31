@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T09:58:42Z",
+  "last_updated": "2026-10-31T09:59:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677499,21 +677499,6 @@
       }
     },
     {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T09:23:09Z",
-      "first_failed_at": "2026-10-31T08:52:43Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.0
-      }
-    },
-    {
       "cr_film_id": 36673,
       "cr_slug": "ma-me-rad-nema-me-rad-1956",
       "title": "Má mě rád, nemá mě rád",
@@ -678393,20 +678378,24 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34902,
       "cr_slug": "duch-boure",
       "title": "Duch bouře",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T09:58:42Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T09:59:06Z",
+      "first_failed_at": "2026-10-31T08:52:43Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
