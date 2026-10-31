@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T13:43:08Z",
+  "last_updated": "2026-10-31T13:43:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677246,22 +677246,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-31T13:08:07Z",
-      "first_failed_at": "2026-10-31T12:36:05Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.5,
-        "download_sec": 1.6
-      }
-    },
-    {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
       "title": "Kája + Oliva",
@@ -678185,6 +678169,22 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-31T13:43:28Z",
+      "first_failed_at": "2026-10-31T12:36:05Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -678197,16 +678197,6 @@
       "worker_id": "worker-2-41191303843",
       "run_id": "41191303843",
       "reserved_at": "2026-10-31T13:30:12Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41191303843",
-      "run_id": "41191303843",
-      "reserved_at": "2026-10-31T13:38:32Z"
     },
     {
       "cr_film_id": 34885,
