@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T18:38:45Z",
+  "last_updated": "2026-10-31T18:39:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677802,19 +677802,24 @@
       "timing": {
         "cdn_resolve_sec": 27.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34961,
       "cr_slug": "jackass-volume-one",
       "title": "Jackass Volume One",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T18:34:05Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T18:39:31Z",
+      "first_failed_at": "2026-10-31T18:39:31Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 29.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
