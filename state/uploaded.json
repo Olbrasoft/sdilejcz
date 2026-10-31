@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T08:16:20Z",
+  "last_updated": "2026-10-31T08:17:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676978,19 +676978,30 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31745,
       "cr_slug": "fuck-the-prom",
       "title": "Fuck the Prom",
       "year": 2017,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T07:57:58Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T08:17:00Z",
+      "first_failed_at": "2026-10-31T08:17:00Z",
+      "attempt_count": 1,
+      "upload_id": "5f3c4d68201f0",
+      "source_url": "https://prehraj.to/f-the-prom-2017-cz-titulky-v-obraze/5f3c4d68201f0",
+      "upload_title": "F the Prom (2017) CZ titulky v OBRAZE",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 24.7,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 33414,
       "cr_slug": "on-the-basis-of-sex",
