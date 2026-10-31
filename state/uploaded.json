@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T20:08:50Z",
+  "last_updated": "2026-10-31T20:09:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674495,6 +674495,21 @@
       "timing": {
         "cdn_resolve_sec": 17.0
       }
+    },
+    {
+      "cr_film_id": 12879,
+      "cr_slug": "gogs-gogwana",
+      "title": "Gogs: Gogwana",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T20:09:28Z",
+      "first_failed_at": "2026-10-31T20:09:28Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 26.3
+      }
     }
   ],
   "in_progress": [
@@ -674527,16 +674542,6 @@
       "worker_id": "worker-4-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-10-31T20:04:26Z"
-    },
-    {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T20:08:50Z"
     }
   ],
   "missing_on_account": [
