@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T22:19:44Z",
+  "last_updated": "2026-10-31T22:20:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675001,21 +675001,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T21:33:13Z",
-      "first_failed_at": "2026-10-31T20:28:11Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.2
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -675633,6 +675618,21 @@
         "resolve_sec": 0.8,
         "download_sec": 1.8
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T22:20:09Z",
+      "first_failed_at": "2026-10-31T20:28:11Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.4
+      }
     }
   ],
   "in_progress": [
@@ -675665,16 +675665,6 @@
       "worker_id": "worker-4-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-10-31T22:18:21Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T22:19:44Z"
     }
   ],
   "missing_on_account": [
