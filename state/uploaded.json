@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T17:41:43Z",
+  "last_updated": "2026-10-31T17:43:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676820,19 +676820,24 @@
         "download_sec": 502.9,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T17:39:09Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T17:43:50Z",
+      "first_failed_at": "2026-10-31T17:43:50Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 20.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
