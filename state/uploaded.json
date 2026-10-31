@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T09:34:27Z",
+  "last_updated": "2026-10-31T09:34:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677527,22 +677527,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-31T09:04:19Z",
-      "first_failed_at": "2026-10-31T07:46:25Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.6,
-        "download_sec": 2.5
-      }
-    },
-    {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
@@ -678285,6 +678269,22 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-31T09:34:42Z",
+      "first_failed_at": "2026-10-31T07:46:25Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 2.0
+      }
     }
   ],
   "in_progress": [
@@ -678317,16 +678317,6 @@
       "worker_id": "worker-4-41170004770",
       "run_id": "41170004770",
       "reserved_at": "2026-10-31T09:33:55Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T09:34:27Z"
     }
   ],
   "missing_on_account": [
