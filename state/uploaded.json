@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T01:17:28Z",
+  "last_updated": "2026-10-31T01:18:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674769,21 +674769,6 @@
       }
     },
     {
-      "cr_film_id": 14227,
-      "cr_slug": "zeme-lednich-medvedu",
-      "title": "Země ledních medvědů",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T00:39:11Z",
-      "first_failed_at": "2026-10-31T00:08:08Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.9
-      }
-    },
-    {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
       "title": "Wind River",
@@ -675733,19 +675718,24 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T01:12:19Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T01:18:04Z",
+      "first_failed_at": "2026-10-31T00:08:08Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 26852,
       "cr_slug": "make-the-yuletide-gay",
