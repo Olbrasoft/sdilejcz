@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T00:26:03Z",
+  "last_updated": "2026-10-31T00:26:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675260,19 +675260,24 @@
       "timing": {
         "cdn_resolve_sec": 12.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T00:12:59Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T00:26:16Z",
+      "first_failed_at": "2026-10-31T00:26:16Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15084,
       "cr_slug": "sex-jak-to-rozbalit",
