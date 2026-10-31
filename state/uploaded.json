@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T12:54:15Z",
+  "last_updated": "2026-10-31T12:54:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676106,21 +676106,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T12:21:52Z",
-      "first_failed_at": "2026-10-31T12:21:52Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.3
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -677069,6 +677054,21 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T12:54:42Z",
+      "first_failed_at": "2026-10-31T12:21:52Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
     }
   ],
   "in_progress": [
@@ -677091,16 +677091,6 @@
       "worker_id": "worker-4-41191303843",
       "run_id": "41191303843",
       "reserved_at": "2026-10-31T12:53:45Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41191303843",
-      "run_id": "41191303843",
-      "reserved_at": "2026-10-31T12:54:15Z"
     }
   ],
   "missing_on_account": [
