@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T16:34:18Z",
+  "last_updated": "2026-10-31T16:35:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675046,21 +675046,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T15:45:56Z",
-      "first_failed_at": "2026-10-31T14:39:45Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 19.0
-      }
-    },
-    {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
@@ -675825,6 +675810,21 @@
       "timing": {
         "cdn_resolve_sec": 21.3
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T16:35:00Z",
+      "first_failed_at": "2026-10-31T14:39:45Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 29.5
+      }
     }
   ],
   "in_progress": [
@@ -675857,16 +675857,6 @@
       "worker_id": "worker-2-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T16:32:31Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T16:34:18Z"
     }
   ],
   "missing_on_account": [
