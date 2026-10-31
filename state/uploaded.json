@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T09:27:32Z",
+  "last_updated": "2026-10-31T09:27:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677072,21 +677072,6 @@
       }
     },
     {
-      "cr_film_id": 31665,
-      "cr_slug": "12-01-pm",
-      "title": "12:01 PM",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T08:33:03Z",
-      "first_failed_at": "2026-10-31T07:54:41Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.8
-      }
-    },
-    {
       "cr_film_id": 34329,
       "cr_slug": "pola-x",
       "title": "Pola X",
@@ -678122,19 +678107,24 @@
       "timing": {
         "resolve_sec": 0.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
       "title": "12:01 PM",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T09:03:35Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T09:27:47Z",
+      "first_failed_at": "2026-10-31T07:54:41Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 33579,
       "cr_slug": "the-penthouse",
