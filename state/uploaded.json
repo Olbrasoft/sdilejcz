@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T22:12:21Z",
+  "last_updated": "2026-10-31T22:12:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674929,21 +674929,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T21:32:29Z",
-      "first_failed_at": "2026-10-31T21:32:29Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 21.5
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -675522,6 +675507,21 @@
       "timing": {
         "cdn_resolve_sec": 12.4
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T22:12:41Z",
+      "first_failed_at": "2026-10-31T21:32:29Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -675554,16 +675554,6 @@
       "worker_id": "worker-4-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-10-31T22:10:01Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T22:12:21Z"
     }
   ],
   "missing_on_account": [
