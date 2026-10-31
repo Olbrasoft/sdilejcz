@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T03:44:58Z",
+  "last_updated": "2026-10-31T03:45:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677230,21 +677230,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T03:11:32Z",
-      "first_failed_at": "2026-10-31T02:37:52Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 34973,
       "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
       "title": "Děvčátko, které bydlí na konci ulice",
@@ -677905,6 +677890,21 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T03:45:24Z",
+      "first_failed_at": "2026-10-31T02:37:52Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
     }
   ],
   "in_progress": [
@@ -677927,16 +677927,6 @@
       "worker_id": "worker-2-41145729206",
       "run_id": "41145729206",
       "reserved_at": "2026-10-31T03:40:06Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T03:44:58Z"
     }
   ],
   "missing_on_account": [
