@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T02:57:39Z",
+  "last_updated": "2026-10-31T02:57:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676486,22 +676486,6 @@
       "permanent": true
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-31T02:23:47Z",
-      "first_failed_at": "2026-10-31T02:23:47Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.2,
-        "download_sec": 2.1
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -677348,6 +677332,22 @@
         "download_sec": 40.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-10-31T02:57:54Z",
+      "first_failed_at": "2026-10-31T02:23:47Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 1.7
+      }
     }
   ],
   "in_progress": [
@@ -677380,16 +677380,6 @@
       "worker_id": "worker-2-41145729206",
       "run_id": "41145729206",
       "reserved_at": "2026-10-31T02:57:07Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T02:57:39Z"
     }
   ],
   "missing_on_account": [
