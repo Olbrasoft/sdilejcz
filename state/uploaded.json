@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T04:09:29Z",
+  "last_updated": "2026-10-31T04:09:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677346,21 +677346,6 @@
       }
     },
     {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T03:38:14Z",
-      "first_failed_at": "2026-10-31T03:06:16Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 35561,
       "cr_slug": "slayer-the-repentless-killogy",
       "title": "Slayer: The Repentless Killogy",
@@ -678033,6 +678018,21 @@
       "timing": {
         "cdn_resolve_sec": 13.4
       }
+    },
+    {
+      "cr_film_id": 34971,
+      "cr_slug": "krvava-amazonka",
+      "title": "Krvavá Amazonka",
+      "year": 1985,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T04:09:55Z",
+      "first_failed_at": "2026-10-31T03:06:16Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -678065,16 +678065,6 @@
       "worker_id": "worker-3-41145729206",
       "run_id": "41145729206",
       "reserved_at": "2026-10-31T04:04:47Z"
-    },
-    {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T04:09:29Z"
     }
   ],
   "missing_on_account": [
