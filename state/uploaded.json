@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T03:35:25Z",
+  "last_updated": "2026-10-31T03:35:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677156,21 +677156,6 @@
       }
     },
     {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T03:01:41Z",
-      "first_failed_at": "2026-10-31T03:01:41Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.8
-      }
-    },
-    {
       "cr_film_id": 34593,
       "cr_slug": "fichtelberg",
       "title": "Fichtelberg",
@@ -677830,6 +677815,21 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
+    },
+    {
+      "cr_film_id": 34949,
+      "cr_slug": "duch-ohne",
+      "title": "Duch ohně",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T03:35:49Z",
+      "first_failed_at": "2026-10-31T03:01:41Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
   "in_progress": [
@@ -677862,16 +677862,6 @@
       "worker_id": "worker-3-41145729206",
       "run_id": "41145729206",
       "reserved_at": "2026-10-31T03:33:17Z"
-    },
-    {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T03:35:25Z"
     }
   ],
   "missing_on_account": [
