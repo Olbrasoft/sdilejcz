@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T21:24:48Z",
+  "last_updated": "2026-10-31T21:25:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674473,21 +674473,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T20:52:28Z",
-      "first_failed_at": "2026-10-31T20:52:28Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -675278,6 +675263,21 @@
       "timing": {
         "cdn_resolve_sec": 17.8
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T21:25:13Z",
+      "first_failed_at": "2026-10-31T20:52:28Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
     }
   ],
   "in_progress": [
@@ -675310,16 +675310,6 @@
       "worker_id": "worker-4-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-10-31T21:23:40Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T21:24:48Z"
     }
   ],
   "missing_on_account": [
