@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T05:45:42Z",
+  "last_updated": "2026-10-31T05:46:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675098,19 +675098,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T05:32:49Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T05:46:11Z",
+      "first_failed_at": "2026-10-31T05:46:11Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
