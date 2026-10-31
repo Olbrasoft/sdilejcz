@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T07:43:14Z",
+  "last_updated": "2026-10-31T07:45:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674427,6 +674427,30 @@
         "upload_sec": 65.4,
         "total_sec": 92.3
       }
+    },
+    {
+      "cr_film_id": 21663,
+      "cr_slug": "lolita-1962",
+      "title": "Lolita",
+      "year": 1962,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "63433cbf7decd",
+      "source_url": "https://prehraj.to/lolita-1962-1080p-bluray-x264-cinefile/63433cbf7decd",
+      "source_title": "Lolita.1962.1080p.BluRay.x264-CiNEFiLE",
+      "source_resolution": "1080p",
+      "sdilej_url": "https://sdilej.cz/35409481/lolita-1962-cz-titulky.mp4",
+      "sdilej_name": "Lolita (1962) CZ titulky.mp4",
+      "uploaded_at": "2026-10-31T07:41:31Z",
+      "status": "uploaded",
+      "size_bytes": 4352677414,
+      "worker_id": "worker-4-41170004770",
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 183.0,
+        "upload_sec": 543.3,
+        "total_sec": 728.8
+      }
     }
   ],
   "failed_attempts": [
@@ -675828,27 +675852,6 @@
       }
     },
     {
-      "cr_film_id": 21663,
-      "cr_slug": "lolita-1962",
-      "title": "Lolita",
-      "year": 1962,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-10-31T07:24:28Z",
-      "first_failed_at": "2026-10-31T07:24:28Z",
-      "attempt_count": 1,
-      "upload_id": "5891c9a9df449",
-      "source_url": "https://prehraj.to/lolita-1962-cz-titulky/5891c9a9df449",
-      "upload_title": "Lolita-1962-cz-titulky--",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 32.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 22008,
       "cr_slug": "klarino-koleno",
       "title": "Klářino koleno",
@@ -676336,16 +676339,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 21663,
-      "cr_slug": "lolita-1962",
-      "title": "Lolita",
-      "year": 1962,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41170004770",
-      "run_id": "41170004770",
-      "reserved_at": "2026-10-31T07:29:12Z"
-    },
     {
       "cr_film_id": 30166,
       "cr_slug": "trojka-z-mravu",
