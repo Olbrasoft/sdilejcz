@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T15:58:16Z",
+  "last_updated": "2026-10-31T15:59:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675569,6 +675569,27 @@
         "cdn_resolve_sec": 4.5,
         "download_sec": 2.6
       }
+    },
+    {
+      "cr_film_id": 24487,
+      "cr_slug": "laska-a-sex",
+      "title": "Láska a sex",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T15:59:13Z",
+      "first_failed_at": "2026-10-31T15:59:13Z",
+      "attempt_count": 1,
+      "upload_id": "5ac1a16e726cd",
+      "source_url": "https://prehraj.to/laska-a-sex-2000/5ac1a16e726cd",
+      "upload_title": "Láska a sex (2000)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 13.7,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675601,16 +675622,6 @@
       "worker_id": "worker-3-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T15:54:36Z"
-    },
-    {
-      "cr_film_id": 24487,
-      "cr_slug": "laska-a-sex",
-      "title": "Láska a sex",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T15:58:16Z"
     }
   ],
   "missing_on_account": [
