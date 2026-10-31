@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T16:48:11Z",
+  "last_updated": "2026-10-31T16:51:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675218,21 +675218,6 @@
       }
     },
     {
-      "cr_film_id": 14390,
-      "cr_slug": "ztraceny-poklad-azteku",
-      "title": "Ztracený poklad Aztéků",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T15:51:23Z",
-      "first_failed_at": "2026-10-31T14:42:15Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -675921,19 +675906,24 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T16:35:12Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T16:51:18Z",
+      "first_failed_at": "2026-10-31T14:42:15Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 22.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 26171,
       "cr_slug": "sex-zabiji",
