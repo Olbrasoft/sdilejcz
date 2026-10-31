@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T16:30:26Z",
+  "last_updated": "2026-10-31T16:30:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675007,21 +675007,6 @@
       }
     },
     {
-      "cr_film_id": 13328,
-      "cr_slug": "vrana-4-pekelny-knez",
-      "title": "Vrána 4: Pekelný kněz",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T15:37:24Z",
-      "first_failed_at": "2026-10-31T14:36:07Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
@@ -675801,6 +675786,21 @@
       "timing": {
         "cdn_resolve_sec": 19.9
       }
+    },
+    {
+      "cr_film_id": 13328,
+      "cr_slug": "vrana-4-pekelny-knez",
+      "title": "Vrána 4: Pekelný kněz",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T16:30:59Z",
+      "first_failed_at": "2026-10-31T14:36:07Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.0
+      }
     }
   ],
   "in_progress": [
@@ -675833,16 +675833,6 @@
       "worker_id": "worker-4-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T16:29:44Z"
-    },
-    {
-      "cr_film_id": 13328,
-      "cr_slug": "vrana-4-pekelny-knez",
-      "title": "Vrána 4: Pekelný kněz",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T16:30:26Z"
     }
   ],
   "missing_on_account": [
