@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T01:41:26Z",
+  "last_updated": "2026-10-31T01:41:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675224,21 +675224,6 @@
       }
     },
     {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T00:53:28Z",
-      "first_failed_at": "2026-10-30T23:45:17Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.4
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -675984,19 +675969,24 @@
         "cdn_resolve_sec": 5.8,
         "download_sec": 1.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T01:27:14Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T01:41:45Z",
+      "first_failed_at": "2026-10-30T23:45:17Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
