@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T21:20:11Z",
+  "last_updated": "2026-10-31T21:20:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674439,21 +674439,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T20:46:24Z",
-      "first_failed_at": "2026-10-31T20:46:24Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 20.6
-      }
-    },
-    {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
@@ -675265,6 +675250,21 @@
       "timing": {
         "cdn_resolve_sec": 20.0
       }
+    },
+    {
+      "cr_film_id": 14786,
+      "cr_slug": "krakonos-a-sklinkar-matej",
+      "title": "Krakonos a sklínkar Matej",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T21:20:43Z",
+      "first_failed_at": "2026-10-31T20:46:24Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 20.6
+      }
     }
   ],
   "in_progress": [
@@ -675297,16 +675297,6 @@
       "worker_id": "worker-4-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-10-31T21:17:59Z"
-    },
-    {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T21:20:11Z"
     }
   ],
   "missing_on_account": [
