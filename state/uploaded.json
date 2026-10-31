@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T11:14:06Z",
+  "last_updated": "2026-10-31T11:14:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675330,19 +675330,24 @@
       "timing": {
         "cdn_resolve_sec": 13.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41191303843",
-      "run_id": "41191303843",
-      "reserved_at": "2026-10-31T11:07:59Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T11:14:39Z",
+      "first_failed_at": "2026-10-31T11:14:39Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
