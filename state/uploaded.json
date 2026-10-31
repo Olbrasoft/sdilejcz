@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T22:05:10Z",
+  "last_updated": "2026-10-31T22:05:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674890,21 +674890,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T21:29:46Z",
-      "first_failed_at": "2026-10-31T21:29:46Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 18.4
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675499,6 +675484,21 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T22:05:35Z",
+      "first_failed_at": "2026-10-31T21:29:46Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
     }
   ],
   "in_progress": [
@@ -675531,16 +675531,6 @@
       "worker_id": "worker-1-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-10-31T22:01:58Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-10-31T22:05:10Z"
     }
   ],
   "missing_on_account": [
