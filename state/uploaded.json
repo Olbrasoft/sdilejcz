@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T18:45:33Z",
+  "last_updated": "2026-10-31T18:46:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677281,21 +677281,6 @@
       }
     },
     {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T18:13:39Z",
-      "first_failed_at": "2026-10-31T18:13:39Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 25.6
-      }
-    },
-    {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
@@ -677847,6 +677832,21 @@
       "timing": {
         "cdn_resolve_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 34827,
+      "cr_slug": "ohnivy-ring",
+      "title": "Ohnivý ring",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T18:46:15Z",
+      "first_failed_at": "2026-10-31T18:13:39Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.2
+      }
     }
   ],
   "in_progress": [
@@ -677869,16 +677869,6 @@
       "worker_id": "worker-1-41208985296",
       "run_id": "41208985296",
       "reserved_at": "2026-10-31T18:41:05Z"
-    },
-    {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T18:45:33Z"
     }
   ],
   "missing_on_account": [
