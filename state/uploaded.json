@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T17:44:02Z",
+  "last_updated": "2026-10-31T17:44:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676835,19 +676835,24 @@
       "timing": {
         "cdn_resolve_sec": 20.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41208985296",
-      "run_id": "41208985296",
-      "reserved_at": "2026-10-31T17:39:49Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-10-31T17:44:23Z",
+      "first_failed_at": "2026-10-31T17:44:23Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 30.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
