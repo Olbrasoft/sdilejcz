@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-10-31T02:02:21Z",
+  "last_updated": "2026-10-31T02:02:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676096,6 +676096,27 @@
       "timing": {
         "cdn_resolve_sec": 14.9
       }
+    },
+    {
+      "cr_film_id": 29406,
+      "cr_slug": "rocco",
+      "title": "Rocco",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-10-31T02:02:38Z",
+      "first_failed_at": "2026-10-31T02:02:38Z",
+      "attempt_count": 1,
+      "upload_id": "5cde8d3b5b055",
+      "source_url": "https://prehraj.to/rocco-2016-cztit/5cde8d3b5b055",
+      "upload_title": "Rocco (2016) CZtit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 15.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676108,16 +676129,6 @@
       "worker_id": "worker-3-41145729206",
       "run_id": "41145729206",
       "reserved_at": "2026-10-31T01:55:20Z"
-    },
-    {
-      "cr_film_id": 29406,
-      "cr_slug": "rocco",
-      "title": "Rocco",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41145729206",
-      "run_id": "41145729206",
-      "reserved_at": "2026-10-31T01:58:19Z"
     },
     {
       "cr_film_id": 29963,
