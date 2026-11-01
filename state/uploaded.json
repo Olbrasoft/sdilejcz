@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T17:48:18Z",
+  "last_updated": "2026-11-01T17:49:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675328,21 +675328,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T16:53:57Z",
-      "first_failed_at": "2026-11-01T15:39:36Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 16.6
-      }
-    },
-    {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
@@ -676411,6 +676396,21 @@
       "timing": {
         "resolve_sec": 0.4
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T17:49:01Z",
+      "first_failed_at": "2026-11-01T15:39:36Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 29.4
+      }
     }
   ],
   "in_progress": [
@@ -676443,16 +676443,6 @@
       "worker_id": "worker-1-41316602076",
       "run_id": "41316602076",
       "reserved_at": "2026-11-01T17:46:55Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41316602076",
-      "run_id": "41316602076",
-      "reserved_at": "2026-11-01T17:48:18Z"
     }
   ],
   "missing_on_account": [
