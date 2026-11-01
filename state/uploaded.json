@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T06:20:01Z",
+  "last_updated": "2026-11-01T06:20:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673994,6 +673994,27 @@
         "upload_sec": 217.4,
         "total_sec": 285.8
       }
+    },
+    {
+      "cr_film_id": 13418,
+      "cr_slug": "sex-a-svobodna-matka",
+      "title": "Sex a svobodná matka",
+      "year": 2003,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 38021,
+      "sdilej_url": "https://sdilej.cz/35414780/sex-a-svobodna-matka-2003-.mp4",
+      "sdilej_name": "Sex a svobodná matka (2003).mp4",
+      "uploaded_at": "2026-11-01T06:18:41Z",
+      "status": "uploaded",
+      "size_bytes": 431481293,
+      "worker_id": "worker-4-41278238767",
+      "timing": {
+        "cdn_resolve_sec": 1.8,
+        "download_sec": 46.9,
+        "upload_sec": 52.2,
+        "total_sec": 101.0
+      }
     }
   ],
   "failed_attempts": [
@@ -674706,27 +674727,6 @@
       }
     },
     {
-      "cr_film_id": 13418,
-      "cr_slug": "sex-a-svobodna-matka",
-      "title": "Sex a svobodná matka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-01T06:13:57Z",
-      "first_failed_at": "2026-11-01T06:13:57Z",
-      "attempt_count": 1,
-      "upload_id": "e4cdf93bd9f7f73b",
-      "source_url": "https://prehraj.to/sex-a-svobodna-matka-2003-usa-drama/e4cdf93bd9f7f73b",
-      "upload_title": "Sex a svobodna matka-2003,USA-drama",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.1,
-        "download_sec": 17.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -674743,16 +674743,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 13418,
-      "cr_slug": "sex-a-svobodna-matka",
-      "title": "Sex a svobodná matka",
-      "year": 2003,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41278238767",
-      "run_id": "41278238767",
-      "reserved_at": "2026-11-01T06:16:48Z"
-    },
     {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
