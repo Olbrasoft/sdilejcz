@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T06:23:00Z",
+  "last_updated": "2026-11-01T06:23:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674167,21 +674167,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T05:51:08Z",
-      "first_failed_at": "2026-11-01T05:51:08Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 3890,
       "cr_slug": "ztracene-mesto-z",
       "title": "Ztracené město Z",
@@ -674785,19 +674770,24 @@
       "timing": {
         "cdn_resolve_sec": 12.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41278238767",
-      "run_id": "41278238767",
-      "reserved_at": "2026-11-01T06:21:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T06:23:25Z",
+      "first_failed_at": "2026-11-01T05:51:08Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
