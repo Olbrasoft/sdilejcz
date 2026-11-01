@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T07:59:12Z",
+  "last_updated": "2026-11-01T07:59:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675724,22 +675724,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-01T07:23:10Z",
-      "first_failed_at": "2026-11-01T06:48:44Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 5.0,
-        "download_sec": 1.7
-      }
-    },
-    {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
@@ -676081,6 +676065,22 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-01T07:59:34Z",
+      "first_failed_at": "2026-11-01T06:48:44Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 6.8,
+        "download_sec": 2.5
+      }
     }
   ],
   "in_progress": [
@@ -676103,16 +676103,6 @@
       "worker_id": "worker-2-41278238767",
       "run_id": "41278238767",
       "reserved_at": "2026-11-01T07:58:14Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41278238767",
-      "run_id": "41278238767",
-      "reserved_at": "2026-11-01T07:59:12Z"
     }
   ],
   "missing_on_account": [
