@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T01:26:30Z",
+  "last_updated": "2026-11-01T01:27:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674258,19 +674258,30 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4338,
       "cr_slug": "kick-ass-2",
       "title": "Kick-Ass 2",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41259859554",
-      "run_id": "41259859554",
-      "reserved_at": "2026-11-01T01:20:52Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-01T01:27:10Z",
+      "first_failed_at": "2026-11-01T01:27:10Z",
+      "attempt_count": 1,
+      "upload_id": "5f86c3eaeb9cb",
+      "source_url": "https://prehraj.to/kick-ass-2-2013-hd-cz/5f86c3eaeb9cb",
+      "upload_title": "Kick Ass 2 ~ (2013) HD cz",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 68.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5478,
       "cr_slug": "echo",
