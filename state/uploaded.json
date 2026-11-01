@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T11:54:01Z",
+  "last_updated": "2026-11-01T11:54:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675215,21 +675215,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T11:08:50Z",
-      "first_failed_at": "2026-11-01T10:37:00Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.1
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -675955,6 +675940,21 @@
       "timing": {
         "cdn_resolve_sec": 20.8
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T11:54:34Z",
+      "first_failed_at": "2026-11-01T10:37:00Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 20.4
+      }
     }
   ],
   "in_progress": [
@@ -675987,16 +675987,6 @@
       "worker_id": "worker-3-41296283120",
       "run_id": "41296283120",
       "reserved_at": "2026-11-01T11:53:23Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41296283120",
-      "run_id": "41296283120",
-      "reserved_at": "2026-11-01T11:54:01Z"
     }
   ],
   "missing_on_account": [
