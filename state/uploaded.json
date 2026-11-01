@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T04:03:17Z",
+  "last_updated": "2026-11-01T04:03:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676182,21 +676182,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T03:30:18Z",
-      "first_failed_at": "2026-11-01T02:21:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
@@ -676909,6 +676894,21 @@
         "cdn_resolve_sec": 1.3,
         "download_sec": 1.6
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T04:03:41Z",
+      "first_failed_at": "2026-11-01T02:21:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.2
+      }
     }
   ],
   "in_progress": [
@@ -676941,16 +676941,6 @@
       "worker_id": "worker-2-41259859554",
       "run_id": "41259859554",
       "reserved_at": "2026-11-01T04:03:04Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41259859554",
-      "run_id": "41259859554",
-      "reserved_at": "2026-11-01T04:03:17Z"
     }
   ],
   "missing_on_account": [
