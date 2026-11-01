@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T22:50:43Z",
+  "last_updated": "2026-11-01T22:50:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674122,21 +674122,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T22:04:16Z",
-      "first_failed_at": "2026-11-01T20:54:31Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.4
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -675825,19 +675810,24 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-01T22:36:07Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T22:50:56Z",
+      "first_failed_at": "2026-11-01T20:54:31Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 18.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
