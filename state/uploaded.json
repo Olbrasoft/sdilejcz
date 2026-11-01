@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T02:23:44Z",
+  "last_updated": "2026-11-01T02:24:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674594,21 +674594,6 @@
       }
     },
     {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T01:53:29Z",
-      "first_failed_at": "2026-11-01T01:53:29Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.3
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -675716,6 +675701,21 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
+    },
+    {
+      "cr_film_id": 13280,
+      "cr_slug": "tvoje-srdce-inkognito",
+      "title": "Tvoje srdce inkognito",
+      "year": 1936,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T02:24:05Z",
+      "first_failed_at": "2026-11-01T01:53:29Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
     }
   ],
   "in_progress": [
@@ -675738,16 +675738,6 @@
       "worker_id": "worker-3-41259859554",
       "run_id": "41259859554",
       "reserved_at": "2026-11-01T02:22:28Z"
-    },
-    {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41259859554",
-      "run_id": "41259859554",
-      "reserved_at": "2026-11-01T02:23:44Z"
     }
   ],
   "missing_on_account": [
