@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T13:14:48Z",
+  "last_updated": "2026-11-01T13:15:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677468,19 +677468,26 @@
       "timing": {
         "cdn_resolve_sec": 21.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34739,
       "cr_slug": "pikova-trojka",
       "title": "Piková trojka",
       "year": 2003,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41296283120",
-      "run_id": "41296283120",
-      "reserved_at": "2026-11-01T13:07:49Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-01T13:15:31Z",
+      "first_failed_at": "2026-11-01T13:15:31Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.0,
+        "download_sec": 120.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34750,
       "cr_slug": "same-stesti",
