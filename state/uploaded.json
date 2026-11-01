@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T18:56:22Z",
+  "last_updated": "2026-11-01T18:57:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677407,19 +677407,29 @@
       "timing": {
         "cdn_resolve_sec": 26.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 21663,
       "cr_slug": "lolita-1962",
       "title": "Lolita",
       "year": 1962,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41316602076",
-      "run_id": "41316602076",
-      "reserved_at": "2026-11-01T17:52:39Z"
-    },
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3600054 milliseconds with 3053977161 out of 4352677414 bytes received",
+      "failed_at": "2026-11-01T18:57:00Z",
+      "first_failed_at": "2026-11-01T18:57:00Z",
+      "attempt_count": 1,
+      "upload_id": "63433cbf7decd",
+      "source_url": "https://prehraj.to/lolita-1962-1080p-bluray-x264-cinefile/63433cbf7decd",
+      "upload_title": "Lolita.1962.1080p.BluRay.x264-CiNEFiLE",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.7,
+        "download_sec": 3602.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
