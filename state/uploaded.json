@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T18:03:07Z",
+  "last_updated": "2026-11-01T18:03:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675277,21 +675277,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T16:59:03Z",
-      "first_failed_at": "2026-11-01T15:50:18Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 19.1
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -676456,6 +676441,21 @@
       "timing": {
         "cdn_resolve_sec": 22.2
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T18:03:49Z",
+      "first_failed_at": "2026-11-01T15:50:18Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 29.0
+      }
     }
   ],
   "in_progress": [
@@ -676488,16 +676488,6 @@
       "worker_id": "worker-3-41316602076",
       "run_id": "41316602076",
       "reserved_at": "2026-11-01T18:01:59Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41316602076",
-      "run_id": "41316602076",
-      "reserved_at": "2026-11-01T18:03:07Z"
     }
   ],
   "missing_on_account": [
