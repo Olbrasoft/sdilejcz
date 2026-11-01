@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T07:21:08Z",
+  "last_updated": "2026-11-01T07:21:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674737,21 +674737,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T06:49:57Z",
-      "first_failed_at": "2026-11-01T06:19:20Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675573,6 +675558,21 @@
       "timing": {
         "cdn_resolve_sec": 13.4
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T07:21:31Z",
+      "first_failed_at": "2026-11-01T06:19:20Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -675595,16 +675595,6 @@
       "worker_id": "worker-4-41278238767",
       "run_id": "41278238767",
       "reserved_at": "2026-11-01T07:20:02Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41278238767",
-      "run_id": "41278238767",
-      "reserved_at": "2026-11-01T07:21:08Z"
     }
   ],
   "missing_on_account": [
