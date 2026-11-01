@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T00:24:40Z",
+  "last_updated": "2026-11-01T00:24:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677344,22 +677344,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-10-31T23:50:26Z",
-      "first_failed_at": "2026-10-31T23:03:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.4,
-        "download_sec": 2.1
-      }
-    },
-    {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
@@ -678152,6 +678136,22 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-01T00:24:56Z",
+      "first_failed_at": "2026-10-31T23:03:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 2.0
+      }
     }
   ],
   "in_progress": [
@@ -678184,16 +678184,6 @@
       "worker_id": "worker-3-41235161159",
       "run_id": "41235161159",
       "reserved_at": "2026-11-01T00:22:22Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-11-01T00:24:40Z"
     }
   ],
   "missing_on_account": [
