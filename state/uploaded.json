@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T22:51:07Z",
+  "last_updated": "2026-11-01T22:51:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674703,21 +674703,6 @@
       }
     },
     {
-      "cr_film_id": 22852,
-      "cr_slug": "delta-force",
-      "title": "Delta Force",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T22:19:13Z",
-      "first_failed_at": "2026-11-01T22:19:13Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.4
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -675825,6 +675810,21 @@
       "timing": {
         "cdn_resolve_sec": 18.6
       }
+    },
+    {
+      "cr_film_id": 22852,
+      "cr_slug": "delta-force",
+      "title": "Delta Force",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T22:51:39Z",
+      "first_failed_at": "2026-11-01T22:19:13Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 20.5
+      }
     }
   ],
   "in_progress": [
@@ -675847,16 +675847,6 @@
       "worker_id": "worker-4-41346787874",
       "run_id": "41346787874",
       "reserved_at": "2026-11-01T22:50:43Z"
-    },
-    {
-      "cr_film_id": 22852,
-      "cr_slug": "delta-force",
-      "title": "Delta Force",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-01T22:51:07Z"
     }
   ],
   "missing_on_account": [
