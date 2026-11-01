@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T05:12:41Z",
+  "last_updated": "2026-11-01T05:13:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678069,19 +678069,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
       "title": "Po čem muži touží",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41259859554",
-      "run_id": "41259859554",
-      "reserved_at": "2026-11-01T04:44:44Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T05:13:09Z",
+      "first_failed_at": "2026-11-01T05:13:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35063,
       "cr_slug": "the-silent-thief",
