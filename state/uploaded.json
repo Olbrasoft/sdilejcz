@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T22:19:24Z",
+  "last_updated": "2026-11-01T22:19:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673762,21 +673762,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T21:12:27Z",
-      "first_failed_at": "2026-11-01T20:40:00Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 17.1
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675257,19 +675242,24 @@
       "timing": {
         "cdn_resolve_sec": 13.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-01T21:55:00Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T22:19:45Z",
+      "first_failed_at": "2026-11-01T20:40:00Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22870,
       "cr_slug": "mona-lisa",
