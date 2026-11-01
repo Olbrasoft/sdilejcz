@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T00:52:52Z",
+  "last_updated": "2026-11-01T00:53:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677425,21 +677425,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-10-31T23:46:01Z",
-      "first_failed_at": "2026-10-31T23:15:26Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678405,19 +678390,24 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41235161159",
-      "run_id": "41235161159",
-      "reserved_at": "2026-11-01T00:16:01Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T00:53:58Z",
+      "first_failed_at": "2026-10-31T23:15:26Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 36850,
       "cr_slug": "smolny-pich-aneb-pitomy-porno",
