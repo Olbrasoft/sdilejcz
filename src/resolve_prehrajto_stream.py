@@ -263,7 +263,7 @@ def resolve(
             if via_proxy:
                 _last_resolve_at = time.monotonic()
         except requests.RequestException as e:
-            last_err = f"network error: {e}"
+            last_err = f"network error: {type(e).__name__}"
         else:
             if resp.status_code == 404:
                 # Upload truly gone — give up immediately, burn the upload_id.
@@ -282,7 +282,7 @@ def resolve(
                 # When we see that signature, this upload_id is dead.
                 body_preview = (resp.text or "")[:300].replace("\n", " ")
                 ct = resp.headers.get("Content-Type", "")
-                print(f"[resolve] HTTP {resp.status_code} ct={ct!r} body[0:300]={body_preview!r}", flush=True)
+                print(f"[resolve] HTTP {resp.status_code} ct={ct!r}", flush=True)
                 permanent_markers = ("Upstream NotFound", "WebException:")
                 if any(m in body_preview for m in permanent_markers):
                     raise ResolveError(
