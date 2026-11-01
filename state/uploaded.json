@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T19:27:24Z",
+  "last_updated": "2026-11-01T19:27:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674616,6 +674616,30 @@
         "upload_sec": 81.7,
         "total_sec": 110.2
       }
+    },
+    {
+      "cr_film_id": 21663,
+      "cr_slug": "lolita-1962",
+      "title": "Lolita",
+      "year": 1962,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5891c9a9df449",
+      "source_url": "https://prehraj.to/lolita-1962-cz-titulky/5891c9a9df449",
+      "source_title": "Lolita-1962-cz-titulky--",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35418487/lolita-1962-cz-titulky.mp4",
+      "sdilej_name": "Lolita (1962) CZ titulky.mp4",
+      "uploaded_at": "2026-11-01T19:17:18Z",
+      "status": "uploaded",
+      "size_bytes": 810894650,
+      "worker_id": "worker-3-41316602076",
+      "timing": {
+        "resolve_sec": 0.7,
+        "download_sec": 808.5,
+        "upload_sec": 91.7,
+        "total_sec": 901.7
+      }
     }
   ],
   "failed_attempts": [
@@ -675922,27 +675946,6 @@
       }
     },
     {
-      "cr_film_id": 21663,
-      "cr_slug": "lolita-1962",
-      "title": "Lolita",
-      "year": 1962,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-01T17:30:32Z",
-      "first_failed_at": "2026-11-01T17:30:32Z",
-      "attempt_count": 1,
-      "upload_id": "5891c9a9df449",
-      "source_url": "https://prehraj.to/lolita-1962-cz-titulky/5891c9a9df449",
-      "upload_title": "Lolita-1962-cz-titulky--",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.8,
-        "download_sec": 877.9,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
@@ -677192,26 +677195,6 @@
       }
     },
     {
-      "cr_film_id": 21663,
-      "cr_slug": "lolita-1962",
-      "title": "Lolita",
-      "year": 1962,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "download_failed: curl exit 28: curl: (28) Operation timed out after 3600054 milliseconds with 3053977161 out of 4352677414 bytes received",
-      "failed_at": "2026-11-01T18:57:00Z",
-      "first_failed_at": "2026-11-01T18:57:00Z",
-      "attempt_count": 1,
-      "upload_id": "63433cbf7decd",
-      "source_url": "https://prehraj.to/lolita-1962-1080p-bluray-x264-cinefile/63433cbf7decd",
-      "upload_title": "Lolita.1962.1080p.BluRay.x264-CiNEFiLE",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.7,
-        "download_sec": 3602.3
-      }
-    },
-    {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
       "title": "12:01 PM",
@@ -677743,16 +677726,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 21663,
-      "cr_slug": "lolita-1962",
-      "title": "Lolita",
-      "year": 1962,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41316602076",
-      "run_id": "41316602076",
-      "reserved_at": "2026-11-01T19:02:07Z"
-    },
     {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
