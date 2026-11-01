@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T05:58:48Z",
+  "last_updated": "2026-11-01T05:59:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674290,19 +674290,30 @@
       "timing": {
         "cdn_resolve_sec": 14.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8199,
       "cr_slug": "sexappeal",
       "title": "Sex Appeal",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41278238767",
-      "run_id": "41278238767",
-      "reserved_at": "2026-11-01T05:55:58Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-01T05:59:10Z",
+      "first_failed_at": "2026-11-01T05:59:10Z",
+      "attempt_count": 1,
+      "upload_id": "6310588b315a5",
+      "source_url": "https://prehraj.to/sex-appeal-2022-cz-dabing/6310588b315a5",
+      "upload_title": "Sex appeal (2022) CZ dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 62.2,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8929,
       "cr_slug": "leo-da-vinci-mise-mona-lisa",
