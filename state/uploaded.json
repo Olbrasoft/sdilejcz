@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T13:35:50Z",
+  "last_updated": "2026-11-01T13:36:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677115,21 +677115,6 @@
       }
     },
     {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T13:04:29Z",
-      "first_failed_at": "2026-11-01T13:04:29Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.8
-      }
-    },
-    {
       "cr_film_id": 34593,
       "cr_slug": "fichtelberg",
       "title": "Fichtelberg",
@@ -677851,6 +677836,21 @@
         "cdn_resolve_sec": 5.3,
         "download_sec": 2.4
       }
+    },
+    {
+      "cr_film_id": 31667,
+      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
+      "title": "One Piece: Baron Omatsuri and the Secret Island",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T13:36:15Z",
+      "first_failed_at": "2026-11-01T13:04:29Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
   "in_progress": [
@@ -677863,16 +677863,6 @@
       "worker_id": "worker-1-41296283120",
       "run_id": "41296283120",
       "reserved_at": "2026-11-01T13:29:34Z"
-    },
-    {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41296283120",
-      "run_id": "41296283120",
-      "reserved_at": "2026-11-01T13:35:50Z"
     }
   ],
   "missing_on_account": [
