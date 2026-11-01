@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T14:23:09Z",
+  "last_updated": "2026-11-01T14:24:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677255,21 +677255,6 @@
       }
     },
     {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T13:30:41Z",
-      "first_failed_at": "2026-11-01T13:30:41Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
       "title": "Moje máma Jayne",
@@ -678386,20 +678371,24 @@
         "cdn_resolve_sec": 1.4,
         "download_sec": 2.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
       "title": "Krvavá Amazonka",
       "year": 1985,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41296283120",
-      "run_id": "41296283120",
-      "reserved_at": "2026-11-01T14:01:04Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T14:24:39Z",
+      "first_failed_at": "2026-11-01T13:30:41Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
