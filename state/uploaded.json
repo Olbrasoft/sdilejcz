@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T06:26:50Z",
+  "last_updated": "2026-11-01T06:27:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674298,21 +674298,6 @@
       }
     },
     {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T05:56:17Z",
-      "first_failed_at": "2026-11-01T05:56:17Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -674849,6 +674834,21 @@
       "timing": {
         "cdn_resolve_sec": 13.1
       }
+    },
+    {
+      "cr_film_id": 7365,
+      "cr_slug": "monster-trucks",
+      "title": "Monster Trucks",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T06:27:16Z",
+      "first_failed_at": "2026-11-01T05:56:17Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -674871,16 +674871,6 @@
       "worker_id": "worker-2-41278238767",
       "run_id": "41278238767",
       "reserved_at": "2026-11-01T06:26:08Z"
-    },
-    {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41278238767",
-      "run_id": "41278238767",
-      "reserved_at": "2026-11-01T06:26:50Z"
     }
   ],
   "missing_on_account": [
