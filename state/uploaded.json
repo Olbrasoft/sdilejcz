@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T18:06:33Z",
+  "last_updated": "2026-11-01T18:10:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676456,6 +676456,23 @@
         "cdn_resolve_sec": 11.6,
         "download_sec": 2.5
       }
+    },
+    {
+      "cr_film_id": 30789,
+      "cr_slug": "muj-tata-napsal-porno",
+      "title": "Můj táta napsal Porno",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-01T18:10:02Z",
+      "first_failed_at": "2026-11-01T18:10:02Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 165.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676488,16 +676505,6 @@
       "worker_id": "worker-2-41316602076",
       "run_id": "41316602076",
       "reserved_at": "2026-11-01T18:05:44Z"
-    },
-    {
-      "cr_film_id": 30789,
-      "cr_slug": "muj-tata-napsal-porno",
-      "title": "Můj táta napsal Porno",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41316602076",
-      "run_id": "41316602076",
-      "reserved_at": "2026-11-01T18:06:33Z"
     }
   ],
   "missing_on_account": [
