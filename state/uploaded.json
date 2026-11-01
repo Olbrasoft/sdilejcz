@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T22:27:45Z",
+  "last_updated": "2026-11-01T22:28:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674198,21 +674198,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T21:55:13Z",
-      "first_failed_at": "2026-11-01T20:30:32Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.9
-      }
-    },
-    {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
@@ -675483,6 +675468,21 @@
       "timing": {
         "cdn_resolve_sec": 21.2
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T22:28:12Z",
+      "first_failed_at": "2026-11-01T20:30:32Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
     }
   ],
   "in_progress": [
@@ -675505,16 +675505,6 @@
       "worker_id": "worker-4-41346787874",
       "run_id": "41346787874",
       "reserved_at": "2026-11-01T22:26:03Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-01T22:27:45Z"
     }
   ],
   "missing_on_account": [
