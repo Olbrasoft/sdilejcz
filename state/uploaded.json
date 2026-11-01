@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T03:28:38Z",
+  "last_updated": "2026-11-01T03:29:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675393,21 +675393,6 @@
       }
     },
     {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T02:54:20Z",
-      "first_failed_at": "2026-11-01T01:48:46Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -676527,6 +676512,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 12836,
+      "cr_slug": "meng-hu-dou-kuang-long",
+      "title": "Meng hu dou kuang long",
+      "year": 1974,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T03:29:05Z",
+      "first_failed_at": "2026-11-01T01:48:46Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.9
+      }
     }
   ],
   "in_progress": [
@@ -676549,16 +676549,6 @@
       "worker_id": "worker-4-41259859554",
       "run_id": "41259859554",
       "reserved_at": "2026-11-01T03:27:54Z"
-    },
-    {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41259859554",
-      "run_id": "41259859554",
-      "reserved_at": "2026-11-01T03:28:38Z"
     }
   ],
   "missing_on_account": [
