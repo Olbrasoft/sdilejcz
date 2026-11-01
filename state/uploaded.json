@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T19:06:36Z",
+  "last_updated": "2026-11-01T19:06:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677457,19 +677457,24 @@
       "timing": {
         "cdn_resolve_sec": 29.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41316602076",
-      "run_id": "41316602076",
-      "reserved_at": "2026-11-01T18:47:02Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T19:06:55Z",
+      "first_failed_at": "2026-11-01T19:06:55Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 25.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
