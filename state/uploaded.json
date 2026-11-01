@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T22:23:00Z",
+  "last_updated": "2026-11-01T22:23:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675257,19 +675257,26 @@
       "timing": {
         "cdn_resolve_sec": 12.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 22870,
       "cr_slug": "mona-lisa",
       "title": "Mona Lisa",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-01T22:16:45Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-01T22:23:31Z",
+      "first_failed_at": "2026-11-01T22:23:31Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 90.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
