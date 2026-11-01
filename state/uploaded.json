@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T03:39:23Z",
+  "last_updated": "2026-11-01T03:39:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676671,19 +676671,24 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41259859554",
-      "run_id": "41259859554",
-      "reserved_at": "2026-11-01T03:35:29Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T03:39:44Z",
+      "first_failed_at": "2026-11-01T03:39:44Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
