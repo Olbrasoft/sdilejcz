@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T23:25:52Z",
+  "last_updated": "2026-11-01T23:26:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675466,21 +675466,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T22:49:25Z",
-      "first_failed_at": "2026-11-01T21:42:12Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
@@ -677018,6 +677003,21 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T23:26:13Z",
+      "first_failed_at": "2026-11-01T21:42:12Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -677050,16 +677050,6 @@
       "worker_id": "worker-1-41346787874",
       "run_id": "41346787874",
       "reserved_at": "2026-11-01T23:23:52Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-01T23:25:52Z"
     }
   ],
   "missing_on_account": [
