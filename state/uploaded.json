@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T09:40:23Z",
+  "last_updated": "2026-11-01T09:40:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677292,21 +677292,6 @@
       }
     },
     {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T09:04:26Z",
-      "first_failed_at": "2026-11-01T09:04:26Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.7
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -678212,19 +678197,24 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34902,
       "cr_slug": "duch-boure",
       "title": "Duch bouře",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41278238767",
-      "run_id": "41278238767",
-      "reserved_at": "2026-11-01T09:34:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T09:40:46Z",
+      "first_failed_at": "2026-11-01T09:04:26Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37190,
       "cr_slug": "priserna-besidka",
