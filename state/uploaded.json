@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T04:45:52Z",
+  "last_updated": "2026-11-01T04:46:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676985,21 +676985,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T04:07:53Z",
-      "first_failed_at": "2026-11-01T03:31:58Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -677769,6 +677754,21 @@
         "cdn_resolve_sec": 1.5,
         "download_sec": 2.2
       }
+    },
+    {
+      "cr_film_id": 31550,
+      "cr_slug": "passion-in-the-desert",
+      "title": "Passion in the Desert",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T04:46:18Z",
+      "first_failed_at": "2026-11-01T03:31:58Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
     }
   ],
   "in_progress": [
@@ -677791,16 +677791,6 @@
       "worker_id": "worker-4-41259859554",
       "run_id": "41259859554",
       "reserved_at": "2026-11-01T04:44:44Z"
-    },
-    {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41259859554",
-      "run_id": "41259859554",
-      "reserved_at": "2026-11-01T04:45:52Z"
     }
   ],
   "missing_on_account": [
