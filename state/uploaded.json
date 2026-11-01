@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T22:37:29Z",
+  "last_updated": "2026-11-01T22:37:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674047,22 +674047,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-01T21:46:53Z",
-      "first_failed_at": "2026-11-01T21:46:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 3.9,
-        "download_sec": 2.0
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -675540,6 +675524,22 @@
       "timing": {
         "cdn_resolve_sec": 18.9
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-01T22:37:48Z",
+      "first_failed_at": "2026-11-01T21:46:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 5.6,
+        "download_sec": 1.8
+      }
     }
   ],
   "in_progress": [
@@ -675572,16 +675572,6 @@
       "worker_id": "worker-3-41346787874",
       "run_id": "41346787874",
       "reserved_at": "2026-11-01T22:37:03Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-01T22:37:29Z"
     }
   ],
   "missing_on_account": [
