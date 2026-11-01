@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T02:40:43Z",
+  "last_updated": "2026-11-01T02:42:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674657,21 +674657,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T02:03:05Z",
-      "first_failed_at": "2026-11-01T02:03:05Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675740,19 +675725,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41259859554",
-      "run_id": "41259859554",
-      "reserved_at": "2026-11-01T02:35:00Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T02:42:01Z",
+      "first_failed_at": "2026-11-01T02:03:05Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22852,
       "cr_slug": "delta-force",
