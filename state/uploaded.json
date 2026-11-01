@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T23:49:42Z",
+  "last_updated": "2026-11-01T23:50:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676649,21 +676649,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T23:19:39Z",
-      "first_failed_at": "2026-11-01T21:46:11Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 26757,
       "cr_slug": "sex-ve-meste-2",
       "title": "Sex ve městě 2",
@@ -677886,6 +677871,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-01T23:50:07Z",
+      "first_failed_at": "2026-11-01T21:46:11Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
     }
   ],
   "in_progress": [
@@ -677908,16 +677908,6 @@
       "worker_id": "worker-1-41346787874",
       "run_id": "41346787874",
       "reserved_at": "2026-11-01T23:44:24Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-01T23:49:42Z"
     }
   ],
   "missing_on_account": [
