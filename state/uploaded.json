@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-01T11:50:45Z",
+  "last_updated": "2026-11-01T11:51:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674613,6 +674613,30 @@
         "upload_sec": 340.3,
         "total_sec": 453.0
       }
+    },
+    {
+      "cr_film_id": 18355,
+      "cr_slug": "blue-caprice",
+      "title": "Blue Caprice",
+      "year": 2013,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5aac055ba6cb4",
+      "source_url": "https://prehraj.to/blue-caprice-2013/5aac055ba6cb4",
+      "source_title": "Blue Caprice (2013)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35416112/blue-caprice-2013-cz-titulky.mp4",
+      "sdilej_name": "Blue Caprice (2013) CZ titulky.mp4",
+      "uploaded_at": "2026-11-01T11:48:58Z",
+      "status": "uploaded",
+      "size_bytes": 720098190,
+      "worker_id": "worker-4-41296283120",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 36.3,
+        "upload_sec": 86.1,
+        "total_sec": 124.2
+      }
     }
   ],
   "failed_attempts": [
@@ -675790,27 +675814,6 @@
       }
     },
     {
-      "cr_film_id": 18355,
-      "cr_slug": "blue-caprice",
-      "title": "Blue Caprice",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-01T11:45:38Z",
-      "first_failed_at": "2026-11-01T11:45:38Z",
-      "attempt_count": 1,
-      "upload_id": "56822aa7308e4",
-      "source_url": "https://prehraj.to/blue-caprice-2013-cz-tit-p-p/56822aa7308e4",
-      "upload_title": "Blue caprice - 2013 cz tit. p.p.",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 231.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
@@ -675917,16 +675920,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 18355,
-      "cr_slug": "blue-caprice",
-      "title": "Blue Caprice",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41296283120",
-      "run_id": "41296283120",
-      "reserved_at": "2026-11-01T11:46:44Z"
-    },
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
