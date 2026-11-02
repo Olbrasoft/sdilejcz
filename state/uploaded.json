@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T17:24:49Z",
+  "last_updated": "2026-11-02T17:26:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673659,6 +673659,23 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 1565,
+      "cr_slug": "predator-nebezpecne-uzemi",
+      "title": "Predátor: Nebezpečné území",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-02T17:26:50Z",
+      "first_failed_at": "2026-11-02T17:26:50Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.4,
+        "download_sec": 61.6,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -673691,16 +673708,6 @@
       "worker_id": "worker-3-41487831820",
       "run_id": "41487831820",
       "reserved_at": "2026-11-02T17:23:53Z"
-    },
-    {
-      "cr_film_id": 1565,
-      "cr_slug": "predator-nebezpecne-uzemi",
-      "title": "Predátor: Nebezpečné území",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T17:24:35Z"
     }
   ],
   "missing_on_account": [
