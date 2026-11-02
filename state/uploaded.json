@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:33:52Z",
+  "last_updated": "2026-11-02T12:34:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675370,19 +675370,30 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8199,
       "cr_slug": "sexappeal",
       "title": "Sex Appeal",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:31:22Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:34:04Z",
+      "first_failed_at": "2026-11-02T12:34:04Z",
+      "attempt_count": 1,
+      "upload_id": "62389ebbe9e74",
+      "source_url": "https://prehraj.to/sex-appeal-2022-1080p-dsnp-web-dl-ddp5-1-h-264-playweb/62389ebbe9e74",
+      "upload_title": "Sex.Appeal.2022.1080p.DSNP.WEB-DL.DDP5.1.H.264-playWEB",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 85.0,
+        "upload_sec": 11.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11864,
       "cr_slug": "sex-lzi-a-video",
