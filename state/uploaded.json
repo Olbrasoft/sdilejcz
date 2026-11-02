@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T13:00:54Z",
+  "last_updated": "2026-11-02T13:01:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675785,19 +675785,26 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13506,
       "cr_slug": "nezkrotna-dee-dee",
       "title": "Nezkrotná Dee Dee",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:56:27Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T13:01:10Z",
+      "first_failed_at": "2026-11-02T13:01:10Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.6,
+        "download_sec": 83.2,
+        "upload_sec": 12.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
