@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T13:14:11Z",
+  "last_updated": "2026-11-02T13:14:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675917,19 +675917,30 @@
       "timing": {
         "cdn_resolve_sec": 12.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16379,
       "cr_slug": "blazing-fists",
       "title": "Blazing Fists",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T13:11:54Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T13:14:48Z",
+      "first_failed_at": "2026-11-02T13:14:48Z",
+      "attempt_count": 1,
+      "upload_id": "24145dc69dbb4625",
+      "source_url": "https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
+      "upload_title": "Blazing Fists (2025) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 28.9,
+        "upload_sec": 12.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13454,
       "cr_slug": "sexy-mrtvola",
