@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:22:29Z",
+  "last_updated": "2026-11-02T12:22:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675037,19 +675037,24 @@
         "download_sec": 50.3,
         "upload_sec": 12.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:21:48Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T12:22:42Z",
+      "first_failed_at": "2026-11-02T12:22:42Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8199,
       "cr_slug": "sexappeal",
