@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:21:21Z",
+  "last_updated": "2026-11-02T12:21:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674995,19 +674995,30 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8199,
       "cr_slug": "sexappeal",
       "title": "Sex Appeal",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:18:01Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:21:36Z",
+      "first_failed_at": "2026-11-02T12:21:36Z",
+      "attempt_count": 1,
+      "upload_id": "6310588b315a5",
+      "source_url": "https://prehraj.to/sex-appeal-2022-cz-dabing/6310588b315a5",
+      "upload_title": "Sex appeal (2022) CZ dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 60.5,
+        "upload_sec": 12.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8929,
       "cr_slug": "leo-da-vinci-mise-mona-lisa",
