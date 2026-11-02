@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T04:14:51Z",
+  "last_updated": "2026-11-02T04:15:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674599,21 +674599,6 @@
       }
     },
     {
-      "cr_film_id": 14390,
-      "cr_slug": "ztraceny-poklad-azteku",
-      "title": "Ztracený poklad Aztéků",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T03:38:39Z",
-      "first_failed_at": "2026-11-02T02:23:25Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -675248,6 +675233,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 14390,
+      "cr_slug": "ztraceny-poklad-azteku",
+      "title": "Ztracený poklad Aztéků",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T04:15:18Z",
+      "first_failed_at": "2026-11-02T02:23:25Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
     }
   ],
   "in_progress": [
@@ -675280,16 +675280,6 @@
       "worker_id": "worker-2-41374983916",
       "run_id": "41374983916",
       "reserved_at": "2026-11-02T04:14:12Z"
-    },
-    {
-      "cr_film_id": 14390,
-      "cr_slug": "ztraceny-poklad-azteku",
-      "title": "Ztracený poklad Aztéků",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T04:14:51Z"
     }
   ],
   "missing_on_account": [
