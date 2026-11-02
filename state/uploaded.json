@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T04:10:39Z",
+  "last_updated": "2026-11-02T04:11:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674388,21 +674388,6 @@
       }
     },
     {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T03:22:13Z",
-      "first_failed_at": "2026-11-02T02:17:04Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -675181,6 +675166,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 12836,
+      "cr_slug": "meng-hu-dou-kuang-long",
+      "title": "Meng hu dou kuang long",
+      "year": 1974,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T04:11:03Z",
+      "first_failed_at": "2026-11-02T02:17:04Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
   "in_progress": [
@@ -675213,16 +675213,6 @@
       "worker_id": "worker-1-41374983916",
       "run_id": "41374983916",
       "reserved_at": "2026-11-02T04:08:34Z"
-    },
-    {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T04:10:39Z"
     }
   ],
   "missing_on_account": [
