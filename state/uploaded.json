@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T18:49:29Z",
+  "last_updated": "2026-11-02T18:50:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673811,21 +673811,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T18:16:05Z",
-      "first_failed_at": "2026-11-02T17:13:42Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.8
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -674391,6 +674376,21 @@
       "timing": {
         "cdn_resolve_sec": 22.1
       }
+    },
+    {
+      "cr_film_id": 4297,
+      "cr_slug": "po-cem-zeny-touzi",
+      "title": "Po čem ženy touží",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T18:50:03Z",
+      "first_failed_at": "2026-11-02T17:13:42Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.7
+      }
     }
   ],
   "in_progress": [
@@ -674413,16 +674413,6 @@
       "worker_id": "worker-3-41487831820",
       "run_id": "41487831820",
       "reserved_at": "2026-11-02T18:48:29Z"
-    },
-    {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T18:49:29Z"
     }
   ],
   "missing_on_account": [
