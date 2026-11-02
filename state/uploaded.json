@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T07:06:22Z",
+  "last_updated": "2026-11-02T07:06:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677367,21 +677367,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T06:27:07Z",
-      "first_failed_at": "2026-11-02T05:13:55Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
@@ -678362,6 +678347,21 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
+    },
+    {
+      "cr_film_id": 31592,
+      "cr_slug": "atomic-shark",
+      "title": "Atomic Shark",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T07:06:48Z",
+      "first_failed_at": "2026-11-02T05:13:55Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -678384,16 +678384,6 @@
       "worker_id": "worker-2-41374983916",
       "run_id": "41374983916",
       "reserved_at": "2026-11-02T06:56:33Z"
-    },
-    {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T07:06:22Z"
     }
   ],
   "missing_on_account": [
