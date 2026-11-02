@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:18:01Z",
+  "last_updated": "2026-11-02T12:18:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674879,19 +674879,24 @@
       "timing": {
         "cdn_resolve_sec": 12.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:12:09Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T12:18:26Z",
+      "first_failed_at": "2026-11-02T12:18:26Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 1565,
       "cr_slug": "predator-nebezpecne-uzemi",
