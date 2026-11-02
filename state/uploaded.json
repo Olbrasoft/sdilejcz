@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T09:01:20Z",
+  "last_updated": "2026-11-02T09:02:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674933,22 +674933,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-02T08:26:09Z",
-      "first_failed_at": "2026-11-02T08:26:09Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 5.4,
-        "download_sec": 6.2
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675654,19 +675638,25 @@
       "timing": {
         "cdn_resolve_sec": 13.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41405524349",
-      "run_id": "41405524349",
-      "reserved_at": "2026-11-02T08:59:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-02T09:02:03Z",
+      "first_failed_at": "2026-11-02T08:26:09Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 2.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19546,
       "cr_slug": "sexy-party-2",
