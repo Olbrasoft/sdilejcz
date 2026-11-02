@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T20:06:56Z",
+  "last_updated": "2026-11-02T20:07:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674689,21 +674689,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T19:27:43Z",
-      "first_failed_at": "2026-11-02T18:12:13Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 25.2
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -675302,6 +675287,21 @@
         "download_sec": 326.9,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T20:07:21Z",
+      "first_failed_at": "2026-11-02T18:12:13Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
     }
   ],
   "in_progress": [
@@ -675334,16 +675334,6 @@
       "worker_id": "worker-3-41487831820",
       "run_id": "41487831820",
       "reserved_at": "2026-11-02T20:05:38Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T20:06:56Z"
     }
   ],
   "missing_on_account": [
