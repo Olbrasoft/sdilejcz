@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:37:53Z",
+  "last_updated": "2026-11-02T12:38:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675508,19 +675508,30 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13418,
       "cr_slug": "sex-a-svobodna-matka",
       "title": "Sex a svobodná matka",
       "year": 2003,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:36:47Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:38:24Z",
+      "first_failed_at": "2026-11-02T12:38:24Z",
+      "attempt_count": 1,
+      "upload_id": "e4cdf93bd9f7f73b",
+      "source_url": "https://prehraj.to/sex-a-svobodna-matka-2003-usa-drama/e4cdf93bd9f7f73b",
+      "upload_title": "Sex a svobodna matka-2003,USA-drama",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 16.2,
+        "upload_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
