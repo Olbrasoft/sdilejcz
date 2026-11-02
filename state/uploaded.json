@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T02:15:30Z",
+  "last_updated": "2026-11-02T02:15:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673642,19 +673642,24 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T02:14:53Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T02:15:49Z",
+      "first_failed_at": "2026-11-02T02:15:49Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
