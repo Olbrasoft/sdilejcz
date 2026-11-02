@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T00:59:30Z",
+  "last_updated": "2026-11-02T00:59:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678744,21 +678744,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T00:24:53Z",
-      "first_failed_at": "2026-11-01T23:53:52Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.5
-      }
-    },
-    {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
       "title": "12:01 PM",
@@ -679766,6 +679751,21 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
+    },
+    {
+      "cr_film_id": 31658,
+      "cr_slug": "tararua-s-k",
+      "title": "Tararua S-K",
+      "year": null,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T00:59:52Z",
+      "first_failed_at": "2026-11-01T23:53:52Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -679798,16 +679798,6 @@
       "worker_id": "worker-2-41346787874",
       "run_id": "41346787874",
       "reserved_at": "2026-11-02T00:55:50Z"
-    },
-    {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-02T00:59:30Z"
     }
   ],
   "missing_on_account": [
