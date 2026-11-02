@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:22:15Z",
+  "last_updated": "2026-11-02T12:22:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675016,19 +675016,30 @@
         "download_sec": 60.5,
         "upload_sec": 12.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8929,
       "cr_slug": "leo-da-vinci-mise-mona-lisa",
       "title": "Leo Da Vinci: Mise Mona Lisa",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:20:01Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:22:29Z",
+      "first_failed_at": "2026-11-02T12:22:29Z",
+      "attempt_count": 1,
+      "upload_id": "600d6eeb507a3",
+      "source_url": "https://prehraj.to/leo-da-vinci-cz-dabing-2018-animovany/600d6eeb507a3",
+      "upload_title": "Leo Da Vinci [CZ dabing, 2018, animovany]",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 50.3,
+        "upload_sec": 12.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
