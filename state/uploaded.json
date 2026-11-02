@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T07:12:18Z",
+  "last_updated": "2026-11-02T07:17:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677331,21 +677331,6 @@
       }
     },
     {
-      "cr_film_id": 35060,
-      "cr_slug": "malcolm-x",
-      "title": "Malcolm X",
-      "year": 1992,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T06:25:55Z",
-      "first_failed_at": "2026-11-02T06:25:55Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
@@ -678386,20 +678371,24 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35060,
       "cr_slug": "malcolm-x",
       "title": "Malcolm X",
       "year": 1992,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T06:56:33Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T07:17:03Z",
+      "first_failed_at": "2026-11-02T06:25:55Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
