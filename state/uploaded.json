@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T16:48:38Z",
+  "last_updated": "2026-11-02T16:49:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678149,21 +678149,6 @@
       }
     },
     {
-      "cr_film_id": 37224,
-      "cr_slug": "los-angeles-streetfighter",
-      "title": "Los Angeles Streetfighter",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T16:15:51Z",
-      "first_failed_at": "2026-11-02T16:15:51Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 35060,
       "cr_slug": "malcolm-x",
       "title": "Malcolm X",
@@ -678797,6 +678782,21 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
+    },
+    {
+      "cr_film_id": 37224,
+      "cr_slug": "los-angeles-streetfighter",
+      "title": "Los Angeles Streetfighter",
+      "year": 1985,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T16:49:01Z",
+      "first_failed_at": "2026-11-02T16:15:51Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
     }
   ],
   "in_progress": [
@@ -678819,16 +678819,6 @@
       "worker_id": "worker-3-41442147484",
       "run_id": "41442147484",
       "reserved_at": "2026-11-02T16:44:56Z"
-    },
-    {
-      "cr_film_id": 37224,
-      "cr_slug": "los-angeles-streetfighter",
-      "title": "Los Angeles Streetfighter",
-      "year": 1985,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T16:48:38Z"
     }
   ],
   "missing_on_account": [
