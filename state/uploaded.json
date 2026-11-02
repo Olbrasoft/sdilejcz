@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:30:03Z",
+  "last_updated": "2026-11-02T12:30:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675247,19 +675247,30 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8199,
       "cr_slug": "sexappeal",
       "title": "Sex Appeal",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:27:22Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:30:14Z",
+      "first_failed_at": "2026-11-02T12:30:14Z",
+      "attempt_count": 1,
+      "upload_id": "637f52ee74776",
+      "source_url": "https://prehraj.to/sex-appeal-komedie-drama-usa-2022-cz-dabing-kamilka-martas/637f52ee74776",
+      "upload_title": "Sex Appeal (Komedie, Dráma, USA, 2022) CZ dabing Kamilka.Martas",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 71.1,
+        "upload_sec": 12.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11864,
       "cr_slug": "sex-lzi-a-video",
