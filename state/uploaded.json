@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T09:23:36Z",
+  "last_updated": "2026-11-02T09:23:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675152,21 +675152,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T08:52:16Z",
-      "first_failed_at": "2026-11-02T08:20:50Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
@@ -675785,6 +675770,21 @@
       "timing": {
         "cdn_resolve_sec": 11.9
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T09:23:59Z",
+      "first_failed_at": "2026-11-02T08:20:50Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
     }
   ],
   "in_progress": [
@@ -675817,16 +675817,6 @@
       "worker_id": "worker-1-41405524349",
       "run_id": "41405524349",
       "reserved_at": "2026-11-02T09:22:23Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41405524349",
-      "run_id": "41405524349",
-      "reserved_at": "2026-11-02T09:23:36Z"
     }
   ],
   "missing_on_account": [
