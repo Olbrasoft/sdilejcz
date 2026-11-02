@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T17:58:27Z",
+  "last_updated": "2026-11-02T17:58:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673705,21 +673705,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T17:23:03Z",
-      "first_failed_at": "2026-11-02T17:23:03Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 21.4
-      }
-    },
-    {
       "cr_film_id": 1565,
       "cr_slug": "predator-nebezpecne-uzemi",
       "title": "Predátor: Nebezpečné území",
@@ -674150,6 +674135,21 @@
       "timing": {
         "cdn_resolve_sec": 17.2
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T17:58:51Z",
+      "first_failed_at": "2026-11-02T17:23:03Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.2
+      }
     }
   ],
   "in_progress": [
@@ -674182,16 +674182,6 @@
       "worker_id": "worker-2-41487831820",
       "run_id": "41487831820",
       "reserved_at": "2026-11-02T17:56:08Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T17:58:27Z"
     }
   ],
   "missing_on_account": [
