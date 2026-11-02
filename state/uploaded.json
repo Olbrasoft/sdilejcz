@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T03:26:14Z",
+  "last_updated": "2026-11-02T03:26:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674047,21 +674047,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T02:54:17Z",
-      "first_failed_at": "2026-11-02T02:20:00Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.5
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -674840,6 +674825,21 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T03:26:41Z",
+      "first_failed_at": "2026-11-02T02:20:00Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -674862,16 +674862,6 @@
       "worker_id": "worker-2-41374983916",
       "run_id": "41374983916",
       "reserved_at": "2026-11-02T03:22:56Z"
-    },
-    {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T03:26:14Z"
     }
   ],
   "missing_on_account": [
