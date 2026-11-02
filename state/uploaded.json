@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T15:03:32Z",
+  "last_updated": "2026-11-02T15:03:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677666,6 +677666,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T15:03:57Z",
+      "first_failed_at": "2026-11-02T15:03:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -677688,16 +677703,6 @@
       "worker_id": "worker-4-41442147484",
       "run_id": "41442147484",
       "reserved_at": "2026-11-02T14:54:02Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T15:03:18Z"
     }
   ],
   "missing_on_account": [
