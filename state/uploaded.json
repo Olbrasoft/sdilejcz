@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T17:23:14Z",
+  "last_updated": "2026-11-02T17:23:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673595,19 +673595,30 @@
       "timing": {
         "cdn_resolve_sec": 21.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1565,
       "cr_slug": "predator-nebezpecne-uzemi",
       "title": "Predátor: Nebezpečné území",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T17:07:29Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-02T17:23:40Z",
+      "first_failed_at": "2026-11-02T17:23:40Z",
+      "attempt_count": 1,
+      "upload_id": "555b06dff9ebbd3e",
+      "source_url": "https://prehraj.to/predator-2-cz-dabing-2025/555b06dff9ebbd3e",
+      "upload_title": "Predator 2 CZ Dabing. 2025",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.6,
+        "download_sec": 855.9,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4484,
       "cr_slug": "jak-mit-sex",
