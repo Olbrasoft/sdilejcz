@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T04:04:25Z",
+  "last_updated": "2026-11-02T04:04:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674379,21 +674379,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T03:25:07Z",
-      "first_failed_at": "2026-11-02T02:18:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -675104,6 +675089,21 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T04:04:51Z",
+      "first_failed_at": "2026-11-02T02:18:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
     }
   ],
   "in_progress": [
@@ -675136,16 +675136,6 @@
       "worker_id": "worker-1-41374983916",
       "run_id": "41374983916",
       "reserved_at": "2026-11-02T04:03:54Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T04:04:25Z"
     }
   ],
   "missing_on_account": [
