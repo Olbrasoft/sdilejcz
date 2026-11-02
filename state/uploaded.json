@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T17:09:04Z",
+  "last_updated": "2026-11-02T17:09:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673231,19 +673231,24 @@
       "timing": {
         "resolve_sec": 0.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T17:06:51Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T17:09:20Z",
+      "first_failed_at": "2026-11-02T17:09:20Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 1565,
       "cr_slug": "predator-nebezpecne-uzemi",
