@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T17:11:47Z",
+  "last_updated": "2026-11-02T17:12:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673333,6 +673333,27 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 3591,
+      "cr_slug": "sex",
+      "title": "Sex",
+      "year": 2024,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-02T17:12:50Z",
+      "first_failed_at": "2026-11-02T17:12:50Z",
+      "attempt_count": 1,
+      "upload_id": "68e541bcc35df",
+      "source_url": "https://prehraj.to/sex-2024-drama-romanticky-cz-dabing-spickova-kvalita-1080p-by-nexsus/68e541bcc35df",
+      "upload_title": "Sex (2024)(Drama-Romantický) CZ DABING ŠPIČKOVA KVALITA 1080p by Nexsus",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 38.5,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -673355,16 +673376,6 @@
       "worker_id": "worker-4-41487831820",
       "run_id": "41487831820",
       "reserved_at": "2026-11-02T17:09:33Z"
-    },
-    {
-      "cr_film_id": 3591,
-      "cr_slug": "sex",
-      "title": "Sex",
-      "year": 2024,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T17:11:05Z"
     },
     {
       "cr_film_id": 3890,
