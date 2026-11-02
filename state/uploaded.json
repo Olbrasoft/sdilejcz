@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T13:35:36Z",
+  "last_updated": "2026-11-02T13:35:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676247,6 +676247,23 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
+    },
+    {
+      "cr_film_id": 16379,
+      "cr_slug": "blazing-fists",
+      "title": "Blazing Fists",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T13:35:52Z",
+      "first_failed_at": "2026-11-02T13:35:52Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 5.7,
+        "download_sec": 98.2,
+        "upload_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -676259,16 +676276,6 @@
       "worker_id": "worker-4-41442147484",
       "run_id": "41442147484",
       "reserved_at": "2026-11-02T13:29:01Z"
-    },
-    {
-      "cr_film_id": 16379,
-      "cr_slug": "blazing-fists",
-      "title": "Blazing Fists",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T13:29:20Z"
     },
     {
       "cr_film_id": 14382,
