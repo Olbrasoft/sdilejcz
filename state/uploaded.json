@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T11:53:59Z",
+  "last_updated": "2026-11-02T11:54:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676862,21 +676862,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T10:35:41Z",
-      "first_failed_at": "2026-11-02T10:35:41Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.8
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -678326,19 +678311,24 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31550,
       "cr_slug": "passion-in-the-desert",
       "title": "Passion in the Desert",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41405524349",
-      "run_id": "41405524349",
-      "reserved_at": "2026-11-02T11:10:23Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T11:54:24Z",
+      "first_failed_at": "2026-11-02T10:35:41Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37224,
       "cr_slug": "los-angeles-streetfighter",
