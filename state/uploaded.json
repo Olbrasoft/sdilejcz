@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T19:06:18Z",
+  "last_updated": "2026-11-02T19:06:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673890,21 +673890,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T18:35:35Z",
-      "first_failed_at": "2026-11-02T17:23:03Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 18.0
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -674662,6 +674647,21 @@
       "timing": {
         "cdn_resolve_sec": 19.7
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T19:06:50Z",
+      "first_failed_at": "2026-11-02T17:23:03Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 16.6
+      }
     }
   ],
   "in_progress": [
@@ -674694,16 +674694,6 @@
       "worker_id": "worker-1-41487831820",
       "run_id": "41487831820",
       "reserved_at": "2026-11-02T19:00:38Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T19:06:18Z"
     }
   ],
   "missing_on_account": [
