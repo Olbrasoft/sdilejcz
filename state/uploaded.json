@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:41:08Z",
+  "last_updated": "2026-11-02T12:41:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675565,19 +675565,30 @@
         "download_sec": 55.6,
         "upload_sec": 12.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13271,
       "cr_slug": "lara-croft-tomb-raider-kolebka-zivota",
       "title": "Lara Croft – Tomb Raider: Kolébka života",
       "year": 2003,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:37:53Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:41:36Z",
+      "first_failed_at": "2026-11-02T12:41:36Z",
+      "attempt_count": 1,
+      "upload_id": "5b70bf68d6241",
+      "source_url": "https://prehraj.to/tomb-raider-kolebka-zivota-2003-cz-dabing/5b70bf68d6241",
+      "upload_title": "Tomb Raider - Kolébka Života (2003) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 29.0,
+        "upload_sec": 12.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13418,
       "cr_slug": "sex-a-svobodna-matka",
