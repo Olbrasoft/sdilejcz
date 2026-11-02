@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T14:45:05Z",
+  "last_updated": "2026-11-02T14:45:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676340,21 +676340,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T14:14:54Z",
-      "first_failed_at": "2026-11-02T13:39:10Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.4
-      }
-    },
-    {
       "cr_film_id": 22008,
       "cr_slug": "klarino-koleno",
       "title": "Klářino koleno",
@@ -677145,6 +677130,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T14:45:30Z",
+      "first_failed_at": "2026-11-02T13:39:10Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.6
+      }
     }
   ],
   "in_progress": [
@@ -677177,16 +677177,6 @@
       "worker_id": "worker-1-41442147484",
       "run_id": "41442147484",
       "reserved_at": "2026-11-02T14:39:18Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T14:45:05Z"
     }
   ],
   "missing_on_account": [
