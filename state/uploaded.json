@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T20:05:38Z",
+  "last_updated": "2026-11-02T20:06:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675281,6 +675281,27 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
+    },
+    {
+      "cr_film_id": 22852,
+      "cr_slug": "delta-force",
+      "title": "Delta Force",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-02T20:06:43Z",
+      "first_failed_at": "2026-11-02T20:06:43Z",
+      "attempt_count": 1,
+      "upload_id": "60f6fcbe1801d",
+      "source_url": "https://prehraj.to/delta-force-1986-czdab/60f6fcbe1801d",
+      "upload_title": "Delta Force (1986) CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.5,
+        "download_sec": 326.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675293,16 +675314,6 @@
       "worker_id": "worker-4-41487831820",
       "run_id": "41487831820",
       "reserved_at": "2026-11-02T19:53:07Z"
-    },
-    {
-      "cr_film_id": 22852,
-      "cr_slug": "delta-force",
-      "title": "Delta Force",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T19:56:51Z"
     },
     {
       "cr_film_id": 23109,
