@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T03:57:05Z",
+  "last_updated": "2026-11-02T03:57:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674345,21 +674345,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T03:15:36Z",
-      "first_failed_at": "2026-11-02T02:38:57Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
@@ -675066,6 +675051,21 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T03:57:29Z",
+      "first_failed_at": "2026-11-02T02:38:57Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
     }
   ],
   "in_progress": [
@@ -675098,16 +675098,6 @@
       "worker_id": "worker-4-41374983916",
       "run_id": "41374983916",
       "reserved_at": "2026-11-02T03:54:45Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T03:57:05Z"
     }
   ],
   "missing_on_account": [
