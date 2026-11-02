@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T02:38:39Z",
+  "last_updated": "2026-11-02T02:38:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674421,19 +674421,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T02:29:46Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T02:38:57Z",
+      "first_failed_at": "2026-11-02T02:38:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
