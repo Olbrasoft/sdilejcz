@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T17:01:46Z",
+  "last_updated": "2026-11-02T17:02:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678103,21 +678103,6 @@
       }
     },
     {
-      "cr_film_id": 35058,
-      "cr_slug": "mollo-tutto",
-      "title": "Mollo tutto",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T16:25:12Z",
-      "first_failed_at": "2026-11-02T15:54:18Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 37536,
       "cr_slug": "a-very-unlucky-leprechaun",
       "title": "A Very Unlucky Leprechaun",
@@ -678797,20 +678782,24 @@
       "timing": {
         "cdn_resolve_sec": 19.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35058,
       "cr_slug": "mollo-tutto",
       "title": "Mollo tutto",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T17:01:46Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T17:02:21Z",
+      "first_failed_at": "2026-11-02T15:54:18Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
