@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T13:03:32Z",
+  "last_updated": "2026-11-02T13:03:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674775,23 +674775,6 @@
       }
     },
     {
-      "cr_film_id": 1565,
-      "cr_slug": "predator-nebezpecne-uzemi",
-      "title": "Predátor: Nebezpečné území",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
-      "failed_at": "2026-11-02T12:19:20Z",
-      "first_failed_at": "2026-11-02T12:19:20Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 7.8,
-        "download_sec": 59.0,
-        "upload_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
@@ -675817,19 +675800,26 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1565,
       "cr_slug": "predator-nebezpecne-uzemi",
       "title": "Predátor: Nebezpečné území",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:59:48Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T13:03:58Z",
+      "first_failed_at": "2026-11-02T12:19:20Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 6.7,
+        "download_sec": 59.8,
+        "upload_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
