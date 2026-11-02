@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:52:30Z",
+  "last_updated": "2026-11-02T12:53:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675728,6 +675728,27 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 13506,
+      "cr_slug": "nezkrotna-dee-dee",
+      "title": "Nezkrotná Dee Dee",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:53:24Z",
+      "first_failed_at": "2026-11-02T12:53:24Z",
+      "attempt_count": 1,
+      "upload_id": "587ccdca02311",
+      "source_url": "https://prehraj.to/nezkrotna-dee-dee-2006-dvd-cz/587ccdca02311",
+      "upload_title": "Nezkrotná-Dee-Dee-=2006-DVD-CZ",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 29.2,
+        "upload_sec": 12.3
+      }
     }
   ],
   "in_progress": [
@@ -675750,16 +675771,6 @@
       "worker_id": "worker-2-41442147484",
       "run_id": "41442147484",
       "reserved_at": "2026-11-02T12:51:59Z"
-    },
-    {
-      "cr_film_id": 13506,
-      "cr_slug": "nezkrotna-dee-dee",
-      "title": "Nezkrotná Dee Dee",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:52:30Z"
     }
   ],
   "missing_on_account": [
