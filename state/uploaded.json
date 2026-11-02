@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T06:53:04Z",
+  "last_updated": "2026-11-02T06:53:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677329,21 +677329,6 @@
       }
     },
     {
-      "cr_film_id": 34973,
-      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
-      "title": "Děvčátko, které bydlí na konci ulice",
-      "year": 1976,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T06:22:35Z",
-      "first_failed_at": "2026-11-02T06:22:35Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
@@ -678127,6 +678112,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 34973,
+      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
+      "title": "Děvčátko, které bydlí na konci ulice",
+      "year": 1976,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T06:53:29Z",
+      "first_failed_at": "2026-11-02T06:22:35Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -678149,16 +678149,6 @@
       "worker_id": "worker-3-41374983916",
       "run_id": "41374983916",
       "reserved_at": "2026-11-02T06:48:54Z"
-    },
-    {
-      "cr_film_id": 34973,
-      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
-      "title": "Děvčátko, které bydlí na konci ulice",
-      "year": 1976,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41374983916",
-      "run_id": "41374983916",
-      "reserved_at": "2026-11-02T06:53:04Z"
     }
   ],
   "missing_on_account": [
