@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T19:58:14Z",
+  "last_updated": "2026-11-02T20:00:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675236,19 +675236,30 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18355,
       "cr_slug": "blue-caprice",
       "title": "Blue Caprice",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T19:47:22Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-02T20:00:51Z",
+      "first_failed_at": "2026-11-02T20:00:51Z",
+      "attempt_count": 1,
+      "upload_id": "56822aa7308e4",
+      "source_url": "https://prehraj.to/blue-caprice-2013-cz-tit-p-p/56822aa7308e4",
+      "upload_title": "Blue caprice - 2013 cz tit. p.p.",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 545.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
