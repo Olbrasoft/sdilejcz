@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T13:32:12Z",
+  "last_updated": "2026-11-02T13:33:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675088,23 +675088,6 @@
       }
     },
     {
-      "cr_film_id": 13454,
-      "cr_slug": "sexy-mrtvola",
-      "title": "Sexy mrtvola",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
-      "failed_at": "2026-11-02T12:43:45Z",
-      "first_failed_at": "2026-11-02T12:43:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.8,
-        "download_sec": 21.4,
-        "upload_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 13271,
       "cr_slug": "lara-croft-tomb-raider-kolebka-zivota",
       "title": "Lara Croft – Tomb Raider: Kolébka života",
@@ -676247,6 +676230,23 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
+    },
+    {
+      "cr_film_id": 13454,
+      "cr_slug": "sexy-mrtvola",
+      "title": "Sexy mrtvola",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T13:33:05Z",
+      "first_failed_at": "2026-11-02T12:43:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.2,
+        "download_sec": 17.0,
+        "upload_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -676279,16 +676279,6 @@
       "worker_id": "worker-2-41442147484",
       "run_id": "41442147484",
       "reserved_at": "2026-11-02T13:29:20Z"
-    },
-    {
-      "cr_film_id": 13454,
-      "cr_slug": "sexy-mrtvola",
-      "title": "Sexy mrtvola",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T13:32:12Z"
     }
   ],
   "missing_on_account": [
