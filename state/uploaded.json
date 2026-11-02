@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:35:43Z",
+  "last_updated": "2026-11-02T12:35:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675421,19 +675421,30 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11864,
       "cr_slug": "sex-lzi-a-video",
       "title": "Sex, lži a video",
       "year": 1989,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:33:01Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:35:57Z",
+      "first_failed_at": "2026-11-02T12:35:57Z",
+      "attempt_count": 1,
+      "upload_id": "5ad94542ef360",
+      "source_url": "https://prehraj.to/sex-lzi-a-video-1989/5ad94542ef360",
+      "upload_title": "Sex, lži a video (1989)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 58.7,
+        "upload_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
