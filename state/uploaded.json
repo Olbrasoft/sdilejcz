@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T00:31:38Z",
+  "last_updated": "2026-11-02T00:32:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677830,21 +677830,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-01T23:56:32Z",
-      "first_failed_at": "2026-11-01T23:56:32Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
@@ -679056,6 +679041,21 @@
         "cdn_resolve_sec": 1.3,
         "download_sec": 2.0
       }
+    },
+    {
+      "cr_film_id": 31550,
+      "cr_slug": "passion-in-the-desert",
+      "title": "Passion in the Desert",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T00:32:06Z",
+      "first_failed_at": "2026-11-01T23:56:32Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -679088,16 +679088,6 @@
       "worker_id": "worker-2-41346787874",
       "run_id": "41346787874",
       "reserved_at": "2026-11-02T00:30:06Z"
-    },
-    {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41346787874",
-      "run_id": "41346787874",
-      "reserved_at": "2026-11-02T00:31:38Z"
     }
   ],
   "missing_on_account": [
