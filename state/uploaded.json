@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T20:01:05Z",
+  "last_updated": "2026-11-02T20:01:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674725,21 +674725,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T19:30:45Z",
-      "first_failed_at": "2026-11-02T19:30:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 28.1
-      }
-    },
-    {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
@@ -675257,6 +675242,21 @@
         "download_sec": 545.8,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T20:01:30Z",
+      "first_failed_at": "2026-11-02T19:30:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.8
+      }
     }
   ],
   "in_progress": [
@@ -675289,16 +675289,6 @@
       "worker_id": "worker-2-41487831820",
       "run_id": "41487831820",
       "reserved_at": "2026-11-02T19:58:14Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T20:01:05Z"
     }
   ],
   "missing_on_account": [
