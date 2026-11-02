@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T18:48:29Z",
+  "last_updated": "2026-11-02T18:49:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673781,23 +673781,6 @@
       }
     },
     {
-      "cr_film_id": 13512,
-      "cr_slug": "sex-surrogate",
-      "title": "Sex Surrogate",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-02T18:08:38Z",
-      "first_failed_at": "2026-11-02T18:08:38Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.7,
-        "download_sec": 36.6,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -674391,6 +674374,23 @@
       "timing": {
         "cdn_resolve_sec": 17.9
       }
+    },
+    {
+      "cr_film_id": 13512,
+      "cr_slug": "sex-surrogate",
+      "title": "Sex Surrogate",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-02T18:49:01Z",
+      "first_failed_at": "2026-11-02T18:08:38Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 15.2,
+        "download_sec": 51.0,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674403,16 +674403,6 @@
       "worker_id": "worker-4-41487831820",
       "run_id": "41487831820",
       "reserved_at": "2026-11-02T18:30:17Z"
-    },
-    {
-      "cr_film_id": 13512,
-      "cr_slug": "sex-surrogate",
-      "title": "Sex Surrogate",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41487831820",
-      "run_id": "41487831820",
-      "reserved_at": "2026-11-02T18:45:07Z"
     },
     {
       "cr_film_id": 2154,
