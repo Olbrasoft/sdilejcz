@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T07:58:50Z",
+  "last_updated": "2026-11-02T07:59:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674279,21 +674279,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T07:28:08Z",
-      "first_failed_at": "2026-11-02T07:28:08Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 3890,
       "cr_slug": "ztracene-mesto-z",
       "title": "Ztracené město Z",
@@ -674657,6 +674642,21 @@
         "download_sec": 22.8,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 3019,
+      "cr_slug": "legenda-o-drakovi",
+      "title": "Legenda o drakovi",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T07:59:14Z",
+      "first_failed_at": "2026-11-02T07:28:08Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
     }
   ],
   "in_progress": [
@@ -674679,16 +674679,6 @@
       "worker_id": "worker-2-41405524349",
       "run_id": "41405524349",
       "reserved_at": "2026-11-02T07:57:36Z"
-    },
-    {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41405524349",
-      "run_id": "41405524349",
-      "reserved_at": "2026-11-02T07:58:50Z"
     }
   ],
   "missing_on_account": [
