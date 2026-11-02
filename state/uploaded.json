@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:57:32Z",
+  "last_updated": "2026-11-02T12:57:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674716,27 +674716,6 @@
       }
     },
     {
-      "cr_film_id": 1565,
-      "cr_slug": "predator-nebezpecne-uzemi",
-      "title": "Predátor: Nebezpečné území",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
-      "failed_at": "2026-11-02T12:16:15Z",
-      "first_failed_at": "2026-11-02T12:16:15Z",
-      "attempt_count": 1,
-      "upload_id": "555b06dff9ebbd3e",
-      "source_url": "https://prehraj.to/predator-2-cz-dabing-2025/555b06dff9ebbd3e",
-      "upload_title": "Predator 2 CZ Dabing. 2025",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 30.3,
-        "upload_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 3890,
       "cr_slug": "ztracene-mesto-z",
       "title": "Ztracené město Z",
@@ -675749,19 +675728,30 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 1565,
       "cr_slug": "predator-nebezpecne-uzemi",
       "title": "Predátor: Nebezpečné území",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:47:35Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:57:53Z",
+      "first_failed_at": "2026-11-02T12:16:15Z",
+      "attempt_count": 2,
+      "upload_id": "555b06dff9ebbd3e",
+      "source_url": "https://prehraj.to/predator-2-cz-dabing-2025/555b06dff9ebbd3e",
+      "upload_title": "Predator 2 CZ Dabing. 2025",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 27.9,
+        "upload_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
