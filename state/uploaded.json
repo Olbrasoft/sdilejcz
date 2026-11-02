@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T07:29:54Z",
+  "last_updated": "2026-11-02T07:31:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674086,6 +674086,27 @@
         "resolve_sec": 0.9,
         "download_sec": 4.4
       }
+    },
+    {
+      "cr_film_id": 2636,
+      "cr_slug": "climax",
+      "title": "Climax",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-02T07:31:44Z",
+      "first_failed_at": "2026-11-02T07:31:44Z",
+      "attempt_count": 1,
+      "upload_id": "61fced5f8214b",
+      "source_url": "https://prehraj.to/climax-2018-1080p-bluray-cz-dabing/61fced5f8214b",
+      "upload_title": "Climax.2018.1080p.BluRay.CZ.dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 65.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674118,16 +674139,6 @@
       "worker_id": "worker-3-41405524349",
       "run_id": "41405524349",
       "reserved_at": "2026-11-02T07:28:49Z"
-    },
-    {
-      "cr_film_id": 2636,
-      "cr_slug": "climax",
-      "title": "Climax",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41405524349",
-      "run_id": "41405524349",
-      "reserved_at": "2026-11-02T07:29:54Z"
     }
   ],
   "missing_on_account": [
