@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T14:20:24Z",
+  "last_updated": "2026-11-02T14:20:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675752,21 +675752,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T13:43:26Z",
-      "first_failed_at": "2026-11-02T13:06:40Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.1
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -676694,6 +676679,21 @@
       "timing": {
         "cdn_resolve_sec": 13.3
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T14:20:48Z",
+      "first_failed_at": "2026-11-02T13:06:40Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -676726,16 +676726,6 @@
       "worker_id": "worker-1-41442147484",
       "run_id": "41442147484",
       "reserved_at": "2026-11-02T14:19:15Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T14:20:24Z"
     }
   ],
   "missing_on_account": [
