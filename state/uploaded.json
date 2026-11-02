@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T13:36:02Z",
+  "last_updated": "2026-11-02T13:36:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675246,21 +675246,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-02T13:01:43Z",
-      "first_failed_at": "2026-11-02T12:30:47Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 1565,
       "cr_slug": "predator-nebezpecne-uzemi",
       "title": "Predátor: Nebezpečné území",
@@ -676264,6 +676249,21 @@
         "download_sec": 98.2,
         "upload_sec": 12.5
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-02T13:36:28Z",
+      "first_failed_at": "2026-11-02T12:30:47Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -676296,16 +676296,6 @@
       "worker_id": "worker-1-41442147484",
       "run_id": "41442147484",
       "reserved_at": "2026-11-02T13:35:36Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T13:36:02Z"
     }
   ],
   "missing_on_account": [
