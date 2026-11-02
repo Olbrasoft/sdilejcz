@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-02T12:32:37Z",
+  "last_updated": "2026-11-02T12:32:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675334,19 +675334,30 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8929,
       "cr_slug": "leo-da-vinci-mise-mona-lisa",
       "title": "Leo Da Vinci: Mise Mona Lisa",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41442147484",
-      "run_id": "41442147484",
-      "reserved_at": "2026-11-02T12:29:15Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: Chunk upload failed after 5 attempts: HTTPSConnectionPool(host='uploadweb2.sdilej.cz', port=443): Max retries exceeded with url: /upload/index.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))",
+      "failed_at": "2026-11-02T12:32:49Z",
+      "first_failed_at": "2026-11-02T12:32:49Z",
+      "attempt_count": 1,
+      "upload_id": "60c3af49a3aac",
+      "source_url": "https://prehraj.to/leo-da-vinci-mise-mona-lisa-2018-cz-dabing-animovany/60c3af49a3aac",
+      "upload_title": "Leo Da Vinci - Mise Mona Lisa (2018) CZ Dabing - Animovaný",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 64.6,
+        "upload_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
