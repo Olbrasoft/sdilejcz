@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T16:47:46Z",
+  "last_updated": "2026-11-03T16:48:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673917,6 +673917,27 @@
       "timing": {
         "cdn_resolve_sec": 13.0
       }
+    },
+    {
+      "cr_film_id": 9822,
+      "cr_slug": "xxx-nova-dimenze",
+      "title": "xXx: Nová dimenze",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-03T16:48:12Z",
+      "first_failed_at": "2026-11-03T16:48:12Z",
+      "attempt_count": 1,
+      "upload_id": "c6c33f4be7a326a3",
+      "source_url": "https://prehraj.to/trojite-x-xx-x-2-nova-dimenze-state-of-the-union-ice-cube-2005-sk-cz/c6c33f4be7a326a3",
+      "upload_title": "Trojité X - xX x 2 - Nová dimenze (State of the Union -Ice Cube 2005) Sk Cz",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 23.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -673929,16 +673950,6 @@
       "worker_id": "worker-1-41670133210",
       "run_id": "41670133210",
       "reserved_at": "2026-11-03T16:43:38Z"
-    },
-    {
-      "cr_film_id": 9822,
-      "cr_slug": "xxx-nova-dimenze",
-      "title": "xXx: Nová dimenze",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T16:44:25Z"
     },
     {
       "cr_film_id": 10256,
