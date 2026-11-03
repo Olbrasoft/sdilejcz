@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T11:49:19Z",
+  "last_updated": "2026-11-03T11:49:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674375,21 +674375,6 @@
       }
     },
     {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T11:17:09Z",
-      "first_failed_at": "2026-11-03T10:41:02Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -675033,6 +675018,21 @@
         "download_sec": 51.1,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 7319,
+      "cr_slug": "lego-dc-super-hrdinove-aquaman",
+      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T11:49:47Z",
+      "first_failed_at": "2026-11-03T10:41:02Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 15.1
+      }
     }
   ],
   "in_progress": [
@@ -675065,16 +675065,6 @@
       "worker_id": "worker-2-41620213344",
       "run_id": "41620213344",
       "reserved_at": "2026-11-03T11:47:31Z"
-    },
-    {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41620213344",
-      "run_id": "41620213344",
-      "reserved_at": "2026-11-03T11:49:19Z"
     }
   ],
   "missing_on_account": [
