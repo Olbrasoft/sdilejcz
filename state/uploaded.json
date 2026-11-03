@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T15:28:23Z",
+  "last_updated": "2026-11-03T15:28:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677508,21 +677508,6 @@
       }
     },
     {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T14:57:08Z",
-      "first_failed_at": "2026-11-03T14:26:03Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 35058,
       "cr_slug": "mollo-tutto",
       "title": "Mollo tutto",
@@ -678221,6 +678206,21 @@
       "timing": {
         "cdn_resolve_sec": 21.4
       }
+    },
+    {
+      "cr_film_id": 34839,
+      "cr_slug": "lekce-zivota",
+      "title": "Lekce života",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T15:28:59Z",
+      "first_failed_at": "2026-11-03T14:26:03Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 22.3
+      }
     }
   ],
   "in_progress": [
@@ -678233,16 +678233,6 @@
       "worker_id": "worker-3-41620213344",
       "run_id": "41620213344",
       "reserved_at": "2026-11-03T14:57:20Z"
-    },
-    {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41620213344",
-      "run_id": "41620213344",
-      "reserved_at": "2026-11-03T15:28:23Z"
     }
   ],
   "missing_on_account": [
