@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T17:35:50Z",
+  "last_updated": "2026-11-03T17:36:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673989,21 +673989,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T17:05:16Z",
-      "first_failed_at": "2026-11-03T16:34:09Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 17.0
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -674784,6 +674769,21 @@
       "timing": {
         "cdn_resolve_sec": 20.5
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T17:36:31Z",
+      "first_failed_at": "2026-11-03T16:34:09Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.5
+      }
     }
   ],
   "in_progress": [
@@ -674806,16 +674806,6 @@
       "worker_id": "worker-2-41670133210",
       "run_id": "41670133210",
       "reserved_at": "2026-11-03T17:34:12Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T17:35:50Z"
     }
   ],
   "missing_on_account": [
