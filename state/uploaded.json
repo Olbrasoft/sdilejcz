@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T08:35:59Z",
+  "last_updated": "2026-11-03T08:36:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675832,22 +675832,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-03T08:02:15Z",
-      "first_failed_at": "2026-11-03T07:31:36Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 5.0,
-        "download_sec": 2.0
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676814,6 +676798,22 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-03T08:36:19Z",
+      "first_failed_at": "2026-11-03T07:31:36Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 5.3,
+        "download_sec": 1.6
+      }
     }
   ],
   "in_progress": [
@@ -676846,16 +676846,6 @@
       "worker_id": "worker-3-41590048352",
       "run_id": "41590048352",
       "reserved_at": "2026-11-03T08:35:25Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41590048352",
-      "run_id": "41590048352",
-      "reserved_at": "2026-11-03T08:35:59Z"
     }
   ],
   "missing_on_account": [
