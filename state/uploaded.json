@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T03:31:40Z",
+  "last_updated": "2026-11-03T03:33:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678004,6 +678004,27 @@
       "timing": {
         "cdn_resolve_sec": 12.4
       }
+    },
+    {
+      "cr_film_id": 36855,
+      "cr_slug": "dick-whittington",
+      "title": "Dick Whittington",
+      "year": 1993,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out.",
+      "failed_at": "2026-11-03T03:33:30Z",
+      "first_failed_at": "2026-11-03T03:33:30Z",
+      "attempt_count": 1,
+      "upload_id": "65914d83b52ae",
+      "source_url": "https://prehraj.to/dick-whittington-1993/65914d83b52ae",
+      "upload_title": "Dick Whittington-1993",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 44.2,
+        "upload_sec": 53.7
+      }
     }
   ],
   "in_progress": [
@@ -678026,16 +678047,6 @@
       "worker_id": "worker-1-41538520302",
       "run_id": "41538520302",
       "reserved_at": "2026-11-03T03:22:38Z"
-    },
-    {
-      "cr_film_id": 36855,
-      "cr_slug": "dick-whittington",
-      "title": "Dick Whittington",
-      "year": 1993,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41538520302",
-      "run_id": "41538520302",
-      "reserved_at": "2026-11-03T03:31:40Z"
     }
   ],
   "missing_on_account": [
