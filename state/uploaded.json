@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T09:47:18Z",
+  "last_updated": "2026-11-03T09:47:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677197,21 +677197,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T09:14:50Z",
-      "first_failed_at": "2026-11-03T08:41:17Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.4
-      }
-    },
-    {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
@@ -678072,6 +678057,21 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T09:47:44Z",
+      "first_failed_at": "2026-11-03T08:41:17Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.8
+      }
     }
   ],
   "in_progress": [
@@ -678104,16 +678104,6 @@
       "worker_id": "worker-2-41590048352",
       "run_id": "41590048352",
       "reserved_at": "2026-11-03T09:46:42Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41590048352",
-      "run_id": "41590048352",
-      "reserved_at": "2026-11-03T09:47:18Z"
     }
   ],
   "missing_on_account": [
