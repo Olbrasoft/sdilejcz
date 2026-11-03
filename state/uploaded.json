@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T06:51:50Z",
+  "last_updated": "2026-11-03T06:52:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675169,19 +675169,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41590048352",
-      "run_id": "41590048352",
-      "reserved_at": "2026-11-03T06:47:48Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T06:52:22Z",
+      "first_failed_at": "2026-11-03T06:52:22Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
