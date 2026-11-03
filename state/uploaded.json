@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T19:49:44Z",
+  "last_updated": "2026-11-03T19:50:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674454,21 +674454,6 @@
       }
     },
     {
-      "cr_film_id": 12825,
-      "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
-      "title": "Dobrodružství Toma Palečka a Malenky",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T18:26:15Z",
-      "first_failed_at": "2026-11-03T17:12:18Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 22.2
-      }
-    },
-    {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
@@ -675059,19 +675044,24 @@
         "download_sec": 59.2,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T19:44:27Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T19:50:43Z",
+      "first_failed_at": "2026-11-03T17:12:18Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 28.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19462,
       "cr_slug": "sexy-party",
