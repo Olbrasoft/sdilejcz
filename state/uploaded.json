@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T16:39:54Z",
+  "last_updated": "2026-11-03T16:40:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673615,21 +673615,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T16:09:20Z",
-      "first_failed_at": "2026-11-03T16:09:20Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.5
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -673845,6 +673830,21 @@
       "timing": {
         "cdn_resolve_sec": 14.9
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T16:40:21Z",
+      "first_failed_at": "2026-11-03T16:09:20Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
     }
   ],
   "in_progress": [
@@ -673877,16 +673877,6 @@
       "worker_id": "worker-3-41670133210",
       "run_id": "41670133210",
       "reserved_at": "2026-11-03T16:36:53Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T16:39:54Z"
     }
   ],
   "missing_on_account": [
