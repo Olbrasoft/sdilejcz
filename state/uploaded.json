@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T20:41:49Z",
+  "last_updated": "2026-11-03T20:42:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674472,22 +674472,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-03T18:40:27Z",
-      "first_failed_at": "2026-11-03T17:47:31Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.2,
-        "download_sec": 2.7
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -675166,6 +675150,22 @@
       "timing": {
         "cdn_resolve_sec": 20.9
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-03T20:42:43Z",
+      "first_failed_at": "2026-11-03T17:47:31Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.0,
+        "download_sec": 2.5
+      }
     }
   ],
   "in_progress": [
@@ -675198,16 +675198,6 @@
       "worker_id": "worker-3-41670133210",
       "run_id": "41670133210",
       "reserved_at": "2026-11-03T20:38:32Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T20:41:49Z"
     }
   ],
   "missing_on_account": [
