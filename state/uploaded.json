@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T17:05:30Z",
+  "last_updated": "2026-11-03T17:05:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673647,6 +673647,27 @@
         "upload_sec": 83.4,
         "total_sec": 275.3
       }
+    },
+    {
+      "cr_film_id": 5704,
+      "cr_slug": "bezstarostny-sex",
+      "title": "Bezstarostný sex",
+      "year": 2007,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 52835,
+      "sdilej_url": "https://sdilej.cz/35431483/bezstarostny-sex-2007-cz-dabing.mp4",
+      "sdilej_name": "Bezstarostný sex (2007) CZ Dabing.mp4",
+      "uploaded_at": "2026-11-03T16:59:33Z",
+      "status": "uploaded",
+      "size_bytes": 421200969,
+      "worker_id": "worker-2-41670133210",
+      "timing": {
+        "cdn_resolve_sec": 2.9,
+        "download_sec": 85.8,
+        "upload_sec": 64.6,
+        "total_sec": 153.4
+      }
     }
   ],
   "failed_attempts": [
@@ -673781,23 +673802,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 5704,
-      "cr_slug": "bezstarostny-sex",
-      "title": "Bezstarostný sex",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-03T16:25:38Z",
-      "first_failed_at": "2026-11-03T16:25:38Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 2.2,
-        "download_sec": 58.4,
-        "upload_sec": 30.0
       }
     },
     {
@@ -674160,16 +674164,6 @@
       "worker_id": "worker-1-41670133210",
       "run_id": "41670133210",
       "reserved_at": "2026-11-03T16:50:14Z"
-    },
-    {
-      "cr_film_id": 5704,
-      "cr_slug": "bezstarostny-sex",
-      "title": "Bezstarostný sex",
-      "year": 2007,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T16:56:49Z"
     },
     {
       "cr_film_id": 5808,
