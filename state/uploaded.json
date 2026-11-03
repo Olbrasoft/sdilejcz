@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T19:47:51Z",
+  "last_updated": "2026-11-03T19:49:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675038,6 +675038,27 @@
       "timing": {
         "cdn_resolve_sec": 27.2
       }
+    },
+    {
+      "cr_film_id": 19583,
+      "cr_slug": "sex-ve-meste",
+      "title": "Sex ve městě",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-03T19:49:33Z",
+      "first_failed_at": "2026-11-03T19:49:33Z",
+      "attempt_count": 1,
+      "upload_id": "5bfad7cd673fa",
+      "source_url": "https://prehraj.to/sex-ve-meste-1-2008-dvdrip-cz-dabing-m3/5bfad7cd673fa",
+      "upload_title": "Sex ve meste 1(2008)DVDrip - CZ dabing...M3",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 59.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675070,16 +675091,6 @@
       "worker_id": "worker-1-41670133210",
       "run_id": "41670133210",
       "reserved_at": "2026-11-03T19:47:04Z"
-    },
-    {
-      "cr_film_id": 19583,
-      "cr_slug": "sex-ve-meste",
-      "title": "Sex ve městě",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T19:47:51Z"
     }
   ],
   "missing_on_account": [
