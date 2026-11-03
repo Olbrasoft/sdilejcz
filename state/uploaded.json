@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T15:29:16Z",
+  "last_updated": "2026-11-03T15:29:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677508,21 +677508,6 @@
       }
     },
     {
-      "cr_film_id": 35058,
-      "cr_slug": "mollo-tutto",
-      "title": "Mollo tutto",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T14:57:42Z",
-      "first_failed_at": "2026-11-03T14:57:42Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 15.4
-      }
-    },
-    {
       "cr_film_id": 34850,
       "cr_slug": "duch-zraloka",
       "title": "Duch žraloka",
@@ -678221,6 +678206,21 @@
       "timing": {
         "cdn_resolve_sec": 22.3
       }
+    },
+    {
+      "cr_film_id": 35058,
+      "cr_slug": "mollo-tutto",
+      "title": "Mollo tutto",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T15:29:49Z",
+      "first_failed_at": "2026-11-03T14:57:42Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 20.4
+      }
     }
   ],
   "in_progress": [
@@ -678233,16 +678233,6 @@
       "worker_id": "worker-3-41620213344",
       "run_id": "41620213344",
       "reserved_at": "2026-11-03T14:57:20Z"
-    },
-    {
-      "cr_film_id": 35058,
-      "cr_slug": "mollo-tutto",
-      "title": "Mollo tutto",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41620213344",
-      "run_id": "41620213344",
-      "reserved_at": "2026-11-03T15:29:16Z"
     }
   ],
   "missing_on_account": [
