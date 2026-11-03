@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T09:21:48Z",
+  "last_updated": "2026-11-03T09:22:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676642,22 +676642,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-03T08:48:04Z",
-      "first_failed_at": "2026-11-03T08:17:50Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.4,
-        "download_sec": 1.8
-      }
-    },
-    {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
@@ -677662,6 +677646,22 @@
         "cdn_resolve_sec": 6.6,
         "download_sec": 2.3
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-03T09:22:05Z",
+      "first_failed_at": "2026-11-03T08:17:50Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 2.3
+      }
     }
   ],
   "in_progress": [
@@ -677684,16 +677684,6 @@
       "worker_id": "worker-4-41590048352",
       "run_id": "41590048352",
       "reserved_at": "2026-11-03T09:21:17Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41590048352",
-      "run_id": "41590048352",
-      "reserved_at": "2026-11-03T09:21:48Z"
     }
   ],
   "missing_on_account": [
