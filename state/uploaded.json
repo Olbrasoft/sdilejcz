@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T17:00:37Z",
+  "last_updated": "2026-11-03T17:01:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674097,6 +674097,27 @@
       "timing": {
         "cdn_resolve_sec": 9.8
       }
+    },
+    {
+      "cr_film_id": 11204,
+      "cr_slug": "marecku-podejte-mi-pero",
+      "title": "„Marečku, podejte mi pero!“",
+      "year": 1976,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-03T17:01:57Z",
+      "first_failed_at": "2026-11-03T17:01:57Z",
+      "attempt_count": 1,
+      "upload_id": "67164cf914054",
+      "source_url": "https://prehraj.to/marecku-podejte-mi-pero-1976-cz-dab/67164cf914054",
+      "upload_title": "Marečku, podejte mi pero! 1976 CZ dab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.3,
+        "download_sec": 34.3,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -674129,16 +674150,6 @@
       "worker_id": "worker-3-41670133210",
       "run_id": "41670133210",
       "reserved_at": "2026-11-03T16:59:26Z"
-    },
-    {
-      "cr_film_id": 11204,
-      "cr_slug": "marecku-podejte-mi-pero",
-      "title": "„Marečku, podejte mi pero!“",
-      "year": 1976,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T17:00:37Z"
     }
   ],
   "missing_on_account": [
