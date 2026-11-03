@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T03:00:14Z",
+  "last_updated": "2026-11-03T03:00:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676928,22 +676928,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-03T02:30:03Z",
-      "first_failed_at": "2026-11-03T01:28:56Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.1,
-        "download_sec": 2.1
-      }
-    },
-    {
       "cr_film_id": 34408,
       "cr_slug": "velbloud-uchem-jehly",
       "title": "Velbloud uchem jehly",
@@ -677719,6 +677703,22 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-03T03:00:28Z",
+      "first_failed_at": "2026-11-03T01:28:56Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 2.0
+      }
     }
   ],
   "in_progress": [
@@ -677751,16 +677751,6 @@
       "worker_id": "worker-3-41538520302",
       "run_id": "41538520302",
       "reserved_at": "2026-11-03T02:59:05Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41538520302",
-      "run_id": "41538520302",
-      "reserved_at": "2026-11-03T03:00:14Z"
     }
   ],
   "missing_on_account": [
