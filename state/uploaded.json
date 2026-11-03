@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T10:46:43Z",
+  "last_updated": "2026-11-03T10:47:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674005,19 +674005,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41620213344",
-      "run_id": "41620213344",
-      "reserved_at": "2026-11-03T10:44:25Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T10:47:06Z",
+      "first_failed_at": "2026-11-03T10:47:06Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
