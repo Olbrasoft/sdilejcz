@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T13:46:18Z",
+  "last_updated": "2026-11-03T13:47:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676308,19 +676308,30 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29406,
       "cr_slug": "rocco",
       "title": "Rocco",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41620213344",
-      "run_id": "41620213344",
-      "reserved_at": "2026-11-03T13:41:53Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-03T13:47:24Z",
+      "first_failed_at": "2026-11-03T13:47:24Z",
+      "attempt_count": 1,
+      "upload_id": "5cd9e262c91b4",
+      "source_url": "https://prehraj.to/rocco-2016-cz-titulky/5cd9e262c91b4",
+      "upload_title": "Rocco 2016 - CZ TITULKY",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.9,
+        "download_sec": 24.5,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29722,
       "cr_slug": "the-body-remembers-when-the-world-broke-open",
