@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T16:40:21Z",
+  "last_updated": "2026-11-03T16:40:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673505,21 +673505,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T16:06:03Z",
-      "first_failed_at": "2026-11-03T16:06:03Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -673845,6 +673830,21 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T16:40:31Z",
+      "first_failed_at": "2026-11-03T16:06:03Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -673867,16 +673867,6 @@
       "worker_id": "worker-2-41670133210",
       "run_id": "41670133210",
       "reserved_at": "2026-11-03T16:35:58Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T16:36:53Z"
     }
   ],
   "missing_on_account": [
