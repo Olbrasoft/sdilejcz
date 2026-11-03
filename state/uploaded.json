@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T05:54:52Z",
+  "last_updated": "2026-11-03T05:55:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677518,20 +677518,24 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34949,
       "cr_slug": "duch-ohne",
       "title": "Duch ohně",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41577350561",
-      "run_id": "41577350561",
-      "reserved_at": "2026-11-03T05:54:52Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T05:55:16Z",
+      "first_failed_at": "2026-11-03T05:55:16Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
