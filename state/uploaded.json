@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T06:40:49Z",
+  "last_updated": "2026-11-03T06:41:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674857,19 +674857,24 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41590048352",
-      "run_id": "41590048352",
-      "reserved_at": "2026-11-03T06:37:49Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T06:41:09Z",
+      "first_failed_at": "2026-11-03T06:41:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8199,
       "cr_slug": "sexappeal",
