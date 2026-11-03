@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T20:31:03Z",
+  "last_updated": "2026-11-03T20:32:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675142,19 +675142,30 @@
       "timing": {
         "cdn_resolve_sec": 19.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19462,
       "cr_slug": "sexy-party",
       "title": "Sexy párty",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41670133210",
-      "run_id": "41670133210",
-      "reserved_at": "2026-11-03T19:46:31Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-03T20:32:08Z",
+      "first_failed_at": "2026-11-03T20:32:08Z",
+      "attempt_count": 1,
+      "upload_id": "58fda4927d2d2",
+      "source_url": "https://prehraj.to/sexy-party-1-2002-czdab/58fda4927d2d2",
+      "upload_title": "Sexy party 1 (2002)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 16.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
