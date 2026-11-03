@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T08:43:52Z",
+  "last_updated": "2026-11-03T08:44:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675540,21 +675540,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T07:48:18Z",
-      "first_failed_at": "2026-11-03T06:41:42Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 20985,
       "cr_slug": "the-king-of-kings",
       "title": "The King of Kings",
@@ -676897,6 +676882,21 @@
       "timing": {
         "cdn_resolve_sec": 12.4
       }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T08:44:15Z",
+      "first_failed_at": "2026-11-03T06:41:42Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
     }
   ],
   "in_progress": [
@@ -676919,16 +676919,6 @@
       "worker_id": "worker-3-41590048352",
       "run_id": "41590048352",
       "reserved_at": "2026-11-03T08:40:57Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41590048352",
-      "run_id": "41590048352",
-      "reserved_at": "2026-11-03T08:43:52Z"
     }
   ],
   "missing_on_account": [
