@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T08:38:22Z",
+  "last_updated": "2026-11-03T08:38:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675715,21 +675715,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T07:57:30Z",
-      "first_failed_at": "2026-11-03T06:52:22Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
@@ -676814,6 +676799,21 @@
       "timing": {
         "cdn_resolve_sec": 15.9
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T08:38:52Z",
+      "first_failed_at": "2026-11-03T06:52:22Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
   "in_progress": [
@@ -676846,16 +676846,6 @@
       "worker_id": "worker-1-41590048352",
       "run_id": "41590048352",
       "reserved_at": "2026-11-03T08:37:05Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41590048352",
-      "run_id": "41590048352",
-      "reserved_at": "2026-11-03T08:38:22Z"
     }
   ],
   "missing_on_account": [
