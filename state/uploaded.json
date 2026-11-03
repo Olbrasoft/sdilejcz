@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-03T07:09:54Z",
+  "last_updated": "2026-11-03T07:10:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675550,19 +675550,24 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41590048352",
-      "run_id": "41590048352",
-      "reserved_at": "2026-11-03T07:07:43Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-03T07:10:16Z",
+      "first_failed_at": "2026-11-03T07:10:16Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14343,
       "cr_slug": "skupinovy-sex",
