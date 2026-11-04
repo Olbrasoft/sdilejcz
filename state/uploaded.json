@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T17:17:45Z",
+  "last_updated": "2026-11-04T17:18:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675550,21 +675550,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T16:45:28Z",
-      "first_failed_at": "2026-11-04T15:23:43Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -676098,6 +676083,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T17:18:20Z",
+      "first_failed_at": "2026-11-04T15:23:43Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.4
+      }
     }
   ],
   "in_progress": [
@@ -676130,16 +676130,6 @@
       "worker_id": "worker-3-41845903036",
       "run_id": "41845903036",
       "reserved_at": "2026-11-04T17:16:17Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41845903036",
-      "run_id": "41845903036",
-      "reserved_at": "2026-11-04T17:17:45Z"
     }
   ],
   "missing_on_account": [
