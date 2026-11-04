@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T03:56:24Z",
+  "last_updated": "2026-11-04T03:56:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674937,19 +674937,25 @@
       "timing": {
         "cdn_resolve_sec": 15.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41766299591",
-      "run_id": "41766299591",
-      "reserved_at": "2026-11-04T03:53:00Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-04T03:56:45Z",
+      "first_failed_at": "2026-11-04T03:56:45Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 6.5,
+        "download_sec": 2.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
