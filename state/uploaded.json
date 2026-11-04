@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T13:24:45Z",
+  "last_updated": "2026-11-04T13:24:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677542,6 +677542,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 34919,
+      "cr_slug": "milovany-joshua",
+      "title": "Milovaný Joshua",
+      "year": 2007,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T13:24:52Z",
+      "first_failed_at": "2026-11-04T13:24:52Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -677574,16 +677589,6 @@
       "worker_id": "worker-3-41801523591",
       "run_id": "41801523591",
       "reserved_at": "2026-11-04T13:20:24Z"
-    },
-    {
-      "cr_film_id": 34919,
-      "cr_slug": "milovany-joshua",
-      "title": "Milovaný Joshua",
-      "year": 2007,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41801523591",
-      "run_id": "41801523591",
-      "reserved_at": "2026-11-04T13:24:23Z"
     }
   ],
   "missing_on_account": [
