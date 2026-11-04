@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T19:32:44Z",
+  "last_updated": "2026-11-04T19:33:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677732,19 +677732,26 @@
       "timing": {
         "cdn_resolve_sec": 27.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34739,
       "cr_slug": "pikova-trojka",
       "title": "Piková trojka",
       "year": 2003,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41845903036",
-      "run_id": "41845903036",
-      "reserved_at": "2026-11-04T18:38:33Z"
-    },
+      "source": "sktorrent",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-04T19:33:23Z",
+      "first_failed_at": "2026-11-04T19:33:23Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.0,
+        "download_sec": 78.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35152,
       "cr_slug": "vanessa-mae-the-red-hot-tour-live-at-the-royal-albert-hall",
