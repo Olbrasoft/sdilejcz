@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T12:40:47Z",
+  "last_updated": "2026-11-04T12:41:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675767,21 +675767,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T12:10:36Z",
-      "first_failed_at": "2026-11-04T11:35:23Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -676660,6 +676645,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T12:41:11Z",
+      "first_failed_at": "2026-11-04T11:35:23Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -676692,16 +676692,6 @@
       "worker_id": "worker-3-41801523591",
       "run_id": "41801523591",
       "reserved_at": "2026-11-04T12:37:59Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41801523591",
-      "run_id": "41801523591",
-      "reserved_at": "2026-11-04T12:40:47Z"
     }
   ],
   "missing_on_account": [
