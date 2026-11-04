@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T23:25:38Z",
+  "last_updated": "2026-11-04T23:26:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676641,6 +676641,27 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
+    },
+    {
+      "cr_film_id": 28321,
+      "cr_slug": "anna-nicole",
+      "title": "Anna Nicole",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-04T23:26:53Z",
+      "first_failed_at": "2026-11-04T23:26:53Z",
+      "attempt_count": 1,
+      "upload_id": "55c675b7dece3",
+      "source_url": "https://prehraj.to/anna-nicole-2013-cz-dab-zivotopis-drama/55c675b7dece3",
+      "upload_title": "Anna Nicole - 2013 cz dab.životopis.drama",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 3.8,
+        "download_sec": 27.9,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676663,16 +676684,6 @@
       "worker_id": "worker-3-41901416662",
       "run_id": "41901416662",
       "reserved_at": "2026-11-04T23:24:47Z"
-    },
-    {
-      "cr_film_id": 28321,
-      "cr_slug": "anna-nicole",
-      "title": "Anna Nicole",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41901416662",
-      "run_id": "41901416662",
-      "reserved_at": "2026-11-04T23:25:38Z"
     }
   ],
   "missing_on_account": [
