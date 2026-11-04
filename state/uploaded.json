@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T00:08:38Z",
+  "last_updated": "2026-11-04T00:09:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674571,21 +674571,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T23:25:59Z",
-      "first_failed_at": "2026-11-03T22:20:02Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -675558,6 +675543,21 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T00:09:03Z",
+      "first_failed_at": "2026-11-03T22:20:02Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -675590,16 +675590,6 @@
       "worker_id": "worker-2-41724274383",
       "run_id": "41724274383",
       "reserved_at": "2026-11-04T00:05:42Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41724274383",
-      "run_id": "41724274383",
-      "reserved_at": "2026-11-04T00:08:38Z"
     }
   ],
   "missing_on_account": [
