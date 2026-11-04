@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T08:55:40Z",
+  "last_updated": "2026-11-04T08:56:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674046,28 +674046,30 @@
         "upload_sec": 65.0,
         "total_sec": 100.2
       }
-    }
-  ],
-  "failed_attempts": [
+    },
     {
       "cr_film_id": 594,
       "cr_slug": "obecna-skola",
       "title": "Obecná škola",
       "year": 1991,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/obecna-skola-1991-remux-dts-5-1/65d2e20543c81",
-      "failed_at": "2026-11-04T08:44:15Z",
-      "first_failed_at": "2026-11-04T08:44:15Z",
-      "attempt_count": 1,
-      "upload_id": "65d2e20543c81",
-      "source_url": "https://prehraj.to/obecna-skola-1991-remux-dts-5-1/65d2e20543c81",
-      "upload_title": "Obecná škola (1991) REMUX DTS 5.1",
-      "permanent": true,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 5912,
+      "sdilej_url": "https://sdilej.cz/35434889/obecna-skola-1991-cz.mp4",
+      "sdilej_name": "Obecná škola (1991) CZ.mp4",
+      "uploaded_at": "2026-11-04T08:55:20Z",
+      "status": "uploaded",
+      "size_bytes": 2867273117,
+      "worker_id": "worker-4-41801523591",
       "timing": {
-        "resolve_sec": 1.0
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 330.1,
+        "upload_sec": 321.5,
+        "total_sec": 655.1
       }
-    },
+    }
+  ],
+  "failed_attempts": [
     {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
@@ -674305,16 +674307,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 594,
-      "cr_slug": "obecna-skola",
-      "title": "Obecná škola",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41801523591",
-      "run_id": "41801523591",
-      "reserved_at": "2026-11-04T08:43:31Z"
-    },
     {
       "cr_film_id": 2636,
       "cr_slug": "climax",
