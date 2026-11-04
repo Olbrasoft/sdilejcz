@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T02:19:54Z",
+  "last_updated": "2026-11-04T02:20:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677104,21 +677104,6 @@
       }
     },
     {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T01:46:14Z",
-      "first_failed_at": "2026-11-04T01:46:14Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
@@ -677798,6 +677783,21 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
+    },
+    {
+      "cr_film_id": 34902,
+      "cr_slug": "duch-boure",
+      "title": "Duch bouře",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T02:20:19Z",
+      "first_failed_at": "2026-11-04T01:46:14Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -677830,16 +677830,6 @@
       "worker_id": "worker-1-41724274383",
       "run_id": "41724274383",
       "reserved_at": "2026-11-04T02:16:55Z"
-    },
-    {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41724274383",
-      "run_id": "41724274383",
-      "reserved_at": "2026-11-04T02:19:54Z"
     }
   ],
   "missing_on_account": [
