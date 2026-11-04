@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T12:12:18Z",
+  "last_updated": "2026-11-04T12:12:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675300,21 +675300,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T11:41:56Z",
-      "first_failed_at": "2026-11-04T11:41:56Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675982,6 +675967,21 @@
         "download_sec": 15.1,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T12:12:40Z",
+      "first_failed_at": "2026-11-04T11:41:56Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
     }
   ],
   "in_progress": [
@@ -676004,16 +676004,6 @@
       "worker_id": "worker-1-41801523591",
       "run_id": "41801523591",
       "reserved_at": "2026-11-04T12:11:22Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41801523591",
-      "run_id": "41801523591",
-      "reserved_at": "2026-11-04T12:12:18Z"
     }
   ],
   "missing_on_account": [
