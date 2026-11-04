@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T21:25:52Z",
+  "last_updated": "2026-11-04T21:26:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674350,21 +674350,6 @@
       }
     },
     {
-      "cr_film_id": 13328,
-      "cr_slug": "vrana-4-pekelny-knez",
-      "title": "Vrána 4: Pekelný kněz",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T20:55:31Z",
-      "first_failed_at": "2026-11-04T20:15:18Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 29.9
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -674863,6 +674848,21 @@
       "timing": {
         "cdn_resolve_sec": 19.6
       }
+    },
+    {
+      "cr_film_id": 13328,
+      "cr_slug": "vrana-4-pekelny-knez",
+      "title": "Vrána 4: Pekelný kněz",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T21:26:23Z",
+      "first_failed_at": "2026-11-04T20:15:18Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.0
+      }
     }
   ],
   "in_progress": [
@@ -674885,16 +674885,6 @@
       "worker_id": "worker-4-41901416662",
       "run_id": "41901416662",
       "reserved_at": "2026-11-04T21:25:18Z"
-    },
-    {
-      "cr_film_id": 13328,
-      "cr_slug": "vrana-4-pekelny-knez",
-      "title": "Vrána 4: Pekelný kněz",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41901416662",
-      "run_id": "41901416662",
-      "reserved_at": "2026-11-04T21:25:52Z"
     }
   ],
   "missing_on_account": [
