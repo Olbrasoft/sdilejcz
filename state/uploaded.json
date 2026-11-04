@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T15:03:15Z",
+  "last_updated": "2026-11-04T15:03:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674540,19 +674540,24 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
       "year": 2011,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41845903036",
-      "run_id": "41845903036",
-      "reserved_at": "2026-11-04T15:00:25Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T15:03:33Z",
+      "first_failed_at": "2026-11-04T15:03:33Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16364,
       "cr_slug": "lookout",
