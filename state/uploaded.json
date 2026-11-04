@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T04:16:55Z",
+  "last_updated": "2026-11-04T04:17:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674041,21 +674041,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T03:45:08Z",
-      "first_failed_at": "2026-11-04T03:45:08Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -674968,19 +674953,24 @@
       "timing": {
         "cdn_resolve_sec": 14.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
       "year": 1982,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41766299591",
-      "run_id": "41766299591",
-      "reserved_at": "2026-11-04T04:15:21Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T04:17:32Z",
+      "first_failed_at": "2026-11-04T03:45:08Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 15.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16922,
       "cr_slug": "wet-woman-in-the-wind",
