@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T21:42:50Z",
+  "last_updated": "2026-11-04T21:43:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674263,21 +674263,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T21:02:35Z",
-      "first_failed_at": "2026-11-04T21:02:35Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 18.9
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -674930,6 +674915,21 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T21:43:16Z",
+      "first_failed_at": "2026-11-04T21:02:35Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
     }
   ],
   "in_progress": [
@@ -674952,16 +674952,6 @@
       "worker_id": "worker-2-41901416662",
       "run_id": "41901416662",
       "reserved_at": "2026-11-04T21:41:41Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41901416662",
-      "run_id": "41901416662",
-      "reserved_at": "2026-11-04T21:42:50Z"
     }
   ],
   "missing_on_account": [
