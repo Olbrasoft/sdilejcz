@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T23:43:28Z",
+  "last_updated": "2026-11-04T23:45:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674561,6 +674561,30 @@
         "upload_sec": 86.3,
         "total_sec": 124.7
       }
+    },
+    {
+      "cr_film_id": 29190,
+      "cr_slug": "cosmic-sex",
+      "title": "Cosmic Sex",
+      "year": 2015,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5a9cb8c1c563b",
+      "source_url": "https://prehraj.to/cosmic-sex-2015/5a9cb8c1c563b",
+      "source_title": "Cosmic Sex (2015)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35437716/cosmic-sex-2015-.mp4",
+      "sdilej_name": "Cosmic Sex (2015).mp4",
+      "uploaded_at": "2026-11-04T23:45:09Z",
+      "status": "uploaded",
+      "size_bytes": 570188132,
+      "worker_id": "worker-2-41901416662",
+      "timing": {
+        "resolve_sec": 1.9,
+        "download_sec": 23.4,
+        "upload_sec": 64.3,
+        "total_sec": 90.4
+      }
     }
   ],
   "failed_attempts": [
@@ -676186,27 +676210,6 @@
       }
     },
     {
-      "cr_film_id": 29190,
-      "cr_slug": "cosmic-sex",
-      "title": "Cosmic Sex",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-04T23:11:55Z",
-      "first_failed_at": "2026-11-04T23:11:55Z",
-      "attempt_count": 1,
-      "upload_id": "5a9cb8c1c563b",
-      "source_url": "https://prehraj.to/cosmic-sex-2015/5a9cb8c1c563b",
-      "upload_title": "Cosmic Sex (2015)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 30.8,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 28321,
       "cr_slug": "anna-nicole",
       "title": "Anna Nicole",
@@ -677168,16 +677171,6 @@
       "worker_id": "worker-4-41901416662",
       "run_id": "41901416662",
       "reserved_at": "2026-11-04T23:41:21Z"
-    },
-    {
-      "cr_film_id": 29190,
-      "cr_slug": "cosmic-sex",
-      "title": "Cosmic Sex",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41901416662",
-      "run_id": "41901416662",
-      "reserved_at": "2026-11-04T23:43:28Z"
     }
   ],
   "missing_on_account": [
