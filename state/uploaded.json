@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T01:20:34Z",
+  "last_updated": "2026-11-04T01:20:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676366,21 +676366,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T00:50:34Z",
-      "first_failed_at": "2026-11-04T00:50:34Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.8
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -676747,6 +676732,21 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
+    },
+    {
+      "cr_film_id": 31671,
+      "cr_slug": "e11",
+      "title": "E11",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T01:20:59Z",
+      "first_failed_at": "2026-11-04T00:50:34Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -676769,16 +676769,6 @@
       "worker_id": "worker-3-41724274383",
       "run_id": "41724274383",
       "reserved_at": "2026-11-04T01:19:28Z"
-    },
-    {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41724274383",
-      "run_id": "41724274383",
-      "reserved_at": "2026-11-04T01:20:34Z"
     }
   ],
   "missing_on_account": [
