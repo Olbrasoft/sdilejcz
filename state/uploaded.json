@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T07:33:02Z",
+  "last_updated": "2026-11-04T07:33:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677083,21 +677083,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T07:02:49Z",
-      "first_failed_at": "2026-11-04T07:02:49Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.9
-      }
-    },
-    {
       "cr_film_id": 26757,
       "cr_slug": "sex-ve-meste-2",
       "title": "Sex ve městě 2",
@@ -677815,6 +677800,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T07:33:30Z",
+      "first_failed_at": "2026-11-04T07:02:49Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
   "in_progress": [
@@ -677847,16 +677847,6 @@
       "worker_id": "worker-1-41766299591",
       "run_id": "41766299591",
       "reserved_at": "2026-11-04T07:13:38Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41766299591",
-      "run_id": "41766299591",
-      "reserved_at": "2026-11-04T07:33:02Z"
     }
   ],
   "missing_on_account": [
