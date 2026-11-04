@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T08:15:41Z",
+  "last_updated": "2026-11-04T08:16:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677461,27 +677461,6 @@
       }
     },
     {
-      "cr_film_id": 29067,
-      "cr_slug": "amateur-teens",
-      "title": "Amateur Teens",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-04T07:45:09Z",
-      "first_failed_at": "2026-11-04T06:32:48Z",
-      "attempt_count": 2,
-      "upload_id": "5f43ec0722482",
-      "source_url": "https://prehraj.to/amateur-teens-2015-cztitulky/5f43ec0722482",
-      "upload_title": "Amateur Teens (2015) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 0.9,
-        "download_sec": 60.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -678286,6 +678265,27 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
+    },
+    {
+      "cr_film_id": 29067,
+      "cr_slug": "amateur-teens",
+      "title": "Amateur Teens",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-04T08:16:58Z",
+      "first_failed_at": "2026-11-04T06:32:48Z",
+      "attempt_count": 3,
+      "upload_id": "5f43ec0722482",
+      "source_url": "https://prehraj.to/amateur-teens-2015-cztitulky/5f43ec0722482",
+      "upload_title": "Amateur Teens (2015) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 0.8,
+        "download_sec": 33.4,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -678318,16 +678318,6 @@
       "worker_id": "worker-4-41766299591",
       "run_id": "41766299591",
       "reserved_at": "2026-11-04T08:02:55Z"
-    },
-    {
-      "cr_film_id": 29067,
-      "cr_slug": "amateur-teens",
-      "title": "Amateur Teens",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41766299591",
-      "run_id": "41766299591",
-      "reserved_at": "2026-11-04T08:15:41Z"
     }
   ],
   "missing_on_account": [
