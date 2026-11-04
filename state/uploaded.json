@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T23:12:08Z",
+  "last_updated": "2026-11-04T23:14:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676190,19 +676190,30 @@
         "download_sec": 30.8,
         "upload_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 28321,
       "cr_slug": "anna-nicole",
       "title": "Anna Nicole",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41901416662",
-      "run_id": "41901416662",
-      "reserved_at": "2026-11-04T23:04:27Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-04T23:14:02Z",
+      "first_failed_at": "2026-11-04T23:14:02Z",
+      "attempt_count": 1,
+      "upload_id": "55dd5c2d6e550",
+      "source_url": "https://prehraj.to/anna-nicole-2013-cz-dab-zivotopis-drama/55dd5c2d6e550",
+      "upload_title": "Anna Nicole - 2013 cz dab.životopis.drama",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 20.6,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 29777,
       "cr_slug": "gay-chorus-deep-south",
