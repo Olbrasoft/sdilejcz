@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T08:43:59Z",
+  "last_updated": "2026-11-04T08:44:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673958,7 +673958,27 @@
       }
     }
   ],
-  "failed_attempts": [],
+  "failed_attempts": [
+    {
+      "cr_film_id": 594,
+      "cr_slug": "obecna-skola",
+      "title": "Obecná škola",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/obecna-skola-1991-remux-dts-5-1/65d2e20543c81",
+      "failed_at": "2026-11-04T08:44:15Z",
+      "first_failed_at": "2026-11-04T08:44:15Z",
+      "attempt_count": 1,
+      "upload_id": "65d2e20543c81",
+      "source_url": "https://prehraj.to/obecna-skola-1991-remux-dts-5-1/65d2e20543c81",
+      "upload_title": "Obecná škola (1991) REMUX DTS 5.1",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 1.0
+      }
+    }
+  ],
   "in_progress": [
     {
       "cr_film_id": 494,
