@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T22:05:39Z",
+  "last_updated": "2026-11-04T22:06:58Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675320,6 +675320,27 @@
         "download_sec": 366.1,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 23711,
+      "cr_slug": "sex-po-telefonu",
+      "title": "Sex po telefonu",
+      "year": 1996,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-04T22:06:58Z",
+      "first_failed_at": "2026-11-04T22:06:58Z",
+      "attempt_count": 1,
+      "upload_id": "55e6b07c047e6",
+      "source_url": "https://prehraj.to/sex-po-telefonu-1996-czdab/55e6b07c047e6",
+      "upload_title": "Sex po telefonu (1996)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 35.1,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675342,16 +675363,6 @@
       "worker_id": "worker-3-41901416662",
       "run_id": "41901416662",
       "reserved_at": "2026-11-04T22:00:09Z"
-    },
-    {
-      "cr_film_id": 23711,
-      "cr_slug": "sex-po-telefonu",
-      "title": "Sex po telefonu",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41901416662",
-      "run_id": "41901416662",
-      "reserved_at": "2026-11-04T22:05:39Z"
     }
   ],
   "missing_on_account": [
