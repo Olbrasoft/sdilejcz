@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T03:25:31Z",
+  "last_updated": "2026-11-04T03:25:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673971,19 +673971,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41766299591",
-      "run_id": "41766299591",
-      "reserved_at": "2026-11-04T03:23:40Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T03:25:45Z",
+      "first_failed_at": "2026-11-04T03:25:45Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
