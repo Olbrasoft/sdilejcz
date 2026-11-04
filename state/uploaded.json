@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T12:44:47Z",
+  "last_updated": "2026-11-04T12:45:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675602,21 +675602,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T12:03:55Z",
-      "first_failed_at": "2026-11-04T09:27:31Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -676746,6 +676731,21 @@
       "timing": {
         "cdn_resolve_sec": 15.2
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T12:45:12Z",
+      "first_failed_at": "2026-11-04T09:27:31Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -676768,16 +676768,6 @@
       "worker_id": "worker-3-41801523591",
       "run_id": "41801523591",
       "reserved_at": "2026-11-04T12:37:59Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41801523591",
-      "run_id": "41801523591",
-      "reserved_at": "2026-11-04T12:44:47Z"
     }
   ],
   "missing_on_account": [
