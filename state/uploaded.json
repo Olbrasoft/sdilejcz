@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T21:21:20Z",
+  "last_updated": "2026-11-04T21:21:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674251,21 +674251,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T20:49:54Z",
-      "first_failed_at": "2026-11-04T20:15:49Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 26.8
-      }
-    },
-    {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
@@ -674839,6 +674824,21 @@
       "timing": {
         "cdn_resolve_sec": 22.2
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T21:21:52Z",
+      "first_failed_at": "2026-11-04T20:15:49Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.8
+      }
     }
   ],
   "in_progress": [
@@ -674851,16 +674851,6 @@
       "worker_id": "worker-3-41901416662",
       "run_id": "41901416662",
       "reserved_at": "2026-11-04T21:16:06Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41901416662",
-      "run_id": "41901416662",
-      "reserved_at": "2026-11-04T21:21:20Z"
     }
   ],
   "missing_on_account": [
