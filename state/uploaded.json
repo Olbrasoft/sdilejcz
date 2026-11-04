@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T05:59:17Z",
+  "last_updated": "2026-11-04T06:00:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675887,6 +675887,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 25676,
+      "cr_slug": "maturitni-sex",
+      "title": "Maturitní sex",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-04T06:00:26Z",
+      "first_failed_at": "2026-11-04T06:00:26Z",
+      "attempt_count": 1,
+      "upload_id": "59fd6ac44ffb4",
+      "source_url": "https://prehraj.to/maturitni-sex-2008-cz-dabing/59fd6ac44ffb4",
+      "upload_title": "Maturitní Sex (2008) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 26.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675919,16 +675940,6 @@
       "worker_id": "worker-2-41766299591",
       "run_id": "41766299591",
       "reserved_at": "2026-11-04T05:58:02Z"
-    },
-    {
-      "cr_film_id": 25676,
-      "cr_slug": "maturitni-sex",
-      "title": "Maturitní sex",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41766299591",
-      "run_id": "41766299591",
-      "reserved_at": "2026-11-04T05:59:17Z"
     }
   ],
   "missing_on_account": [
