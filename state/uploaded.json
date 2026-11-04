@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T00:19:22Z",
+  "last_updated": "2026-11-04T00:19:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674617,21 +674617,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-03T23:33:14Z",
-      "first_failed_at": "2026-11-03T22:58:58Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
       "title": "Wind River",
@@ -675661,6 +675646,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T00:19:46Z",
+      "first_failed_at": "2026-11-03T22:58:58Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -675693,16 +675693,6 @@
       "worker_id": "worker-4-41724274383",
       "run_id": "41724274383",
       "reserved_at": "2026-11-04T00:18:23Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41724274383",
-      "run_id": "41724274383",
-      "reserved_at": "2026-11-04T00:19:22Z"
     }
   ],
   "missing_on_account": [
