@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T20:50:05Z",
+  "last_updated": "2026-11-04T20:50:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673814,21 +673814,6 @@
       }
     },
     {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T20:09:54Z",
-      "first_failed_at": "2026-11-04T20:09:54Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
@@ -674669,19 +674654,24 @@
       "timing": {
         "cdn_resolve_sec": 26.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
       "year": 1974,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41901416662",
-      "run_id": "41901416662",
-      "reserved_at": "2026-11-04T20:48:30Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T20:50:23Z",
+      "first_failed_at": "2026-11-04T20:09:54Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 19.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
