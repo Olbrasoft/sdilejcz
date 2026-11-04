@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T05:27:54Z",
+  "last_updated": "2026-11-04T05:28:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674836,21 +674836,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T04:54:29Z",
-      "first_failed_at": "2026-11-04T03:52:50Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 13512,
       "cr_slug": "sex-surrogate",
       "title": "Sex Surrogate",
@@ -675476,6 +675461,21 @@
       "timing": {
         "cdn_resolve_sec": 14.5
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T05:28:16Z",
+      "first_failed_at": "2026-11-04T03:52:50Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.7
+      }
     }
   ],
   "in_progress": [
@@ -675508,16 +675508,6 @@
       "worker_id": "worker-4-41766299591",
       "run_id": "41766299591",
       "reserved_at": "2026-11-04T05:26:14Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41766299591",
-      "run_id": "41766299591",
-      "reserved_at": "2026-11-04T05:27:54Z"
     }
   ],
   "missing_on_account": [
