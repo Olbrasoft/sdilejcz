@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T18:14:41Z",
+  "last_updated": "2026-11-04T18:15:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676468,21 +676468,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T17:32:23Z",
-      "first_failed_at": "2026-11-04T16:31:06Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -676793,6 +676778,21 @@
         "resolve_sec": 0.8,
         "download_sec": 1.6
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T18:15:10Z",
+      "first_failed_at": "2026-11-04T16:31:06Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.2
+      }
     }
   ],
   "in_progress": [
@@ -676825,16 +676825,6 @@
       "worker_id": "worker-3-41845903036",
       "run_id": "41845903036",
       "reserved_at": "2026-11-04T18:14:06Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41845903036",
-      "run_id": "41845903036",
-      "reserved_at": "2026-11-04T18:14:41Z"
     }
   ],
   "missing_on_account": [
