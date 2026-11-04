@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T11:49:54Z",
+  "last_updated": "2026-11-04T11:50:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675722,19 +675722,25 @@
       "timing": {
         "resolve_sec": 1.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-41801523591",
-      "run_id": "41801523591",
-      "reserved_at": "2026-11-04T11:45:04Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-04T11:50:15Z",
+      "first_failed_at": "2026-11-04T11:50:15Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 6.5,
+        "download_sec": 2.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18364,
       "cr_slug": "penthouse-north",
