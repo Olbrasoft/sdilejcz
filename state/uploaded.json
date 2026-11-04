@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T02:09:09Z",
+  "last_updated": "2026-11-04T02:09:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677009,22 +677009,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-04T01:38:22Z",
-      "first_failed_at": "2026-11-04T00:32:07Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.4,
-        "download_sec": 1.9
-      }
-    },
-    {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
@@ -677673,6 +677657,22 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-04T02:09:25Z",
+      "first_failed_at": "2026-11-04T00:32:07Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 2.3
+      }
     }
   ],
   "in_progress": [
@@ -677705,16 +677705,6 @@
       "worker_id": "worker-2-41724274383",
       "run_id": "41724274383",
       "reserved_at": "2026-11-04T02:04:48Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41724274383",
-      "run_id": "41724274383",
-      "reserved_at": "2026-11-04T02:09:09Z"
     }
   ],
   "missing_on_account": [
