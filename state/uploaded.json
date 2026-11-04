@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T12:23:00Z",
+  "last_updated": "2026-11-04T12:23:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675436,22 +675436,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-04T11:50:15Z",
-      "first_failed_at": "2026-11-04T11:50:15Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 6.5,
-        "download_sec": 2.5
-      }
-    },
-    {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
@@ -676085,6 +676069,22 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-04T12:23:20Z",
+      "first_failed_at": "2026-11-04T11:50:15Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 6.3,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -676117,16 +676117,6 @@
       "worker_id": "worker-1-41801523591",
       "run_id": "41801523591",
       "reserved_at": "2026-11-04T12:22:35Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-41801523591",
-      "run_id": "41801523591",
-      "reserved_at": "2026-11-04T12:23:00Z"
     }
   ],
   "missing_on_account": [
