@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-04T17:46:17Z",
+  "last_updated": "2026-11-04T17:46:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675784,21 +675784,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-04T16:55:29Z",
-      "first_failed_at": "2026-11-04T15:36:39Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 30184,
       "cr_slug": "cas-dluhu",
       "title": "Čas dluhů",
@@ -676538,6 +676523,21 @@
         "cdn_resolve_sec": 1.6,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-04T17:46:45Z",
+      "first_failed_at": "2026-11-04T15:36:39Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
     }
   ],
   "in_progress": [
@@ -676570,16 +676570,6 @@
       "worker_id": "worker-4-41845903036",
       "run_id": "41845903036",
       "reserved_at": "2026-11-04T17:44:33Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41845903036",
-      "run_id": "41845903036",
-      "reserved_at": "2026-11-04T17:46:17Z"
     }
   ],
   "missing_on_account": [
