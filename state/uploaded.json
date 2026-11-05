@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T04:40:37Z",
+  "last_updated": "2026-11-05T04:40:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676934,21 +676934,6 @@
       }
     },
     {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T04:10:09Z",
-      "first_failed_at": "2026-11-05T04:10:09Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
@@ -677869,6 +677854,21 @@
       "timing": {
         "cdn_resolve_sec": 9.3
       }
+    },
+    {
+      "cr_film_id": 34827,
+      "cr_slug": "ohnivy-ring",
+      "title": "Ohnivý ring",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T04:40:57Z",
+      "first_failed_at": "2026-11-05T04:10:09Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
     }
   ],
   "in_progress": [
@@ -677901,16 +677901,6 @@
       "worker_id": "worker-3-41947989148",
       "run_id": "41947989148",
       "reserved_at": "2026-11-05T04:33:06Z"
-    },
-    {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-41947989148",
-      "run_id": "41947989148",
-      "reserved_at": "2026-11-05T04:40:37Z"
     }
   ],
   "missing_on_account": [
