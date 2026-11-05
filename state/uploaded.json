@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T11:52:56Z",
+  "last_updated": "2026-11-05T11:53:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674816,21 +674816,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T11:22:33Z",
-      "first_failed_at": "2026-11-05T10:19:39Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
       "title": "Wind River",
@@ -675576,6 +675561,21 @@
       "timing": {
         "cdn_resolve_sec": 9.3
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T11:53:20Z",
+      "first_failed_at": "2026-11-05T10:19:39Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
     }
   ],
   "in_progress": [
@@ -675608,16 +675608,6 @@
       "worker_id": "worker-1-42009493357",
       "run_id": "42009493357",
       "reserved_at": "2026-11-05T11:52:10Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42009493357",
-      "run_id": "42009493357",
-      "reserved_at": "2026-11-05T11:52:56Z"
     }
   ],
   "missing_on_account": [
