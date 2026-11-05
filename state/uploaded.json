@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T17:56:37Z",
+  "last_updated": "2026-11-05T17:57:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674813,21 +674813,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T17:17:34Z",
-      "first_failed_at": "2026-11-05T16:42:45Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -675646,6 +675631,21 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T17:57:09Z",
+      "first_failed_at": "2026-11-05T16:42:45Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 20.4
+      }
     }
   ],
   "in_progress": [
@@ -675678,16 +675678,6 @@
       "worker_id": "worker-2-42052269305",
       "run_id": "42052269305",
       "reserved_at": "2026-11-05T17:56:11Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42052269305",
-      "run_id": "42052269305",
-      "reserved_at": "2026-11-05T17:56:37Z"
     }
   ],
   "missing_on_account": [
