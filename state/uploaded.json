@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T12:54:09Z",
+  "last_updated": "2026-11-05T12:55:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675139,21 +675139,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T11:53:53Z",
-      "first_failed_at": "2026-11-05T10:46:08Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.1
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -676589,19 +676574,24 @@
       "timing": {
         "resolve_sec": 0.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
       "title": "Moje máma Jayne",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42009493357",
-      "run_id": "42009493357",
-      "reserved_at": "2026-11-05T12:27:35Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T12:55:05Z",
+      "first_failed_at": "2026-11-05T10:46:08Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
