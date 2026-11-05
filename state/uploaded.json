@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T22:38:02Z",
+  "last_updated": "2026-11-05T22:38:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674824,21 +674824,6 @@
       }
     },
     {
-      "cr_film_id": 11952,
-      "cr_slug": "delta-force-commando-ii-priority-red-one",
-      "title": "Delta Force Commando II: Priority Red One",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T22:01:03Z",
-      "first_failed_at": "2026-11-05T21:26:14Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
@@ -675755,19 +675740,24 @@
       "timing": {
         "resolve_sec": 0.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42108785223",
-      "run_id": "42108785223",
-      "reserved_at": "2026-11-05T22:31:08Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T22:38:16Z",
+      "first_failed_at": "2026-11-05T21:26:14Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 21663,
       "cr_slug": "lolita-1962",
