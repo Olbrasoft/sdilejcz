@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T12:41:00Z",
+  "last_updated": "2026-11-05T12:41:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675115,21 +675115,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T11:51:58Z",
-      "first_failed_at": "2026-11-05T10:36:54Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -676316,6 +676301,21 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play",
+      "title": "Cold Play",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T12:41:26Z",
+      "first_failed_at": "2026-11-05T10:36:54Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -676348,16 +676348,6 @@
       "worker_id": "worker-1-42009493357",
       "run_id": "42009493357",
       "reserved_at": "2026-11-05T12:39:44Z"
-    },
-    {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42009493357",
-      "run_id": "42009493357",
-      "reserved_at": "2026-11-05T12:41:00Z"
     }
   ],
   "missing_on_account": [
