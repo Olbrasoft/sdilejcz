@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T14:14:22Z",
+  "last_updated": "2026-11-05T14:14:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677208,21 +677208,6 @@
       }
     },
     {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T13:44:10Z",
-      "first_failed_at": "2026-11-05T13:44:10Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.8
-      }
-    },
-    {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
@@ -677865,6 +677850,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 34815,
+      "cr_slug": "kaja-oliva",
+      "title": "Kája + Oliva",
+      "year": 2022,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T14:14:46Z",
+      "first_failed_at": "2026-11-05T13:44:10Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.8
+      }
     }
   ],
   "in_progress": [
@@ -677897,16 +677897,6 @@
       "worker_id": "worker-4-42009493357",
       "run_id": "42009493357",
       "reserved_at": "2026-11-05T14:08:45Z"
-    },
-    {
-      "cr_film_id": 34815,
-      "cr_slug": "kaja-oliva",
-      "title": "Kája + Oliva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42009493357",
-      "run_id": "42009493357",
-      "reserved_at": "2026-11-05T14:14:22Z"
     }
   ],
   "missing_on_account": [
