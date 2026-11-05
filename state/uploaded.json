@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T02:59:18Z",
+  "last_updated": "2026-11-05T02:59:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675294,21 +675294,6 @@
       }
     },
     {
-      "cr_film_id": 12039,
-      "cr_slug": "ritorno-dalla-morte",
-      "title": "Ritorno dalla morte",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T02:28:12Z",
-      "first_failed_at": "2026-11-05T01:54:29Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -676094,6 +676079,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 12039,
+      "cr_slug": "ritorno-dalla-morte",
+      "title": "Ritorno dalla morte",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T02:59:42Z",
+      "first_failed_at": "2026-11-05T01:54:29Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
     }
   ],
   "in_progress": [
@@ -676126,16 +676126,6 @@
       "worker_id": "worker-4-41947989148",
       "run_id": "41947989148",
       "reserved_at": "2026-11-05T02:57:44Z"
-    },
-    {
-      "cr_film_id": 12039,
-      "cr_slug": "ritorno-dalla-morte",
-      "title": "Ritorno dalla morte",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41947989148",
-      "run_id": "41947989148",
-      "reserved_at": "2026-11-05T02:59:18Z"
     }
   ],
   "missing_on_account": [
