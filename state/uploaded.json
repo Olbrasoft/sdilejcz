@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T01:29:52Z",
+  "last_updated": "2026-11-05T01:30:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674269,19 +674269,24 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-41947989148",
-      "run_id": "41947989148",
-      "reserved_at": "2026-11-05T01:26:12Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T01:30:09Z",
+      "first_failed_at": "2026-11-05T01:30:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2636,
       "cr_slug": "climax",
