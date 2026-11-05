@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T17:12:50Z",
+  "last_updated": "2026-11-05T17:13:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674162,21 +674162,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T16:33:15Z",
-      "first_failed_at": "2026-11-05T15:57:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675115,6 +675100,21 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T17:13:29Z",
+      "first_failed_at": "2026-11-05T15:57:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
     }
   ],
   "in_progress": [
@@ -675147,16 +675147,6 @@
       "worker_id": "worker-4-42052269305",
       "run_id": "42052269305",
       "reserved_at": "2026-11-05T17:11:01Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42052269305",
-      "run_id": "42052269305",
-      "reserved_at": "2026-11-05T17:12:50Z"
     }
   ],
   "missing_on_account": [
