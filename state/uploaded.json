@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T09:22:20Z",
+  "last_updated": "2026-11-05T09:22:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677195,22 +677195,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-05T08:48:12Z",
-      "first_failed_at": "2026-11-05T08:17:22Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.3,
-        "download_sec": 2.4
-      }
-    },
-    {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
       "title": "Brouk v hlavě",
@@ -678135,6 +678119,22 @@
       "timing": {
         "cdn_resolve_sec": 15.0
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-05T09:22:36Z",
+      "first_failed_at": "2026-11-05T08:17:22Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 2.2
+      }
     }
   ],
   "in_progress": [
@@ -678157,16 +678157,6 @@
       "worker_id": "worker-4-41974281298",
       "run_id": "41974281298",
       "reserved_at": "2026-11-05T09:20:59Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41974281298",
-      "run_id": "41974281298",
-      "reserved_at": "2026-11-05T09:22:20Z"
     }
   ],
   "missing_on_account": [
