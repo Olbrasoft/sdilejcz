@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T13:45:47Z",
+  "last_updated": "2026-11-05T13:46:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677370,6 +677370,21 @@
       "timing": {
         "resolve_sec": 2.8
       }
+    },
+    {
+      "cr_film_id": 34842,
+      "cr_slug": "mstitel-s-pistalou",
+      "title": "Mstitel s píšťalou",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T13:46:08Z",
+      "first_failed_at": "2026-11-05T13:46:08Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -677402,16 +677417,6 @@
       "worker_id": "worker-3-42009493357",
       "run_id": "42009493357",
       "reserved_at": "2026-11-05T13:44:22Z"
-    },
-    {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42009493357",
-      "run_id": "42009493357",
-      "reserved_at": "2026-11-05T13:45:31Z"
     }
   ],
   "missing_on_account": [
