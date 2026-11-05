@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T03:22:09Z",
+  "last_updated": "2026-11-05T03:22:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675393,21 +675393,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T02:48:37Z",
-      "first_failed_at": "2026-11-05T01:43:39Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
@@ -676362,6 +676347,21 @@
       "timing": {
         "cdn_resolve_sec": 12.6
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T03:22:32Z",
+      "first_failed_at": "2026-11-05T01:43:39Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
     }
   ],
   "in_progress": [
@@ -676394,16 +676394,6 @@
       "worker_id": "worker-4-41947989148",
       "run_id": "41947989148",
       "reserved_at": "2026-11-05T03:21:06Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-41947989148",
-      "run_id": "41947989148",
-      "reserved_at": "2026-11-05T03:22:09Z"
     }
   ],
   "missing_on_account": [
