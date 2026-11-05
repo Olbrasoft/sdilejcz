@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T20:15:28Z",
+  "last_updated": "2026-11-05T20:15:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677134,21 +677134,6 @@
       }
     },
     {
-      "cr_film_id": 34961,
-      "cr_slug": "jackass-volume-one",
-      "title": "Jackass Volume One",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T19:42:54Z",
-      "first_failed_at": "2026-11-05T19:42:54Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 27.4
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -677843,6 +677828,21 @@
       "timing": {
         "cdn_resolve_sec": 20.7
       }
+    },
+    {
+      "cr_film_id": 34961,
+      "cr_slug": "jackass-volume-one",
+      "title": "Jackass Volume One",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T20:15:57Z",
+      "first_failed_at": "2026-11-05T19:42:54Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 16.9
+      }
     }
   ],
   "in_progress": [
@@ -677875,16 +677875,6 @@
       "worker_id": "worker-2-42052269305",
       "run_id": "42052269305",
       "reserved_at": "2026-11-05T20:14:16Z"
-    },
-    {
-      "cr_film_id": 34961,
-      "cr_slug": "jackass-volume-one",
-      "title": "Jackass Volume One",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42052269305",
-      "run_id": "42052269305",
-      "reserved_at": "2026-11-05T20:15:28Z"
     }
   ],
   "missing_on_account": [
