@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T02:54:32Z",
+  "last_updated": "2026-11-05T02:54:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675250,21 +675250,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T02:23:54Z",
-      "first_failed_at": "2026-11-05T01:53:22Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.8
-      }
-    },
-    {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
@@ -675937,6 +675922,21 @@
         "cdn_resolve_sec": 5.1,
         "download_sec": 1.8
       }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T02:54:56Z",
+      "first_failed_at": "2026-11-05T01:53:22Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
   "in_progress": [
@@ -675959,16 +675959,6 @@
       "worker_id": "worker-3-41947989148",
       "run_id": "41947989148",
       "reserved_at": "2026-11-05T02:53:17Z"
-    },
-    {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-41947989148",
-      "run_id": "41947989148",
-      "reserved_at": "2026-11-05T02:54:32Z"
     }
   ],
   "missing_on_account": [
