@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T13:35:02Z",
+  "last_updated": "2026-11-05T13:35:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676738,21 +676738,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T13:04:58Z",
-      "first_failed_at": "2026-11-05T13:04:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 33580,
       "cr_slug": "prenom-carmen",
       "title": "Prénom Carmen",
@@ -677178,6 +677163,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T13:35:30Z",
+      "first_failed_at": "2026-11-05T13:04:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
     }
   ],
   "in_progress": [
@@ -677210,16 +677210,6 @@
       "worker_id": "worker-3-42009493357",
       "run_id": "42009493357",
       "reserved_at": "2026-11-05T13:31:45Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42009493357",
-      "run_id": "42009493357",
-      "reserved_at": "2026-11-05T13:35:02Z"
     }
   ],
   "missing_on_account": [
