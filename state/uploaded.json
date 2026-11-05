@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T17:21:16Z",
+  "last_updated": "2026-11-05T17:21:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674480,22 +674480,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-05T16:45:03Z",
-      "first_failed_at": "2026-11-05T16:45:03Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 6.0,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675201,19 +675185,25 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42052269305",
-      "run_id": "42052269305",
-      "reserved_at": "2026-11-05T17:17:46Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-05T17:21:33Z",
+      "first_failed_at": "2026-11-05T16:45:03Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 6.0,
+        "download_sec": 2.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19662,
       "cr_slug": "pubertaci-miluji-sex",
