@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T00:09:20Z",
+  "last_updated": "2026-11-05T00:09:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676477,22 +676477,6 @@
       "permanent": true
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-04T23:19:58Z",
-      "first_failed_at": "2026-11-04T23:19:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.6,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 31196,
       "cr_slug": "phil-wang-philly-philly-wang-wang",
       "title": "Phil Wang: Philly Philly Wang Wang",
@@ -677632,19 +677616,25 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41901416662",
-      "run_id": "41901416662",
-      "reserved_at": "2026-11-04T23:50:32Z"
-    },
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-05T00:09:42Z",
+      "first_failed_at": "2026-11-04T23:19:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 2.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
