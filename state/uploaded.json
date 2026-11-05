@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T18:05:43Z",
+  "last_updated": "2026-11-05T18:06:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674741,21 +674741,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T17:03:28Z",
-      "first_failed_at": "2026-11-05T15:48:54Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -675694,6 +675679,21 @@
         "cdn_resolve_sec": 6.5,
         "download_sec": 2.3
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T18:06:16Z",
+      "first_failed_at": "2026-11-05T15:48:54Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 18.9
+      }
     }
   ],
   "in_progress": [
@@ -675726,16 +675726,6 @@
       "worker_id": "worker-2-42052269305",
       "run_id": "42052269305",
       "reserved_at": "2026-11-05T18:03:44Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42052269305",
-      "run_id": "42052269305",
-      "reserved_at": "2026-11-05T18:05:43Z"
     }
   ],
   "missing_on_account": [
