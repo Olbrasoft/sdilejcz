@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T17:23:14Z",
+  "last_updated": "2026-11-05T17:24:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674543,21 +674543,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T16:50:45Z",
-      "first_failed_at": "2026-11-05T16:50:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.8
-      }
-    },
-    {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
@@ -675225,19 +675210,24 @@
         "cdn_resolve_sec": 6.0,
         "download_sec": 2.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42052269305",
-      "run_id": "42052269305",
-      "reserved_at": "2026-11-05T17:21:16Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T17:24:49Z",
+      "first_failed_at": "2026-11-05T16:50:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20041,
       "cr_slug": "sex-tape",
