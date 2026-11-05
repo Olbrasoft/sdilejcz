@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T22:19:11Z",
+  "last_updated": "2026-11-05T22:19:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674525,21 +674525,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T21:42:08Z",
-      "first_failed_at": "2026-11-05T21:42:08Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -675478,6 +675463,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T22:19:36Z",
+      "first_failed_at": "2026-11-05T21:42:08Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -675510,16 +675510,6 @@
       "worker_id": "worker-2-42108785223",
       "run_id": "42108785223",
       "reserved_at": "2026-11-05T22:18:41Z"
-    },
-    {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42108785223",
-      "run_id": "42108785223",
-      "reserved_at": "2026-11-05T22:19:11Z"
     }
   ],
   "missing_on_account": [
