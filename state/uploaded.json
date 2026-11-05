@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T19:49:26Z",
+  "last_updated": "2026-11-05T19:50:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676671,21 +676671,6 @@
       }
     },
     {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T19:09:55Z",
-      "first_failed_at": "2026-11-05T19:09:55Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
@@ -677623,6 +677608,21 @@
       "timing": {
         "cdn_resolve_sec": 28.9
       }
+    },
+    {
+      "cr_film_id": 31667,
+      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
+      "title": "One Piece: Baron Omatsuri and the Secret Island",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T19:50:07Z",
+      "first_failed_at": "2026-11-05T19:09:55Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.0
+      }
     }
   ],
   "in_progress": [
@@ -677655,16 +677655,6 @@
       "worker_id": "worker-3-42052269305",
       "run_id": "42052269305",
       "reserved_at": "2026-11-05T19:47:00Z"
-    },
-    {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42052269305",
-      "run_id": "42052269305",
-      "reserved_at": "2026-11-05T19:49:26Z"
     }
   ],
   "missing_on_account": [
