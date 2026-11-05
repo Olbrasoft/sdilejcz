@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T16:21:36Z",
+  "last_updated": "2026-11-05T16:22:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674120,21 +674120,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T15:48:54Z",
-      "first_failed_at": "2026-11-05T15:48:54Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -674508,6 +674493,21 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T16:22:05Z",
+      "first_failed_at": "2026-11-05T15:48:54Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
     }
   ],
   "in_progress": [
@@ -674540,16 +674540,6 @@
       "worker_id": "worker-4-42052269305",
       "run_id": "42052269305",
       "reserved_at": "2026-11-05T16:18:37Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42052269305",
-      "run_id": "42052269305",
-      "reserved_at": "2026-11-05T16:21:36Z"
     }
   ],
   "missing_on_account": [
