@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T05:23:43Z",
+  "last_updated": "2026-11-05T05:24:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677501,21 +677501,6 @@
       }
     },
     {
-      "cr_film_id": 34882,
-      "cr_slug": "brouk-v-hlave-1968",
-      "title": "Brouk v hlavě",
-      "year": 1968,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T04:52:50Z",
-      "first_failed_at": "2026-11-05T04:21:22Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
       "title": "Brouk v hlavě",
       "year": 1968,
       "sktorrent_id": null,
-      "worker_id": "worker-4-41947989148",
-      "run_id": "41947989148",
-      "reserved_at": "2026-11-05T05:23:43Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T05:24:07Z",
+      "first_failed_at": "2026-11-05T04:21:22Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
