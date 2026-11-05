@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T11:11:19Z",
+  "last_updated": "2026-11-05T11:11:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674283,21 +674283,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T10:32:56Z",
-      "first_failed_at": "2026-11-05T10:32:56Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -675212,19 +675197,24 @@
       "timing": {
         "cdn_resolve_sec": 9.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
       "year": 1995,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42009493357",
-      "run_id": "42009493357",
-      "reserved_at": "2026-11-05T11:03:08Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T11:11:45Z",
+      "first_failed_at": "2026-11-05T10:32:56Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
