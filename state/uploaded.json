@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T17:18:20Z",
+  "last_updated": "2026-11-05T17:19:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674385,21 +674385,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-05T16:41:26Z",
-      "first_failed_at": "2026-11-05T16:41:26Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675163,19 +675148,24 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42052269305",
-      "run_id": "42052269305",
-      "reserved_at": "2026-11-05T17:16:06Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T17:19:18Z",
+      "first_failed_at": "2026-11-05T16:41:26Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
