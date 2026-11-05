@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-05T02:09:58Z",
+  "last_updated": "2026-11-05T02:10:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675250,19 +675250,24 @@
       "timing": {
         "cdn_resolve_sec": 11.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-1-41947989148",
-      "run_id": "41947989148",
-      "reserved_at": "2026-11-05T02:04:34Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-05T02:10:15Z",
+      "first_failed_at": "2026-11-05T02:10:15Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
