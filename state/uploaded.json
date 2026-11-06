@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T23:48:31Z",
+  "last_updated": "2026-11-06T23:48:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674520,21 +674520,6 @@
       }
     },
     {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T23:18:02Z",
-      "first_failed_at": "2026-11-06T22:16:25Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
@@ -675288,6 +675273,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 7319,
+      "cr_slug": "lego-dc-super-hrdinove-aquaman",
+      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T23:48:57Z",
+      "first_failed_at": "2026-11-06T22:16:25Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -675320,16 +675320,6 @@
       "worker_id": "worker-2-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-06T23:46:14Z"
-    },
-    {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-06T23:48:31Z"
     }
   ],
   "missing_on_account": [
