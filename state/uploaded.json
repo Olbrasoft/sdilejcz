@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T02:34:23Z",
+  "last_updated": "2026-11-06T02:34:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674609,19 +674609,24 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42148581640",
-      "run_id": "42148581640",
-      "reserved_at": "2026-11-06T02:30:50Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T02:34:43Z",
+      "first_failed_at": "2026-11-06T02:34:43Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14790,
       "cr_slug": "rio-sex-comedy",
