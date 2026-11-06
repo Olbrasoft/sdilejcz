@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T13:50:28Z",
+  "last_updated": "2026-11-06T13:50:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675671,21 +675671,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T13:15:35Z",
-      "first_failed_at": "2026-11-06T11:58:17Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.5
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -676245,6 +676230,21 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T13:50:55Z",
+      "first_failed_at": "2026-11-06T11:58:17Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
     }
   ],
   "in_progress": [
@@ -676277,16 +676277,6 @@
       "worker_id": "worker-4-42209318047",
       "run_id": "42209318047",
       "reserved_at": "2026-11-06T13:47:19Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42209318047",
-      "run_id": "42209318047",
-      "reserved_at": "2026-11-06T13:50:28Z"
     }
   ],
   "missing_on_account": [
