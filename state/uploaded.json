@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T13:33:26Z",
+  "last_updated": "2026-11-06T13:33:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675276,21 +675276,6 @@
       }
     },
     {
-      "cr_film_id": 12825,
-      "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
-      "title": "Dobrodružství Toma Palečka a Malenky",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T12:48:38Z",
-      "first_failed_at": "2026-11-06T11:43:50Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.5
-      }
-    },
-    {
       "cr_film_id": 22008,
       "cr_slug": "klarino-koleno",
       "title": "Klářino koleno",
@@ -676087,19 +676072,24 @@
         "cdn_resolve_sec": 6.0,
         "download_sec": 2.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42209318047",
-      "run_id": "42209318047",
-      "reserved_at": "2026-11-06T13:29:43Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T13:33:50Z",
+      "first_failed_at": "2026-11-06T11:43:50Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 28080,
       "cr_slug": "pee-wee-zima-ktera-zmenila-muj-zivot",
