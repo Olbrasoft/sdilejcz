@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T18:10:13Z",
+  "last_updated": "2026-11-06T18:10:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674849,21 +674849,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T17:38:02Z",
-      "first_failed_at": "2026-11-06T16:30:43Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 28.2
-      }
-    },
-    {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
@@ -675616,6 +675601,21 @@
       "timing": {
         "cdn_resolve_sec": 18.2
       }
+    },
+    {
+      "cr_film_id": 3019,
+      "cr_slug": "legenda-o-drakovi",
+      "title": "Legenda o drakovi",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T18:10:54Z",
+      "first_failed_at": "2026-11-06T16:30:43Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 28.0
+      }
     }
   ],
   "in_progress": [
@@ -675638,16 +675638,6 @@
       "worker_id": "worker-3-42252434929",
       "run_id": "42252434929",
       "reserved_at": "2026-11-06T18:09:00Z"
-    },
-    {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42252434929",
-      "run_id": "42252434929",
-      "reserved_at": "2026-11-06T18:10:13Z"
     }
   ],
   "missing_on_account": [
