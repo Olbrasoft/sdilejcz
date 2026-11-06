@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T13:04:32Z",
+  "last_updated": "2026-11-06T13:05:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675008,21 +675008,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T12:29:19Z",
-      "first_failed_at": "2026-11-06T11:25:59Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.8
-      }
-    },
-    {
       "cr_film_id": 20710,
       "cr_slug": "az-odejdu",
       "title": "Až odejdu",
@@ -675843,19 +675828,24 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42209318047",
-      "run_id": "42209318047",
-      "reserved_at": "2026-11-06T13:01:42Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T13:05:02Z",
+      "first_failed_at": "2026-11-06T11:25:59Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22870,
       "cr_slug": "mona-lisa",
