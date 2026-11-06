@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T23:22:01Z",
+  "last_updated": "2026-11-06T23:22:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674124,21 +674124,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T22:51:30Z",
-      "first_failed_at": "2026-11-06T22:20:49Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -674987,6 +674972,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T23:22:29Z",
+      "first_failed_at": "2026-11-06T22:20:49Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -675019,16 +675019,6 @@
       "worker_id": "worker-3-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-06T23:21:23Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-06T23:22:01Z"
     }
   ],
   "missing_on_account": [
