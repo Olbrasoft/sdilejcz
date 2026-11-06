@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T01:07:49Z",
+  "last_updated": "2026-11-06T01:08:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677197,21 +677197,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T00:37:18Z",
-      "first_failed_at": "2026-11-06T00:06:37Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
@@ -678083,6 +678068,21 @@
       "timing": {
         "cdn_resolve_sec": 9.3
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T01:08:10Z",
+      "first_failed_at": "2026-11-06T00:06:37Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
     }
   ],
   "in_progress": [
@@ -678115,16 +678115,6 @@
       "worker_id": "worker-2-42108785223",
       "run_id": "42108785223",
       "reserved_at": "2026-11-06T01:05:08Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42108785223",
-      "run_id": "42108785223",
-      "reserved_at": "2026-11-06T01:07:49Z"
     }
   ],
   "missing_on_account": [
