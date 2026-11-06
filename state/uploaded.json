@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T03:49:04Z",
+  "last_updated": "2026-11-06T03:51:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674970,21 +674970,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T03:13:18Z",
-      "first_failed_at": "2026-11-06T02:42:16Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 20985,
       "cr_slug": "the-king-of-kings",
       "title": "The King of Kings",
@@ -675672,19 +675657,24 @@
         "cdn_resolve_sec": 4.3,
         "download_sec": 1.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42148581640",
-      "run_id": "42148581640",
-      "reserved_at": "2026-11-06T03:45:21Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T03:51:28Z",
+      "first_failed_at": "2026-11-06T02:42:16Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 15.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23711,
       "cr_slug": "sex-po-telefonu",
