@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T15:29:37Z",
+  "last_updated": "2026-11-06T15:30:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677208,21 +677208,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T14:59:15Z",
-      "first_failed_at": "2026-11-06T14:28:28Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 35413,
       "cr_slug": "film-2026",
       "title": "스트레이 키즈 : 더 도미네이트 익스피리언스",
@@ -677915,6 +677900,21 @@
         "resolve_sec": 1.6,
         "download_sec": 2.2
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T15:30:03Z",
+      "first_failed_at": "2026-11-06T14:28:28Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -677937,16 +677937,6 @@
       "worker_id": "worker-3-42209318047",
       "run_id": "42209318047",
       "reserved_at": "2026-11-06T15:05:09Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42209318047",
-      "run_id": "42209318047",
-      "reserved_at": "2026-11-06T15:29:37Z"
     }
   ],
   "missing_on_account": [
