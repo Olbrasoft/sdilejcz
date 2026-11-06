@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T13:03:57Z",
+  "last_updated": "2026-11-06T13:04:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675023,21 +675023,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T12:30:34Z",
-      "first_failed_at": "2026-11-06T11:59:42Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.5
-      }
-    },
-    {
       "cr_film_id": 20710,
       "cr_slug": "az-odejdu",
       "title": "Až odejdu",
@@ -675843,19 +675828,24 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42209318047",
-      "run_id": "42209318047",
-      "reserved_at": "2026-11-06T13:01:01Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T13:04:21Z",
+      "first_failed_at": "2026-11-06T11:59:42Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
