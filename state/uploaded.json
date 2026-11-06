@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T05:50:04Z",
+  "last_updated": "2026-11-06T05:50:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676948,22 +676948,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-06T05:15:13Z",
-      "first_failed_at": "2026-11-06T04:13:40Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.5,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
@@ -677690,6 +677674,22 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-06T05:50:19Z",
+      "first_failed_at": "2026-11-06T04:13:40Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.7,
+        "download_sec": 2.2
+      }
     }
   ],
   "in_progress": [
@@ -677722,16 +677722,6 @@
       "worker_id": "worker-3-42148581640",
       "run_id": "42148581640",
       "reserved_at": "2026-11-06T05:49:39Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42148581640",
-      "run_id": "42148581640",
-      "reserved_at": "2026-11-06T05:50:04Z"
     }
   ],
   "missing_on_account": [
