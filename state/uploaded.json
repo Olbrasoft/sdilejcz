@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T09:10:44Z",
+  "last_updated": "2026-11-06T09:10:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675710,21 +675710,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T08:34:56Z",
-      "first_failed_at": "2026-11-06T07:27:11Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 8.6
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -676257,19 +676242,24 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
       "year": 1933,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42175899636",
-      "run_id": "42175899636",
-      "reserved_at": "2026-11-06T09:06:53Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T09:10:57Z",
+      "first_failed_at": "2026-11-06T07:27:11Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 26529,
       "cr_slug": "tajny-denik-brazilske-studentky",
