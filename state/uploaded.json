@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T14:22:41Z",
+  "last_updated": "2026-11-06T14:23:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676208,21 +676208,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T13:52:11Z",
-      "first_failed_at": "2026-11-06T13:17:31Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -677019,6 +677004,21 @@
       "timing": {
         "resolve_sec": 1.1
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T14:23:08Z",
+      "first_failed_at": "2026-11-06T13:17:31Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
     }
   ],
   "in_progress": [
@@ -677051,16 +677051,6 @@
       "worker_id": "worker-1-42209318047",
       "run_id": "42209318047",
       "reserved_at": "2026-11-06T14:17:16Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42209318047",
-      "run_id": "42209318047",
-      "reserved_at": "2026-11-06T14:22:41Z"
     }
   ],
   "missing_on_account": [
