@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T16:49:52Z",
+  "last_updated": "2026-11-06T16:50:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674748,19 +674748,24 @@
       "timing": {
         "cdn_resolve_sec": 10.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42252434929",
-      "run_id": "42252434929",
-      "reserved_at": "2026-11-06T16:47:39Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T16:50:08Z",
+      "first_failed_at": "2026-11-06T16:50:08Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
