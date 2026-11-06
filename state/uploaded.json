@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T06:29:56Z",
+  "last_updated": "2026-11-06T06:30:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678308,19 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37289,
       "cr_slug": "led",
       "title": "Led",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42148581640",
-      "run_id": "42148581640",
-      "reserved_at": "2026-11-06T06:06:38Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T06:30:56Z",
+      "first_failed_at": "2026-11-06T06:30:56Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
