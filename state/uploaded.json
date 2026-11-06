@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T06:21:48Z",
+  "last_updated": "2026-11-06T06:22:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677279,21 +677279,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T05:45:06Z",
-      "first_failed_at": "2026-11-06T04:37:49Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.9
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678233,6 +678218,21 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
+    },
+    {
+      "cr_film_id": 31671,
+      "cr_slug": "e11",
+      "title": "E11",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T06:22:14Z",
+      "first_failed_at": "2026-11-06T04:37:49Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -678265,16 +678265,6 @@
       "worker_id": "worker-4-42148581640",
       "run_id": "42148581640",
       "reserved_at": "2026-11-06T06:19:12Z"
-    },
-    {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42148581640",
-      "run_id": "42148581640",
-      "reserved_at": "2026-11-06T06:21:48Z"
     }
   ],
   "missing_on_account": [
