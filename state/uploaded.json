@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T18:03:33Z",
+  "last_updated": "2026-11-06T18:04:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674910,21 +674910,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T17:33:21Z",
-      "first_failed_at": "2026-11-06T16:29:28Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 20.5
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -675502,6 +675487,21 @@
       "timing": {
         "cdn_resolve_sec": 12.4
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T18:04:01Z",
+      "first_failed_at": "2026-11-06T16:29:28Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 15.1
+      }
     }
   ],
   "in_progress": [
@@ -675534,16 +675534,6 @@
       "worker_id": "worker-3-42252434929",
       "run_id": "42252434929",
       "reserved_at": "2026-11-06T17:56:31Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42252434929",
-      "run_id": "42252434929",
-      "reserved_at": "2026-11-06T18:03:33Z"
     }
   ],
   "missing_on_account": [
