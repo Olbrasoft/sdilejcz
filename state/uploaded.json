@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T12:35:44Z",
+  "last_updated": "2026-11-06T12:36:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674625,21 +674625,6 @@
       }
     },
     {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T12:04:49Z",
-      "first_failed_at": "2026-11-06T11:33:05Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -675689,6 +675674,21 @@
       "timing": {
         "resolve_sec": 0.4
       }
+    },
+    {
+      "cr_film_id": 7365,
+      "cr_slug": "monster-trucks",
+      "title": "Monster Trucks",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T12:36:06Z",
+      "first_failed_at": "2026-11-06T11:33:05Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.6
+      }
     }
   ],
   "in_progress": [
@@ -675721,16 +675721,6 @@
       "worker_id": "worker-1-42209318047",
       "run_id": "42209318047",
       "reserved_at": "2026-11-06T12:35:07Z"
-    },
-    {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42209318047",
-      "run_id": "42209318047",
-      "reserved_at": "2026-11-06T12:35:44Z"
     }
   ],
   "missing_on_account": [
