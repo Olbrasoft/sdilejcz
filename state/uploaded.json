@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T18:29:11Z",
+  "last_updated": "2026-11-06T18:29:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674883,21 +674883,6 @@
       }
     },
     {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T17:47:26Z",
-      "first_failed_at": "2026-11-06T16:44:22Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.1
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -675752,19 +675737,24 @@
       "timing": {
         "cdn_resolve_sec": 17.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
       "title": "Tvoje srdce inkognito",
       "year": 1936,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42252434929",
-      "run_id": "42252434929",
-      "reserved_at": "2026-11-06T18:25:43Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T18:29:31Z",
+      "first_failed_at": "2026-11-06T16:44:22Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
