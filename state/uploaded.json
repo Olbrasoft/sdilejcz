@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T18:45:25Z",
+  "last_updated": "2026-11-06T18:45:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674886,21 +674886,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T17:52:57Z",
-      "first_failed_at": "2026-11-06T16:41:12Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 18.9
-      }
-    },
-    {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
@@ -675779,19 +675764,24 @@
       "timing": {
         "cdn_resolve_sec": 20.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42252434929",
-      "run_id": "42252434929",
-      "reserved_at": "2026-11-06T18:27:01Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T18:45:52Z",
+      "first_failed_at": "2026-11-06T16:41:12Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 20.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23109,
       "cr_slug": "delta-force-2-kolumbijska-spojka",
