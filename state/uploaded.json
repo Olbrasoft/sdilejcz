@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T02:22:50Z",
+  "last_updated": "2026-11-06T02:23:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674260,19 +674260,24 @@
       "timing": {
         "cdn_resolve_sec": 11.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42148581640",
-      "run_id": "42148581640",
-      "reserved_at": "2026-11-06T02:19:31Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T02:23:03Z",
+      "first_failed_at": "2026-11-06T02:23:03Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
