@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T04:21:58Z",
+  "last_updated": "2026-11-06T04:22:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675190,21 +675190,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T03:41:46Z",
-      "first_failed_at": "2026-11-06T02:31:21Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -676282,19 +676267,24 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42148581640",
-      "run_id": "42148581640",
-      "reserved_at": "2026-11-06T04:15:27Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T04:22:23Z",
+      "first_failed_at": "2026-11-06T02:31:21Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
