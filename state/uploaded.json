@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T05:35:00Z",
+  "last_updated": "2026-11-06T05:35:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677330,6 +677330,21 @@
       "timing": {
         "cdn_resolve_sec": 9.9
       }
+    },
+    {
+      "cr_film_id": 34839,
+      "cr_slug": "lekce-zivota",
+      "title": "Lekce života",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T05:35:21Z",
+      "first_failed_at": "2026-11-06T05:35:21Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
     }
   ],
   "in_progress": [
@@ -677362,16 +677377,6 @@
       "worker_id": "worker-1-42148581640",
       "run_id": "42148581640",
       "reserved_at": "2026-11-06T05:29:34Z"
-    },
-    {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42148581640",
-      "run_id": "42148581640",
-      "reserved_at": "2026-11-06T05:35:00Z"
     }
   ],
   "missing_on_account": [
