@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T07:34:45Z",
+  "last_updated": "2026-11-06T07:35:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674442,21 +674442,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T07:02:47Z",
-      "first_failed_at": "2026-11-06T07:02:47Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.6
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -674969,6 +674954,21 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T07:35:08Z",
+      "first_failed_at": "2026-11-06T07:02:47Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -675001,16 +675001,6 @@
       "worker_id": "worker-1-42175899636",
       "run_id": "42175899636",
       "reserved_at": "2026-11-06T07:34:20Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42175899636",
-      "run_id": "42175899636",
-      "reserved_at": "2026-11-06T07:34:45Z"
     }
   ],
   "missing_on_account": [
