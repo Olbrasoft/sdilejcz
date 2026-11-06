@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T18:38:52Z",
+  "last_updated": "2026-11-06T18:39:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675046,22 +675046,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-06T18:08:11Z",
-      "first_failed_at": "2026-11-06T17:15:49Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.8,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 20710,
       "cr_slug": "az-odejdu",
       "title": "Až odejdu",
@@ -675752,6 +675736,22 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-06T18:39:21Z",
+      "first_failed_at": "2026-11-06T17:15:49Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.4,
+        "download_sec": 2.2
+      }
     }
   ],
   "in_progress": [
@@ -675784,16 +675784,6 @@
       "worker_id": "worker-3-42252434929",
       "run_id": "42252434929",
       "reserved_at": "2026-11-06T18:32:35Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42252434929",
-      "run_id": "42252434929",
-      "reserved_at": "2026-11-06T18:38:52Z"
     }
   ],
   "missing_on_account": [
