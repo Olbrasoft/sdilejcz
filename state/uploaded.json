@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T06:32:15Z",
+  "last_updated": "2026-11-06T06:34:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677234,21 +677234,6 @@
       }
     },
     {
-      "cr_film_id": 31648,
-      "cr_slug": "n-io-e-napoleone",
-      "title": "N - Io e Napoleone",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T05:37:49Z",
-      "first_failed_at": "2026-11-06T04:30:34Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42148581640",
-      "run_id": "42148581640",
-      "reserved_at": "2026-11-06T06:09:10Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T06:34:35Z",
+      "first_failed_at": "2026-11-06T04:30:34Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
