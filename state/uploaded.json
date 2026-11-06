@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T23:59:18Z",
+  "last_updated": "2026-11-06T23:59:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674628,21 +674628,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T23:29:03Z",
-      "first_failed_at": "2026-11-06T22:57:39Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
       "title": "Moje máma Jayne",
@@ -675412,6 +675397,21 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T23:59:41Z",
+      "first_failed_at": "2026-11-06T22:57:39Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -675444,16 +675444,6 @@
       "worker_id": "worker-1-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-06T23:57:04Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-06T23:59:18Z"
     }
   ],
   "missing_on_account": [
