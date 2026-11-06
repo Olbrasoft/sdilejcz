@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T22:20:19Z",
+  "last_updated": "2026-11-06T22:20:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673735,6 +673735,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T22:20:49Z",
+      "first_failed_at": "2026-11-06T22:20:49Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -673757,16 +673772,6 @@
       "worker_id": "worker-1-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-06T22:18:57Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-06T22:19:39Z"
     },
     {
       "cr_film_id": 8677,
