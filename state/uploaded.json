@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T09:30:49Z",
+  "last_updated": "2026-11-06T09:31:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675816,22 +675816,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-06T08:48:37Z",
-      "first_failed_at": "2026-11-06T07:38:00Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 6.1,
-        "download_sec": 2.3
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -676348,6 +676332,22 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-06T09:31:08Z",
+      "first_failed_at": "2026-11-06T07:38:00Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 4.4,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -676370,16 +676370,6 @@
       "worker_id": "worker-1-42175899636",
       "run_id": "42175899636",
       "reserved_at": "2026-11-06T09:25:04Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42175899636",
-      "run_id": "42175899636",
-      "reserved_at": "2026-11-06T09:30:49Z"
     }
   ],
   "missing_on_account": [
