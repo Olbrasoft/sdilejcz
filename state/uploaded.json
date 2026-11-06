@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T12:03:10Z",
+  "last_updated": "2026-11-06T12:03:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674956,19 +674956,24 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42209318047",
-      "run_id": "42209318047",
-      "reserved_at": "2026-11-06T12:00:26Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T12:03:30Z",
+      "first_failed_at": "2026-11-06T12:03:30Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 9.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14498,
       "cr_slug": "mariah-carey-a-kouzelne-vanoce",
