@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T17:44:01Z",
+  "last_updated": "2026-11-06T17:44:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674875,21 +674875,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T17:12:25Z",
-      "first_failed_at": "2026-11-06T16:40:15Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -675463,6 +675448,21 @@
       "timing": {
         "cdn_resolve_sec": 19.5
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T17:44:25Z",
+      "first_failed_at": "2026-11-06T16:40:15Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.4
+      }
     }
   ],
   "in_progress": [
@@ -675495,16 +675495,6 @@
       "worker_id": "worker-1-42252434929",
       "run_id": "42252434929",
       "reserved_at": "2026-11-06T17:43:35Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42252434929",
-      "run_id": "42252434929",
-      "reserved_at": "2026-11-06T17:44:01Z"
     }
   ],
   "missing_on_account": [
