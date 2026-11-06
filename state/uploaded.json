@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T23:31:05Z",
+  "last_updated": "2026-11-06T23:31:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674174,21 +674174,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T23:00:56Z",
-      "first_failed_at": "2026-11-06T21:59:07Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 15.2
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -674987,6 +674972,21 @@
         "cdn_resolve_sec": 4.9,
         "download_sec": 1.9
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T23:31:28Z",
+      "first_failed_at": "2026-11-06T21:59:07Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
     }
   ],
   "in_progress": [
@@ -675009,16 +675009,6 @@
       "worker_id": "worker-4-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-06T23:29:55Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-06T23:31:05Z"
     }
   ],
   "missing_on_account": [
