@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T21:42:58Z",
+  "last_updated": "2026-11-06T21:43:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677742,21 +677742,6 @@
       }
     },
     {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T21:12:29Z",
-      "first_failed_at": "2026-11-06T20:29:29Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 34434,
       "cr_slug": "rozum-a-cit",
       "title": "Rozum a cit",
@@ -678278,6 +678263,21 @@
       "timing": {
         "cdn_resolve_sec": 16.3
       }
+    },
+    {
+      "cr_film_id": 34971,
+      "cr_slug": "krvava-amazonka",
+      "title": "Krvavá Amazonka",
+      "year": 1985,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T21:43:28Z",
+      "first_failed_at": "2026-11-06T20:29:29Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 17.5
+      }
     }
   ],
   "in_progress": [
@@ -678300,16 +678300,6 @@
       "worker_id": "worker-1-42252434929",
       "run_id": "42252434929",
       "reserved_at": "2026-11-06T21:37:29Z"
-    },
-    {
-      "cr_film_id": 34971,
-      "cr_slug": "krvava-amazonka",
-      "title": "Krvavá Amazonka",
-      "year": 1985,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42252434929",
-      "run_id": "42252434929",
-      "reserved_at": "2026-11-06T21:42:58Z"
     }
   ],
   "missing_on_account": [
