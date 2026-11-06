@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T13:11:31Z",
+  "last_updated": "2026-11-06T13:11:59Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675259,21 +675259,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T12:40:35Z",
-      "first_failed_at": "2026-11-06T11:32:53Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.0
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -675943,6 +675928,21 @@
       "timing": {
         "resolve_sec": 0.4
       }
+    },
+    {
+      "cr_film_id": 8619,
+      "cr_slug": "ozvena",
+      "title": "Ozvěna",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-06T13:11:59Z",
+      "first_failed_at": "2026-11-06T11:32:53Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -675965,16 +675965,6 @@
       "worker_id": "worker-3-42209318047",
       "run_id": "42209318047",
       "reserved_at": "2026-11-06T13:03:57Z"
-    },
-    {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42209318047",
-      "run_id": "42209318047",
-      "reserved_at": "2026-11-06T13:11:31Z"
     }
   ],
   "missing_on_account": [
