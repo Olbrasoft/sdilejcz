@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-06T01:25:30Z",
+  "last_updated": "2026-11-06T01:25:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677461,22 +677461,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-06T00:54:58Z",
-      "first_failed_at": "2026-11-05T23:53:47Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 1.2,
-        "download_sec": 1.5
-      }
-    },
-    {
       "cr_film_id": 36673,
       "cr_slug": "ma-me-rad-nema-me-rad-1956",
       "title": "Má mě rád, nemá mě rád",
@@ -678190,6 +678174,22 @@
       "timing": {
         "cdn_resolve_sec": 10.0
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-06T01:25:45Z",
+      "first_failed_at": "2026-11-05T23:53:47Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 1.6
+      }
     }
   ],
   "in_progress": [
@@ -678222,16 +678222,6 @@
       "worker_id": "worker-3-42108785223",
       "run_id": "42108785223",
       "reserved_at": "2026-11-06T01:22:34Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42108785223",
-      "run_id": "42108785223",
-      "reserved_at": "2026-11-06T01:25:30Z"
     }
   ],
   "missing_on_account": [
