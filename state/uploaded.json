@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T18:42:19Z",
+  "last_updated": "2026-11-07T18:42:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674034,21 +674034,6 @@
       }
     },
     {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T18:10:29Z",
-      "first_failed_at": "2026-11-07T17:36:20Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.9
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -674407,6 +674392,21 @@
       "timing": {
         "cdn_resolve_sec": 24.6
       }
+    },
+    {
+      "cr_film_id": 7365,
+      "cr_slug": "monster-trucks",
+      "title": "Monster Trucks",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T18:42:57Z",
+      "first_failed_at": "2026-11-07T17:36:20Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 26.5
+      }
     }
   ],
   "in_progress": [
@@ -674439,16 +674439,6 @@
       "worker_id": "worker-3-42395921257",
       "run_id": "42395921257",
       "reserved_at": "2026-11-07T18:41:39Z"
-    },
-    {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42395921257",
-      "run_id": "42395921257",
-      "reserved_at": "2026-11-07T18:42:19Z"
     }
   ],
   "missing_on_account": [
