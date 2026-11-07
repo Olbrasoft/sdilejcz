@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T06:13:08Z",
+  "last_updated": "2026-11-07T06:13:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676881,6 +676881,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T06:13:34Z",
+      "first_failed_at": "2026-11-07T06:13:34Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.9
+      }
     }
   ],
   "in_progress": [
@@ -676903,16 +676918,6 @@
       "worker_id": "worker-3-42333321579",
       "run_id": "42333321579",
       "reserved_at": "2026-11-07T06:00:56Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42333321579",
-      "run_id": "42333321579",
-      "reserved_at": "2026-11-07T06:13:08Z"
     }
   ],
   "missing_on_account": [
