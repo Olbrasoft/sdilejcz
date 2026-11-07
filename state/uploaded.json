@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T13:52:54Z",
+  "last_updated": "2026-11-07T13:53:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674717,21 +674717,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T13:21:57Z",
-      "first_failed_at": "2026-11-07T13:21:57Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.5
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -675613,6 +675598,21 @@
         "resolve_sec": 1.1,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T13:53:21Z",
+      "first_failed_at": "2026-11-07T13:21:57Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
     }
   ],
   "in_progress": [
@@ -675655,16 +675655,6 @@
       "worker_id": "worker-3-42371801805",
       "run_id": "42371801805",
       "reserved_at": "2026-11-07T13:52:32Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42371801805",
-      "run_id": "42371801805",
-      "reserved_at": "2026-11-07T13:52:54Z"
     }
   ],
   "missing_on_account": [
