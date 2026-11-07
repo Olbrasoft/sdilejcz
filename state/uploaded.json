@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T02:14:50Z",
+  "last_updated": "2026-11-07T02:15:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676912,21 +676912,6 @@
       }
     },
     {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T01:41:40Z",
-      "first_failed_at": "2026-11-07T01:06:35Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 34077,
       "cr_slug": "rukojmi-v-bella-vista",
       "title": "Rukojmí v Bella Vista",
@@ -677667,6 +677652,21 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
+    },
+    {
+      "cr_film_id": 31671,
+      "cr_slug": "e11",
+      "title": "E11",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T02:15:11Z",
+      "first_failed_at": "2026-11-07T01:06:35Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -677699,16 +677699,6 @@
       "worker_id": "worker-2-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-07T02:10:45Z"
-    },
-    {
-      "cr_film_id": 31671,
-      "cr_slug": "e11",
-      "title": "E11",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-07T02:14:50Z"
     }
   ],
   "missing_on_account": [
