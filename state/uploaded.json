@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T02:54:39Z",
+  "last_updated": "2026-11-07T02:55:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677471,21 +677471,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T02:21:30Z",
-      "first_failed_at": "2026-11-07T01:50:21Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.5
-      }
-    },
-    {
       "cr_film_id": 35424,
       "cr_slug": "kraken-2026",
       "title": "Kraken",
@@ -678303,6 +678288,21 @@
       "timing": {
         "cdn_resolve_sec": 13.4
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T02:55:06Z",
+      "first_failed_at": "2026-11-07T01:50:21Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
     }
   ],
   "in_progress": [
@@ -678315,16 +678315,6 @@
       "worker_id": "worker-4-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-07T01:53:07Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-07T02:54:39Z"
     }
   ],
   "missing_on_account": [
