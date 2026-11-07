@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T20:15:03Z",
+  "last_updated": "2026-11-07T20:15:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675019,21 +675019,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T19:40:26Z",
-      "first_failed_at": "2026-11-07T18:54:32Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 24.7
-      }
-    },
-    {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
@@ -675587,6 +675572,21 @@
       "timing": {
         "cdn_resolve_sec": 29.3
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T20:15:37Z",
+      "first_failed_at": "2026-11-07T18:54:32Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 22.7
+      }
     }
   ],
   "in_progress": [
@@ -675619,16 +675619,6 @@
       "worker_id": "worker-4-42395921257",
       "run_id": "42395921257",
       "reserved_at": "2026-11-07T20:14:29Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42395921257",
-      "run_id": "42395921257",
-      "reserved_at": "2026-11-07T20:15:03Z"
     }
   ],
   "missing_on_account": [
