@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T18:49:56Z",
+  "last_updated": "2026-11-07T18:50:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673959,21 +673959,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T18:19:29Z",
-      "first_failed_at": "2026-11-07T18:19:29Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 18.2
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -674452,6 +674437,21 @@
       "timing": {
         "cdn_resolve_sec": 27.3
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T18:50:33Z",
+      "first_failed_at": "2026-11-07T18:19:29Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 27.2
+      }
     }
   ],
   "in_progress": [
@@ -674484,16 +674484,6 @@
       "worker_id": "worker-2-42395921257",
       "run_id": "42395921257",
       "reserved_at": "2026-11-07T18:48:30Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42395921257",
-      "run_id": "42395921257",
-      "reserved_at": "2026-11-07T18:49:56Z"
     }
   ],
   "missing_on_account": [
