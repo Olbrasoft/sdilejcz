@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T03:57:05Z",
+  "last_updated": "2026-11-07T03:57:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674265,6 +674265,27 @@
         "upload_sec": 32.6,
         "total_sec": 48.3
       }
+    },
+    {
+      "cr_film_id": 13454,
+      "cr_slug": "sexy-mrtvola",
+      "title": "Sexy mrtvola",
+      "year": 2005,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 53658,
+      "sdilej_url": "https://sdilej.cz/35449577/sexy-mrtvola-2005-.mp4",
+      "sdilej_name": "Sexy mrtvola (2005).mp4",
+      "uploaded_at": "2026-11-07T03:54:29Z",
+      "status": "uploaded",
+      "size_bytes": 392939878,
+      "worker_id": "worker-3-42333321579",
+      "timing": {
+        "cdn_resolve_sec": 12.1,
+        "download_sec": 17.4,
+        "upload_sec": 47.8,
+        "total_sec": 77.4
+      }
     }
   ],
   "failed_attempts": [
@@ -674838,27 +674859,6 @@
       }
     },
     {
-      "cr_film_id": 13454,
-      "cr_slug": "sexy-mrtvola",
-      "title": "Sexy mrtvola",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-07T03:48:14Z",
-      "first_failed_at": "2026-11-07T03:48:14Z",
-      "attempt_count": 1,
-      "upload_id": "926c7dccd9cc6ee7",
-      "source_url": "https://prehraj.to/smrtelne-sexy-2001-cz-mp4/926c7dccd9cc6ee7",
-      "upload_title": "Sexy mrtvola (2005)(CZ).mp4",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 66.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -674995,16 +674995,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 13454,
-      "cr_slug": "sexy-mrtvola",
-      "title": "Sexy mrtvola",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42333321579",
-      "run_id": "42333321579",
-      "reserved_at": "2026-11-07T03:53:01Z"
-    },
     {
       "cr_film_id": 14498,
       "cr_slug": "mariah-carey-a-kouzelne-vanoce",
