@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T08:10:33Z",
+  "last_updated": "2026-11-07T08:10:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674271,6 +674271,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 3019,
+      "cr_slug": "legenda-o-drakovi",
+      "title": "Legenda o drakovi",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T08:10:53Z",
+      "first_failed_at": "2026-11-07T08:10:53Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
     }
   ],
   "in_progress": [
@@ -674283,16 +674298,6 @@
       "worker_id": "worker-1-42354028529",
       "run_id": "42354028529",
       "reserved_at": "2026-11-07T08:08:21Z"
-    },
-    {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42354028529",
-      "run_id": "42354028529",
-      "reserved_at": "2026-11-07T08:09:04Z"
     },
     {
       "cr_film_id": 4297,
