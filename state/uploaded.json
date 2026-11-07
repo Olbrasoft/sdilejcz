@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T23:02:14Z",
+  "last_updated": "2026-11-07T23:02:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674020,19 +674020,24 @@
       "timing": {
         "cdn_resolve_sec": 10.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42423009161",
-      "run_id": "42423009161",
-      "reserved_at": "2026-11-07T22:59:24Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T23:02:36Z",
+      "first_failed_at": "2026-11-07T23:02:36Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
