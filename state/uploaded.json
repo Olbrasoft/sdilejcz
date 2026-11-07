@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T16:34:50Z",
+  "last_updated": "2026-11-07T16:35:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677455,21 +677455,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T16:01:08Z",
-      "first_failed_at": "2026-11-07T15:27:50Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 36849,
       "cr_slug": "svatebni-prsten",
       "title": "Svatební prsten",
@@ -678161,6 +678146,21 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T16:35:16Z",
+      "first_failed_at": "2026-11-07T15:27:50Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -678203,16 +678203,6 @@
       "worker_id": "worker-3-42371801805",
       "run_id": "42371801805",
       "reserved_at": "2026-11-07T16:31:20Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42371801805",
-      "run_id": "42371801805",
-      "reserved_at": "2026-11-07T16:34:50Z"
     }
   ],
   "missing_on_account": [
