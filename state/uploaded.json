@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T01:32:55Z",
+  "last_updated": "2026-11-07T01:33:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676568,21 +676568,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T01:02:20Z",
-      "first_failed_at": "2026-11-07T01:02:20Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 31665,
       "cr_slug": "12-01-pm",
       "title": "12:01 PM",
@@ -676907,6 +676892,21 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
+    },
+    {
+      "cr_film_id": 31592,
+      "cr_slug": "atomic-shark",
+      "title": "Atomic Shark",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T01:33:21Z",
+      "first_failed_at": "2026-11-07T01:02:20Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
   "in_progress": [
@@ -676939,16 +676939,6 @@
       "worker_id": "worker-2-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-07T01:32:15Z"
-    },
-    {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-07T01:32:55Z"
     }
   ],
   "missing_on_account": [
