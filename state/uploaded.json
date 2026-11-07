@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T00:01:34Z",
+  "last_updated": "2026-11-07T00:02:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674538,21 +674538,6 @@
       }
     },
     {
-      "cr_film_id": 14227,
-      "cr_slug": "zeme-lednich-medvedu",
-      "title": "Země ledních medvědů",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T23:24:25Z",
-      "first_failed_at": "2026-11-06T22:49:06Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -675412,6 +675397,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 14227,
+      "cr_slug": "zeme-lednich-medvedu",
+      "title": "Země ledních medvědů",
+      "year": 2007,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T00:02:00Z",
+      "first_failed_at": "2026-11-06T22:49:06Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -675444,16 +675444,6 @@
       "worker_id": "worker-3-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-06T23:59:52Z"
-    },
-    {
-      "cr_film_id": 14227,
-      "cr_slug": "zeme-lednich-medvedu",
-      "title": "Země ledních medvědů",
-      "year": 2007,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-07T00:01:34Z"
     }
   ],
   "missing_on_account": [
