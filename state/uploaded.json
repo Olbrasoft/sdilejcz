@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T10:32:39Z",
+  "last_updated": "2026-11-07T10:33:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675459,21 +675459,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T09:43:58Z",
-      "first_failed_at": "2026-11-07T08:38:11Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.8
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -676555,19 +676540,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42354028529",
-      "run_id": "42354028529",
-      "reserved_at": "2026-11-07T10:17:28Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T10:33:16Z",
+      "first_failed_at": "2026-11-07T08:38:11Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 22.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30469,
       "cr_slug": "below-her-mouth",
