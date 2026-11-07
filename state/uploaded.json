@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T07:26:11Z",
+  "last_updated": "2026-11-07T07:26:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677288,21 +677288,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T06:42:08Z",
-      "first_failed_at": "2026-11-07T06:05:43Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
@@ -678278,6 +678263,21 @@
         "cdn_resolve_sec": 1.5,
         "download_sec": 2.4
       }
+    },
+    {
+      "cr_film_id": 31550,
+      "cr_slug": "passion-in-the-desert",
+      "title": "Passion in the Desert",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T07:26:38Z",
+      "first_failed_at": "2026-11-07T06:05:43Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.2
+      }
     }
   ],
   "in_progress": [
@@ -678310,16 +678310,6 @@
       "worker_id": "worker-4-42333321579",
       "run_id": "42333321579",
       "reserved_at": "2026-11-07T07:25:26Z"
-    },
-    {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42333321579",
-      "run_id": "42333321579",
-      "reserved_at": "2026-11-07T07:26:11Z"
     }
   ],
   "missing_on_account": [
