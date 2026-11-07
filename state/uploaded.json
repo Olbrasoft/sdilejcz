@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T08:37:22Z",
+  "last_updated": "2026-11-07T08:37:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675240,6 +675240,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T08:37:36Z",
+      "first_failed_at": "2026-11-07T08:37:36Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -675272,16 +675287,6 @@
       "worker_id": "worker-3-42354028529",
       "run_id": "42354028529",
       "reserved_at": "2026-11-07T08:34:07Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42354028529",
-      "run_id": "42354028529",
-      "reserved_at": "2026-11-07T08:35:30Z"
     }
   ],
   "missing_on_account": [
