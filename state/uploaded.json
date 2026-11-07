@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T10:05:32Z",
+  "last_updated": "2026-11-07T10:05:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675478,21 +675478,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T09:35:14Z",
-      "first_failed_at": "2026-11-07T08:26:51Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -676135,6 +676120,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 14382,
+      "cr_slug": "cold-play",
+      "title": "Cold Play",
+      "year": 2008,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T10:05:57Z",
+      "first_failed_at": "2026-11-07T08:26:51Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
     }
   ],
   "in_progress": [
@@ -676167,16 +676167,6 @@
       "worker_id": "worker-1-42354028529",
       "run_id": "42354028529",
       "reserved_at": "2026-11-07T10:03:46Z"
-    },
-    {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42354028529",
-      "run_id": "42354028529",
-      "reserved_at": "2026-11-07T10:05:32Z"
     }
   ],
   "missing_on_account": [
