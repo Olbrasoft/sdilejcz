@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T00:02:12Z",
+  "last_updated": "2026-11-07T00:02:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674463,21 +674463,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-06T23:07:20Z",
-      "first_failed_at": "2026-11-06T23:07:20Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.7
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -675412,19 +675397,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-06T23:39:13Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T00:02:33Z",
+      "first_failed_at": "2026-11-06T23:07:20Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
