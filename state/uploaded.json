@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T21:02:11Z",
+  "last_updated": "2026-11-07T21:02:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676396,19 +676396,24 @@
       "timing": {
         "cdn_resolve_sec": 17.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
       "year": null,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42395921257",
-      "run_id": "42395921257",
-      "reserved_at": "2026-11-07T20:58:32Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T21:02:32Z",
+      "first_failed_at": "2026-11-07T21:02:32Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 21.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
