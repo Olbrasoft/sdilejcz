@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T02:03:53Z",
+  "last_updated": "2026-11-07T02:04:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676824,21 +676824,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T01:33:21Z",
-      "first_failed_at": "2026-11-07T01:02:20Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 33953,
       "cr_slug": "they-live-in-the-grey",
       "title": "They Live in the Grey",
@@ -677459,6 +677444,21 @@
       "timing": {
         "cdn_resolve_sec": 11.0
       }
+    },
+    {
+      "cr_film_id": 31592,
+      "cr_slug": "atomic-shark",
+      "title": "Atomic Shark",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T02:04:17Z",
+      "first_failed_at": "2026-11-07T01:02:20Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -677491,16 +677491,6 @@
       "worker_id": "worker-1-42300538752",
       "run_id": "42300538752",
       "reserved_at": "2026-11-07T01:55:24Z"
-    },
-    {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42300538752",
-      "run_id": "42300538752",
-      "reserved_at": "2026-11-07T02:03:53Z"
     }
   ],
   "missing_on_account": [
