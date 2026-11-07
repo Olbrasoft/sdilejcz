@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T14:17:25Z",
+  "last_updated": "2026-11-07T14:17:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675074,21 +675074,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T13:39:18Z",
-      "first_failed_at": "2026-11-07T13:07:13Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -675814,6 +675799,21 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T14:17:57Z",
+      "first_failed_at": "2026-11-07T13:07:13Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.4
+      }
     }
   ],
   "in_progress": [
@@ -675856,16 +675856,6 @@
       "worker_id": "worker-4-42371801805",
       "run_id": "42371801805",
       "reserved_at": "2026-11-07T14:16:58Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42371801805",
-      "run_id": "42371801805",
-      "reserved_at": "2026-11-07T14:17:25Z"
     }
   ],
   "missing_on_account": [
