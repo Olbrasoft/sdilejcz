@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-07T10:40:18Z",
+  "last_updated": "2026-11-07T10:40:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676022,21 +676022,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-07T10:07:07Z",
-      "first_failed_at": "2026-11-07T08:38:49Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.3
-      }
-    },
-    {
       "cr_film_id": 28601,
       "cr_slug": "stans",
       "title": "Stans",
@@ -676692,6 +676677,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-07T10:40:42Z",
+      "first_failed_at": "2026-11-07T08:38:49Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
     }
   ],
   "in_progress": [
@@ -676724,16 +676724,6 @@
       "worker_id": "worker-3-42354028529",
       "run_id": "42354028529",
       "reserved_at": "2026-11-07T10:39:29Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42354028529",
-      "run_id": "42354028529",
-      "reserved_at": "2026-11-07T10:40:18Z"
     }
   ],
   "missing_on_account": [
