@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T13:00:39Z",
+  "last_updated": "2026-11-08T13:01:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673870,19 +673870,24 @@
       "timing": {
         "cdn_resolve_sec": 17.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42481506972",
-      "run_id": "42481506972",
-      "reserved_at": "2026-11-08T12:59:19Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T13:01:09Z",
+      "first_failed_at": "2026-11-08T13:01:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 17.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
