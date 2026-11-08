@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T14:49:04Z",
+  "last_updated": "2026-11-08T14:49:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674361,21 +674361,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T14:18:28Z",
-      "first_failed_at": "2026-11-08T13:01:41Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 22.0
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -675213,6 +675198,21 @@
       "timing": {
         "cdn_resolve_sec": 21.4
       }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T14:49:35Z",
+      "first_failed_at": "2026-11-08T13:01:41Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 19.1
+      }
     }
   ],
   "in_progress": [
@@ -675225,16 +675225,6 @@
       "worker_id": "worker-4-42481506972",
       "run_id": "42481506972",
       "reserved_at": "2026-11-08T14:47:59Z"
-    },
-    {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42481506972",
-      "run_id": "42481506972",
-      "reserved_at": "2026-11-08T14:49:04Z"
     }
   ],
   "missing_on_account": [
