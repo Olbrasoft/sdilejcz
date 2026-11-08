@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T13:20:54Z",
+  "last_updated": "2026-11-08T13:21:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674333,19 +674333,24 @@
       "timing": {
         "cdn_resolve_sec": 19.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42481506972",
-      "run_id": "42481506972",
-      "reserved_at": "2026-11-08T13:14:03Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T13:21:22Z",
+      "first_failed_at": "2026-11-08T13:21:22Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 17.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15084,
       "cr_slug": "sex-jak-to-rozbalit",
