@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T06:32:29Z",
+  "last_updated": "2026-11-08T06:32:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677494,6 +677494,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 34885,
+      "cr_slug": "tata",
+      "title": "Táta",
+      "year": 1989,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T06:32:52Z",
+      "first_failed_at": "2026-11-08T06:32:52Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
     }
   ],
   "in_progress": [
@@ -677526,16 +677541,6 @@
       "worker_id": "worker-4-42443111306",
       "run_id": "42443111306",
       "reserved_at": "2026-11-08T06:30:24Z"
-    },
-    {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42443111306",
-      "run_id": "42443111306",
-      "reserved_at": "2026-11-08T06:32:29Z"
     }
   ],
   "missing_on_account": [
