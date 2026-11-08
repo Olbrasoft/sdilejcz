@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T15:07:09Z",
+  "last_updated": "2026-11-08T15:07:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674512,21 +674512,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T14:34:04Z",
-      "first_failed_at": "2026-11-08T13:16:20Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 19.2
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -675285,6 +675270,21 @@
       "timing": {
         "cdn_resolve_sec": 15.2
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T15:07:39Z",
+      "first_failed_at": "2026-11-08T13:16:20Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 18.0
+      }
     }
   ],
   "in_progress": [
@@ -675317,16 +675317,6 @@
       "worker_id": "worker-4-42481506972",
       "run_id": "42481506972",
       "reserved_at": "2026-11-08T15:06:05Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42481506972",
-      "run_id": "42481506972",
-      "reserved_at": "2026-11-08T15:07:09Z"
     }
   ],
   "missing_on_account": [
