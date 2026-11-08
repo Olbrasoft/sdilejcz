@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T13:50:20Z",
+  "last_updated": "2026-11-08T13:50:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673912,21 +673912,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T13:20:02Z",
-      "first_failed_at": "2026-11-08T12:49:30Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 19.5
-      }
-    },
-    {
       "cr_film_id": 2835,
       "cr_slug": "andel-pane",
       "title": "Anděl Páně",
@@ -674777,6 +674762,21 @@
       "timing": {
         "cdn_resolve_sec": 17.2
       }
+    },
+    {
+      "cr_film_id": 2154,
+      "cr_slug": "cukrkandl",
+      "title": "Cukrkandl",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T13:50:49Z",
+      "first_failed_at": "2026-11-08T12:49:30Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 17.0
+      }
     }
   ],
   "in_progress": [
@@ -674809,16 +674809,6 @@
       "worker_id": "worker-2-42481506972",
       "run_id": "42481506972",
       "reserved_at": "2026-11-08T13:49:43Z"
-    },
-    {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42481506972",
-      "run_id": "42481506972",
-      "reserved_at": "2026-11-08T13:50:20Z"
     }
   ],
   "missing_on_account": [
