@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T14:29:18Z",
+  "last_updated": "2026-11-08T14:29:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674316,21 +674316,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T13:50:49Z",
-      "first_failed_at": "2026-11-08T12:49:30Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 17.0
-      }
-    },
-    {
       "cr_film_id": 2835,
       "cr_slug": "andel-pane",
       "title": "Anděl Páně",
@@ -674945,19 +674930,24 @@
       "timing": {
         "cdn_resolve_sec": 19.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42481506972",
-      "run_id": "42481506972",
-      "reserved_at": "2026-11-08T14:26:21Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T14:29:35Z",
+      "first_failed_at": "2026-11-08T12:49:30Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 17.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
