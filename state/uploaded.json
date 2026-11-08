@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T12:31:25Z",
+  "last_updated": "2026-11-08T12:31:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677502,21 +677502,6 @@
       }
     },
     {
-      "cr_film_id": 31669,
-      "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
-      "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
-      "year": 1988,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T11:39:05Z",
-      "first_failed_at": "2026-11-08T10:29:10Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.2
-      }
-    },
-    {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
       "title": "Vzala jsem si mrtvého muže",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 18.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31669,
       "cr_slug": "doraemon-the-record-of-nobita-s-parallel-journey-to-the-west",
       "title": "Doraemon: The Record of Nobita's Parallel Journey to the West",
       "year": 1988,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42460587713",
-      "run_id": "42460587713",
-      "reserved_at": "2026-11-08T12:31:25Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T12:31:53Z",
+      "first_failed_at": "2026-11-08T10:29:10Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 16.5
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
