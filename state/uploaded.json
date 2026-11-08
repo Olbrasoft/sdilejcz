@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T11:26:33Z",
+  "last_updated": "2026-11-08T11:26:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676602,21 +676602,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T10:27:59Z",
-      "first_failed_at": "2026-11-08T10:27:59Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 17.3
-      }
-    },
-    {
       "cr_film_id": 33246,
       "cr_slug": "appropriate-behavior",
       "title": "Appropriate Behavior",
@@ -677945,19 +677930,24 @@
       "timing": {
         "resolve_sec": 0.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31672,
       "cr_slug": "me-and-my-gal",
       "title": "Me and My Gal",
       "year": 1932,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42460587713",
-      "run_id": "42460587713",
-      "reserved_at": "2026-11-08T11:02:17Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T11:26:55Z",
+      "first_failed_at": "2026-11-08T10:27:59Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 21.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
