@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T14:28:55Z",
+  "last_updated": "2026-11-08T14:29:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674301,21 +674301,6 @@
       }
     },
     {
-      "cr_film_id": 14227,
-      "cr_slug": "zeme-lednich-medvedu",
-      "title": "Země ledních medvědů",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T13:49:05Z",
-      "first_failed_at": "2026-11-08T13:15:11Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 16.7
-      }
-    },
-    {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
@@ -674945,19 +674930,24 @@
       "timing": {
         "cdn_resolve_sec": 18.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42481506972",
-      "run_id": "42481506972",
-      "reserved_at": "2026-11-08T14:24:21Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T14:29:07Z",
+      "first_failed_at": "2026-11-08T13:15:11Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
