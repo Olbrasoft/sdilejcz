@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T11:15:59Z",
+  "last_updated": "2026-11-08T11:16:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677084,21 +677084,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T10:45:19Z",
-      "first_failed_at": "2026-11-08T10:45:19Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
@@ -677867,6 +677852,21 @@
         "resolve_sec": 1.1,
         "download_sec": 2.0
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T11:16:34Z",
+      "first_failed_at": "2026-11-08T10:45:19Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 21.8
+      }
     }
   ],
   "in_progress": [
@@ -677889,16 +677889,6 @@
       "worker_id": "worker-4-42460587713",
       "run_id": "42460587713",
       "reserved_at": "2026-11-08T11:02:50Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42460587713",
-      "run_id": "42460587713",
-      "reserved_at": "2026-11-08T11:15:59Z"
     }
   ],
   "missing_on_account": [
