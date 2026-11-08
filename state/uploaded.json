@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T09:01:56Z",
+  "last_updated": "2026-11-08T09:02:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675773,19 +675773,24 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42460587713",
-      "run_id": "42460587713",
-      "reserved_at": "2026-11-08T08:55:13Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T09:02:27Z",
+      "first_failed_at": "2026-11-08T09:02:27Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 17.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
