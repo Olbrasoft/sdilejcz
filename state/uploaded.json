@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T02:59:51Z",
+  "last_updated": "2026-11-08T03:00:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677231,21 +677231,6 @@
       }
     },
     {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T02:12:40Z",
-      "first_failed_at": "2026-11-08T02:12:40Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.9
-      }
-    },
-    {
       "cr_film_id": 31550,
       "cr_slug": "passion-in-the-desert",
       "title": "Passion in the Desert",
@@ -678185,19 +678170,24 @@
       "timing": {
         "cdn_resolve_sec": 10.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34885,
       "cr_slug": "tata",
       "title": "Táta",
       "year": 1989,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42423009161",
-      "run_id": "42423009161",
-      "reserved_at": "2026-11-08T02:48:07Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T03:00:13Z",
+      "first_failed_at": "2026-11-08T02:12:40Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
