@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T03:09:15Z",
+  "last_updated": "2026-11-08T03:09:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677471,21 +677471,6 @@
       }
     },
     {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T02:39:05Z",
-      "first_failed_at": "2026-11-08T02:08:37Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.8
-      }
-    },
-    {
       "cr_film_id": 36673,
       "cr_slug": "ma-me-rad-nema-me-rad-1956",
       "title": "Má mě rád, nemá mě rád",
@@ -678275,6 +678260,21 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
+    },
+    {
+      "cr_film_id": 34827,
+      "cr_slug": "ohnivy-ring",
+      "title": "Ohnivý ring",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T03:09:40Z",
+      "first_failed_at": "2026-11-08T02:08:37Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -678297,16 +678297,6 @@
       "worker_id": "worker-1-42423009161",
       "run_id": "42423009161",
       "reserved_at": "2026-11-08T03:07:20Z"
-    },
-    {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42423009161",
-      "run_id": "42423009161",
-      "reserved_at": "2026-11-08T03:09:15Z"
     }
   ],
   "missing_on_account": [
