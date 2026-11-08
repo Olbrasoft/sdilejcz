@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T11:49:39Z",
+  "last_updated": "2026-11-08T11:50:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677350,21 +677350,6 @@
       }
     },
     {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T11:18:28Z",
-      "first_failed_at": "2026-11-08T10:47:02Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 16.5
-      }
-    },
-    {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
       "title": "Brouk v hlavě",
@@ -677986,6 +677971,21 @@
       "timing": {
         "cdn_resolve_sec": 19.0
       }
+    },
+    {
+      "cr_film_id": 34842,
+      "cr_slug": "mstitel-s-pistalou",
+      "title": "Mstitel s píšťalou",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T11:50:09Z",
+      "first_failed_at": "2026-11-08T10:47:02Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 18.9
+      }
     }
   ],
   "in_progress": [
@@ -678018,16 +678018,6 @@
       "worker_id": "worker-2-42460587713",
       "run_id": "42460587713",
       "reserved_at": "2026-11-08T11:47:42Z"
-    },
-    {
-      "cr_film_id": 34842,
-      "cr_slug": "mstitel-s-pistalou",
-      "title": "Mstitel s píšťalou",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42460587713",
-      "run_id": "42460587713",
-      "reserved_at": "2026-11-08T11:49:39Z"
     }
   ],
   "missing_on_account": [
