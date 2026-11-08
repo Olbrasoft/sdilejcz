@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T23:23:35Z",
+  "last_updated": "2026-11-08T23:23:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676617,22 +676617,6 @@
       "permanent": true
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-08T22:52:58Z",
-      "first_failed_at": "2026-11-08T22:52:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 1.5,
-        "download_sec": 2.7
-      }
-    },
-    {
       "cr_film_id": 31235,
       "cr_slug": "mladi-titani-a-dc-super-hero-girls-chaos-v-mnohovesmiru",
       "title": "Mladí Titáni a DC Super Hero Girls: Chaos v mnohovesmíru",
@@ -677284,6 +677268,22 @@
         "resolve_sec": 1.7,
         "download_sec": 2.2
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-08T23:23:50Z",
+      "first_failed_at": "2026-11-08T22:52:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 2.3
+      }
     }
   ],
   "in_progress": [
@@ -677316,16 +677316,6 @@
       "worker_id": "worker-1-42509430690",
       "run_id": "42509430690",
       "reserved_at": "2026-11-08T23:21:29Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42509430690",
-      "run_id": "42509430690",
-      "reserved_at": "2026-11-08T23:23:35Z"
     }
   ],
   "missing_on_account": [
