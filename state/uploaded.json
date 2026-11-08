@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T12:51:02Z",
+  "last_updated": "2026-11-08T12:51:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673322,28 +673322,30 @@
         "upload_sec": 76.7,
         "total_sec": 175.6
       }
-    }
-  ],
-  "failed_attempts": [
+    },
     {
       "cr_film_id": 638,
       "cr_slug": "jak-dostat-tatinka-do-polepsovny",
       "title": "Jak dostat tatínka do polepšovny",
       "year": 1978,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/jak-dostat-tatinka-do-polepsovny-1978-hd-cz/5f8f544be7416",
-      "failed_at": "2026-11-08T12:44:05Z",
-      "first_failed_at": "2026-11-08T12:44:05Z",
-      "attempt_count": 1,
-      "upload_id": "5f8f544be7416",
-      "source_url": "https://prehraj.to/jak-dostat-tatinka-do-polepsovny-1978-hd-cz/5f8f544be7416",
-      "upload_title": "Jak dostat tatínka do polepšovny ~ (1978) HD cz",
-      "permanent": true,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 5423,
+      "sdilej_url": "https://sdilej.cz/35457071/jak-dostat-tatinka-do-polepsovny-1978-cz.mp4",
+      "sdilej_name": "Jak dostat tatínka do polepšovny (1978) CZ.mp4",
+      "uploaded_at": "2026-11-08T12:51:21Z",
+      "status": "uploaded",
+      "size_bytes": 1628677396,
+      "worker_id": "worker-3-42481506972",
       "timing": {
-        "resolve_sec": 1.0
+        "cdn_resolve_sec": 2.3,
+        "download_sec": 239.0,
+        "upload_sec": 185.3,
+        "total_sec": 426.9
       }
-    },
+    }
+  ],
+  "failed_attempts": [
     {
       "cr_film_id": 594,
       "cr_slug": "obecna-skola",
@@ -673744,16 +673746,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 638,
-      "cr_slug": "jak-dostat-tatinka-do-polepsovny",
-      "title": "Jak dostat tatínka do polepšovny",
-      "year": 1978,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42481506972",
-      "run_id": "42481506972",
-      "reserved_at": "2026-11-08T12:43:47Z"
-    },
     {
       "cr_film_id": 1855,
       "cr_slug": "valka-policajtu",
