@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T19:30:50Z",
+  "last_updated": "2026-11-08T19:31:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674002,21 +674002,6 @@
       }
     },
     {
-      "cr_film_id": 594,
-      "cr_slug": "obecna-skola",
-      "title": "Obecná škola",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T18:57:52Z",
-      "first_failed_at": "2026-11-08T18:26:52Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 30.5
-      }
-    },
-    {
       "cr_film_id": 6718,
       "cr_slug": "xxx",
       "title": "xXx",
@@ -674237,6 +674222,21 @@
       "timing": {
         "cdn_resolve_sec": 31.3
       }
+    },
+    {
+      "cr_film_id": 594,
+      "cr_slug": "obecna-skola",
+      "title": "Obecná škola",
+      "year": 1991,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T19:31:30Z",
+      "first_failed_at": "2026-11-08T18:26:52Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 28.3
+      }
     }
   ],
   "in_progress": [
@@ -674269,16 +674269,6 @@
       "worker_id": "worker-1-42509430690",
       "run_id": "42509430690",
       "reserved_at": "2026-11-08T19:25:31Z"
-    },
-    {
-      "cr_film_id": 594,
-      "cr_slug": "obecna-skola",
-      "title": "Obecná škola",
-      "year": 1991,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42509430690",
-      "run_id": "42509430690",
-      "reserved_at": "2026-11-08T19:30:50Z"
     }
   ],
   "missing_on_account": [
