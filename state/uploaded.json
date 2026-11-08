@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-08T03:26:50Z",
+  "last_updated": "2026-11-08T03:27:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677661,21 +677661,6 @@
       }
     },
     {
-      "cr_film_id": 34957,
-      "cr_slug": "strasidelne-libanky",
-      "title": "Strašidelné líbánky",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-08T02:53:19Z",
-      "first_failed_at": "2026-11-08T02:16:55Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.8
-      }
-    },
-    {
       "cr_film_id": 34961,
       "cr_slug": "jackass-volume-one",
       "title": "Jackass Volume One",
@@ -678320,20 +678305,24 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
       "title": "Strašidelné líbánky",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42423009161",
-      "run_id": "42423009161",
-      "reserved_at": "2026-11-08T03:26:50Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-08T03:27:11Z",
+      "first_failed_at": "2026-11-08T02:16:55Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
