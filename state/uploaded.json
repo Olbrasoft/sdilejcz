@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T23:45:26Z",
+  "last_updated": "2026-11-09T23:45:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677111,21 +677111,6 @@
       }
     },
     {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T23:14:34Z",
-      "first_failed_at": "2026-11-09T23:14:34Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.4
-      }
-    },
-    {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
       "title": "Kája + Oliva",
@@ -677843,6 +677828,21 @@
         "resolve_sec": 1.3,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 34731,
+      "cr_slug": "vzala-jsem-si-mrtveho-muze",
+      "title": "Vzala jsem si mrtvého muže",
+      "year": 1996,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T23:45:50Z",
+      "first_failed_at": "2026-11-09T23:14:34Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.6
+      }
     }
   ],
   "in_progress": [
@@ -677875,16 +677875,6 @@
       "worker_id": "worker-1-42683719410",
       "run_id": "42683719410",
       "reserved_at": "2026-11-09T23:43:10Z"
-    },
-    {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-09T23:45:26Z"
     }
   ],
   "missing_on_account": [
