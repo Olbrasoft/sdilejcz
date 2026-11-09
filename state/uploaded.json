@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T20:27:28Z",
+  "last_updated": "2026-11-09T20:27:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674222,21 +674222,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T19:50:23Z",
-      "first_failed_at": "2026-11-09T19:50:23Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 28.7
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -675041,6 +675026,21 @@
       "timing": {
         "cdn_resolve_sec": 27.9
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T20:27:37Z",
+      "first_failed_at": "2026-11-09T19:50:23Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 26.5
+      }
     }
   ],
   "in_progress": [
@@ -675063,16 +675063,6 @@
       "worker_id": "worker-4-42683719410",
       "run_id": "42683719410",
       "reserved_at": "2026-11-09T20:26:02Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-09T20:26:54Z"
     }
   ],
   "missing_on_account": [
