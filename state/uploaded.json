@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T22:34:57Z",
+  "last_updated": "2026-11-09T22:35:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675867,21 +675867,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T21:56:07Z",
-      "first_failed_at": "2026-11-09T20:35:53Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.9
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -676188,6 +676173,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T22:35:30Z",
+      "first_failed_at": "2026-11-09T20:35:53Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.7
+      }
     }
   ],
   "in_progress": [
@@ -676220,16 +676220,6 @@
       "worker_id": "worker-3-42683719410",
       "run_id": "42683719410",
       "reserved_at": "2026-11-09T22:32:55Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-09T22:34:57Z"
     }
   ],
   "missing_on_account": [
