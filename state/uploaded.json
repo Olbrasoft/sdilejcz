@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T09:49:45Z",
+  "last_updated": "2026-11-09T09:50:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675356,19 +675356,24 @@
       "timing": {
         "resolve_sec": 2.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42588259133",
-      "run_id": "42588259133",
-      "reserved_at": "2026-11-09T09:38:24Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T09:50:09Z",
+      "first_failed_at": "2026-11-09T09:50:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18603,
       "cr_slug": "babovresky-2",
