@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T16:25:34Z",
+  "last_updated": "2026-11-09T16:27:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674595,21 +674595,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T15:31:22Z",
-      "first_failed_at": "2026-11-09T14:47:48Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675392,19 +675377,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42630752262",
-      "run_id": "42630752262",
-      "reserved_at": "2026-11-09T16:09:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T16:27:48Z",
+      "first_failed_at": "2026-11-09T14:47:48Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
