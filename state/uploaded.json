@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T20:10:27Z",
+  "last_updated": "2026-11-09T20:11:10Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674121,21 +674121,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T19:34:32Z",
-      "first_failed_at": "2026-11-09T19:34:32Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 29.6
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -674993,6 +674978,21 @@
       "timing": {
         "cdn_resolve_sec": 29.6
       }
+    },
+    {
+      "cr_film_id": 5808,
+      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
+      "title": "Kouzelná Beruška a Černý kocour ve filmu",
+      "year": 2023,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T20:11:10Z",
+      "first_failed_at": "2026-11-09T19:34:32Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 28.6
+      }
     }
   ],
   "in_progress": [
@@ -675025,16 +675025,6 @@
       "worker_id": "worker-1-42683719410",
       "run_id": "42683719410",
       "reserved_at": "2026-11-09T20:10:13Z"
-    },
-    {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-09T20:10:27Z"
     }
   ],
   "missing_on_account": [
