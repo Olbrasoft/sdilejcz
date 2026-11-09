@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T01:26:05Z",
+  "last_updated": "2026-11-09T01:26:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675194,21 +675194,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T00:55:34Z",
-      "first_failed_at": "2026-11-09T00:19:55Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
@@ -676042,6 +676027,21 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
+    },
+    {
+      "cr_film_id": 12879,
+      "cr_slug": "gogs-gogwana",
+      "title": "Gogs: Gogwana",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T01:26:27Z",
+      "first_failed_at": "2026-11-09T00:19:55Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
   "in_progress": [
@@ -676064,16 +676064,6 @@
       "worker_id": "worker-2-42537312534",
       "run_id": "42537312534",
       "reserved_at": "2026-11-09T01:25:10Z"
-    },
-    {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42537312534",
-      "run_id": "42537312534",
-      "reserved_at": "2026-11-09T01:26:05Z"
     }
   ],
   "missing_on_account": [
