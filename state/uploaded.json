@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T15:04:09Z",
+  "last_updated": "2026-11-09T15:04:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674049,21 +674049,6 @@
       }
     },
     {
-      "cr_film_id": 12878,
-      "cr_slug": "pornograficky-vztah",
-      "title": "Pornografický vztah",
-      "year": 1999,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T14:29:13Z",
-      "first_failed_at": "2026-11-09T14:29:13Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.8
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -674621,19 +674606,24 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
       "year": 1999,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42630752262",
-      "run_id": "42630752262",
-      "reserved_at": "2026-11-09T15:00:48Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T15:04:24Z",
+      "first_failed_at": "2026-11-09T14:29:13Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
