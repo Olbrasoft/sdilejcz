@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T23:38:18Z",
+  "last_updated": "2026-11-09T23:38:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674690,6 +674690,30 @@
         "upload_sec": 55.2,
         "total_sec": 78.7
       }
+    },
+    {
+      "cr_film_id": 23687,
+      "cr_slug": "studentka-na-telefon",
+      "title": "Studentka na telefon",
+      "year": 1996,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5f7cbb1fcdecd",
+      "source_url": "https://prehraj.to/studentka-na-telefon-1996-czdab/5f7cbb1fcdecd",
+      "source_title": "Studentka na telefon (1996) CZdab",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35467299/studentka-na-telefon-1996-cz-dabing.mp4",
+      "sdilej_name": "Studentka na telefon (1996) CZ Dabing.mp4",
+      "uploaded_at": "2026-11-09T22:42:42Z",
+      "status": "uploaded",
+      "size_bytes": 658252875,
+      "worker_id": "worker-4-42683719410",
+      "timing": {
+        "resolve_sec": 1.1,
+        "download_sec": 27.2,
+        "upload_sec": 99.3,
+        "total_sec": 128.1
+      }
     }
   ],
   "failed_attempts": [
@@ -676023,27 +676047,6 @@
       "attempt_count": 4,
       "timing": {
         "cdn_resolve_sec": 10.0
-      }
-    },
-    {
-      "cr_film_id": 23687,
-      "cr_slug": "studentka-na-telefon",
-      "title": "Studentka na telefon",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-09T22:07:59Z",
-      "first_failed_at": "2026-11-09T22:07:59Z",
-      "attempt_count": 1,
-      "upload_id": "5f7cbb1fcdecd",
-      "source_url": "https://prehraj.to/studentka-na-telefon-1996-czdab/5f7cbb1fcdecd",
-      "upload_title": "Studentka na telefon (1996) CZdab",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.2,
-        "download_sec": 20.6,
-        "upload_sec": 30.0
       }
     },
     {
@@ -677759,16 +677762,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 23687,
-      "cr_slug": "studentka-na-telefon",
-      "title": "Studentka na telefon",
-      "year": 1996,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-09T22:40:24Z"
-    },
     {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
