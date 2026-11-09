@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T11:29:04Z",
+  "last_updated": "2026-11-09T11:29:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675943,21 +675943,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T10:58:44Z",
-      "first_failed_at": "2026-11-09T09:50:09Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 10.3
-      }
-    },
-    {
       "cr_film_id": 31196,
       "cr_slug": "phil-wang-philly-philly-wang-wang",
       "title": "Phil Wang: Philly Philly Wang Wang",
@@ -676628,6 +676613,21 @@
         "cdn_resolve_sec": 4.6,
         "download_sec": 1.5
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T11:29:26Z",
+      "first_failed_at": "2026-11-09T09:50:09Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
     }
   ],
   "in_progress": [
@@ -676650,16 +676650,6 @@
       "worker_id": "worker-3-42588259133",
       "run_id": "42588259133",
       "reserved_at": "2026-11-09T11:27:49Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42588259133",
-      "run_id": "42588259133",
-      "reserved_at": "2026-11-09T11:29:04Z"
     }
   ],
   "missing_on_account": [
