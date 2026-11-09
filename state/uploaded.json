@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T13:48:39Z",
+  "last_updated": "2026-11-09T13:49:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677646,21 +677646,6 @@
       }
     },
     {
-      "cr_film_id": 34943,
-      "cr_slug": "kvileni-vlkodlaku-6",
-      "title": "Kvílení vlkodlaků 6",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T13:07:07Z",
-      "first_failed_at": "2026-11-09T12:36:08Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.5
-      }
-    },
-    {
       "cr_film_id": 34949,
       "cr_slug": "duch-ohne",
       "title": "Duch ohně",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 10.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
       "title": "Kvílení vlkodlaků 6",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42588259133",
-      "run_id": "42588259133",
-      "reserved_at": "2026-11-09T13:48:39Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T13:49:02Z",
+      "first_failed_at": "2026-11-09T12:36:08Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
