@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T00:55:16Z",
+  "last_updated": "2026-11-09T00:55:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674792,21 +674792,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T00:19:55Z",
-      "first_failed_at": "2026-11-09T00:19:55Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
@@ -675690,19 +675675,24 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42537312534",
-      "run_id": "42537312534",
-      "reserved_at": "2026-11-09T00:50:32Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T00:55:34Z",
+      "first_failed_at": "2026-11-09T00:19:55Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
