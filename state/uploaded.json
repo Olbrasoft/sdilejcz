@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T00:58:59Z",
+  "last_updated": "2026-11-09T00:59:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675744,19 +675744,25 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42537312534",
-      "run_id": "42537312534",
-      "reserved_at": "2026-11-09T00:53:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-09T00:59:18Z",
+      "first_failed_at": "2026-11-09T00:59:18Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 5.5,
+        "download_sec": 2.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
