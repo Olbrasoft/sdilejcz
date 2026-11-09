@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T15:51:48Z",
+  "last_updated": "2026-11-09T15:53:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674475,21 +674475,6 @@
       }
     },
     {
-      "cr_film_id": 2154,
-      "cr_slug": "cukrkandl",
-      "title": "Cukrkandl",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T15:16:16Z",
-      "first_failed_at": "2026-11-09T14:07:06Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.7
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -675158,19 +675143,24 @@
       "timing": {
         "cdn_resolve_sec": 22.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42630752262",
-      "run_id": "42630752262",
-      "reserved_at": "2026-11-09T15:46:53Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T15:53:11Z",
+      "first_failed_at": "2026-11-09T14:07:06Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 20.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
