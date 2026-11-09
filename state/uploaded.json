@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T14:18:08Z",
+  "last_updated": "2026-11-09T14:18:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673852,6 +673852,21 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T14:18:37Z",
+      "first_failed_at": "2026-11-09T14:18:37Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -673884,16 +673899,6 @@
       "worker_id": "worker-3-42630752262",
       "run_id": "42630752262",
       "reserved_at": "2026-11-09T14:17:08Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42630752262",
-      "run_id": "42630752262",
-      "reserved_at": "2026-11-09T14:18:08Z"
     }
   ],
   "missing_on_account": [
