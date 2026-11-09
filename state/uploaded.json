@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T08:28:22Z",
+  "last_updated": "2026-11-09T08:28:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678308,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
       "title": "Po čem muži touží",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42560127015",
-      "run_id": "42560127015",
-      "reserved_at": "2026-11-09T07:33:28Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T08:28:57Z",
+      "first_failed_at": "2026-11-09T08:28:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
