@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T17:17:43Z",
+  "last_updated": "2026-11-09T17:18:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675938,19 +675938,30 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 24529,
       "cr_slug": "sex-instruktor",
       "title": "Sex instruktor",
       "year": 2001,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42630752262",
-      "run_id": "42630752262",
-      "reserved_at": "2026-11-09T17:02:17Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-09T17:18:07Z",
+      "first_failed_at": "2026-11-09T17:18:07Z",
+      "attempt_count": 1,
+      "upload_id": "5b4f66ebd2e44",
+      "source_url": "https://prehraj.to/sex-instruktor-2001-cz-dabing/5b4f66ebd2e44",
+      "upload_title": "Sex Instruktor (2001) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 638.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 27889,
       "cr_slug": "sex-nebo-zivot",
