@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T00:51:20Z",
+  "last_updated": "2026-11-09T00:51:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674792,21 +674792,6 @@
       }
     },
     {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T00:19:04Z",
-      "first_failed_at": "2026-11-09T00:19:04Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.6
-      }
-    },
-    {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
@@ -675656,6 +675641,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 13280,
+      "cr_slug": "tvoje-srdce-inkognito",
+      "title": "Tvoje srdce inkognito",
+      "year": 1936,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T00:51:45Z",
+      "first_failed_at": "2026-11-09T00:19:04Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -675678,16 +675678,6 @@
       "worker_id": "worker-1-42537312534",
       "run_id": "42537312534",
       "reserved_at": "2026-11-09T00:51:03Z"
-    },
-    {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42537312534",
-      "run_id": "42537312534",
-      "reserved_at": "2026-11-09T00:51:20Z"
     }
   ],
   "missing_on_account": [
