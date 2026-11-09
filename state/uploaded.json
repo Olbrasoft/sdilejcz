@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T22:42:14Z",
+  "last_updated": "2026-11-09T22:42:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676085,21 +676085,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T22:11:52Z",
-      "first_failed_at": "2026-11-09T22:11:52Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.1
-      }
-    },
-    {
       "cr_film_id": 25217,
       "cr_slug": "vera-drake-zena-dvou-tvari",
       "title": "Vera Drake – Žena dvou tváří",
@@ -676298,6 +676283,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T22:42:37Z",
+      "first_failed_at": "2026-11-09T22:11:52Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.8
+      }
     }
   ],
   "in_progress": [
@@ -676330,16 +676330,6 @@
       "worker_id": "worker-4-42683719410",
       "run_id": "42683719410",
       "reserved_at": "2026-11-09T22:40:24Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-09T22:42:14Z"
     }
   ],
   "missing_on_account": [
