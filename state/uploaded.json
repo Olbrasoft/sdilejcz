@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T07:56:53Z",
+  "last_updated": "2026-11-09T07:57:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676774,21 +676774,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T06:52:47Z",
-      "first_failed_at": "2026-11-09T06:52:47Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 31545,
       "cr_slug": "jidelni-vuz-divadelni-zaznam",
       "title": "Jídelní vůz (divadelní záznam)",
@@ -678133,19 +678118,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31550,
       "cr_slug": "passion-in-the-desert",
       "title": "Passion in the Desert",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42560127015",
-      "run_id": "42560127015",
-      "reserved_at": "2026-11-09T07:23:07Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T07:57:11Z",
+      "first_failed_at": "2026-11-09T06:52:47Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
