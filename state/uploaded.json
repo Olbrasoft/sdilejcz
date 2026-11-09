@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T03:43:09Z",
+  "last_updated": "2026-11-09T03:43:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677475,21 +677475,6 @@
       }
     },
     {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T03:13:05Z",
-      "first_failed_at": "2026-11-09T02:38:42Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.4
-      }
-    },
-    {
       "cr_film_id": 34902,
       "cr_slug": "duch-boure",
       "title": "Duch bouře",
@@ -678136,6 +678121,21 @@
       "timing": {
         "cdn_resolve_sec": 12.4
       }
+    },
+    {
+      "cr_film_id": 34885,
+      "cr_slug": "tata",
+      "title": "Táta",
+      "year": 1989,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T03:43:31Z",
+      "first_failed_at": "2026-11-09T02:38:42Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.8
+      }
     }
   ],
   "in_progress": [
@@ -678168,16 +678168,6 @@
       "worker_id": "worker-1-42537312534",
       "run_id": "42537312534",
       "reserved_at": "2026-11-09T03:41:57Z"
-    },
-    {
-      "cr_film_id": 34885,
-      "cr_slug": "tata",
-      "title": "Táta",
-      "year": 1989,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42537312534",
-      "run_id": "42537312534",
-      "reserved_at": "2026-11-09T03:43:09Z"
     }
   ],
   "missing_on_account": [
