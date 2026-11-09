@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T00:19:43Z",
+  "last_updated": "2026-11-09T00:19:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674934,19 +674934,24 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42537312534",
-      "run_id": "42537312534",
-      "reserved_at": "2026-11-09T00:18:08Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T00:19:55Z",
+      "first_failed_at": "2026-11-09T00:19:55Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13271,
       "cr_slug": "lara-croft-tomb-raider-kolebka-zivota",
