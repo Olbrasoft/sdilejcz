@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T20:53:16Z",
+  "last_updated": "2026-11-09T20:54:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675184,6 +675184,27 @@
       "timing": {
         "cdn_resolve_sec": 16.8
       }
+    },
+    {
+      "cr_film_id": 17393,
+      "cr_slug": "swallow",
+      "title": "Swallow",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-09T20:54:25Z",
+      "first_failed_at": "2026-11-09T20:54:25Z",
+      "attempt_count": 1,
+      "upload_id": "5f661299531ec",
+      "source_url": "https://prehraj.to/swallow-drama-2019-cz-titulky/5f661299531ec",
+      "upload_title": "Swallow-(drama)-(2019)--cz-titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.6,
+        "download_sec": 48.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675196,16 +675217,6 @@
       "worker_id": "worker-4-42683719410",
       "run_id": "42683719410",
       "reserved_at": "2026-11-09T20:33:25Z"
-    },
-    {
-      "cr_film_id": 17393,
-      "cr_slug": "swallow",
-      "title": "Swallow",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-09T20:50:45Z"
     },
     {
       "cr_film_id": 12286,
