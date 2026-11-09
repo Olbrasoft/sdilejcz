@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T09:05:00Z",
+  "last_updated": "2026-11-09T09:05:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674166,19 +674166,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42588259133",
-      "run_id": "42588259133",
-      "reserved_at": "2026-11-09T09:02:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T09:05:30Z",
+      "first_failed_at": "2026-11-09T09:05:30Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7548,
       "cr_slug": "teen-wolf-the-movie",
