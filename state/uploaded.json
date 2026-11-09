@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T16:42:06Z",
+  "last_updated": "2026-11-09T16:42:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674823,21 +674823,6 @@
       }
     },
     {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T16:01:19Z",
-      "first_failed_at": "2026-11-09T14:54:48Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.4
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -675531,6 +675516,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 14786,
+      "cr_slug": "krakonos-a-sklinkar-matej",
+      "title": "Krakonos a sklínkar Matej",
+      "year": 1979,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T16:42:40Z",
+      "first_failed_at": "2026-11-09T14:54:48Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.2
+      }
     }
   ],
   "in_progress": [
@@ -675563,16 +675563,6 @@
       "worker_id": "worker-1-42630752262",
       "run_id": "42630752262",
       "reserved_at": "2026-11-09T16:38:53Z"
-    },
-    {
-      "cr_film_id": 14786,
-      "cr_slug": "krakonos-a-sklinkar-matej",
-      "title": "Krakonos a sklínkar Matej",
-      "year": 1979,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42630752262",
-      "run_id": "42630752262",
-      "reserved_at": "2026-11-09T16:42:06Z"
     }
   ],
   "missing_on_account": [
