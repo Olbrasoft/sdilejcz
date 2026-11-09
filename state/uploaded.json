@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T19:37:13Z",
+  "last_updated": "2026-11-09T19:37:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674229,19 +674229,24 @@
       "timing": {
         "cdn_resolve_sec": 23.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-09T19:34:59Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T19:37:22Z",
+      "first_failed_at": "2026-11-09T19:37:22Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 26.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
