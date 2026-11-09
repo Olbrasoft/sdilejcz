@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T11:37:19Z",
+  "last_updated": "2026-11-09T11:37:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675344,21 +675344,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T10:32:31Z",
-      "first_failed_at": "2026-11-09T09:25:33Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.0
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -676676,19 +676661,24 @@
       "timing": {
         "cdn_resolve_sec": 9.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42588259133",
-      "run_id": "42588259133",
-      "reserved_at": "2026-11-09T11:23:31Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T11:37:47Z",
+      "first_failed_at": "2026-11-09T09:25:33Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
