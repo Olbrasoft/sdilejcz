@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-09T15:34:17Z",
+  "last_updated": "2026-11-09T15:34:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675047,19 +675047,24 @@
         "resolve_sec": 1.7,
         "download_sec": 2.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
       "title": "How to Act on Reality TV",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42630752262",
-      "run_id": "42630752262",
-      "reserved_at": "2026-11-09T15:27:15Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-09T15:34:35Z",
+      "first_failed_at": "2026-11-09T15:34:35Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 16.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18364,
       "cr_slug": "penthouse-north",
