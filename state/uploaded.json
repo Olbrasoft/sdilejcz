@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T21:42:42Z",
+  "last_updated": "2026-11-10T21:42:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673473,6 +673473,27 @@
         "upload_sec": 251.0,
         "total_sec": 1729.7
       }
+    },
+    {
+      "cr_film_id": 6718,
+      "cr_slug": "xxx",
+      "title": "xXx",
+      "year": 2002,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 1934,
+      "sdilej_url": "https://sdilej.cz/35473898/xxx-2002-cz-dabing.mp4",
+      "sdilej_name": "xXx (2002) CZ Dabing.mp4",
+      "uploaded_at": "2026-11-10T21:41:55Z",
+      "status": "uploaded",
+      "size_bytes": 620031103,
+      "worker_id": "worker-2-42899940035",
+      "timing": {
+        "cdn_resolve_sec": 2.7,
+        "download_sec": 143.8,
+        "upload_sec": 88.4,
+        "total_sec": 235.1
+      }
     }
   ],
   "failed_attempts": [
@@ -673626,21 +673647,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 1.0
-      }
-    },
-    {
-      "cr_film_id": 6718,
-      "cr_slug": "xxx",
-      "title": "xXx",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T21:07:14Z",
-      "first_failed_at": "2026-11-10T21:07:14Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 21.5
       }
     },
     {
@@ -673972,16 +673978,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 6718,
-      "cr_slug": "xxx",
-      "title": "xXx",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42899940035",
-      "run_id": "42899940035",
-      "reserved_at": "2026-11-10T21:37:49Z"
-    },
     {
       "cr_film_id": 12552,
       "cr_slug": "lara-croft-tomb-raider",
