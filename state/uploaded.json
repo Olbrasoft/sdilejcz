@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T06:54:46Z",
+  "last_updated": "2026-11-10T06:55:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674496,21 +674496,6 @@
       }
     },
     {
-      "cr_film_id": 5808,
-      "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
-      "title": "Kouzelná Beruška a Černý kocour ve filmu",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T06:14:33Z",
-      "first_failed_at": "2026-11-10T05:42:10Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -675464,19 +675449,24 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T06:44:34Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T06:55:11Z",
+      "first_failed_at": "2026-11-10T05:42:10Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
