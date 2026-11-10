@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T04:32:00Z",
+  "last_updated": "2026-11-10T04:32:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677425,6 +677425,21 @@
       "timing": {
         "cdn_resolve_sec": 15.2
       }
+    },
+    {
+      "cr_film_id": 34898,
+      "cr_slug": "sisters-2006",
+      "title": "Sisters",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T04:32:26Z",
+      "first_failed_at": "2026-11-10T04:32:26Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -677457,16 +677472,6 @@
       "worker_id": "worker-4-42731866469",
       "run_id": "42731866469",
       "reserved_at": "2026-11-10T04:27:55Z"
-    },
-    {
-      "cr_film_id": 34898,
-      "cr_slug": "sisters-2006",
-      "title": "Sisters",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42731866469",
-      "run_id": "42731866469",
-      "reserved_at": "2026-11-10T04:32:00Z"
     }
   ],
   "missing_on_account": [
