@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T05:23:39Z",
+  "last_updated": "2026-11-10T05:23:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677268,21 +677268,6 @@
       }
     },
     {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T04:33:44Z",
-      "first_failed_at": "2026-11-10T04:33:44Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 34969,
       "cr_slug": "snehurka-pribeh-hruzy",
       "title": "Sněhurka - Příběh hrůzy",
@@ -678266,19 +678251,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34827,
       "cr_slug": "ohnivy-ring",
       "title": "Ohnivý ring",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42731866469",
-      "run_id": "42731866469",
-      "reserved_at": "2026-11-10T05:04:09Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T05:23:57Z",
+      "first_failed_at": "2026-11-10T04:33:44Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37253,
       "cr_slug": "svedska-trojka",
