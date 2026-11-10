@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T06:35:05Z",
+  "last_updated": "2026-11-10T06:35:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674214,6 +674214,27 @@
         "upload_sec": 67.3,
         "total_sec": 93.2
       }
+    },
+    {
+      "cr_film_id": 16379,
+      "cr_slug": "blazing-fists",
+      "title": "Blazing Fists",
+      "year": 2025,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 59038,
+      "sdilej_url": "https://sdilej.cz/35468766/blazing-fists-2025-cz-titulky.mp4",
+      "sdilej_name": "Blazing Fists (2025) CZ titulky.mp4",
+      "uploaded_at": "2026-11-10T06:30:48Z",
+      "status": "uploaded",
+      "size_bytes": 560841662,
+      "worker_id": "worker-4-42762819416",
+      "timing": {
+        "cdn_resolve_sec": 4.4,
+        "download_sec": 52.8,
+        "upload_sec": 65.3,
+        "total_sec": 122.5
+      }
     }
   ],
   "failed_attempts": [
@@ -674946,27 +674967,6 @@
       }
     },
     {
-      "cr_film_id": 16379,
-      "cr_slug": "blazing-fists",
-      "title": "Blazing Fists",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-10T06:25:36Z",
-      "first_failed_at": "2026-11-10T06:25:36Z",
-      "attempt_count": 1,
-      "upload_id": "24145dc69dbb4625",
-      "source_url": "https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
-      "upload_title": "Blazing Fists (2025) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 32.2,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
       "title": "Moje máma Jayne",
@@ -675300,16 +675300,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 16379,
-      "cr_slug": "blazing-fists",
-      "title": "Blazing Fists",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T06:28:35Z"
-    },
     {
       "cr_film_id": 13280,
       "cr_slug": "tvoje-srdce-inkognito",
