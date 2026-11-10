@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T16:38:16Z",
+  "last_updated": "2026-11-10T16:38:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674624,21 +674624,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T16:07:49Z",
-      "first_failed_at": "2026-11-10T16:07:49Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 20.4
-      }
-    },
-    {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
@@ -675487,6 +675472,21 @@
       "timing": {
         "cdn_resolve_sec": 22.4
       }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T16:38:55Z",
+      "first_failed_at": "2026-11-10T16:07:49Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 22.5
+      }
     }
   ],
   "in_progress": [
@@ -675509,16 +675509,6 @@
       "worker_id": "worker-4-42842264198",
       "run_id": "42842264198",
       "reserved_at": "2026-11-10T16:37:37Z"
-    },
-    {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42842264198",
-      "run_id": "42842264198",
-      "reserved_at": "2026-11-10T16:38:16Z"
     }
   ],
   "missing_on_account": [
