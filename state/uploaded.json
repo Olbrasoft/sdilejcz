@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T16:45:21Z",
+  "last_updated": "2026-11-10T16:45:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674624,21 +674624,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T16:14:52Z",
-      "first_failed_at": "2026-11-10T15:43:38Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
@@ -675487,6 +675472,21 @@
       "timing": {
         "cdn_resolve_sec": 19.5
       }
+    },
+    {
+      "cr_film_id": 9674,
+      "cr_slug": "zivot-v-klamu",
+      "title": "Život v klamu",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T16:45:45Z",
+      "first_failed_at": "2026-11-10T15:43:38Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.6
+      }
     }
   ],
   "in_progress": [
@@ -675509,16 +675509,6 @@
       "worker_id": "worker-3-42842264198",
       "run_id": "42842264198",
       "reserved_at": "2026-11-10T16:44:55Z"
-    },
-    {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42842264198",
-      "run_id": "42842264198",
-      "reserved_at": "2026-11-10T16:45:21Z"
     }
   ],
   "missing_on_account": [
