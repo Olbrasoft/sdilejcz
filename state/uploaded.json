@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T06:25:18Z",
+  "last_updated": "2026-11-10T06:25:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675079,6 +675079,27 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 16379,
+      "cr_slug": "blazing-fists",
+      "title": "Blazing Fists",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-10T06:25:36Z",
+      "first_failed_at": "2026-11-10T06:25:36Z",
+      "attempt_count": 1,
+      "upload_id": "24145dc69dbb4625",
+      "source_url": "https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
+      "upload_title": "Blazing Fists (2025) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 32.2,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -675091,16 +675112,6 @@
       "worker_id": "worker-1-42762819416",
       "run_id": "42762819416",
       "reserved_at": "2026-11-10T06:15:18Z"
-    },
-    {
-      "cr_film_id": 16379,
-      "cr_slug": "blazing-fists",
-      "title": "Blazing Fists",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T06:19:56Z"
     },
     {
       "cr_film_id": 12488,
