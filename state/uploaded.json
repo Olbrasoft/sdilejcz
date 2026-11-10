@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T03:19:44Z",
+  "last_updated": "2026-11-10T03:20:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675721,21 +675721,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T02:45:26Z",
-      "first_failed_at": "2026-11-10T02:45:26Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 31592,
       "cr_slug": "atomic-shark",
       "title": "Atomic Shark",
@@ -676577,19 +676562,24 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31550,
       "cr_slug": "passion-in-the-desert",
       "title": "Passion in the Desert",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42731866469",
-      "run_id": "42731866469",
-      "reserved_at": "2026-11-10T03:15:58Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T03:20:12Z",
+      "first_failed_at": "2026-11-10T02:45:26Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31910,
       "cr_slug": "2010-moby-dick",
