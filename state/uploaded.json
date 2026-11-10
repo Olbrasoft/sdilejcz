@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T23:45:27Z",
+  "last_updated": "2026-11-10T23:45:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674757,21 +674757,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T23:05:04Z",
-      "first_failed_at": "2026-11-10T22:33:56Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
@@ -675590,6 +675575,21 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T23:45:52Z",
+      "first_failed_at": "2026-11-10T22:33:56Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
     }
   ],
   "in_progress": [
@@ -675622,16 +675622,6 @@
       "worker_id": "worker-3-42899940035",
       "run_id": "42899940035",
       "reserved_at": "2026-11-10T23:44:15Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42899940035",
-      "run_id": "42899940035",
-      "reserved_at": "2026-11-10T23:45:27Z"
     }
   ],
   "missing_on_account": [
