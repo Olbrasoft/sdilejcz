@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T08:17:39Z",
+  "last_updated": "2026-11-10T08:17:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676420,19 +676420,30 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 29067,
       "cr_slug": "amateur-teens",
       "title": "Amateur Teens",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T08:12:05Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-10T08:17:55Z",
+      "first_failed_at": "2026-11-10T08:17:55Z",
+      "attempt_count": 1,
+      "upload_id": "5f43ec0722482",
+      "source_url": "https://prehraj.to/amateur-teens-2015-cztitulky/5f43ec0722482",
+      "upload_title": "Amateur Teens (2015) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 2.5,
+        "download_sec": 45.0,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
