@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T03:56:18Z",
+  "last_updated": "2026-11-10T03:56:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676224,21 +676224,6 @@
       }
     },
     {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T03:18:57Z",
-      "first_failed_at": "2026-11-10T01:50:55Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.6
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -676832,6 +676817,21 @@
         "resolve_sec": 1.1,
         "download_sec": 2.1
       }
+    },
+    {
+      "cr_film_id": 16492,
+      "cr_slug": "moje-mama-jayne",
+      "title": "Moje máma Jayne",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T03:56:40Z",
+      "first_failed_at": "2026-11-10T01:50:55Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.9
+      }
     }
   ],
   "in_progress": [
@@ -676864,16 +676864,6 @@
       "worker_id": "worker-4-42731866469",
       "run_id": "42731866469",
       "reserved_at": "2026-11-10T03:54:43Z"
-    },
-    {
-      "cr_film_id": 16492,
-      "cr_slug": "moje-mama-jayne",
-      "title": "Moje máma Jayne",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42731866469",
-      "run_id": "42731866469",
-      "reserved_at": "2026-11-10T03:56:18Z"
     }
   ],
   "missing_on_account": [
