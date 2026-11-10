@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T00:48:57Z",
+  "last_updated": "2026-11-10T00:49:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677510,21 +677510,6 @@
       }
     },
     {
-      "cr_film_id": 35063,
-      "cr_slug": "the-silent-thief",
-      "title": "The Silent Thief",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T00:12:37Z",
-      "first_failed_at": "2026-11-09T23:36:00Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 36905,
       "cr_slug": "zivot-kotete",
       "title": "Život kotěte",
@@ -678317,20 +678302,24 @@
       "timing": {
         "cdn_resolve_sec": 11.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35063,
       "cr_slug": "the-silent-thief",
       "title": "The Silent Thief",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-10T00:48:57Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T00:49:19Z",
+      "first_failed_at": "2026-11-09T23:36:00Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.2
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
