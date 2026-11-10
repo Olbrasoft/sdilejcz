@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T19:39:40Z",
+  "last_updated": "2026-11-10T19:39:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677111,22 +677111,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-10T19:05:24Z",
-      "first_failed_at": "2026-11-10T18:33:35Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 1.5,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
@@ -677818,6 +677802,22 @@
         "resolve_sec": 1.5,
         "download_sec": 1.6
       }
+    },
+    {
+      "cr_film_id": 30864,
+      "cr_slug": "trio",
+      "title": "Trio",
+      "year": 2019,
+      "sktorrent_id": null,
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-10T19:39:55Z",
+      "first_failed_at": "2026-11-10T18:33:35Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 1.8,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -677850,16 +677850,6 @@
       "worker_id": "worker-1-42842264198",
       "run_id": "42842264198",
       "reserved_at": "2026-11-10T19:38:25Z"
-    },
-    {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42842264198",
-      "run_id": "42842264198",
-      "reserved_at": "2026-11-10T19:39:40Z"
     }
   ],
   "missing_on_account": [
