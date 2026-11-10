@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T10:03:56Z",
+  "last_updated": "2026-11-10T10:04:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677631,21 +677631,6 @@
       }
     },
     {
-      "cr_film_id": 37289,
-      "cr_slug": "led",
-      "title": "Led",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T09:32:14Z",
-      "first_failed_at": "2026-11-10T09:32:14Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 37328,
       "cr_slug": "pomsta-skrticu",
       "title": "Pomsta škrtičů",
@@ -678320,6 +678305,21 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
+    },
+    {
+      "cr_film_id": 37289,
+      "cr_slug": "led",
+      "title": "Led",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T10:04:20Z",
+      "first_failed_at": "2026-11-10T09:32:14Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
     }
   ],
   "in_progress": [
@@ -678332,16 +678332,6 @@
       "worker_id": "worker-3-42762819416",
       "run_id": "42762819416",
       "reserved_at": "2026-11-10T09:47:13Z"
-    },
-    {
-      "cr_film_id": 37289,
-      "cr_slug": "led",
-      "title": "Led",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T10:03:56Z"
     }
   ],
   "missing_on_account": [
