@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T17:11:20Z",
+  "last_updated": "2026-11-10T17:11:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674819,21 +674819,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T16:31:48Z",
-      "first_failed_at": "2026-11-10T15:25:14Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 20.2
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675677,6 +675662,21 @@
       "timing": {
         "cdn_resolve_sec": 21.3
       }
+    },
+    {
+      "cr_film_id": 3019,
+      "cr_slug": "legenda-o-drakovi",
+      "title": "Legenda o drakovi",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T17:11:50Z",
+      "first_failed_at": "2026-11-10T15:25:14Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 19.4
+      }
     }
   ],
   "in_progress": [
@@ -675709,16 +675709,6 @@
       "worker_id": "worker-2-42842264198",
       "run_id": "42842264198",
       "reserved_at": "2026-11-10T17:10:55Z"
-    },
-    {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42842264198",
-      "run_id": "42842264198",
-      "reserved_at": "2026-11-10T17:11:20Z"
     }
   ],
   "missing_on_account": [
