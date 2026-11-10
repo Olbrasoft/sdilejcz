@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T04:58:44Z",
+  "last_updated": "2026-11-10T04:59:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678098,6 +678098,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 37212,
+      "cr_slug": "hvezdna-brana-pravdivy-pribeh",
+      "title": "Hvězdná brána: Pravdivý příběh",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T04:59:08Z",
+      "first_failed_at": "2026-11-10T04:59:08Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -678130,16 +678145,6 @@
       "worker_id": "worker-3-42731866469",
       "run_id": "42731866469",
       "reserved_at": "2026-11-10T04:52:00Z"
-    },
-    {
-      "cr_film_id": 37212,
-      "cr_slug": "hvezdna-brana-pravdivy-pribeh",
-      "title": "Hvězdná brána: Pravdivý příběh",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42731866469",
-      "run_id": "42731866469",
-      "reserved_at": "2026-11-10T04:58:44Z"
     }
   ],
   "missing_on_account": [
