@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T08:16:28Z",
+  "last_updated": "2026-11-10T08:16:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675934,21 +675934,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T07:43:33Z",
-      "first_failed_at": "2026-11-10T06:36:09Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -676401,6 +676386,21 @@
         "cdn_resolve_sec": 5.6,
         "download_sec": 2.0
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T08:16:50Z",
+      "first_failed_at": "2026-11-10T06:36:09Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.8
+      }
     }
   ],
   "in_progress": [
@@ -676423,16 +676423,6 @@
       "worker_id": "worker-1-42762819416",
       "run_id": "42762819416",
       "reserved_at": "2026-11-10T08:15:46Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T08:16:28Z"
     }
   ],
   "missing_on_account": [
