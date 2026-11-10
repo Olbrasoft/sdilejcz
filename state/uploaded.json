@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T07:18:57Z",
+  "last_updated": "2026-11-10T07:19:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674925,21 +674925,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T06:40:52Z",
-      "first_failed_at": "2026-11-10T05:39:22Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -675665,19 +675650,24 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T07:12:52Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T07:19:16Z",
+      "first_failed_at": "2026-11-10T05:39:22Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20358,
       "cr_slug": "sex-v-parizi",
