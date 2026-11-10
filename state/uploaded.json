@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T00:11:34Z",
+  "last_updated": "2026-11-10T00:12:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677346,21 +677346,6 @@
       }
     },
     {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-09T23:41:24Z",
-      "first_failed_at": "2026-11-09T23:07:27Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.6
-      }
-    },
-    {
       "cr_film_id": 35561,
       "cr_slug": "slayer-the-repentless-killogy",
       "title": "Slayer: The Repentless Killogy",
@@ -678027,6 +678012,21 @@
       "timing": {
         "cdn_resolve_sec": 11.9
       }
+    },
+    {
+      "cr_film_id": 34434,
+      "cr_slug": "rozum-a-cit",
+      "title": "Rozum a cit",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T00:12:00Z",
+      "first_failed_at": "2026-11-09T23:07:27Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.0
+      }
     }
   ],
   "in_progress": [
@@ -678059,16 +678059,6 @@
       "worker_id": "worker-4-42683719410",
       "run_id": "42683719410",
       "reserved_at": "2026-11-10T00:07:46Z"
-    },
-    {
-      "cr_film_id": 34434,
-      "cr_slug": "rozum-a-cit",
-      "title": "Rozum a cit",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-10T00:11:34Z"
     }
   ],
   "missing_on_account": [
