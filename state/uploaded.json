@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T10:55:56Z",
+  "last_updated": "2026-11-10T10:56:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675259,19 +675259,25 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42797279919",
-      "run_id": "42797279919",
-      "reserved_at": "2026-11-10T10:53:01Z"
-    },
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-10T10:56:19Z",
+      "first_failed_at": "2026-11-10T10:56:19Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 4.9,
+        "download_sec": 2.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
