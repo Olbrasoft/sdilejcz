@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T07:27:43Z",
+  "last_updated": "2026-11-10T07:27:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674949,21 +674949,6 @@
       }
     },
     {
-      "cr_film_id": 14227,
-      "cr_slug": "zeme-lednich-medvedu",
-      "title": "Země ledních medvědů",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T06:44:22Z",
-      "first_failed_at": "2026-11-10T06:08:05Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.0
-      }
-    },
-    {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
@@ -675822,19 +675807,24 @@
       "timing": {
         "resolve_sec": 1.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T07:18:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T07:27:56Z",
+      "first_failed_at": "2026-11-10T06:08:05Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
