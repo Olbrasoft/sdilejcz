@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T11:36:51Z",
+  "last_updated": "2026-11-10T11:37:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674790,21 +674790,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T10:57:56Z",
-      "first_failed_at": "2026-11-10T10:23:52Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.9
-      }
-    },
-    {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
@@ -675511,19 +675496,24 @@
       "timing": {
         "cdn_resolve_sec": 14.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42797279919",
-      "run_id": "42797279919",
-      "reserved_at": "2026-11-10T11:28:14Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T11:37:08Z",
+      "first_failed_at": "2026-11-10T10:23:52Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
