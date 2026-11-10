@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T09:31:50Z",
+  "last_updated": "2026-11-10T09:32:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678215,6 +678215,21 @@
       "timing": {
         "cdn_resolve_sec": 11.5
       }
+    },
+    {
+      "cr_film_id": 37289,
+      "cr_slug": "led",
+      "title": "Led",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T09:32:14Z",
+      "first_failed_at": "2026-11-10T09:32:14Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
     }
   ],
   "in_progress": [
@@ -678237,16 +678252,6 @@
       "worker_id": "worker-2-42762819416",
       "run_id": "42762819416",
       "reserved_at": "2026-11-10T09:26:04Z"
-    },
-    {
-      "cr_film_id": 37289,
-      "cr_slug": "led",
-      "title": "Led",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T09:31:50Z"
     }
   ],
   "missing_on_account": [
