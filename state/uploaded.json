@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T00:50:02Z",
+  "last_updated": "2026-11-10T00:50:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677643,21 +677643,6 @@
       }
     },
     {
-      "cr_film_id": 37247,
-      "cr_slug": "house-party-2-pyzamovy-mejdan",
-      "title": "House party 2: Pyžamový mejdan",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T00:19:09Z",
-      "first_failed_at": "2026-11-10T00:19:09Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.7
-      }
-    },
-    {
       "cr_film_id": 37289,
       "cr_slug": "led",
       "title": "Led",
@@ -678317,20 +678302,24 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37247,
       "cr_slug": "house-party-2-pyzamovy-mejdan",
       "title": "House party 2: Pyžamový mejdan",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42683719410",
-      "run_id": "42683719410",
-      "reserved_at": "2026-11-10T00:50:02Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T00:50:24Z",
+      "first_failed_at": "2026-11-10T00:19:09Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
