@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T10:34:38Z",
+  "last_updated": "2026-11-10T10:34:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674629,19 +674629,24 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12286,
       "cr_slug": "vrana-mesto-andelu",
       "title": "Vrána: Město andělů",
       "year": 1996,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42797279919",
-      "run_id": "42797279919",
-      "reserved_at": "2026-11-10T10:27:22Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T10:34:51Z",
+      "first_failed_at": "2026-11-10T10:34:51Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
