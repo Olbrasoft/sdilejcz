@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T17:23:37Z",
+  "last_updated": "2026-11-10T17:24:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674987,21 +674987,6 @@
       }
     },
     {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T16:52:03Z",
-      "first_failed_at": "2026-11-10T16:13:52Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -675740,6 +675725,21 @@
       "timing": {
         "cdn_resolve_sec": 22.0
       }
+    },
+    {
+      "cr_film_id": 13557,
+      "cr_slug": "srdce-za-pisnicku",
+      "title": "Srdce za písničku",
+      "year": 1933,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T17:24:08Z",
+      "first_failed_at": "2026-11-10T16:13:52Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.7
+      }
     }
   ],
   "in_progress": [
@@ -675762,16 +675762,6 @@
       "worker_id": "worker-4-42842264198",
       "run_id": "42842264198",
       "reserved_at": "2026-11-10T17:23:06Z"
-    },
-    {
-      "cr_film_id": 13557,
-      "cr_slug": "srdce-za-pisnicku",
-      "title": "Srdce za písničku",
-      "year": 1933,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42842264198",
-      "run_id": "42842264198",
-      "reserved_at": "2026-11-10T17:23:37Z"
     }
   ],
   "missing_on_account": [
