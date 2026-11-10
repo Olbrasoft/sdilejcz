@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T10:58:30Z",
+  "last_updated": "2026-11-10T10:58:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674342,21 +674342,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T10:23:22Z",
-      "first_failed_at": "2026-11-10T10:23:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.2
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -675290,6 +675275,21 @@
       "timing": {
         "cdn_resolve_sec": 13.1
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T10:58:55Z",
+      "first_failed_at": "2026-11-10T10:23:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -675312,16 +675312,6 @@
       "worker_id": "worker-3-42797279919",
       "run_id": "42797279919",
       "reserved_at": "2026-11-10T10:57:41Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42797279919",
-      "run_id": "42797279919",
-      "reserved_at": "2026-11-10T10:58:30Z"
     }
   ],
   "missing_on_account": [
