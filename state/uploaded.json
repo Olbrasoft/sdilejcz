@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T06:26:26Z",
+  "last_updated": "2026-11-10T06:26:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674442,21 +674442,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T05:56:13Z",
-      "first_failed_at": "2026-11-10T05:56:13Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.2
-      }
-    },
-    {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
       "title": "Labutí princezna 3: Tajemství kouzelného pokladu",
@@ -675115,6 +675100,21 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T06:26:54Z",
+      "first_failed_at": "2026-11-10T05:56:13Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
     }
   ],
   "in_progress": [
@@ -675147,16 +675147,6 @@
       "worker_id": "worker-3-42762819416",
       "run_id": "42762819416",
       "reserved_at": "2026-11-10T06:24:10Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42762819416",
-      "run_id": "42762819416",
-      "reserved_at": "2026-11-10T06:26:26Z"
     }
   ],
   "missing_on_account": [
