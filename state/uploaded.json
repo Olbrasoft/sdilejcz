@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T11:02:02Z",
+  "last_updated": "2026-11-10T11:02:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674361,21 +674361,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T10:26:28Z",
-      "first_failed_at": "2026-11-10T10:26:28Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -675290,19 +675275,24 @@
       "timing": {
         "cdn_resolve_sec": 14.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
       "title": "The Boy Who Could Fly",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-4-42797279919",
-      "run_id": "42797279919",
-      "reserved_at": "2026-11-10T10:59:07Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T11:02:17Z",
+      "first_failed_at": "2026-11-10T10:26:28Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 12.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
