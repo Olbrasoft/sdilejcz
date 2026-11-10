@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T15:48:43Z",
+  "last_updated": "2026-11-10T15:49:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674149,21 +674149,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T15:18:19Z",
-      "first_failed_at": "2026-11-10T15:18:19Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.3
-      }
-    },
-    {
       "cr_film_id": 1408,
       "cr_slug": "black-panther",
       "title": "Black Panther",
@@ -674675,6 +674660,21 @@
       "timing": {
         "cdn_resolve_sec": 21.6
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T15:49:15Z",
+      "first_failed_at": "2026-11-10T15:18:19Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 17.4
+      }
     }
   ],
   "in_progress": [
@@ -674707,16 +674707,6 @@
       "worker_id": "worker-2-42842264198",
       "run_id": "42842264198",
       "reserved_at": "2026-11-10T15:47:36Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42842264198",
-      "run_id": "42842264198",
-      "reserved_at": "2026-11-10T15:48:43Z"
     }
   ],
   "missing_on_account": [
