@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-10T12:40:50Z",
+  "last_updated": "2026-11-10T12:41:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675524,21 +675524,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-10T12:09:02Z",
-      "first_failed_at": "2026-11-10T10:47:44Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.1
-      }
-    },
-    {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
@@ -676128,6 +676113,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-10T12:41:14Z",
+      "first_failed_at": "2026-11-10T10:47:44Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.5
+      }
     }
   ],
   "in_progress": [
@@ -676160,16 +676160,6 @@
       "worker_id": "worker-1-42797279919",
       "run_id": "42797279919",
       "reserved_at": "2026-11-10T12:38:46Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42797279919",
-      "run_id": "42797279919",
-      "reserved_at": "2026-11-10T12:40:50Z"
     }
   ],
   "missing_on_account": [
