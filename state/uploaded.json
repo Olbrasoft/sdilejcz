@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T16:28:56Z",
+  "last_updated": "2026-11-11T16:29:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674185,19 +674185,24 @@
       "timing": {
         "cdn_resolve_sec": 17.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T16:27:22Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T16:29:09Z",
+      "first_failed_at": "2026-11-11T16:29:09Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 19.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
