@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T16:29:40Z",
+  "last_updated": "2026-11-11T16:29:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674215,19 +674215,24 @@
       "timing": {
         "cdn_resolve_sec": 16.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13557,
       "cr_slug": "srdce-za-pisnicku",
       "title": "Srdce za písničku",
       "year": 1933,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T16:27:59Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T16:29:56Z",
+      "first_failed_at": "2026-11-11T16:29:56Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 21.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
