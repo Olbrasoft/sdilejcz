@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T16:32:28Z",
+  "last_updated": "2026-11-11T16:33:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674309,19 +674309,24 @@
       "timing": {
         "cdn_resolve_sec": 17.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T16:29:40Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T16:33:06Z",
+      "first_failed_at": "2026-11-11T16:33:06Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 17.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14790,
       "cr_slug": "rio-sex-comedy",
