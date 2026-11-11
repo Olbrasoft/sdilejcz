@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T10:56:41Z",
+  "last_updated": "2026-11-11T10:57:04Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677373,21 +677373,6 @@
       }
     },
     {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T10:25:59Z",
-      "first_failed_at": "2026-11-11T10:25:59Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 35044,
       "cr_slug": "tezka-barbora",
       "title": "Těžká Barbora",
@@ -678248,6 +678233,21 @@
       "timing": {
         "cdn_resolve_sec": 10.2
       }
+    },
+    {
+      "cr_film_id": 34991,
+      "cr_slug": "po-cem-muzi-touzi",
+      "title": "Po čem muži touží",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T10:57:04Z",
+      "first_failed_at": "2026-11-11T10:25:59Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
     }
   ],
   "in_progress": [
@@ -678270,16 +678270,6 @@
       "worker_id": "worker-4-42974890325",
       "run_id": "42974890325",
       "reserved_at": "2026-11-11T10:38:50Z"
-    },
-    {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42974890325",
-      "run_id": "42974890325",
-      "reserved_at": "2026-11-11T10:56:41Z"
     }
   ],
   "missing_on_account": [
