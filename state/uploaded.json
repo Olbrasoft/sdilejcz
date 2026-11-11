@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T09:33:25Z",
+  "last_updated": "2026-11-11T09:33:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676039,21 +676039,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T09:01:52Z",
-      "first_failed_at": "2026-11-11T07:50:29Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -676762,6 +676747,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T09:33:53Z",
+      "first_failed_at": "2026-11-11T07:50:29Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.3
+      }
     }
   ],
   "in_progress": [
@@ -676794,16 +676794,6 @@
       "worker_id": "worker-4-42974890325",
       "run_id": "42974890325",
       "reserved_at": "2026-11-11T09:32:40Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-42974890325",
-      "run_id": "42974890325",
-      "reserved_at": "2026-11-11T09:33:25Z"
     }
   ],
   "missing_on_account": [
