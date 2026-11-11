@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T02:59:00Z",
+  "last_updated": "2026-11-11T02:59:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674734,19 +674734,24 @@
       "timing": {
         "cdn_resolve_sec": 12.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-1-42946885176",
-      "run_id": "42946885176",
-      "reserved_at": "2026-11-11T02:57:19Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T02:59:15Z",
+      "first_failed_at": "2026-11-11T02:59:15Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 10.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
