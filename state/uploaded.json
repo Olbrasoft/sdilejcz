@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T00:54:16Z",
+  "last_updated": "2026-11-11T00:54:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676401,21 +676401,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T00:23:17Z",
-      "first_failed_at": "2026-11-11T00:23:17Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.0
-      }
-    },
-    {
       "cr_film_id": 31671,
       "cr_slug": "e11",
       "title": "E11",
@@ -676835,6 +676820,21 @@
       "timing": {
         "cdn_resolve_sec": 10.3
       }
+    },
+    {
+      "cr_film_id": 31670,
+      "cr_slug": "reunion",
+      "title": "Reunion",
+      "year": 2013,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T00:54:37Z",
+      "first_failed_at": "2026-11-11T00:23:17Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.2
+      }
     }
   ],
   "in_progress": [
@@ -676867,16 +676867,6 @@
       "worker_id": "worker-2-42899940035",
       "run_id": "42899940035",
       "reserved_at": "2026-11-11T00:52:41Z"
-    },
-    {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42899940035",
-      "run_id": "42899940035",
-      "reserved_at": "2026-11-11T00:54:16Z"
     }
   ],
   "missing_on_account": [
