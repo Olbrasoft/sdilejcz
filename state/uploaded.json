@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T14:50:41Z",
+  "last_updated": "2026-11-11T14:51:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677011,21 +677011,6 @@
       }
     },
     {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T14:14:21Z",
-      "first_failed_at": "2026-11-11T14:14:21Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 18.8
-      }
-    },
-    {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
@@ -677904,19 +677889,24 @@
         "resolve_sec": 1.2,
         "download_sec": 1.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34827,
       "cr_slug": "ohnivy-ring",
       "title": "Ohnivý ring",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43010463613",
-      "run_id": "43010463613",
-      "reserved_at": "2026-11-11T14:44:36Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T14:51:12Z",
+      "first_failed_at": "2026-11-11T14:14:21Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 21.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
