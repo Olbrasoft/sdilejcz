@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T14:46:41Z",
+  "last_updated": "2026-11-11T14:47:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676485,21 +676485,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T13:46:52Z",
-      "first_failed_at": "2026-11-11T12:20:09Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -677820,19 +677805,24 @@
       "timing": {
         "cdn_resolve_sec": 18.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43010463613",
-      "run_id": "43010463613",
-      "reserved_at": "2026-11-11T14:17:23Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T14:47:08Z",
+      "first_failed_at": "2026-11-11T12:20:09Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35543,
       "cr_slug": "love-sick-secrets-of-a-sex-addict",
