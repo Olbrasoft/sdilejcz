@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T16:21:06Z",
+  "last_updated": "2026-11-11T16:21:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673975,19 +673975,24 @@
       "timing": {
         "cdn_resolve_sec": 19.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T16:19:32Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T16:21:31Z",
+      "first_failed_at": "2026-11-11T16:21:31Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 18.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
