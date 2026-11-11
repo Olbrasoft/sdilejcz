@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T22:35:30Z",
+  "last_updated": "2026-11-11T22:35:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674698,19 +674698,24 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43105499045",
-      "run_id": "43105499045",
-      "reserved_at": "2026-11-11T22:34:05Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T22:35:45Z",
+      "first_failed_at": "2026-11-11T22:35:45Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
