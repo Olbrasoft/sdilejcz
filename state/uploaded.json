@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T06:24:30Z",
+  "last_updated": "2026-11-11T06:26:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678305,19 +678305,24 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 37536,
       "cr_slug": "a-very-unlucky-leprechaun",
       "title": "A Very Unlucky Leprechaun",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42946885176",
-      "run_id": "42946885176",
-      "reserved_at": "2026-11-11T06:19:52Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T06:26:43Z",
+      "first_failed_at": "2026-11-11T06:26:43Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
