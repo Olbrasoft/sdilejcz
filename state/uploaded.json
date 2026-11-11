@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T16:25:51Z",
+  "last_updated": "2026-11-11T16:26:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674095,19 +674095,24 @@
       "timing": {
         "cdn_resolve_sec": 19.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T16:21:43Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T16:26:07Z",
+      "first_failed_at": "2026-11-11T16:26:07Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 16.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
