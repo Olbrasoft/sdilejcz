@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T09:22:02Z",
+  "last_updated": "2026-11-11T09:22:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675805,21 +675805,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T08:45:53Z",
-      "first_failed_at": "2026-11-11T07:35:42Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 10.1
-      }
-    },
-    {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
@@ -676481,6 +676466,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 12879,
+      "cr_slug": "gogs-gogwana",
+      "title": "Gogs: Gogwana",
+      "year": 1998,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T09:22:26Z",
+      "first_failed_at": "2026-11-11T07:35:42Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.9
+      }
     }
   ],
   "in_progress": [
@@ -676513,16 +676513,6 @@
       "worker_id": "worker-3-42974890325",
       "run_id": "42974890325",
       "reserved_at": "2026-11-11T09:21:24Z"
-    },
-    {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42974890325",
-      "run_id": "42974890325",
-      "reserved_at": "2026-11-11T09:22:02Z"
     }
   ],
   "missing_on_account": [
