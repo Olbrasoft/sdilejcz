@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T00:46:09Z",
+  "last_updated": "2026-11-11T00:46:32Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676187,21 +676187,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T00:13:06Z",
-      "first_failed_at": "2026-11-10T23:41:47Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 12.9
-      }
-    },
-    {
       "cr_film_id": 30794,
       "cr_slug": "ufc-229-khabib-vs-mcgregor",
       "title": "UFC 229: Khabib vs. McGregor",
@@ -676743,6 +676728,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T00:46:32Z",
+      "first_failed_at": "2026-11-10T23:41:47Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.4
+      }
     }
   ],
   "in_progress": [
@@ -676775,16 +676775,6 @@
       "worker_id": "worker-2-42899940035",
       "run_id": "42899940035",
       "reserved_at": "2026-11-11T00:44:23Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-42899940035",
-      "run_id": "42899940035",
-      "reserved_at": "2026-11-11T00:46:09Z"
     }
   ],
   "missing_on_account": [
