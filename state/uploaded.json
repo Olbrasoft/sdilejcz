@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T18:19:51Z",
+  "last_updated": "2026-11-11T18:21:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674824,21 +674824,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T17:39:50Z",
-      "first_failed_at": "2026-11-11T16:26:07Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.5
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -675387,19 +675372,24 @@
       "timing": {
         "cdn_resolve_sec": 17.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T18:10:59Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T18:21:28Z",
+      "first_failed_at": "2026-11-11T16:26:07Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 19.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
