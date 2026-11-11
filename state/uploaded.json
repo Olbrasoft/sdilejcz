@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T17:21:59Z",
+  "last_updated": "2026-11-11T17:22:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674283,21 +674283,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T16:46:05Z",
-      "first_failed_at": "2026-11-11T16:14:09Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 21.9
-      }
-    },
-    {
       "cr_film_id": 5808,
       "cr_slug": "kouzelna-beruska-a-cerny-kocour-ve-filmu",
       "title": "Kouzelná Beruška a Černý kocour ve filmu",
@@ -675137,6 +675122,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T17:22:18Z",
+      "first_failed_at": "2026-11-11T16:14:09Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 16.8
+      }
     }
   ],
   "in_progress": [
@@ -675159,16 +675159,6 @@
       "worker_id": "worker-4-43055662975",
       "run_id": "43055662975",
       "reserved_at": "2026-11-11T17:15:38Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T17:17:50Z"
     },
     {
       "cr_film_id": 20754,
