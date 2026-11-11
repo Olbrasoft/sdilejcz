@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T17:45:28Z",
+  "last_updated": "2026-11-11T17:45:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674331,21 +674331,6 @@
       }
     },
     {
-      "cr_film_id": 7654,
-      "cr_slug": "sammyho-dobrodruzstvi-2",
-      "title": "Sammyho dobrodružství 2",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T16:52:45Z",
-      "first_failed_at": "2026-11-11T16:20:23Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 18.0
-      }
-    },
-    {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
@@ -675204,19 +675189,24 @@
       "timing": {
         "cdn_resolve_sec": 17.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T17:27:36Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T17:45:47Z",
+      "first_failed_at": "2026-11-11T16:20:23Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 21094,
       "cr_slug": "sex-a-lucia",
