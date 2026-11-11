@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T20:58:19Z",
+  "last_updated": "2026-11-11T20:58:48Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676836,21 +676836,6 @@
       }
     },
     {
-      "cr_film_id": 31670,
-      "cr_slug": "reunion",
-      "title": "Reunion",
-      "year": 2013,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T20:09:36Z",
-      "first_failed_at": "2026-11-11T19:28:37Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 24.5
-      }
-    },
-    {
       "cr_film_id": 33953,
       "cr_slug": "they-live-in-the-grey",
       "title": "They Live in the Grey",
@@ -677654,19 +677639,24 @@
       "timing": {
         "cdn_resolve_sec": 18.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31670,
       "cr_slug": "reunion",
       "title": "Reunion",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T20:44:09Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T20:58:48Z",
+      "first_failed_at": "2026-11-11T19:28:37Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 19.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34991,
       "cr_slug": "po-cem-muzi-touzi",
