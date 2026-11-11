@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T06:11:14Z",
+  "last_updated": "2026-11-11T06:11:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678240,19 +678240,24 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-2-42946885176",
-      "run_id": "42946885176",
-      "reserved_at": "2026-11-11T05:11:44Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T06:11:39Z",
+      "first_failed_at": "2026-11-11T06:11:39Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34957,
       "cr_slug": "strasidelne-libanky",
