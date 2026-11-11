@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T14:45:13Z",
+  "last_updated": "2026-11-11T14:45:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677017,21 +677017,6 @@
       }
     },
     {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T14:15:06Z",
-      "first_failed_at": "2026-11-11T14:15:06Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 18.7
-      }
-    },
-    {
       "cr_film_id": 31550,
       "cr_slug": "passion-in-the-desert",
       "title": "Passion in the Desert",
@@ -677820,6 +677805,21 @@
       "timing": {
         "cdn_resolve_sec": 11.1
       }
+    },
+    {
+      "cr_film_id": 34839,
+      "cr_slug": "lekce-zivota",
+      "title": "Lekce života",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T14:45:46Z",
+      "first_failed_at": "2026-11-11T14:15:06Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 20.0
+      }
     }
   ],
   "in_progress": [
@@ -677852,16 +677852,6 @@
       "worker_id": "worker-1-43010463613",
       "run_id": "43010463613",
       "reserved_at": "2026-11-11T14:44:36Z"
-    },
-    {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43010463613",
-      "run_id": "43010463613",
-      "reserved_at": "2026-11-11T14:45:13Z"
     }
   ],
   "missing_on_account": [
