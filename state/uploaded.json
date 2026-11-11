@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T22:54:33Z",
+  "last_updated": "2026-11-11T22:54:55Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674268,21 +674268,6 @@
       }
     },
     {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T22:24:13Z",
-      "first_failed_at": "2026-11-11T22:24:13Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -675286,6 +675271,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 12255,
+      "cr_slug": "proteus",
+      "title": "Proteus",
+      "year": 1995,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T22:54:55Z",
+      "first_failed_at": "2026-11-11T22:24:13Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
     }
   ],
   "in_progress": [
@@ -675318,16 +675318,6 @@
       "worker_id": "worker-3-43105499045",
       "run_id": "43105499045",
       "reserved_at": "2026-11-11T22:52:40Z"
-    },
-    {
-      "cr_film_id": 12255,
-      "cr_slug": "proteus",
-      "title": "Proteus",
-      "year": 1995,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43105499045",
-      "run_id": "43105499045",
-      "reserved_at": "2026-11-11T22:54:33Z"
     }
   ],
   "missing_on_account": [
