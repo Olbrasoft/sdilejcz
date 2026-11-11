@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T08:27:52Z",
+  "last_updated": "2026-11-11T08:28:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674996,21 +674996,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T07:54:22Z",
-      "first_failed_at": "2026-11-11T07:54:22Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.3
-      }
-    },
-    {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
@@ -675998,19 +675983,24 @@
       "timing": {
         "cdn_resolve_sec": 11.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42974890325",
-      "run_id": "42974890325",
-      "reserved_at": "2026-11-11T08:25:02Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T08:28:11Z",
+      "first_failed_at": "2026-11-11T07:54:22Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24545,
       "cr_slug": "amores-perros-laska-je-kurva",
