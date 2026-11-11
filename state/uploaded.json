@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T20:05:43Z",
+  "last_updated": "2026-11-11T20:06:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676540,21 +676540,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T19:29:55Z",
-      "first_failed_at": "2026-11-11T18:43:32Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 25.9
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -676838,6 +676823,21 @@
       "timing": {
         "cdn_resolve_sec": 26.6
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T20:06:21Z",
+      "first_failed_at": "2026-11-11T18:43:32Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 26.4
+      }
     }
   ],
   "in_progress": [
@@ -676870,16 +676870,6 @@
       "worker_id": "worker-3-43055662975",
       "run_id": "43055662975",
       "reserved_at": "2026-11-11T20:05:00Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T20:05:43Z"
     }
   ],
   "missing_on_account": [
