@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T05:59:49Z",
+  "last_updated": "2026-11-11T06:00:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677174,21 +677174,6 @@
       }
     },
     {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T05:29:19Z",
-      "first_failed_at": "2026-11-11T05:29:19Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 8.8
-      }
-    },
-    {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
@@ -678096,6 +678081,21 @@
       "timing": {
         "cdn_resolve_sec": 10.9
       }
+    },
+    {
+      "cr_film_id": 34839,
+      "cr_slug": "lekce-zivota",
+      "title": "Lekce života",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T06:00:12Z",
+      "first_failed_at": "2026-11-11T05:29:19Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
     }
   ],
   "in_progress": [
@@ -678128,16 +678128,6 @@
       "worker_id": "worker-1-42946885176",
       "run_id": "42946885176",
       "reserved_at": "2026-11-11T05:50:16Z"
-    },
-    {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42946885176",
-      "run_id": "42946885176",
-      "reserved_at": "2026-11-11T05:59:49Z"
     }
   ],
   "missing_on_account": [
