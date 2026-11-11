@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T15:43:01Z",
+  "last_updated": "2026-11-11T15:43:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677405,21 +677405,6 @@
       }
     },
     {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T14:51:58Z",
-      "first_failed_at": "2026-11-11T13:45:50Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 15.1
-      }
-    },
-    {
       "cr_film_id": 36673,
       "cr_slug": "ma-me-rad-nema-me-rad-1956",
       "title": "Má mě rád, nemá mě rád",
@@ -678164,6 +678149,21 @@
       "timing": {
         "cdn_resolve_sec": 21.6
       }
+    },
+    {
+      "cr_film_id": 31592,
+      "cr_slug": "atomic-shark",
+      "title": "Atomic Shark",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T15:43:33Z",
+      "first_failed_at": "2026-11-11T13:45:50Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 19.6
+      }
     }
   ],
   "in_progress": [
@@ -678196,16 +678196,6 @@
       "worker_id": "worker-1-43010463613",
       "run_id": "43010463613",
       "reserved_at": "2026-11-11T15:42:10Z"
-    },
-    {
-      "cr_film_id": 31592,
-      "cr_slug": "atomic-shark",
-      "title": "Atomic Shark",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43010463613",
-      "run_id": "43010463613",
-      "reserved_at": "2026-11-11T15:43:01Z"
     }
   ],
   "missing_on_account": [
