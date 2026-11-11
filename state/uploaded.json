@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T08:42:43Z",
+  "last_updated": "2026-11-11T08:43:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675345,21 +675345,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T08:04:19Z",
-      "first_failed_at": "2026-11-11T07:30:55Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.6
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -676137,6 +676122,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T08:43:40Z",
+      "first_failed_at": "2026-11-11T07:30:55Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
     }
   ],
   "in_progress": [
@@ -676149,16 +676149,6 @@
       "worker_id": "worker-2-42974890325",
       "run_id": "42974890325",
       "reserved_at": "2026-11-11T08:33:09Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42974890325",
-      "run_id": "42974890325",
-      "reserved_at": "2026-11-11T08:37:32Z"
     },
     {
       "cr_film_id": 12879,
