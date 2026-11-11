@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T16:38:31Z",
+  "last_updated": "2026-11-11T16:39:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674625,6 +674625,21 @@
       "timing": {
         "resolve_sec": 1.0
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T16:39:01Z",
+      "first_failed_at": "2026-11-11T16:39:01Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 18.2
+      }
     }
   ],
   "in_progress": [
@@ -674657,16 +674672,6 @@
       "worker_id": "worker-3-43055662975",
       "run_id": "43055662975",
       "reserved_at": "2026-11-11T16:34:58Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43055662975",
-      "run_id": "43055662975",
-      "reserved_at": "2026-11-11T16:35:39Z"
     }
   ],
   "missing_on_account": [
