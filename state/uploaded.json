@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T10:13:39Z",
+  "last_updated": "2026-11-11T10:14:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676648,21 +676648,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T09:42:53Z",
-      "first_failed_at": "2026-11-11T09:42:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.3
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -677518,6 +677503,21 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
+    },
+    {
+      "cr_film_id": 31658,
+      "cr_slug": "tararua-s-k",
+      "title": "Tararua S-K",
+      "year": null,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T10:14:01Z",
+      "first_failed_at": "2026-11-11T09:42:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
     }
   ],
   "in_progress": [
@@ -677550,16 +677550,6 @@
       "worker_id": "worker-1-42974890325",
       "run_id": "42974890325",
       "reserved_at": "2026-11-11T10:09:03Z"
-    },
-    {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42974890325",
-      "run_id": "42974890325",
-      "reserved_at": "2026-11-11T10:13:39Z"
     }
   ],
   "missing_on_account": [
