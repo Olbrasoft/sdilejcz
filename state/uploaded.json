@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T06:06:04Z",
+  "last_updated": "2026-11-11T06:06:27Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677212,21 +677212,6 @@
       }
     },
     {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T05:35:45Z",
-      "first_failed_at": "2026-11-11T05:35:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 13.0
-      }
-    },
-    {
       "cr_film_id": 31516,
       "cr_slug": "red-flags-2025",
       "title": "Red Flags",
@@ -678115,6 +678100,21 @@
       "timing": {
         "resolve_sec": 0.8
       }
+    },
+    {
+      "cr_film_id": 34949,
+      "cr_slug": "duch-ohne",
+      "title": "Duch ohně",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T06:06:27Z",
+      "first_failed_at": "2026-11-11T05:35:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.4
+      }
     }
   ],
   "in_progress": [
@@ -678147,16 +678147,6 @@
       "worker_id": "worker-1-42946885176",
       "run_id": "42946885176",
       "reserved_at": "2026-11-11T05:50:16Z"
-    },
-    {
-      "cr_film_id": 34949,
-      "cr_slug": "duch-ohne",
-      "title": "Duch ohně",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-42946885176",
-      "run_id": "42946885176",
-      "reserved_at": "2026-11-11T06:06:04Z"
     }
   ],
   "missing_on_account": [
