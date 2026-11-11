@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T04:41:28Z",
+  "last_updated": "2026-11-11T04:41:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675548,21 +675548,6 @@
       }
     },
     {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T04:09:47Z",
-      "first_failed_at": "2026-11-11T02:53:08Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
@@ -676198,6 +676183,21 @@
       "timing": {
         "cdn_resolve_sec": 12.2
       }
+    },
+    {
+      "cr_film_id": 13280,
+      "cr_slug": "tvoje-srdce-inkognito",
+      "title": "Tvoje srdce inkognito",
+      "year": 1936,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T04:41:50Z",
+      "first_failed_at": "2026-11-11T02:53:08Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 10.2
+      }
     }
   ],
   "in_progress": [
@@ -676230,16 +676230,6 @@
       "worker_id": "worker-2-42946885176",
       "run_id": "42946885176",
       "reserved_at": "2026-11-11T04:39:49Z"
-    },
-    {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-42946885176",
-      "run_id": "42946885176",
-      "reserved_at": "2026-11-11T04:41:28Z"
     }
   ],
   "missing_on_account": [
