@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T02:13:34Z",
+  "last_updated": "2026-11-11T02:14:30Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676905,21 +676905,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T00:51:53Z",
-      "first_failed_at": "2026-11-11T00:20:41Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.3
-      }
-    },
-    {
       "cr_film_id": 33953,
       "cr_slug": "they-live-in-the-grey",
       "title": "They Live in the Grey",
@@ -678209,19 +678194,24 @@
       "timing": {
         "cdn_resolve_sec": 8.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
       "year": null,
       "sktorrent_id": null,
-      "worker_id": "worker-3-42899940035",
-      "run_id": "42899940035",
-      "reserved_at": "2026-11-11T01:26:33Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T02:14:30Z",
+      "first_failed_at": "2026-11-11T00:20:41Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
