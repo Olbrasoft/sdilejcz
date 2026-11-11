@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-11T16:02:00Z",
+  "last_updated": "2026-11-11T16:02:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677527,21 +677527,6 @@
       }
     },
     {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T15:19:57Z",
-      "first_failed_at": "2026-11-11T14:35:42Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.0
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -678323,6 +678308,21 @@
       "timing": {
         "cdn_resolve_sec": 19.6
       }
+    },
+    {
+      "cr_film_id": 34991,
+      "cr_slug": "po-cem-muzi-touzi",
+      "title": "Po čem muži touží",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-11T16:02:36Z",
+      "first_failed_at": "2026-11-11T14:35:42Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 23.9
+      }
     }
   ],
   "in_progress": [
@@ -678335,16 +678335,6 @@
       "worker_id": "worker-1-43010463613",
       "run_id": "43010463613",
       "reserved_at": "2026-11-11T15:42:10Z"
-    },
-    {
-      "cr_film_id": 34991,
-      "cr_slug": "po-cem-muzi-touzi",
-      "title": "Po čem muži touží",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43010463613",
-      "run_id": "43010463613",
-      "reserved_at": "2026-11-11T16:02:00Z"
     }
   ],
   "missing_on_account": [
