@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T04:26:19Z",
+  "last_updated": "2026-11-12T04:28:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675320,19 +675320,28 @@
       "timing": {
         "cdn_resolve_sec": 13.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T04:19:34Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/na-horach-2025-1080p-cz-dabing-mp4/5db41d9c6d0f3fc3",
+      "failed_at": "2026-11-12T04:28:18Z",
+      "first_failed_at": "2026-11-12T04:28:18Z",
+      "attempt_count": 1,
+      "upload_id": "5db41d9c6d0f3fc3",
+      "source_url": "https://prehraj.to/na-horach-2025-1080p-cz-dabing-mp4/5db41d9c6d0f3fc3",
+      "upload_title": "Na Horách 2025 1080p CZ dabing.mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14498,
       "cr_slug": "mariah-carey-a-kouzelne-vanoce",
