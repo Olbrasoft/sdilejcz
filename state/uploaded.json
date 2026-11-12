@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T09:08:50Z",
+  "last_updated": "2026-11-12T09:09:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673934,21 +673934,6 @@
       }
     },
     {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T08:38:25Z",
-      "first_failed_at": "2026-11-12T08:38:25Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.1
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -674693,6 +674678,21 @@
       "timing": {
         "cdn_resolve_sec": 9.7
       }
+    },
+    {
+      "cr_film_id": 13280,
+      "cr_slug": "tvoje-srdce-inkognito",
+      "title": "Tvoje srdce inkognito",
+      "year": 1936,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T09:09:09Z",
+      "first_failed_at": "2026-11-12T08:38:25Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.0
+      }
     }
   ],
   "in_progress": [
@@ -674705,16 +674705,6 @@
       "worker_id": "worker-3-43179834287",
       "run_id": "43179834287",
       "reserved_at": "2026-11-12T09:07:32Z"
-    },
-    {
-      "cr_film_id": 13280,
-      "cr_slug": "tvoje-srdce-inkognito",
-      "title": "Tvoje srdce inkognito",
-      "year": 1936,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43179834287",
-      "run_id": "43179834287",
-      "reserved_at": "2026-11-12T09:08:50Z"
     }
   ],
   "missing_on_account": [
