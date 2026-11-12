@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T05:11:48Z",
+  "last_updated": "2026-11-12T05:12:49Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674935,25 +674935,6 @@
       }
     },
     {
-      "cr_film_id": 16379,
-      "cr_slug": "blazing-fists",
-      "title": "Blazing Fists",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
-      "failed_at": "2026-11-12T04:49:34Z",
-      "first_failed_at": "2026-11-12T04:23:31Z",
-      "attempt_count": 3,
-      "upload_id": "24145dc69dbb4625",
-      "source_url": "https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
-      "upload_title": "Blazing Fists (2025) CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.5
-      }
-    },
-    {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
       "title": "Vrána 3: Návrat",
@@ -675373,19 +675354,28 @@
       "timing": {
         "resolve_sec": 254.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16379,
       "cr_slug": "blazing-fists",
       "title": "Blazing Fists",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T05:05:14Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
+      "failed_at": "2026-11-12T05:12:49Z",
+      "first_failed_at": "2026-11-12T04:23:31Z",
+      "attempt_count": 4,
+      "upload_id": "24145dc69dbb4625",
+      "source_url": "https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
+      "upload_title": "Blazing Fists (2025) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16810,
       "cr_slug": "how-to-act-on-reality-tv",
