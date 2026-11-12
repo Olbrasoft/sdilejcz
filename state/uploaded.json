@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T21:11:51Z",
+  "last_updated": "2026-11-12T21:12:14Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674937,21 +674937,6 @@
       }
     },
     {
-      "cr_film_id": 11952,
-      "cr_slug": "delta-force-commando-ii-priority-red-one",
-      "title": "Delta Force Commando II: Priority Red One",
-      "year": 1990,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T20:26:30Z",
-      "first_failed_at": "2026-11-12T20:26:30Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 21.6
-      }
-    },
-    {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
@@ -675801,19 +675786,24 @@
       "timing": {
         "cdn_resolve_sec": 21.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
       "year": 1990,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43291675268",
-      "run_id": "43291675268",
-      "reserved_at": "2026-11-12T21:00:51Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T21:12:14Z",
+      "first_failed_at": "2026-11-12T20:26:30Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
