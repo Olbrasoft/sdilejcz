@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T09:18:30Z",
+  "last_updated": "2026-11-12T09:18:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673863,21 +673863,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T08:46:46Z",
-      "first_failed_at": "2026-11-12T08:46:46Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -674743,6 +674728,21 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T09:18:56Z",
+      "first_failed_at": "2026-11-12T08:46:46Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.7
+      }
     }
   ],
   "in_progress": [
@@ -674765,16 +674765,6 @@
       "worker_id": "worker-2-43179834287",
       "run_id": "43179834287",
       "reserved_at": "2026-11-12T09:16:03Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43179834287",
-      "run_id": "43179834287",
-      "reserved_at": "2026-11-12T09:18:30Z"
     }
   ],
   "missing_on_account": [
