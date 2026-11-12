@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T03:01:04Z",
+  "last_updated": "2026-11-12T03:01:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674509,19 +674509,24 @@
       "timing": {
         "resolve_sec": 0.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T02:57:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T03:01:20Z",
+      "first_failed_at": "2026-11-12T03:01:20Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 8199,
       "cr_slug": "sexappeal",
