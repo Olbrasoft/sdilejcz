@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T01:57:49Z",
+  "last_updated": "2026-11-12T01:58:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677239,21 +677239,6 @@
       }
     },
     {
-      "cr_film_id": 34969,
-      "cr_slug": "snehurka-pribeh-hruzy",
-      "title": "Sněhurka - Příběh hrůzy",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T01:27:20Z",
-      "first_failed_at": "2026-11-12T01:27:20Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 12.6
-      }
-    },
-    {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
@@ -678124,6 +678109,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 34969,
+      "cr_slug": "snehurka-pribeh-hruzy",
+      "title": "Sněhurka - Příběh hrůzy",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T01:58:12Z",
+      "first_failed_at": "2026-11-12T01:27:20Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
     }
   ],
   "in_progress": [
@@ -678156,16 +678156,6 @@
       "worker_id": "worker-1-43105499045",
       "run_id": "43105499045",
       "reserved_at": "2026-11-12T01:56:47Z"
-    },
-    {
-      "cr_film_id": 34969,
-      "cr_slug": "snehurka-pribeh-hruzy",
-      "title": "Sněhurka - Příběh hrůzy",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43105499045",
-      "run_id": "43105499045",
-      "reserved_at": "2026-11-12T01:57:49Z"
     }
   ],
   "missing_on_account": [
