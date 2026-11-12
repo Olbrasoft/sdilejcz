@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T23:16:33Z",
+  "last_updated": "2026-11-12T23:17:01Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677469,19 +677469,24 @@
       "timing": {
         "cdn_resolve_sec": 13.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
       "title": "Mstitel s píšťalou",
       "year": 1986,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43291675268",
-      "run_id": "43291675268",
-      "reserved_at": "2026-11-12T23:06:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T23:17:01Z",
+      "first_failed_at": "2026-11-12T23:17:01Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34882,
       "cr_slug": "brouk-v-hlave-1968",
