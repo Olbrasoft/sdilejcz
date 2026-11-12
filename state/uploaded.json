@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T15:28:29Z",
+  "last_updated": "2026-11-12T15:28:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674095,21 +674095,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T14:35:50Z",
-      "first_failed_at": "2026-11-12T14:35:50Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.1
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675273,19 +675258,24 @@
       "timing": {
         "cdn_resolve_sec": 13.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
       "year": 2011,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43229804357",
-      "run_id": "43229804357",
-      "reserved_at": "2026-11-12T15:08:57Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T15:28:43Z",
+      "first_failed_at": "2026-11-12T14:35:50Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23687,
       "cr_slug": "studentka-na-telefon",
