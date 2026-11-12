@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T17:16:22Z",
+  "last_updated": "2026-11-12T17:16:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676043,21 +676043,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T16:39:18Z",
-      "first_failed_at": "2026-11-12T15:30:58Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.7
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -676434,6 +676419,21 @@
       "timing": {
         "resolve_sec": 1.2
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T17:16:57Z",
+      "first_failed_at": "2026-11-12T15:30:58Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 21.8
+      }
     }
   ],
   "in_progress": [
@@ -676466,16 +676466,6 @@
       "worker_id": "worker-1-43229804357",
       "run_id": "43229804357",
       "reserved_at": "2026-11-12T17:14:29Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43229804357",
-      "run_id": "43229804357",
-      "reserved_at": "2026-11-12T17:16:22Z"
     }
   ],
   "missing_on_account": [
