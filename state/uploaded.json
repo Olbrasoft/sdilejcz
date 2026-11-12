@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:03:56Z",
+  "last_updated": "2026-11-12T07:05:05Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675508,25 +675508,6 @@
       }
     },
     {
-      "cr_film_id": 19901,
-      "cr_slug": "generace-f",
-      "title": "Generace F",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
-      "failed_at": "2026-11-12T06:45:44Z",
-      "first_failed_at": "2026-11-12T06:34:27Z",
-      "attempt_count": 2,
-      "upload_id": "64ef8cfc9f859",
-      "source_url": "https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
-      "upload_title": "Generace F - The Pod Generation 2023 1080p CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.6
-      }
-    },
-    {
       "cr_film_id": 20358,
       "cr_slug": "sex-v-parizi",
       "title": "Sex v Paříži",
@@ -675654,19 +675635,28 @@
       "timing": {
         "resolve_sec": 254.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T06:46:50Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
+      "failed_at": "2026-11-12T07:05:05Z",
+      "first_failed_at": "2026-11-12T06:34:27Z",
+      "attempt_count": 3,
+      "upload_id": "64ef8cfc9f859",
+      "source_url": "https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
+      "upload_title": "Generace F - The Pod Generation 2023 1080p CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19662,
       "cr_slug": "pubertaci-miluji-sex",
