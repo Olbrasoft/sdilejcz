@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T08:57:47Z",
+  "last_updated": "2026-11-12T08:58:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673705,21 +673705,6 @@
       }
     },
     {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T08:24:51Z",
-      "first_failed_at": "2026-11-12T08:24:51Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.0
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -674615,6 +674600,21 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
+    },
+    {
+      "cr_film_id": 7319,
+      "cr_slug": "lego-dc-super-hrdinove-aquaman",
+      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
+      "year": 2018,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T08:58:08Z",
+      "first_failed_at": "2026-11-12T08:24:51Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.3
+      }
     }
   ],
   "in_progress": [
@@ -674637,16 +674637,6 @@
       "worker_id": "worker-4-43179834287",
       "run_id": "43179834287",
       "reserved_at": "2026-11-12T08:53:08Z"
-    },
-    {
-      "cr_film_id": 7319,
-      "cr_slug": "lego-dc-super-hrdinove-aquaman",
-      "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
-      "year": 2018,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43179834287",
-      "run_id": "43179834287",
-      "reserved_at": "2026-11-12T08:57:47Z"
     }
   ],
   "missing_on_account": [
