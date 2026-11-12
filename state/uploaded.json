@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T08:11:47Z",
+  "last_updated": "2026-11-12T08:12:03Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675704,25 +675704,6 @@
       }
     },
     {
-      "cr_film_id": 21916,
-      "cr_slug": "project-x",
-      "title": "Project X",
-      "year": 1968,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
-      "failed_at": "2026-11-12T07:58:41Z",
-      "first_failed_at": "2026-11-12T07:32:53Z",
-      "attempt_count": 3,
-      "upload_id": "5dfe36c8f093a",
-      "source_url": "https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
-      "upload_title": "Project X 1968 - ENG",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 255.2
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -676062,6 +676043,26 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.6
+      }
+    },
+    {
+      "cr_film_id": 21916,
+      "cr_slug": "project-x",
+      "title": "Project X",
+      "year": 1968,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: file exceeds max size (6076638533 B > 6000000000 B)",
+      "failed_at": "2026-11-12T08:12:03Z",
+      "first_failed_at": "2026-11-12T07:32:53Z",
+      "attempt_count": 4,
+      "upload_id": "5dfe36c8f093a",
+      "source_url": "https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
+      "upload_title": "Project X 1968 - ENG",
+      "permanent": true,
+      "timing": {
+        "resolve_sec": 225.2,
+        "download_sec": 1.7
       }
     }
   ],
