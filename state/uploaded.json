@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:21:44Z",
+  "last_updated": "2026-11-12T07:22:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675542,25 +675542,6 @@
       }
     },
     {
-      "cr_film_id": 19901,
-      "cr_slug": "generace-f",
-      "title": "Generace F",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
-      "failed_at": "2026-11-12T07:05:05Z",
-      "first_failed_at": "2026-11-12T06:34:27Z",
-      "attempt_count": 3,
-      "upload_id": "64ef8cfc9f859",
-      "source_url": "https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
-      "upload_title": "Generace F - The Pod Generation 2023 1080p CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.1
-      }
-    },
-    {
       "cr_film_id": 19662,
       "cr_slug": "pubertaci-miluji-sex",
       "title": "Puberťáci milují sex",
@@ -675673,19 +675654,28 @@
       "timing": {
         "resolve_sec": 254.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:13:28Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
+      "failed_at": "2026-11-12T07:22:37Z",
+      "first_failed_at": "2026-11-12T06:34:27Z",
+      "attempt_count": 4,
+      "upload_id": "64ef8cfc9f859",
+      "source_url": "https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
+      "upload_title": "Generace F - The Pod Generation 2023 1080p CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20710,
       "cr_slug": "az-odejdu",
