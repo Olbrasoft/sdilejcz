@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T00:34:22Z",
+  "last_updated": "2026-11-12T00:34:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675534,21 +675534,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-11T23:49:33Z",
-      "first_failed_at": "2026-11-11T22:38:08Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -676134,6 +676119,21 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T00:34:44Z",
+      "first_failed_at": "2026-11-11T22:38:08Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
     }
   ],
   "in_progress": [
@@ -676166,16 +676166,6 @@
       "worker_id": "worker-3-43105499045",
       "run_id": "43105499045",
       "reserved_at": "2026-11-12T00:33:18Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43105499045",
-      "run_id": "43105499045",
-      "reserved_at": "2026-11-12T00:34:22Z"
     }
   ],
   "missing_on_account": [
