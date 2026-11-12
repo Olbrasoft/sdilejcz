@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:44:42Z",
+  "last_updated": "2026-11-12T07:48:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675721,19 +675721,28 @@
       "timing": {
         "resolve_sec": 254.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:38:49Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/anna-kareninova-2f-anna-karenina-1997-cz/5855238cd746e",
+      "failed_at": "2026-11-12T07:48:33Z",
+      "first_failed_at": "2026-11-12T07:48:33Z",
+      "attempt_count": 1,
+      "upload_id": "5855238cd746e",
+      "source_url": "https://prehraj.to/anna-kareninova-2f-anna-karenina-1997-cz/5855238cd746e",
+      "upload_title": "Anna-Kareninová-%2F-Anna-Karenina-1997,-CZ",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
