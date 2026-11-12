@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T06:00:41Z",
+  "last_updated": "2026-11-12T06:02:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675394,25 +675394,6 @@
       }
     },
     {
-      "cr_film_id": 19427,
-      "cr_slug": "lolita",
-      "title": "Lolita",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/lolita-1997-czdab-mp4/7546d19c5ebefa2c",
-      "failed_at": "2026-11-12T05:51:11Z",
-      "first_failed_at": "2026-11-12T05:37:52Z",
-      "attempt_count": 2,
-      "upload_id": "7546d19c5ebefa2c",
-      "source_url": "https://prehraj.to/lolita-1997-czdab-mp4/7546d19c5ebefa2c",
-      "upload_title": "Lolita,(1997),CZdab.mp4",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.3
-      }
-    },
-    {
       "cr_film_id": 14390,
       "cr_slug": "ztraceny-poklad-azteku",
       "title": "Ztracený poklad Aztéků",
@@ -675502,19 +675483,28 @@
       "timing": {
         "resolve_sec": 254.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19427,
       "cr_slug": "lolita",
       "title": "Lolita",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T05:54:42Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/lolita-1997-czdab-mp4/7546d19c5ebefa2c",
+      "failed_at": "2026-11-12T06:02:53Z",
+      "first_failed_at": "2026-11-12T05:37:52Z",
+      "attempt_count": 3,
+      "upload_id": "7546d19c5ebefa2c",
+      "source_url": "https://prehraj.to/lolita-1997-czdab-mp4/7546d19c5ebefa2c",
+      "upload_title": "Lolita,(1997),CZdab.mp4",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
