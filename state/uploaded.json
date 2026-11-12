@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T05:52:06Z",
+  "last_updated": "2026-11-12T05:54:23Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675251,25 +675251,6 @@
       }
     },
     {
-      "cr_film_id": 19156,
-      "cr_slug": "brahmastra-cast-1-shiva",
-      "title": "Brahmastra: část 1 - Shiva",
-      "year": 2022,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/brahmastra-part-one-shiva-2022-cztitulky/63696a1187437",
-      "failed_at": "2026-11-12T05:33:12Z",
-      "first_failed_at": "2026-11-12T05:33:12Z",
-      "attempt_count": 1,
-      "upload_id": "63696a1187437",
-      "source_url": "https://prehraj.to/brahmastra-part-one-shiva-2022-cztitulky/63696a1187437",
-      "upload_title": "Brahmastra - Part One Shiva (2022) CZtitulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.3
-      }
-    },
-    {
       "cr_film_id": 16556,
       "cr_slug": "vetrelci-na-mesici",
       "title": "Vetřelci na Měsíci",
@@ -675483,19 +675464,28 @@
       "timing": {
         "cdn_resolve_sec": 12.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T05:46:20Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/brahmastra-part-one-shiva-2022-cztitulky/63696a1187437",
+      "failed_at": "2026-11-12T05:54:23Z",
+      "first_failed_at": "2026-11-12T05:33:12Z",
+      "attempt_count": 2,
+      "upload_id": "63696a1187437",
+      "source_url": "https://prehraj.to/brahmastra-part-one-shiva-2022-cztitulky/63696a1187437",
+      "upload_title": "Brahmastra - Part One Shiva (2022) CZtitulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19462,
       "cr_slug": "sexy-party",
