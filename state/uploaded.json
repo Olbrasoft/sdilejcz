@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:59:04Z",
+  "last_updated": "2026-11-12T08:01:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675666,25 +675666,6 @@
       }
     },
     {
-      "cr_film_id": 23780,
-      "cr_slug": "anna-karenina-1997",
-      "title": "Anna Karenina",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/anna-kareninova-2f-anna-karenina-1997-cz/5855238cd746e",
-      "failed_at": "2026-11-12T07:48:33Z",
-      "first_failed_at": "2026-11-12T07:48:33Z",
-      "attempt_count": 1,
-      "upload_id": "5855238cd746e",
-      "source_url": "https://prehraj.to/anna-kareninova-2f-anna-karenina-1997-cz/5855238cd746e",
-      "upload_title": "Anna-Kareninová-%2F-Anna-Karenina-1997,-CZ",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.9
-      }
-    },
-    {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
       "title": "Wind River",
@@ -675759,19 +675740,28 @@
       "timing": {
         "resolve_sec": 255.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
       "year": 1997,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:51:00Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/anna-kareninova-2f-anna-karenina-1997-cz/5855238cd746e",
+      "failed_at": "2026-11-12T08:01:29Z",
+      "first_failed_at": "2026-11-12T07:48:33Z",
+      "attempt_count": 2,
+      "upload_id": "5855238cd746e",
+      "source_url": "https://prehraj.to/anna-kareninova-2f-anna-karenina-1997-cz/5855238cd746e",
+      "upload_title": "Anna-Kareninová-%2F-Anna-Karenina-1997,-CZ",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 25633,
       "cr_slug": "michael-clayton",
