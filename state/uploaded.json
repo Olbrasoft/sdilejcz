@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T05:20:19Z",
+  "last_updated": "2026-11-12T05:20:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675426,19 +675426,28 @@
       "timing": {
         "resolve_sec": 254.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T05:13:11Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/red-flags-2025-cz-dabing-hd/df1949c471276a48",
+      "failed_at": "2026-11-12T05:20:54Z",
+      "first_failed_at": "2026-11-12T05:20:54Z",
+      "attempt_count": 1,
+      "upload_id": "df1949c471276a48",
+      "source_url": "https://prehraj.to/red-flags-2025-cz-dabing-hd/df1949c471276a48",
+      "upload_title": "Red Flags 2025 CZ dabing HD",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
