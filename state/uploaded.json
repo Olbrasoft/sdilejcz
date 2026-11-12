@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T09:50:12Z",
+  "last_updated": "2026-11-12T09:50:37Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674397,21 +674397,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T09:18:56Z",
-      "first_failed_at": "2026-11-12T08:46:46Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 12698,
       "cr_slug": "barbora-radi",
       "title": "Barbora řádí",
@@ -674969,6 +674954,21 @@
       "timing": {
         "cdn_resolve_sec": 12.1
       }
+    },
+    {
+      "cr_film_id": 15306,
+      "cr_slug": "strazci-pokladu",
+      "title": "Strážci pokladu",
+      "year": 2011,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T09:50:37Z",
+      "first_failed_at": "2026-11-12T08:46:46Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 12.7
+      }
     }
   ],
   "in_progress": [
@@ -674991,16 +674991,6 @@
       "worker_id": "worker-2-43179834287",
       "run_id": "43179834287",
       "reserved_at": "2026-11-12T09:41:27Z"
-    },
-    {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43179834287",
-      "run_id": "43179834287",
-      "reserved_at": "2026-11-12T09:50:12Z"
     }
   ],
   "missing_on_account": [
