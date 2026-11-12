@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T03:40:53Z",
+  "last_updated": "2026-11-12T03:41:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675036,25 +675036,6 @@
       }
     },
     {
-      "cr_film_id": 13510,
-      "cr_slug": "sexy-pistols",
-      "title": "Sexy Pistols",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/bandidas-sexy-pistols-2006-bandidas-dualdub-cz-gb-bluray-1-32-45-fsx-mkw/68f20fb910e19",
-      "failed_at": "2026-11-12T03:35:43Z",
-      "first_failed_at": "2026-11-12T03:27:13Z",
-      "attempt_count": 2,
-      "upload_id": "68f20fb910e19",
-      "source_url": "https://prehraj.to/bandidas-sexy-pistols-2006-bandidas-dualdub-cz-gb-bluray-1-32-45-fsx-mkw/68f20fb910e19",
-      "upload_title": "Sexy Pistols (2006) CZ dab Bandidas (Dual)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.3
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -675158,19 +675139,28 @@
       "timing": {
         "cdn_resolve_sec": 12.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13510,
       "cr_slug": "sexy-pistols",
       "title": "Sexy Pistols",
       "year": 2006,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T03:36:07Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/bandidas-sexy-pistols-2006-bandidas-dualdub-cz-gb-bluray-1-32-45-fsx-mkw/68f20fb910e19",
+      "failed_at": "2026-11-12T03:41:50Z",
+      "first_failed_at": "2026-11-12T03:27:13Z",
+      "attempt_count": 3,
+      "upload_id": "68f20fb910e19",
+      "source_url": "https://prehraj.to/bandidas-sexy-pistols-2006-bandidas-dualdub-cz-gb-bluray-1-32-45-fsx-mkw/68f20fb910e19",
+      "upload_title": "Sexy Pistols (2006) CZ dab Bandidas (Dual)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
