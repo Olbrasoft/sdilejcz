@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:48:57Z",
+  "last_updated": "2026-11-12T07:50:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675647,25 +675647,6 @@
       }
     },
     {
-      "cr_film_id": 20754,
-      "cr_slug": "wind-river",
-      "title": "Wind River",
-      "year": 2017,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/wind-river-jeremy-renner-elizabeth-olsen-2017-cz-dab-mkv/0d6fc10fbf446ef5",
-      "failed_at": "2026-11-12T07:34:29Z",
-      "first_failed_at": "2026-11-12T07:03:34Z",
-      "attempt_count": 3,
-      "upload_id": "0d6fc10fbf446ef5",
-      "source_url": "https://prehraj.to/wind-river-jeremy-renner-elizabeth-olsen-2017-cz-dab-mkv/0d6fc10fbf446ef5",
-      "upload_title": "Wind River - Jeremy Renner, Elizabeth Olsen 2017 Cz Dab.-.mkv",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 255.1
-      }
-    },
-    {
       "cr_film_id": 20710,
       "cr_slug": "az-odejdu",
       "title": "Až odejdu",
@@ -675740,19 +675721,28 @@
       "timing": {
         "resolve_sec": 254.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
       "title": "Wind River",
       "year": 2017,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:40:25Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/wind-river-jeremy-renner-elizabeth-olsen-2017-cz-dab-mkv/0d6fc10fbf446ef5",
+      "failed_at": "2026-11-12T07:50:36Z",
+      "first_failed_at": "2026-11-12T07:03:34Z",
+      "attempt_count": 4,
+      "upload_id": "0d6fc10fbf446ef5",
+      "source_url": "https://prehraj.to/wind-river-jeremy-renner-elizabeth-olsen-2017-cz-dab-mkv/0d6fc10fbf446ef5",
+      "upload_title": "Wind River - Jeremy Renner, Elizabeth Olsen 2017 Cz Dab.-.mkv",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
