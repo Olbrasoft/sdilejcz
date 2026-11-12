@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T02:43:52Z",
+  "last_updated": "2026-11-12T02:44:13Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677690,21 +677690,6 @@
       }
     },
     {
-      "cr_film_id": 35063,
-      "cr_slug": "the-silent-thief",
-      "title": "The Silent Thief",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T02:11:43Z",
-      "first_failed_at": "2026-11-12T01:37:43Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 37289,
       "cr_slug": "led",
       "title": "Led",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 9.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 35063,
       "cr_slug": "the-silent-thief",
       "title": "The Silent Thief",
       "year": 2012,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43105499045",
-      "run_id": "43105499045",
-      "reserved_at": "2026-11-12T02:43:52Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T02:44:13Z",
+      "first_failed_at": "2026-11-12T01:37:43Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.9
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
