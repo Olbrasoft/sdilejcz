@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T04:49:58Z",
+  "last_updated": "2026-11-12T04:50:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674800,21 +674800,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T04:15:20Z",
-      "first_failed_at": "2026-11-12T03:09:31Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.5
-      }
-    },
-    {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
@@ -675373,6 +675358,21 @@
       "timing": {
         "resolve_sec": 254.5
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T04:50:22Z",
+      "first_failed_at": "2026-11-12T03:09:31Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 13.0
+      }
     }
   ],
   "in_progress": [
@@ -675405,16 +675405,6 @@
       "worker_id": "worker-2-43144029888",
       "run_id": "43144029888",
       "reserved_at": "2026-11-12T04:49:07Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T04:49:58Z"
     }
   ],
   "missing_on_account": [
