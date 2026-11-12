@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:54:31Z",
+  "last_updated": "2026-11-12T07:58:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675666,25 +675666,6 @@
       }
     },
     {
-      "cr_film_id": 21916,
-      "cr_slug": "project-x",
-      "title": "Project X",
-      "year": 1968,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
-      "failed_at": "2026-11-12T07:44:21Z",
-      "first_failed_at": "2026-11-12T07:32:53Z",
-      "attempt_count": 2,
-      "upload_id": "5dfe36c8f093a",
-      "source_url": "https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
-      "upload_title": "Project X 1968 - ENG",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.7
-      }
-    },
-    {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
       "title": "Anna Karenina",
@@ -675759,19 +675740,28 @@
       "timing": {
         "resolve_sec": 254.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
       "year": 1968,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:48:57Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
+      "failed_at": "2026-11-12T07:58:41Z",
+      "first_failed_at": "2026-11-12T07:32:53Z",
+      "attempt_count": 3,
+      "upload_id": "5dfe36c8f093a",
+      "source_url": "https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
+      "upload_title": "Project X 1968 - ENG",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 255.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23780,
       "cr_slug": "anna-karenina-1997",
