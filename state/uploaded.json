@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T06:37:30Z",
+  "last_updated": "2026-11-12T06:39:54Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675485,25 +675485,6 @@
       }
     },
     {
-      "cr_film_id": 19583,
-      "cr_slug": "sex-ve-meste",
-      "title": "Sex ve městě",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/sex-ve-meste-1-2008-dvdrip-cz-dabing-m3/5bfad7cd673fa",
-      "failed_at": "2026-11-12T06:28:07Z",
-      "first_failed_at": "2026-11-12T06:14:58Z",
-      "attempt_count": 2,
-      "upload_id": "5bfad7cd673fa",
-      "source_url": "https://prehraj.to/sex-ve-meste-1-2008-dvdrip-cz-dabing-m3/5bfad7cd673fa",
-      "upload_title": "Sex ve meste 1(2008)DVDrip - CZ dabing...M3",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.5
-      }
-    },
-    {
       "cr_film_id": 19662,
       "cr_slug": "pubertaci-miluji-sex",
       "title": "Puberťáci milují sex",
@@ -675578,19 +675559,28 @@
       "timing": {
         "resolve_sec": 254.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19583,
       "cr_slug": "sex-ve-meste",
       "title": "Sex ve městě",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T06:31:10Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/sex-ve-meste-1-2008-dvdrip-cz-dabing-m3/5bfad7cd673fa",
+      "failed_at": "2026-11-12T06:39:54Z",
+      "first_failed_at": "2026-11-12T06:14:58Z",
+      "attempt_count": 3,
+      "upload_id": "5bfad7cd673fa",
+      "source_url": "https://prehraj.to/sex-ve-meste-1-2008-dvdrip-cz-dabing-m3/5bfad7cd673fa",
+      "upload_title": "Sex ve meste 1(2008)DVDrip - CZ dabing...M3",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 19662,
       "cr_slug": "pubertaci-miluji-sex",
