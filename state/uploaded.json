@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T21:31:07Z",
+  "last_updated": "2026-11-12T21:31:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674748,6 +674748,27 @@
         "upload_sec": 58.1,
         "total_sec": 78.1
       }
+    },
+    {
+      "cr_film_id": 6718,
+      "cr_slug": "xxx",
+      "title": "xXx",
+      "year": 2002,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 1934,
+      "sdilej_url": "https://sdilej.cz/35482200/xxx-2002-cz-dabing.mp4",
+      "sdilej_name": "xXx (2002) CZ Dabing.mp4",
+      "uploaded_at": "2026-11-12T21:29:16Z",
+      "status": "uploaded",
+      "size_bytes": 620031103,
+      "worker_id": "worker-1-43291675268",
+      "timing": {
+        "cdn_resolve_sec": 3.1,
+        "download_sec": 121.5,
+        "upload_sec": 89.1,
+        "total_sec": 213.8
+      }
     }
   ],
   "failed_attempts": [
@@ -675091,21 +675112,6 @@
       "permanent": true,
       "timing": {
         "resolve_sec": 0.6
-      }
-    },
-    {
-      "cr_film_id": 6718,
-      "cr_slug": "xxx",
-      "title": "xXx",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T20:54:19Z",
-      "first_failed_at": "2026-11-12T19:44:43Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.2
       }
     },
     {
@@ -675985,16 +675991,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 6718,
-      "cr_slug": "xxx",
-      "title": "xXx",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43291675268",
-      "run_id": "43291675268",
-      "reserved_at": "2026-11-12T21:25:31Z"
-    },
     {
       "cr_film_id": 20358,
       "cr_slug": "sex-v-parizi",
