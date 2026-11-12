@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T05:46:20Z",
+  "last_updated": "2026-11-12T05:47:11Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675285,25 +675285,6 @@
       }
     },
     {
-      "cr_film_id": 18744,
-      "cr_slug": "red-flags",
-      "title": "Red Flags",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/red-flags-2025-cz-dabing-hd/df1949c471276a48",
-      "failed_at": "2026-11-12T05:32:14Z",
-      "first_failed_at": "2026-11-12T05:20:54Z",
-      "attempt_count": 2,
-      "upload_id": "df1949c471276a48",
-      "source_url": "https://prehraj.to/red-flags-2025-cz-dabing-hd/df1949c471276a48",
-      "upload_title": "Red Flags 2025 CZ dabing HD",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 255.2
-      }
-    },
-    {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
@@ -675483,19 +675464,28 @@
       "timing": {
         "cdn_resolve_sec": 12.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18744,
       "cr_slug": "red-flags",
       "title": "Red Flags",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T05:38:49Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/red-flags-2025-cz-dabing-hd/df1949c471276a48",
+      "failed_at": "2026-11-12T05:47:11Z",
+      "first_failed_at": "2026-11-12T05:20:54Z",
+      "attempt_count": 3,
+      "upload_id": "df1949c471276a48",
+      "source_url": "https://prehraj.to/red-flags-2025-cz-dabing-hd/df1949c471276a48",
+      "upload_title": "Red Flags 2025 CZ dabing HD",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
