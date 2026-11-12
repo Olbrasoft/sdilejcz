@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:25:03Z",
+  "last_updated": "2026-11-12T07:28:36Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674406,6 +674406,30 @@
         "upload_sec": 423.7,
         "total_sec": 636.0
       }
+    },
+    {
+      "cr_film_id": 20041,
+      "cr_slug": "sex-tape",
+      "title": "Sex Tape",
+      "year": 2014,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "61ebed905f43e",
+      "source_url": "https://prehraj.to/sex-tape-2014-cz-dabing/61ebed905f43e",
+      "source_title": "SEX TAPE 2014  CZ dabing",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35479018/sex-tape-2014-cz-dabing.mp4",
+      "sdilej_name": "Sex Tape (2014) CZ Dabing.mp4",
+      "uploaded_at": "2026-11-12T07:23:26Z",
+      "status": "uploaded",
+      "size_bytes": 442856472,
+      "worker_id": "worker-4-43144029888",
+      "timing": {
+        "resolve_sec": 113.0,
+        "download_sec": 20.6,
+        "upload_sec": 66.1,
+        "total_sec": 200.3
+      }
     }
   ],
   "failed_attempts": [
@@ -675561,25 +675585,6 @@
       }
     },
     {
-      "cr_film_id": 20041,
-      "cr_slug": "sex-tape",
-      "title": "Sex Tape",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/sex-tape-2014-cz-dabing/61ebed905f43e",
-      "failed_at": "2026-11-12T07:11:00Z",
-      "first_failed_at": "2026-11-12T06:46:28Z",
-      "attempt_count": 3,
-      "upload_id": "61ebed905f43e",
-      "source_url": "https://prehraj.to/sex-tape-2014-cz-dabing/61ebed905f43e",
-      "upload_title": "SEX TAPE 2014  CZ dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.2
-      }
-    },
-    {
       "cr_film_id": 20358,
       "cr_slug": "sex-v-parizi",
       "title": "Sex v Paříži",
@@ -675676,16 +675681,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 20041,
-      "cr_slug": "sex-tape",
-      "title": "Sex Tape",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:19:56Z"
-    },
     {
       "cr_film_id": 20358,
       "cr_slug": "sex-v-parizi",
