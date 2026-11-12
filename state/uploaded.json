@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T14:35:00Z",
+  "last_updated": "2026-11-12T14:35:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674540,19 +674540,24 @@
       "timing": {
         "resolve_sec": 0.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14786,
       "cr_slug": "krakonos-a-sklinkar-matej",
       "title": "Krakonos a sklínkar Matej",
       "year": 1979,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43229804357",
-      "run_id": "43229804357",
-      "reserved_at": "2026-11-12T14:33:13Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T14:35:15Z",
+      "first_failed_at": "2026-11-12T14:35:15Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
