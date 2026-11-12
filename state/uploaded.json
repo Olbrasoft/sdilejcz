@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T03:47:29Z",
+  "last_updated": "2026-11-12T03:47:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674818,25 +674818,6 @@
       }
     },
     {
-      "cr_film_id": 13506,
-      "cr_slug": "nezkrotna-dee-dee",
-      "title": "Nezkrotná Dee Dee",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/nezkrotna-dee-dee-cz-dabing/60e251d0a762a",
-      "failed_at": "2026-11-12T03:32:05Z",
-      "first_failed_at": "2026-11-12T03:25:11Z",
-      "attempt_count": 2,
-      "upload_id": "60e251d0a762a",
-      "source_url": "https://prehraj.to/nezkrotna-dee-dee-cz-dabing/60e251d0a762a",
-      "upload_title": "Nezkrotna Dee Dee - CZ DABING",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.3
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -675158,19 +675139,28 @@
       "timing": {
         "resolve_sec": 254.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13506,
       "cr_slug": "nezkrotna-dee-dee",
       "title": "Nezkrotná Dee Dee",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T03:40:53Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/nezkrotna-dee-dee-cz-dabing/60e251d0a762a",
+      "failed_at": "2026-11-12T03:47:43Z",
+      "first_failed_at": "2026-11-12T03:25:11Z",
+      "attempt_count": 3,
+      "upload_id": "60e251d0a762a",
+      "source_url": "https://prehraj.to/nezkrotna-dee-dee-cz-dabing/60e251d0a762a",
+      "upload_title": "Nezkrotna Dee Dee - CZ DABING",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14343,
       "cr_slug": "skupinovy-sex",
