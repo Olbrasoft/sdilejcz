@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T04:23:10Z",
+  "last_updated": "2026-11-12T04:23:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675271,19 +675271,28 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16379,
       "cr_slug": "blazing-fists",
       "title": "Blazing Fists",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T04:16:46Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
+      "failed_at": "2026-11-12T04:23:31Z",
+      "first_failed_at": "2026-11-12T04:23:31Z",
+      "attempt_count": 1,
+      "upload_id": "24145dc69dbb4625",
+      "source_url": "https://prehraj.to/blazing-fists-2025-cz-titulky/24145dc69dbb4625",
+      "upload_title": "Blazing Fists (2025) CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
