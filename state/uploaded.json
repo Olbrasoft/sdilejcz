@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T08:12:16Z",
+  "last_updated": "2026-11-12T08:14:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675685,25 +675685,6 @@
       }
     },
     {
-      "cr_film_id": 22008,
-      "cr_slug": "klarino-koleno",
-      "title": "Klářino koleno",
-      "year": 1970,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/klarino-koleno-le-genou-de-claire-claire-s-knee-1970-cz-tit/586c45b371fb6",
-      "failed_at": "2026-11-12T07:54:09Z",
-      "first_failed_at": "2026-11-12T07:42:37Z",
-      "attempt_count": 2,
-      "upload_id": "586c45b371fb6",
-      "source_url": "https://prehraj.to/klarino-koleno-le-genou-de-claire-claire-s-knee-1970-cz-tit/586c45b371fb6",
-      "upload_title": "Klářino-koleno-_-Le-Genou-de-Claire-_-Claire's-Knee-1970,-CZ-tit",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.8
-      }
-    },
-    {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
@@ -676064,19 +676045,28 @@
         "resolve_sec": 225.2,
         "download_sec": 1.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 22008,
       "cr_slug": "klarino-koleno",
       "title": "Klářino koleno",
       "year": 1970,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:59:04Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/klarino-koleno-le-genou-de-claire-claire-s-knee-1970-cz-tit/586c45b371fb6",
+      "failed_at": "2026-11-12T08:14:24Z",
+      "first_failed_at": "2026-11-12T07:42:37Z",
+      "attempt_count": 3,
+      "upload_id": "586c45b371fb6",
+      "source_url": "https://prehraj.to/klarino-koleno-le-genou-de-claire-claire-s-knee-1970-cz-tit/586c45b371fb6",
+      "upload_title": "Klářino-koleno-_-Le-Genou-de-Claire-_-Claire's-Knee-1970,-CZ-tit",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 30368,
       "cr_slug": "lepsi-ted-nez-nikdy",
