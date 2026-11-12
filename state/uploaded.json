@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:51:00Z",
+  "last_updated": "2026-11-12T07:52:29Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675740,19 +675740,28 @@
       "timing": {
         "resolve_sec": 254.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 24390,
       "cr_slug": "ziznive-mladi",
       "title": "Žíznivé mládí",
       "year": 1943,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:42:58Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/ziznive-mladi-1943-cz-cucina-rc-pres-multiload-cz/588ed52a7629f",
+      "failed_at": "2026-11-12T07:52:29Z",
+      "first_failed_at": "2026-11-12T07:52:29Z",
+      "attempt_count": 1,
+      "upload_id": "588ed52a7629f",
+      "source_url": "https://prehraj.to/ziznive-mladi-1943-cz-cucina-rc-pres-multiload-cz/588ed52a7629f",
+      "upload_title": "ziznive-mladi-1943-cz-cucina_rc-pres-MultiLoad.cz",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 22008,
       "cr_slug": "klarino-koleno",
