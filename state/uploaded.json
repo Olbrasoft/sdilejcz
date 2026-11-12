@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T04:01:16Z",
+  "last_updated": "2026-11-12T04:01:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674634,21 +674634,6 @@
       }
     },
     {
-      "cr_film_id": 4297,
-      "cr_slug": "po-cem-zeny-touzi",
-      "title": "Po čem ženy touží",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T03:26:17Z",
-      "first_failed_at": "2026-11-12T02:54:26Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.3
-      }
-    },
-    {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
@@ -675158,19 +675143,24 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T03:56:35Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T04:01:33Z",
+      "first_failed_at": "2026-11-12T02:54:26Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
