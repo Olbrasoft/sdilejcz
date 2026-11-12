@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T05:16:04Z",
+  "last_updated": "2026-11-12T05:17:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675388,19 +675388,28 @@
       "timing": {
         "cdn_resolve_sec": 14.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 18364,
       "cr_slug": "penthouse-north",
       "title": "Penthouse North",
       "year": 2013,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T05:09:28Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/bez-sance-penthouse-north-2013-sk-dab-thrill-koko/56783377af263",
+      "failed_at": "2026-11-12T05:17:06Z",
+      "first_failed_at": "2026-11-12T05:17:06Z",
+      "attempt_count": 1,
+      "upload_id": "56783377af263",
+      "source_url": "https://prehraj.to/bez-sance-penthouse-north-2013-sk-dab-thrill-koko/56783377af263",
+      "upload_title": "Bez šance, Penthouse North - 2013 sk dab.thrill.koko",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18448,
       "cr_slug": "orgasmus-sro-pribeh-jmenem-onetaste",
