@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T06:44:49Z",
+  "last_updated": "2026-11-12T06:45:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675485,25 +675485,6 @@
       }
     },
     {
-      "cr_film_id": 19901,
-      "cr_slug": "generace-f",
-      "title": "Generace F",
-      "year": 2023,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
-      "failed_at": "2026-11-12T06:34:27Z",
-      "first_failed_at": "2026-11-12T06:34:27Z",
-      "attempt_count": 1,
-      "upload_id": "64ef8cfc9f859",
-      "source_url": "https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
-      "upload_title": "Generace F - The Pod Generation 2023 1080p CZ titulky",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.6
-      }
-    },
-    {
       "cr_film_id": 19462,
       "cr_slug": "sexy-party",
       "title": "Sexy párty",
@@ -675578,19 +675559,28 @@
       "timing": {
         "resolve_sec": 254.5
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19901,
       "cr_slug": "generace-f",
       "title": "Generace F",
       "year": 2023,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T06:36:32Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
+      "failed_at": "2026-11-12T06:45:44Z",
+      "first_failed_at": "2026-11-12T06:34:27Z",
+      "attempt_count": 2,
+      "upload_id": "64ef8cfc9f859",
+      "source_url": "https://prehraj.to/generace-f-the-pod-generation-2023-1080p-cz-titulky/64ef8cfc9f859",
+      "upload_title": "Generace F - The Pod Generation 2023 1080p CZ titulky",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20041,
       "cr_slug": "sex-tape",
