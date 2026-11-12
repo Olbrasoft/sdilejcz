@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T05:08:54Z",
+  "last_updated": "2026-11-12T05:09:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674710,21 +674710,6 @@
       }
     },
     {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T04:31:46Z",
-      "first_failed_at": "2026-11-12T03:22:32Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.8
-      }
-    },
-    {
       "cr_film_id": 2154,
       "cr_slug": "cukrkandl",
       "title": "Cukrkandl",
@@ -675373,6 +675358,21 @@
       "timing": {
         "resolve_sec": 254.6
       }
+    },
+    {
+      "cr_film_id": 13668,
+      "cr_slug": "po-hlave-do-prdele",
+      "title": "Po hlavě do prdele",
+      "year": 2006,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T05:09:17Z",
+      "first_failed_at": "2026-11-12T03:22:32Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 12.3
+      }
     }
   ],
   "in_progress": [
@@ -675405,16 +675405,6 @@
       "worker_id": "worker-4-43144029888",
       "run_id": "43144029888",
       "reserved_at": "2026-11-12T05:08:16Z"
-    },
-    {
-      "cr_film_id": 13668,
-      "cr_slug": "po-hlave-do-prdele",
-      "title": "Po hlavě do prdele",
-      "year": 2006,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T05:08:54Z"
     }
   ],
   "missing_on_account": [
