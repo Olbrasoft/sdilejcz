@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T10:45:03Z",
+  "last_updated": "2026-11-12T10:45:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674541,21 +674541,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T09:49:14Z",
-      "first_failed_at": "2026-11-12T08:45:43Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.2
-      }
-    },
-    {
       "cr_film_id": 19156,
       "cr_slug": "brahmastra-cast-1-shiva",
       "title": "Brahmastra: část 1 - Shiva",
@@ -675434,6 +675419,21 @@
       "timing": {
         "cdn_resolve_sec": 12.8
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T10:45:28Z",
+      "first_failed_at": "2026-11-12T08:45:43Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 11.9
+      }
     }
   ],
   "in_progress": [
@@ -675466,16 +675466,6 @@
       "worker_id": "worker-4-43179834287",
       "run_id": "43179834287",
       "reserved_at": "2026-11-12T10:41:22Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43179834287",
-      "run_id": "43179834287",
-      "reserved_at": "2026-11-12T10:45:03Z"
     }
   ],
   "missing_on_account": [
