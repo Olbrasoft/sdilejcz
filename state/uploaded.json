@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T16:04:18Z",
+  "last_updated": "2026-11-12T16:04:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674821,21 +674821,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T15:13:07Z",
-      "first_failed_at": "2026-11-12T14:40:25Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.2
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -675594,19 +675579,24 @@
       "timing": {
         "cdn_resolve_sec": 9.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
       "year": 1982,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43229804357",
-      "run_id": "43229804357",
-      "reserved_at": "2026-11-12T15:51:05Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T16:04:43Z",
+      "first_failed_at": "2026-11-12T14:40:25Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
