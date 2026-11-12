@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T05:24:16Z",
+  "last_updated": "2026-11-12T05:25:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675303,25 +675303,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/zivot-je-zivot-2015-cz-film/9b0caefa1d093445",
-      "failed_at": "2026-11-12T05:11:25Z",
-      "first_failed_at": "2026-11-12T04:39:12Z",
-      "attempt_count": 2,
-      "upload_id": "9b0caefa1d093445",
-      "source_url": "https://prehraj.to/zivot-je-zivot-2015-cz-film/9b0caefa1d093445",
-      "upload_title": "Život je život 2015 Cz Film",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.3
-      }
-    },
-    {
       "cr_film_id": 16379,
       "cr_slug": "blazing-fists",
       "title": "Blazing Fists",
@@ -675445,19 +675426,28 @@
       "timing": {
         "resolve_sec": 255.1
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T05:17:28Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/zivot-je-zivot-2015-cz-film/9b0caefa1d093445",
+      "failed_at": "2026-11-12T05:25:09Z",
+      "first_failed_at": "2026-11-12T04:39:12Z",
+      "attempt_count": 3,
+      "upload_id": "9b0caefa1d093445",
+      "source_url": "https://prehraj.to/zivot-je-zivot-2015-cz-film/9b0caefa1d093445",
+      "upload_title": "Život je život 2015 Cz Film",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18364,
       "cr_slug": "penthouse-north",
