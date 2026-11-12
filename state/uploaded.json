@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T14:43:28Z",
+  "last_updated": "2026-11-12T14:43:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674028,21 +674028,6 @@
       }
     },
     {
-      "cr_film_id": 8619,
-      "cr_slug": "ozvena",
-      "title": "Ozvěna",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T14:04:04Z",
-      "first_failed_at": "2026-11-12T14:04:04Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
       "title": "Delta Force Commando II: Priority Red One",
@@ -674892,19 +674877,24 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 8619,
       "cr_slug": "ozvena",
       "title": "Ozvěna",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43229804357",
-      "run_id": "43229804357",
-      "reserved_at": "2026-11-12T14:34:24Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T14:43:41Z",
+      "first_failed_at": "2026-11-12T14:04:04Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
