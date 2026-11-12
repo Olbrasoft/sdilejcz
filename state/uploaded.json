@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T05:54:42Z",
+  "last_updated": "2026-11-12T05:56:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675483,19 +675483,28 @@
       "timing": {
         "resolve_sec": 254.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 19462,
       "cr_slug": "sexy-party",
       "title": "Sexy párty",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T05:47:33Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/sexy-party-1-2002-czdab/55e6ce2086aa9",
+      "failed_at": "2026-11-12T05:56:06Z",
+      "first_failed_at": "2026-11-12T05:56:06Z",
+      "attempt_count": 1,
+      "upload_id": "55e6ce2086aa9",
+      "source_url": "https://prehraj.to/sexy-party-1-2002-czdab/55e6ce2086aa9",
+      "upload_title": "Sexy party 1 (2002)CZdab",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18364,
       "cr_slug": "penthouse-north",
