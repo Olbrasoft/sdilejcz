@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T22:22:17Z",
+  "last_updated": "2026-11-12T22:22:47Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675625,21 +675625,6 @@
       }
     },
     {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T21:36:49Z",
-      "first_failed_at": "2026-11-12T20:25:42Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 21916,
       "cr_slug": "project-x",
       "title": "Project X",
@@ -676741,6 +676726,21 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
+    },
+    {
+      "cr_film_id": 11611,
+      "cr_slug": "the-boy-who-could-fly",
+      "title": "The Boy Who Could Fly",
+      "year": 1986,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T22:22:47Z",
+      "first_failed_at": "2026-11-12T20:25:42Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 18.6
+      }
     }
   ],
   "in_progress": [
@@ -676763,16 +676763,6 @@
       "worker_id": "worker-2-43291675268",
       "run_id": "43291675268",
       "reserved_at": "2026-11-12T22:13:49Z"
-    },
-    {
-      "cr_film_id": 11611,
-      "cr_slug": "the-boy-who-could-fly",
-      "title": "The Boy Who Could Fly",
-      "year": 1986,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43291675268",
-      "run_id": "43291675268",
-      "reserved_at": "2026-11-12T22:22:17Z"
     }
   ],
   "missing_on_account": [
