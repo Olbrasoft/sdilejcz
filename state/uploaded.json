@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:10:13Z",
+  "last_updated": "2026-11-12T07:11:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675508,25 +675508,6 @@
       }
     },
     {
-      "cr_film_id": 20041,
-      "cr_slug": "sex-tape",
-      "title": "Sex Tape",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/sex-tape-2014-cz-dabing/61ebed905f43e",
-      "failed_at": "2026-11-12T06:54:01Z",
-      "first_failed_at": "2026-11-12T06:46:28Z",
-      "attempt_count": 2,
-      "upload_id": "61ebed905f43e",
-      "source_url": "https://prehraj.to/sex-tape-2014-cz-dabing/61ebed905f43e",
-      "upload_title": "SEX TAPE 2014  CZ dabing",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 254.6
-      }
-    },
-    {
       "cr_film_id": 20710,
       "cr_slug": "az-odejdu",
       "title": "Až odejdu",
@@ -675654,19 +675635,28 @@
       "timing": {
         "resolve_sec": 254.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 20041,
       "cr_slug": "sex-tape",
       "title": "Sex Tape",
       "year": 2014,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:01:00Z"
-    },
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/sex-tape-2014-cz-dabing/61ebed905f43e",
+      "failed_at": "2026-11-12T07:11:00Z",
+      "first_failed_at": "2026-11-12T06:46:28Z",
+      "attempt_count": 3,
+      "upload_id": "61ebed905f43e",
+      "source_url": "https://prehraj.to/sex-tape-2014-cz-dabing/61ebed905f43e",
+      "upload_title": "SEX TAPE 2014  CZ dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20710,
       "cr_slug": "az-odejdu",
