@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T14:57:29Z",
+  "last_updated": "2026-11-12T14:57:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674103,21 +674103,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T14:26:58Z",
-      "first_failed_at": "2026-11-12T14:26:58Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 10.4
-      }
-    },
-    {
       "cr_film_id": 13328,
       "cr_slug": "vrana-4-pekelny-knez",
       "title": "Vrána 4: Pekelný kněz",
@@ -675167,6 +675152,21 @@
       "timing": {
         "cdn_resolve_sec": 9.3
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T14:57:50Z",
+      "first_failed_at": "2026-11-12T14:26:58Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 8.7
+      }
     }
   ],
   "in_progress": [
@@ -675189,16 +675189,6 @@
       "worker_id": "worker-4-43229804357",
       "run_id": "43229804357",
       "reserved_at": "2026-11-12T14:50:43Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43229804357",
-      "run_id": "43229804357",
-      "reserved_at": "2026-11-12T14:57:29Z"
     }
   ],
   "missing_on_account": [
