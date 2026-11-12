@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T12:27:05Z",
+  "last_updated": "2026-11-12T12:27:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676868,21 +676868,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-12T11:56:28Z",
-      "first_failed_at": "2026-11-12T10:54:25Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 11.1
-      }
-    },
-    {
       "cr_film_id": 34172,
       "cr_slug": "az-na-konec-sveta",
       "title": "Až na konec světa",
@@ -677765,6 +677750,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-12T12:27:31Z",
+      "first_failed_at": "2026-11-12T10:54:25Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -677787,16 +677787,6 @@
       "worker_id": "worker-2-43179834287",
       "run_id": "43179834287",
       "reserved_at": "2026-11-12T12:15:29Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43179834287",
-      "run_id": "43179834287",
-      "reserved_at": "2026-11-12T12:27:05Z"
     }
   ],
   "missing_on_account": [
