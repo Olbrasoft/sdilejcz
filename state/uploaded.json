@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T07:28:48Z",
+  "last_updated": "2026-11-12T07:32:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675678,6 +675678,25 @@
       "timing": {
         "resolve_sec": 254.8
       }
+    },
+    {
+      "cr_film_id": 21916,
+      "cr_slug": "project-x",
+      "title": "Project X",
+      "year": 1968,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "resolve_failed: network error: ConnectTimeout after 5 attempts: https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
+      "failed_at": "2026-11-12T07:32:53Z",
+      "first_failed_at": "2026-11-12T07:32:53Z",
+      "attempt_count": 1,
+      "upload_id": "5dfe36c8f093a",
+      "source_url": "https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
+      "upload_title": "Project X 1968 - ENG",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 254.8
+      }
     }
   ],
   "in_progress": [
@@ -675690,16 +675709,6 @@
       "worker_id": "worker-3-43144029888",
       "run_id": "43144029888",
       "reserved_at": "2026-11-12T07:21:44Z"
-    },
-    {
-      "cr_film_id": 21916,
-      "cr_slug": "project-x",
-      "title": "Project X",
-      "year": 1968,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43144029888",
-      "run_id": "43144029888",
-      "reserved_at": "2026-11-12T07:23:32Z"
     },
     {
       "cr_film_id": 20754,
