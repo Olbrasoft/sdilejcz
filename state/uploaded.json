@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-12T15:49:31Z",
+  "last_updated": "2026-11-12T15:49:52Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674830,22 +674830,6 @@
       }
     },
     {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "download_failed: file too small: 7666790 B",
-      "failed_at": "2026-11-12T15:17:38Z",
-      "first_failed_at": "2026-11-12T14:46:29Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 6.0,
-        "download_sec": 2.2
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -675479,6 +675463,22 @@
       "timing": {
         "cdn_resolve_sec": 10.6
       }
+    },
+    {
+      "cr_film_id": 16595,
+      "cr_slug": "animovany-zivot",
+      "title": "Animovaný život",
+      "year": 2016,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "download_failed: file too small: 7666790 B",
+      "failed_at": "2026-11-12T15:49:52Z",
+      "first_failed_at": "2026-11-12T14:46:29Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 4.5,
+        "download_sec": 1.9
+      }
     }
   ],
   "in_progress": [
@@ -675511,16 +675511,6 @@
       "worker_id": "worker-3-43229804357",
       "run_id": "43229804357",
       "reserved_at": "2026-11-12T15:47:04Z"
-    },
-    {
-      "cr_film_id": 16595,
-      "cr_slug": "animovany-zivot",
-      "title": "Animovaný život",
-      "year": 2016,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43229804357",
-      "run_id": "43229804357",
-      "reserved_at": "2026-11-12T15:49:31Z"
     }
   ],
   "missing_on_account": [
