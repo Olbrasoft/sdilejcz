@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T06:05:27Z",
+  "last_updated": "2026-11-13T06:05:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675419,19 +675419,24 @@
       "timing": {
         "cdn_resolve_sec": 9.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
       "year": 2025,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43368759585",
-      "run_id": "43368759585",
-      "reserved_at": "2026-11-13T05:47:53Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T06:05:43Z",
+      "first_failed_at": "2026-11-13T06:05:43Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 20754,
       "cr_slug": "wind-river",
