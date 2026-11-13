@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T19:54:47Z",
+  "last_updated": "2026-11-13T19:55:25Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677151,21 +677151,6 @@
       }
     },
     {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T19:06:44Z",
-      "first_failed_at": "2026-11-13T19:06:44Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 26.0
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677995,6 +677980,21 @@
       "timing": {
         "cdn_resolve_sec": 26.8
       }
+    },
+    {
+      "cr_film_id": 34902,
+      "cr_slug": "duch-boure",
+      "title": "Duch bouře",
+      "year": 2012,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T19:55:25Z",
+      "first_failed_at": "2026-11-13T19:06:44Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 26.9
+      }
     }
   ],
   "in_progress": [
@@ -678027,16 +678027,6 @@
       "worker_id": "worker-1-43448954790",
       "run_id": "43448954790",
       "reserved_at": "2026-11-13T19:52:31Z"
-    },
-    {
-      "cr_film_id": 34902,
-      "cr_slug": "duch-boure",
-      "title": "Duch bouře",
-      "year": 2012,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43448954790",
-      "run_id": "43448954790",
-      "reserved_at": "2026-11-13T19:54:47Z"
     }
   ],
   "missing_on_account": [
