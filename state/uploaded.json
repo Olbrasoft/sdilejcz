@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T12:34:53Z",
+  "last_updated": "2026-11-13T12:35:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676563,6 +676563,21 @@
       "timing": {
         "resolve_sec": 0.9
       }
+    },
+    {
+      "cr_film_id": 31550,
+      "cr_slug": "passion-in-the-desert",
+      "title": "Passion in the Desert",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T12:35:20Z",
+      "first_failed_at": "2026-11-13T12:35:20Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 15.1
+      }
     }
   ],
   "in_progress": [
@@ -676595,16 +676610,6 @@
       "worker_id": "worker-2-43404894776",
       "run_id": "43404894776",
       "reserved_at": "2026-11-13T12:31:32Z"
-    },
-    {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43404894776",
-      "run_id": "43404894776",
-      "reserved_at": "2026-11-13T12:34:53Z"
     }
   ],
   "missing_on_account": [
