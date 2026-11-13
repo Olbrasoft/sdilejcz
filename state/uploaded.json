@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T13:00:39Z",
+  "last_updated": "2026-11-13T13:01:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676242,21 +676242,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T12:26:57Z",
-      "first_failed_at": "2026-11-13T10:52:41Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 13.7
-      }
-    },
-    {
       "cr_film_id": 31422,
       "cr_slug": "dora-say-hola-to-adventure",
       "title": "Dora: Say Hola to Adventure!",
@@ -676970,6 +676955,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T13:01:06Z",
+      "first_failed_at": "2026-11-13T10:52:41Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
     }
   ],
   "in_progress": [
@@ -677002,16 +677002,6 @@
       "worker_id": "worker-4-43404894776",
       "run_id": "43404894776",
       "reserved_at": "2026-11-13T12:58:37Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43404894776",
-      "run_id": "43404894776",
-      "reserved_at": "2026-11-13T13:00:39Z"
     }
   ],
   "missing_on_account": [
