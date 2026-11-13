@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T16:42:53Z",
+  "last_updated": "2026-11-13T16:43:15Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674648,21 +674648,6 @@
       }
     },
     {
-      "cr_film_id": 12836,
-      "cr_slug": "meng-hu-dou-kuang-long",
-      "title": "Meng hu dou kuang long",
-      "year": 1974,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T15:56:47Z",
-      "first_failed_at": "2026-11-13T15:20:24Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -675311,19 +675296,24 @@
       "timing": {
         "cdn_resolve_sec": 11.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
       "year": 1974,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43448954790",
-      "run_id": "43448954790",
-      "reserved_at": "2026-11-13T16:28:25Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T16:43:15Z",
+      "first_failed_at": "2026-11-13T15:20:24Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18364,
       "cr_slug": "penthouse-north",
