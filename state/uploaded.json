@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T01:16:27Z",
+  "last_updated": "2026-11-13T01:16:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673962,21 +673962,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T00:42:57Z",
-      "first_failed_at": "2026-11-13T00:42:57Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 11.7
-      }
-    },
-    {
       "cr_film_id": 14227,
       "cr_slug": "zeme-lednich-medvedu",
       "title": "Země ledních medvědů",
@@ -674811,19 +674796,24 @@
       "timing": {
         "cdn_resolve_sec": 11.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43336856783",
-      "run_id": "43336856783",
-      "reserved_at": "2026-11-13T01:14:54Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T01:16:44Z",
+      "first_failed_at": "2026-11-13T00:42:57Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
