@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T11:15:49Z",
+  "last_updated": "2026-11-13T11:16:17Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674727,21 +674727,6 @@
       }
     },
     {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T10:45:05Z",
-      "first_failed_at": "2026-11-13T10:45:05Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.1
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -675635,6 +675620,21 @@
       "timing": {
         "cdn_resolve_sec": 13.9
       }
+    },
+    {
+      "cr_film_id": 14928,
+      "cr_slug": "krakonos-a-pytlak",
+      "title": "Krakonos a pytlák",
+      "year": 1982,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T11:16:17Z",
+      "first_failed_at": "2026-11-13T10:45:05Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 13.8
+      }
     }
   ],
   "in_progress": [
@@ -675667,16 +675667,6 @@
       "worker_id": "worker-1-43404894776",
       "run_id": "43404894776",
       "reserved_at": "2026-11-13T11:14:04Z"
-    },
-    {
-      "cr_film_id": 14928,
-      "cr_slug": "krakonos-a-pytlak",
-      "title": "Krakonos a pytlák",
-      "year": 1982,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43404894776",
-      "run_id": "43404894776",
-      "reserved_at": "2026-11-13T11:15:49Z"
     }
   ],
   "missing_on_account": [
