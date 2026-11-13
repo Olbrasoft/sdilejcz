@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T16:24:06Z",
+  "last_updated": "2026-11-13T16:24:34Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674645,21 +674645,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T15:53:42Z",
-      "first_failed_at": "2026-11-13T15:20:34Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 12255,
       "cr_slug": "proteus",
       "title": "Proteus",
@@ -675263,6 +675248,21 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T16:24:34Z",
+      "first_failed_at": "2026-11-13T15:20:34Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.0
+      }
     }
   ],
   "in_progress": [
@@ -675285,16 +675285,6 @@
       "worker_id": "worker-2-43448954790",
       "run_id": "43448954790",
       "reserved_at": "2026-11-13T16:21:55Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43448954790",
-      "run_id": "43448954790",
-      "reserved_at": "2026-11-13T16:24:06Z"
     }
   ],
   "missing_on_account": [
