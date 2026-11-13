@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T00:42:40Z",
+  "last_updated": "2026-11-13T00:42:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674086,19 +674086,24 @@
       "timing": {
         "cdn_resolve_sec": 8.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 13420,
       "cr_slug": "mala-ryba",
       "title": "Malá ryba",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43336856783",
-      "run_id": "43336856783",
-      "reserved_at": "2026-11-13T00:41:56Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T00:42:57Z",
+      "first_failed_at": "2026-11-13T00:42:57Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 11.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 13506,
       "cr_slug": "nezkrotna-dee-dee",
