@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T21:24:51Z",
+  "last_updated": "2026-11-13T21:25:18Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673766,21 +673766,6 @@
       }
     },
     {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T20:51:07Z",
-      "first_failed_at": "2026-11-13T20:51:07Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 25.8
-      }
-    },
-    {
       "cr_film_id": 4297,
       "cr_slug": "po-cem-zeny-touzi",
       "title": "Po čem ženy touží",
@@ -673994,6 +673979,21 @@
       "timing": {
         "cdn_resolve_sec": 17.0
       }
+    },
+    {
+      "cr_film_id": 3019,
+      "cr_slug": "legenda-o-drakovi",
+      "title": "Legenda o drakovi",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T21:25:18Z",
+      "first_failed_at": "2026-11-13T20:51:07Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 17.2
+      }
     }
   ],
   "in_progress": [
@@ -674026,16 +674026,6 @@
       "worker_id": "worker-3-43503892667",
       "run_id": "43503892667",
       "reserved_at": "2026-11-13T21:19:31Z"
-    },
-    {
-      "cr_film_id": 3019,
-      "cr_slug": "legenda-o-drakovi",
-      "title": "Legenda o drakovi",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43503892667",
-      "run_id": "43503892667",
-      "reserved_at": "2026-11-13T21:24:51Z"
     }
   ],
   "missing_on_account": [
