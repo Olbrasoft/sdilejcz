@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T13:37:41Z",
+  "last_updated": "2026-11-13T13:38:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676892,21 +676892,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T13:07:10Z",
-      "first_failed_at": "2026-11-13T12:36:00Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.8
-      }
-    },
-    {
       "cr_film_id": 34396,
       "cr_slug": "swiped",
       "title": "Swiped",
@@ -677536,6 +677521,21 @@
       "timing": {
         "cdn_resolve_sec": 13.5
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T13:38:07Z",
+      "first_failed_at": "2026-11-13T12:36:00Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 13.5
+      }
     }
   ],
   "in_progress": [
@@ -677568,16 +677568,6 @@
       "worker_id": "worker-2-43404894776",
       "run_id": "43404894776",
       "reserved_at": "2026-11-13T13:28:09Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43404894776",
-      "run_id": "43404894776",
-      "reserved_at": "2026-11-13T13:37:41Z"
     }
   ],
   "missing_on_account": [
