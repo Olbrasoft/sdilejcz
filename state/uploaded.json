@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T19:45:46Z",
+  "last_updated": "2026-11-13T19:46:08Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676769,21 +676769,6 @@
       }
     },
     {
-      "cr_film_id": 31658,
-      "cr_slug": "tararua-s-k",
-      "title": "Tararua S-K",
-      "year": null,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T18:39:37Z",
-      "first_failed_at": "2026-11-13T18:39:37Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 28.1
-      }
-    },
-    {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
       "title": "Camila Arriva Grupo Bardentreffen 2025",
@@ -677995,19 +677980,24 @@
       "timing": {
         "cdn_resolve_sec": 26.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
       "year": null,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43448954790",
-      "run_id": "43448954790",
-      "reserved_at": "2026-11-13T19:09:41Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T19:46:08Z",
+      "first_failed_at": "2026-11-13T18:39:37Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
