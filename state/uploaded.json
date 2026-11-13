@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T23:31:30Z",
+  "last_updated": "2026-11-13T23:32:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675733,19 +675733,30 @@
       "timing": {
         "cdn_resolve_sec": 8.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 25676,
       "cr_slug": "maturitni-sex",
       "title": "Maturitní sex",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43503892667",
-      "run_id": "43503892667",
-      "reserved_at": "2026-11-13T23:20:14Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-13T23:32:02Z",
+      "first_failed_at": "2026-11-13T23:32:02Z",
+      "attempt_count": 1,
+      "upload_id": "59fd6ac44ffb4",
+      "source_url": "https://prehraj.to/maturitni-sex-2008-cz-dabing/59fd6ac44ffb4",
+      "upload_title": "Maturitní Sex (2008) CZ Dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 3.6,
+        "download_sec": 27.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
