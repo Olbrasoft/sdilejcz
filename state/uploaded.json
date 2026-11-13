@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T02:23:50Z",
+  "last_updated": "2026-11-13T02:24:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674745,21 +674745,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T01:50:49Z",
-      "first_failed_at": "2026-11-13T01:17:46Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.0
-      }
-    },
-    {
       "cr_film_id": 16595,
       "cr_slug": "animovany-zivot",
       "title": "Animovaný život",
@@ -675528,6 +675513,21 @@
       "timing": {
         "cdn_resolve_sec": 11.2
       }
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T02:24:12Z",
+      "first_failed_at": "2026-11-13T01:17:46Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 11.1
+      }
     }
   ],
   "in_progress": [
@@ -675560,16 +675560,6 @@
       "worker_id": "worker-2-43336856783",
       "run_id": "43336856783",
       "reserved_at": "2026-11-13T02:19:31Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43336856783",
-      "run_id": "43336856783",
-      "reserved_at": "2026-11-13T02:23:50Z"
     }
   ],
   "missing_on_account": [
