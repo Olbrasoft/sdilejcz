@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T16:30:13Z",
+  "last_updated": "2026-11-13T16:30:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674669,21 +674669,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T15:58:33Z",
-      "first_failed_at": "2026-11-13T15:19:48Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.5
-      }
-    },
-    {
       "cr_film_id": 12878,
       "cr_slug": "pornograficky-vztah",
       "title": "Pornografický vztah",
@@ -675287,6 +675272,21 @@
       "timing": {
         "cdn_resolve_sec": 14.1
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T16:30:57Z",
+      "first_failed_at": "2026-11-13T15:19:48Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 21.6
+      }
     }
   ],
   "in_progress": [
@@ -675309,16 +675309,6 @@
       "worker_id": "worker-4-43448954790",
       "run_id": "43448954790",
       "reserved_at": "2026-11-13T16:29:22Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43448954790",
-      "run_id": "43448954790",
-      "reserved_at": "2026-11-13T16:30:13Z"
     }
   ],
   "missing_on_account": [
