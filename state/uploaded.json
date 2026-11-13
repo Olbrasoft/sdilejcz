@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T20:10:09Z",
+  "last_updated": "2026-11-13T20:10:50Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677483,21 +677483,6 @@
       }
     },
     {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T19:33:19Z",
-      "first_failed_at": "2026-11-13T18:31:22Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 24.8
-      }
-    },
-    {
       "cr_film_id": 36673,
       "cr_slug": "ma-me-rad-nema-me-rad-1956",
       "title": "Má mě rád, nemá mě rád",
@@ -678212,6 +678197,21 @@
       "timing": {
         "cdn_resolve_sec": 27.1
       }
+    },
+    {
+      "cr_film_id": 31555,
+      "cr_slug": "lourdes",
+      "title": "Lourdes",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T20:10:50Z",
+      "first_failed_at": "2026-11-13T18:31:22Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 28.4
+      }
     }
   ],
   "in_progress": [
@@ -678234,16 +678234,6 @@
       "worker_id": "worker-2-43448954790",
       "run_id": "43448954790",
       "reserved_at": "2026-11-13T20:06:42Z"
-    },
-    {
-      "cr_film_id": 31555,
-      "cr_slug": "lourdes",
-      "title": "Lourdes",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43448954790",
-      "run_id": "43448954790",
-      "reserved_at": "2026-11-13T20:10:09Z"
     }
   ],
   "missing_on_account": [
