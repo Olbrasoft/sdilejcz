@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T06:46:17Z",
+  "last_updated": "2026-11-13T06:46:39Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675128,21 +675128,6 @@
       }
     },
     {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T06:16:06Z",
-      "first_failed_at": "2026-11-13T05:41:34Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 10.3
-      }
-    },
-    {
       "cr_film_id": 7319,
       "cr_slug": "lego-dc-super-hrdinove-aquaman",
       "title": "Lego DC Super hrdinové: Aquaman - Hněv Atlantidy",
@@ -675812,6 +675797,21 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
+    },
+    {
+      "cr_film_id": 13420,
+      "cr_slug": "mala-ryba",
+      "title": "Malá ryba",
+      "year": 2005,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T06:46:39Z",
+      "first_failed_at": "2026-11-13T05:41:34Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.4
+      }
     }
   ],
   "in_progress": [
@@ -675844,16 +675844,6 @@
       "worker_id": "worker-3-43368759585",
       "run_id": "43368759585",
       "reserved_at": "2026-11-13T06:45:40Z"
-    },
-    {
-      "cr_film_id": 13420,
-      "cr_slug": "mala-ryba",
-      "title": "Malá ryba",
-      "year": 2005,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43368759585",
-      "run_id": "43368759585",
-      "reserved_at": "2026-11-13T06:46:17Z"
     }
   ],
   "missing_on_account": [
