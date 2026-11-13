@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T19:15:00Z",
+  "last_updated": "2026-11-13T19:15:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676953,21 +676953,6 @@
       }
     },
     {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T18:44:53Z",
-      "first_failed_at": "2026-11-13T18:44:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 29.9
-      }
-    },
-    {
       "cr_film_id": 34336,
       "cr_slug": "the-making-of-band-of-brothers",
       "title": "The Making of 'Band of Brothers'",
@@ -677608,6 +677593,21 @@
       "timing": {
         "cdn_resolve_sec": 26.7
       }
+    },
+    {
+      "cr_film_id": 31672,
+      "cr_slug": "me-and-my-gal",
+      "title": "Me and My Gal",
+      "year": 1932,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T19:15:40Z",
+      "first_failed_at": "2026-11-13T18:44:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 27.0
+      }
     }
   ],
   "in_progress": [
@@ -677640,16 +677640,6 @@
       "worker_id": "worker-1-43448954790",
       "run_id": "43448954790",
       "reserved_at": "2026-11-13T19:09:41Z"
-    },
-    {
-      "cr_film_id": 31672,
-      "cr_slug": "me-and-my-gal",
-      "title": "Me and My Gal",
-      "year": 1932,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43448954790",
-      "run_id": "43448954790",
-      "reserved_at": "2026-11-13T19:15:00Z"
     }
   ],
   "missing_on_account": [
