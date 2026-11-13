@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T14:43:36Z",
+  "last_updated": "2026-11-13T14:45:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674817,6 +674817,27 @@
         "upload_sec": 86.7,
         "total_sec": 121.4
       }
+    },
+    {
+      "cr_film_id": 37363,
+      "cr_slug": "barvy-casu",
+      "title": "Barvy času",
+      "year": 2025,
+      "source": "sktorrent",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "sktorrent_id": 61750,
+      "sdilej_url": "https://sdilej.cz/35484994/barvy-casu-2025-.mp4",
+      "sdilej_name": "Barvy času (2025).mp4",
+      "uploaded_at": "2026-11-13T14:31:22Z",
+      "status": "uploaded",
+      "size_bytes": 653733115,
+      "worker_id": "worker-2-43404894776",
+      "timing": {
+        "cdn_resolve_sec": 8.2,
+        "download_sec": 121.8,
+        "upload_sec": 85.4,
+        "total_sec": 215.6
+      }
     }
   ],
   "failed_attempts": [
@@ -677989,25 +678010,6 @@
       }
     },
     {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "resolve_failed: HTTP 502 wrapping permanent upstream error: https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "failed_at": "2026-11-13T14:27:35Z",
-      "first_failed_at": "2026-11-13T14:27:35Z",
-      "attempt_count": 1,
-      "upload_id": "4564c9462ce70ed7",
-      "source_url": "https://prehraj.to/barvy-casu/4564c9462ce70ed7",
-      "upload_title": "Barvy času",
-      "permanent": true,
-      "timing": {
-        "resolve_sec": 0.8
-      }
-    },
-    {
       "cr_film_id": 31648,
       "cr_slug": "n-io-e-napoleone",
       "title": "N - Io e Napoleone",
@@ -678324,16 +678326,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 37363,
-      "cr_slug": "barvy-casu",
-      "title": "Barvy času",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43404894776",
-      "run_id": "43404894776",
-      "reserved_at": "2026-11-13T14:27:21Z"
-    },
     {
       "cr_film_id": 31671,
       "cr_slug": "e11",
