@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T22:30:08Z",
+  "last_updated": "2026-11-13T22:30:28Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674215,21 +674215,6 @@
       }
     },
     {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T21:59:36Z",
-      "first_failed_at": "2026-11-13T21:59:36Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 14.7
-      }
-    },
-    {
       "cr_film_id": 13668,
       "cr_slug": "po-hlave-do-prdele",
       "title": "Po hlavě do prdele",
@@ -675273,6 +675258,21 @@
         "resolve_sec": 1.1,
         "download_sec": 1.3
       }
+    },
+    {
+      "cr_film_id": 13321,
+      "cr_slug": "anatomie-pekla",
+      "title": "Anatomie pekla",
+      "year": 2004,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T22:30:28Z",
+      "first_failed_at": "2026-11-13T21:59:36Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
     }
   ],
   "in_progress": [
@@ -675295,16 +675295,6 @@
       "worker_id": "worker-3-43503892667",
       "run_id": "43503892667",
       "reserved_at": "2026-11-13T22:27:48Z"
-    },
-    {
-      "cr_film_id": 13321,
-      "cr_slug": "anatomie-pekla",
-      "title": "Anatomie pekla",
-      "year": 2004,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43503892667",
-      "run_id": "43503892667",
-      "reserved_at": "2026-11-13T22:30:08Z"
     }
   ],
   "missing_on_account": [
