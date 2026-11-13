@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T19:15:50Z",
+  "last_updated": "2026-11-13T19:16:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676769,22 +676769,6 @@
       }
     },
     {
-      "cr_film_id": 30864,
-      "cr_slug": "trio",
-      "title": "Trio",
-      "year": 2019,
-      "sktorrent_id": null,
-      "source": "sledujteto",
-      "reason": "download_failed: file too small: 8858867 B",
-      "failed_at": "2026-11-13T18:33:45Z",
-      "first_failed_at": "2026-11-13T18:33:45Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 2.0,
-        "download_sec": 2.3
-      }
-    },
-    {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
       "title": "Tararua S-K",
@@ -677608,19 +677592,25 @@
       "timing": {
         "cdn_resolve_sec": 27.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
       "year": 2019,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43448954790",
-      "run_id": "43448954790",
-      "reserved_at": "2026-11-13T19:04:39Z"
-    },
+      "source": "sledujteto",
+      "reason": "download_failed: file too small: 8858867 B",
+      "failed_at": "2026-11-13T19:16:09Z",
+      "first_failed_at": "2026-11-13T18:33:45Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 2.1,
+        "download_sec": 2.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34943,
       "cr_slug": "kvileni-vlkodlaku-6",
