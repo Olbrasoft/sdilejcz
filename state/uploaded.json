@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T05:58:54Z",
+  "last_updated": "2026-11-13T05:59:12Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675285,6 +675285,26 @@
       "timing": {
         "cdn_resolve_sec": 14.8
       }
+    },
+    {
+      "cr_film_id": 21916,
+      "cr_slug": "project-x",
+      "title": "Project X",
+      "year": 1968,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "download_failed: curl exit 22: curl: (22) The requested URL returned error: 404",
+      "failed_at": "2026-11-13T05:59:12Z",
+      "first_failed_at": "2026-11-13T05:59:12Z",
+      "attempt_count": 1,
+      "upload_id": "5dfe36c8f093a",
+      "source_url": "https://prehraj.to/project-x-1968-eng/5dfe36c8f093a",
+      "upload_title": "Project X 1968 - ENG",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 3.7
+      }
     }
   ],
   "in_progress": [
@@ -675317,16 +675337,6 @@
       "worker_id": "worker-1-43368759585",
       "run_id": "43368759585",
       "reserved_at": "2026-11-13T05:58:26Z"
-    },
-    {
-      "cr_film_id": 21916,
-      "cr_slug": "project-x",
-      "title": "Project X",
-      "year": 1968,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43368759585",
-      "run_id": "43368759585",
-      "reserved_at": "2026-11-13T05:58:54Z"
     }
   ],
   "missing_on_account": [
