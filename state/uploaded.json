@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T09:38:58Z",
+  "last_updated": "2026-11-13T09:39:20Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677516,21 +677516,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T09:02:47Z",
-      "first_failed_at": "2026-11-13T08:01:36Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 14.2
-      }
-    },
-    {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
@@ -678323,6 +678308,21 @@
         "cdn_resolve_sec": 1.2,
         "download_sec": 1.8
       }
+    },
+    {
+      "cr_film_id": 31550,
+      "cr_slug": "passion-in-the-desert",
+      "title": "Passion in the Desert",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T09:39:20Z",
+      "first_failed_at": "2026-11-13T08:01:36Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 9.9
+      }
     }
   ],
   "in_progress": [
@@ -678335,16 +678335,6 @@
       "worker_id": "worker-2-43368759585",
       "run_id": "43368759585",
       "reserved_at": "2026-11-13T09:19:59Z"
-    },
-    {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43368759585",
-      "run_id": "43368759585",
-      "reserved_at": "2026-11-13T09:38:58Z"
     }
   ],
   "missing_on_account": [
