@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T01:31:17Z",
+  "last_updated": "2026-11-13T01:31:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674333,21 +674333,6 @@
       }
     },
     {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T01:01:02Z",
-      "first_failed_at": "2026-11-13T01:01:02Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.3
-      }
-    },
-    {
       "cr_film_id": 3019,
       "cr_slug": "legenda-o-drakovi",
       "title": "Legenda o drakovi",
@@ -674996,6 +674981,21 @@
       "timing": {
         "cdn_resolve_sec": 10.1
       }
+    },
+    {
+      "cr_film_id": 16517,
+      "cr_slug": "pinkie-on-the-one",
+      "title": "Pinkie on the One",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T01:31:40Z",
+      "first_failed_at": "2026-11-13T01:01:02Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 11.6
+      }
     }
   ],
   "in_progress": [
@@ -675028,16 +675028,6 @@
       "worker_id": "worker-2-43336856783",
       "run_id": "43336856783",
       "reserved_at": "2026-11-13T01:30:13Z"
-    },
-    {
-      "cr_film_id": 16517,
-      "cr_slug": "pinkie-on-the-one",
-      "title": "Pinkie on the One",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43336856783",
-      "run_id": "43336856783",
-      "reserved_at": "2026-11-13T01:31:17Z"
     }
   ],
   "missing_on_account": [
