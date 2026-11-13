@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T20:06:42Z",
+  "last_updated": "2026-11-13T20:07:00Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677232,21 +677232,6 @@
       }
     },
     {
-      "cr_film_id": 34973,
-      "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
-      "title": "Děvčátko, které bydlí na konci ulice",
-      "year": 1976,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T19:19:43Z",
-      "first_failed_at": "2026-11-13T19:19:43Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 24.9
-      }
-    },
-    {
       "cr_film_id": 35044,
       "cr_slug": "tezka-barbora",
       "title": "Těžká Barbora",
@@ -678212,19 +678197,24 @@
       "timing": {
         "cdn_resolve_sec": 29.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34973,
       "cr_slug": "devcatko-ktere-bydli-na-konci-ulice",
       "title": "Děvčátko, které bydlí na konci ulice",
       "year": 1976,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43448954790",
-      "run_id": "43448954790",
-      "reserved_at": "2026-11-13T19:52:31Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T20:07:00Z",
+      "first_failed_at": "2026-11-13T19:19:43Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 29.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 35044,
       "cr_slug": "tezka-barbora",
