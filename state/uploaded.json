@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T07:52:24Z",
+  "last_updated": "2026-11-13T07:52:51Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675847,21 +675847,6 @@
       }
     },
     {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T07:21:31Z",
-      "first_failed_at": "2026-11-13T06:05:43Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 9.5
-      }
-    },
-    {
       "cr_film_id": 26795,
       "cr_slug": "happy-halloween-scooby-doo",
       "title": "Happy Halloween, Scooby-Doo!",
@@ -676363,6 +676348,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 16401,
+      "cr_slug": "na-horach",
+      "title": "Na horách",
+      "year": 2025,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T07:52:51Z",
+      "first_failed_at": "2026-11-13T06:05:43Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 14.4
+      }
     }
   ],
   "in_progress": [
@@ -676395,16 +676395,6 @@
       "worker_id": "worker-3-43368759585",
       "run_id": "43368759585",
       "reserved_at": "2026-11-13T07:43:51Z"
-    },
-    {
-      "cr_film_id": 16401,
-      "cr_slug": "na-horach",
-      "title": "Na horách",
-      "year": 2025,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43368759585",
-      "run_id": "43368759585",
-      "reserved_at": "2026-11-13T07:52:24Z"
     }
   ],
   "missing_on_account": [
