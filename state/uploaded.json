@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T22:24:55Z",
+  "last_updated": "2026-11-13T22:25:16Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674170,21 +674170,6 @@
       }
     },
     {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T21:54:15Z",
-      "first_failed_at": "2026-11-13T21:54:15Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 22.4
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -675234,6 +675219,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 12698,
+      "cr_slug": "barbora-radi",
+      "title": "Barbora řádí",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-13T22:25:16Z",
+      "first_failed_at": "2026-11-13T21:54:15Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 9.4
+      }
     }
   ],
   "in_progress": [
@@ -675246,16 +675246,6 @@
       "worker_id": "worker-1-43503892667",
       "run_id": "43503892667",
       "reserved_at": "2026-11-13T22:21:43Z"
-    },
-    {
-      "cr_film_id": 12698,
-      "cr_slug": "barbora-radi",
-      "title": "Barbora řádí",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43503892667",
-      "run_id": "43503892667",
-      "reserved_at": "2026-11-13T22:24:55Z"
     }
   ],
   "missing_on_account": [
