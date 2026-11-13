@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-13T21:39:32Z",
+  "last_updated": "2026-11-13T21:39:56Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674081,19 +674081,30 @@
       "timing": {
         "cdn_resolve_sec": 14.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 2636,
       "cr_slug": "climax",
       "title": "Climax",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43503892667",
-      "run_id": "43503892667",
-      "reserved_at": "2026-11-13T20:48:24Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-13T21:39:56Z",
+      "first_failed_at": "2026-11-13T21:39:56Z",
+      "attempt_count": 1,
+      "upload_id": "61fb7a5a4b931",
+      "source_url": "https://prehraj.to/climax-2018-1080p-bluray-cz-dabing/61fb7a5a4b931",
+      "upload_title": "Climax.2018.1080p.BluRay.CZ.dabing",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.4,
+        "download_sec": 3022.3,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10256,
       "cr_slug": "dont-fuck-in-the-woods-2",
