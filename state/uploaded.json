@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T11:17:18Z",
+  "last_updated": "2026-11-14T11:17:44Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677755,21 +677755,6 @@
       }
     },
     {
-      "cr_film_id": 34827,
-      "cr_slug": "ohnivy-ring",
-      "title": "Ohnivý ring",
-      "year": 1991,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T10:47:18Z",
-      "first_failed_at": "2026-11-14T09:48:20Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 14.8
-      }
-    },
-    {
       "cr_film_id": 37212,
       "cr_slug": "hvezdna-brana-pravdivy-pribeh",
       "title": "Hvězdná brána: Pravdivý příběh",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34827,
       "cr_slug": "ohnivy-ring",
       "title": "Ohnivý ring",
       "year": 1991,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43566356887",
-      "run_id": "43566356887",
-      "reserved_at": "2026-11-14T11:17:18Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T11:17:44Z",
+      "first_failed_at": "2026-11-14T09:48:20Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
