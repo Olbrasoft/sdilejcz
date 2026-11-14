@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T13:47:00Z",
+  "last_updated": "2026-11-14T13:47:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675879,21 +675879,6 @@
       }
     },
     {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T13:06:41Z",
-      "first_failed_at": "2026-11-14T12:32:47Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 9.0
-      }
-    },
-    {
       "cr_film_id": 12039,
       "cr_slug": "ritorno-dalla-morte",
       "title": "Ritorno dalla morte",
@@ -676843,6 +676828,21 @@
       "first_failed_at": "2026-11-14T13:46:45Z",
       "attempt_count": 1,
       "permanent": true
+    },
+    {
+      "cr_film_id": 16556,
+      "cr_slug": "vetrelci-na-mesici",
+      "title": "Vetřelci na Měsíci",
+      "year": 2014,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T13:47:22Z",
+      "first_failed_at": "2026-11-14T12:32:47Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
     }
   ],
   "in_progress": [
@@ -676865,16 +676865,6 @@
       "worker_id": "worker-2-43589500147",
       "run_id": "43589500147",
       "reserved_at": "2026-11-14T13:46:23Z"
-    },
-    {
-      "cr_film_id": 16556,
-      "cr_slug": "vetrelci-na-mesici",
-      "title": "Vetřelci na Měsíci",
-      "year": 2014,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43589500147",
-      "run_id": "43589500147",
-      "reserved_at": "2026-11-14T13:47:00Z"
     }
   ],
   "missing_on_account": [
