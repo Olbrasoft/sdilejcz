@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T10:19:08Z",
+  "last_updated": "2026-11-14T10:19:21Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -678188,19 +678188,24 @@
       "timing": {
         "cdn_resolve_sec": 15.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34815,
       "cr_slug": "kaja-oliva",
       "title": "Kája + Oliva",
       "year": 2022,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43566356887",
-      "run_id": "43566356887",
-      "reserved_at": "2026-11-14T09:47:15Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T10:19:21Z",
+      "first_failed_at": "2026-11-14T10:19:21Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 37224,
       "cr_slug": "los-angeles-streetfighter",
