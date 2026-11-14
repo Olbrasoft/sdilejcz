@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T04:42:45Z",
+  "last_updated": "2026-11-14T04:43:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676380,21 +676380,6 @@
       }
     },
     {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T04:11:53Z",
-      "first_failed_at": "2026-11-14T04:11:53Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.6
-      }
-    },
-    {
       "cr_film_id": 13321,
       "cr_slug": "anatomie-pekla",
       "title": "Anatomie pekla",
@@ -676954,6 +676939,21 @@
       "timing": {
         "resolve_sec": 0.6
       }
+    },
+    {
+      "cr_film_id": 31550,
+      "cr_slug": "passion-in-the-desert",
+      "title": "Passion in the Desert",
+      "year": 1997,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T04:43:07Z",
+      "first_failed_at": "2026-11-14T04:11:53Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 10.0
+      }
     }
   ],
   "in_progress": [
@@ -676976,16 +676976,6 @@
       "worker_id": "worker-4-43544719880",
       "run_id": "43544719880",
       "reserved_at": "2026-11-14T04:40:58Z"
-    },
-    {
-      "cr_film_id": 31550,
-      "cr_slug": "passion-in-the-desert",
-      "title": "Passion in the Desert",
-      "year": 1997,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43544719880",
-      "run_id": "43544719880",
-      "reserved_at": "2026-11-14T04:42:45Z"
     }
   ],
   "missing_on_account": [
