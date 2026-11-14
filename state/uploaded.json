@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T09:34:20Z",
+  "last_updated": "2026-11-14T09:34:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677063,19 +677063,24 @@
       "timing": {
         "resolve_sec": 0.3
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31555,
       "cr_slug": "lourdes",
       "title": "Lourdes",
       "year": 2000,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43566356887",
-      "run_id": "43566356887",
-      "reserved_at": "2026-11-14T09:24:19Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T09:34:35Z",
+      "first_failed_at": "2026-11-14T09:34:35Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 14.6
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23796,
       "cr_slug": "operace-delta-force-3",
