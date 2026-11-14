@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T16:57:38Z",
+  "last_updated": "2026-11-14T16:58:09Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674565,21 +674565,6 @@
       }
     },
     {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T16:27:15Z",
-      "first_failed_at": "2026-11-14T15:24:52Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 24.6
-      }
-    },
-    {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
@@ -675245,6 +675230,21 @@
       "timing": {
         "cdn_resolve_sec": 20.3
       }
+    },
+    {
+      "cr_film_id": 1213,
+      "cr_slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T16:58:09Z",
+      "first_failed_at": "2026-11-14T15:24:52Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 19.4
+      }
     }
   ],
   "in_progress": [
@@ -675277,16 +675277,6 @@
       "worker_id": "worker-3-43609866961",
       "run_id": "43609866961",
       "reserved_at": "2026-11-14T16:55:42Z"
-    },
-    {
-      "cr_film_id": 1213,
-      "cr_slug": "lilo-stitch",
-      "title": "Lilo & Stitch",
-      "year": 2002,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T16:57:38Z"
     }
   ],
   "missing_on_account": [
