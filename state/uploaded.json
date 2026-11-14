@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T03:32:26Z",
+  "last_updated": "2026-11-14T03:32:42Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674645,21 +674645,6 @@
       }
     },
     {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T02:51:44Z",
-      "first_failed_at": "2026-11-14T02:20:44Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675880,19 +675865,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43544719880",
-      "run_id": "43544719880",
-      "reserved_at": "2026-11-14T03:22:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T03:32:42Z",
+      "first_failed_at": "2026-11-14T02:20:44Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.5
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
