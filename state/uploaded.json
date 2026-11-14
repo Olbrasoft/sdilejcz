@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T16:47:49Z",
+  "last_updated": "2026-11-14T16:48:31Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674273,21 +674273,6 @@
       }
     },
     {
-      "cr_film_id": 9674,
-      "cr_slug": "zivot-v-klamu",
-      "title": "Život v klamu",
-      "year": 2018,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T16:14:03Z",
-      "first_failed_at": "2026-11-14T15:40:52Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 30.1
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -675153,19 +675138,24 @@
       "timing": {
         "cdn_resolve_sec": 26.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 9674,
       "cr_slug": "zivot-v-klamu",
       "title": "Život v klamu",
       "year": 2018,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T16:44:08Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T16:48:31Z",
+      "first_failed_at": "2026-11-14T15:40:52Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 24.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11952,
       "cr_slug": "delta-force-commando-ii-priority-red-one",
