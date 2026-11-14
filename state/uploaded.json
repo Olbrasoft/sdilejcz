@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T16:58:19Z",
+  "last_updated": "2026-11-14T16:58:53Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674349,21 +674349,6 @@
       }
     },
     {
-      "cr_film_id": 12825,
-      "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
-      "title": "Dobrodružství Toma Palečka a Malenky",
-      "year": 2002,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T16:21:28Z",
-      "first_failed_at": "2026-11-14T15:50:17Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 22.7
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675245,19 +675230,24 @@
       "timing": {
         "cdn_resolve_sec": 19.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12825,
       "cr_slug": "dobrodruzstvi-toma-palecka-a-malenky",
       "title": "Dobrodružství Toma Palečka a Malenky",
       "year": 2002,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T16:54:07Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T16:58:53Z",
+      "first_failed_at": "2026-11-14T15:50:17Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 25.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
