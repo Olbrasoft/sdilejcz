@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T20:35:05Z",
+  "last_updated": "2026-11-14T20:35:35Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677923,19 +677923,24 @@
       "timing": {
         "cdn_resolve_sec": 37.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
       "title": "Krvavá Amazonka",
       "year": 1985,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T20:07:49Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T20:35:35Z",
+      "first_failed_at": "2026-11-14T20:35:35Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 35.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 31658,
       "cr_slug": "tararua-s-k",
