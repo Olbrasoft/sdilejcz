@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T12:56:59Z",
+  "last_updated": "2026-11-14T12:57:22Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675149,21 +675149,6 @@
       }
     },
     {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T12:26:00Z",
-      "first_failed_at": "2026-11-14T11:54:04Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 11.4
-      }
-    },
-    {
       "cr_film_id": 16492,
       "cr_slug": "moje-mama-jayne",
       "title": "Moje máma Jayne",
@@ -676035,6 +676020,21 @@
       "timing": {
         "cdn_resolve_sec": 9.6
       }
+    },
+    {
+      "cr_film_id": 10679,
+      "cr_slug": "krizaci",
+      "title": "Křižáci",
+      "year": 1935,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T12:57:22Z",
+      "first_failed_at": "2026-11-14T11:54:04Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 9.9
+      }
     }
   ],
   "in_progress": [
@@ -676057,16 +676057,6 @@
       "worker_id": "worker-1-43589500147",
       "run_id": "43589500147",
       "reserved_at": "2026-11-14T12:56:29Z"
-    },
-    {
-      "cr_film_id": 10679,
-      "cr_slug": "krizaci",
-      "title": "Křižáci",
-      "year": 1935,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43589500147",
-      "run_id": "43589500147",
-      "reserved_at": "2026-11-14T12:56:59Z"
     }
   ],
   "missing_on_account": [
