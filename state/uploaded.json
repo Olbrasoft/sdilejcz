@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T09:04:18Z",
+  "last_updated": "2026-11-14T09:04:26Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676163,6 +676163,27 @@
       "timing": {
         "cdn_resolve_sec": 13.4
       }
+    },
+    {
+      "cr_film_id": 24495,
+      "cr_slug": "sex-pistols-des-a-bes",
+      "title": "Sex pistols: Děs a běs",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-14T09:04:26Z",
+      "first_failed_at": "2026-11-14T09:04:26Z",
+      "attempt_count": 1,
+      "upload_id": "583d6a7125c95",
+      "source_url": "https://prehraj.to/sex-pistols-des-a-bes-2000/583d6a7125c95",
+      "upload_title": "Sex-Pistols---Des-a-bes-2000",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.5,
+        "download_sec": 63.8,
+        "upload_sec": 30.0
+      }
     }
   ],
   "in_progress": [
@@ -676185,16 +676206,6 @@
       "worker_id": "worker-2-43566356887",
       "run_id": "43566356887",
       "reserved_at": "2026-11-14T09:01:13Z"
-    },
-    {
-      "cr_film_id": 24495,
-      "cr_slug": "sex-pistols-des-a-bes",
-      "title": "Sex pistols: Děs a běs",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-4-43566356887",
-      "run_id": "43566356887",
-      "reserved_at": "2026-11-14T09:02:35Z"
     }
   ],
   "missing_on_account": [
