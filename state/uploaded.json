@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T15:19:08Z",
+  "last_updated": "2026-11-14T15:19:38Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677593,21 +677593,6 @@
       }
     },
     {
-      "cr_film_id": 34919,
-      "cr_slug": "milovany-joshua",
-      "title": "Milovaný Joshua",
-      "year": 2007,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T14:43:37Z",
-      "first_failed_at": "2026-11-14T14:43:37Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 9.1
-      }
-    },
-    {
       "cr_film_id": 34933,
       "cr_slug": "ostrov-priser",
       "title": "Ostrov příšer",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 16.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34919,
       "cr_slug": "milovany-joshua",
       "title": "Milovaný Joshua",
       "year": 2007,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43589500147",
-      "run_id": "43589500147",
-      "reserved_at": "2026-11-14T15:19:08Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T15:19:38Z",
+      "first_failed_at": "2026-11-14T14:43:37Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 17.6
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
