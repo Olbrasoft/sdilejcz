@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T17:38:42Z",
+  "last_updated": "2026-11-14T17:38:57Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674763,21 +674763,6 @@
       }
     },
     {
-      "cr_film_id": 12879,
-      "cr_slug": "gogs-gogwana",
-      "title": "Gogs: Gogwana",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T17:02:49Z",
-      "first_failed_at": "2026-11-14T15:52:39Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 29.9
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675618,19 +675603,24 @@
       "timing": {
         "cdn_resolve_sec": 26.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12879,
       "cr_slug": "gogs-gogwana",
       "title": "Gogs: Gogwana",
       "year": 1998,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T17:35:29Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T17:38:57Z",
+      "first_failed_at": "2026-11-14T15:52:39Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 20.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 25521,
       "cr_slug": "another-gay-movie",
