@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T17:23:55Z",
+  "last_updated": "2026-11-14T17:24:07Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674632,21 +674632,6 @@
       }
     },
     {
-      "cr_film_id": 14852,
-      "cr_slug": "sci-fi-high-the-movie-musical",
-      "title": "Sci-Fi High: The Movie Musical",
-      "year": 2010,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T16:46:55Z",
-      "first_failed_at": "2026-11-14T16:13:22Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 30.4
-      }
-    },
-    {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
@@ -675445,19 +675430,24 @@
       "timing": {
         "cdn_resolve_sec": 25.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14852,
       "cr_slug": "sci-fi-high-the-movie-musical",
       "title": "Sci-Fi High: The Movie Musical",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T17:21:00Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T17:24:07Z",
+      "first_failed_at": "2026-11-14T16:13:22Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 27.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
