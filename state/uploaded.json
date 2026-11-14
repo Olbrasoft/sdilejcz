@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T20:27:08Z",
+  "last_updated": "2026-11-14T20:27:40Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676924,21 +676924,6 @@
       }
     },
     {
-      "cr_film_id": 31667,
-      "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
-      "title": "One Piece: Baron Omatsuri and the Secret Island",
-      "year": 2005,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T19:30:26Z",
-      "first_failed_at": "2026-11-14T18:54:52Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 36.6
-      }
-    },
-    {
       "cr_film_id": 33580,
       "cr_slug": "prenom-carmen",
       "title": "Prénom Carmen",
@@ -677923,19 +677908,24 @@
       "timing": {
         "cdn_resolve_sec": 40.4
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 31667,
       "cr_slug": "one-piece-baron-omatsuri-and-the-secret-island",
       "title": "One Piece: Baron Omatsuri and the Secret Island",
       "year": 2005,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T20:03:18Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T20:27:40Z",
+      "first_failed_at": "2026-11-14T18:54:52Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 25.9
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34971,
       "cr_slug": "krvava-amazonka",
