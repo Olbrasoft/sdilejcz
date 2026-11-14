@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T17:32:27Z",
+  "last_updated": "2026-11-14T17:32:43Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674553,21 +674553,6 @@
       }
     },
     {
-      "cr_film_id": 7365,
-      "cr_slug": "monster-trucks",
-      "title": "Monster Trucks",
-      "year": 2016,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T16:36:30Z",
-      "first_failed_at": "2026-11-14T15:34:03Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 27.6
-      }
-    },
-    {
       "cr_film_id": 7654,
       "cr_slug": "sammyho-dobrodruzstvi-2",
       "title": "Sammyho dobrodružství 2",
@@ -675579,19 +675564,24 @@
       "timing": {
         "resolve_sec": 0.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 7365,
       "cr_slug": "monster-trucks",
       "title": "Monster Trucks",
       "year": 2016,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T17:23:55Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T17:32:43Z",
+      "first_failed_at": "2026-11-14T15:34:03Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 25.4
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 23687,
       "cr_slug": "studentka-na-telefon",
