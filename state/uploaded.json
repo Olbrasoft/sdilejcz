@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T19:50:12Z",
+  "last_updated": "2026-11-14T19:50:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677533,19 +677533,24 @@
       "timing": {
         "cdn_resolve_sec": 32.8
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34839,
       "cr_slug": "lekce-zivota",
       "title": "Lekce života",
       "year": 2015,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T19:44:52Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T19:50:33Z",
+      "first_failed_at": "2026-11-14T19:50:33Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 36.2
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 34842,
       "cr_slug": "mstitel-s-pistalou",
