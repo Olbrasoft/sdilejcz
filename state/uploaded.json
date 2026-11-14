@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T20:20:34Z",
+  "last_updated": "2026-11-14T20:21:24Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677309,21 +677309,6 @@
       }
     },
     {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T19:50:33Z",
-      "first_failed_at": "2026-11-14T19:50:33Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 36.2
-      }
-    },
-    {
       "cr_film_id": 30864,
       "cr_slug": "trio",
       "title": "Trio",
@@ -677868,6 +677853,21 @@
       "timing": {
         "resolve_sec": 0.7
       }
+    },
+    {
+      "cr_film_id": 34839,
+      "cr_slug": "lekce-zivota",
+      "title": "Lekce života",
+      "year": 2015,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T20:21:24Z",
+      "first_failed_at": "2026-11-14T19:50:33Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 34.1
+      }
     }
   ],
   "in_progress": [
@@ -677900,16 +677900,6 @@
       "worker_id": "worker-4-43609866961",
       "run_id": "43609866961",
       "reserved_at": "2026-11-14T20:11:39Z"
-    },
-    {
-      "cr_film_id": 34839,
-      "cr_slug": "lekce-zivota",
-      "title": "Lekce života",
-      "year": 2015,
-      "sktorrent_id": null,
-      "worker_id": "worker-3-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T20:20:34Z"
     }
   ],
   "missing_on_account": [
