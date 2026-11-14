@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T21:13:32Z",
+  "last_updated": "2026-11-14T21:13:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673976,19 +673976,24 @@
       "timing": {
         "cdn_resolve_sec": 30.0
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 12170,
       "cr_slug": "macgyver-ztraceny-poklad-atlantidy",
       "title": "MacGyver: Ztracený poklad Atlantidy",
       "year": 1994,
       "sktorrent_id": null,
-      "worker_id": "worker-1-43640590401",
-      "run_id": "43640590401",
-      "reserved_at": "2026-11-14T21:11:25Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T21:13:46Z",
+      "first_failed_at": "2026-11-14T21:13:46Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 29.1
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12488,
       "cr_slug": "vrana-3-navrat",
