@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T00:04:06Z",
+  "last_updated": "2026-11-14T00:04:33Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675742,21 +675742,6 @@
       }
     },
     {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-13T23:28:46Z",
-      "first_failed_at": "2026-11-13T22:56:32Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.8
-      }
-    },
-    {
       "cr_film_id": 12836,
       "cr_slug": "meng-hu-dou-kuang-long",
       "title": "Meng hu dou kuang long",
@@ -676073,6 +676058,21 @@
         "download_sec": 71.4,
         "upload_sec": 30.0
       }
+    },
+    {
+      "cr_film_id": 24390,
+      "cr_slug": "ziznive-mladi",
+      "title": "Žíznivé mládí",
+      "year": 1943,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T00:04:33Z",
+      "first_failed_at": "2026-11-13T22:56:32Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.8
+      }
     }
   ],
   "in_progress": [
@@ -676105,16 +676105,6 @@
       "worker_id": "worker-1-43503892667",
       "run_id": "43503892667",
       "reserved_at": "2026-11-14T00:03:34Z"
-    },
-    {
-      "cr_film_id": 24390,
-      "cr_slug": "ziznive-mladi",
-      "title": "Žíznivé mládí",
-      "year": 1943,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43503892667",
-      "run_id": "43503892667",
-      "reserved_at": "2026-11-14T00:04:06Z"
     }
   ],
   "missing_on_account": [
