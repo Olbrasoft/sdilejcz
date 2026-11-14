@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T23:13:25Z",
+  "last_updated": "2026-11-14T23:14:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674502,21 +674502,6 @@
       }
     },
     {
-      "cr_film_id": 14382,
-      "cr_slug": "cold-play",
-      "title": "Cold Play",
-      "year": 2008,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T22:40:48Z",
-      "first_failed_at": "2026-11-14T21:29:36Z",
-      "attempt_count": 3,
-      "timing": {
-        "cdn_resolve_sec": 21.1
-      }
-    },
-    {
       "cr_film_id": 1213,
       "cr_slug": "lilo-stitch",
       "title": "Lilo & Stitch",
@@ -675075,19 +675060,24 @@
       "timing": {
         "cdn_resolve_sec": 14.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 14382,
       "cr_slug": "cold-play",
       "title": "Cold Play",
       "year": 2008,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43640590401",
-      "run_id": "43640590401",
-      "reserved_at": "2026-11-14T23:11:10Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T23:14:41Z",
+      "first_failed_at": "2026-11-14T21:29:36Z",
+      "attempt_count": 4,
+      "timing": {
+        "cdn_resolve_sec": 18.3
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 18364,
       "cr_slug": "penthouse-north",
