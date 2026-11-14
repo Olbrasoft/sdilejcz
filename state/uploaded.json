@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T09:35:07Z",
+  "last_updated": "2026-11-14T09:37:45Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674790,6 +674790,30 @@
         "upload_sec": 49.0,
         "total_sec": 69.2
       }
+    },
+    {
+      "cr_film_id": 23796,
+      "cr_slug": "operace-delta-force-3",
+      "title": "Operace Delta Force 3",
+      "year": 1998,
+      "source": "prehrajto",
+      "source_backlog": "catalog-films.jsonl.gz",
+      "source_upload_id": "5a984dc29981f",
+      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
+      "source_title": "Operace Delta Force 3 (1998)",
+      "source_resolution": "480p",
+      "sdilej_url": "https://sdilej.cz/35489336/operace-delta-force-3-1998-.mp4",
+      "sdilej_name": "Operace Delta Force 3 (1998).mp4",
+      "uploaded_at": "2026-11-14T09:29:09Z",
+      "status": "uploaded",
+      "size_bytes": 575321339,
+      "worker_id": "worker-2-43566356887",
+      "timing": {
+        "resolve_sec": 1.0,
+        "download_sec": 28.8,
+        "upload_sec": 69.0,
+        "total_sec": 99.4
+      }
     }
   ],
   "failed_attempts": [
@@ -676172,27 +676196,6 @@
       }
     },
     {
-      "cr_film_id": 23796,
-      "cr_slug": "operace-delta-force-3",
-      "title": "Operace Delta Force 3",
-      "year": 1998,
-      "sktorrent_id": null,
-      "source": "prehrajto",
-      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
-      "failed_at": "2026-11-14T08:56:08Z",
-      "first_failed_at": "2026-11-14T08:56:08Z",
-      "attempt_count": 1,
-      "upload_id": "5a984dc29981f",
-      "source_url": "https://prehraj.to/operace-delta-force-3-1998/5a984dc29981f",
-      "upload_title": "Operace Delta Force 3 (1998)",
-      "permanent": false,
-      "timing": {
-        "resolve_sec": 1.4,
-        "download_sec": 35.4,
-        "upload_sec": 30.0
-      }
-    },
-    {
       "cr_film_id": 14928,
       "cr_slug": "krakonos-a-pytlak",
       "title": "Krakonos a pytlák",
@@ -677081,16 +677084,6 @@
     }
   ],
   "in_progress": [
-    {
-      "cr_film_id": 23796,
-      "cr_slug": "operace-delta-force-3",
-      "title": "Operace Delta Force 3",
-      "year": 1998,
-      "sktorrent_id": null,
-      "worker_id": "worker-2-43566356887",
-      "run_id": "43566356887",
-      "reserved_at": "2026-11-14T09:27:20Z"
-    },
     {
       "cr_film_id": 31878,
       "cr_slug": "camila-arriva-grupo-bardentreffen-2025",
