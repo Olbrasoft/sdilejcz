@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T13:10:45Z",
+  "last_updated": "2026-11-14T13:11:06Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -675308,21 +675308,6 @@
       }
     },
     {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T12:37:33Z",
-      "first_failed_at": "2026-11-14T12:04:28Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 8.9
-      }
-    },
-    {
       "cr_film_id": 16517,
       "cr_slug": "pinkie-on-the-one",
       "title": "Pinkie on the One",
@@ -676193,6 +676178,21 @@
       "timing": {
         "cdn_resolve_sec": 9.0
       }
+    },
+    {
+      "cr_film_id": 12488,
+      "cr_slug": "vrana-3-navrat",
+      "title": "Vrána 3: Návrat",
+      "year": 2000,
+      "sktorrent_id": null,
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T13:11:06Z",
+      "first_failed_at": "2026-11-14T12:04:28Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 8.8
+      }
     }
   ],
   "in_progress": [
@@ -676215,16 +676215,6 @@
       "worker_id": "worker-2-43589500147",
       "run_id": "43589500147",
       "reserved_at": "2026-11-14T13:06:53Z"
-    },
-    {
-      "cr_film_id": 12488,
-      "cr_slug": "vrana-3-navrat",
-      "title": "Vrána 3: Návrat",
-      "year": 2000,
-      "sktorrent_id": null,
-      "worker_id": "worker-1-43589500147",
-      "run_id": "43589500147",
-      "reserved_at": "2026-11-14T13:10:45Z"
     }
   ],
   "missing_on_account": [
