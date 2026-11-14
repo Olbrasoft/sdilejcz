@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T21:10:27Z",
+  "last_updated": "2026-11-14T21:10:41Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -673886,19 +673886,24 @@
       "timing": {
         "cdn_resolve_sec": 29.9
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 10679,
       "cr_slug": "krizaci",
       "title": "Křižáci",
       "year": 1935,
       "sktorrent_id": null,
-      "worker_id": "worker-3-43640590401",
-      "run_id": "43640590401",
-      "reserved_at": "2026-11-14T21:09:11Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T21:10:41Z",
+      "first_failed_at": "2026-11-14T21:10:41Z",
+      "attempt_count": 1,
+      "timing": {
+        "cdn_resolve_sec": 29.7
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 11611,
       "cr_slug": "the-boy-who-could-fly",
