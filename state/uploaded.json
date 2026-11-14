@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T11:09:53Z",
+  "last_updated": "2026-11-14T11:10:19Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -677800,21 +677800,6 @@
       }
     },
     {
-      "cr_film_id": 34731,
-      "cr_slug": "vzala-jsem-si-mrtveho-muze",
-      "title": "Vzala jsem si mrtvého muže",
-      "year": 1996,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T10:39:22Z",
-      "first_failed_at": "2026-11-14T09:52:07Z",
-      "attempt_count": 2,
-      "timing": {
-        "cdn_resolve_sec": 13.2
-      }
-    },
-    {
       "cr_film_id": 31550,
       "cr_slug": "passion-in-the-desert",
       "title": "Passion in the Desert",
@@ -678323,20 +678308,24 @@
       "timing": {
         "cdn_resolve_sec": 14.7
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 34731,
       "cr_slug": "vzala-jsem-si-mrtveho-muze",
       "title": "Vzala jsem si mrtvého muže",
       "year": 1996,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43566356887",
-      "run_id": "43566356887",
-      "reserved_at": "2026-11-14T11:09:53Z"
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T11:10:19Z",
+      "first_failed_at": "2026-11-14T09:52:07Z",
+      "attempt_count": 3,
+      "timing": {
+        "cdn_resolve_sec": 14.9
+      }
     }
   ],
+  "in_progress": [],
   "missing_on_account": [
     {
       "cr_film_id": 9822,
