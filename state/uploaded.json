@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T16:59:05Z",
+  "last_updated": "2026-11-14T16:59:46Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -674444,21 +674444,6 @@
       }
     },
     {
-      "cr_film_id": 15306,
-      "cr_slug": "strazci-pokladu",
-      "title": "Strážci pokladu",
-      "year": 2011,
-      "sktorrent_id": null,
-      "source": "sktorrent",
-      "reason": "cdn_resolve_failed",
-      "failed_at": "2026-11-14T16:23:09Z",
-      "first_failed_at": "2026-11-14T16:23:09Z",
-      "attempt_count": 1,
-      "timing": {
-        "cdn_resolve_sec": 24.6
-      }
-    },
-    {
       "cr_film_id": 16401,
       "cr_slug": "na-horach",
       "title": "Na horách",
@@ -675245,19 +675230,24 @@
       "timing": {
         "cdn_resolve_sec": 25.2
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 15306,
       "cr_slug": "strazci-pokladu",
       "title": "Strážci pokladu",
       "year": 2011,
       "sktorrent_id": null,
-      "worker_id": "worker-4-43609866961",
-      "run_id": "43609866961",
-      "reserved_at": "2026-11-14T16:54:46Z"
-    },
+      "source": "sktorrent",
+      "reason": "cdn_resolve_failed",
+      "failed_at": "2026-11-14T16:59:46Z",
+      "first_failed_at": "2026-11-14T16:23:09Z",
+      "attempt_count": 2,
+      "timing": {
+        "cdn_resolve_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 12558,
       "cr_slug": "labuti-princezna-3-tajemstvi-kouzelneho-pokladu",
