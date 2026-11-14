@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "sdilej.cz",
-  "last_updated": "2026-11-14T00:46:33Z",
+  "last_updated": "2026-11-14T00:47:02Z",
   "uploads": [
     {
       "cr_film_id": 49,
@@ -676959,19 +676959,30 @@
       "timing": {
         "cdn_resolve_sec": 13.6
       }
-    }
-  ],
-  "in_progress": [
+    },
     {
       "cr_film_id": 33228,
       "cr_slug": "sex-drugs-rock-roll",
       "title": "Sex & Drugs & Rock & Roll",
       "year": 2010,
       "sktorrent_id": null,
-      "worker_id": "worker-2-43503892667",
-      "run_id": "43503892667",
-      "reserved_at": "2026-11-14T00:38:47Z"
-    },
+      "source": "prehrajto",
+      "reason": "upload_failed: HTTPSConnectionPool(host='sdilej.cz', port=443): Read timed out. (read timeout=30)",
+      "failed_at": "2026-11-14T00:47:02Z",
+      "first_failed_at": "2026-11-14T00:47:02Z",
+      "attempt_count": 1,
+      "upload_id": "5abe017835f66",
+      "source_url": "https://prehraj.to/sex-drugs-rock-roll-2010/5abe017835f66",
+      "upload_title": "Sex & Drugs & Rock & Roll (2010)",
+      "permanent": false,
+      "timing": {
+        "resolve_sec": 1.2,
+        "download_sec": 156.8,
+        "upload_sec": 30.0
+      }
+    }
+  ],
+  "in_progress": [
     {
       "cr_film_id": 33493,
       "cr_slug": "american-kamasutra",
